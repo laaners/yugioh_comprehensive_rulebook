@@ -1,31 +1,50 @@
 <!-- TOC -->
 
+- [ATK/DEF modifiers](#atkdef-modifiers)
+- [Summons](#summons)
+    - [Summon restrictions and successful summons](#summon-restrictions-and-successful-summons)
 - [Trigger effects](#trigger-effects)
+    - [Leaves the field](#leaves-the-field)
     - [Location changes mid-chain](#location-changes-mid-chain)
 
 <!-- /TOC -->
 
-## Trigger effects
+## ATK/DEF modifiers
+[Source](https://ygorganization.com/atkdefmodifierguide/)
 
-### Location changes mid-chain
-If a monster’s Trigger Effect meets its activation conditions, BUT hasn’t yet had a chance to actually activate yet (because it’s still in the middle of a chain or card effect, for example) and is therefore being “saved for later”, BUT its location* changes between the time its Trigger Effect activation is met, and the time it actually has a chance to activate, its effect does not activate. [*On the field, in the Graveyard, in the hand, banished, or in the Deck.]
+Any given modifier can fall under one of the following different categories:
+1. Activated effect modifier that increases/decreases the current ATK/DEF.
+
+2. Non-activated effect modifier that increases/decreases the current ATK/DEF.
+
+3. Activated effect modifier that sets current ATK/DEF to determined value.
+
+4. Non-activated effect modifier that sets current ATK/DEF to determined value.
+
+5. Activated effect modifier that sets original ATK/DEF to determined value.
+
+6. Non-activated effect modifier that sets original ATK/DEF to determined value.
+
+
+## Summons
+
+### Summon restrictions and successful summons
+[Source](https://www.yugioh-card.com/en/play/2021_rules_update/)
+
+The restriction of "you cannot Normal or Special Summon the turn you activate this card" only refers to monsters that were successfully summoned. Same for "you can only Special Summon X once per turn" restrictions.
 
 - [Source](https://www.yugioh-card.com/en/play/2021_rules_update/)
+
+## Trigger effects
+
+### Leaves the field
+[Source](https://www.yugioh-card.com/en/play/2021_rules_update/)
+
+When a monster on the field is shuffled into the Deck, or becomes an Xyz Material, it is no longer a card on the field, however its effects that activate when it "leaves the field" will not activate. Deck includes both Main and Extra Deck.
+
+### Location changes mid-chain
+[Source](https://www.yugioh-card.com/en/play/2021_rules_update/)
+
+If a monster’s Trigger Effect meets its activation conditions, BUT hasn’t yet had a chance to actually activate yet (because it’s still in the middle of a chain or card effect, for example) and is therefore being "saved for later", BUT its location* changes between the time its Trigger Effect activation is met, and the time it actually has a chance to activate, its effect does not activate. [*On the field, in the Graveyard, in the hand, banished, or in the Deck.]
+
 - [Example](https://db.ygoresources.com/qa#23251)
-
-<svg width="600" height="250" xmlns="http://www.w3.org/2000/svg">
-    <text x="50" y="18" font-family="Arial" font-size="18" fill="black" text-anchor="middle">Chain 1</text>
-    <image x="50" y="30" width="200" height="200" href="https://images.ygoprodeck.com/images/cards/97148796.jpg" />
-    <image x="350" y="30" width="200" height="200" href="https://images.ygoprodeck.com/images/cards/77235086.jpg" />
-    <!-- Arrow -->
-    <line x1="250" y1="130" x2="350" y2="130" stroke="black" stroke-width="2" marker-end="url(#arrowhead)" />
-    <!-- Arrowhead Definition -->
-    <defs>
-        <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
-            <polygon points="0 0, 10 3.5, 0 7" fill="black" />
-        </marker>
-    </defs>
-    <!-- Text -->
-    <text x="300" y="110" font-family="Arial" font-size="18" fill="black" text-anchor="middle">Tributes</text>
-</svg>
-
