@@ -1,3 +1,22 @@
+<svg id="mysvg" width="600" height="250" xmlns="http://www.w3.org/2000/svg">
+        <!-- Image 1 -->
+        <image id="img1" x="350" y="25" width="200" height="200" href="https://images.ygoprodeck.com/images/cards/77235086.jpg" />
+        <!-- Image 2 -->
+        <image id="img2" x="50" y="25" width="200" height="200" href="https://images.ygoprodeck.com/images/cards/97148796.jpg" />
+        <!-- Arrow -->
+        <line x1="250" y1="125" x2="350" y2="125" stroke="black" stroke-width="2" marker-end="url(#arrowhead)" />
+        <!-- Arrowhead Definition -->
+        <defs>
+            <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+                <polygon points="0 0, 10 3.5, 0 7" fill="black" />
+            </marker>
+        </defs>
+        <!-- Text -->
+        <text x="300" y="110" font-family="Arial" font-size="18" fill="black" text-anchor="middle">Tributes</text>
+    </svg>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <style>
     td, th {
         /* text-align: center; */

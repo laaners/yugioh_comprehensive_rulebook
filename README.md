@@ -3,11 +3,13 @@
 <!-- TOC -->
 
 - [ATK/DEF modifiers](#atkdef-modifiers)
+  - [Categories and interactions](#categories-and-interactions)
+  - [Special cases](#special-cases)
 - [Summons](#summons)
-    - [Summon restrictions and successful summons](#summon-restrictions-and-successful-summons)
+  - [Summon restrictions and successful summons](#summon-restrictions-and-successful-summons)
 - [Trigger effects](#trigger-effects)
-    - [Leaves the field](#leaves-the-field)
-    - [Location changes mid-chain](#location-changes-mid-chain)
+  - [Leaves the field](#leaves-the-field)
+  - [Location changes mid-chain](#location-changes-mid-chain)
 
 <!-- /TOC -->
 
@@ -19,17 +21,17 @@
 
 ### Categories and interactions
 Any given modifier can fall under one of the following different categories:
-1. Activated effect modifier that increases/decreases the current ATK/DEF.
+1. Activated/Lingering  effect modifier that increases/decreases the current ATK/DEF.
 
-2. Non-activated effect modifier that increases/decreases the current ATK/DEF.
+2. Non-activated/Continuous effect modifier that increases/decreases the current ATK/DEF.
 
-3. Activated effect modifier that sets current ATK/DEF to determined value.
+3. Activated/Lingering effect modifier that sets current ATK/DEF to determined value.
 
-4. Non-activated effect modifier that sets current ATK/DEF to determined value.
+4. Non-activated/Continuous effect modifier that sets current ATK/DEF to determined value.
 
-5. Activated effect modifier that sets original ATK/DEF to determined value.
+5. Activated/Lingering effect modifier that sets original ATK/DEF to determined value.
 
-6. Non-activated effect modifier that sets original ATK/DEF to determined value.
+6. Non-activated/Continuous effect modifier that sets original ATK/DEF to determined value.
 
 Possible outcomes:
 
@@ -62,17 +64,17 @@ $\hspace{1em}$🟨 Apply new (x): overwrites previous (y) of the same kind
         <th>(6)</th>
     </tr>
     <tr>
-        <th>Lingering+Continuous</th>
-        <th>Lingering</th>
-        <th>Continuous</th>
-        <th>Lingering</th>
-        <th>Continuous</th>
+        <th>L+C</th>
+        <th>L</th>
+        <th>C</th>
+        <th>L</th>
+        <th>C</th>
     </tr>
     <!-- cases -->
     <tr>
         <th rowspan=2>+/-</th>
         <th>(1)</th>
-        <th>Lingering</th>
+        <th>L</th>
         <td rowspan=6>🟥 (1,2) are always applied successfully</td>
         <td>🟧 Remove previous (1,3) when applying (3)</td>
         <td>🟩 (1,3,5) are not reapplied until (4) stops applying</td>
@@ -80,14 +82,14 @@ $\hspace{1em}$🟨 Apply new (x): overwrites previous (y) of the same kind
     </tr>
     <tr>
         <th>(2)</th>
-        <th>Continuous</th>
+        <th>C</th>
         <td>🟩 (2,4) are not reapplied until (3) stops applying</td>
         <td>🟦 Apply (4) and reapply (2) afterwards</td>
     </tr>
     <tr>
         <th rowspan=2>Set current</th>
         <th>(3)</th>
-        <th>Lingering</th>
+        <th>L</th>
         <td>🟧 Remove previous (1,3) when applying (3)</td>
         <td>🟩 (1,3,5) are not reapplied until (4) stops applying</td>
         <td>🟧 Remove previous (3,5) when applying (5)</td>
@@ -95,7 +97,7 @@ $\hspace{1em}$🟨 Apply new (x): overwrites previous (y) of the same kind
     </tr>
     <tr>
         <th>(4)</th>
-        <th>Continuous</th>
+        <th>C</th>
         <td>🟩 (2,4) are not reapplied until (3) stops applying</td>
         <td>🟨 Apply new (4)</td>
         <td colspan=2>🟦 Apply (5,6) and reapply (4) afterwards</td>
@@ -103,20 +105,32 @@ $\hspace{1em}$🟨 Apply new (x): overwrites previous (y) of the same kind
     <tr>
         <th rowspan=2>Set original</th>
         <th>(5)</th>
-        <th>Lingering</th>
+        <th>L</th>
         <td rowspan=2>🟥 Apply (3) after previous (5,6)</td>
         <td>🟩 (1,3,5) are not reapplied until (4) stops applying</td>
         <td>🟧 Remove previous (3,5) when applying (5)</td>
-        <td>(3,5) are not reapplied until (6) stops applying</td>
+        <td>🟩 (3,5) are not reapplied until (6) stops applying</td>
     </tr>
     <tr>
         <th>(6)</th>
-        <th>Continuous</th>
+        <th>C</th>
         <td>🟦 Apply (6) and reapply (4) afterwards</td>
         <td>🟩 (6) are not reapplied until (5) stops applying</td>
         <td>🟨 Apply new (6)</td>
     </tr>
 </table>
+
+Some examples:
+    
+
+### Special cases
+For these special cases, no matter what the effects currently in play are, they are always applied last. If a new effect is applied, reapply
+those effects right afterwards.\
+When those effects stop applying, reapply everything, including lingering effects (1,3,5)
+
+
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
