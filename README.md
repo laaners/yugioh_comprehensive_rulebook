@@ -16,12 +16,15 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## ATK/DEF modifiers
+
 [Source](https://ygorganization.com/atkdefmodifierguide/),
 [Pazim's Resources](https://www.dropbox.com/scl/fo/tia8xzqafu1ibscz0gz95/AEx_Ri-wkJ9QE75AWRKn4RQ?preview=Judge+Resources.pdf&rlkey=z6uissqwewd81wm9c03zosaa3)
 
 ### Categories and interactions
+
 Any given modifier can fall under one of the following different categories:
-1. Activated/Lingering  effect modifier that increases/decreases the current ATK/DEF.
+
+1. Activated/Lingering effect modifier that increases/decreases the current ATK/DEF.
 
 2. Non-activated/Continuous effect modifier that increases/decreases the current ATK/DEF.
 
@@ -120,7 +123,7 @@ $\hspace{1em}$🟨 Apply new (x): overwrites previous (y) of the same kind
     </tr>
 </table>
 
-Some examples:
+Some examples, "->" means value after the effect is applied, "=>" means values after the effect has stopped applying:
 
 <table align="center">
     <tr>
@@ -153,10 +156,9 @@ Some examples:
         <th>(1)</th>
         <th>L</th>
         <td rowspan=6>
-            <img src="image-1.png">
-            <h6>(500-800)+500 => 200</h6>
+            <h6><img src="image-1.png">(500-800)+500 -> 200</h6>
         </td>
-        <td><h6>🟧 Remove previous (1,3) when applying (3)</h6></td>
+        <td><h6><img src="image-2.png">(1800+1000)/2 -> 1400 => 1800</h6></td>
         <td><h6>🟩 (1,3,5) are not reapplied until (4) stops applying</h6></td>
         <td colspan=2 rowspan=2><h6>🟦 Apply (5,6) and reapply (1,2) afterwards</h6></td>
     </tr>
@@ -199,33 +201,32 @@ Some examples:
         <td><h6>🟨 Apply new (6)</h6></td>
     </tr>
 </table>
-    
+
 
 ### Special cases
+
 For these special cases, no matter what the effects currently in play are, they are always applied last. If a new effect is applied, reapply
 those effects right afterwards.\
 When those effects stop applying, reapply everything, including lingering effects (1,3,5)
-
-
-
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Summons
 
 ### Summon restrictions and successful summons
+
 [Source](https://www.yugioh-card.com/en/play/2021_rules_update/)
 
 The restriction of "you cannot Normal or Special Summon the turn you activate this card" only refers to monsters that were successfully summoned. Same for "you can only Special Summon X once per turn" restrictions.
 
-- [Source](https://www.yugioh-card.com/en/play/2021_rules_update/)
+-   [Source](https://www.yugioh-card.com/en/play/2021_rules_update/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Trigger effects
 
 ### Leaves the field
+
 [Source](https://www.yugioh-card.com/en/play/2021_rules_update/)
 
 When a monster on the field is shuffled into the Deck, or becomes an Xyz Material, it is no longer a card on the field, however its effects that activate when it "leaves the field" will not activate. Deck includes both Main and Extra Deck.
@@ -233,11 +234,11 @@ When a monster on the field is shuffled into the Deck, or becomes an Xyz Materia
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Location changes mid-chain
+
 [Source](https://www.yugioh-card.com/en/play/2021_rules_update/)
 
 If a monster’s Trigger Effect meets its activation conditions, BUT hasn’t yet had a chance to actually activate yet (because it’s still in the middle of a chain or card effect, for example) and is therefore being "saved for later", BUT its location* changes between the time its Trigger Effect activation is met, and the time it actually has a chance to activate, its effect does not activate. [*On the field, in the Graveyard, in the hand, banished, or in the Deck.]
 
-- [Example](https://db.ygoresources.com/qa#23251)
+-   [Example](https://db.ygoresources.com/qa#23251)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
