@@ -14,8 +14,10 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## ATK/DEF modifiers
-[Source](https://ygorganization.com/atkdefmodifierguide/)
+[Source](https://ygorganization.com/atkdefmodifierguide/),
+[Pazim's Resources](https://www.dropbox.com/scl/fo/tia8xzqafu1ibscz0gz95/AEx_Ri-wkJ9QE75AWRKn4RQ?preview=Judge+Resources.pdf&rlkey=z6uissqwewd81wm9c03zosaa3)
 
+### Categories and interactions
 Any given modifier can fall under one of the following different categories:
 1. Activated effect modifier that increases/decreases the current ATK/DEF.
 
@@ -41,26 +43,12 @@ $\hspace{1em}$🟦 Apply (x) and reapply (y) afterwards
 
 $\hspace{1em}$🟨 Apply new (x): overwrites previous (y) of the same kind
 
-
-<style>
-    td, th {
-        /*text-align: center;*/
-        position: relative;
-        border: 1px solid #000;
-    }
-
-    td {
-        width: 120px;
-        word-wrap: break-word;
-        
-    }
-</style>
-
 <table align="center">
     <tr>
-        <th width=200 colspan=3 rowspan="3" style="background: linear-gradient(to bottom left, transparent 49.5%, #000 50%, transparent 50.5%);">
-            <div style="position: absolute; top: 0; right: 0; padding: 5%; z-index: 1;">New</div>
-            <div style="position: absolute; bottom: 0; left: 0; padding: 5%; z-index: 1;">Previously applying</div>
+        <th width=200 colspan=3 rowspan="3">
+            <div align="right">New</div>
+            <div align="center">\</div>
+            <div align="left">Prev</div>
         </th>
         <th>+/-</th>
         <th colspan=2>Set current</th>
@@ -129,7 +117,6 @@ $\hspace{1em}$🟨 Apply new (x): overwrites previous (y) of the same kind
         <td>🟨 Apply new (6)</td>
     </tr>
 </table>
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
