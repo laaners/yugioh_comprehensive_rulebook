@@ -26,6 +26,57 @@ Any given modifier can fall under one of the following different categories:
 6. Non-activated effect modifier that sets original ATK/DEF to determined value.
 
 
+
+<style>
+    td, th {
+        text-align: center;
+        position: relative;
+        border: 1px solid #000;
+    }
+
+    td {
+        width: 200px;
+        word-wrap: break-word;
+    }
+</style>
+
+<table align="center">
+    <tr>
+        <th width=200 colspan=3 rowspan="3" style="background: linear-gradient(to bottom left, transparent 49.5%, #000 50%, transparent 50.5%);">
+            <div style="position: absolute; top: 0; right: 0; padding: 5%; z-index: 1;">New</div>
+            <div style="position: absolute; bottom: 0; left: 0; padding: 5%; z-index: 1;">Previously applying</div>
+        </th>
+        <th>+/-</th>
+        <th colspan=2>Set current</th>
+        <th colspan=2>Set original</th>
+    </tr>
+    <tr>
+        <th>(1)+(2)</th>
+        <th>(3)</th>
+        <th>(4)</th>
+        <th>(5)</th>
+        <th>(6)</th>
+    </tr>
+    <tr>
+        <th>Lingering+Continuous</th>
+        <th>Lingering</th>
+        <th>Continuous</th>
+        <th>Lingering</th>
+        <th>Continuous</th>
+    </tr>
+    <!-- cases -->
+    <tr>
+        <th rowspan=2>+/-</th>
+        <th>(1)</th>
+        <th>Lingering</th>
+        <td rowspan=6>(1,2) are always applied successfully</td>
+        <td>Remove previous (1,3) when applying (3)</td>
+        <td>(1,3,5) are not reapplied until (4) stops applying</td>
+        <td colspan=2>Apply (5,6) and reapply (1,2) afterwards</td>
+    </tr>
+</table>
+
+
 ## Summons
 
 ### Summon restrictions and successful summons
