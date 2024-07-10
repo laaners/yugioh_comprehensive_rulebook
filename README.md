@@ -38,15 +38,15 @@ Any given modifier can fall under one of the following different categories:
 
 Possible outcomes:
 
-$\hspace{1em}$🟥 (x) are always applied successfully/Apply (x) after previous (5,6)
+-  (x) are always applied successfully/Apply (x) after previous (5,6)
 
-$\hspace{1em}$🟧 Remove previous (y) when applying (x): apply (x) then when (x) stops applying the value will forget/won't apply anymore about (y)
+- Remove previous (y) when applying (x): apply (x) then when (x) stops applying the value will forget/won't apply anymore about (y)
 
-$\hspace{1em}$🟩 (y) are not reapplied until (x) stops applying
+- (y) are not reapplied until (x) stops applying
 
-$\hspace{1em}$🟦 Apply (x) and reapply (y) afterwards
+- Apply (x) and reapply (y) afterwards
 
-$\hspace{1em}$🟨 Apply new (x): overwrites previous (y) of the same kind
+- Apply new (x): overwrites previous (y) of the same kind, if (x) stops applying then (y) will return to apply
 
 <table align="center">
     <tr>
@@ -78,48 +78,48 @@ $\hspace{1em}$🟨 Apply new (x): overwrites previous (y) of the same kind
         <th rowspan=2>+/-</th>
         <th>(1)</th>
         <th>L</th>
-        <td rowspan=6><h6>🟥 (1,2) are always applied successfully</h6></td>
-        <td><h6>🟧 Remove previous (1,3) when applying (3)</h6></td>
-        <td><h6>🟩 (1,3,5) are not reapplied until (4) stops applying</h6></td>
-        <td colspan=2 rowspan=2><h6>🟦 Apply (5,6) and reapply (1,2) afterwards</h6></td>
+        <td rowspan=6><h6>(1,2) are always applied successfully</h6></td>
+        <td><h6>Remove previous (1,3) when applying (3)</h6></td>
+        <td><h6>(1,3,5) are not reapplied until (4) stops applying</h6></td>
+        <td colspan=2 rowspan=2><h6>Apply (5,6) and reapply (1,2) afterwards</h6></td>
     </tr>
     <tr>
         <th>(2)</th>
         <th>C</th>
-        <td><h6>🟩 (2,4) are not reapplied until (3) stops applying</h6></td>
-        <td><h6>🟦 Apply (4) and reapply (2) afterwards</h6></td>
+        <td><h6>(2,4) are not reapplied until (3) stops applying</h6></td>
+        <td><h6>Apply (4) and reapply (2) afterwards</h6></td>
     </tr>
     <tr>
         <th rowspan=2>Set current</th>
         <th>(3)</th>
         <th>L</th>
-        <td><h6>🟧 Remove previous (1,3) when applying (3)</h6></td>
-        <td><h6>🟩 (1,3,5) are not reapplied until (4) stops applying</h6></td>
-        <td><h6>🟧 Remove previous (3,5) when applying (5)</h6></td>
-        <td><h6>🟩 (3,5) are not reapplied until (6) stops applying</h6></td>
+        <td><h6>Remove previous (1,3) when applying (3)</h6></td>
+        <td><h6>(1,3,5) are not reapplied until (4) stops applying</h6></td>
+        <td><h6>Remove previous (3,5) when applying (5)</h6></td>
+        <td><h6>(3,5) are not reapplied until (6) stops applying</h6></td>
     </tr>
     <tr>
         <th>(4)</th>
         <th>C</th>
-        <td><h6>🟩 (2,4) are not reapplied until (3) stops applying</h6></td>
-        <td><h6>🟨 Apply new (4)</h6></td>
-        <td colspan=2><h6>🟦 Apply (5,6) and reapply (4) afterwards</h6></td>
+        <td><h6>(2,4) are not reapplied until (3) stops applying</h6></td>
+        <td><h6>Apply new (4)</h6></td>
+        <td colspan=2><h6>Apply (5,6) and reapply (4) afterwards</h6></td>
     </tr>
     <tr>
         <th rowspan=2>Set original</th>
         <th>(5)</th>
         <th>L</th>
-        <td rowspan=2><h6>🟥 Apply (3) after previous (5,6)</h6></td>
-        <td><h6>🟩 (1,3,5) are not reapplied until (4) stops applying</h6></td>
-        <td><h6>🟧 Remove previous (3,5) when applying (5)</h6></td>
-        <td><h6>🟩 (3,5) are not reapplied until (6) stops applying</h6></td>
+        <td rowspan=2><h6>Apply (3) after previous (5,6)</h6></td>
+        <td><h6>(1,3,5) are not reapplied until (4) stops applying</h6></td>
+        <td><h6>Remove previous (3,5) when applying (5)</h6></td>
+        <td><h6>(3,5) are not reapplied until (6) stops applying</h6></td>
     </tr>
     <tr>
         <th>(6)</th>
         <th>C</th>
-        <td><h6>🟦 Apply (6) and reapply (4) afterwards</h6></td>
-        <td><h6>🟩 (6) are not reapplied until (5) stops applying</h6></td>
-        <td><h6>🟨 Apply new (6)</h6></td>
+        <td><h6>Apply (6) and reapply (4) afterwards</h6></td>
+        <td><h6>(6) are not reapplied until (5) stops applying</h6></td>
+        <td><h6>Apply new (6)</h6></td>
     </tr>
 </table>
 
@@ -156,49 +156,73 @@ Some examples, "->" means value after the effect is applied, "=>" means values a
         <th>(1)</th>
         <th>L</th>
         <td rowspan=6>
-            <h6><img src="image-1.png">(500-800)+500 -> 200</h6>
+            <h6>(1,2) are always applied successfully</h6>
+            <h6 align="center"><img src="image-1.png">(1900+700)-600 -> 2000</h6>
         </td>
-        <td><h6><img src="image-2.png">(1800+1000)/2 -> 1400 => 1800</h6></td>
-        <td><h6>🟩 (1,3,5) are not reapplied until (4) stops applying</h6></td>
-        <td colspan=2 rowspan=2><h6>🟦 Apply (5,6) and reapply (1,2) afterwards</h6></td>
+        <td>
+            <h6>Remove previous (1,3) when applying (3)</h6>
+            <h6 align="center"><img src="image-2.png">(1900+700)/2 -> 1300 => 1900</h6>
+        </td>
+        <td>
+            <h6>(1,3,5) are not reapplied until (4) stops applying</h6>
+            <h6 align="center"><img src="image-6.png">(1900+700)=100 -> 100 => 2600</h6>
+        </td>
+        <td colspan=2 rowspan=2>
+            <h6>Apply (5,6) and reapply (1,2) afterwards</h6>
+        </td>
     </tr>
     <tr>
         <th>(2)</th>
         <th>C</th>
-        <td><h6>🟩 (2,4) are not reapplied until (3) stops applying</h6></td>
-        <td><h6>🟦 Apply (4) and reapply (2) afterwards</h6></td>
+        <td>
+            <h6>(2,4) are not reapplied until (3) stops applying</h6>
+            <h6 align="center"><img src="image-3.png">(1900+800)/2 -> 1350 => 2700</h6>
+        </td>
+        <td>
+            <h6>Apply (4) and reapply (2) afterwards</h6>
+            <h6 align="center"><img src="image-5.png">(1900+800)=100 -> 900 => 2700</h6>
+        </td>
     </tr>
     <tr>
         <th rowspan=2>Set current</th>
         <th>(3)</th>
         <th>L</th>
-        <td><h6>🟧 Remove previous (1,3) when applying (3)</h6></td>
-        <td><h6>🟩 (1,3,5) are not reapplied until (4) stops applying</h6></td>
-        <td><h6>🟧 Remove previous (3,5) when applying (5)</h6></td>
-        <td><h6>🟩 (3,5) are not reapplied until (6) stops applying</h6></td>
+        <td><h6>Remove previous (1,3) when applying (3)</h6></td>
+        <td>
+            <h6>(1,3,5) are not reapplied until (4) stops applying</h6>
+            <h6 align="center"><img src="image-7.png">(1900/2)=100 -> 100 => 950</h6>
+        </td>
+        <td><h6>Remove previous (3,5) when applying (5)</h6></td>
+        <td><h6>(3,5) are not reapplied until (6) stops applying</h6></td>
     </tr>
     <tr>
         <th>(4)</th>
         <th>C</th>
-        <td><h6>🟩 (2,4) are not reapplied until (3) stops applying</h6></td>
-        <td><h6>🟨 Apply new (4)</h6></td>
-        <td colspan=2><h6>🟦 Apply (5,6) and reapply (4) afterwards</h6></td>
+        <td><h6>(2,4) are not reapplied until (3) stops applying</h6></td>
+        <td>
+            <h6>Apply new (4)</h6>
+            <h6 align="center"><img src="image-8.png">(2300x2)=100 -> 100 => 4600</h6>
+        </td>
+        <td colspan=2><h6>Apply (5,6) and reapply (4) afterwards</h6></td>
     </tr>
     <tr>
         <th rowspan=2>Set original</th>
         <th>(5)</th>
         <th>L</th>
-        <td rowspan=2><h6>🟥 Apply (3) after previous (5,6)</h6></td>
-        <td><h6>🟩 (1,3,5) are not reapplied until (4) stops applying</h6></td>
-        <td><h6>🟧 Remove previous (3,5) when applying (5)</h6></td>
-        <td><h6>🟩 (3,5) are not reapplied until (6) stops applying</h6></td>
+        <td rowspan=2>
+            <h6>Apply (3) after previous (5,6)</h6>
+            <h6 align="center"><img src="image-4.png">(2300/2)x2 -> 2300 => 1150 (in end => 2300)</h6>
+        </td>
+        <td><h6>(1,3,5) are not reapplied until (4) stops applying</h6></td>
+        <td><h6>Remove previous (3,5) when applying (5)</h6></td>
+        <td><h6>(3,5) are not reapplied until (6) stops applying</h6></td>
     </tr>
     <tr>
         <th>(6)</th>
         <th>C</th>
-        <td><h6>🟦 Apply (6) and reapply (4) afterwards</h6></td>
-        <td><h6>🟩 (6) are not reapplied until (5) stops applying</h6></td>
-        <td><h6>🟨 Apply new (6)</h6></td>
+        <td><h6>Apply (6) and reapply (4) afterwards</h6></td>
+        <td><h6>(6) are not reapplied until (5) stops applying</h6></td>
+        <td><h6>Apply new (6)</h6></td>
     </tr>
 </table>
 
