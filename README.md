@@ -2,28 +2,115 @@
 
 <!-- TOC -->
 
+- [Getting started](#getting-started)
+    - [Things you need to duel](#things-you-need-to-duel)
+    - [The Game Mat/Field](#the-game-matfield)
 - [Game mechanics](#game-mechanics)
-	- [Turns](#turns)
-		- [Damage Step](#damage-step)
-			- [Sub-steps of the Damage Step](#sub-steps-of-the-damage-step)
-			- [Cards/effects that can be activated during the Damage Step](#cardseffects-that-can-be-activated-during-the-damage-step)
+    - [Turns](#turns)
+        - [Damage Step](#damage-step)
+            - [Sub-steps of the Damage Step](#sub-steps-of-the-damage-step)
+            - [Cards/effects that can be activated during the Damage Step](#cardseffects-that-can-be-activated-during-the-damage-step)
 - [Card text](#card-text)
-	- [Problem Solving Card Text (PSCT)](#problem-solving-card-text-psct)
-	- [Summoning](#summoning)
-		- [Summon restrictions and successful summons](#summon-restrictions-and-successful-summons)
-	- [Effects](#effects)
-		- [Retaining information](#retaining-information)
-		- [Stats (ATK/DEF) modifiers](#stats-atkdef-modifiers)
-			- [Categories and interactions](#categories-and-interactions)
-			- [Special cases](#special-cases)
-		- [Trigger effects](#trigger-effects)
-			- [Leaves the field](#leaves-the-field)
-			- [Location changes mid-chain](#location-changes-mid-chain)
-		- [Specific effects](#specific-effects)
-			- [Prohibition](#prohibition)
-			- [Rivalry of the Warlords](#rivalry-of-the-warlords)
+    - [Problem Solving Card Text PSCT](#problem-solving-card-text-psct)
+    - [Summoning](#summoning)
+        - [Summon restrictions and successful summons](#summon-restrictions-and-successful-summons)
+    - [Effects](#effects)
+        - [Retaining information](#retaining-information)
+        - [Stats ATK/DEF modifiers](#stats-atkdef-modifiers)
+            - [Categories and interactions](#categories-and-interactions)
+            - [Special cases](#special-cases)
+        - [Trigger effects](#trigger-effects)
+            - [Leaves the field](#leaves-the-field)
+            - [Location changes mid-chain](#location-changes-mid-chain)
+        - [Specific effects](#specific-effects)
+            - [Prohibition](#prohibition)
+            - [Rivalry of the Warlords](#rivalry-of-the-warlords)
 
 <!-- /TOC -->
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+# Getting started
+[Official rulebook](https://www.yugioh-card.com/en/rulebook/)
+
+## Things you need to duel
+
+- **Main Deck**
+	- The (Main) Deck must be 40 to 60 cards
+	- You can only have up to 3 copies of the same card in your Deck, Extra Deck and Side Deck combined.
+
+- **Extra Deck**\
+This Deck consists of Xyz Monsters, Synchro Monsters, Fusion Monsters and Link Monster which can be used during the game if you meet certain requirements
+	- You can have up to 15 cards in the Extra Deck
+	- The Extra Deck can contain Xyz Monsters, Synchro Monsters, Fusion Monsters and Link Monsters in any combination
+	- These cards are not counted towards the 40-card minimum limit your Main Deck.
+
+- **Side Deck**\
+This is a separate Deck of cards you can use to change your Deck during a Match. After each Duel in a Match, you can swap any card from your Side Deck with a card from your Deck and/or Extra Deck to customize your strategy against your opponent
+	- The number of cards in your Side Decks must not exceed 15
+	- The number of cards in your Side Deck before and after you swap any cards must be exactly the same
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## The Game Mat/Field
+The Game Mat helps you organize your cards during a Duel. When you use your cards you place them on the Game Mat. Different kinds of cards are placed in different Zones.
+
+<div align="center">
+	<img src="./images/game_mat.png" width=800 />
+</div>
+
+**1. Main Monster Zone**\
+This is where you put your monsters when they’re played. You can have up to 5 cards here. There are 3 ways to position your Monster Cards: face-up Attack Position, face-up Defense Position, and face-down Defense Position. Place the card upright for Attack Position, and sideways for Defense Position.
+
+**2. Spell & Trap Zone Pendulum Zone**\
+This is where you put Spell & Trap Cards. You can have up to 5 cards here. You place them here face-up to activate them, or place them face-down. Pendulum Monster Cards can be activated in the leftmost and rightmost zones as Spells. This causes the zone you use to also become a Pendulum Zone for as long as the Pendulum Monster Card is there.
+
+**3. Graveyard (GY)**
+When Monster Cards are destroyed, and when Spell & Trap Cards are used, they’re sent face-up to this space. The contents of both players’ Graveyards are public knowledge, and your opponent can look through yours at any time during the Duel. The order of the cards in the Graveyard should not be changed. Graveyard is shortened in the card text to "GY".
+
+**4. Deck**\
+Your Deck is placed face-down in this space. You draw cards from here to add to your hand. If a card effect requires you to reveal cards from your Deck, or look through it, shuffle it and put it back in this space afterwards.
+
+**5. Field Zone**\
+Special Spell Cards called Field Spell Cards are played here. Each player can have 1 Field Spell Card on their own side of the field. To use another Field Spell, send your previous one to the Graveyard. Field Spell Cards do not count towards the 5-card limit of your Spell & Trap Zone.
+
+**6. Extra Deck**\
+Place your Extra Deck face-down in this space. You can look at the cards in your own Extra Deck during the game. During a Duel, Extra Deck Monsters may be Summoned to the field from here using special methods. Pendulum Monster Cards that would be sent from the field to the Graveyard are placed face-up here.
+
+ **7. Extra Monster Zone**\
+This is where you put your monsters that are Summoned to the field by special methods from the Extra Deck
+
+- Normally, each player can only use 1 of these zones. A monster placed in this zone does not count towards the 5-monster limit of your Main Monster 
+Zone.
+
+- Fusion, Synchro, and Xyz Monsters can be first Summoned from the Extra Deck to any of your Main Monster Zones. They do not have to be Summoned to the Extra Monster Zone or a spot that a Link Monster is pointing to. You can still Summon a Fusion/Synchro/Xyz Monster from the Extra Deck to your Extra Monster Zone if you want to, though.
+
+- The restrictions requiring an Extra Monster Zone or Link Monster pointing still apply to Link Monsters and Pendulum Monsters that are Summoned from the Extra Deck.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+# Game cards
+
+## Monster cards
+
+<div align="center">
+	<img src="./images/monster_card.png" width=400 />
+</div>
+
+**1. Card Name**\
+This is the card's name. When a card name is mentioned in card text it appears in quotations. If cards have the same name, they are considered to be the same card.
+
+**2. Level**\
+Count the number of stars here to find out the monster's Level. For Xyz Monsters, the number of stars is the Rank of the monster, and is on left.
+
+**3. Attribute**\
+Every monster has an Attribute. This Attribute is sometimes important for card effects.
+
+<div align="center">
+	<img src="./images/attributes.png" width=150 />
+</div>
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -56,57 +143,57 @@ There are five distinct timings within the Damage Step.
 	</tr>
 	<tr>
 		<th>Start of the Damage Step</th>
-		<td><h6><ul>
+		<td><ul>
 			<li>You declare that you are entering the Damage Step</li>
 			<li>Face-down monsters are not flipped</li>
-		<ul></h6></td>
-		<td><h6>
+		<ul></td>
+		<td>
 			✔️ "at the start of the Damage Step"
 			<br><br>
 			✔️ Spell/Trap Cards and Quick/Quick-like Effects that directly alter the ATK/DEF
-		</h6></td>
-		<td><h6>
+		</td>
+		<td>
 			✔️ "during the Damage Step (only)"
-		</h6></td>
+		</td>
 	</tr>
 	<tr>
 		<th>Before damage calculation</th>
-		<td><h6><ul>
+		<td><ul>
 			<li>If the monster being attacked is face-down, flip it face-up</li>
-		<ul></h6></td>
-		<td><h6>
+		<ul></td>
+		<td>
 			✔️ "before damage calculation"
 			<br><br>
 			✔️ Spell/Trap Cards and Quick/Quick-like Effects that directly alter the ATK/DEF
 			<br><br>
 			❌ Effects that activate when a monsters is flipped face-up: won't activate as well after damage calculation if the flipped monster itself leaves the Monster Zone before then ("Drillroid" will destroy without triggering Flip effects)
-		</h6></td>
-		<td><h6>
+		</td>
+		<td>
 			✔️ If a monster is flipped face-up and it has a Continuous Effect, then typically that Continuous Effect is applied immediately, such as the effects of monsters like "Star Boy" and "Jinzo"
 			<br><br>
 			❌ Continuous Effect that would prevent the flipped monster from being targeted for attacks, attacked or would prevent the attacking monster from attacking: the monster has already been targeted as an attack target
 			<br><br>
 			❌ Continuous Effect that destroys itself under certain conditions that are currently met (such as "Giant Kozaky", "Zombie Mammoth", etc.), the monster is not destroyed yet and the Damage Step proceeds normally, until after damage calculation. The same applies if "Rivalry of Warlords" or "Gozen Match", or if there is an active 'Unclassified Effect' (belonging either to the flipped monster or another face-up monster) that states "You can only control 1 [...]" or "There can only be 1 [...] on the field"; the appropriate actions are determined and performed after damage calculation
-		</h6></td>
+		</td>
 	</tr>
 	<tr>
 		<th>Perform damage calculation</th>
-		<td><h6><ul>
+		<td><ul>
 			<li>Compare ATK/DEF and apply damage to Life Points</li>
 			<li>Determine whether either monster will be destroyed by battle or not, but do not send it to the GY yet<br>If there is a Continuous/Continuous-like Effect or Unclassified Effect that has the player perform a certain action instead of the monster being destroyed by this battle (such as that of "Return of the Dragon Lords" banishing itself from the GY instead of destroying the monster), the relevant player must choose (at this point) whether or not they will use it. If they do, that action is not performed right at that time; instead, it will be applied immediately after damage calculation ("Return of the Dragon Lords" would be banished after damage calculation)</li>
-		<ul></h6></td>
-		<td><h6>
+		<ul></td>
+		<td>
 			✔️ "during damage calculation"
 			<br><br>
 			❌ Effects that activate when a monsters is flipped face-up: won't activate after damage calculation if the flipped monster itself leaves the Monster Zone before then ("Drillroid" will destroy without triggering FLIP effects)
-		</h6></td>
-		<td><h6>
+		</td>
+		<td>
 			✔️ "during damage calculation (only)"
-		</h6></td>
+		</td>
 	</tr>
 	<tr>
 		<th>After damage calculation</th>
-		<td><h6><ul>
+		<td><ul>
 			<li>
 				Monsters that have been considered to be destroyed by battle are still not sent to the GY yet. Even though the monsters are still on the field:
 				<ul>
@@ -120,8 +207,8 @@ There are five distinct timings within the Damage Step.
 					<li>They cannot be used as a cost to activate a card or an optional effect. But they can be used as a cost to activate a mandatory effect, such as "Doomcaliber Knight"</li>
 				</ul>
 			</li>
-		<ul></h6></td>
-		<td><h6>
+		<ul></td>
+		<td>
 			✔️ "after damage calculation"
 			<br><br>
 			✔️ "this card battles" or "attacks or is attacked"
@@ -129,31 +216,31 @@ There are five distinct timings within the Damage Step.
 			✔️ If a player takes battle damage such as "Don Zaloog"
 			<br><br>
 			✔️ If a monster is flipped face-up (including Flip effects) 
-		</h6></td>
-		<td><h6>
+		</td>
+		<td>
 			✔️ If a monster with a Continuous Effect that destroys itself under certain conditions ("Giant Kozaky", "Zombie Mammoth", etc.) survives damage calculation without being determined to be "destroyed by battle", that Continuous Effect will immediately apply at this point and destroy that monster if those conditions are still met
 			<br><br>
 			✔️ If a monster was flipped face-up during the Damage Step and "Rivalry of Warlords"/"Gozen Match" is still active, if that monster has a Attribute/Type that conflicts with another monster already face-up on the field, the flipped monster will immediately be sent to the Graveyard at this point
 			<br><br>
 			✔️ If a monster was flipped face-up during the Damage Step and its name conflicts with another monster that is already face-up on the field, as defined by an 'Unclassified Effect' that states "You can only control 1 [...]" or "There can only be 1 [...] on the field" (belonging either to the flipped monster or another face-up monster), the flipped monster will be immediately destroyed
-		</h6></td>
+		</td>
 	</tr>
 	<tr>
 		<th>End of the Damage Step</th>
-		<td><h6><ul>
+		<td><ul>
 			<li>Monsters that were determined to be destroyed by battle are now normally sent to the GY, unless they are Pendulum Monsters or if a card effect states otherwise</li>
 			<li>Once there are no effects left to activate or resolve, the Damage Step ends, and the Battle Step is automatically re-entered. At the time both players agree to enter the Battle Step, effects that apply "until the end of the Damage Step" now expire and no longer apply</li>
-		<ul></h6></td>
-		<td><h6>
+		<ul></td>
+		<td>
 			✔️ "at the end of the Damage Step"
 			<br><br>
 			✔️ When/if a monster is destroyed by battle
 			<br><br>
 			✔️ When/if a monster destroys another monster by battle
 			<br><br>
-		</h6></td>
-		<td><h6>
-		</h6></td>
+		</td>
+		<td>
+		</td>
 	</tr>
 </table>
 
@@ -235,104 +322,104 @@ The restriction of "you cannot Normal or Special Summon the turn you activate th
 	</tr>
 	<!-- cases -->
 	<tr>
-		<td><h6>
+		<td>
 			Properties of the cards used to perform that monster's summon
 			<br>
 			Names, Attributes, Types, Levels of the cards and the number of cards used
-		</td></h6>
-		<td align="center"><h3>❌</h3></td>
-		<td align="center"><h3>❌</h3></td>
+		</td>
+		<td align="center">❌</td>
+		<td align="center">❌</td>
 	</tr>
 	<tr>
-		<td><h6>
+		<td>
 			Which specific copies of cards used to perform that monster's summon
 			<br>
 			Fusion, Synchro, Xyz, Link Materials
-		</td></h6>
-		<td align="center"><h3>✔️</h3></td>
-		<td align="center"><h3>✔️</h3></td>
+		</td>
+		<td align="center">✔️</td>
+		<td align="center">✔️</td>
 	</tr>
 	<tr>
-		<td><h6>
+		<td>
 			Which specific method or effect performed that monster's summon
 			<br>
 			Monsters being summoned by their own specific method
-		</td></h6>
-		<td align="center"><h3>❌</h3></td>
+		</td>
+		<td align="center">❌</td>
 		<td align="center"><h3>Adjusting</h3></td>
 	</tr>
 	<tr>
-		<td><h6>
+		<td>
 			Where that monster was summoned from
-		</td></h6>
-		<td align="center"><h3>❌</h3></td>
-		<td align="center"><h3>✔️</h3></td>
+		</td>
+		<td align="center">❌</td>
+		<td align="center">✔️</td>
 	</tr>
 	<tr>
-		<td><h6>
+		<td>
 			Lingering effects previously applied to that monster
-		</td></h6>
-		<td align="center"><h3>❌</h3></td>
-		<td align="center"><h3>❌</h3></td>
+		</td>
+		<td align="center">❌</td>
+		<td align="center">❌</td>
 	</tr>
 	<tr>
-		<td><h6>
+		<td>
 			If that monster's "once per turn" has been used this turn (can use 2+ time)
 			<br>
 			Exception: effects that flip the monster itself face-down will be remembered
-		</td></h6>
-		<td align="center"><h3>❌</h3></td>
-		<td align="center"><h3>❌</h3></td>
+		</td>
+		<td align="center">❌</td>
+		<td align="center">❌</td>
 	</tr>
 	<tr>
-		<td><h6>
+		<td>
 			If that monster's Battle Position has been changed this turn
-		</td></h6>
-		<td align="center"><h3>✔️</h3></td>
-		<td align="center"><h3>❌</h3></td>
+		</td>
+		<td align="center">✔️</td>
+		<td align="center">❌</td>
 	</tr>
 	<tr>
-		<td><h6>
+		<td>
 			If that monster has declared an attack this turn
-		</td></h6>
-		<td align="center"><h3>✔️</h3></td>
-		<td align="center"><h3>❌</h3></td>
+		</td>
+		<td align="center">✔️</td>
+		<td align="center">❌</td>
 	</tr>
 	<tr>
-		<td><h6>
+		<td>
 			If that monster was Set, Normal, Tribute, or Special Summoned, including the type of Special Summon (Fusion, Synchro, Xyz, Link)<br>
 			Exceptions below
-		</td></h6>
-		<td align="center"><h3>✔️</h3></td>
-		<td align="center"><h3>✔️</h3></td>
+		</td>
+		<td align="center">✔️</td>
+		<td align="center">✔️</td>
 	</tr>
 	<tr>
-		<td><h6>&ensp;&ensp;&ensp;&ensp;
+		<td>&ensp;&ensp;&ensp;&ensp;
 			If a Gemini monster was Normal Summoned again
-		</td></h6>
-		<td align="center"><h3>❌</h3></td>
-		<td align="center"><h3>❌</h3></td>
+		</td>
+		<td align="center">❌</td>
+		<td align="center">❌</td>
 	</tr>
 	<tr>
-		<td><h6>&ensp;&ensp;&ensp;&ensp;
+		<td>&ensp;&ensp;&ensp;&ensp;
 			If that monster was Pendulum Summoned
-		</td></h6>
-		<td align="center"><h3>❌</h3></td>
-		<td align="center"><h3>✔️</h3></td>
+		</td>
+		<td align="center">❌</td>
+		<td align="center">✔️</td>
 	</tr>
 	<tr>
-		<td><h6>&ensp;&ensp;&ensp;&ensp;
+		<td>&ensp;&ensp;&ensp;&ensp;
 			If that monster was Flip Summoned
-		</td></h6>
-		<td align="center"><h3>❌</h3></td>
-		<td align="center"><h3>❌</h3></td>
+		</td>
+		<td align="center">❌</td>
+		<td align="center">❌</td>
 	</tr>
 	<tr>
-		<td><h6>
+		<td>
 			The turn that monster was Set, Normal, Tribute, or Special Summoned
-		</td></h6>
-		<td align="center"><h3>✔️</h3></td>
-		<td align="center"><h3>✔️</h3></td>
+		</td>
+		<td align="center">✔️</td>
+		<td align="center">✔️</td>
 	</tr>
 </table>
 
@@ -371,82 +458,7 @@ Possible outcomes:
 
 - Apply new (x): overwrites previous (y) of the same kind, if (x) stops applying then (y) will return to apply
 
-<table align="center">
-    <tr>
-        <th width=200 colspan=3 rowspan="3">
-            <div align="right">New</div>
-            <div align="center">\</div>
-            <div align="left">Prev</div>
-        </th>
-        <th>+/-</th>
-        <th colspan=2>Set current</th>
-        <th colspan=2>Set original</th>
-    </tr>
-    <tr>
-        <th>(1)+(2)</th>
-        <th>(3)</th>
-        <th>(4)</th>
-        <th>(5)</th>
-        <th>(6)</th>
-    </tr>
-    <tr>
-        <th>L+C</th>
-        <th>L</th>
-        <th>C</th>
-        <th>L</th>
-        <th>C</th>
-    </tr>
-    <!-- cases -->
-    <tr>
-        <th rowspan=2>+/-</th>
-        <th>(1)</th>
-        <th>L</th>
-        <td rowspan=6><h6>(1,2) are always applied successfully</h6></td>
-        <td><h6>Remove previous (1,3) when applying (3)</h6></td>
-        <td><h6>(1,3,5) are not reapplied until (4) stops applying</h6></td>
-        <td colspan=2 rowspan=2><h6>Apply (5,6) and reapply (1,2) afterwards</h6></td>
-    </tr>
-    <tr>
-        <th>(2)</th>
-        <th>C</th>
-        <td><h6>(2,4) are not reapplied until (3) stops applying</h6></td>
-        <td><h6>Apply (4) and reapply (2) afterwards</h6></td>
-    </tr>
-    <tr>
-        <th rowspan=2>Set current</th>
-        <th>(3)</th>
-        <th>L</th>
-        <td><h6>Remove previous (1,3) when applying (3)</h6></td>
-        <td><h6>(1,3,5) are not reapplied until (4) stops applying</h6></td>
-        <td><h6>Remove previous (3,5) when applying (5)</h6></td>
-        <td><h6>(3,5) are not reapplied until (6) stops applying</h6></td>
-    </tr>
-    <tr>
-        <th>(4)</th>
-        <th>C</th>
-        <td><h6>(2,4) are not reapplied until (3) stops applying</h6></td>
-        <td><h6>Apply new (4)</h6></td>
-        <td colspan=2><h6>Apply (5,6) and reapply (4) afterwards</h6></td>
-    </tr>
-    <tr>
-        <th rowspan=2>Set original</th>
-        <th>(5)</th>
-        <th>L</th>
-        <td rowspan=2><h6>Apply (3) after previous (5,6)</h6></td>
-        <td><h6>(1,3,5) are not reapplied until (4) stops applying</h6></td>
-        <td><h6>Remove previous (3,5) when applying (5)</h6></td>
-        <td><h6>(3,5) are not reapplied until (6) stops applying</h6></td>
-    </tr>
-    <tr>
-        <th>(6)</th>
-        <th>C</th>
-        <td><h6>Apply (6) and reapply (4) afterwards</h6></td>
-        <td><h6>(6) are not reapplied until (5) stops applying</h6></td>
-        <td><h6>Apply new (6)</h6></td>
-    </tr>
-</table>
-
-Some examples, "->" means value after the effect is applied, "=>" means values after the effect has stopped applying:
+In the examples, the two cards on the left are the "Prev", the card on the right separated by the previous two is the "New": "→" signifies the value after the "New" effect is applied, "⇒" signifies the value after the "New" effect has stopped applying
 
 <table align="center">
     <tr>
@@ -479,73 +491,89 @@ Some examples, "->" means value after the effect is applied, "=>" means values a
         <th>(1)</th>
         <th>L</th>
         <td rowspan=6>
-            <h6>(1,2) are always applied successfully</h6>
-			<details><summary>Example</summary><h6 align="center"><img src="image-1.png">(1900+700)-600 -> 2000</h6></details>
+			<details align="left">
+                <summary>(1,2) are always applied successfully</summary>
+                <img src="./images/image-1.png">(1900+700)-600 → 2000
+            </details>
         </td>
         <td>
-            <h6>Remove previous (1,3) when applying (3)</h6>
-            <h6 align="center"><img src="image-2.png">(1900+700)/2 -> 1300 => 1900</h6>
+    		<details align="left">
+                <summary>Remove previous (1,3) when applying (3)</summary>
+                <img src="./images/image-2.png">(1900+700)/2 → 1300 ⇒ 1900
+            </details>
         </td>
         <td>
-            <h6>(1,3,5) are not reapplied until (4) stops applying</h6>
-            <h6 align="center"><img src="image-6.png">(1900+700)=100 -> 100 => 2600</h6>
+            <details align="left">
+                <summary>(1,3,5) are not reapplied until (4) stops applying</summary>
+                <img src="./images/image-6.png">set(1900+700) to 100 → 100 ⇒ 2600
+            </details>
         </td>
-        <td colspan=2 rowspan=2>
-            <h6>Apply (5,6) and reapply (1,2) afterwards</h6>
-        </td>
+        <td colspan=2 rowspan=2>Apply (5,6) and reapply (1,2) afterwards</td>
     </tr>
     <tr>
         <th>(2)</th>
         <th>C</th>
         <td>
-            <h6>(2,4) are not reapplied until (3) stops applying</h6>
-            <h6 align="center"><img src="image-3.png">(1900+800)/2 -> 1350 => 2700</h6>
+            <details align="left">
+                <summary>(2,4) are not reapplied until (3) stops applying</summary>
+                <img src="./images/image-3.png">(1900+800)/2 → 1350 ⇒ 2700
+            </details>
         </td>
         <td>
-            <h6>Apply (4) and reapply (2) afterwards</h6>
-            <h6 align="center"><img src="image-5.png">(1900+800)=100 -> 900 => 2700</h6>
+            <details align="left">
+                <summary>Apply (4) and reapply (2) afterwards</summary>
+                <img src="./images/image-5.png">set(1900+800) to 100 → 900 ⇒ 2700
+            </details>
         </td>
     </tr>
     <tr>
         <th rowspan=2>Set current</th>
         <th>(3)</th>
         <th>L</th>
-        <td><h6>Remove previous (1,3) when applying (3)</h6></td>
+        <td>Remove previous (1,3) when applying (3)</td>
         <td>
-            <h6>(1,3,5) are not reapplied until (4) stops applying</h6>
-            <h6 align="center"><img src="image-7.png">(1900/2)=100 -> 100 => 950</h6>
+            <details align="left">
+                <summary>(1,3,5) are not reapplied until (4) stops applying</summary>
+                <img src="./images/image-7.png">set (1900/2) to 100 → 100 ⇒ 950
+            </details>
         </td>
-        <td><h6>Remove previous (3,5) when applying (5)</h6></td>
-        <td><h6>(3,5) are not reapplied until (6) stops applying</h6></td>
+        <td>Remove previous (3,5) when applying (5)</td>
+        <td>(3,5) are not reapplied until (6) stops applying</td>
     </tr>
     <tr>
         <th>(4)</th>
         <th>C</th>
-        <td><h6>(2,4) are not reapplied until (3) stops applying</h6></td>
+        <td>(2,4) are not reapplied until (3) stops applying</td>
         <td>
-            <h6>Apply new (4)</h6>
-            <h6 align="center"><img src="image-8.png">(2300x2)=100 -> 100 => 4600</h6>
+            <details align="left">
+                <summary>Apply new (4)</summary>
+                <img src="./images/image-8.png">set (2300x2) to 100 → 100 ⇒ 4600
+            </details>
         </td>
-        <td colspan=2><h6>Apply (5,6) and reapply (4) afterwards</h6></td>
+        <td colspan=2>
+            Apply (5,6) and reapply (4) afterwards
+        </td>
     </tr>
     <tr>
         <th rowspan=2>Set original</th>
         <th>(5)</th>
         <th>L</th>
         <td rowspan=2>
-            <h6>Apply (3) after previous (5,6)</h6>
-            <h6 align="center"><img src="image-4.png">(2300/2)x2 -> 2300 => 1150 (in end => 2300)</h6>
+            <details align="left">
+                <summary>Apply (3) after previous (5,6)</summary>
+                <img src="./images/image-4.png">(2300/2)x2 → 2300 ⇒ 1150 (in end ⇒ 2300)
+            </details>
         </td>
-        <td><h6>(1,3,5) are not reapplied until (4) stops applying</h6></td>
-        <td><h6>Remove previous (3,5) when applying (5)</h6></td>
-        <td><h6>(3,5) are not reapplied until (6) stops applying</h6></td>
+        <td>(1,3,5) are not reapplied until (4) stops applying</td>
+        <td>Remove previous (3,5) when applying (5)</td>
+        <td>(3,5) are not reapplied until (6) stops applying</td>
     </tr>
     <tr>
         <th>(6)</th>
         <th>C</th>
-        <td><h6>Apply (6) and reapply (4) afterwards</h6></td>
-        <td><h6>(6) are not reapplied until (5) stops applying</h6></td>
-        <td><h6>Apply new (6)</h6></td>
+        <td>Apply (6) and reapply (4) afterwards</td>
+        <td>(6) are not reapplied until (5) stops applying</td>
+        <td>Apply new (6)</td>
     </tr>
 </table>
 
