@@ -103,13 +103,27 @@ This is the card's name. When a card name is mentioned in card text it appears i
 **2. Level**\
 Count the number of stars here to find out the monster's Level. For Xyz Monsters, the number of stars is the Rank of the monster, and is on left.
 
-**3. Attribute**\
-Every monster has an Attribute. This Attribute is sometimes important for card effects.
-
+**3. Attribute**
 <div align="center">
 	<img src="./images/attributes.png" width=150 />
 </div>
 
+Every monster has an Attribute. This Attribute is sometimes important for card effects.
+
+**4. Type**
+Monsters are divided into various Types. Some monsters with specific abilities will have additional information here too, next to their Type.
+
+**5. Card Number**
+A card's identification number is found here. This number is useful for collecting, and for sorting your collection.
+
+**6. ATK (Attack Points)/DEF (Defense Points)**
+ATK is a monster's Attack Points and DEF is a monster's Defense Points. High Attack and Defense Points are good when battling!
+
+**7. Card Description**
+Card effects are written here, describing the monster's special abilities and how to use them. Normally, the effects of monsters cannot be used while they are Set face-down on the field. Yellow Normal Monster Cards do not have effects, and have a description of them written here that does not affect the game.
+
+Monster Cards are used to battle and defeat your opponent. Battles between Monster Cards are the foundation of any Duel.\
+There are many kinds of Monster Cards. This game is more than a simple slugfest, so monsters with high Attack and Defense Points will not be enough. There are also monsters with strong special effects even though their ATK and DEF points are low. Therefore, your success in a Duel depends on how skillfully you can make use of the different kinds of cards.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
