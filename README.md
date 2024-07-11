@@ -8,6 +8,7 @@
 			- [Sub-steps of the Damage Step](#sub-steps-of-the-damage-step)
 			- [Cards/effects that can be activated during the Damage Step](#cardseffects-that-can-be-activated-during-the-damage-step)
 - [Card text](#card-text)
+	- [Problem Solving Card Text (PSCT)](#problem-solving-card-text-psct)
 	- [Summoning](#summoning)
 		- [Summon restrictions and successful summons](#summon-restrictions-and-successful-summons)
 	- [Effects](#effects)
@@ -18,6 +19,9 @@
 		- [Trigger effects](#trigger-effects)
 			- [Leaves the field](#leaves-the-field)
 			- [Location changes mid-chain](#location-changes-mid-chain)
+		- [Specific effects](#specific-effects)
+			- [Prohibition](#prohibition)
+			- [Rivalry of the Warlords](#rivalry-of-the-warlords)
 
 <!-- /TOC -->
 
@@ -28,8 +32,8 @@
 ## Turns
 
 ### Damage Step
-[Yugipedia](https://yugipedia.com/wiki/Damage_Step), 
-[Pazim's Resources](https://www.dropbox.com/scl/fo/tia8xzqafu1ibscz0gz95/AEx_Ri-wkJ9QE75AWRKn4RQ?preview=Judge+Resources.pdf&rlkey=z6uissqwewd81wm9c03zosaa3)
+[Source](https://www.yugioh-card.com/eu/play/damage-step-rules/),
+[Yugipedia](https://yugipedia.com/wiki/Damage_Step)
 
 #### Sub-steps of the Damage Step
 There are five distinct timings within the Damage Step.
@@ -75,7 +79,7 @@ There are five distinct timings within the Damage Step.
 			<br><br>
 			✔️ Spell/Trap Cards and Quick/Quick-like Effects that directly alter the ATK/DEF
 			<br><br>
-			❌ Effects that activate when a monsters is flipped face-up: won't activate after damage calculation if the flipped monster itself leaves the Monster Zone before then ("Drillroid" will destroy without triggering Flip effects)
+			❌ Effects that activate when a monsters is flipped face-up: won't activate as well after damage calculation if the flipped monster itself leaves the Monster Zone before then ("Drillroid" will destroy without triggering Flip effects)
 		</h6></td>
 		<td><h6>
 			✔️ If a monster is flipped face-up and it has a Continuous Effect, then typically that Continuous Effect is applied immediately, such as the effects of monsters like "Star Boy" and "Jinzo"
@@ -143,13 +147,17 @@ There are five distinct timings within the Damage Step.
 		<td><h6>
 			✔️ "at the end of the Damage Step"
 			<br><br>
-			✔️ When/if a monster is destroyed by battle (either yours or opponent's)
+			✔️ When/if a monster is destroyed by battle
+			<br><br>
+			✔️ When/if a monster destroys another monster by battle
 			<br><br>
 		</h6></td>
 		<td><h6>
 		</h6></td>
 	</tr>
 </table>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 #### Cards/effects that can be activated during the Damage Step
 
@@ -201,6 +209,9 @@ A card only needs to meet one of the above requirements to be activated during t
 
 # Card text
 
+## Problem Solving Card Text (PSCT)
+[Source](https://yugiohblog.konami.com/articles/?tag=problem-solving-card-text)
+
 ## Summoning
 
 ### Summon restrictions and successful summons
@@ -208,8 +219,6 @@ A card only needs to meet one of the above requirements to be activated during t
 [Source](https://www.yugioh-card.com/en/play/2021_rules_update/)
 
 The restriction of "you cannot Normal or Special Summon the turn you activate this card" only refers to monsters that were successfully summoned. Same for "you can only Special Summon X once per turn" restrictions.
-
--   [Source](https://www.yugioh-card.com/en/play/2021_rules_update/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -471,7 +480,7 @@ Some examples, "->" means value after the effect is applied, "=>" means values a
         <th>L</th>
         <td rowspan=6>
             <h6>(1,2) are always applied successfully</h6>
-            <h6 align="center"><img src="image-1.png">(1900+700)-600 -> 2000</h6>
+			<details><summary>Example</summary><h6 align="center"><img src="image-1.png">(1900+700)-600 -> 2000</h6></details>
         </td>
         <td>
             <h6>Remove previous (1,3) when applying (3)</h6>
@@ -540,6 +549,7 @@ Some examples, "->" means value after the effect is applied, "=>" means values a
     </tr>
 </table>
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 #### Special cases
 
@@ -567,5 +577,19 @@ When a monster on the field is shuffled into the Deck, or becomes an Xyz Materia
 If a monster’s Trigger Effect meets its activation conditions, BUT hasn’t yet had a chance to actually activate yet (because it’s still in the middle of a chain or card effect, for example) and is therefore being "saved for later", BUT its location* changes between the time its Trigger Effect activation is met, and the time it actually has a chance to activate, its effect does not activate. [*On the field, in the Graveyard, in the hand, banished, or in the Deck.]
 
 -   [Example](https://db.ygoresources.com/qa#23251)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Specific effects
+
+#### Prohibition
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+#### Rivalry of the Warlords
+
+[Source](https://www.yugioh-card.com/eu/play/rivalry-of-warlords/)
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
