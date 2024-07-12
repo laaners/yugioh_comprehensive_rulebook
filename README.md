@@ -65,7 +65,7 @@ This is where you put your monsters when they’re played. You can have up to 5 
 **2. Spell & Trap Zone Pendulum Zone**\
 This is where you put Spell & Trap Cards. You can have up to 5 cards here. You place them here face-up to activate them, or place them face-down. Pendulum Monster Cards can be activated in the leftmost and rightmost zones as Spells. This causes the zone you use to also become a Pendulum Zone for as long as the Pendulum Monster Card is there.
 
-**3. Graveyard (GY)**
+**3. Graveyard (GY)**\
 When Monster Cards are destroyed, and when Spell & Trap Cards are used, they’re sent face-up to this space. The contents of both players’ Graveyards are public knowledge, and your opponent can look through yours at any time during the Duel. The order of the cards in the Graveyard should not be changed. Graveyard is shortened in the card text to "GY".
 
 **4. Deck**\
@@ -110,16 +110,16 @@ Count the number of stars here to find out the monster's Level. For Xyz Monsters
 
 Every monster has an Attribute. This Attribute is sometimes important for card effects.
 
-**4. Type**
+**4. Type**\
 Monsters are divided into various Types. Some monsters with specific abilities will have additional information here too, next to their Type.
 
-**5. Card Number**
+**5. Card Number**\
 A card's identification number is found here. This number is useful for collecting, and for sorting your collection.
 
-**6. ATK (Attack Points)/DEF (Defense Points)**
+**6. ATK (Attack Points)/DEF (Defense Points)**\
 ATK is a monster's Attack Points and DEF is a monster's Defense Points. High Attack and Defense Points are good when battling!
 
-**7. Card Description**
+**7. Card Description**\
 Card effects are written here, describing the monster's special abilities and how to use them. Normally, the effects of monsters cannot be used while they are Set face-down on the field. Yellow Normal Monster Cards do not have effects, and have a description of them written here that does not affect the game.
 
 Monster Cards are used to battle and defeat your opponent. Battles between Monster Cards are the foundation of any Duel.\
@@ -360,7 +360,7 @@ The restriction of "you cannot Normal or Special Summon the turn you activate th
 			Monsters being summoned by their own specific method
 		</td>
 		<td align="center">❌</td>
-		<td align="center"><h3>Adjusting</h3></td>
+		<td align="center">Adjusting</td>
 	</tr>
 	<tr>
 		<td>
