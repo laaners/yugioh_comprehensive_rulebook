@@ -3,28 +3,35 @@
 <!-- TOC -->
 
 - [Getting started](#getting-started)
-    - [Things you need to duel](#things-you-need-to-duel)
-    - [The Game Mat/Field](#the-game-matfield)
+	- [Things you need to duel](#things-you-need-to-duel)
+	- [The Game Mat/Field](#the-game-matfield)
+- [Game cards](#game-cards)
+	- [Monster cards](#monster-cards)
+		- [Normal Monsters](#normal-monsters)
+		- [Effect Monsters](#effect-monsters)
+		- [Ritual Monsters](#ritual-monsters)
+		- [Fusion Monsters](#fusion-monsters)
+		- [Synchro Monsters](#synchro-monsters)
 - [Game mechanics](#game-mechanics)
-    - [Turns](#turns)
-        - [Damage Step](#damage-step)
-            - [Sub-steps of the Damage Step](#sub-steps-of-the-damage-step)
-            - [Cards/effects that can be activated during the Damage Step](#cardseffects-that-can-be-activated-during-the-damage-step)
+	- [Turns](#turns)
+		- [Damage Step](#damage-step)
+			- [Sub-steps of the Damage Step](#sub-steps-of-the-damage-step)
+			- [Cards/effects that can be activated during the Damage Step](#cardseffects-that-can-be-activated-during-the-damage-step)
 - [Card text](#card-text)
-    - [Problem Solving Card Text PSCT](#problem-solving-card-text-psct)
-    - [Summoning](#summoning)
-        - [Summon restrictions and successful summons](#summon-restrictions-and-successful-summons)
-    - [Effects](#effects)
-        - [Retaining information](#retaining-information)
-        - [Stats ATK/DEF modifiers](#stats-atkdef-modifiers)
-            - [Categories and interactions](#categories-and-interactions)
-            - [Special cases](#special-cases)
-        - [Trigger effects](#trigger-effects)
-            - [Leaves the field](#leaves-the-field)
-            - [Location changes mid-chain](#location-changes-mid-chain)
-        - [Specific effects](#specific-effects)
-            - [Prohibition](#prohibition)
-            - [Rivalry of the Warlords](#rivalry-of-the-warlords)
+	- [Problem Solving Card Text (PSCT)](#problem-solving-card-text-psct)
+	- [Summoning](#summoning)
+		- [Summon restrictions and successful summons](#summon-restrictions-and-successful-summons)
+	- [Effects](#effects)
+		- [Retaining information](#retaining-information)
+		- [Stats (ATK/DEF) modifiers](#stats-atkdef-modifiers)
+			- [Categories and interactions](#categories-and-interactions)
+			- [Special cases](#special-cases)
+		- [Trigger effects](#trigger-effects)
+			- [Leaves the field](#leaves-the-field)
+			- [Location changes mid-chain](#location-changes-mid-chain)
+		- [Specific effects](#specific-effects)
+			- [Prohibition](#prohibition)
+			- [Rivalry of the Warlords](#rivalry-of-the-warlords)
 
 <!-- /TOC -->
 
@@ -125,8 +132,195 @@ Card effects are written here, describing the monster's special abilities and ho
 Monster Cards are used to battle and defeat your opponent. Battles between Monster Cards are the foundation of any Duel.\
 There are many kinds of Monster Cards. This game is more than a simple slugfest, so monsters with high Attack and Defense Points will not be enough. There are also monsters with strong special effects even though their ATK and DEF points are low. Therefore, your success in a Duel depends on how skillfully you can make use of the different kinds of cards.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Normal Monsters
+
+<table align="center">
+	<tr>
+		<td align="center" width=100>
+			<img src="./images/card_blue-eyes_white_dragon.png" width=100 />
+		</td>
+		<td>
+			These are basic Monster Cards without special abilities. Many Normal Monsters have higher Attack Points and Defense Points than Effect Monsters, instead of having special abilities.
+		</td>
+	</tr>
+</table>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Effect Monsters
+<table align="center">
+	<tr>
+		<td align="center" width=100>
+			<img src="./images/card_dark_magician_girl.png" width=100 />
+		</td>
+		<td>
+			An Effect Monster is a monster that has special abilities. The effects of these monsters are split into four categories:
+			<ol>
+				<li>Continuous Effect</li>
+				<li>Ignition Effect</li>
+				<li>Quick Effect</li>
+				<li>Trigger Effect (including Flip)</li>
+			</ol>
+		</td>
+	</tr>
+	<tr>
+		<th>Continuous Effect</th>
+		<td>
+			This effect is active while the Effect Monster Card is face-up on the field. The effect starts when the face-up monster appears on the field, and ends once that monster is gone or is no longer face-up; there is no trigger for its activation.
+			<br>
+			<b>Example</b>: "Monsters with 2000 or less ATK cannot declare an attack"
+		</td>
+	</tr>
+	<tr>
+		<th>Ignition Effect</th>
+		<td>
+			You use this type of effect just by declaring its activation during your Main Phase. There are some Ignition Effects that have a cost to activate, like discarding cards from your hand, Tributing a monster, or paying LP.
+			<br>
+			<b>Example</b>: "You can Tribute this card, then target 1 monster on the field; destroy that target"
+		</td>
+	</tr>
+	<tr>
+		<th>Quick Effect</th>
+		<td>
+			These are special monster effects that you can activate even during your opponent's turn. These types of effects have a Spell Speed of 2, even though all other monster effects have a Spell Speed of 1.
+			<br>
+			<b>Example</b>: "When an effect is activated (Quick Effect): You can target 1 monster in your GY; Special Summon it."
+		</td>
+	</tr>
+	<tr>
+		<th>Trigger Effect</th>
+		<td>
+			These effects are activated at specific times, such as "during the Standby Phase" or "when this monster is destroyed".
+			<br>
+			<b>Example</b>: "When this card is destroyed by battle and sent to the GY: Target 1 card on the field; destroy that target."
+		</td>
+	</tr>
+	<tr>
+		<th>Flip Effect</th>
+		<td>
+			Flip effect is a part of the Trigger Effect. This is an effect that is activated when a face-down card is flipped face-up. This can happen when it is Flip Summoned, attacked while face-down, or flipped face-up by a card effect. These effects start with the word "FLIP:" on the card.
+			<br>
+			<b>Example</b>: "FLIP: Draw 1 card."
+		</td>
+	</tr>
+</table>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Ritual Monsters
+
+<table align="center">
+	<tr>
+		<td align="center" width=100>
+			<img src="./images/card_relinquished.png" width=100 />
+		</td>
+		<td>
+			Ritual Monsters are special monsters that are Special Summoned with a specific Ritual Spell Card, along with a required Tribute. Ritual Monster Cards are placed in the Main Deck and cannot be Summoned unless you have all the proper cards together in your hand or on the field.
+		</td>
+	</tr>
+	<tr>
+		<td align="center" width=100>
+			<img src="./images/card_black_illusion_ritual.png" width=100 />
+		</td>
+		<td>
+			<b>How to ritual summon</b>
+			<ol>
+				<li>
+					When you have a Ritual Spell Card, along with the matching Ritual Monster Card, in your hand, along with the required Tribute (as listed on the Ritual Spell Card), you can activate the Ritual Spell Card, placing it in the Spell & Trap Zone.
+				</li>
+				<li>
+            		If the activation of the Ritual Spell Card is successful, Tribute monsters by sending them from your hand or the field to the Graveyard. The Ritual Spell Card will list the required amount to Tribute.
+				</li>
+				<li>
+					After sending the Tributed monsters to the Graveyard, play the Ritual Monster Card in your Main Monster Zone in either face-up Attack or Defense Position. Finally, place the Ritual Spell Card in the Graveyard.
+				</li>
+			</ol>
+		</td>
+	</tr>
+</table>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Fusion Monsters
+
+<table align="center">
+	<tr>
+		<td align="center" width=100>
+			<img src="./images/card_elemental_hero_flame_wingman.png" width=100 />
+		</td>
+		<td>
+			Fusion Monsters placed in your Extra Deck (not in your Main Deck). They are Summoned by using the specific monsters listed on the card (called Fusion Materials) combined with a Summoning card like "Polymerization".
+		</td>
+	</tr>
+	<tr>
+		<td align="center" width=100>
+			<img src="./images/card_polymerization.png" width=100 />
+		</td>
+		<td>
+			<b>How to fusion summon</b>
+			<ol>
+				<li>
+					If you have all the Fusion Materials listed on the Fusion Monster Card, in the places specified on your Summoning card, you can activate your Summoning card by placing it in your Spell & Trap Zone.
+				</li>
+				<li>
+					Send the Fusion Materials to the Graveyard, then take the appropriate Fusion Monster from your Extra Deck and play it either in the Extra Monster Zone or in any of your Main Monster Zones of in either face-up Attack or Defense Position.
+				</li>
+				<li>
+					Finally, place your Summoning card in the Graveyard. (If another card effect causes your Fusion Materials to be sent to a place other than the Graveyard when your Summoning card resolves, send them to that other place, but the Fusion Summon still happens anyway.)
+				</li>
+			</ol>
+		</td>
+	</tr>
+</table>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Synchro Monsters
+
+<table align="center">
+	<tr>
+		<td align="center" width=100>
+			<img src="./images/card_junk_warrior.png" width=100 />
+		</td>
+		<td>
+			Synchro Monsters are placed in the Extra Deck, separate from the Main Deck. You can Special Summon a powerful Synchro Monster to the field in an instant just by using the Levels of your monsters. They can be Synchro Summoned from the Extra Deck by sending 1 face-up "Tuner" monster and any number of face-up non-Tuner monsters from your field to the Graveyard, when the sum of all their Levels is exactly equal to the Level of the Synchro Monster.
+		</td>
+	</tr>
+	<tr>
+		<td align="center" width=100>
+			<img src="./images/card_junk_synchron.png" width=100 />
+		</td>
+		<td>
+			<b>Tuner Monsters</b>
+			<br>
+			In order to Synchro Summon a Synchro Monster, you need 1 Tuner (look for "Tuner" next to its Type). The Tuner monster and other face-up monsters you use for the Synchro Summon are called Synchro Materials. The sum of their Levels is the Level of Synchro Monster you can Summon.
+		</td>
+	</tr>
+	<tr>
+		<td colspan=2>
+			<div align="center">
+				<img src="./images/synchro_summon.png" width=320 />
+			</div>
+			<b>How to synchro summon</b>
+			<ol>
+				<li>
+					During your Main Phase, you can perform a Synchro Summon when the combined total Levels of 1 face-up Tuner monster and any number of other face-up monsters you control are equal to the Level of the Synchro Monster you want to Synchro Summon.
+				</li>
+				<li>
+					After double-checking the Level of the Synchro Monster you want, send the face-up Synchro Materials from your field to the Graveyard.
+				</li>
+				<li>
+					After sending the Synchro Materials from the field to the Graveyard, take the Synchro Monster from your Extra Deck and play it either in the Extra Monster Zone or in any of your Main Monster Zones of in face-up Attack or Defense Position. 
+				</li>
+			</ol>
+		</td>
+	</tr>
+</table>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 # Game mechanics
 
