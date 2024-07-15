@@ -12,6 +12,19 @@
 		- [Ritual Monsters](#ritual-monsters)
 		- [Fusion Monsters](#fusion-monsters)
 		- [Synchro Monsters](#synchro-monsters)
+		- [Xyz Monsters](#xyz-monsters)
+		- [Pendulum Monsters](#pendulum-monsters)
+		- [Link Monsters](#link-monsters)
+			- [Special Summon to the Main Monster Zones](#special-summon-to-the-main-monster-zones)
+			- [Link Monsters as Link material](#link-monsters-as-link-material)
+			- [Defense](#defense)
+			- [Change control](#change-control)
+			- [Non-monster card as material](#non-monster-card-as-material)
+	- [Summoning Monster cards](#summoning-monster-cards)
+		- [Normal Summon](#normal-summon)
+		- [Normal Set](#normal-set)
+		- [Tribute Summon](#tribute-summon)
+	- [Spell cards](#spell-cards)
 - [Game mechanics](#game-mechanics)
 	- [Turns](#turns)
 		- [Damage Step](#damage-step)
@@ -20,7 +33,7 @@
 - [Card text](#card-text)
 	- [Problem Solving Card Text (PSCT)](#problem-solving-card-text-psct)
 	- [Summoning](#summoning)
-		- [Summon restrictions and successful summons](#summon-restrictions-and-successful-summons)
+		- [Summon restrictions and successful Summons](#summon-restrictions-and-successful-summons)
 	- [Effects](#effects)
 		- [Retaining information](#retaining-information)
 		- [Stats (ATK/DEF) modifiers](#stats-atkdef-modifiers)
@@ -67,13 +80,13 @@ The Game Mat helps you organize your cards during a Duel. When you use your card
 </div>
 
 **1. Main Monster Zone**\
-This is where you put your monsters when they’re played. You can have up to 5 cards here. There are 3 ways to position your Monster Cards: face-up Attack Position, face-up Defense Position, and face-down Defense Position. Place the card upright for Attack Position, and sideways for Defense Position.
+This is where you put your monsters when they're played. You can have up to 5 cards here. There are 3 ways to position your Monster Cards: face-up Attack Position, face-up Defense Position, and face-down Defense Position. Place the card upright for Attack Position, and sideways for Defense Position.
 
 **2. Spell & Trap Zone Pendulum Zone**\
 This is where you put Spell & Trap Cards. You can have up to 5 cards here. You place them here face-up to activate them, or place them face-down. Pendulum Monster Cards can be activated in the leftmost and rightmost zones as Spells. This causes the zone you use to also become a Pendulum Zone for as long as the Pendulum Monster Card is there.
 
 **3. Graveyard (GY)**\
-When Monster Cards are destroyed, and when Spell & Trap Cards are used, they’re sent face-up to this space. The contents of both players’ Graveyards are public knowledge, and your opponent can look through yours at any time during the Duel. The order of the cards in the Graveyard should not be changed. Graveyard is shortened in the card text to "GY".
+When Monster Cards are destroyed, and when Spell & Trap Cards are used, they're sent face-up to this space. The contents of both players' Graveyards are public knowledge, and your opponent can look through yours at any time during the Duel. The order of the cards in the Graveyard should not be changed. Graveyard is shortened in the card text to "GY".
 
 **4. Deck**\
 Your Deck is placed face-down in this space. You draw cards from here to add to your hand. If a card effect requires you to reveal cards from your Deck, or look through it, shuffle it and put it back in this space afterwards.
@@ -97,6 +110,7 @@ Zone.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 # Game cards
+[Official rulebook](https://www.yugioh-card.com/en/rulebook/)
 
 ## Monster cards
 
@@ -112,7 +126,7 @@ Count the number of stars here to find out the monster's Level. For Xyz Monsters
 
 **3. Attribute**
 <div align="center">
-	<img src="./images/attributes.png" width=150 />
+	<img src="./images/attributes.png" width=180 />
 </div>
 
 Every monster has an Attribute. This Attribute is sometimes important for card effects.
@@ -139,7 +153,7 @@ There are many kinds of Monster Cards. This game is more than a simple slugfest,
 <table align="center">
 	<tr>
 		<td align="center" width=100>
-			<img src="./images/card_blue-eyes_white_dragon.png" width=100 />
+			<img src="./images/card_blue-eyes_white_dragon.png" width=200 />
 		</td>
 		<td>
 			These are basic Monster Cards without special abilities. Many Normal Monsters have higher Attack Points and Defense Points than Effect Monsters, instead of having special abilities.
@@ -152,8 +166,8 @@ There are many kinds of Monster Cards. This game is more than a simple slugfest,
 ### Effect Monsters
 <table align="center">
 	<tr>
-		<td align="center" width=100>
-			<img src="./images/card_dark_magician_girl.png" width=100 />
+		<td align="center" width=150>
+			<img src="./images/card_dark_magician_girl.png" />
 		</td>
 		<td>
 			An Effect Monster is a monster that has special abilities. The effects of these monsters are split into four categories:
@@ -213,19 +227,19 @@ There are many kinds of Monster Cards. This game is more than a simple slugfest,
 
 <table align="center">
 	<tr>
-		<td align="center" width=100>
-			<img src="./images/card_relinquished.png" width=100 />
+		<td align="center" width=150>
+			<img src="./images/card_relinquished.png" />
 		</td>
 		<td>
 			Ritual Monsters are special monsters that are Special Summoned with a specific Ritual Spell Card, along with a required Tribute. Ritual Monster Cards are placed in the Main Deck and cannot be Summoned unless you have all the proper cards together in your hand or on the field.
 		</td>
 	</tr>
 	<tr>
-		<td align="center" width=100>
-			<img src="./images/card_black_illusion_ritual.png" width=100 />
+		<td align="center" width=150>
+			<img src="./images/card_black_illusion_ritual.png" />
 		</td>
 		<td>
-			<b>How to ritual summon</b>
+			<b>How to ritual Summon</b>
 			<ol>
 				<li>
 					When you have a Ritual Spell Card, along with the matching Ritual Monster Card, in your hand, along with the required Tribute (as listed on the Ritual Spell Card), you can activate the Ritual Spell Card, placing it in the Spell & Trap Zone.
@@ -247,19 +261,19 @@ There are many kinds of Monster Cards. This game is more than a simple slugfest,
 
 <table align="center">
 	<tr>
-		<td align="center" width=100>
-			<img src="./images/card_elemental_hero_flame_wingman.png" width=100 />
+		<td align="center" width=150>
+			<img src="./images/card_elemental_hero_flame_wingman.png" />
 		</td>
 		<td>
 			Fusion Monsters placed in your Extra Deck (not in your Main Deck). They are Summoned by using the specific monsters listed on the card (called Fusion Materials) combined with a Summoning card like "Polymerization".
 		</td>
 	</tr>
 	<tr>
-		<td align="center" width=100>
-			<img src="./images/card_polymerization.png" width=100 />
+		<td align="center" width=150>
+			<img src="./images/card_polymerization.png" />
 		</td>
 		<td>
-			<b>How to fusion summon</b>
+			<b>How to fusion Summon</b>
 			<ol>
 				<li>
 					If you have all the Fusion Materials listed on the Fusion Monster Card, in the places specified on your Summoning card, you can activate your Summoning card by placing it in your Spell & Trap Zone.
@@ -281,16 +295,16 @@ There are many kinds of Monster Cards. This game is more than a simple slugfest,
 
 <table align="center">
 	<tr>
-		<td align="center" width=100>
-			<img src="./images/card_junk_warrior.png" width=100 />
+		<td align="center" width=150>
+			<img src="./images/card_junk_warrior.png" />
 		</td>
 		<td>
 			Synchro Monsters are placed in the Extra Deck, separate from the Main Deck. You can Special Summon a powerful Synchro Monster to the field in an instant just by using the Levels of your monsters. They can be Synchro Summoned from the Extra Deck by sending 1 face-up "Tuner" monster and any number of face-up non-Tuner monsters from your field to the Graveyard, when the sum of all their Levels is exactly equal to the Level of the Synchro Monster.
 		</td>
 	</tr>
 	<tr>
-		<td align="center" width=100>
-			<img src="./images/card_junk_synchron.png" width=100 />
+		<td align="center" width=150>
+			<img src="./images/card_junk_synchron.png" />
 		</td>
 		<td>
 			<b>Tuner Monsters</b>
@@ -301,9 +315,9 @@ There are many kinds of Monster Cards. This game is more than a simple slugfest,
 	<tr>
 		<td colspan=2>
 			<div align="center">
-				<img src="./images/synchro_summon.png" width=320 />
+				<img src="./images/synchro_Summon.png" width=420 />
 			</div>
-			<b>How to synchro summon</b>
+			<b>How to synchro Summon</b>
 			<ol>
 				<li>
 					During your Main Phase, you can perform a Synchro Summon when the combined total Levels of 1 face-up Tuner monster and any number of other face-up monsters you control are equal to the Level of the Synchro Monster you want to Synchro Summon.
@@ -321,6 +335,186 @@ There are many kinds of Monster Cards. This game is more than a simple slugfest,
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+### Xyz Monsters
+
+<table align="center">
+	<tr>
+		<td align="center" width=150>
+			<img src="./images/card_number_39_utopia.png" />
+		</td>
+		<td>
+			Xyz Monsters (pronounced "ikseez") can be Xyz Summoned whenever you control monsters that are the same Level. Xyz Monsters start in your Extra Deck, not in your Main Deck, and wait for you to call them into action.
+			<br>
+			<img src="./images/xyz_details.png" />
+			<br>
+			When an Xyz Monster tells you to "detach" a material, take one of the stacked Xyz Material cards beneath your Xyz Monster and put it in the Graveyard.
+		</td>
+	</tr>
+	<tr>
+		<td colspan=2>
+			<div align="center">
+				<img src="./images/xyz_summon.png" width=420 />
+			</div>
+			<b>How to Xyz Summon</b>
+			<ol>
+				<li>
+					Choose an Xyz Monster from your Extra Deck that you have the right Xyz Materials for. The Xyz Materials should be face-up on your field.
+				</li>
+				<li>
+				During your Main Phase, declare that you are Xyz Summoning and stack the Xyz Materials on top of each other.
+				</li>
+				<li>
+					Take the Xyz Monster from your Extra Deck and put it on top of the stacked Xyz Materials either in the Extra Monster Zone or in any of your Main Monster Zones in face-up Attack or Defense Position.
+				</li>
+			</ol>
+		</td>
+	</tr>
+</table>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Pendulum Monsters
+
+<table align="center">
+	<tr>
+		<td align="center" width=150>
+			<img src="./images/card_odd-eyes_pendulum_dragon.png" />
+		</td>
+		<td>
+			Pendulum Monster Cards are a unique kind of card that blurs the line between Monsters and Spells! They can be Summoned as monsters to attack or defend, or you can activate them as Spell Cards in your Pendulum Zones to activate extra special abilities and allow you to Pendulum Summon!
+			<br>
+			<img src="./images/pendulum_details.png" />
+			<br>
+			Whenever one of your Pendulum Monster Cards on the field (regardless of which Zone it is in, or even if it is a monster or not) would be sent to the Graveyard, place it face-up on your Extra Deck instead. You can Pendulum Summon it back to the field later! Monsters Pendulum Summoned from the Extra Deck must be Summoned to the Extra Monster Zone or your Main Monster Zone pointed to by a Link Monster.
+		</td>
+	</tr>
+	<tr>
+		<td colspan=2>
+			<div align="center">
+				<img src="./images/pendulum_summon.png" width=420 />
+			</div>
+			<b>How to Pendulum Summon</b>
+			<ol>
+				<li>
+					During your Main Phase, activate Pendulum Monster Cards as Spell Cards in your leftmost and rightmost Spell & Trap Zones. These Spell & Trap Zones also become Pendulum Zones.
+				</li>
+				<li>
+					After you have one in each Pendulum Zone, once per turn during your Main Phase, declare that you're Pendulum Summoning.
+				</li>
+				<li>
+					Check the Pendulum Scales on the sides of your 2 Pendulum Monster Cards, then Special Summon as many monsters as you want from your hand and as many faceup Pendulum Monsters from your Extra Deck, whose Levels are in between those Pendulum Scales.
+				</li>
+			</ol>
+		</td>
+	</tr>
+</table>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Link Monsters
+<table align="center">
+	<tr>
+		<td align="center" width=150>
+			<img src="./images/card_decode_talker.png" />
+		</td>
+		<td>
+			A Link Monster are monsters with the ability to increase the number of monsters you can Summon from your Extra Deck for other Link monsters and Pendulum monsters. In addition to the 1 Extra Monster Zone you can usually use, you can also Summon Link and Pendulum monsters from the Extra Deck to any of your Main Monster Zones that has a Link Monster's red arrow pointing to it.
+			<br>
+			<img src="./images/link_details.png" />
+			<br>
+			If 2 Extra Monster Zones are available, you can choose either one to Summon your monster. If there is a Link Monster already on the field, you can Link Summon a monster in one of your zones it points to.
+		</td>
+	</tr>
+	<tr>
+		<td colspan=2>
+			<div align="center">
+				<img src="./images/link_summon.png" width=420 />
+			</div>
+			<b>How to Link Summon</b>
+			<ol>
+				<li>
+					Check the materials of the Link Monster you want to Summon.
+				</li>
+				<li>
+					During your Main Phase, declare that you are Link Summoning, send a number of face-up monsters from your field to the Graveyard equal to the Link Rating of that Link Monster. They must also match the material requirements listed in the monster's "recipe" written on the card.
+				</li>
+				<li>
+					Place the Link Monster from your Extra Deck in the Extra Monster Zone, or one of your Main Monster Zones that another Link Monster is pointing to.
+				</li>
+			</ol>
+		</td>
+	</tr>
+</table>
+
+#### Special Summon to the Main Monster Zones
+<div align="center">
+	<img src="./images/link_main_monster.png" width=200 />
+</div>
+Link and Pendulum Monsters Summoned from the Extra Deck normally have to go in the Extra Monster Zone. But Link Monsters open up more zones for you to use, because every Main Monster Zone that a Link Monster points to can also be used to Summon Link and Pendulum monsters from your Extra Deck.
+
+Link and Pendulum Monsters that started in the Extra Deck, but later end up in the Graveyard (or are banished) and are Summoned from there, also go in the Main Monster Zones (and don’t need a Link Monster to point to them).
+<br clear="right">
+	
+#### Link Monsters as Link material
+Normally, 1 monster equals 1 Link Material. But when you use a Link Monster as material for another Link Summon, you can count it as either 1 monster, or as a number of monsters equal to its Link Rating. For example, if you want to Summon a Link 3 monster that requires 2 or more materials in its "recipe", you can either use 3 monsters (each counts as 1 material) or else a Link 2 Link Monster (counts as 1 or 2 materials) and a second monster (counts as 1 material).
+
+#### Defense
+Link Monsters have no DEF and cannot ever be in Defense Position. They can't be changed to Defense Position by a card effect. They can't even be flipped into face-down Defense Position.
+
+#### Change control
+If you take control of your opponent's monster in the Extra Monster Zone, it moves to your Main Monster Zone. When it goes back to your opponent, it goes to their Main Monster Zone, not the Extra Monster Zone.
+
+#### Non-monster card as material
+As long as the materials meet the requirements of the Link Monster you want to Summon, you can use a Token or Trap Card that is treated as a monster as the Link Material.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Summoning Monster cards
+
+There are several ways to play monsters onto the field. These ways can be categorized into 2 groups: actions that can be done only once per turn, and actions that can be done multiple times per turn:
+1. **You can do one of these once per turn**:
+   - Normal Summon
+   - Normal Set
+   - Tribute Summon
+2. **You can do as many of these during a turn as you want**:
+   - Flip Summon
+   - Special Summon
+   - Special Summon with a Card's Effect
+
+### Normal Summon
+This is the most common way to Summon a monster. Simply play a Monster Card from your hand onto the field in face-up Attack Position. All Normal Monsters, and most Effect Monsters (unless they have a specific restriction), can be Summoned in this way.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Normal Set
+To play a Monster Card from your hand in face-down Defense Position is called a Normal Set.
+- A monster Normal Set on the field is NOT considered Summoned.
+- It has been Normal Set, and can be Summoned with a Flip Summon or flipped face-up by an attack or card effect.
+- Remember, you can only Normal Summon OR Normal Set (Normal Summon/Set, in short), once per turn, so if you Normal Set a monster you cannot also Normal Summon a monster that turn.
+- You cannot play a monster from your hand onto the field in face-up Defense Position
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Tribute Summon
+For monsters that are Level 5 or higher, you must Tribute at least 1 monster you control before the Normal Summon/Set. This is called a Tribute Summon. Monsters that are Level 5 or 6 require 1 Tribute and Monsters that are Level 7 or higher require 2 Tributes
+<div align="center">
+
+| Level 5, 6 | Level 7 or higher |
+| ---------- | ----------------- |
+| 1 Tribute  | 2 Tributes  		 |
+
+</div>
+
+- If you Tribute Summon in face-down Defense Position, it is called a Tribute Set. A monster Tribute Set on the field is NOT considered Summoned.
+- When a card explains a special method to Tribute Summon a monster, you can also Tribute Set the monster by the same method
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Spell cards
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+[Official rulebook](https://www.yugioh-card.com/en/rulebook/)
 
 # Game mechanics
 
@@ -509,11 +703,11 @@ A card only needs to meet one of the above requirements to be activated during t
 
 ## Summoning
 
-### Summon restrictions and successful summons
+### Summon restrictions and successful Summons
 
 [Source](https://www.yugioh-card.com/en/play/2021_rules_update/)
 
-The restriction of "you cannot Normal or Special Summon the turn you activate this card" only refers to monsters that were successfully summoned. Same for "you can only Special Summon X once per turn" restrictions.
+The restriction of "you cannot Normal or Special Summon the turn you activate this card" only refers to monsters that were successfully Summoned. Same for "you can only Special Summon X once per turn" restrictions.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -531,7 +725,7 @@ The restriction of "you cannot Normal or Special Summon the turn you activate th
 	<!-- cases -->
 	<tr>
 		<td>
-			Properties of the cards used to perform that monster's summon
+			Properties of the cards used to perform that monster's Summon
 			<br>
 			Names, Attributes, Types, Levels of the cards and the number of cards used
 		</td>
@@ -540,7 +734,7 @@ The restriction of "you cannot Normal or Special Summon the turn you activate th
 	</tr>
 	<tr>
 		<td>
-			Which specific copies of cards used to perform that monster's summon
+			Which specific copies of cards used to perform that monster's Summon
 			<br>
 			Fusion, Synchro, Xyz, Link Materials
 		</td>
@@ -549,16 +743,16 @@ The restriction of "you cannot Normal or Special Summon the turn you activate th
 	</tr>
 	<tr>
 		<td>
-			Which specific method or effect performed that monster's summon
+			Which specific method or effect performed that monster's Summon
 			<br>
-			Monsters being summoned by their own specific method
+			Monsters being Summoned by their own specific method
 		</td>
 		<td align="center">❌</td>
 		<td align="center">Adjusting</td>
 	</tr>
 	<tr>
 		<td>
-			Where that monster was summoned from
+			Where that monster was Summoned from
 		</td>
 		<td align="center">❌</td>
 		<td align="center">✔️</td>
@@ -810,7 +1004,7 @@ When a monster on the field is shuffled into the Deck, or becomes an Xyz Materia
 
 [Source](https://www.yugioh-card.com/en/play/2021_rules_update/)
 
-If a monster’s Trigger Effect meets its activation conditions, BUT hasn’t yet had a chance to actually activate yet (because it’s still in the middle of a chain or card effect, for example) and is therefore being "saved for later", BUT its location* changes between the time its Trigger Effect activation is met, and the time it actually has a chance to activate, its effect does not activate. [*On the field, in the Graveyard, in the hand, banished, or in the Deck.]
+If a monster's Trigger Effect meets its activation conditions, BUT hasn't yet had a chance to actually activate yet (because it's still in the middle of a chain or card effect, for example) and is therefore being "saved for later", BUT its location* changes between the time its Trigger Effect activation is met, and the time it actually has a chance to activate, its effect does not activate. [*On the field, in the Graveyard, in the hand, banished, or in the Deck.]
 
 -   [Example](https://db.ygoresources.com/qa#23251)
 
