@@ -24,7 +24,18 @@
 		- [Normal Summon](#normal-summon)
 		- [Normal Set](#normal-set)
 		- [Tribute Summon](#tribute-summon)
+		- [Flip Summon](#flip-summon)
+		- [Special Summon](#special-summon)
+		- [Special Summon with a Card's Effect](#special-summon-with-a-cards-effect)
+			- [Properly Special Summon](#properly-special-summon)
+			- [Summon restrictions and successful Summons](#summon-restrictions-and-successful-summons)
 	- [Spell cards](#spell-cards)
+		- [Normal Spell Cards](#normal-spell-cards)
+		- [Ritual Spell Cards](#ritual-spell-cards)
+		- [Continuous Spell Cards](#continuous-spell-cards)
+		- [Equip Spell Cards](#equip-spell-cards)
+		- [Field Spell Cards](#field-spell-cards)
+		- [Quick-Play Spell Cards](#quick-play-spell-cards)
 - [Game mechanics](#game-mechanics)
 	- [Turns](#turns)
 		- [Damage Step](#damage-step)
@@ -32,8 +43,6 @@
 			- [Cards/effects that can be activated during the Damage Step](#cardseffects-that-can-be-activated-during-the-damage-step)
 - [Card text](#card-text)
 	- [Problem Solving Card Text (PSCT)](#problem-solving-card-text-psct)
-	- [Summoning](#summoning)
-		- [Summon restrictions and successful Summons](#summon-restrictions-and-successful-summons)
 	- [Effects](#effects)
 		- [Retaining information](#retaining-information)
 		- [Stats (ATK/DEF) modifiers](#stats-atkdef-modifiers)
@@ -143,7 +152,6 @@ ATK is a monster's Attack Points and DEF is a monster's Defense Points. High Att
 **7. Card Description**\
 Card effects are written here, describing the monster's special abilities and how to use them. Normally, the effects of monsters cannot be used while they are Set face-down on the field. Yellow Normal Monster Cards do not have effects, and have a description of them written here that does not affect the game.
 
-Monster Cards are used to battle and defeat your opponent. Battles between Monster Cards are the foundation of any Duel.\
 There are many kinds of Monster Cards. This game is more than a simple slugfest, so monsters with high Attack and Defense Points will not be enough. There are also monsters with strong special effects even though their ATK and DEF points are low. Therefore, your success in a Duel depends on how skillfully you can make use of the different kinds of cards.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -445,23 +453,32 @@ There are many kinds of Monster Cards. This game is more than a simple slugfest,
 	</tr>
 </table>
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 #### Special Summon to the Main Monster Zones
 <div align="center">
 	<img src="./images/link_main_monster.png" width=200 />
 </div>
 Link and Pendulum Monsters Summoned from the Extra Deck normally have to go in the Extra Monster Zone. But Link Monsters open up more zones for you to use, because every Main Monster Zone that a Link Monster points to can also be used to Summon Link and Pendulum monsters from your Extra Deck.
 
-Link and Pendulum Monsters that started in the Extra Deck, but later end up in the Graveyard (or are banished) and are Summoned from there, also go in the Main Monster Zones (and don’t need a Link Monster to point to them).
-<br clear="right">
+Link and Pendulum Monsters that started in the Extra Deck, but later end up in the Graveyard (or are banished) and are Summoned from there, also go in the Main Monster Zones (and don't need a Link Monster to point to them).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 	
 #### Link Monsters as Link material
 Normally, 1 monster equals 1 Link Material. But when you use a Link Monster as material for another Link Summon, you can count it as either 1 monster, or as a number of monsters equal to its Link Rating. For example, if you want to Summon a Link 3 monster that requires 2 or more materials in its "recipe", you can either use 3 monsters (each counts as 1 material) or else a Link 2 Link Monster (counts as 1 or 2 materials) and a second monster (counts as 1 material).
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 #### Defense
 Link Monsters have no DEF and cannot ever be in Defense Position. They can't be changed to Defense Position by a card effect. They can't even be flipped into face-down Defense Position.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 #### Change control
 If you take control of your opponent's monster in the Extra Monster Zone, it moves to your Main Monster Zone. When it goes back to your opponent, it goes to their Main Monster Zone, not the Extra Monster Zone.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 #### Non-monster card as material
 As long as the materials meet the requirements of the Link Monster you want to Summon, you can use a Token or Trap Card that is treated as a monster as the Link Material.
@@ -509,11 +526,127 @@ For monsters that are Level 5 or higher, you must Tribute at least 1 monster you
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Spell cards
+### Flip Summon
+
+You can change a face-down Defense Position monster into face-up Attack Position, without using a card effect. This is called a Flip Summon.
+- When you Flip Summon, you cannot change the monster to face-up Defense Position, only to face-up Attack Position.
+- A Monster Card cannot be Flip Summoned in the same turn that it was Set onto the field.
+- You cannot use most monsters' effects until they are face-up
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-[Official rulebook](https://www.yugioh-card.com/en/rulebook/)
+### Special Summon
+
+Some monsters can be played onto the field without being Normal Summoned or Set. This is called a Special Summon. Link Summons, Pendulum Summons, Xyz Summons, Synchro Summons, Fusion Summons and Ritual Summons are all Special Summons. Some Effect Monsters also have specific conditions that allow you to Special Summon them. Unless otherwise specified, a Special Summoned monster is played onto the field in your choice of face-up Attack Position or face-up Defense Position.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Special Summon with a Card's Effect
+
+Monsters can also be Special Summoned onto the field through the effect of another card.
+
+#### Properly Special Summon
+This is different from "Special Summon Monsters." You cannot use a card effect to Special Summon those monsters from your hand, Deck, or the Graveyard unless it was properly Special Summoned first. For example, if a Synchro Monster is sent from your Extra Deck to the Graveyard without being Synchro Summoned, you cannot use a Spell Card to Special Summon it from the Graveyard, because Synchro Monsters have to be properly Special Summoned first, before they can be Special Summoned by another card's effect.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+#### Summon restrictions and successful Summons
+
+[Source](https://www.yugioh-card.com/en/play/2021_rules_update/)
+
+The restriction of "you cannot Normal or Special Summon the turn you activate this card" only refers to monsters that were successfully Summoned. Same for "you can only Special Summon X once per turn" restrictions.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Spell cards
+
+<div align="center">
+	<img src="./images/spell_trap_card.png" width=400 />
+</div>
+
+**1. Card Name**\
+Remember, cards with the same name are considered to be the same card, and you can only have up to 3 copies of the same card in your Main Deck and Side Deck combined.
+
+**2. Type**\
+Instead of having an Attribute symbol like Monster Cards, a Spell Card has the "SPELL 魔" symbol and a Trap Card has the "TRAP 罠" symbol.
+
+**3. Icon**
+<div align="center">
+	<img src="./images/spell_trap_icons.png" width=220 />
+</div>
+
+There are 6 types of icons that represent special properties a Spell or Trap Card may have. Spell and Trap Cards without an icon are called Normal Spell Cards or Normal Trap Cards.
+
+**4. Card Description**\
+Each card's activation conditions and effects are provided here.
+
+**5. Card Number**\
+A card's identification number is found here. This number is useful for collecting, and for sorting your collection.
+
+Spell Cards can normally be activated only during your Main Phase, and help you out with different effects. Spell Cards have many powerful effects, like destroying other cards or strengthening monsters. Save these cards in your hand until you can get the best results out of them.
+
+### Normal Spell Cards
+
+<div>
+	<img align="left" src="./images/icon_normal.png" width=50>
+	Normal Spell Cards have single-use effects. To use a Normal Spell Card, announce its activation to your opponent, placing it face-up on the field. If the activation succeeds, then you resolve the effect written on the card. After resolving the effect, send the card to the Graveyard. 
+	<br clear="left">
+</div>
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Ritual Spell Cards
+
+<div>
+	<img align="left" src="./images/icon_ritual.png" width=50>
+	These Spell Cards are used to perform Ritual Summons. Use these cards in the same way as you would use Normal Spell Cards.
+	<br clear="left">
+</div>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Continuous Spell Cards
+
+<div>
+	<img align="left" src="./images/icon_continuous.png" width=50>
+	These cards remain on the field once they are activated, and their effect continues while the card stays face-up on the field.
+	<br clear="left">
+</div>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Equip Spell Cards
+
+<div>
+	<img align="left" src="./images/icon_equip.png" width=50>
+	These cards give an extra effect to 1 face-up monster of your choice (either your own or your opponent's, depending on the card). They remain on the field after they are activated. The Equip Spell Card affects only 1 monster (called the equipped monster), but still occupies one of your Spell & Trap Zones. If the equipped monster is destroyed, flipped face-down, or removed from the field, its Equip Cards are destroyed.
+	<br clear="left">
+</div>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Field Spell Cards
+
+<div>
+	<img align="left" src="./images/icon_field.png" width=50>
+	These cards go in your Field Zone and stay there. Each player can have 1 Field Spell Card on their own side of the field. To use another Field Spell, send your previous one to the Graveyard. These cards may be placed facedown in the Field Zone, but are not active until flipped face-up.
+	<br clear="left">
+</div>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Quick-Play Spell Cards
+
+<div>
+	<img align="left" src="./images/icon_quick.png" width=50>
+	These are special Spell Cards that can be activated during any Phase of your turn, not just your Main Phase. You can also activate them during your opponent's turn if you Set the card face-down first, but then you cannot activate the card in the same turn you Set it.
+	<br clear="left">
+</div>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 # Game mechanics
 
@@ -699,16 +832,6 @@ A card only needs to meet one of the above requirements to be activated during t
 
 ## Problem Solving Card Text (PSCT)
 [Source](https://yugiohblog.konami.com/articles/?tag=problem-solving-card-text)
-
-## Summoning
-
-### Summon restrictions and successful Summons
-
-[Source](https://www.yugioh-card.com/en/play/2021_rules_update/)
-
-The restriction of "you cannot Normal or Special Summon the turn you activate this card" only refers to monsters that were successfully Summoned. Same for "you can only Special Summon X once per turn" restrictions.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Effects
 
