@@ -149,11 +149,10 @@ There are many kinds of Monster Cards. This game is more than a simple slugfest,
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Normal Monsters
-
 <table align="center">
 	<tr>
-		<td align="center" width=100>
-			<img src="./images/card_blue-eyes_white_dragon.png" width=200 />
+		<td align="center" width=150>
+			<img src="./images/card_blue-eyes_white_dragon.png" />
 		</td>
 		<td>
 			These are basic Monster Cards without special abilities. Many Normal Monsters have higher Attack Points and Defense Points than Effect Monsters, instead of having special abilities.
