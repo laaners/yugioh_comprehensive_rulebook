@@ -314,7 +314,7 @@ There are many kinds of Monster Cards. This game is more than a simple slugfest,
 	<tr>
 		<td colspan=2>
 			<div align="center">
-				<img src="./images/synchro_Summon.png" width=420 />
+				<img src="./images/synchro_summon.png" width=420 />
 			</div>
 			<b>How to synchro Summon</b>
 			<ol>
