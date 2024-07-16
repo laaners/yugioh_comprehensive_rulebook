@@ -36,11 +36,28 @@
 		- [Equip Spell Cards](#equip-spell-cards)
 		- [Field Spell Cards](#field-spell-cards)
 		- [Quick-Play Spell Cards](#quick-play-spell-cards)
-- [Game mechanics](#game-mechanics)
-	- [Turns](#turns)
+	- [Trap cards](#trap-cards)
+		- [Normal Trap Cards](#normal-trap-cards)
+		- [Continuous Trap Cards](#continuous-trap-cards)
+		- [Counter Trap Cards](#counter-trap-cards)
+- [Duel and Turn Structure](#duel-and-turn-structure)
+	- [Draw Phase](#draw-phase)
+	- [Standby Phase](#standby-phase)
+	- [Main Phase 1](#main-phase-1)
+	- [Battle Phase](#battle-phase)
+		- [Start Step](#start-step)
+		- [Battle Step](#battle-step)
+			- [Replay Rules during the Battle Step](#replay-rules-during-the-battle-step)
 		- [Damage Step](#damage-step)
+			- [Determining Damage](#determining-damage)
 			- [Sub-steps of the Damage Step](#sub-steps-of-the-damage-step)
 			- [Cards/effects that can be activated during the Damage Step](#cardseffects-that-can-be-activated-during-the-damage-step)
+		- [End Step](#end-step)
+	- [Main Phase 2](#main-phase-2)
+	- [End Phase](#end-phase)
+- [Activations](#activations)
+	- [Chains](#chains)
+		- [Spell Speed](#spell-speed)
 - [Card text](#card-text)
 	- [Problem Solving Card Text (PSCT)](#problem-solving-card-text-psct)
 	- [Effects](#effects)
@@ -517,7 +534,7 @@ For monsters that are Level 5 or higher, you must Tribute at least 1 monster you
 
 | Level 5, 6 | Level 7 or higher |
 | ---------- | ----------------- |
-| 1 Tribute  | 2 Tributes  		 |
+| 1 Tribute  | 2 Tributes        |
 
 </div>
 
@@ -572,7 +589,7 @@ Instead of having an Attribute symbol like Monster Cards, a Spell Card has the "
 
 **3. Icon**
 <div align="center">
-	<img src="./images/spell_trap_icons.png" width=220 />
+	<img src="./images/spell_trap_icons.png" width=320 />
 </div>
 
 There are 6 types of icons that represent special properties a Spell or Trap Card may have. Spell and Trap Cards without an icon are called Normal Spell Cards or Normal Trap Cards.
@@ -646,15 +663,204 @@ Spell Cards can normally be activated only during your Main Phase, and help you 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Trap cards
+
+Trap Cards will help you out with different effects, just like Spell Cards. The big difference between them is that you can activate Trap Cards during your opponent's turn. Before you can activate a Trap Card, you must Set it on the field first. You cannot activate a Trap in the same turn that you Set it, but you can activate it at any time after that-starting from the beginning of the next turn.
+
+Spell Cards can be Set face-down on the field like Trap Cards. However, the rules for the two types of cards are different. Spell Cards can be activated during the Main Phases even in the same turn that you Set them (except for Quick-Play Spell Cards). Setting them does not allow you to use them on your opponent's turn; they still can only be activated during your Main Phase. You can Set a Spell Card face-down on the field to bluff your opponent into thinking you have a powerful Trap.
+
+### Normal Trap Cards
+
+<div>
+	<img align="left" src="./images/icon_normal.png" width=50>
+	These are special Spell Cards that can be activated during any Phase of your turn, not just your Main Phase. You can also activate them during your opponent's turn if you Set the card face-down first, but then you cannot activate the card in the same turn you Set it.
+	<br clear="left">
+</div>
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-# Game mechanics
+### Continuous Trap Cards
 
-## Turns
+<div>
+	<img align="left" src="./images/icon_continuous.png" width=50>
+	Just like Continuous Spell Cards, Continuous Trap Cards remain on the field once they are activated and their effects continue while they are face-up on the field. Some Continuous Trap Cards have abilities similar to the Ignition Effects or Trigger Effects that can be found on Effect Monster Cards.
+	<br clear="left">
+</div>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Counter Trap Cards
+
+<div>
+	<img align="left" src="./images/icon_counter.png" width=50>
+	These Trap Cards are normally activated in response to the activation of other cards, and may have abilities like negating the effects of those cards. These types of Traps are effective against Normal Spell Cards or Normal Trap Cards, which are otherwise hard to stop, however many Counter Trap Cards require a cost to activate them.
+	<br clear="left">
+</div>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+# Duel and Turn Structure
+[Official rulebook](https://www.yugioh-card.com/en/rulebook/)
+
+**A Duel**\
+A single game is called a Duel, and a Duel ends when one player wins or the game ends in a draw. Duels are played in sets of 3 called a Match, and the winner of best 2-out-of-3 wins the Match.
+
+**Winning a Duel**\
+Each player starts a Duel with 8000 LP (Life Points). You win a Duel if:
+- You reduce your opponent's LP to 0
+- If your opponent is unable to draw a card
+- If a card's special effect says you win
+
+If you and your opponent both reach 0 LP at the same time, the Duel is declared a draw.
+
+A Duel progresses in a series of turns which are divided into phases
+
+<div align="center">
+	<img src="./images/turn_structure.png" width=300 />
+</div>
+
+## Draw Phase
+
+This is the first phase. The player whose turn it is (the "turn player")
+- **Must draw 1 card** from the top of their Deck (**except for the very
+1st turn of the Duel**). A player with no cards left in their Deck and unable to draw loses the Duel.
+- **Can**, after the draw, **activate Trap Cards or Quick-Play Spell Cards** before proceeding to the Standby Phase.
+
+**IMPORTANT**: The player who goes first cannot draw during the Draw Phase of their first turn.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Standby Phase
+
+Some cards have effects that activate, or costs you must pay, in the Standby Phase. The turn player:
+- **Can activate Trap Cards or Quick-Play Spell Cards** before proceeding to the Main Phase 1.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Main Phase 1
+
+This is when you play most of your cards: you can Normal Summon, Set, or change the battle position of a monster, activate a card's effect, and Set Spell and Trap Cards. These actions can be done in any order you want, but some actions have restrictions. The turn player:
+- **Can Summon or Set a monster**. There is no limit to the number of times you can Flip Summon or Special Summon during a turn, but you can only Normal Summon or Set a monster (including a Tribute Summon) once per turn.
+- **Can change their Monster's Battle Position**. This includes Flip Summoning a monster, or changing the position of a face-up monster to face-up Attack or Defense Position. You can change the position of each monster you control, except in three cases:
+  1. You cannot change the battle position of a monster that was played onto the field this turn.
+  2. You cannot change it in Main Phase 2 if the monster attacked during the Battle Phase.
+  3. You cannot change it if you have already changed its battle position once this turn.
+- **Can Activate a Card or Effect**. You can activate Spell and Trap Cards, or the effects of Spell, Trap, or Effect Monster Cards as many times as you want during this phase, as long as you can keep paying any costs involved. 
+- **Can Set Spell and Trap Cards**. You can Set Spell and Trap Cards face-down in your Spell & Trap Zone during this phase, as long as you have space.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Battle Phase
+
+Now it's time to battle with your Monster Cards! This phase is divided into steps. You do not have to conduct a Battle Phase every turn, even if you have a monster on the field.
+
+**IMPORTANT**: The player who goes first cannot conduct their Battle Phase on their first turn.
+
+<div align="center">
+	<img src="./images/bp_steps.png" width=300 />
+</div>
+
+The Battle Phase is split into 4 steps and is conducted in the
+order shown in the diagram. The Battle Step and Damage Step are repeated each time you attack with a monster.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Start Step
+
+This step starts the Battle Phase. The turn player should announce "I'm entering the Battle Phase." Remember, the player who goes first cannot conduct a Battle Phase in their very first turn.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Battle Step
+
+Select 1 monster on your side of the field to attack with, and 1 of your opponent's monsters as your attack target, and then declare the attack. If your opponent does not have any monsters on the field, you can attack directly. Play then proceeds to the Damage Step. Afterwards, the attacking player returns to the Battle Step, and repeats this procedure.
+- Each face-up Attack Position monster you control is allowed 1 attack per turn.
+- You do not have to attack with a monster if you don't want to.
+
+#### Replay Rules during the Battle Step
+
+<div>
+	<img align="left" src="./images/batte_step_replay.png" width=160>
+	After you've announced your attacking monster and the attack target monster during a Battle Step, the attack target might be removed from the field, or a new monster may be played onto the opponent's side of the field before the Damage Step, due to a card's effect. This causes a "Replay." When this occurs, you can choose to attack with the same monster again, or choose to attack with a different monster, or choose not to attack at all.
+	<br>
+	Note that if you attack with a different monster, the first monster is still considered to have declared an attack, and it cannot attack again this turn.
+	<br clear="left">
+</div>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Damage Step
-[Source](https://www.yugioh-card.com/eu/play/damage-step-rules/),
+[Official damage step rules](https://www.yugioh-card.com/eu/play/damage-step-rules/),
 [Yugipedia](https://yugipedia.com/wiki/Damage_Step)
+
+In this step, the players calculate the result of the battle and whatever damage is done. After finishing the Damage Step, return to the Battle Step.
+
+#### Determining Damage
+
+You calculate battle damage based on the battle position of the monster you are attacking. If you attack an Attack Position monster, compare ATK vs. ATK. If you attack a Defense Position monster, compare your monster's ATK vs. the attacked monster's DEF.
+
+<table align="center">
+	<tr>
+		<th colspan=2>
+			<br/>
+			ATK. of the attacking Monster VS. ATK of Opponent's Monster
+			<br/>			
+			<br/>			
+		</th>
+	</tr>
+	<tr>
+		<th>WIN</th>
+		<td>
+			When your attacking monster's ATK is higher than the ATK of the opponent's monster, the attacking monster destroys the opponent's monster and sends it to the Graveyard. The amount that your attacking monster's ATK exceeds the ATK of your opponent's monster is subtracted from your opponent's LP as battle damage.
+		</td>
+	</tr>
+	<tr>
+		<th>TIE</th>
+		<td>
+			When your attacking monster's ATK is equal to the ATK of the opponent's monster, the result is considered a tie, and both monsters are destroyed. Neither player takes any battle damage.
+			<br/>
+			<b>Monsters with 0 ATK cannot destroy anything by battle. If two Attack Position monsters with 0 ATK battle each other, neither monster is destroyed.</b> <a href="(https://www.yugioh-card.com/en/rulebook/">(Official rulebook page 50)</a>
+		</td>
+	</tr>
+	<tr>
+		<th>LOSE</th>
+		<td>
+			When your attacking monster's ATK is lower than the ATK of the opponent's monster, the attacking monster is destroyed and sent to the Graveyard. The amount that the opponent's monster's ATK exceeds the ATK of your attacking monster is subtracted from your LP as battle damage.
+		</td>
+	</tr>
+</table>
+<table align="center">
+	<tr>
+		<th colspan=2>
+			<br/>
+			ATK. of the attacking Monster VS. DEF of Opponent's Monster
+			<br/>			
+			<br/>			
+		</th>
+	</tr>
+	<tr>
+		<th>WIN</th>
+		<td>
+			When your attacking monster's ATK is higher than the DEF of the opponent's monster, the attacking monster destroys the opponent's monster and sends it to the Graveyard. Neither player takes any battle damage.
+		</td>
+	</tr>
+	<tr>
+		<th>TIE</th>
+		<td>
+			When your attacking monster's ATK is equal to the DEF of the opponent's monster, neither monster is destroyed. Neither player takes any battle damage.
+		</td>
+	</tr>
+	<tr>
+		<th>LOSE</th>
+		<td>
+			When your attacking monster's ATK is lower than the DEF of the opponent's monster, neither monster is destroyed. The amount that the opponent's monster's DEF exceeds the ATK of your attacking monster is subtracted from your LP as battle damage.
+		</td>
+	</tr>
+</table>
+
+If there are no monsters on your opponent's side of the field, you can attack directly. The full amount of your attacking monster's ATK is subtracted from the opponent's LP as battle damage.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 #### Sub-steps of the Damage Step
 There are five distinct timings within the Damage Step.
@@ -788,7 +994,7 @@ There are five distinct timings within the Damage Step.
 
 ✔️ Fast effects that negate the **activation** of a card(s), or negate the **activation** of an effect(s)
 
-✔️ Spell/Trap Cards and Quick/Quick-like Effects that directly alter the ATK/DEF of a monster(s), but only up until damage calculation. During damage calculation or afterwards in the Damage Step, they cannot be activated
+✔️ Spell/Trap Cards and Quick/Quick-like Effects that directly alter the ATK/DEF of a monster(s), but **only up until damage calculation**. During damage calculation or afterwards in the Damage Step, they cannot be activated
 	
 $\hspace{2em}$✔️ These cards and effects do not have to affect a battling monster; they can be used during the Damage Step to affect the ATK/DEF of a monster(s) that is not currently battling
 
@@ -825,6 +1031,45 @@ $\hspace{2em}$✔️ This is indicated by phrases in the text such as "During da
 $\hspace{2em}$✔️ This includes cards and effects that activate in response to damage (without specifying battle damage). If a Set Continuous Trap Card has an optional Trigger-like or optional Quick-like Effect with an activation timing at least partially specific to the Damage Step (such as "Yang Zing Creation" and "Damage = Reptile"), that Trap Card can be activated during the Damage Step if that Trigger-like/Quick-like Effect is also activated in the same Chain Link as the activation of the Trap Card itself
 
 A card only needs to meet one of the above requirements to be activated during the Damage Step. As long as it does not explicitly specify (except during the Damage Step), even if it fails to satisfy one of the above requirements, if it satisfies another one it can be activated during the Damage Step. For example, "Rope of Life" Special Summons a monster and exclusively changes the ATK of the Summoned monster (like "Reverse of Neos"); cards with such effects cannot be activated during the Damage Step for that reason alone, but since "Rope of Life" also has an activation timing that is unique to the Damage Step ("When a monster(s) is destroyed by battle and sent to your Graveyard:"), it can be activated during the Damage Step.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### End Step
+
+After you've resolved all your battles by repeating the Battle and Damage Steps, and you have no more monsters you want to attack with, announce to your opponent that you are ending your Battle Phase.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Main Phase 2
+
+**If you conducted your Battle Phase**, your turn moves to Main Phase 2 afterwards. The actions a player can perform in this phase are the same as in Main Phase 1. However, if the player already did something in Main Phase 1 that has a limit to the number of times it can be done, the player cannot do it again in Main Phase 2.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## End Phase
+
+Announce the end of your turn, and if there are any cards on the field which say "...during the End Phase..." in their text, resolve those effects in this phase. If you have more than 6 cards in your hand at the end of this phase, select and discard cards to the Graveyard until you only have 6 cards in your hand.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+# Activations
+
+## Chains
+
+[Official rulebook](https://www.yugioh-card.com/en/rulebook/)
+
+Chains are a way to order the resolution of multiple card effects. They are used when the effects of more than 1 card are activated at once, or when a player wants to use an effect after a card has been played, but BEFORE that card has an effect on the game.
+
+If a card's effect is activated, the opponent is always given a chance to respond with a card effect of their own, creating a Chain. If your opponent responds with an effect, then you can choose to respond and add another effect to the Chain. If your opponent does not respond, you may activate a second effect and create a Chain to your own card's activation. Both players continue to add effects to the Chain until they both wish to add nothing else, then you resolve the outcome in reverse order - starting with the last card that was activated.
+<div>
+	<img align="left" src="./images/chain_diagram.png" width=200>
+	As shown in the diagram, the first effect activated is Chain Link 1. The next effect is Chain Link 2, and so on. Every time a new Chain Link is made, they are stacked up in the order that the cards are activated. Once the Chain is completed, the outcome is resolved starting with the most recent card to be activated at the top of the Chain and proceeding down to Chain Link 1
+	<br clear="left">
+</div>
+
+### Spell Speed
+
+Every type of card effect has a Spell Speed between 1 and 3. If you want to respond to a card effect in a Chain, you have to use an effect with Spell Speed 2 or higher, and it cannot have a lower Spell Speed than the effect you are responding to.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
