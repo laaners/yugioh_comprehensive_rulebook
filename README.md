@@ -3,33 +3,76 @@
 <!-- TOC -->
 
 - [Getting started](#getting-started)
-	- [Things you need to duel](#things-you-need-to-duel)
-	- [The Game Mat/Field](#the-game-matfield)
+    - [Things you need to duel](#things-you-need-to-duel)
+    - [The Game Mat/Field](#the-game-matfield)
 - [Game cards](#game-cards)
-	- [Monster cards](#monster-cards)
-		- [Normal Monsters](#normal-monsters)
-		- [Effect Monsters](#effect-monsters)
-		- [Ritual Monsters](#ritual-monsters)
-		- [Fusion Monsters](#fusion-monsters)
-		- [Synchro Monsters](#synchro-monsters)
-		- [Xyz Monsters](#xyz-monsters)
-		- [Pendulum Monsters](#pendulum-monsters)
-		- [Link Monsters](#link-monsters)
-			- [Special Summon to the Main Monster Zones](#special-summon-to-the-main-monster-zones)
-			- [Link Monsters as Link material](#link-monsters-as-link-material)
-			- [Defense](#defense)
-			- [Change control](#change-control)
-			- [Non-monster card as material](#non-monster-card-as-material)
-	- [Summoning Monster cards](#summoning-monster-cards)
-		- [Normal Summon](#normal-summon)
-		- [Normal Set](#normal-set)
-		- [Tribute Summon](#tribute-summon)
-		- [Flip Summon](#flip-summon)
-		- [Special Summon](#special-summon)
-		- [Special Summon with a Card's Effect](#special-summon-with-a-cards-effect)
-			- [Properly Special Summon](#properly-special-summon)
-			- [Summon restrictions and successful Summons](#summon-restrictions-and-successful-summons)
-	- [Spell cards](#spell-cards)
+    - [Monster cards](#monster-cards)
+        - [Normal Monsters](#normal-monsters)
+        - [Effect Monsters](#effect-monsters)
+        - [Ritual Monsters](#ritual-monsters)
+        - [Fusion Monsters](#fusion-monsters)
+        - [Synchro Monsters](#synchro-monsters)
+        - [Xyz Monsters](#xyz-monsters)
+        - [Pendulum Monsters](#pendulum-monsters)
+        - [Link Monsters](#link-monsters)
+            - [Special Summon to the Main Monster Zones](#special-summon-to-the-main-monster-zones)
+            - [Link Monsters as Link material](#link-monsters-as-link-material)
+            - [Defense](#defense)
+            - [Change control](#change-control)
+            - [Non-monster card as material](#non-monster-card-as-material)
+    - [Summoning Monster cards](#summoning-monster-cards)
+        - [Normal Summon](#normal-summon)
+        - [Normal Set](#normal-set)
+        - [Tribute Summon](#tribute-summon)
+        - [Flip Summon](#flip-summon)
+        - [Special Summon](#special-summon)
+        - [Special Summon with a Card's Effect](#special-summon-with-a-cards-effect)
+            - [Properly Special Summon](#properly-special-summon)
+            - [Summon restrictions and successful Summons](#summon-restrictions-and-successful-summons)
+    - [Spell cards](#spell-cards)
+        - [Normal Spell Cards](#normal-spell-cards)
+        - [Ritual Spell Cards](#ritual-spell-cards)
+        - [Continuous Spell Cards](#continuous-spell-cards)
+        - [Equip Spell Cards](#equip-spell-cards)
+        - [Field Spell Cards](#field-spell-cards)
+        - [Quick-Play Spell Cards](#quick-play-spell-cards)
+    - [Trap cards](#trap-cards)
+        - [Normal Trap Cards](#normal-trap-cards)
+        - [Continuous Trap Cards](#continuous-trap-cards)
+        - [Counter Trap Cards](#counter-trap-cards)
+- [Duel and Turn Structure](#duel-and-turn-structure)
+    - [Draw Phase](#draw-phase)
+    - [Standby Phase](#standby-phase)
+    - [Main Phase 1](#main-phase-1)
+    - [Battle Phase](#battle-phase)
+        - [Start Step](#start-step)
+        - [Battle Step](#battle-step)
+            - [Replay Rules during the Battle Step](#replay-rules-during-the-battle-step)
+        - [Damage Step](#damage-step)
+            - [Determining Damage](#determining-damage)
+            - [Sub-steps of the Damage Step](#sub-steps-of-the-damage-step)
+            - [Cards/effects that can be activated during the Damage Step](#cardseffects-that-can-be-activated-during-the-damage-step)
+        - [End Step](#end-step)
+    - [Main Phase 2](#main-phase-2)
+    - [End Phase](#end-phase)
+- [Activations](#activations)
+    - [Chains](#chains)
+        - [Spell Speed](#spell-speed)
+- [Card text](#card-text)
+    - [Problem Solving Card Text PSCT](#problem-solving-card-text-psct)
+    - [Effects](#effects)
+        - [Retaining information](#retaining-information)
+        - [Stats ATK/DEF modifiers](#stats-atkdef-modifiers)
+            - [Categories and interactions](#categories-and-interactions)
+            - [Special cases](#special-cases)
+        - [Trigger effects](#trigger-effects)
+            - [Leaves the field](#leaves-the-field)
+            - [Location changes mid-chain](#location-changes-mid-chain)
+        - [Specific effects](#specific-effects)
+            - [Prohibition](#prohibition)
+            - [Rivalry of the Warlords](#rivalry-of-the-warlords)
+
+<!-- /TOC -->
 		- [Normal Spell Cards](#normal-spell-cards)
 		- [Ritual Spell Cards](#ritual-spell-cards)
 		- [Continuous Spell Cards](#continuous-spell-cards)
@@ -369,7 +412,7 @@ There are many kinds of Monster Cards. This game is more than a simple slugfest,
 		<td>
 			Xyz Monsters (pronounced "ikseez") can be Xyz Summoned whenever you control monsters that are the same Level. Xyz Monsters start in your Extra Deck, not in your Main Deck, and wait for you to call them into action.
 			<br>
-			<img src="./images/xyz_details.png" />
+			<img src="./images/xyz_details.png" width=350 />
 			<br>
 			When an Xyz Monster tells you to "detach" a material, take one of the stacked Xyz Material cards beneath your Xyz Monster and put it in the Graveyard.
 		</td>
@@ -407,7 +450,7 @@ There are many kinds of Monster Cards. This game is more than a simple slugfest,
 		<td>
 			Pendulum Monster Cards are a unique kind of card that blurs the line between Monsters and Spells! They can be Summoned as monsters to attack or defend, or you can activate them as Spell Cards in your Pendulum Zones to activate extra special abilities and allow you to Pendulum Summon!
 			<br>
-			<img src="./images/pendulum_details.png" />
+			<img src="./images/pendulum_details.png" width=350 />
 			<br>
 			Whenever one of your Pendulum Monster Cards on the field (regardless of which Zone it is in, or even if it is a monster or not) would be sent to the Graveyard, place it face-up on your Extra Deck instead. You can Pendulum Summon it back to the field later! Monsters Pendulum Summoned from the Extra Deck must be Summoned to the Extra Monster Zone or your Main Monster Zone pointed to by a Link Monster.
 		</td>
@@ -444,7 +487,7 @@ There are many kinds of Monster Cards. This game is more than a simple slugfest,
 		<td>
 			A Link Monster are monsters with the ability to increase the number of monsters you can Summon from your Extra Deck for other Link monsters and Pendulum monsters. In addition to the 1 Extra Monster Zone you can usually use, you can also Summon Link and Pendulum monsters from the Extra Deck to any of your Main Monster Zones that has a Link Monster's red arrow pointing to it.
 			<br>
-			<img src="./images/link_details.png" />
+			<img src="./images/link_details.png" width=350 />
 			<br>
 			If 2 Extra Monster Zones are available, you can choose either one to Summon your monster. If there is a Link Monster already on the field, you can Link Summon a monster in one of your zones it points to.
 		</td>
@@ -474,7 +517,7 @@ There are many kinds of Monster Cards. This game is more than a simple slugfest,
 
 #### Special Summon to the Main Monster Zones
 <div align="center">
-	<img src="./images/link_main_monster.png" width=200 />
+	<img src="./images/link_main_monster.png" width=250 />
 </div>
 Link and Pendulum Monsters Summoned from the Extra Deck normally have to go in the Extra Monster Zone. But Link Monsters open up more zones for you to use, because every Main Monster Zone that a Link Monster points to can also be used to Summon Link and Pendulum monsters from your Extra Deck.
 
@@ -780,7 +823,7 @@ Select 1 monster on your side of the field to attack with, and 1 of your opponen
 #### Replay Rules during the Battle Step
 
 <div>
-	<img align="left" src="./images/batte_step_replay.png" width=160>
+	<img align="left" src="./images/batte_step_replay.png" width=180>
 	After you've announced your attacking monster and the attack target monster during a Battle Step, the attack target might be removed from the field, or a new monster may be played onto the opponent's side of the field before the Damage Step, due to a card's effect. This causes a "Replay." When this occurs, you can choose to attack with the same monster again, or choose to attack with a different monster, or choose not to attack at all.
 	<br>
 	Note that if you attack with a different monster, the first monster is still considered to have declared an attack, and it cannot attack again this turn.
@@ -1062,7 +1105,7 @@ Chains are a way to order the resolution of multiple card effects. They are used
 
 If a card's effect is activated, the opponent is always given a chance to respond with a card effect of their own, creating a Chain. If your opponent responds with an effect, then you can choose to respond and add another effect to the Chain. If your opponent does not respond, you may activate a second effect and create a Chain to your own card's activation. Both players continue to add effects to the Chain until they both wish to add nothing else, then you resolve the outcome in reverse order - starting with the last card that was activated.
 <div>
-	<img align="left" src="./images/chain_diagram.png" width=200>
+	<img align="left" src="./images/chain_diagram.png" width=250>
 	As shown in the diagram, the first effect activated is Chain Link 1. The next effect is Chain Link 2, and so on. Every time a new Chain Link is made, they are stacked up in the order that the cards are activated. Once the Chain is completed, the outcome is resolved starting with the most recent card to be activated at the top of the Chain and proceeding down to Chain Link 1
 	<br clear="left">
 </div>
@@ -1070,6 +1113,56 @@ If a card's effect is activated, the opponent is always given a chance to respon
 ### Spell Speed
 
 Every type of card effect has a Spell Speed between 1 and 3. If you want to respond to a card effect in a Chain, you have to use an effect with Spell Speed 2 or higher, and it cannot have a lower Spell Speed than the effect you are responding to.
+
+Spell, Trap, and Effect Monster effects have different Spell Speeds. There are Spell Speeds from 1 to 3. You can only respond with an effect if it is Spell Speed 2 or higher, and has an equal or greater Spell Speed than the effect on the Chain Link before it.
+
+<table>
+	<tr>
+		<th>Spell Speed 1</th>
+		<td>
+			Includes:
+			<ul>
+				<li>
+					Spells (Normal, Equip, Continuous, Field, Ritual),
+				</li>
+				<li>
+					Effect Monster's effects (Ignition, Trigger, and Flip) 
+				</li>
+			</ul>
+			This is the slowest of all Spell Speeds. These cards cannot be activated in response to any other effects. Typically, these effects cannot be Chain Link 2 or higher, unless multiple Spell Speed 1 effects are activated simultaneously.
+		</td>
+	</tr>	
+	<tr>
+		<th>Spell Speed 2</th>
+		<td>
+			Includes:
+			<ul>
+				<li>
+					Traps (Normal, Continuous)
+				</li>
+				<li>
+					Quick-Play Spells
+				</li>
+				<li>
+					Effect Monster's Quick Effects
+				</li>
+			</ul>
+			These cards can be used to respond to a Spell Speed 1 or 2 effect, and can typically be activated during any phase.
+		</td>
+	</tr>	
+	<tr>
+		<th>Spell Speed 3</th>
+		<td>
+			Includes:
+			<ul>
+				<li>
+					Counter Trap
+				</li>
+			</ul>
+			This is the fastest of all Spell Speeds and can be used to respond to a card of any Spell Speed. Only another Spell Speed 3 card may be used to respond to these cards.
+		</td>
+	</tr>	
+</table>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
