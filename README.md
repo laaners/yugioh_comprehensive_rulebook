@@ -3,76 +3,34 @@
 <!-- TOC -->
 
 - [Getting started](#getting-started)
-    - [Things you need to duel](#things-you-need-to-duel)
-    - [The Game Mat/Field](#the-game-matfield)
-- [Game cards](#game-cards)
-    - [Monster cards](#monster-cards)
-        - [Normal Monsters](#normal-monsters)
-        - [Effect Monsters](#effect-monsters)
-        - [Ritual Monsters](#ritual-monsters)
-        - [Fusion Monsters](#fusion-monsters)
-        - [Synchro Monsters](#synchro-monsters)
-        - [Xyz Monsters](#xyz-monsters)
-        - [Pendulum Monsters](#pendulum-monsters)
-        - [Link Monsters](#link-monsters)
-            - [Special Summon to the Main Monster Zones](#special-summon-to-the-main-monster-zones)
-            - [Link Monsters as Link material](#link-monsters-as-link-material)
-            - [Defense](#defense)
-            - [Change control](#change-control)
-            - [Non-monster card as material](#non-monster-card-as-material)
-    - [Summoning Monster cards](#summoning-monster-cards)
-        - [Normal Summon](#normal-summon)
-        - [Normal Set](#normal-set)
-        - [Tribute Summon](#tribute-summon)
-        - [Flip Summon](#flip-summon)
-        - [Special Summon](#special-summon)
-        - [Special Summon with a Card's Effect](#special-summon-with-a-cards-effect)
-            - [Properly Special Summon](#properly-special-summon)
-            - [Summon restrictions and successful Summons](#summon-restrictions-and-successful-summons)
-    - [Spell cards](#spell-cards)
-        - [Normal Spell Cards](#normal-spell-cards)
-        - [Ritual Spell Cards](#ritual-spell-cards)
-        - [Continuous Spell Cards](#continuous-spell-cards)
-        - [Equip Spell Cards](#equip-spell-cards)
-        - [Field Spell Cards](#field-spell-cards)
-        - [Quick-Play Spell Cards](#quick-play-spell-cards)
-    - [Trap cards](#trap-cards)
-        - [Normal Trap Cards](#normal-trap-cards)
-        - [Continuous Trap Cards](#continuous-trap-cards)
-        - [Counter Trap Cards](#counter-trap-cards)
-- [Duel and Turn Structure](#duel-and-turn-structure)
-    - [Draw Phase](#draw-phase)
-    - [Standby Phase](#standby-phase)
-    - [Main Phase 1](#main-phase-1)
-    - [Battle Phase](#battle-phase)
-        - [Start Step](#start-step)
-        - [Battle Step](#battle-step)
-            - [Replay Rules during the Battle Step](#replay-rules-during-the-battle-step)
-        - [Damage Step](#damage-step)
-            - [Determining Damage](#determining-damage)
-            - [Sub-steps of the Damage Step](#sub-steps-of-the-damage-step)
-            - [Cards/effects that can be activated during the Damage Step](#cardseffects-that-can-be-activated-during-the-damage-step)
-        - [End Step](#end-step)
-    - [Main Phase 2](#main-phase-2)
-    - [End Phase](#end-phase)
-- [Activations](#activations)
-    - [Chains](#chains)
-        - [Spell Speed](#spell-speed)
-- [Card text](#card-text)
-    - [Problem Solving Card Text PSCT](#problem-solving-card-text-psct)
-    - [Effects](#effects)
-        - [Retaining information](#retaining-information)
-        - [Stats ATK/DEF modifiers](#stats-atkdef-modifiers)
-            - [Categories and interactions](#categories-and-interactions)
-            - [Special cases](#special-cases)
-        - [Trigger effects](#trigger-effects)
-            - [Leaves the field](#leaves-the-field)
-            - [Location changes mid-chain](#location-changes-mid-chain)
-        - [Specific effects](#specific-effects)
-            - [Prohibition](#prohibition)
-            - [Rivalry of the Warlords](#rivalry-of-the-warlords)
-
-<!-- /TOC -->
+	- [Things you need to duel](#things-you-need-to-duel)
+	- [The Game Mat/Field](#the-game-matfield)
+- [Game elements: cards](#game-elements-cards)
+	- [Monster cards](#monster-cards)
+		- [Normal Monsters](#normal-monsters)
+		- [Effect Monsters](#effect-monsters)
+		- [Ritual Monsters](#ritual-monsters)
+		- [Fusion Monsters](#fusion-monsters)
+		- [Synchro Monsters](#synchro-monsters)
+		- [Xyz Monsters](#xyz-monsters)
+			- [Xyz Materials](#xyz-materials)
+		- [Pendulum Monsters](#pendulum-monsters)
+		- [Link Monsters](#link-monsters)
+			- [Special Summon to the Main Monster Zones](#special-summon-to-the-main-monster-zones)
+			- [Link Monsters as Link material](#link-monsters-as-link-material)
+			- [Defense](#defense)
+			- [Change control](#change-control)
+			- [Non-monster card as material](#non-monster-card-as-material)
+	- [Summoning Monster cards](#summoning-monster-cards)
+		- [Normal Summon](#normal-summon)
+		- [Normal Set](#normal-set)
+		- [Tribute Summon](#tribute-summon)
+		- [Flip Summon](#flip-summon)
+		- [Special Summon](#special-summon)
+		- [Special Summon with a Card's Effect](#special-summon-with-a-cards-effect)
+			- [Properly Special Summon](#properly-special-summon)
+			- [Summon restrictions and successful Summons](#summon-restrictions-and-successful-summons)
+	- [Spell cards](#spell-cards)
 		- [Normal Spell Cards](#normal-spell-cards)
 		- [Ritual Spell Cards](#ritual-spell-cards)
 		- [Continuous Spell Cards](#continuous-spell-cards)
@@ -83,6 +41,9 @@
 		- [Normal Trap Cards](#normal-trap-cards)
 		- [Continuous Trap Cards](#continuous-trap-cards)
 		- [Counter Trap Cards](#counter-trap-cards)
+- [Game elements: other](#game-elements-other)
+	- [Monster Tokens](#monster-tokens)
+	- [Counters](#counters)
 - [Duel and Turn Structure](#duel-and-turn-structure)
 	- [Draw Phase](#draw-phase)
 	- [Standby Phase](#standby-phase)
@@ -98,22 +59,47 @@
 		- [End Step](#end-step)
 	- [Main Phase 2](#main-phase-2)
 	- [End Phase](#end-phase)
-- [Activations](#activations)
+- [Game Mechanics](#game-mechanics)
+	- [General](#general)
+		- [Forbidden \& Limited Cards](#forbidden--limited-cards)
+		- [Public Knowledge](#public-knowledge)
+		- [Rules vs. Card Effects](#rules-vs-card-effects)
+- [Activation](#activation)
 	- [Chains](#chains)
 		- [Spell Speed](#spell-speed)
+		- [Actions which cannot be Chained to](#actions-which-cannot-be-chained-to)
+	- [Fast effect timing](#fast-effect-timing)
+		- [Turn Player's Priority](#turn-players-priority)
+		- [Simultaneous Effects](#simultaneous-effects)
+			- [Perform actions simultaneously](#perform-actions-simultaneously)
+			- [Simultaneous Effects Go On Chain (SEGOC)](#simultaneous-effects-go-on-chain-segoc)
 - [Card text](#card-text)
 	- [Problem Solving Card Text (PSCT)](#problem-solving-card-text-psct)
-	- [Effects](#effects)
+	- [Effects Glossary](#effects-glossary)
+		- [Battle/Battled](#battlebattled)
+		- [Control/Possess](#controlpossess)
+		- [Destroy](#destroy)
+		- [Discard](#discard)
+		- [Equip Cards](#equip-cards)
+			- [Equipped Monster](#equipped-monster)
+			- [Move equipped Monster Card to another target](#move-equipped-monster-card-to-another-target)
+		- [Excavate](#excavate)
+		- [Leaves the field](#leaves-the-field)
+		- [Piercing Battle Damage](#piercing-battle-damage)
+		- [Random](#random)
+		- [Reveal](#reveal)
+		- [Send to the Graveyard](#send-to-the-graveyard)
+			- [Return to the Graveyard](#return-to-the-graveyard)
+		- [Tribute](#tribute)
+	- [Effects Interaction](#effects-interaction)
+		- [Location changes mid-chain](#location-changes-mid-chain)
 		- [Retaining information](#retaining-information)
 		- [Stats (ATK/DEF) modifiers](#stats-atkdef-modifiers)
 			- [Categories and interactions](#categories-and-interactions)
 			- [Special cases](#special-cases)
-		- [Trigger effects](#trigger-effects)
-			- [Leaves the field](#leaves-the-field)
-			- [Location changes mid-chain](#location-changes-mid-chain)
-		- [Specific effects](#specific-effects)
-			- [Prohibition](#prohibition)
-			- [Rivalry of the Warlords](#rivalry-of-the-warlords)
+	- [Specific effects](#specific-effects)
+		- [Prohibition](#prohibition)
+		- [Rivalry of the Warlords](#rivalry-of-the-warlords)
 
 <!-- /TOC -->
 
@@ -178,7 +164,7 @@ Zone.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-# Game cards
+# Game elements: cards
 [Official rulebook](https://www.yugioh-card.com/en/rulebook/)
 
 ## Monster cards
@@ -437,6 +423,20 @@ There are many kinds of Monster Cards. This game is more than a simple slugfest,
 		</td>
 	</tr>
 </table>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+#### Xyz Materials
+
+[Official rulebook other rules](https://www.yugioh-card.com/en/rulebook/)
+
+Monsters that are used to Xyz Summon are called "Xyz Materials", and are placed underneath the Xyz Monster, to show that they are attached to it. 
+
+- Monsters that have become Xyz Materials are not treated as cards on the field.
+
+- When an Xyz Monster leaves the field, all of the Xyz Materials attached to it are sent to the Graveyard.
+
+- If an Xyz Monster is flipped face-down, or becomes controlled by the opponent, the Xyz Materials are not sent to the Graveyard. They remain attached to the Xyz Monster.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -739,6 +739,44 @@ Spell Cards can be Set face-down on the field like Trap Cards. However, the rule
 	These Trap Cards are normally activated in response to the activation of other cards, and may have abilities like negating the effects of those cards. These types of Traps are effective against Normal Spell Cards or Normal Trap Cards, which are otherwise hard to stop, however many Counter Trap Cards require a cost to activate them.
 	<br clear="left">
 </div>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+# Game elements: other
+[Official rulebook](https://www.yugioh-card.com/en/rulebook/)
+
+## Monster Tokens
+
+[Official rulebook other rules](https://www.yugioh-card.com/en/rulebook/)
+
+Monster Tokens are monsters that appear on the field as the result of a card's effect.
+
+- They are not included in the Deck, and cannot be sent anywhere other than the field, such as the hand or Graveyard.
+
+- When a Token is destroyed or returned to the hand or Deck, they are simply removed from the field instead.
+  
+- Each Monster Token takes up 1 of your 5 Monster Zones.
+
+- Their battle position is always either face-up Attack Position or faceup Defense Position.
+
+- Tokens cannot be used as an Xyz Material.
+
+- Tokens on the field are treated as Normal Monsters. 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Counters
+
+[Official rulebook other rules](https://www.yugioh-card.com/en/rulebook/)
+
+You may need to place these on cards for some card effects.
+
+- You cannot place counters unless a card effect allows it.
+
+- Cards may have effects that change with the number of counters on them, or require you to remove counters as a cost.
+
+- Some counters have specific names, such as "Spell Counter" or "Clock Counter." Other than their names, each individual counter itself does not have any effects. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -1095,7 +1133,51 @@ Announce the end of your turn, and if there are any cards on the field which say
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-# Activations
+
+# Game Mechanics
+
+[Official rulebook](https://www.yugioh-card.com/en/rulebook/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## General
+
+### Forbidden & Limited Cards
+
+[Official TCG F&L list](www.yugioh-card.com/en/limited/)
+
+Normally, your Deck (including Extra Deck and Side Deck) can contain up to 3 copies of a card that has the same name. However, certain cards have specific quantity restrictions that further limit the number that can be included in a Deck. There are 3 types of restrictions:
+
+- Limited cards are restricted to 1 copy in a Deck
+
+- Semi-Limited cards are restricted to 2 copies in a Deck
+
+- Forbidden cards are not allowed to be included at all
+
+The list of Forbidden and Limited cards is updated regularly and is posted on the Yu-Gi-Oh! TCG Official Website. This list is applied to official tournaments so please check it before participating. Official Website: www.yugioh-card.com
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Public Knowledge
+
+[Official rulebook other rules](https://www.yugioh-card.com/en/rulebook/)
+
+The number of cards in a player's hand and Decks, the cards in their Graveyards, and each player's current LP are all public knowledge and both players can verify these things at any time. **If asked, you must answer these things to your opponent truthfully**.
+
+- You are allowed to pick up and verify the cards in your opponent's Graveyard but you must ask their permission first.
+- You may not change the order of the cards when verifying their Graveyard.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Rules vs. Card Effects
+
+[Official rulebook other rules](https://www.yugioh-card.com/en/rulebook/)
+
+If there is a discrepancy between the basic rules and a card's effect, the card effect takes precedence. For example, a monster can only attack once per turn, but with a card effect, it is possible to attack twice.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+# Activation
 
 ## Chains
 
@@ -1104,11 +1186,10 @@ Announce the end of your turn, and if there are any cards on the field which say
 Chains are a way to order the resolution of multiple card effects. They are used when the effects of more than 1 card are activated at once, or when a player wants to use an effect after a card has been played, but BEFORE that card has an effect on the game.
 
 If a card's effect is activated, the opponent is always given a chance to respond with a card effect of their own, creating a Chain. If your opponent responds with an effect, then you can choose to respond and add another effect to the Chain. If your opponent does not respond, you may activate a second effect and create a Chain to your own card's activation. Both players continue to add effects to the Chain until they both wish to add nothing else, then you resolve the outcome in reverse order - starting with the last card that was activated.
-<div>
-	<img align="left" src="./images/chain_diagram.png" width=250>
-	As shown in the diagram, the first effect activated is Chain Link 1. The next effect is Chain Link 2, and so on. Every time a new Chain Link is made, they are stacked up in the order that the cards are activated. Once the Chain is completed, the outcome is resolved starting with the most recent card to be activated at the top of the Chain and proceeding down to Chain Link 1
-	<br clear="left">
+<div align="center">
+	<img src="./images/chain_diagram.png" width=250>
 </div>
+As shown in the diagram, the first effect activated is Chain Link 1. The next effect is Chain Link 2, and so on. Every time a new Chain Link is made, they are stacked up in the order that the cards are activated. Once the Chain is completed, the outcome is resolved starting with the most recent card to be activated at the top of the Chain and proceeding down to Chain Link 1
 
 ### Spell Speed
 
@@ -1166,12 +1247,204 @@ Spell, Trap, and Effect Monster effects have different Spell Speeds. There are S
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+### Actions which cannot be Chained to
+
+[Official rulebook other rules](https://www.yugioh-card.com/en/rulebook/)
+
+You can only create a Chain by responding to the activation of a card or effect. Summoning a monster, Tributing, changing a monster's battle position and paying costs are not effect activations and therefore you cannot respond to those actions using a Chain.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Fast effect timing
+
+### Turn Player's Priority
+
+The turn player always starts with Priority, or the choice to activate a card first, in each phase or step of their turn. As long as the turn player has Priority, the opponent cannot activate cards or effects, except for effects that activate automatically, like Trigger or Flip effects. The turn player can either:
+- Use Priority to play a card or activate an effect
+- Pass Priority to the opponent so they can activate an effect.
+
+A player must pass Priority to the opponent when moving on to the next phase or step. Strictly speaking, you would always declare that you're passing Priority before the end of every phase and step, and ask your opponent if they wish to play a card. However, for ease of play, announcing the end of your phases or steps implies giving up Priority. Therefore, when announcing the end of a phase, your opponent can just say "Before the end of your phase, I activate this card" and use a card. 
+- The turn player starts with Priority to activate a card or effect first
+- After a card's activation, and at the end of each phase or step, Priority passes to the opponent.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Simultaneous Effects
+
+#### Perform actions simultaneously
+
+[Official rulebook other rules](https://www.yugioh-card.com/en/rulebook/)
+
+For cases like "Each player targets 1 monster," where both players resolve an effect simultaneously, the turn player resolves the effect first. In this example, after the turn player makes their selection, the other player makes theirs.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+#### Simultaneous Effects Go On Chain (SEGOC)
+
+[Official rulebook other rules](https://www.yugioh-card.com/en/rulebook/)
+
+If effects of Spell Speed 1 cards (like Trigger Effects) are activated at the same time, they will be resolved in a special Chain. This Chain is made starting with the turn player's mandatory effects. If there is only 1 effect, that will be Chain Link 1.
+
+If there are 2 or more effects:
+
+- The turn player builds the Chain starting with their mandatory effects, in any order.
+
+- Then the opponent continues the Chain with their mandatory effects in any order.
+
+- Afterwards, the turn player adds their optional effects in any order.
+
+- And finally the opponent adds their optional effects in any order. 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 # Card text
 
 ## Problem Solving Card Text (PSCT)
 [Source](https://yugiohblog.konami.com/articles/?tag=problem-solving-card-text)
 
-## Effects
+## Effects Glossary
+
+### Battle/Battled
+
+[Official rulebook glossary](https://www.yugioh-card.com/en/rulebook/)
+
+A monster "battles" (and is "battling") starting from when it attacks or is attacked. This includes both monsters attacking other monsters, and monsters attacking a player's Life Points directly.
+
+When a card requires a monster to have "battled" (past tense), the attack had to have reached the damage calculation portion of the Damage Step in order for the monster to have "battled". If the attack stops before damage calculation, the monster did not "battle". (Note that **an attack was still declared**, however, so in most cases the attacking monster cannot declare another attack.)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Control/Possess
+
+[Official rulebook glossary](https://www.yugioh-card.com/en/rulebook/)
+
+- Cards you "control" are the cards in your Monster Zone, Spell & Trap Zone, Field Zone, and Pendulum Zone.
+
+- Cards in your "possession" include all cards you control, plus the cards in your hand, Deck, Extra Deck, Graveyard, your banished cards, cards in the middle of being Summoned to your side of the field, and Xyz Materials attached to monsters you control.
+
+If a player takes control of a card from their opponent, move it to the new controller's side of the field. If sent to the Graveyard, or returned to the hand or Deck, it is always returned to the Graveyard/hand/Deck of the original owner. 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Destroy
+
+[Official rulebook glossary](https://www.yugioh-card.com/en/rulebook/)
+
+A card is destroyed when it is sent to the Graveyard due to battle between monsters or by an effect that destroys a card. A card that is returned from the field to the hand or Deck, or, that is sent to the Graveyard as a cost or Tribute, is NOT considered "destroyed." always returned to the Graveyard/hand/Deck of the original owner.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Discard
+
+[Official rulebook glossary](https://www.yugioh-card.com/en/rulebook/)
+
+Discard means to send a card from your hand to the Graveyard. This can happen because of a card effect or by adjusting the number of cards in your hand during the End Phase.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Equip Cards
+
+[Official rulebook glossary](https://www.yugioh-card.com/en/rulebook/)
+
+In addition to Equip Spell Cards, sometimes Trap Cards or Monster Cards can become equipped to a monster.
+
+- Equipped Traps remain Trap Cards
+
+- Equipped monsters are considered to be Equip Spells.
+
+The term "Equip Card" includes all 3 kinds (standard Equip Spells, equipped Traps, and monsters equipped to other monsters).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+#### Equipped Monster
+
+A monster that is equipped with an Equip Card is an "equipped monster." When this monster is destroyed or flipped face-down, the equipped card loses its target, and is destroyed and sent to the Graveyard.
+
+#### Move equipped Monster Card to another target
+
+If a Monster Card is equipped to another monster, it remains equipped to that monster and cannot be moved to a different target, even by card effects that would normally be able to do so.
+
+**EXCEPTION**: Union monsters equipped by their own effects can be moved by appropriate card effects.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Excavate
+
+[Official rulebook glossary](https://www.yugioh-card.com/en/rulebook/)
+
+When a card says to "excavate" cards from your Deck, you reveal those cards to both players. Then, before you do anything else, apply the instructions from the card effect that excavated them. Cards that are being excavated are still treated as being in the Deck until sent elsewhere by the card instructions
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Leaves the field
+
+[Official Konami rule](https://www.yugioh-card.com/en/play/2021_rules_update/)
+
+Some monsters have effects that activate when they "leave the field". For example, these effects activate when the monster is sent to the Graveyard, or is banished, or is returned to the hand or Extra Deck.
+
+When a monster on the field is shuffled into the Deck, or becomes an Xyz Material, it is no longer a card on the field, however its effects that activate when it "leaves the field" will not activate. Deck includes both Main and Extra Deck.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Piercing Battle Damage
+
+[Official rulebook glossary](https://www.yugioh-card.com/en/rulebook/)
+
+Some monsters can inflict piercing battle damage when they attack a Defense Position monster. This means that you inflict damage to your opponent's LP equal to the difference between the attacking monster's ATK and the defending monster's DEF.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Random
+
+[Official rulebook glossary](https://www.yugioh-card.com/en/rulebook/)
+
+When a card effect says to choose a card randomly, there is no official way of doing so, it is fine as long as neither player has a way of knowing which card is being chosen.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Reveal
+
+[Official rulebook glossary](https://www.yugioh-card.com/en/rulebook/)
+
+When an effect says to reveal a card, you show it to both players. You may have to reveal a face-down card, a card from your hand, or from the top of your Deck. Revealing a card does not activate the card or its Flip effect. Normally, revealed cards are returned to their original position after being looked at by both players.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Send to the Graveyard
+
+[Official rulebook glossary](https://www.yugioh-card.com/en/rulebook/)
+
+A card can be sent to the Graveyard in various ways. Destroying a card, discarding, and Tributing a monster are all actions that send a card to the Graveyard, and will normally activate "When/If this card is sent to the
+Graveyard..." Trigger Effects.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+#### Return to the Graveyard
+
+When a banished card is moved to the Graveyard, it is not considered to be "sent to the Graveyard".
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Tribute
+
+[Official rulebook glossary](https://www.yugioh-card.com/en/rulebook/)
+
+Tributing is sending a monster you control to the Graveyard. You can Tribute a face-up or face-down monster, unless otherwise specified. Tributing a monster is one possible cost for Summoning a monster or activating an effect. A monster sent to the Graveyard by Tributing is not treated as "destroyed."
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## Effects Interaction
+
+### Location changes mid-chain
+
+[Source](https://www.yugioh-card.com/en/play/2021_rules_update/)
+
+If a monster's Trigger Effect meets its activation conditions, BUT hasn't yet had a chance to actually activate yet (because it's still in the middle of a chain or card effect, for example) and is therefore being "saved for later", BUT its location* changes between the time its Trigger Effect activation is met, and the time it actually has a chance to activate, its effect does not activate. [*On the field, in the Graveyard, in the hand, banished, or in the Deck.]
+
+-   [Example](https://db.ygoresources.com/qa#23251)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Retaining information
 [Pazim's Resources](https://www.dropbox.com/scl/fo/tia8xzqafu1ibscz0gz95/AEx_Ri-wkJ9QE75AWRKn4RQ?preview=Judge+Resources.pdf&rlkey=z6uissqwewd81wm9c03zosaa3)
@@ -1449,34 +1722,13 @@ When those effects stop applying, reapply everything, including lingering effect
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Specific effects
 
-### Trigger effects
-
-#### Leaves the field
-
-[Source](https://www.yugioh-card.com/en/play/2021_rules_update/)
-
-When a monster on the field is shuffled into the Deck, or becomes an Xyz Material, it is no longer a card on the field, however its effects that activate when it "leaves the field" will not activate. Deck includes both Main and Extra Deck.
+### Prohibition
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-#### Location changes mid-chain
-
-[Source](https://www.yugioh-card.com/en/play/2021_rules_update/)
-
-If a monster's Trigger Effect meets its activation conditions, BUT hasn't yet had a chance to actually activate yet (because it's still in the middle of a chain or card effect, for example) and is therefore being "saved for later", BUT its location* changes between the time its Trigger Effect activation is met, and the time it actually has a chance to activate, its effect does not activate. [*On the field, in the Graveyard, in the hand, banished, or in the Deck.]
-
--   [Example](https://db.ygoresources.com/qa#23251)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-### Specific effects
-
-#### Prohibition
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-#### Rivalry of the Warlords
+### Rivalry of the Warlords
 
 [Source](https://www.yugioh-card.com/eu/play/rivalry-of-warlords/)
 
