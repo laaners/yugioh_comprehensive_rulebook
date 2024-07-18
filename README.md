@@ -1444,7 +1444,7 @@ Spell, Trap, and Effect Monster effects have different Spell Speeds. There are S
 
 <p align="left">
 	<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook pages 44-45</a>
-</p>ss
+</p  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Actions which cannot be Chained to
