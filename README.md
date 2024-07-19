@@ -1,7 +1,5 @@
 <a id="readme-top"></a>
 
-<!-- TOC -->
-
 - [Getting started](#getting-started)
 	- [Things you need to duel](#things-you-need-to-duel)
 	- [The Game Mat/Field](#the-game-matfield)
@@ -10,6 +8,7 @@
 		- [Normal Monsters](#normal-monsters)
 		- [Effect Monsters](#effect-monsters)
 		- [Ritual Monsters](#ritual-monsters)
+			- [Summoning the monster you tribute is not possible](#summoning-the-monster-you-tribute-is-not-possible)
 		- [Fusion Monsters](#fusion-monsters)
 		- [Synchro Monsters](#synchro-monsters)
 		- [Xyz Monsters](#xyz-monsters)
@@ -64,6 +63,7 @@
 			- [Sub-steps of the Damage Step](#sub-steps-of-the-damage-step)
 			- [Cards/effects that can be activated during the Damage Step](#cardseffects-that-can-be-activated-during-the-damage-step)
 			- [End of the Damage Step still occurs even if damage calculation was never conducted](#end-of-the-damage-step-still-occurs-even-if-damage-calculation-was-never-conducted)
+			- [Precise sequence of events when substituting for destruction by battle](#precise-sequence-of-events-when-substituting-for-destruction-by-battle)
 		- [End Step](#end-step)
 	- [Main Phase 2](#main-phase-2)
 	- [End Phase](#end-phase)
@@ -99,9 +99,14 @@
 		- [Unaffected](#unaffected)
 			- [Attaching material affects the monster](#attaching-material-affects-the-monster-1)
 	- [Effects Interaction](#effects-interaction)
+		- [Activation legality](#activation-legality)
 		- [Banishing a token is a conjunction success](#banishing-a-token-is-a-conjunction-success-1)
+		- [Change of control shenanigans with lack of space](#change-of-control-shenanigans-with-lack-of-space)
 		- [Location changes mid-chain](#location-changes-mid-chain)
+		- [Gain original/printed stat](#gain-originalprinted-stat)
 		- [Retaining information](#retaining-information)
+			- [Monsters with multiple attributes count for all their attributes when used as material.](#monsters-with-multiple-attributes-count-for-all-their-attributes-when-used-as-material)
+			- [Flipped face-down and Banished temporarily](#flipped-face-down-and-banished-temporarily)
 		- [Stats (ATK/DEF) modifiers](#stats-atkdef-modifiers)
 			- [Categories and interactions](#categories-and-interactions)
 			- [Special cases](#special-cases)
@@ -109,7 +114,6 @@
 		- [Prohibition](#prohibition)
 		- [Rivalry of the Warlords](#rivalry-of-the-warlords)
 
-<!-- /TOC -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -329,6 +333,18 @@ There are many kinds of Monster Cards. This game is more than a simple slugfest,
 
 <p align="left">
 	<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 23</a>
+</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+#### Summoning the monster you tribute is not possible
+
+When activating a card (1) that has an effect that performs a Ritual Summon from the Graveyard for example, a valid Ritual Monster (2) must be present in the Graveyard. If you tribute a Ritual Monster (3) so that it meets the requirements to summon (2) from the Graveyard, if (3) will be sent to the Graveyard as a result and (3) is also a valid target that can be summoned with (1), you **cannot** summon (3) from the Graveyard.
+
+- [Example: "Nekroz Cycle", "Nekroz of Clausolas"](https://db.ygoresources.com/qa#7022)
+- [Example: "Revendread Origin", "Revendread Slayer"](https://db.ygoresources.com/qa#7251)
+
+<p align="left">
+	<a target="_blank" href="https://db.ygoresources.com/qa#7251">YGOrg Database of Official OCG Rulings</a>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -1344,6 +1360,21 @@ A card whose effect reads "at the end of the Damage Step" can be activated even 
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+#### Precise sequence of events when substituting for destruction by battle
+
+A card whose effect reads "if (1) you control would be destroyed by battle, you can do (2)" can be applied when performing damage calculation:
+
+- If you choose to apply the effect, immediately after damage calculation do (2), which can be banishing a card, detach a material for effect...
+
+- If you choose not to apply the effect, you can now use any effects that can be activated after damage calculation.
+
+- [Example: "Bujintei Kagutsuchi", "Zoodiac Whiptail"](https://db.ygoresources.com/qa#6398)
+
+<p align="left">
+	<a target="_blank" href="https://db.ygoresources.com/qa#6398">YGOrg Database of Official OCG Rulings</a>
+</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ### End Step
 
 After you've resolved all your battles by repeating the Battle and Damage Steps, and you have no more monsters you want to attack with, announce to your opponent that you are ending your Battle Phase.
@@ -1695,6 +1726,17 @@ If an effect (1) that involves attaching a card (2) as an Xyz Material to a Xyz 
 
 ## Effects Interaction
 
+### Activation legality
+
+In order to activate a card (1) whose effect involves a cost and applies to another card, a correct target (2) must be present (on the field, in the Graveyard, ...) before attempting (1)'s activation. Even if a valid target (2) would be present after paying (1)'s cost, (1) cannot be activated.
+
+- [Example: "Lumina, Lightsworn Summoner"](https://db.ygoresources.com/qa#7283)
+
+<p align="left">
+	<a target="_blank" href="https://db.ygoresources.com/qa#7283">YGOrg Database of Official OCG Rulings</a>
+</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ### Banishing a token is a conjunction success
 
 If a Token's (1) propertis (Attribute, Type, ATK, DEF, Level...) satisfy a certain card's (2) activation requirement and (2) requires to banish a Monster with those properties, (2) can be activated. If (1) is banished because of (2)'s cost, (2) resolves normally even if (1) original properties were not originally the one necessary to fulfil the activation of (2).
@@ -1705,6 +1747,13 @@ If a Token's (1) propertis (Attribute, Type, ATK, DEF, Level...) satisfy a certa
 	<a target="_blank" href="https://db.ygoresources.com/qa#275">YGOrg Database of Official OCG Rulings</a>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Change of control shenanigans with lack of space
+
+If your monster zones are full you:
+
+- **Cannot** activate optional effects that would take control of an opponent's monster
+- **Can** activate mandatory effects that would take control of an opponent's monster
 
 ### Location changes mid-chain
 
@@ -1717,7 +1766,31 @@ If a monster's Trigger Effect meets its activation conditions, BUT hasn't yet ha
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+### Gain original/printed stat
+
+A monster (1) whose effect reads "The ATK of this card becomes the combined original ATK of the Tributed monsters", if it is summoned by tributing a monster (2) on the field whose **original** ATK was set by another card (3), (1)'s ATK will be (2)'s printed ATK even though (2)'s original ATK differs from its printed ATK due to (3).
+
+- [Example: "Beast King Barbaros", "Fog King"](https://db.ygoresources.com/qa#6999)
+
+<p align="left">
+	<a target="_blank" href="https://db.ygoresources.com/qa#6999">YGOrg Database of Official OCG Rulings</a>
+</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ### Retaining information
+
+#### Monsters with multiple attributes count for all their attributes when used as material.
+
+A monster (1) who gains different effects based on the materials used for its summon, if one (2) of the materials had an effect on the field that treated its attribute as multiple attributes, then (1) will gain all the respective effects based on the multiple attributes of (2).
+
+- [Example: "Genex Ally Triforce", "Elemental Mistress Doriado"](https://db.ygoresources.com/qa#7030)
+
+<p align="left">
+	<a target="_blank" href="https://db.ygoresources.com/qa#7030">YGOrg Database of Official OCG Rulings</a>
+</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+#### Flipped face-down and Banished temporarily
 
 <table>
 	<tr>
