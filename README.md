@@ -28,7 +28,9 @@
 		- [Special Summon](#special-summon)
 		- [Special Summon with a Card's Effect](#special-summon-with-a-cards-effect)
 			- [Properly Special Summon](#properly-special-summon)
+			- [Flip Summon and Properly Special Summon](#flip-summon-and-properly-special-summon)
 			- [Summon restrictions and successful Summons](#summon-restrictions-and-successful-summons)
+			- [Summon restrictions and properties changing](#summon-restrictions-and-properties-changing)
 	- [Spell cards](#spell-cards)
 		- [Normal Spell Cards](#normal-spell-cards)
 		- [Ritual Spell Cards](#ritual-spell-cards)
@@ -67,6 +69,7 @@
 		- [End Step](#end-step)
 	- [Main Phase 2](#main-phase-2)
 	- [End Phase](#end-phase)
+		- [Mandatory actions during the End Phase](#mandatory-actions-during-the-end-phase)
 - [Activation](#activation)
 	- [Chains](#chains)
 		- [Spell Speed](#spell-speed)
@@ -78,10 +81,22 @@
 			- [Simultaneous Effects Go On Chain (SEGOC)](#simultaneous-effects-go-on-chain-segoc)
 - [Card text](#card-text)
 	- [Problem Solving Card Text (PSCT)](#problem-solving-card-text-psct)
+		- [Conjunctives](#conjunctives)
+			- [Banishing a token is a conjunction success](#banishing-a-token-is-a-conjunction-success-1)
+			- [0 ATK/DEF, reduction, and conjunction success](#0-atkdef-reduction-and-conjunction-success)
 	- [Effects Glossary](#effects-glossary)
 		- [Attach](#attach)
 			- [Attaching material affects the monster](#attaching-material-affects-the-monster)
+		- [Attack all once each](#attack-all-once-each)
+			- [Attack target redirection](#attack-target-redirection)
+		- [Attack target redirection](#attack-target-redirection-1)
+			- [Attack all once each](#attack-all-once-each-1)
+		- [Banish instead of sending to the Graveyard](#banish-instead-of-sending-to-the-graveyard)
+			- [Banish only monsters and paying cost](#banish-only-monsters-and-paying-cost)
+			- [Banish vs cannot banish](#banish-vs-cannot-banish)
 		- [Battle/Battled](#battlebattled)
+		- [Can only control 1](#can-only-control-1)
+			- [Destruction not by card effect](#destruction-not-by-card-effect)
 		- [Control/Possess](#controlpossess)
 		- [Destroy](#destroy)
 		- [Discard](#discard)
@@ -95,12 +110,14 @@
 		- [Reveal](#reveal)
 		- [Send to the Graveyard](#send-to-the-graveyard)
 			- [Return to the Graveyard](#return-to-the-graveyard)
+		- [Summon from Spell/Trap Zone (and vice versa)](#summon-from-spelltrap-zone-and-vice-versa)
 		- [Tribute](#tribute)
 		- [Unaffected](#unaffected)
 			- [Attaching material affects the monster](#attaching-material-affects-the-monster-1)
 	- [Effects Interaction](#effects-interaction)
 		- [Activation legality](#activation-legality)
-		- [Banishing a token is a conjunction success](#banishing-a-token-is-a-conjunction-success-1)
+			- [Location and cost](#location-and-cost)
+			- [Add, discard and send](#add-discard-and-send)
 		- [Change of control shenanigans with lack of space](#change-of-control-shenanigans-with-lack-of-space)
 		- [Location changes mid-chain](#location-changes-mid-chain)
 		- [Gain original/printed stat](#gain-originalprinted-stat)
@@ -151,7 +168,7 @@ The Game Mat helps you organize your cards during a Duel. When you use your card
 This is where you put your monsters when they're played. You can have up to 5 cards here. There are 3 ways to position your Monster Cards: face-up Attack Position, face-up Defense Position, and face-down Defense Position. Place the card upright for Attack Position, and sideways for Defense Position.
 
 **2. Spell & Trap Zone Pendulum Zone**\
-This is where you put Spell & Trap Cards. You can have up to 5 cards here. You place them here face-up to activate them, or place them face-down. Pendulum Monster Cards can be activated in the leftmost and rightmost zones as Spells. This causes the zone you use to also become a Pendulum Zone for as long as the Pendulum Monster Card is there.
+This is where you put Spell & Trap Cards. You can have up to 5 cards here. You place them here face-up to activate them, or place them face-down. Pendulum Monster Cards can be activated in the leftmost and rightmost Zones as Spells. This causes the Zone you use to also become a Pendulum Zone for as long as the Pendulum Monster Card is there.
 
 **3. Graveyard (GY)**\
 When Monster Cards are destroyed, and when Spell & Trap Cards are used, they're sent face-up to this space. The contents of both players' Graveyards are public knowledge, and your opponent can look through yours at any time during the Duel. The order of the cards in the Graveyard should not be changed. Graveyard is shortened in the card text to "GY".
@@ -168,7 +185,7 @@ Place your Extra Deck face-down in this space. You can look at the cards in your
  **7. Extra Monster Zone**\
 This is where you put your monsters that are Summoned to the field by special methods from the Extra Deck
 
-- Normally, each player can only use 1 of these zones. A monster placed in this zone does not count towards the 5-monster limit of your Main Monster 
+- Normally, each player can only use 1 of these Zones. A monster placed in this Zone does not count towards the 5-monster limit of your Main Monster 
 Zone.
 
 - Fusion, Synchro, and Xyz Monsters can be first Summoned from the Extra Deck to any of your Main Monster Zones. They do not have to be Summoned to the Extra Monster Zone or a spot that a Link Monster is pointing to. You can still Summon a Fusion/Synchro/Xyz Monster from the Extra Deck to your Extra Monster Zone if you want to, though.
@@ -338,10 +355,11 @@ There are many kinds of Monster Cards. This game is more than a simple slugfest,
 
 #### Summoning the monster you tribute is not possible
 
-When activating a card (1) that has an effect that performs a Ritual Summon from the Graveyard for example, a valid Ritual Monster (2) must be present in the Graveyard. If you tribute a Ritual Monster (3) so that it meets the requirements to summon (2) from the Graveyard, if (3) will be sent to the Graveyard as a result and (3) is also a valid target that can be summoned with (1), you **cannot** summon (3) from the Graveyard.
+When activating a card (1) that has an effect that performs a Ritual Summon from the Graveyard for example, a valid Ritual Monster (2) must be present in the Graveyard. If you tribute a Ritual Monster (3) so that it meets the requirements to Summon (2) from the Graveyard, if (3) will be sent to the Graveyard as a result and (3) is also a valid target that can be Summoned with (1), you **cannot** Summon (3) from the Graveyard.
 
-- [Example: "Nekroz Cycle", "Nekroz of Clausolas"](https://db.ygoresources.com/qa#7022)
-- [Example: "Revendread Origin", "Revendread Slayer"](https://db.ygoresources.com/qa#7251)
+Examples:
+- ["Nekroz Cycle", "Nekroz of Clausolas"](https://db.ygoresources.com/qa#7022)
+- ["Revendread Origin", "Revendread Slayer"](https://db.ygoresources.com/qa#7251)
 
 <p align="left">
 	<a target="_blank" href="https://db.ygoresources.com/qa#7251">YGOrg Database of Official OCG Rulings</a>
@@ -409,7 +427,7 @@ When activating a card (1) that has an effect that performs a Ritual Summon from
 	<tr>
 		<td colspan=2>
 			<div align="center">
-				<img src="./images/synchro_summon.png" width=420 />
+				<img src="./images/synchro_Summon.png" width=420 />
 			</div>
 			<b>How to synchro Summon</b>
 			<ol>
@@ -450,7 +468,7 @@ When activating a card (1) that has an effect that performs a Ritual Summon from
 	<tr>
 		<td colspan=2>
 			<div align="center">
-				<img src="./images/xyz_summon.png" width=420 />
+				<img src="./images/xyz_Summon.png" width=420 />
 			</div>
 			<b>How to Xyz Summon</b>
 			<ol>
@@ -506,7 +524,7 @@ Monsters that are used to Xyz Summon are called "Xyz Materials", and are placed 
 	<tr>
 		<td colspan=2>
 			<div align="center">
-				<img src="./images/pendulum_summon.png" width=420 />
+				<img src="./images/pendulum_Summon.png" width=420 />
 			</div>
 			<b>How to Pendulum Summon</b>
 			<ol>
@@ -540,13 +558,13 @@ Monsters that are used to Xyz Summon are called "Xyz Materials", and are placed 
 			<br>
 			<img src="./images/link_details.png" width=350 />
 			<br>
-			If 2 Extra Monster Zones are available, you can choose either one to Summon your monster. If there is a Link Monster already on the field, you can Link Summon a monster in one of your zones it points to.
+			If 2 Extra Monster Zones are available, you can choose either one to Summon your monster. If there is a Link Monster already on the field, you can Link Summon a monster in one of your Zones it points to.
 		</td>
 	</tr>
 	<tr>
 		<td colspan=2>
 			<div align="center">
-				<img src="./images/link_summon.png" width=420 />
+				<img src="./images/link_Summon.png" width=420 />
 			</div>
 			<b>How to Link Summon</b>
 			<ol>
@@ -573,7 +591,7 @@ Monsters that are used to Xyz Summon are called "Xyz Materials", and are placed 
 <div align="center">
 	<img src="./images/link_main_monster.png" width=250 />
 </div>
-Link and Pendulum Monsters Summoned from the Extra Deck normally have to go in the Extra Monster Zone. But Link Monsters open up more zones for you to use, because every Main Monster Zone that a Link Monster points to can also be used to Summon Link and Pendulum monsters from your Extra Deck.
+Link and Pendulum Monsters Summoned from the Extra Deck normally have to go in the Extra Monster Zone. But Link Monsters open up more Zones for you to use, because every Main Monster Zone that a Link Monster points to can also be used to Summon Link and Pendulum monsters from your Extra Deck.
 
 Link and Pendulum Monsters that started in the Extra Deck, but later end up in the Graveyard (or are banished) and are Summoned from there, also go in the Main Monster Zones (and don't need a Link Monster to point to them).
 
@@ -696,10 +714,25 @@ Monsters can also be Special Summoned onto the field through the effect of anoth
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 #### Properly Special Summon
-This is different from "Special Summon Monsters." You cannot use a card effect to Special Summon those monsters from your hand, Deck, or the Graveyard unless it was properly Special Summoned first. For example, if a Synchro Monster is sent from your Extra Deck to the Graveyard without being Synchro Summoned, you cannot use a Spell Card to Special Summon it from the Graveyard, because Synchro Monsters have to be properly Special Summoned first, before they can be Special Summoned by another card's effect.
+This is different from "Special Summon Monsters." You cannot use a card effect to Special Summon those monsters from your hand, Deck, Graveyard, Spell/Trap Zone unless it was properly Special Summoned first. For example, if a Synchro Monster is sent from your Extra Deck to the Graveyard without being Synchro Summoned, you cannot use a Spell Card to Special Summon it from the Graveyard, because Synchro Monsters have to be properly Special Summoned first, before they can be Special Summoned by another card's effect.
+
+Examples:
+- ["Meklord Emperor Granel"](https://db.ygoresources.com/qa#10331)
 
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 25</a>
+	<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 25</a>,
+	<a target="_blank" href="https://db.ygoresources.com/qa#10331">YGOrg Database of Official OCG Rulings</a>
+</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+#### Flip Summon and Properly Special Summon
+A monster (1) properly Special Summoned is on the field. If (1) is being flipped face-down by a card effect and then (1) is Flip Summoned, if a card effect negates (1)'s Flip Summon, (1) is still being treated as properly Special Summoned.
+
+Examples:
+- ["Chaos Sorcerer", "Solemn Judgment"](https://db.ygoresources.com/qa#9124)
+
+<p align="left">
+	<a target="_blank" href="https://db.ygoresources.com/qa#9124">YGOrg Database of Official OCG Rulings</a>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -709,6 +742,21 @@ The restriction of "you cannot Normal or Special Summon the turn you activate th
 
 <p align="left">
 	<a target="_blank" href="https://www.yugioh-card.com/en/play/2021_rules_update/">Official KONAMI's rule</a>
+</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+#### Summon restrictions and properties changing
+
+A card (1) with the restriction of "you cannot Normal or Special Summon except [...] monsters the turn you activate this card" applies its restrictions for the entire duration of the turn. Normally, if you Summon a monster (2) which violates the restriction of (1), then (1) cannot be activated. Similarly, if you activate (1) first (2) cannot be Summoned. But if:
+
+- A card (3) has an effect that applies to (2) such that when (2) is Summoned it does not violate the restriction of (1), then (1) can be activated **after** (2) has been Summoned.
+- A card (3) has an effect that applies to (2) such that when (2) is Summoned it does not violate the restriction of (1), but you activate (1) **before** (2) is Summoned, then (2) cannot be Summoned anymore.
+
+Examples:
+- ["Mozarta the Melodious Maestra", "DNA Transplant"](https://db.ygoresources.com/qa#8469)
+
+<p align="left">
+	<a target="_blank" href="https://db.ygoresources.com/qa#8469">YGOrg Database of Official OCG Rulings</a>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -900,7 +948,8 @@ Monster Tokens are monsters that appear on the field as the result of a card's e
 
 If a Token's (1) propertis (Attribute, Type, ATK, DEF, Level...) satisfy a certain card's (2) activation requirement and (2) requires to banish a Monster with those properties, (2) can be activated. If (1) is banished because of (2)'s cost, (2) resolves normally even if (1) original properties were not originally the one necessary to fulfil the activation of (2).
 
-- [Example: "DNA Surgery", "Dragon's Rebirth"](https://db.ygoresources.com/qa#275)
+Examples:
+- ["DNA Surgery", "Dragon's Rebirth"](https://db.ygoresources.com/qa#275)
 
 <p align="left">
 	<a target="_blank" href="https://db.ygoresources.com/qa#275">YGOrg Database of Official OCG Rulings</a>
@@ -990,7 +1039,8 @@ A Duel progresses in a series of turns which are divided into phases
 
 Alternate victory conditions are checked and met before a new chain starts, even if a mandatory trigger effect has to start a chain.
 
-- [Example: "Exodia the Forbidden One", "Graceful Charity", "Magical Thorn"](https://db.ygoresources.com/qa#233)
+Examples:
+- ["Exodia the Forbidden One", "Graceful Charity", "Magical Thorn"](https://db.ygoresources.com/qa#233)
 
 <p align="left">
 	<a target="_blank" href="https://db.ygoresources.com/qa#233">YGOrg Database of Official OCG Rulings</a>
@@ -1353,7 +1403,8 @@ A card only needs to meet one of the above requirements to be activated during t
 
 A card whose effect reads "at the end of the Damage Step" can be activated even if damage calculation has not been conducted and Before Damage Calculation has been reached.
 
-- [Example: "Number C5: Chaos Chimera Dragon", "Reflect Bounder", "Divine Wrath"](https://db.ygoresources.com/qa#6177)
+Examples:
+- ["Number C5: Chaos Chimera Dragon", "Reflect Bounder", "Divine Wrath"](https://db.ygoresources.com/qa#6177)
 
 <p align="left">
 	<a target="_blank" href="https://db.ygoresources.com/qa#6177">YGOrg Database of Official OCG Rulings</a>
@@ -1368,7 +1419,8 @@ A card whose effect reads "if (1) you control would be destroyed by battle, you 
 
 - If you choose not to apply the effect, you can now use any effects that can be activated after damage calculation.
 
-- [Example: "Bujintei Kagutsuchi", "Zoodiac Whiptail"](https://db.ygoresources.com/qa#6398)
+Examples:
+- ["Bujintei Kagutsuchi", "Zoodiac Whiptail"](https://db.ygoresources.com/qa#6398)
 
 <p align="left">
 	<a target="_blank" href="https://db.ygoresources.com/qa#6398">YGOrg Database of Official OCG Rulings</a>
@@ -1399,6 +1451,18 @@ Announce the end of your turn, and if there are any cards on the field which say
 
 <p align="left">
 	<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 40</a>
+</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Mandatory actions during the End Phase
+
+If 2 or more cards effects have mandatory actions during the End Phase ("during the End Phase [...]"), either they start or not a chain, the turn player can choose in which order activate or conduct the actions.
+
+Examples:
+- ["Mystic Mine", "Winged Dragon of Ra - Sphere Mode"](https://db.ygoresources.com/qa#8765)
+
+<p align="left">
+	<a target="_blank" href="https://db.ygoresources.com/qa#8765">YGOrg Database of Official OCG Rulings</a>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -1544,6 +1608,46 @@ If there are 2 or more effects:
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+### Conjunctives
+
+<div align="center">
+
+| | Neither required | A required | Both required |
+|-| ---------- | ----------------- |-|
+| **Sequentially**   | also, after that  | then | |
+| **Simultaneously** | also  			 | and if you do | and |
+
+</div>
+
+<p align="left">
+	<a target="_blank" href="https://yugipedia.com/wiki/Problem-Solving_Card_Text">Yugipedia</a>
+</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+#### Banishing a token is a conjunction success
+
+If a Token's (1) propertis (Attribute, Type, ATK, DEF, Level...) satisfy a certain card's (2) activation requirement and (2) requires to banish a Monster with those properties, (2) can be activated. If (1) is banished because of (2)'s cost, (2) resolves normally even if (1) original properties were not originally the one necessary to fulfil the activation of (2).
+
+Examples:
+- ["DNA Surgery", "Dragon's Rebirth"](https://db.ygoresources.com/qa#275)
+
+<p align="left">
+	<a target="_blank" href="https://db.ygoresources.com/qa#275">YGOrg Database of Official OCG Rulings</a>
+</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+#### 0 ATK/DEF, reduction, and conjunction success
+
+A card's (1) effect which lowers a stat of a monster with action A and then does an action B, if action A applies to a monster (2) whose stat is lower than 1000 (even 0), then B **will** apply (even if (2)'s ATK is already 0, B will apply even if A is required such as "if you do" conjunctive).
+
+Examples:
+- ["Predaplant Chimerafflesia"](https://db.ygoresources.com/qa#275)
+
+<p align="left">
+	<a target="_blank" href="https://db.ygoresources.com/qa#7514">YGOrg Database of Official OCG Rulings</a>
+</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Effects Glossary
 
 ### Attach
@@ -1552,10 +1656,68 @@ If there are 2 or more effects:
 
 If an effect (1) that involves attaching a card (2) as an Xyz Material to a Xyz Monster on the field (3) is activated, if (3) is unaffected by cards' effects, then (1) resolves without attaching (2) to (3), and (1) is sent to the Graveyard.
 
-- [Example: "Overlay Regen", "Forbidden Lance"](https://db.ygoresources.com/qa#19)
+Examples:
+- ["Overlay Regen", "Forbidden Lance"](https://db.ygoresources.com/qa#19)
 
 <p align="left">
 	<a target="_blank" href="https://db.ygoresources.com/qa#19">YGOrg Database of Official OCG Rulings</a>
+</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Attack all once each
+
+#### Attack target redirection
+If a monster (1) can attack all opponent's monsters once each, if it attacks a monster (2) but then its attack is redirected to another monster (3), (1) cannot attack again (2). Furthermore, (3) which has been made the attack target instead of (2), if (3) has not been destroyed by battle after the attack redircetion, (1) cannot attack again (3).
+
+Examples:
+- ["Ruffian Railcar", "ZW - Asura Strike", "Construction Train Signal Red"](https://db.ygoresources.com/qa#10214)
+
+<p align="left">
+	<a target="_blank" href="https://db.ygoresources.com/qa#10214">YGOrg Database of Official OCG Rulings</a>
+</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Attack target redirection
+
+#### Attack all once each
+If a monster (1) can attack all opponent's monsters once each, if it attacks a monster (2) but then its attack is redirected to another monster (3), (1) cannot attack again (2). Furthermore, (3) which has been made the attack target instead of (2), if (3) has not been destroyed by battle after the attack redircetion, (1) cannot attack again (3).
+
+Examples:
+- ["Ruffian Railcar", "ZW - Asura Strike", "Construction Train Signal Red"](https://db.ygoresources.com/qa#10214)
+
+<p align="left">
+	<a target="_blank" href="https://db.ygoresources.com/qa#10214">YGOrg Database of Official OCG Rulings</a>
+</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Banish instead of sending to the Graveyard
+
+#### Banish only monsters and paying cost
+When the effect "any Monster sent to the GY is banished instead" is applying you:
+
+- **Cannot** activate a card or effect that requires you to send a Monster to the Graveyard as a cost.
+- **Cannot** activate a card or effect that send cards from the top of your Deck to the Graveyard as cost as there may be monster cards among them.
+- **Can** activate a card or effect that requires you to send a Monster Card not treated as a Monster (for example treated as an Equip Spell Card) to the Graveyard as a cost.
+
+Examples:
+- ["Dimensional Fissure", "Guardian Eatos"](https://db.ygoresources.com/qa#9105)
+- ["Charge of the Light Brigade", "Card Trooper", "Dimensional Fissure"](https://db.ygoresources.com/qa#9234)
+
+<p align="left">
+	<a target="_blank" href="https://db.ygoresources.com/qa#9234">YGOrg Database of Official OCG Rulings</a>,
+	<a target="_blank" href="https://db.ygoresources.com/qa#9105">YGOrg Database of Official OCG Rulings</a>
+</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+#### Banish vs cannot banish
+
+If the two effects "any card sent to the GY is banished instead" and "neither player can banish cards" are applying both simultaneously, cards sent to the Graveyard will not be banished and are sent to the Graveyard normally.
+
+Examples:
+- ["Imperial Iron Wall", "Macro Cosmos"](https://db.ygoresources.com/qa#7460)
+
+<p align="left">
+	<a target="_blank" href="https://db.ygoresources.com/qa#7460">YGOrg Database of Official OCG Rulings</a>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -1567,6 +1729,20 @@ When a card requires a monster to have "battled" (past tense), the attack had to
 
 <p align="left">
 	<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 52</a>
+</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Can only control 1
+
+#### Destruction not by card effect
+
+Monsters which violate this kind of effects are sent to the graveyard and are not considered as destroyed by card effects.
+
+Examples:
+- ["Gravekeeper's Chief", "Archfiend Zombie-Skull"](https://db.ygoresources.com/qa#8632)
+
+<p align="left">
+	<a target="_blank" href="https://db.ygoresources.com/qa#8632">YGOrg Database of Official OCG Rulings</a>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -1702,6 +1878,21 @@ When a banished card is moved to the Graveyard, it is not considered to be "sent
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+### Summon from Spell/Trap Zone (and vice versa)
+
+If an effect (1) targets a Monster Card (2) in the Spell/Trap Zone ((1) is not treated as a monster), if another card is chained to (1) and summons (2) to the Monster Zone, then (2) is no longer treated as the same card that was targeted by (1), so (1) resolves without effect.\
+Similary, if (1) targets (2) while in a Monster Zone but (2) is placed in the Spell/Trap Zone, (2) is no longer treated as the same card that was targeted by (1), so (1) resolves without effect.
+
+Examples:
+- ["Raigeki Break", "Stargazer Magician", "Pendulum Switch"](https://db.ygoresources.com/qa#9328) (M -> S/T)
+- ["Raigeki Break", "Stargazer Magician", "Pendulum Switch"](https://db.ygoresources.com/qa#10485) (S/T -> M)
+
+<p align="left">
+	<a target="_blank" href="https://db.ygoresources.com/qa#9328">YGOrg Database of Official OCG Rulings</a>,
+	<a target="_blank" href="https://db.ygoresources.com/qa#10485">YGOrg Database of Official OCG Rulings</a>
+</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ### Tribute
 
 Tributing is sending a monster you control to the Graveyard. You can Tribute a face-up or face-down monster, unless otherwise specified. Tributing a monster is one possible cost for Summoning a monster or activating an effect. A monster sent to the Graveyard by Tributing is not treated as "destroyed."
@@ -1717,7 +1908,8 @@ Tributing is sending a monster you control to the Graveyard. You can Tribute a f
 
 If an effect (1) that involves attaching a card (2) as an Xyz Material to a Xyz Monster on the field (3) is activated, if (3) is unaffected by cards' effects, then (1) resolves without attaching (2) to (3), and (1) is sent to the Graveyard.
 
-- [Example: "Overlay Regen", "Forbidden Lance"](https://db.ygoresources.com/qa#19)
+Examples:
+- ["Overlay Regen", "Forbidden Lance"](https://db.ygoresources.com/qa#19)
 
 <p align="left">
 	<a target="_blank" href="https://db.ygoresources.com/qa#19">YGOrg Database of Official OCG Rulings</a>
@@ -1728,38 +1920,53 @@ If an effect (1) that involves attaching a card (2) as an Xyz Material to a Xyz 
 
 ### Activation legality
 
-In order to activate a card (1) whose effect involves a cost and applies to another card, a correct target (2) must be present (on the field, in the Graveyard, ...) before attempting (1)'s activation. Even if a valid target (2) would be present after paying (1)'s cost, (1) cannot be activated.
+#### Location and cost
+In order to activate a card (1) whose effect involves a cost and applies to another card (2) (for example Summon (2) from the Graveyard), a correct target (2) must be present (on the field, in the Graveyard, ...) before attempting (1)'s activation. Even if a valid target (2) would be present after paying (1)'s cost, (1) cannot be activated.
 
-- [Example: "Lumina, Lightsworn Summoner"](https://db.ygoresources.com/qa#7283)
+Examples:
+- ["Lumina, Lightsworn Summoner"](https://db.ygoresources.com/qa#7283)
 
 <p align="left">
 	<a target="_blank" href="https://db.ygoresources.com/qa#7283">YGOrg Database of Official OCG Rulings</a>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Banishing a token is a conjunction success
+#### Add, discard and send
+A card (1) effect which involves adding a card (2) with a certain property and then discarding/sending a card (3) with (2)'s same property, (1) can be activated even if there are no cards of with (2)'s property in your hand at the moment of (1)'s activation.
 
-If a Token's (1) propertis (Attribute, Type, ATK, DEF, Level...) satisfy a certain card's (2) activation requirement and (2) requires to banish a Monster with those properties, (2) can be activated. If (1) is banished because of (2)'s cost, (2) resolves normally even if (1) original properties were not originally the one necessary to fulfil the activation of (2).
-
-- [Example: "DNA Surgery", "Dragon's Rebirth"](https://db.ygoresources.com/qa#275)
+Examples:
+- ["Dragunity Knight - Gae Dearg"](https://db.ygoresources.com/qa#8865)
 
 <p align="left">
-	<a target="_blank" href="https://db.ygoresources.com/qa#275">YGOrg Database of Official OCG Rulings</a>
+	<a target="_blank" href="https://db.ygoresources.com/qa#8865">YGOrg Database of Official OCG Rulings</a>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Change of control shenanigans with lack of space
 
-If your monster zones are full you:
+If your monster Zones are full you:
 
 - **Cannot** activate optional effects that would take control of an opponent's monster
 - **Can** activate mandatory effects that would take control of an opponent's monster
+
+Also you **can** activate optional effects that would take control of more than one opponent's monsters when you have at least one free Monster Zone, even if the number of monsters you would take control at resolution exceed the number of your free Monster Zones
+
+After a successful activation of such card, if you do not have enough room in your Monster Zones, the extras are destroyed.
+
+Examples:
+- ["Ojama Trio", "Owner's Seal"](https://db.ygoresources.com/qa#7316)
+- ["Number F0: Utopic Draco Future"](https://db.ygoresources.com/qa#23335)
+
+<p align="left">
+	<a target="_blank" href="https://db.ygoresources.com/qa#7316">YGOrg Database of Official OCG Rulings</a>
+</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Location changes mid-chain
 
 If a monster's Trigger Effect meets its activation conditions, BUT hasn't yet had a chance to actually activate yet (because it's still in the middle of a chain or card effect, for example) and is therefore being "saved for later", BUT its location* changes between the time its Trigger Effect activation is met, and the time it actually has a chance to activate, its effect does not activate. [*On the field, in the Graveyard, in the hand, banished, or in the Deck.]
 
--   [Example: "Drytron Alpha Thuban", "Cyber Angel Benten", "D.D. Crow"](https://db.ygoresources.com/qa#23251)
+-   ["Drytron Alpha Thuban", "Cyber Angel Benten", "D.D. Crow"](https://db.ygoresources.com/qa#23251)
 
 <p align="left">
 	<a target="_blank" href="https://www.yugioh-card.com/en/play/2021_rules_update/">Official KONAMI's rule</a>
@@ -1768,9 +1975,10 @@ If a monster's Trigger Effect meets its activation conditions, BUT hasn't yet ha
 
 ### Gain original/printed stat
 
-A monster (1) whose effect reads "The ATK of this card becomes the combined original ATK of the Tributed monsters", if it is summoned by tributing a monster (2) on the field whose **original** ATK was set by another card (3), (1)'s ATK will be (2)'s printed ATK even though (2)'s original ATK differs from its printed ATK due to (3).
+A monster (1) whose effect reads "The ATK of this card becomes the combined original ATK of the Tributed monsters", if it is Summoned by tributing a monster (2) on the field whose **original** ATK was set by another card (3), (1)'s ATK will be (2)'s printed ATK even though (2)'s original ATK differs from its printed ATK due to (3).
 
-- [Example: "Beast King Barbaros", "Fog King"](https://db.ygoresources.com/qa#6999)
+Examples:
+- ["Beast King Barbaros", "Fog King"](https://db.ygoresources.com/qa#6999)
 
 <p align="left">
 	<a target="_blank" href="https://db.ygoresources.com/qa#6999">YGOrg Database of Official OCG Rulings</a>
@@ -1781,9 +1989,10 @@ A monster (1) whose effect reads "The ATK of this card becomes the combined orig
 
 #### Monsters with multiple attributes count for all their attributes when used as material.
 
-A monster (1) who gains different effects based on the materials used for its summon, if one (2) of the materials had an effect on the field that treated its attribute as multiple attributes, then (1) will gain all the respective effects based on the multiple attributes of (2).
+A monster (1) who gains different effects based on the materials used for its Summon, if one (2) of the materials had an effect on the field that treated its attribute as multiple attributes, then (1) will gain all the respective effects based on the multiple attributes of (2).
 
-- [Example: "Genex Ally Triforce", "Elemental Mistress Doriado"](https://db.ygoresources.com/qa#7030)
+Examples:
+- ["Genex Ally Triforce", "Elemental Mistress Doriado"](https://db.ygoresources.com/qa#7030)
 
 <p align="left">
 	<a target="_blank" href="https://db.ygoresources.com/qa#7030">YGOrg Database of Official OCG Rulings</a>
@@ -1877,6 +2086,9 @@ A monster (1) who gains different effects based on the materials used for its su
 					</li>
 					<li>
 						<a target="_blank" href="https://db.ygoresources.com/qa#213">"Special Hurricane", "Book of Moon"</a>
+					</li>
+					<li>
+						<a target="_blank" href="https://db.ygoresources.com/qa#10316">"Vision HERO Trinity", "Interdimensional Matter Transporter"</a>
 					</li>
 				</ul>
 			</details>
@@ -2075,13 +2287,13 @@ In the examples, the two cards on the left are the "Prev", the card on the right
 	YGOrg Database of Official OCG Rulings:
 	<ul>
 		<li>
-			<a target="_blank" href="https://db.ygoresources.com/qa#7">Current ATK addition -> original ATK/DEF switching</a>
+			<a target="_blank" href="https://db.ygoresources.com/qa#7">Lingering Current Addition -> Lingering Original Set</a>
 		</li>
 		<li>
-			<a target="_blank" href="https://db.ygoresources.com/qa#6143">Continuous current ATK set, followed by lingering original ATK set</a>
+			<a target="_blank" href="https://db.ygoresources.com/qa#6143">Continuous Current Set -> Lingering Original Set</a>
 		</li>
 		<li>
-			<a target="_blank" href="https://db.ygoresources.com/qa#6248">Continuous Addition -> Continuous Set.</a>
+			<a target="_blank" href="https://db.ygoresources.com/qa#6248">Continuous Current Addition -> Continuous Current Set</a>
 		</li>
 	</ul>
 </p>

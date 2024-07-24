@@ -12,6 +12,9 @@
     </ul>
 </details>
 
+Examples:
+- ["Nekroz Cycle", "Nekroz of Clausolas"](https://db.ygoresources.com/qa#7022)
+
 <p align="left">
 	<a target="_blank" href="https://db.ygoresources.com/qa#233">YGOrg Database of Official OCG Rulings</a>
 </p>
