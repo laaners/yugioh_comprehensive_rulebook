@@ -81,6 +81,7 @@
 			- [Simultaneous Effects Go On Chain (SEGOC)](#simultaneous-effects-go-on-chain-segoc)
 - [Card text](#card-text)
 	- [Problem Solving Card Text (PSCT)](#problem-solving-card-text-psct)
+		- [Text structure](#text-structure)
 		- [Conjunctives](#conjunctives)
 			- [Banishing a token is a conjunction success](#banishing-a-token-is-a-conjunction-success-1)
 			- [0 ATK/DEF, reduction, and conjunction success](#0-atkdef-reduction-and-conjunction-success)
@@ -152,8 +153,13 @@ This is a separate Deck of cards you can use to change your Deck during a Match.
 	- The number of cards in your Side Decks must not exceed 15
 	- The number of cards in your Side Deck before and after you swap any cards must be exactly the same
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 2</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 2</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -192,8 +198,13 @@ Zone.
 
 - The restrictions requiring an Extra Monster Zone or Link Monster pointing still apply to Link Monsters and Pendulum Monsters that are Summoned from the Extra Deck.
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook pages 3-5</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook pages 3-5</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -231,8 +242,13 @@ Card effects are written here, describing the monster's special abilities and ho
 
 There are many kinds of Monster Cards. This game is more than a simple slugfest, so monsters with high Attack and Defense Points will not be enough. There are also monsters with strong special effects even though their ATK and DEF points are low. Therefore, your success in a Duel depends on how skillfully you can make use of the different kinds of cards.
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook pages 6-7</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook pages 6-7</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -248,8 +264,13 @@ There are many kinds of Monster Cards. This game is more than a simple slugfest,
 	</tr>
 </table>
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 8</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 8</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -311,8 +332,13 @@ There are many kinds of Monster Cards. This game is more than a simple slugfest,
 	</tr>
 </table>
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook pages 9-11</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook pages 9-11</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -348,8 +374,13 @@ There are many kinds of Monster Cards. This game is more than a simple slugfest,
 	</tr>
 </table>
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 23</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 23</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -361,8 +392,13 @@ Examples:
 - ["Nekroz Cycle", "Nekroz of Clausolas"](https://db.ygoresources.com/qa#7022)
 - ["Revendread Origin", "Revendread Slayer"](https://db.ygoresources.com/qa#7251)
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://db.ygoresources.com/qa#7251">YGOrg Database of Official OCG Rulings</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://db.ygoresources.com/qa#7251">YGOrg Database of Official OCG Rulings</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -398,8 +434,13 @@ Examples:
 	</tr>
 </table>
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 22</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 22</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -445,8 +486,13 @@ Examples:
 	</tr>
 </table>
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook pages 20-21</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook pages 20-21</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -486,8 +532,13 @@ Examples:
 	</tr>
 </table>
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook pages 18-19</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook pages 18-19</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -501,8 +552,13 @@ Monsters that are used to Xyz Summon are called "Xyz Materials", and are placed 
 
 - If an Xyz Monster is flipped face-down, or becomes controlled by the opponent, the Xyz Materials are not sent to the Graveyard. They remain attached to the Xyz Monster.
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 51</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 51</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -542,8 +598,13 @@ Monsters that are used to Xyz Summon are called "Xyz Materials", and are placed 
 	</tr>
 </table>
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook pages 16-17</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook pages 16-17</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -582,8 +643,13 @@ Monsters that are used to Xyz Summon are called "Xyz Materials", and are placed 
 	</tr>
 </table>
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook pages 12-15</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook pages 12-15</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -595,40 +661,65 @@ Link and Pendulum Monsters Summoned from the Extra Deck normally have to go in t
 
 Link and Pendulum Monsters that started in the Extra Deck, but later end up in the Graveyard (or are banished) and are Summoned from there, also go in the Main Monster Zones (and don't need a Link Monster to point to them).
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 14</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 14</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 	
 #### Link Monsters as Link material
 Normally, 1 monster equals 1 Link Material. But when you use a Link Monster as material for another Link Summon, you can count it as either 1 monster, or as a number of monsters equal to its Link Rating. For example, if you want to Summon a Link 3 monster that requires 2 or more materials in its "recipe", you can either use 3 monsters (each counts as 1 material) or else a Link 2 Link Monster (counts as 1 or 2 materials) and a second monster (counts as 1 material).
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 14</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 14</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 #### Defense
 Link Monsters have no DEF and cannot ever be in Defense Position. They can't be changed to Defense Position by a card effect. They can't even be flipped into face-down Defense Position.
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 15</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 15</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 #### Change control
 If you take control of your opponent's monster in the Extra Monster Zone, it moves to your Main Monster Zone. When it goes back to your opponent, it goes to their Main Monster Zone, not the Extra Monster Zone.
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 15</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 15</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 #### Non-monster card as material
 As long as the materials meet the requirements of the Link Monster you want to Summon, you can use a Token or Trap Card that is treated as a monster as the Link Material.
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 15</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 15</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -644,16 +735,26 @@ There are several ways to play monsters onto the field. These ways can be catego
    - Special Summon
    - Special Summon with a Card's Effect
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 24</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 24</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Normal Summon
 This is the most common way to Summon a monster. Simply play a Monster Card from your hand onto the field in face-up Attack Position. All Normal Monsters, and most Effect Monsters (unless they have a specific restriction), can be Summoned in this way.
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 24</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 24</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -664,8 +765,13 @@ To play a Monster Card from your hand in face-down Defense Position is called a 
 - Remember, you can only Normal Summon OR Normal Set (Normal Summon/Set, in short), once per turn, so if you Normal Set a monster you cannot also Normal Summon a monster that turn.
 - You cannot play a monster from your hand onto the field in face-up Defense Position
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 24</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 24</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -680,9 +786,14 @@ For monsters that are Level 5 or higher, you must Tribute at least 1 monster you
 </div>
 
 - If you Tribute Summon in face-down Defense Position, it is called a Tribute Set. A monster Tribute Set on the field is NOT considered Summoned.
-- When a card explains a special method to Tribute Summon a monster, you can also Tribute Set the monster by the same method
+- When a card explains a special method to Tribute Summon a monster, you 
+**References**:can also Tribute Set the monster by the same method
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 24</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 24</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -691,37 +802,59 @@ For monsters that are Level 5 or higher, you must Tribute at least 1 monster you
 You can change a face-down Defense Position monster into face-up Attack Position, without using a card effect. This is called a Flip Summon.
 - When you Flip Summon, you cannot change the monster to face-up Defense Position, only to face-up Attack Position.
 - A Monster Card cannot be Flip Summoned in the same turn that it was Set onto the field.
-- You cannot use most monsters' effects until they are face-up
+
+**References**:- You cannot use most monsters' effects until they are face-up
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 25</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 25</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Special Summon
 
-Some monsters can be played onto the field without being Normal Summoned or Set. This is called a Special Summon. Link Summons, Pendulum Summons, Xyz Summons, Synchro Summons, Fusion Summons and Ritual Summons are all Special Summons. Some Effect Monsters also have specific conditions that allow you to Special Summon them. Unless otherwise specified, a Special Summoned monster is played onto the field in your choice of face-up Attack Position or face-up Defense Position.
+Some monsters can be played onto the field without being Normal Summoned or Set. This is called a Special Summon. Link Summons, Pendulum Summons, Xyz Summons, Synchro Summons, Fusion Summons and Ritual Summons are all Special Summons. Some Effect Monsters also have specific conditions that allow you to Special Summon them. Unless otherwise specified, a Special Summoned monster is played onto the field in your choice of face-up Attack 
+**References**:Position or face-up Defense Position.
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 25</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 25</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Special Summon with a Card's Effect
 
-Monsters can also be Special Summoned onto the field through the effect of another card.
+Monsters can also be Special Summoned onto the field through the effect of 
+**References**:another card.
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 25</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 25</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 #### Properly Special Summon
-This is different from "Special Summon Monsters." You cannot use a card effect to Special Summon those monsters from your hand, Deck, Graveyard, Spell/Trap Zone unless it was properly Special Summoned first. For example, if a Synchro Monster is sent from your Extra Deck to the Graveyard without being Synchro Summoned, you cannot use a Spell Card to Special Summon it from the Graveyard, because Synchro Monsters have to be properly Special Summoned first, before they can be Special Summoned by another card's effect.
+This is different from "Special Summon Monsters." You cannot use a card effect to Special Summon those monsters from your hand, Deck, Graveyard, Spell/Trap Zone<sup><a href="#properly_special_summon-2">[2]</a></sup> unless it was properly Special Summoned first. For example, if a Synchro Monster is sent from your Extra Deck to the Graveyard without being Synchro Summoned, you cannot use a Spell Card to Special Summon it from the Graveyard, because Synchro Monsters have to be properly Special Summoned first, before they can be Special Summoned by another card's effect.
 
 Examples:
 - ["Meklord Emperor Granel"](https://db.ygoresources.com/qa#10331)
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 25</a>,
-	<a target="_blank" href="https://db.ygoresources.com/qa#10331">YGOrg Database of Official OCG Rulings</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 25</a>
+		</li>
+		<li id="properly_special_summon-2">
+			<a target="_blank" href="https://db.ygoresources.com/qa#10331">YGOrg Database of Official OCG Rulings</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -731,8 +864,13 @@ A monster (1) properly Special Summoned is on the field. If (1) is being flipped
 Examples:
 - ["Chaos Sorcerer", "Solemn Judgment"](https://db.ygoresources.com/qa#9124)
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://db.ygoresources.com/qa#9124">YGOrg Database of Official OCG Rulings</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://db.ygoresources.com/qa#9124">YGOrg Database of Official OCG Rulings</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -740,8 +878,13 @@ Examples:
 
 The restriction of "you cannot Normal or Special Summon the turn you activate this card" only refers to monsters that were successfully Summoned. Same for "you can only Special Summon X once per turn" restrictions.
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/en/play/2021_rules_update/">Official KONAMI's rule</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.yugioh-card.com/en/play/2021_rules_update/">Official KONAMI's rule</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -755,8 +898,13 @@ A card (1) with the restriction of "you cannot Normal or Special Summon except [
 Examples:
 - ["Mozarta the Melodious Maestra", "DNA Transplant"](https://db.ygoresources.com/qa#8469)
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://db.ygoresources.com/qa#8469">YGOrg Database of Official OCG Rulings</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://db.ygoresources.com/qa#8469">YGOrg Database of Official OCG Rulings</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -787,8 +935,13 @@ A card's identification number is found here. This number is useful for collecti
 
 Spell Cards can normally be activated only during your Main Phase, and help you out with different effects. Spell Cards have many powerful effects, like destroying other cards or strengthening monsters. Save these cards in your hand until you can get the best results out of them.
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook pages 26-27</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook pages 26-27</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -800,8 +953,13 @@ Spell Cards can normally be activated only during your Main Phase, and help you 
 	<br clear="left">
 </div>
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 28</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 28</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -813,8 +971,13 @@ Spell Cards can normally be activated only during your Main Phase, and help you 
 	<br clear="left">
 </div>
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 29</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 29</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -826,8 +989,13 @@ Spell Cards can normally be activated only during your Main Phase, and help you 
 	<br clear="left">
 </div>
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 29</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 29</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -839,8 +1007,13 @@ Spell Cards can normally be activated only during your Main Phase, and help you 
 	<br clear="left">
 </div>
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 29</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 29</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -852,8 +1025,13 @@ Spell Cards can normally be activated only during your Main Phase, and help you 
 	<br clear="left">
 </div>
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 29</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 29</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -865,8 +1043,13 @@ Spell Cards can normally be activated only during your Main Phase, and help you 
 	<br clear="left">
 </div>
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 29</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 29</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -876,8 +1059,13 @@ Trap Cards will help you out with different effects, just like Spell Cards. The 
 
 Spell Cards can be Set face-down on the field like Trap Cards. However, the rules for the two types of cards are different. Spell Cards can be activated during the Main Phases even in the same turn that you Set them (except for Quick-Play Spell Cards). Setting them does not allow you to use them on your opponent's turn; they still can only be activated during your Main Phase. You can Set a Spell Card face-down on the field to bluff your opponent into thinking you have a powerful Trap.
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 30</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 30</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -889,8 +1077,13 @@ Spell Cards can be Set face-down on the field like Trap Cards. However, the rule
 	<br clear="left">
 </div>
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 30</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 30</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -902,8 +1095,13 @@ Spell Cards can be Set face-down on the field like Trap Cards. However, the rule
 	<br clear="left">
 </div>
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 31</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 31</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -915,8 +1113,13 @@ Spell Cards can be Set face-down on the field like Trap Cards. However, the rule
 	<br clear="left">
 </div>
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 31</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 31</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -939,8 +1142,13 @@ Monster Tokens are monsters that appear on the field as the result of a card's e
 
 - Tokens on the field are treated as Normal Monsters. 
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 49</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 49</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -951,8 +1159,13 @@ If a Token's (1) propertis (Attribute, Type, ATK, DEF, Level...) satisfy a certa
 Examples:
 - ["DNA Surgery", "Dragon's Rebirth"](https://db.ygoresources.com/qa#275)
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://db.ygoresources.com/qa#275">YGOrg Database of Official OCG Rulings</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://db.ygoresources.com/qa#275">YGOrg Database of Official OCG Rulings</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -966,16 +1179,19 @@ You may need to place these on cards for some card effects.
 
 - Some counters have specific names, such as "Spell Counter" or "Clock Counter." Other than their names, each individual counter itself does not have any effects. 
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 51</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 51</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 # General Game Mechanics
 
 ## Forbidden & Limited Cards
-
-[Official TCG F&L list](www.yugioh-card.com/en/limited/)
 
 Normally, your Deck (including Extra Deck and Side Deck) can contain up to 3 copies of a card that has the same name. However, certain cards have specific quantity restrictions that further limit the number that can be included in a Deck. There are 3 types of restrictions:
 
@@ -987,8 +1203,16 @@ Normally, your Deck (including Extra Deck and Side Deck) can contain up to 3 cop
 
 The list of Forbidden and Limited cards is updated regularly and is posted on the Yu-Gi-Oh! TCG Official Website. This list is applied to official tournaments so please check it before participating. Official Website: www.yugioh-card.com
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 49</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 49</a>
+		</li>
+		<li>
+			<a target="_blank" href="www.yugioh-card.com/en/limited/">Official TCG F&L list</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -999,8 +1223,13 @@ The number of cards in a player's hand and Decks, the cards in their Graveyards,
 - You are allowed to pick up and verify the cards in your opponent's Graveyard but you must ask their permission first.
 - You may not change the order of the cards when verifying their Graveyard.
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 50</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 50</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -1008,8 +1237,13 @@ The number of cards in a player's hand and Decks, the cards in their Graveyards,
 
 If there is a discrepancy between the basic rules and a card's effect, the card effect takes precedence. For example, a monster can only attack once per turn, but with a card effect, it is possible to attack twice.
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 49</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 49</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -1030,8 +1264,14 @@ A Duel progresses in a series of turns which are divided into phases
 <div align="center">
 	<img src="./images/turn_structure.png" width=300 />
 </div>
+
+**References**:
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook pages 32-34</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook pages 32-34</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -1042,8 +1282,13 @@ Alternate victory conditions are checked and met before a new chain starts, even
 Examples:
 - ["Exodia the Forbidden One", "Graceful Charity", "Magical Thorn"](https://db.ygoresources.com/qa#233)
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://db.ygoresources.com/qa#233">YGOrg Database of Official OCG Rulings</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://db.ygoresources.com/qa#233">YGOrg Database of Official OCG Rulings</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -1056,8 +1301,13 @@ This is the first phase. The player whose turn it is (the "turn player")
 
 **IMPORTANT**: The player who goes first cannot draw during the Draw Phase of their first turn.
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 35</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 35</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -1066,8 +1316,13 @@ This is the first phase. The player whose turn it is (the "turn player")
 Some cards have effects that activate, or costs you must pay, in the Standby Phase. The turn player:
 - **Can activate Trap Cards or Quick-Play Spell Cards** before proceeding to the Main Phase 1.
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 35</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 35</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -1082,8 +1337,13 @@ This is when you play most of your cards: you can Normal Summon, Set, or change 
 - **Can Activate a Card or Effect**. You can activate Spell and Trap Cards, or the effects of Spell, Trap, or Effect Monster Cards as many times as you want during this phase, as long as you can keep paying any costs involved. 
 - **Can Set Spell and Trap Cards**. You can Set Spell and Trap Cards face-down in your Spell & Trap Zone during this phase, as long as you have space.
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 36</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 36</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -1100,8 +1360,13 @@ Now it's time to battle with your Monster Cards! This phase is divided into step
 The Battle Phase is split into 4 steps and is conducted in the
 order shown in the diagram. The Battle Step and Damage Step are repeated each time you attack with a monster.
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 37</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 37</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -1109,8 +1374,13 @@ order shown in the diagram. The Battle Step and Damage Step are repeated each ti
 
 This step starts the Battle Phase. The turn player should announce "I'm entering the Battle Phase." Remember, the player who goes first cannot conduct a Battle Phase in their very first turn.
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 38</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 38</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -1120,8 +1390,13 @@ Select 1 monster on your side of the field to attack with, and 1 of your opponen
 - Each face-up Attack Position monster you control is allowed 1 attack per turn.
 - You do not have to attack with a monster if you don't want to.
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 38</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 38</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -1135,8 +1410,13 @@ Select 1 monster on your side of the field to attack with, and 1 of your opponen
 	<br clear="left">
 </div>
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 39</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 39</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -1144,8 +1424,13 @@ Select 1 monster on your side of the field to attack with, and 1 of your opponen
 
 In this step, the players calculate the result of the battle and whatever damage is done. After finishing the Damage Step, return to the Battle Step.
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 38</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 38</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -1214,8 +1499,13 @@ You calculate battle damage based on the battle position of the monster you are 
 
 If there are no monsters on your opponent's side of the field, you can attack directly. The full amount of your attacking monster's ATK is subtracted from the opponent's LP as battle damage.
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook pages 42-43, 50</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook pages 42-43, 50</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -1241,13 +1531,13 @@ There are five distinct timings within the Damage Step.
 	<tr>
 		<th>Start of the Damage Step</th>
 		<td><ul>
-			<li>You declare that you are entering the Damage Step</li>
-			<li>Face-down monsters are not flipped</li>
+			<li>You declare that you are entering the Damage Step<sup><a href="#sub-steps_of_the_damage_step-1">[1]</a></sup></li>
+			<li>Face-down monsters are not flipped<sup><a href="#sub-steps_of_the_damage_step-1">[1]</a></sup></li>
 		<ul></td>
 		<td>
-			✔️ "at the start of the Damage Step"
+			✔️ "at the start of the Damage Step"<sup><a href="#sub-steps_of_the_damage_step-1">[1]</a></sup>
 			<br><br>
-			✔️ Spell/Trap Cards and Quick/Quick-like Effects that directly alter the ATK/DEF
+			✔️ Spell/Trap Cards and Quick/Quick-like Effects that directly alter the ATK/DEF<sup><a href="#sub-steps_of_the_damage_step-2">[2]</a></sup><sup><a href="#sub-steps_of_the_damage_step-3">[3]</a></sup>
 		</td>
 		<td>
 			✔️ "during the Damage Step (only)"
@@ -1256,84 +1546,94 @@ There are five distinct timings within the Damage Step.
 	<tr>
 		<th>Before damage calculation</th>
 		<td><ul>
-			<li>If the monster being attacked is face-down, flip it face-up</li>
+			<li>If the monster being attacked is face-down, flip it face-up<sup><a href="#sub-steps_of_the_damage_step-1">[1]</a></sup></li>
 		<ul></td>
 		<td>
-			✔️ "before damage calculation"
+			✔️ "before damage calculation"<sup><a href="#sub-steps_of_the_damage_step-1">[1]</a></sup>
 			<br><br>
-			✔️ Spell/Trap Cards and Quick/Quick-like Effects that directly alter the ATK/DEF
+			✔️ Spell/Trap Cards and Quick/Quick-like Effects that directly alter the ATK/DEF<sup><a href="#sub-steps_of_the_damage_step-2">[2]</a></sup><sup><a href="#sub-steps_of_the_damage_step-3">[3]</a></sup>
 			<br><br>
-			❌ Effects that activate when a monsters is flipped face-up: won't activate as well after damage calculation if the flipped monster itself leaves the Monster Zone before then ("Drillroid" will destroy without triggering Flip effects)
+			❌ Effects that activate when a monsters is flipped face-up: won't activate as well after damage calculation if the flipped monster itself leaves the Monster Zone before then ("Drillroid" will destroy without triggering Flip effects)<sup><a href="#sub-steps_of_the_damage_step-2">[2]</a></sup><sup><a href="#sub-steps_of_the_damage_step-3">[3]</a></sup>
 		</td>
 		<td>
-			✔️ If a monster is flipped face-up and it has a Continuous Effect, then typically that Continuous Effect is applied immediately, such as the effects of monsters like "Star Boy" and "Jinzo"
+			✔️ If a monster is flipped face-up and it has a Continuous Effect, then typically that Continuous Effect is applied immediately, such as the effects of monsters like "Star Boy" and "Jinzo"<sup><a href="#sub-steps_of_the_damage_step-4">[4]</a></sup><sup><a href="#sub-steps_of_the_damage_step-5">[5]</a></sup>
 			<br><br>
-			❌ Continuous Effect that would prevent the flipped monster from being targeted for attacks, attacked or would prevent the attacking monster from attacking: the monster has already been targeted as an attack target
+			❌ Continuous Effect that would prevent the flipped monster from being targeted for attacks are not relevant at this time, since the monster has already been targeted as an attack target<sup><a href="#sub-steps_of_the_damage_step-6">[6]</a></sup>. If the monster survives the Damage Step, its effect will prevent itself from being targeted by any future attacks
 			<br><br>
-			❌ Continuous Effect that destroys itself under certain conditions that are currently met (such as "Giant Kozaky", "Zombie Mammoth", etc.), the monster is not destroyed yet and the Damage Step proceeds normally, until after damage calculation. The same applies if "Rivalry of Warlords" or "Gozen Match", or if there is an active 'Unclassified Effect' (belonging either to the flipped monster or another face-up monster) that states "You can only control 1 [...]" or "There can only be 1 [...] on the field"; the appropriate actions are determined and performed after damage calculation
+			❌ Continuous Effects that would prevent the flipped monster from being attacked or the attacking monster from attacking (such as the effects of "Machina Sniper" and "Big-Tusked Mammoth") do not apply at this time, since the Battle Step is already over<sup><a href="#sub-steps_of_the_damage_step-7">[7]</a></sup><sup><a href="#sub-steps_of_the_damage_step-8">[8]</a></sup>. If the monster survives the Damage Step, its effect will protect itself from any future attacks
+			<br><br>
+			❌ Continuous Effect that destroys itself under certain conditions that are currently met (such as "Giant Kozaky", "Zombie Mammoth", etc.), the monster is not destroyed yet and the Damage Step proceeds normally, until after damage calculation<sup><a href="#sub-steps_of_the_damage_step-9">[9]</a></sup><sup><a href="#sub-steps_of_the_damage_step-10">[10]</a></sup>. The same applies if "Rivalry of Warlords" or "Gozen Match", or if there is an active 'Unclassified Effect' (belonging either to the flipped monster or another face-up monster) that states "You can only control 1 [...]" or "There can only be 1 [...] on the field"; the appropriate actions are determined and performed after damage calculation<sup><a href="#sub-steps_of_the_damage_step-11">[11]</a></sup><sup><a href="#sub-steps_of_the_damage_step-12">[12]</a></sup>
 		</td>
 	</tr>
 	<tr>
 		<th>Perform damage calculation</th>
 		<td><ul>
 			<li>Compare ATK/DEF and apply damage to Life Points</li>
-			<li>Determine whether either monster will be destroyed by battle or not, but do not send it to the GY yet<br>If there is a Continuous/Continuous-like Effect or Unclassified Effect that has the player perform a certain action instead of the monster being destroyed by this battle (such as that of "Return of the Dragon Lords" banishing itself from the GY instead of destroying the monster), the relevant player must choose (at this point) whether or not they will use it. If they do, that action is not performed right at that time; instead, it will be applied immediately after damage calculation ("Return of the Dragon Lords" would be banished after damage calculation)</li>
+			<li>Determine whether either monster will be destroyed by battle or not, but do not send it to the GY yet<sup><a href="#sub-steps_of_the_damage_step-1">[1]</a></sup><sup><a href="#sub-steps_of_the_damage_step-3">[3]</a></sup><br>If there is a Continuous/Continuous-like Effect or Unclassified Effect that has the player perform a certain action instead of the monster being destroyed by this battle (such as that of "Return of the Dragon Lords" banishing itself from the GY instead of destroying the monster), the relevant player must choose (at this point) whether or not they will use it. If they do, that action is not performed right at that time; instead, it will be applied immediately after damage calculation ("Return of the Dragon Lords" would be banished after damage calculation)</li>
 		<ul></td>
 		<td>
-			✔️ "during damage calculation"
+			✔️ "during damage calculation"<sup><a href="#sub-steps_of_the_damage_step-1">[1]</a></sup>
 			<br><br>
 			❌ Effects that activate when a monsters is flipped face-up: won't activate after damage calculation if the flipped monster itself leaves the Monster Zone before then ("Drillroid" will destroy without triggering FLIP effects)
+			<br><br>
+			❌ Spell/Trap Cards and Quick/Quick-like Effects that directly alter the ATK/DEF<sup><a href="#sub-steps_of_the_damage_step-2">[2]</a></sup><sup><a href="#sub-steps_of_the_damage_step-3">[3]</a></sup>. In general, they can no longer be activated at this point or for the rest of this Damage Step
 		</td>
 		<td>
-			✔️ "during damage calculation (only)"
+			✔️ "during damage calculation (only)", applied immediately
 		</td>
 	</tr>
 	<tr>
 		<th>After damage calculation</th>
 		<td><ul>
 			<li>
-				Monsters that have been considered to be destroyed by battle are still not sent to the GY yet. Even though the monsters are still on the field:
+				Monsters that have been considered to be destroyed by battle are still not sent to the GY yet<sup><a href="#sub-steps_of_the_damage_step-1">[1]</a></sup><sup><a href="#sub-steps_of_the_damage_step-3">[3]</a></sup>. Even though the monsters are still on the field:
 				<ul>
-					<li>They cannot be targeted by cards or effects, have their battle positions changed, or have their ATK/DEF changed</li>
-					<li>Their Continuous Effects are no longer applied</li>
-					<li>Their optional Quick Effects can no longer be activated</li>
-					<li>They cannot be returned to the hand by card effects, unless a card effect specifies that it can return destroyed monsters (such as "Last Minute Cancel"), but even then the destroyed monster will not be returned yet</li>
-					<li>Their effects can still be negated</li>
-					<li>Before those monsters would be sent to the GY (or another appropriate location) as a result of being destroyed by battle, it is possible for them to be destroyed by card effects, sent to the GY by card effects, or banished by card effects before that can occur</li>
-					<li>If a monster ends up leaving the field before it can be sent to the GY (or another appropriate location) as a result of battle, cards and effects that would activate when/if that monster is destroyed by battle and sent to the GY cannot be activated ("Gozen Match")</li>
-					<li>They cannot be used as a cost to activate a card or an optional effect. But they can be used as a cost to activate a mandatory effect, such as "Doomcaliber Knight"</li>
+					<li>
+						They cannot be targeted by cards or effects, have their battle positions changed, or have their ATK/DEF changed
+						<sup><a href="#sub-steps_of_the_damage_step-2">[2]</a></sup>
+						<sup><a href="#sub-steps_of_the_damage_step-3">[3]</a></sup>
+						<sup><a href="#sub-steps_of_the_damage_step-13">[13]</a></sup>
+						<sup><a href="#sub-steps_of_the_damage_step-14">[14]</a></sup>
+					</li>
+					<li>Their Continuous Effects are no longer applied<sup><a href="#sub-steps_of_the_damage_step-3">[3]</a></sup><sup><a href="#sub-steps_of_the_damage_step-15">[15]</a></sup></li>
+					<li>Their optional Quick Effects can no longer be activated<sup><a href="#sub-steps_of_the_damage_step-16">[16]</a></sup></li>
+					<li>They cannot be returned to the hand by card effects<sup><a href="#sub-steps_of_the_damage_step-17">[17]</a></sup>, unless a card effect specifies that it can return destroyed monsters (such as "Last Minute Cancel"), but even then the destroyed monster will not be returned yet</li>
+					<li>Their effects can still be negated<sup><a href="#sub-steps_of_the_damage_step-18">[18]</a></sup></li>
+					<li>Before those monsters would be sent to the GY (or another appropriate location) as a result of being destroyed by battle, it is possible for them to be destroyed by card effects, sent to the GY by card effects, or banished by card effects before that can occur<sup><a href="#sub-steps_of_the_damage_step-19">[19]</a></sup><sup><a href="#sub-steps_of_the_damage_step-20">[20]</a></sup></li>
+					<li>If a monster ends up leaving the field ("Gozen Match") before it can be sent to the GY (or another appropriate location) as a result of battle, cards and effects that would activate when/if that monster is destroyed by battle and sent to the GY cannot be activated<sup><a href="#sub-steps_of_the_damage_step-12">[12]</a></sup><sup><a href="#sub-steps_of_the_damage_step-21">[21]</a></sup></li>
+					<li>They cannot be used as a cost to activate a card or an optional effect<sup><a href="#sub-steps_of_the_damage_step-22">[22]</a></sup>. But they can be used as a cost to activate a mandatory effect, such as "Doomcaliber Knight"<sup><a href="#sub-steps_of_the_damage_step-23">[23]</a></sup></li>
 				</ul>
 			</li>
 		<ul></td>
 		<td>
-			✔️ "after damage calculation"
+			✔️ "after damage calculation"<sup><a href="#sub-steps_of_the_damage_step-1">[1]</a></sup><sup><a href="#sub-steps_of_the_damage_step-3">[3]</a></sup>
 			<br><br>
-			✔️ "this card battles" or "attacks or is attacked"
+			✔️ "this card battles" or "attacks or is attacked"<sup><a href="#sub-steps_of_the_damage_step-1">[1]</a></sup>
 			<br><br>
-			✔️ If a player takes battle damage such as "Don Zaloog"
+			✔️ If a player takes battle damage such as "Don Zaloog"<sup><a href="#sub-steps_of_the_damage_step-1">[1]</a></sup>
 			<br><br>
-			✔️ If a monster is flipped face-up (including Flip effects) 
+			✔️ If a monster is flipped face-up (including Flip effects)<sup><a href="#sub-steps_of_the_damage_step-1">[1]</a></sup>
 		</td>
 		<td>
-			✔️ If a monster with a Continuous Effect that destroys itself under certain conditions ("Giant Kozaky", "Zombie Mammoth", etc.) survives damage calculation without being determined to be "destroyed by battle", that Continuous Effect will immediately apply at this point and destroy that monster if those conditions are still met
+			✔️ If a monster with a Continuous Effect that destroys itself under certain conditions ("Giant Kozaky", "Zombie Mammoth", etc.) survives damage calculation without being determined to be "destroyed by battle", that Continuous Effect will immediately apply at this point and destroy that monster if those conditions are still met<sup><a href="#sub-steps_of_the_damage_step-9">[9]</a></sup>
 			<br><br>
-			✔️ If a monster was flipped face-up during the Damage Step and "Rivalry of Warlords"/"Gozen Match" is still active, if that monster has a Attribute/Type that conflicts with another monster already face-up on the field, the flipped monster will immediately be sent to the Graveyard at this point
+			✔️ If a monster was flipped face-up during the Damage Step and "Rivalry of Warlords"/"Gozen Match" is still active, if that monster has a Attribute/Type that conflicts with another monster already face-up on the field, the flipped monster will immediately be sent to the Graveyard at this point<sup><a href="#sub-steps_of_the_damage_step-12">[12]</a></sup>
 			<br><br>
-			✔️ If a monster was flipped face-up during the Damage Step and its name conflicts with another monster that is already face-up on the field, as defined by an 'Unclassified Effect' that states "You can only control 1 [...]" or "There can only be 1 [...] on the field" (belonging either to the flipped monster or another face-up monster), the flipped monster will be immediately destroyed
+			✔️ If a monster was flipped face-up during the Damage Step and its name conflicts with another monster that is already face-up on the field, as defined by an 'Unclassified Effect' that states "You can only control 1 [...]" or "There can only be 1 [...] on the field" (belonging either to the flipped monster or another face-up monster), the flipped monster will be immediately destroyed<sup><a href="#sub-steps_of_the_damage_step-11">[11]</a></sup>
 		</td>
 	</tr>
 	<tr>
 		<th>End of the Damage Step</th>
 		<td><ul>
-			<li>Monsters that were determined to be destroyed by battle are now normally sent to the GY, unless they are Pendulum Monsters or if a card effect states otherwise</li>
+			<li>Monsters that were determined to be destroyed by battle are now normally sent to the GY, unless they are Pendulum Monsters or if a card effect states otherwise<sup><a href="#sub-steps_of_the_damage_step-1">[1]</a></sup></li>
 			<li>Once there are no effects left to activate or resolve, the Damage Step ends, and the Battle Step is automatically re-entered. At the time both players agree to enter the Battle Step, effects that apply "until the end of the Damage Step" now expire and no longer apply</li>
 		<ul></td>
 		<td>
-			✔️ "at the end of the Damage Step"
+			✔️ "at the end of the Damage Step"<sup><a href="#sub-steps_of_the_damage_step-1">[1]</a></sup>
 			<br><br>
-			✔️ When/if a monster is destroyed by battle
+			✔️ When/if a monster is destroyed by battle<sup><a href="#sub-steps_of_the_damage_step-1">[1]</a></sup>
 			<br><br>
-			✔️ When/if a monster destroys another monster by battle
+			✔️ When/if a monster destroys another monster by battle<sup><a href="#sub-steps_of_the_damage_step-1">[1]</a></sup>
 			<br><br>
 		</td>
 		<td>
@@ -1341,9 +1641,79 @@ There are five distinct timings within the Damage Step.
 	</tr>
 </table>
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/eu/play/damage-step-rules/">Official KONAMI's damage step rules</a>,
-	<a target="_blank" href="https://yugipedia.com/wiki/Damage_Step">Yugipedia</a>
+	<ol>
+		<li id="sub-steps_of_the_damage_step-1">
+			<a target="_blank" href="https://www.yugioh-card.com/eu/play/damage-step-rules/">Official KONAMI's damage step rules</a>
+		</li>
+		<li id="sub-steps_of_the_damage_step-2">
+			<a target="_blank" href="https://yugipedia.com/wiki/File:Rulebook_v10.pdf?page=45">Official rulebook Version 10</a>
+		</li>
+		<li id="sub-steps_of_the_damage_step-3">
+            <a target="_blank" href="https://ygorganization.com/perfect-rulebook-2017/">OCG Perfect Rulebook 2017</a>
+        </li>
+		<li id="sub-steps_of_the_damage_step-4">
+            <a target="_blank" href="http://web.archive.org/web/20090226215920/http://entertainment.upperdeck.com/yugioh/en/gameplay/faqs/cardfaqs/default.aspx?first=F&last=H">"Goblin King" ruling</a>, archived from the <a target="_blank" href="http://entertainment.upperdeck.com/yugioh/en/gameplay/faqs/cardfaqs/default.aspx?first=F&last=H">original</a>
+        </li>
+		<li id="sub-steps_of_the_damage_step-5">
+            <a target="_blank" href="http://web.archive.org/web/20090218205242/http://entertainment.upperdeck.com/yugioh/en/gameplay/faqs/cardfaqs/default.aspx?first=D&last=E">"Embodiment of Apophis" ruling</a>, archived from the <a target="_blank" href="http://entertainment.upperdeck.com/yugioh/en/gameplay/faqs/cardfaqs/default.aspx?first=D&last=E">original</a>
+        </li>
+		<li id="sub-steps_of_the_damage_step-6">
+            <a target="_blank" href="http://web.archive.org/web/20090220023927/http://entertainment.upperdeck.com/yugioh/en/gameplay/faqs/cardfaqs/default.aspx?first=L&last=O">"Morphtronic Magnen" ruling</a>, archived from the <a target="_blank" href="http://entertainment.upperdeck.com/yugioh/en/gameplay/faqs/cardfaqs/default.aspx?first=L&last=O">original</a>
+        </li>
+		<li id="sub-steps_of_the_damage_step-7">
+            <a target="_blank" href="http://web.archive.org/web/20090217182013/http://entertainment.upperdeck.com/yugioh/en/gameplay/faqs/cardfaqs/default.aspx?first=A&last=C">"Big-Tusked Mammoth", ruling</a>, archived from the <a target="_blank" href="http://entertainment.upperdeck.com/yugioh/en/gameplay/faqs/cardfaqs/default.aspx?first=A&last=C">original</a>
+        </li>
+		<li id="sub-steps_of_the_damage_step-8">
+            <a target="_blank" href="https://web.archive.org/web/20200917042908/https://img.yugioh-card.com/uk/gameplay/rulings/10406SDMachinaMayhem_Rules.pdf">"Machina Sniper" ruling</a>, archived from the <a target="_blank" href="http://www.yugioh-card.com/uk/gameplay/rulings/10406SDMachinaMayhem_Rules.pdf">original</a>
+        </li>
+		<li id="sub-steps_of_the_damage_step-9">
+            <a target="_blank" href="http://web.archive.org/web/20090226221419/http://entertainment.upperdeck.com/yugioh/en/gameplay/faqs/cardfaqs/default.aspx?first=F&last=H">"Giant Kozaky" ruling</a>, archived from the <a target="_blank" href="http://entertainment.upperdeck.com/yugioh/en/gameplay/faqs/cardfaqs/default.aspx?first=F&last=H">original</a>
+        </li>
+		<li id="sub-steps_of_the_damage_step-10">
+            <a target="_blank" href="http://web.archive.org/web/20090226215920/http://entertainment.upperdeck.com/yugioh/en/gameplay/faqs/cardfaqs/default.aspx?first=U&last=Z">"Zombie Mammoth" ruling</a>, archived from the <a target="_blank" href="http://entertainment.upperdeck.com/yugioh/en/gameplay/faqs/cardfaqs/default.aspx?first=U&last=Z">original</a>
+        </li>
+		<li id="sub-steps_of_the_damage_step-11">
+            <a target="_blank" href="http://web.archive.org/web/20090217182013/http://entertainment.upperdeck.com/yugioh/en/gameplay/faqs/cardfaqs/default.aspx?first=A&last=C">" Amazoness Tiger" ruling</a>, archived from the <a target="_blank" href="http://entertainment.upperdeck.com/yugioh/en/gameplay/faqs/cardfaqs/default.aspx?first=A&last=C">original</a>
+        </li>
+		<li id="sub-steps_of_the_damage_step-12">
+            <a target="_blank" href="https://web.archive.org/web/20160305183700/http://www.yugioh-card.com/en/gameplay/card_faq1.html">"Rivalry of Warlords" and "Gozen Match" rulings</a>, archived from the <a target="_blank" href="http://www.yugioh-card.com/en/gameplay/card_faq1.html">original</a>
+        </li>
+        <li id="sub-steps_of_the_damage_step-13">
+            <a target="_blank" href="http://web.archive.org/web/20090218205242/http://entertainment.upperdeck.com/yugioh/en/gameplay/faqs/cardfaqs/default.aspx?first=D&last=E">"Dark Cat with White Tail" ruling</a>, archived from the <a target="_blank" href="http://entertainment.upperdeck.com/yugioh/en/gameplay/faqs/cardfaqs/default.aspx?first=D&last=E">original</a>
+        </li>
+        <li id="sub-steps_of_the_damage_step-14">
+            <a target="_blank" href="http://web.archive.org/web/20090226221419/http://entertainment.upperdeck.com/yugioh/en/gameplay/faqs/cardfaqs/default.aspx?first=I&last=K">"Kangaroo Champ" ruling</a>, archived from the <a target="_blank" href="http://entertainment.upperdeck.com/yugioh/en/gameplay/faqs/cardfaqs/default.aspx?first=I&last=K">original</a>
+        </li>
+        <li id="sub-steps_of_the_damage_step-15">
+            <a target="_blank" href="http://web.archive.org/web/20090217182013/http://entertainment.upperdeck.com/yugioh/en/gameplay/faqs/cardfaqs/default.aspx?first=A&last=C">"Ancient Gear Golem" ruling</a>, archived from the <a target="_blank" href="http://entertainment.upperdeck.com/yugioh/en/gameplay/faqs/cardfaqs/default.aspx?first=A&last=C">original</a>
+        </li>
+        <li id="sub-steps_of_the_damage_step-16">
+            <a target="_blank" href="https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&fid=9497&keyword=&tag=-1&request_locale=ja">"Infernoid Devyaty" ruling</a>
+        </li>
+        <li id="sub-steps_of_the_damage_step-17">
+            <a target="_blank" href="http://web.archive.org/web/20090226215920/http://entertainment.upperdeck.com/yugioh/en/gameplay/faqs/cardfaqs/default.aspx?first=U&last=Z">"Wall of Illusion" ruling</a>, archived from the <a target="_blank" href="http://entertainment.upperdeck.com/yugioh/en/gameplay/faqs/cardfaqs/default.aspx?first=U&last=Z">original</a>
+        </li>
+        <li id="sub-steps_of_the_damage_step-18">
+			<a target="_blank" href="https://web.archive.org/web/20170821084622/http://www.yugioh-card.com/lat-am/gameplay/rulings/STBL_Rules_101116_v1-1.pdf">"Wattsquirrel" ruling</a>, archived from the <a target="_blank" href="http://www.yugioh-card.com/lat-am/gameplay/rulings/STBL_Rules_101116_v1-1.pdf">original</a>
+        </li>
+        <li id="sub-steps_of_the_damage_step-19">
+			<a target="_blank" href="https://web.archive.org/web/20151025163422/http://www.yugioh-card.com/uk/gameplay/rulings/Rules_STOR.pdf">"Blackwing - Boreas the Sharp" ruling</a>, archived from the <a target="_blank" href="http://www.yugioh-card.com/uk/gameplay/rulings/Rules_STOR.pdf">original</a>
+        </li>
+        <li id="sub-steps_of_the_damage_step-20">
+            <a target="_blank" href="https://web.archive.org/web/20170821084622/http://www.yugioh-card.com/lat-am/gameplay/rulings/STBL_Rules_101116_v1-1.pdf">"Ally of Justice Unknown Crusher" ruling</a>, archived from the <a target="_blank" href="ttp://www.yugioh-card.com/lat-am/gameplay/rulings/STBL_Rules_101116_v1-1.pd">original</a>
+        </li>
+        <li id="sub-steps_of_the_damage_step-21">
+            <a target="_blank" href="http://web.archive.org/web/20090220140220/http://entertainment.upperdeck.com/yugioh/en/gameplay/faqs/cardfaqs/default.aspx?first=P&last=R">"Red Dragon Archfiend" ruling</a>, archived from the <a target="_blank" href="http://entertainment.upperdeck.com/yugioh/en/gameplay/faqs/cardfaqs/default.aspx?first=S&last=T">original</a>
+        </li>
+        <li id="sub-steps_of_the_damage_step-22">
+            <a target="_blank" href="http://web.archive.org/web/20090226221425/http://entertainment.upperdeck.com/yugioh/en/gameplay/faqs/cardfaqs/default.aspx?first=S&last=T">"Stardust Dragon" ruling</a>, archived from the <a target="_blank" href="http://entertainment.upperdeck.com/yugioh/en/gameplay/faqs/cardfaqs/default.aspx?first=S&last=T">original</a>
+        </li>
+        <li id="sub-steps_of_the_damage_step-23">
+            <a target="_blank" href="http://web.archive.org/web/20090218205242/http://entertainment.upperdeck.com/yugioh/en/gameplay/faqs/cardfaqs/default.aspx?first=D&last=E">"Doomcaliber Knight" ruling</a>, archived from the <a target="_blank" href="http://entertainment.upperdeck.com/yugioh/en/gameplay/faqs/cardfaqs/default.aspx?first=D&last=E">original</a>
+        </li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -1393,9 +1763,16 @@ $\hspace{2em}$✔️ This includes cards and effects that activate in response t
 
 A card only needs to meet one of the above requirements to be activated during the Damage Step. As long as it does not explicitly specify (except during the Damage Step), even if it fails to satisfy one of the above requirements, if it satisfies another one it can be activated during the Damage Step. For example, "Rope of Life" Special Summons a monster and exclusively changes the ATK of the Summoned monster (like "Reverse of Neos"); cards with such effects cannot be activated during the Damage Step for that reason alone, but since "Rope of Life" also has an activation timing that is unique to the Damage Step ("When a monster(s) is destroyed by battle and sent to your Graveyard:"), it can be activated during the Damage Step.
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/eu/play/damage-step-rules/">Official KONAMI's damage step rules</a>,
-	<a target="_blank" href="https://yugipedia.com/wiki/Damage_Step">Yugipedia</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.yugioh-card.com/eu/play/damage-step-rules/">Official KONAMI's damage step rules</a>
+		</li>
+		<li>
+			<a target="_blank" href="https://yugipedia.com/wiki/Damage_Step">Yugipedia</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -1406,8 +1783,13 @@ A card whose effect reads "at the end of the Damage Step" can be activated even 
 Examples:
 - ["Number C5: Chaos Chimera Dragon", "Reflect Bounder", "Divine Wrath"](https://db.ygoresources.com/qa#6177)
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://db.ygoresources.com/qa#6177">YGOrg Database of Official OCG Rulings</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://db.ygoresources.com/qa#6177">YGOrg Database of Official OCG Rulings</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -1422,8 +1804,13 @@ A card whose effect reads "if (1) you control would be destroyed by battle, you 
 Examples:
 - ["Bujintei Kagutsuchi", "Zoodiac Whiptail"](https://db.ygoresources.com/qa#6398)
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://db.ygoresources.com/qa#6398">YGOrg Database of Official OCG Rulings</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://db.ygoresources.com/qa#6398">YGOrg Database of Official OCG Rulings</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -1431,8 +1818,13 @@ Examples:
 
 After you've resolved all your battles by repeating the Battle and Damage Steps, and you have no more monsters you want to attack with, announce to your opponent that you are ending your Battle Phase.
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 38</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 38</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -1440,8 +1832,13 @@ After you've resolved all your battles by repeating the Battle and Damage Steps,
 
 **If you conducted your Battle Phase**, your turn moves to Main Phase 2 afterwards. The actions a player can perform in this phase are the same as in Main Phase 1. However, if the player already did something in Main Phase 1 that has a limit to the number of times it can be done, the player cannot do it again in Main Phase 2.
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 40</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 40</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -1449,8 +1846,13 @@ After you've resolved all your battles by repeating the Battle and Damage Steps,
 
 Announce the end of your turn, and if there are any cards on the field which say "...during the End Phase..." in their text, resolve those effects in this phase. If you have more than 6 cards in your hand at the end of this phase, select and discard cards to the Graveyard until you only have 6 cards in your hand.
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 40</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 40</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -1461,8 +1863,13 @@ If 2 or more cards effects have mandatory actions during the End Phase ("during 
 Examples:
 - ["Mystic Mine", "Winged Dragon of Ra - Sphere Mode"](https://db.ygoresources.com/qa#8765)
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://db.ygoresources.com/qa#8765">YGOrg Database of Official OCG Rulings</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://db.ygoresources.com/qa#8765">YGOrg Database of Official OCG Rulings</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -1478,8 +1885,13 @@ If a card's effect is activated, the opponent is always given a chance to respon
 </div>
 As shown in the diagram, the first effect activated is Chain Link 1. The next effect is Chain Link 2, and so on. Every time a new Chain Link is made, they are stacked up in the order that the cards are activated. Once the Chain is completed, the outcome is resolved starting with the most recent card to be activated at the top of the Chain and proceeding down to Chain Link 1
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 44</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 44</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -1537,8 +1949,13 @@ Spell, Trap, and Effect Monster effects have different Spell Speeds. There are S
 	</tr>	
 </table>
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook pages 44-45</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook pages 44-45</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -1546,8 +1963,13 @@ Spell, Trap, and Effect Monster effects have different Spell Speeds. There are S
 
 You can only create a Chain by responding to the activation of a card or effect. Summoning a monster, Tributing, changing a monster's battle position and paying costs are not effect activations and therefore you cannot respond to those actions using a Chain.
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 51</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 51</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -1563,8 +1985,13 @@ A player must pass Priority to the opponent when moving on to the next phase or 
 - The turn player starts with Priority to activate a card or effect first
 - After a card's activation, and at the end of each phase or step, Priority passes to the opponent.
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 48</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 48</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -1574,8 +2001,13 @@ A player must pass Priority to the opponent when moving on to the next phase or 
 
 For cases like "Each player targets 1 monster," where both players resolve an effect simultaneously, the turn player resolves the effect first. In this example, after the turn player makes their selection, the other player makes theirs.
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 50</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 50</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -1593,9 +2025,16 @@ If there are 2 or more effects:
 
 - And finally the opponent adds their optional effects in any order. 
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 50</a>,
-	<a target="_blank" href="https://db.ygoresources.com/qa#6343">YGOrg Database of Official OCG Rulings</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 50</a>
+		</li>
+		<li>
+			<a target="_blank" href="https://db.ygoresources.com/qa#6343">YGOrg Database of Official OCG Rulings</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -1603,8 +2042,35 @@ If there are 2 or more effects:
 
 ## Problem Solving Card Text (PSCT)
 
+Problem-Solving Card Text uses specific words with very particular meanings in the context of gameplay. How to interpret the text is important to understanding how to apply card text to the game.
+
+This interpretation can only be applied for cards that use Problem-Solving Card Text. Cards that were printed with earlier text may use some of the same terms or structures, but this does not necessarily mean that they work as if they were Problem-Solving Card Text.
+
+### Text structure
+
+- All card effects that make a Chain Link include a colon ":" or a semicolon ";" somewhere in their text (possibly both). If a card effect does not use either, it does not make a Chain Link.
+  - The activation of a Spell or Trap Card always makes a Chain Link, but its effect that resolves with the card itself (if any) does not necessarily use a colon or semicolon. This effect is usually the first effect listed in the card's text.
+- Text before the colon ":" describes activation conditions (limits on when or how often a card or effect can be activated).<sup><a href="#cite_note-part3-5">[5]</a></sup>[6]
+
+<li id="cite_note-part3-5"><span class="mw-cite-backlink">↑ <a href="#cite_ref-part3_5-0"><span class="cite-accessibility-label">Jump up to: </span><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-part3_5-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-part3_5-2"><sup><i><b>c</b></i></sup></a> <a href="#cite_ref-part3_5-3"><sup><i><b>d</b></i></sup></a></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r4617036"><cite id="CITEREFTewart2011" class="citation web cs1"><a href="/wiki/Kevin_Tewart" title="Kevin Tewart">Tewart, Kevin</a> (June 1, 2011). <a rel="nofollow" class="external text" href="https://yugiohblog.konami.com/articles/?p=2947">"Problem-Solving Card Text, Part 3: Conditions, Activations, and Effects"</a>. <a href="/wiki/Konami" title="Konami">Konami</a><span class="reference-accessdate">. Retrieved <span class="nowrap">July 28,</span> 2011</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Problem-Solving+Card+Text%2C+Part+3%3A+Conditions%2C+Activations%2C+and+Effects&amp;rft.pub=Konami&amp;rft.date=2011-06-01&amp;rft.aulast=Tewart&amp;rft.aufirst=Kevin&amp;rft_id=https%3A%2F%2Fyugiohblog.konami.com%2Farticles%2F%3Fp%3D2947&amp;rfr_id=info%3Asid%2Fyugipedia.com%3AProblem-Solving+Card+Text" class="Z3988"></span></span>
+</li>
+
+These conditions only need to be met when the card is activated.[7]
+Conditions other than target requirements that have to be met during both activation and resolution are specifically noted in a separate sentence after the effect sentence (e.g. "Zombie Master", "Treeborn Frog").[7]
+Text before the semicolon ";" (but after the colon, if any) describes anything that happens when that card or effect is activated (such as costs and targeting).[5][6]
+Built-In Special Summons (other than Synchro, Xyz, Pendulum, or Link) are denoted by parentheses " () " stating the location from which the monster can be Special Summoned.[8]
+Cards with bulleted effects (●) that resolve in the same Chain Link specify whether they resolve simultaneously or sequentially (if sequentially, effects are applied in the order they are listed). In these cases, each effect activated resolves independent of the success of the other(s).
+The text "in sequence" indicates that the bulleted effects are applied sequentially (e.g. "Gravekeeper's Oracle", "Advance Zone").
+The text "(simultaneously)" indicates that the bulleted effects are applied simultaneously (e.g. "Ryko, Lightsworn Hunter", "Kunai with Chain").
+If neither is specified, the effects each make separate Chain Links (e.g. "Metaphys Horus").
+
+**References**:
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official KONAMI's article</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official KONAMI's article</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -1619,8 +2085,13 @@ If there are 2 or more effects:
 
 </div>
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://yugipedia.com/wiki/Problem-Solving_Card_Text">Yugipedia</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://yugipedia.com/wiki/Problem-Solving_Card_Text">Yugipedia</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -1631,8 +2102,13 @@ If a Token's (1) propertis (Attribute, Type, ATK, DEF, Level...) satisfy a certa
 Examples:
 - ["DNA Surgery", "Dragon's Rebirth"](https://db.ygoresources.com/qa#275)
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://db.ygoresources.com/qa#275">YGOrg Database of Official OCG Rulings</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://db.ygoresources.com/qa#275">YGOrg Database of Official OCG Rulings</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -1643,8 +2119,13 @@ A card's (1) effect which lowers a stat of a monster with action A and then does
 Examples:
 - ["Predaplant Chimerafflesia"](https://db.ygoresources.com/qa#275)
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://db.ygoresources.com/qa#7514">YGOrg Database of Official OCG Rulings</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://db.ygoresources.com/qa#7514">YGOrg Database of Official OCG Rulings</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -1659,8 +2140,13 @@ If an effect (1) that involves attaching a card (2) as an Xyz Material to a Xyz 
 Examples:
 - ["Overlay Regen", "Forbidden Lance"](https://db.ygoresources.com/qa#19)
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://db.ygoresources.com/qa#19">YGOrg Database of Official OCG Rulings</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://db.ygoresources.com/qa#19">YGOrg Database of Official OCG Rulings</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -1672,8 +2158,13 @@ If a monster (1) can attack all opponent's monsters once each, if it attacks a m
 Examples:
 - ["Ruffian Railcar", "ZW - Asura Strike", "Construction Train Signal Red"](https://db.ygoresources.com/qa#10214)
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://db.ygoresources.com/qa#10214">YGOrg Database of Official OCG Rulings</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://db.ygoresources.com/qa#10214">YGOrg Database of Official OCG Rulings</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -1685,8 +2176,13 @@ If a monster (1) can attack all opponent's monsters once each, if it attacks a m
 Examples:
 - ["Ruffian Railcar", "ZW - Asura Strike", "Construction Train Signal Red"](https://db.ygoresources.com/qa#10214)
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://db.ygoresources.com/qa#10214">YGOrg Database of Official OCG Rulings</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://db.ygoresources.com/qa#10214">YGOrg Database of Official OCG Rulings</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -1697,15 +2193,22 @@ When the effect "any Monster sent to the GY is banished instead" is applying you
 
 - **Cannot** activate a card or effect that requires you to send a Monster to the Graveyard as a cost.
 - **Cannot** activate a card or effect that send cards from the top of your Deck to the Graveyard as cost as there may be monster cards among them.
-- **Can** activate a card or effect that requires you to send a Monster Card not treated as a Monster (for example treated as an Equip Spell Card) to the Graveyard as a cost.
+- **Can** activate a card or effect that requires you to send a Monster Card not treated as a Monster (for example treated as an Equip Spell Card) to the Graveyard as a cost.<sup><a href="#banish_only_monsters_and_paying_cost-2">[2]</a></sup>
 
 Examples:
 - ["Dimensional Fissure", "Guardian Eatos"](https://db.ygoresources.com/qa#9105)
 - ["Charge of the Light Brigade", "Card Trooper", "Dimensional Fissure"](https://db.ygoresources.com/qa#9234)
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://db.ygoresources.com/qa#9234">YGOrg Database of Official OCG Rulings</a>,
-	<a target="_blank" href="https://db.ygoresources.com/qa#9105">YGOrg Database of Official OCG Rulings</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://db.ygoresources.com/qa#9234">YGOrg Database of Official OCG Rulings</a>,
+		</li>
+		<li id="banish_only_monsters_and_paying_cost-2">
+			<a target="_blank" href="https://db.ygoresources.com/qa#9105">YGOrg Database of Official OCG Rulings</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -1716,8 +2219,13 @@ If the two effects "any card sent to the GY is banished instead" and "neither pl
 Examples:
 - ["Imperial Iron Wall", "Macro Cosmos"](https://db.ygoresources.com/qa#7460)
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://db.ygoresources.com/qa#7460">YGOrg Database of Official OCG Rulings</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://db.ygoresources.com/qa#7460">YGOrg Database of Official OCG Rulings</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -1727,8 +2235,13 @@ A monster "battles" (and is "battling") starting from when it attacks or is atta
 
 When a card requires a monster to have "battled" (past tense), the attack had to have reached the damage calculation portion of the Damage Step in order for the monster to have "battled". If the attack stops before damage calculation, the monster did not "battle". (Note that **an attack was still declared**, however, so in most cases the attacking monster cannot declare another attack.)
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 52</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 52</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -1741,8 +2254,13 @@ Monsters which violate this kind of effects are sent to the graveyard and are no
 Examples:
 - ["Gravekeeper's Chief", "Archfiend Zombie-Skull"](https://db.ygoresources.com/qa#8632)
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://db.ygoresources.com/qa#8632">YGOrg Database of Official OCG Rulings</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://db.ygoresources.com/qa#8632">YGOrg Database of Official OCG Rulings</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -1754,8 +2272,13 @@ Examples:
 
 If a player takes control of a card from their opponent, move it to the new controller's side of the field. If sent to the Graveyard, or returned to the hand or Deck, it is always returned to the Graveyard/hand/Deck of the original owner.
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 53</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 53</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -1763,8 +2286,13 @@ If a player takes control of a card from their opponent, move it to the new cont
 
 A card is destroyed when it is sent to the Graveyard due to battle between monsters or by an effect that destroys a card. A card that is returned from the field to the hand or Deck, or, that is sent to the Graveyard as a cost or Tribute, is NOT considered "destroyed." always returned to the Graveyard/hand/Deck of the original owner.
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 53</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 53</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -1772,8 +2300,13 @@ A card is destroyed when it is sent to the Graveyard due to battle between monst
 
 Discard means to send a card from your hand to the Graveyard. This can happen because of a card effect or by adjusting the number of cards in your hand during the End Phase.
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 53</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 53</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -1787,8 +2320,13 @@ In addition to Equip Spell Cards, sometimes Trap Cards or Monster Cards can beco
 
 The term "Equip Card" includes all 3 kinds (standard Equip Spells, equipped Traps, and monsters equipped to other monsters).
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 53</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 53</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -1796,8 +2334,13 @@ The term "Equip Card" includes all 3 kinds (standard Equip Spells, equipped Trap
 
 A monster that is equipped with an Equip Card is an "equipped monster." When this monster is destroyed or flipped face-down, the equipped card loses its target, and is destroyed and sent to the Graveyard.
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 54</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 54</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -1807,8 +2350,13 @@ If a Monster Card is equipped to another monster, it remains equipped to that mo
 
 **EXCEPTION**: Union monsters equipped by their own effects can be moved by appropriate card effects.
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 53</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 53</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -1816,8 +2364,13 @@ If a Monster Card is equipped to another monster, it remains equipped to that mo
 
 When a card says to "excavate" cards from your Deck, you reveal those cards to both players. Then, before you do anything else, apply the instructions from the card effect that excavated them. Cards that are being excavated are still treated as being in the Deck until sent elsewhere by the card instructions
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 54</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 54</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -1827,8 +2380,13 @@ Some monsters have effects that activate when they "leave the field". For exampl
 
 When a monster on the field is shuffled into the Deck, or becomes an Xyz Material, it is no longer a card on the field, however its effects that activate when it "leaves the field" will not activate. Deck includes both Main and Extra Deck.
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/en/play/2021_rules_update/">Official KONAMI's rule</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.yugioh-card.com/en/play/2021_rules_update/">Official KONAMI's rule</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -1836,8 +2394,13 @@ When a monster on the field is shuffled into the Deck, or becomes an Xyz Materia
 
 Some monsters can inflict piercing battle damage when they attack a Defense Position monster. This means that you inflict damage to your opponent's LP equal to the difference between the attacking monster's ATK and the defending monster's DEF.
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 54</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 54</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -1845,8 +2408,13 @@ Some monsters can inflict piercing battle damage when they attack a Defense Posi
 
 When a card effect says to choose a card randomly, there is no official way of doing so, it is fine as long as neither player has a way of knowing which card is being chosen.
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 54</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 54</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -1854,8 +2422,13 @@ When a card effect says to choose a card randomly, there is no official way of d
 
 When an effect says to reveal a card, you show it to both players. You may have to reveal a face-down card, a card from your hand, or from the top of your Deck. Revealing a card does not activate the card or its Flip effect. Normally, revealed cards are returned to their original position after being looked at by both players.
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 55</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 55</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -1864,8 +2437,13 @@ When an effect says to reveal a card, you show it to both players. You may have 
 A card can be sent to the Graveyard in various ways. Destroying a card, discarding, and Tributing a monster are all actions that send a card to the Graveyard, and will normally activate "When/If this card is sent to the
 Graveyard..." Trigger Effects.
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 55</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 55</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -1873,8 +2451,13 @@ Graveyard..." Trigger Effects.
 
 When a banished card is moved to the Graveyard, it is not considered to be "sent to the Graveyard".
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 55</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 55</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -1887,9 +2470,16 @@ Examples:
 - ["Raigeki Break", "Stargazer Magician", "Pendulum Switch"](https://db.ygoresources.com/qa#9328) (M -> S/T)
 - ["Raigeki Break", "Stargazer Magician", "Pendulum Switch"](https://db.ygoresources.com/qa#10485) (S/T -> M)
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://db.ygoresources.com/qa#9328">YGOrg Database of Official OCG Rulings</a>,
-	<a target="_blank" href="https://db.ygoresources.com/qa#10485">YGOrg Database of Official OCG Rulings</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://db.ygoresources.com/qa#9328">YGOrg Database of Official OCG Rulings</a>
+		</li>
+		<li>
+			<a target="_blank" href="https://db.ygoresources.com/qa#10485">YGOrg Database of Official OCG Rulings</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -1897,8 +2487,13 @@ Examples:
 
 Tributing is sending a monster you control to the Graveyard. You can Tribute a face-up or face-down monster, unless otherwise specified. Tributing a monster is one possible cost for Summoning a monster or activating an effect. A monster sent to the Graveyard by Tributing is not treated as "destroyed."
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 55</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 55</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -1911,8 +2506,13 @@ If an effect (1) that involves attaching a card (2) as an Xyz Material to a Xyz 
 Examples:
 - ["Overlay Regen", "Forbidden Lance"](https://db.ygoresources.com/qa#19)
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://db.ygoresources.com/qa#19">YGOrg Database of Official OCG Rulings</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://db.ygoresources.com/qa#19">YGOrg Database of Official OCG Rulings</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -1926,8 +2526,13 @@ In order to activate a card (1) whose effect involves a cost and applies to anot
 Examples:
 - ["Lumina, Lightsworn Summoner"](https://db.ygoresources.com/qa#7283)
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://db.ygoresources.com/qa#7283">YGOrg Database of Official OCG Rulings</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://db.ygoresources.com/qa#7283">YGOrg Database of Official OCG Rulings</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -1937,8 +2542,13 @@ A card (1) effect which involves adding a card (2) with a certain property and t
 Examples:
 - ["Dragunity Knight - Gae Dearg"](https://db.ygoresources.com/qa#8865)
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://db.ygoresources.com/qa#8865">YGOrg Database of Official OCG Rulings</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://db.ygoresources.com/qa#8865">YGOrg Database of Official OCG Rulings</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -1957,8 +2567,13 @@ Examples:
 - ["Ojama Trio", "Owner's Seal"](https://db.ygoresources.com/qa#7316)
 - ["Number F0: Utopic Draco Future"](https://db.ygoresources.com/qa#23335)
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://db.ygoresources.com/qa#7316">YGOrg Database of Official OCG Rulings</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://db.ygoresources.com/qa#7316">YGOrg Database of Official OCG Rulings</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -1968,8 +2583,13 @@ If a monster's Trigger Effect meets its activation conditions, BUT hasn't yet ha
 
 -   ["Drytron Alpha Thuban", "Cyber Angel Benten", "D.D. Crow"](https://db.ygoresources.com/qa#23251)
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/en/play/2021_rules_update/">Official KONAMI's rule</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.yugioh-card.com/en/play/2021_rules_update/">Official KONAMI's rule</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -1980,8 +2600,13 @@ A monster (1) whose effect reads "The ATK of this card becomes the combined orig
 Examples:
 - ["Beast King Barbaros", "Fog King"](https://db.ygoresources.com/qa#6999)
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://db.ygoresources.com/qa#6999">YGOrg Database of Official OCG Rulings</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://db.ygoresources.com/qa#6999">YGOrg Database of Official OCG Rulings</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -1994,8 +2619,13 @@ A monster (1) who gains different effects based on the materials used for its Su
 Examples:
 - ["Genex Ally Triforce", "Elemental Mistress Doriado"](https://db.ygoresources.com/qa#7030)
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://db.ygoresources.com/qa#7030">YGOrg Database of Official OCG Rulings</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://db.ygoresources.com/qa#7030">YGOrg Database of Official OCG Rulings</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -2125,8 +2755,13 @@ Examples:
 	</tr>
 </table>
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://www.dropbox.com/scl/fo/tia8xzqafu1ibscz0gz95/AEx_Ri-wkJ9QE75AWRKn4RQ?preview=Judge+Resources.pdf&rlkey=z6uissqwewd81wm9c03zosaa3">Pazim's Resources (unofficial resource)</a>, YGOrg Database of Official OCG Rulings
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.dropbox.com/scl/fo/tia8xzqafu1ibscz0gz95/AEx_Ri-wkJ9QE75AWRKn4RQ?preview=Judge+Resources.pdf&rlkey=z6uissqwewd81wm9c03zosaa3">Pazim's Resources (unofficial resource)</a> YGOrg Database of Official OCG Rulings
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -2279,23 +2914,25 @@ In the examples, the two cards on the left are the "Prev", the card on the right
     </tr>
 </table>
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://www.dropbox.com/scl/fo/tia8xzqafu1ibscz0gz95/AEx_Ri-wkJ9QE75AWRKn4RQ?preview=Judge+Resources.pdf&rlkey=z6uissqwewd81wm9c03zosaa3">Pazim's Resources (unofficial resource)</a>,
-	<a target="_blank" href="https://ygorganization.com/atkdefmodifierguide/">YGOrg's article (unofficial resource)</a>,
-	<br>
-	<br>
-	YGOrg Database of Official OCG Rulings:
-	<ul>
+	<ol>
 		<li>
-			<a target="_blank" href="https://db.ygoresources.com/qa#7">Lingering Current Addition -> Lingering Original Set</a>
+			<a target="_blank" href="https://www.dropbox.com/scl/fo/tia8xzqafu1ibscz0gz95/AEx_Ri-wkJ9QE75AWRKn4RQ?preview=Judge+Resources.pdf&rlkey=z6uissqwewd81wm9c03zosaa3">Pazim's Resources (unofficial resource)</a>
 		</li>
 		<li>
-			<a target="_blank" href="https://db.ygoresources.com/qa#6143">Continuous Current Set -> Lingering Original Set</a>
+			<a target="_blank" href="https://ygorganization.com/atkdefmodifierguide/">YGOrg's article (unofficial resource)</a>
 		</li>
 		<li>
-			<a target="_blank" href="https://db.ygoresources.com/qa#6248">Continuous Current Addition -> Continuous Current Set</a>
+			YGOrg Database of Official OCG Rulings: <a target="_blank" href="https://db.ygoresources.com/qa#7">Lingering Current Addition -> Lingering Original Set</a>
 		</li>
-	</ul>
+		<li>
+			YGOrg Database of Official OCG Rulings: <a target="_blank" href="https://db.ygoresources.com/qa#6143">Continuous Current Set -> Lingering Original Set</a>
+		</li>
+		<li>
+			YGOrg Database of Official OCG Rulings: <a target="_blank" href="https://db.ygoresources.com/qa#6248">Continuous Current Addition -> Continuous Current Set</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -2305,9 +2942,16 @@ For these special cases, no matter what the effects currently in play are, they 
 those effects right afterwards.\
 When those effects stop applying, reapply everything, including lingering effects (1,3,5)
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://www.dropbox.com/scl/fo/tia8xzqafu1ibscz0gz95/AEx_Ri-wkJ9QE75AWRKn4RQ?preview=Judge+Resources.pdf&rlkey=z6uissqwewd81wm9c03zosaa3">Pazim's Resources (unofficial resource)</a>,
-	<a target="_blank" href="https://ygorganization.com/atkdefmodifierguide/">YGOrg's article (unofficial resource)</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.dropbox.com/scl/fo/tia8xzqafu1ibscz0gz95/AEx_Ri-wkJ9QE75AWRKn4RQ?preview=Judge+Resources.pdf&rlkey=z6uissqwewd81wm9c03zosaa3">Pazim's Resources (unofficial resource)</a>
+		</li>
+		<li>
+			<a target="_blank" href="https://ygorganization.com/atkdefmodifierguide/">YGOrg's article (unofficial resource)</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -2319,7 +2963,12 @@ When those effects stop applying, reapply everything, including lingering effect
 
 ### Rivalry of the Warlords
 
+**References**:
 <p align="left">
-	<a target="_blank" href="https://www.yugioh-card.com/eu/play/rivalry-of-warlords/">Official KONAMI's rule</a>
+	<ol>
+		<li>
+			<a target="_blank" href="https://www.yugioh-card.com/eu/play/rivalry-of-warlords/">Official KONAMI's rule</a>
+		</li>
+	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
