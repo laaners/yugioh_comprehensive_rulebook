@@ -22,7 +22,7 @@ Examples:
 
 # References/Citation
 
-<sup><a href="#sub-steps_of_the_damage_step-1">[1]</a></sup>
+<sup><a href="#psct_text_structure-3">[3]</a></sup>
 
 **References**:
 <p align="left">

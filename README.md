@@ -82,6 +82,9 @@
 - [Card text](#card-text)
 	- [Problem Solving Card Text (PSCT)](#problem-solving-card-text-psct)
 		- [Text structure](#text-structure)
+		- [Terminology and phrasing](#terminology-and-phrasing)
+			- ["that target" and "it"](#that-target-and-it)
+			- ["that target" and "it"](#that-target-and-it-1)
 		- [Conjunctives](#conjunctives)
 			- [Banishing a token is a conjunction success](#banishing-a-token-is-a-conjunction-success-1)
 			- [0 ATK/DEF, reduction, and conjunction success](#0-atkdef-reduction-and-conjunction-success)
@@ -153,7 +156,7 @@ This is a separate Deck of cards you can use to change your Deck during a Match.
 	- The number of cards in your Side Decks must not exceed 15
 	- The number of cards in your Side Deck before and after you swap any cards must be exactly the same
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -190,15 +193,12 @@ Place your Extra Deck face-down in this space. You can look at the cards in your
 
  **7. Extra Monster Zone**\
 This is where you put your monsters that are Summoned to the field by special methods from the Extra Deck
-
 - Normally, each player can only use 1 of these Zones. A monster placed in this Zone does not count towards the 5-monster limit of your Main Monster 
 Zone.
-
 - Fusion, Synchro, and Xyz Monsters can be first Summoned from the Extra Deck to any of your Main Monster Zones. They do not have to be Summoned to the Extra Monster Zone or a spot that a Link Monster is pointing to. You can still Summon a Fusion/Synchro/Xyz Monster from the Extra Deck to your Extra Monster Zone if you want to, though.
-
 - The restrictions requiring an Extra Monster Zone or Link Monster pointing still apply to Link Monsters and Pendulum Monsters that are Summoned from the Extra Deck.
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -242,7 +242,7 @@ Card effects are written here, describing the monster's special abilities and ho
 
 There are many kinds of Monster Cards. This game is more than a simple slugfest, so monsters with high Attack and Defense Points will not be enough. There are also monsters with strong special effects even though their ATK and DEF points are low. Therefore, your success in a Duel depends on how skillfully you can make use of the different kinds of cards.
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -264,7 +264,7 @@ There are many kinds of Monster Cards. This game is more than a simple slugfest,
 	</tr>
 </table>
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -332,7 +332,7 @@ There are many kinds of Monster Cards. This game is more than a simple slugfest,
 	</tr>
 </table>
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -374,7 +374,7 @@ There are many kinds of Monster Cards. This game is more than a simple slugfest,
 	</tr>
 </table>
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -388,11 +388,11 @@ There are many kinds of Monster Cards. This game is more than a simple slugfest,
 
 When activating a card (1) that has an effect that performs a Ritual Summon from the Graveyard for example, a valid Ritual Monster (2) must be present in the Graveyard. If you tribute a Ritual Monster (3) so that it meets the requirements to Summon (2) from the Graveyard, if (3) will be sent to the Graveyard as a result and (3) is also a valid target that can be Summoned with (1), you **cannot** Summon (3) from the Graveyard.
 
-Examples:
+*Examples*:
 - ["Nekroz Cycle", "Nekroz of Clausolas"](https://db.ygoresources.com/qa#7022)
 - ["Revendread Origin", "Revendread Slayer"](https://db.ygoresources.com/qa#7251)
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -434,7 +434,7 @@ Examples:
 	</tr>
 </table>
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -486,7 +486,7 @@ Examples:
 	</tr>
 </table>
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -532,7 +532,7 @@ Examples:
 	</tr>
 </table>
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -545,14 +545,11 @@ Examples:
 #### Xyz Materials
 
 Monsters that are used to Xyz Summon are called "Xyz Materials", and are placed underneath the Xyz Monster, to show that they are attached to it. 
-
 - Monsters that have become Xyz Materials are not treated as cards on the field.
-
 - When an Xyz Monster leaves the field, all of the Xyz Materials attached to it are sent to the Graveyard.
-
 - If an Xyz Monster is flipped face-down, or becomes controlled by the opponent, the Xyz Materials are not sent to the Graveyard. They remain attached to the Xyz Monster.
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -598,7 +595,7 @@ Monsters that are used to Xyz Summon are called "Xyz Materials", and are placed 
 	</tr>
 </table>
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -643,7 +640,7 @@ Monsters that are used to Xyz Summon are called "Xyz Materials", and are placed 
 	</tr>
 </table>
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -661,7 +658,7 @@ Link and Pendulum Monsters Summoned from the Extra Deck normally have to go in t
 
 Link and Pendulum Monsters that started in the Extra Deck, but later end up in the Graveyard (or are banished) and are Summoned from there, also go in the Main Monster Zones (and don't need a Link Monster to point to them).
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -674,7 +671,7 @@ Link and Pendulum Monsters that started in the Extra Deck, but later end up in t
 #### Link Monsters as Link material
 Normally, 1 monster equals 1 Link Material. But when you use a Link Monster as material for another Link Summon, you can count it as either 1 monster, or as a number of monsters equal to its Link Rating. For example, if you want to Summon a Link 3 monster that requires 2 or more materials in its "recipe", you can either use 3 monsters (each counts as 1 material) or else a Link 2 Link Monster (counts as 1 or 2 materials) and a second monster (counts as 1 material).
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -687,7 +684,7 @@ Normally, 1 monster equals 1 Link Material. But when you use a Link Monster as m
 #### Defense
 Link Monsters have no DEF and cannot ever be in Defense Position. They can't be changed to Defense Position by a card effect. They can't even be flipped into face-down Defense Position.
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -700,7 +697,7 @@ Link Monsters have no DEF and cannot ever be in Defense Position. They can't be 
 #### Change control
 If you take control of your opponent's monster in the Extra Monster Zone, it moves to your Main Monster Zone. When it goes back to your opponent, it goes to their Main Monster Zone, not the Extra Monster Zone.
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -713,7 +710,7 @@ If you take control of your opponent's monster in the Extra Monster Zone, it mov
 #### Non-monster card as material
 As long as the materials meet the requirements of the Link Monster you want to Summon, you can use a Token or Trap Card that is treated as a monster as the Link Material.
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -735,7 +732,7 @@ There are several ways to play monsters onto the field. These ways can be catego
    - Special Summon
    - Special Summon with a Card's Effect
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -748,7 +745,7 @@ There are several ways to play monsters onto the field. These ways can be catego
 ### Normal Summon
 This is the most common way to Summon a monster. Simply play a Monster Card from your hand onto the field in face-up Attack Position. All Normal Monsters, and most Effect Monsters (unless they have a specific restriction), can be Summoned in this way.
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -765,7 +762,7 @@ To play a Monster Card from your hand in face-down Defense Position is called a 
 - Remember, you can only Normal Summon OR Normal Set (Normal Summon/Set, in short), once per turn, so if you Normal Set a monster you cannot also Normal Summon a monster that turn.
 - You cannot play a monster from your hand onto the field in face-up Defense Position
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -786,8 +783,9 @@ For monsters that are Level 5 or higher, you must Tribute at least 1 monster you
 </div>
 
 - If you Tribute Summon in face-down Defense Position, it is called a Tribute Set. A monster Tribute Set on the field is NOT considered Summoned.
-- When a card explains a special method to Tribute Summon a monster, you 
-**References**:can also Tribute Set the monster by the same method
+- When a card explains a special method to Tribute Summon a monster, you can also Tribute Set the monster by the same method
+
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -802,8 +800,9 @@ For monsters that are Level 5 or higher, you must Tribute at least 1 monster you
 You can change a face-down Defense Position monster into face-up Attack Position, without using a card effect. This is called a Flip Summon.
 - When you Flip Summon, you cannot change the monster to face-up Defense Position, only to face-up Attack Position.
 - A Monster Card cannot be Flip Summoned in the same turn that it was Set onto the field.
+- You cannot use most monsters' effects until they are face-up
 
-**References**:- You cannot use most monsters' effects until they are face-up
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -815,8 +814,9 @@ You can change a face-down Defense Position monster into face-up Attack Position
 
 ### Special Summon
 
-Some monsters can be played onto the field without being Normal Summoned or Set. This is called a Special Summon. Link Summons, Pendulum Summons, Xyz Summons, Synchro Summons, Fusion Summons and Ritual Summons are all Special Summons. Some Effect Monsters also have specific conditions that allow you to Special Summon them. Unless otherwise specified, a Special Summoned monster is played onto the field in your choice of face-up Attack 
-**References**:Position or face-up Defense Position.
+Some monsters can be played onto the field without being Normal Summoned or Set. This is called a Special Summon. Link Summons, Pendulum Summons, Xyz Summons, Synchro Summons, Fusion Summons and Ritual Summons are all Special Summons. Some Effect Monsters also have specific conditions that allow you to Special Summon them. Unless otherwise specified, a Special Summoned monster is played onto the field in your choice of face-up Attack Position or face-up Defense Position.
+
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -828,8 +828,9 @@ Some monsters can be played onto the field without being Normal Summoned or Set.
 
 ### Special Summon with a Card's Effect
 
-Monsters can also be Special Summoned onto the field through the effect of 
-**References**:another card.
+Monsters can also be Special Summoned onto the field through the effect of another card.
+
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -840,12 +841,12 @@ Monsters can also be Special Summoned onto the field through the effect of
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 #### Properly Special Summon
-This is different from "Special Summon Monsters." You cannot use a card effect to Special Summon those monsters from your hand, Deck, Graveyard, Spell/Trap Zone<sup><a href="#properly_special_summon-2">[2]</a></sup> unless it was properly Special Summoned first. For example, if a Synchro Monster is sent from your Extra Deck to the Graveyard without being Synchro Summoned, you cannot use a Spell Card to Special Summon it from the Graveyard, because Synchro Monsters have to be properly Special Summoned first, before they can be Special Summoned by another card's effect.
+This is different from "Special Summon Monsters." You cannot use a card effect to Special Summon those monsters from your hand, Deck, Graveyard<sup><a href="#properly_special_summon-1">[1]</a></sup>, Spell/Trap Zone<sup><a href="#properly_special_summon-2">[2]</a></sup> unless it was properly Special Summoned first. For example, if a Synchro Monster is sent from your Extra Deck to the Graveyard without being Synchro Summoned, you cannot use a Spell Card to Special Summon it from the Graveyard, because Synchro Monsters have to be properly Special Summoned first, before they can be Special Summoned by another card's effect.
 
-Examples:
+*Examples*:
 - ["Meklord Emperor Granel"](https://db.ygoresources.com/qa#10331)
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -861,10 +862,10 @@ Examples:
 #### Flip Summon and Properly Special Summon
 A monster (1) properly Special Summoned is on the field. If (1) is being flipped face-down by a card effect and then (1) is Flip Summoned, if a card effect negates (1)'s Flip Summon, (1) is still being treated as properly Special Summoned.
 
-Examples:
+*Examples*:
 - ["Chaos Sorcerer", "Solemn Judgment"](https://db.ygoresources.com/qa#9124)
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -878,7 +879,7 @@ Examples:
 
 The restriction of "you cannot Normal or Special Summon the turn you activate this card" only refers to monsters that were successfully Summoned. Same for "you can only Special Summon X once per turn" restrictions.
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -895,10 +896,10 @@ A card (1) with the restriction of "you cannot Normal or Special Summon except [
 - A card (3) has an effect that applies to (2) such that when (2) is Summoned it does not violate the restriction of (1), then (1) can be activated **after** (2) has been Summoned.
 - A card (3) has an effect that applies to (2) such that when (2) is Summoned it does not violate the restriction of (1), but you activate (1) **before** (2) is Summoned, then (2) cannot be Summoned anymore.
 
-Examples:
+*Examples*:
 - ["Mozarta the Melodious Maestra", "DNA Transplant"](https://db.ygoresources.com/qa#8469)
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -935,7 +936,7 @@ A card's identification number is found here. This number is useful for collecti
 
 Spell Cards can normally be activated only during your Main Phase, and help you out with different effects. Spell Cards have many powerful effects, like destroying other cards or strengthening monsters. Save these cards in your hand until you can get the best results out of them.
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -951,9 +952,10 @@ Spell Cards can normally be activated only during your Main Phase, and help you 
 	<img align="left" src="./images/icon_normal.png" width=50>
 	Normal Spell Cards have single-use effects. To use a Normal Spell Card, announce its activation to your opponent, placing it face-up on the field. If the activation succeeds, then you resolve the effect written on the card. After resolving the effect, send the card to the Graveyard. 
 	<br clear="left">
+	<br>
 </div>
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -969,9 +971,10 @@ Spell Cards can normally be activated only during your Main Phase, and help you 
 	<img align="left" src="./images/icon_ritual.png" width=50>
 	These Spell Cards are used to perform Ritual Summons. Use these cards in the same way as you would use Normal Spell Cards.
 	<br clear="left">
+	<br>
 </div>
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -987,9 +990,10 @@ Spell Cards can normally be activated only during your Main Phase, and help you 
 	<img align="left" src="./images/icon_continuous.png" width=50>
 	These cards remain on the field once they are activated, and their effect continues while the card stays face-up on the field.
 	<br clear="left">
+	<br>
 </div>
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -1005,9 +1009,10 @@ Spell Cards can normally be activated only during your Main Phase, and help you 
 	<img align="left" src="./images/icon_equip.png" width=50>
 	These cards give an extra effect to 1 face-up monster of your choice (either your own or your opponent's, depending on the card). They remain on the field after they are activated. The Equip Spell Card affects only 1 monster (called the equipped monster), but still occupies one of your Spell & Trap Zones. If the equipped monster is destroyed, flipped face-down, or removed from the field, its Equip Cards are destroyed.
 	<br clear="left">
+	<br>
 </div>
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -1023,9 +1028,10 @@ Spell Cards can normally be activated only during your Main Phase, and help you 
 	<img align="left" src="./images/icon_field.png" width=50>
 	These cards go in your Field Zone and stay there. Each player can have 1 Field Spell Card on their own side of the field. To use another Field Spell, send your previous one to the Graveyard. These cards may be placed facedown in the Field Zone, but are not active until flipped face-up.
 	<br clear="left">
+	<br>
 </div>
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -1041,9 +1047,10 @@ Spell Cards can normally be activated only during your Main Phase, and help you 
 	<img align="left" src="./images/icon_quick.png" width=50>
 	These are special Spell Cards that can be activated during any Phase of your turn, not just your Main Phase. You can also activate them during your opponent's turn if you Set the card face-down first, but then you cannot activate the card in the same turn you Set it.
 	<br clear="left">
+	<br>
 </div>
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -1059,7 +1066,7 @@ Trap Cards will help you out with different effects, just like Spell Cards. The 
 
 Spell Cards can be Set face-down on the field like Trap Cards. However, the rules for the two types of cards are different. Spell Cards can be activated during the Main Phases even in the same turn that you Set them (except for Quick-Play Spell Cards). Setting them does not allow you to use them on your opponent's turn; they still can only be activated during your Main Phase. You can Set a Spell Card face-down on the field to bluff your opponent into thinking you have a powerful Trap.
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -1075,9 +1082,10 @@ Spell Cards can be Set face-down on the field like Trap Cards. However, the rule
 	<img align="left" src="./images/icon_normal.png" width=50>
 	These are special Spell Cards that can be activated during any Phase of your turn, not just your Main Phase. You can also activate them during your opponent's turn if you Set the card face-down first, but then you cannot activate the card in the same turn you Set it.
 	<br clear="left">
+	<br>
 </div>
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -1093,9 +1101,10 @@ Spell Cards can be Set face-down on the field like Trap Cards. However, the rule
 	<img align="left" src="./images/icon_continuous.png" width=50>
 	Just like Continuous Spell Cards, Continuous Trap Cards remain on the field once they are activated and their effects continue while they are face-up on the field. Some Continuous Trap Cards have abilities similar to the Ignition Effects or Trigger Effects that can be found on Effect Monster Cards.
 	<br clear="left">
+	<br>
 </div>
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -1111,9 +1120,10 @@ Spell Cards can be Set face-down on the field like Trap Cards. However, the rule
 	<img align="left" src="./images/icon_counter.png" width=50>
 	These Trap Cards are normally activated in response to the activation of other cards, and may have abilities like negating the effects of those cards. These types of Traps are effective against Normal Spell Cards or Normal Trap Cards, which are otherwise hard to stop, however many Counter Trap Cards require a cost to activate them.
 	<br clear="left">
+	<br>
 </div>
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -1129,20 +1139,14 @@ Spell Cards can be Set face-down on the field like Trap Cards. However, the rule
 ## Monster Tokens
 
 Monster Tokens are monsters that appear on the field as the result of a card's effect.
-
 - They are not included in the Deck, and cannot be sent anywhere other than the field, such as the hand or Graveyard.
-
 - When a Token is destroyed or returned to the hand or Deck, they are simply removed from the field instead.
-  
 - Each Monster Token takes up 1 of your 5 Monster Zones.
-
 - Their battle position is always either face-up Attack Position or faceup Defense Position.
-
 - Tokens cannot be used as an Xyz Material.
-
 - Tokens on the field are treated as Normal Monsters. 
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -1156,10 +1160,10 @@ Monster Tokens are monsters that appear on the field as the result of a card's e
 
 If a Token's (1) propertis (Attribute, Type, ATK, DEF, Level...) satisfy a certain card's (2) activation requirement and (2) requires to banish a Monster with those properties, (2) can be activated. If (1) is banished because of (2)'s cost, (2) resolves normally even if (1) original properties were not originally the one necessary to fulfil the activation of (2).
 
-Examples:
+*Examples*:
 - ["DNA Surgery", "Dragon's Rebirth"](https://db.ygoresources.com/qa#275)
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -1172,14 +1176,11 @@ Examples:
 ## Counters
 
 You may need to place these on cards for some card effects.
-
 - You cannot place counters unless a card effect allows it.
-
 - Cards may have effects that change with the number of counters on them, or require you to remove counters as a cost.
-
 - Some counters have specific names, such as "Spell Counter" or "Clock Counter." Other than their names, each individual counter itself does not have any effects. 
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -1194,16 +1195,13 @@ You may need to place these on cards for some card effects.
 ## Forbidden & Limited Cards
 
 Normally, your Deck (including Extra Deck and Side Deck) can contain up to 3 copies of a card that has the same name. However, certain cards have specific quantity restrictions that further limit the number that can be included in a Deck. There are 3 types of restrictions:
-
 - Limited cards are restricted to 1 copy in a Deck
-
 - Semi-Limited cards are restricted to 2 copies in a Deck
-
 - Forbidden cards are not allowed to be included at all
 
 The list of Forbidden and Limited cards is updated regularly and is posted on the Yu-Gi-Oh! TCG Official Website. This list is applied to official tournaments so please check it before participating. Official Website: www.yugioh-card.com
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -1223,7 +1221,7 @@ The number of cards in a player's hand and Decks, the cards in their Graveyards,
 - You are allowed to pick up and verify the cards in your opponent's Graveyard but you must ask their permission first.
 - You may not change the order of the cards when verifying their Graveyard.
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -1237,7 +1235,7 @@ The number of cards in a player's hand and Decks, the cards in their Graveyards,
 
 If there is a discrepancy between the basic rules and a card's effect, the card effect takes precedence. For example, a monster can only attack once per turn, but with a card effect, it is possible to attack twice.
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -1265,7 +1263,7 @@ A Duel progresses in a series of turns which are divided into phases
 	<img src="./images/turn_structure.png" width=300 />
 </div>
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -1279,10 +1277,10 @@ A Duel progresses in a series of turns which are divided into phases
 
 Alternate victory conditions are checked and met before a new chain starts, even if a mandatory trigger effect has to start a chain.
 
-Examples:
+*Examples*:
 - ["Exodia the Forbidden One", "Graceful Charity", "Magical Thorn"](https://db.ygoresources.com/qa#233)
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -1301,7 +1299,7 @@ This is the first phase. The player whose turn it is (the "turn player")
 
 **IMPORTANT**: The player who goes first cannot draw during the Draw Phase of their first turn.
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -1316,7 +1314,7 @@ This is the first phase. The player whose turn it is (the "turn player")
 Some cards have effects that activate, or costs you must pay, in the Standby Phase. The turn player:
 - **Can activate Trap Cards or Quick-Play Spell Cards** before proceeding to the Main Phase 1.
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -1337,7 +1335,7 @@ This is when you play most of your cards: you can Normal Summon, Set, or change 
 - **Can Activate a Card or Effect**. You can activate Spell and Trap Cards, or the effects of Spell, Trap, or Effect Monster Cards as many times as you want during this phase, as long as you can keep paying any costs involved. 
 - **Can Set Spell and Trap Cards**. You can Set Spell and Trap Cards face-down in your Spell & Trap Zone during this phase, as long as you have space.
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -1360,7 +1358,7 @@ Now it's time to battle with your Monster Cards! This phase is divided into step
 The Battle Phase is split into 4 steps and is conducted in the
 order shown in the diagram. The Battle Step and Damage Step are repeated each time you attack with a monster.
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -1374,7 +1372,7 @@ order shown in the diagram. The Battle Step and Damage Step are repeated each ti
 
 This step starts the Battle Phase. The turn player should announce "I'm entering the Battle Phase." Remember, the player who goes first cannot conduct a Battle Phase in their very first turn.
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -1390,7 +1388,7 @@ Select 1 monster on your side of the field to attack with, and 1 of your opponen
 - Each face-up Attack Position monster you control is allowed 1 attack per turn.
 - You do not have to attack with a monster if you don't want to.
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -1408,9 +1406,10 @@ Select 1 monster on your side of the field to attack with, and 1 of your opponen
 	<br>
 	Note that if you attack with a different monster, the first monster is still considered to have declared an attack, and it cannot attack again this turn.
 	<br clear="left">
+	<br>
 </div>
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -1424,7 +1423,7 @@ Select 1 monster on your side of the field to attack with, and 1 of your opponen
 
 In this step, the players calculate the result of the battle and whatever damage is done. After finishing the Damage Step, return to the Battle Step.
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -1499,7 +1498,7 @@ You calculate battle damage based on the battle position of the monster you are 
 
 If there are no monsters on your opponent's side of the field, you can attack directly. The full amount of your attacking monster's ATK is subtracted from the opponent's LP as battle damage.
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -1512,13 +1511,9 @@ If there are no monsters on your opponent's side of the field, you can attack di
 #### Sub-steps of the Damage Step
 There are five distinct timings within the Damage Step.
 1. Start of the Damage Step
-
-2. Before damage calculation
-
+2. Before damage calculatin
 3. Damage calculation
-
 4. After damage calculation
-
 5. End of the Damage Step
 
 <table>
@@ -1531,8 +1526,12 @@ There are five distinct timings within the Damage Step.
 	<tr>
 		<th>Start of the Damage Step</th>
 		<td><ul>
-			<li>You declare that you are entering the Damage Step<sup><a href="#sub-steps_of_the_damage_step-1">[1]</a></sup></li>
-			<li>Face-down monsters are not flipped<sup><a href="#sub-steps_of_the_damage_step-1">[1]</a></sup></li>
+			<li>
+				You declare that you are entering the Damage Step<sup><a href="#sub-steps_of_the_damage_step-1">[1]</a></sup>
+			</li>
+			<li>
+				Face-down monsters are not flipped<sup><a href="#sub-steps_of_the_damage_step-1">[1]</a></sup>
+			</li>
 		<ul></td>
 		<td>
 			✔️ "at the start of the Damage Step"<sup><a href="#sub-steps_of_the_damage_step-1">[1]</a></sup>
@@ -1540,13 +1539,15 @@ There are five distinct timings within the Damage Step.
 			✔️ Spell/Trap Cards and Quick/Quick-like Effects that directly alter the ATK/DEF<sup><a href="#sub-steps_of_the_damage_step-2">[2]</a></sup><sup><a href="#sub-steps_of_the_damage_step-3">[3]</a></sup>
 		</td>
 		<td>
-			✔️ "during the Damage Step (only)"
+			✔️ "during the Damage Step (only)"<sup><a href="#sub-steps_of_the_damage_step-1">[1]</a></sup>
 		</td>
 	</tr>
 	<tr>
 		<th>Before damage calculation</th>
 		<td><ul>
-			<li>If the monster being attacked is face-down, flip it face-up<sup><a href="#sub-steps_of_the_damage_step-1">[1]</a></sup></li>
+			<li>
+				If the monster being attacked is face-down, flip it face-up<sup><a href="#sub-steps_of_the_damage_step-1">[1]</a></sup>
+			</li>
 		<ul></td>
 		<td>
 			✔️ "before damage calculation"<sup><a href="#sub-steps_of_the_damage_step-1">[1]</a></sup>
@@ -1568,8 +1569,12 @@ There are five distinct timings within the Damage Step.
 	<tr>
 		<th>Perform damage calculation</th>
 		<td><ul>
-			<li>Compare ATK/DEF and apply damage to Life Points</li>
-			<li>Determine whether either monster will be destroyed by battle or not, but do not send it to the GY yet<sup><a href="#sub-steps_of_the_damage_step-1">[1]</a></sup><sup><a href="#sub-steps_of_the_damage_step-3">[3]</a></sup><br>If there is a Continuous/Continuous-like Effect or Unclassified Effect that has the player perform a certain action instead of the monster being destroyed by this battle (such as that of "Return of the Dragon Lords" banishing itself from the GY instead of destroying the monster), the relevant player must choose (at this point) whether or not they will use it. If they do, that action is not performed right at that time; instead, it will be applied immediately after damage calculation ("Return of the Dragon Lords" would be banished after damage calculation)</li>
+			<li>
+				Compare ATK/DEF and apply damage to Life Points
+			</li>
+			<li>
+				Determine whether either monster will be destroyed by battle or not, but do not send it to the GY yet<sup><a href="#sub-steps_of_the_damage_step-1">[1]</a></sup><sup><a href="#sub-steps_of_the_damage_step-3">[3]</a></sup><br>If there is a Continuous/Continuous-like Effect or Unclassified Effect that has the player perform a certain action instead of the monster being destroyed by this battle (such as that of "Return of the Dragon Lords" banishing itself from the GY instead of destroying the monster), the relevant player must choose (at this point) whether or not they will use it. If they do, that action is not performed right at that time; instead, it will be applied immediately after damage calculation ("Return of the Dragon Lords" would be banished after damage calculation)
+			</li>
 		<ul></td>
 		<td>
 			✔️ "during damage calculation"<sup><a href="#sub-steps_of_the_damage_step-1">[1]</a></sup>
@@ -1593,15 +1598,29 @@ There are five distinct timings within the Damage Step.
 						<sup><a href="#sub-steps_of_the_damage_step-2">[2]</a></sup>
 						<sup><a href="#sub-steps_of_the_damage_step-3">[3]</a></sup>
 						<sup><a href="#sub-steps_of_the_damage_step-13">[13]</a></sup>
-						<sup><a href="#sub-steps_of_the_damage_step-14">[14]</a></sup>
+						<sup><a href="#sub-steps_of_the_damage_step-14">[14]</a></sup>				
 					</li>
-					<li>Their Continuous Effects are no longer applied<sup><a href="#sub-steps_of_the_damage_step-3">[3]</a></sup><sup><a href="#sub-steps_of_the_damage_step-15">[15]</a></sup></li>
-					<li>Their optional Quick Effects can no longer be activated<sup><a href="#sub-steps_of_the_damage_step-16">[16]</a></sup></li>
-					<li>They cannot be returned to the hand by card effects<sup><a href="#sub-steps_of_the_damage_step-17">[17]</a></sup>, unless a card effect specifies that it can return destroyed monsters (such as "Last Minute Cancel"), but even then the destroyed monster will not be returned yet</li>
-					<li>Their effects can still be negated<sup><a href="#sub-steps_of_the_damage_step-18">[18]</a></sup></li>
-					<li>Before those monsters would be sent to the GY (or another appropriate location) as a result of being destroyed by battle, it is possible for them to be destroyed by card effects, sent to the GY by card effects, or banished by card effects before that can occur<sup><a href="#sub-steps_of_the_damage_step-19">[19]</a></sup><sup><a href="#sub-steps_of_the_damage_step-20">[20]</a></sup></li>
-					<li>If a monster ends up leaving the field ("Gozen Match") before it can be sent to the GY (or another appropriate location) as a result of battle, cards and effects that would activate when/if that monster is destroyed by battle and sent to the GY cannot be activated<sup><a href="#sub-steps_of_the_damage_step-12">[12]</a></sup><sup><a href="#sub-steps_of_the_damage_step-21">[21]</a></sup></li>
-					<li>They cannot be used as a cost to activate a card or an optional effect<sup><a href="#sub-steps_of_the_damage_step-22">[22]</a></sup>. But they can be used as a cost to activate a mandatory effect, such as "Doomcaliber Knight"<sup><a href="#sub-steps_of_the_damage_step-23">[23]</a></sup></li>
+					<li>
+						Their Continuous Effects are no longer applied<sup><a href="#sub-steps_of_the_damage_step-3">[3]</a></sup><sup><a href="#sub-steps_of_the_damage_step-15">[15]</a></sup>
+					</li>
+					<li>
+						Their optional Quick Effects can no longer be activated<sup><a href="#sub-steps_of_the_damage_step-16">[16]</a></sup>
+					</li>
+					<li>
+						They cannot be returned to the hand by card effects<sup><a href="#sub-steps_of_the_damage_step-17">[17]</a></sup>, unless a card effect specifies that it can return destroyed monsters (such as "Last Minute Cancel"), but even then the destroyed monster will not be returned yet
+					</li>
+					<li>
+						Their effects can still be negated<sup><a href="#sub-steps_of_the_damage_step-18">[18]</a></sup>
+					</li>
+					<li>
+						Before those monsters would be sent to the GY (or another appropriate location) as a result of being destroyed by battle, it is possible for them to be destroyed by card effects, sent to the GY by card effects, or banished by card effects before that can occur<sup><a href="#sub-steps_of_the_damage_step-19">[19]</a></sup><sup><a href="#sub-steps_of_the_damage_step-20">[20]</a></sup>
+					</li>
+					<li>
+						If a monster ends up leaving the field ("Gozen Match") before it can be sent to the GY (or another appropriate location) as a result of battle, cards and effects that would activate when/if that monster is destroyed by battle and sent to the GY cannot be activated<sup><a href="#sub-steps_of_the_damage_step-12">[12]</a></sup><sup><a href="#sub-steps_of_the_damage_step-21">[21]</a></sup>
+					</li>
+					<li>
+						They cannot be used as a cost to activate a card or an optional effect<sup><a href="#sub-steps_of_the_damage_step-22">[22]</a></sup>. But they can be used as a cost to activate a mandatory effect, such as "Doomcaliber Knight"<sup><a href="#sub-steps_of_the_damage_step-23">[23]</a></sup>
+					</li>
 				</ul>
 			</li>
 		<ul></td>
@@ -1625,8 +1644,12 @@ There are five distinct timings within the Damage Step.
 	<tr>
 		<th>End of the Damage Step</th>
 		<td><ul>
-			<li>Monsters that were determined to be destroyed by battle are now normally sent to the GY, unless they are Pendulum Monsters or if a card effect states otherwise<sup><a href="#sub-steps_of_the_damage_step-1">[1]</a></sup></li>
-			<li>Once there are no effects left to activate or resolve, the Damage Step ends, and the Battle Step is automatically re-entered. At the time both players agree to enter the Battle Step, effects that apply "until the end of the Damage Step" now expire and no longer apply</li>
+			<li>
+				Monsters that were determined to be destroyed by battle are now normally sent to the GY, unless they are Pendulum Monsters or if a card effect states otherwise<sup><a href="#sub-steps_of_the_damage_step-1">[1]</a></sup>
+			</li>
+			<li>
+				Once there are no effects left to activate or resolve, the Damage Step ends, and the Battle Step is automatically re-entered. At the time both players agree to enter the Battle Step, effects that apply "until the end of the Damage Step" now expire and no longer apply<sup><a href="#sub-steps_of_the_damage_step-1">[1]</a></sup>
+			</li>
 		<ul></td>
 		<td>
 			✔️ "at the end of the Damage Step"<sup><a href="#sub-steps_of_the_damage_step-1">[1]</a></sup>
@@ -1641,7 +1664,7 @@ There are five distinct timings within the Damage Step.
 	</tr>
 </table>
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li id="sub-steps_of_the_damage_step-1">
@@ -1713,62 +1736,6 @@ There are five distinct timings within the Damage Step.
         <li id="sub-steps_of_the_damage_step-23">
             <a target="_blank" href="http://web.archive.org/web/20090218205242/http://entertainment.upperdeck.com/yugioh/en/gameplay/faqs/cardfaqs/default.aspx?first=D&last=E">"Doomcaliber Knight" ruling</a>, archived from the <a target="_blank" href="http://entertainment.upperdeck.com/yugioh/en/gameplay/faqs/cardfaqs/default.aspx?first=D&last=E">original</a>
         </li>
-	</ol>
-</p>
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-#### Cards/effects that can be activated during the Damage Step
-
-✔️ Counter Trap Cards
-
-✔️ Mandatory effects
-
-✔️ Fast effects that negate the **activation** of a card(s), or negate the **activation** of an effect(s)
-
-✔️ Spell/Trap Cards and Quick/Quick-like Effects that directly alter the ATK/DEF of a monster(s), but **only up until damage calculation**. During damage calculation or afterwards in the Damage Step, they cannot be activated
-	
-$\hspace{2em}$✔️ These cards and effects do not have to affect a battling monster; they can be used during the Damage Step to affect the ATK/DEF of a monster(s) that is not currently battling
-
-$\hspace{2em}$❌ Optional Spell/Trap Cards and Quick/Quick-like Effects that can **indirectly** change the ATK/DEF of a monster (such as "Reverse Trap" or "Skill Drain") **cannot** be activated during the Damage Step for that reason alone
-
-$\hspace{2em}$✔️ Trap Cards that equip themselves to monsters and have Continuous-like Effects that **directly** alter the ATK/DEF of the equipped monster, such as "Horn of the Phantom Beast", **can** be activated during the Damage Step for that reason alone
-
-$\hspace{2em}$❌ Cards like "Half or Nothing", which **might not** alter ATK/DEF at resolution, **cannot** be activated during the Damage Step for that reason alone
-
-$\hspace{2em}$❌ Cards such as "Powerful Rebirth" and "Reverse of Neos", which Special Summon a monster and exclusively **modify the ATK/DEF of that Summoned** monster, **cannot** be activated during the Damage Step for that reason alone
-
-$\hspace{2em}$✔️ If a Set Continuous Trap Card has an **optional Quick-like Effect that directly** alters the ATK/DEF of a monster(s) (such as "Attack of the Cornered Rat"), that Trap Card **can** be activated during the Damage Step until damage calculation, but only if that Quick-like Effect is activated and resolved in the same Chain Link as the activation of the Trap Card itself
-
-$\hspace{2em}$✔️ Continuous Trap Cards with **Continuous-like Effects that directly** alter the ATK/DEF of a monster(s), such as "Fire Formation - Kaiyo", **can** be activated during the Damage Step until damage calculation
-
-$\hspace{4em}$✔️ Such Trap Cards can be activated even if their relevant Continuous-like Effect would not affect any monsters, such as activating "Dark Contract with the Witch" during your own turn or while you control no Fiend-Type monsters, or activating "Unpossessed" when a monster other than a "Familiar-Possessed" monster is attacking
-
-$\hspace{4em}$✔️ Such Trap Cards can be activated even if their relevant Continuous-like Effect only applies an ATK/DEF change under particular conditions and those conditions are not currently met (such as activating "Chosen of Zefra" while there are fewer than 3 "Zefra" monsters face-up in your Extra Deck), unless that condition could never be met during the Damage Step (such as "Swift Samurai Storm!")
-
-$\hspace{4em}$❌ Even if a Continuous Trap Card can be activated during the Damage Step due to having a Continuous-like Effect that alters ATK/DEF, if it also has a Quick-like Effect that can be activated in the same Chain Link as the activation of the Trap Card itself (such as "Dark Contract with the Witch"), that Quick-like Effect cannot be activated at the same time as the Trap Card's activation during the Damage Step, unless it has another valid reason allowing it to be activated during the Damage Step
-
-$\hspace{2em}$❌ Unique exceptions are "Evil Blast", "Scrap Sheen" (TCG only), "Zero Force", "Curse of Anubis", and the Quick-like Effect of "Rocket Hand", which have rulings stating that they cannot be activated during the Damage Step.
-
-$\hspace{2em}$❌ Unlike Quick/Quick-like Effects, having the effect of directly altering the ATK/DEF of a monster(s) **does not permit optional Trigger/Trigger-like Effects to be activated during the Damage Step**, with examples being "Morpho Butterspy" and "Performapal Turn Toad"
-
-✔️ Optional Trigger and Trigger-like Effects (if that effect activates in response to the card itself being moved to a different location including leaving the field, being flipped face-up including Flip effects, or having its battle position changed) can be activated during the Damage Step, unless the effect performs a Normal or Fusion Summon
-
-$\hspace{2em}$❌ In general, other optional Trigger and Trigger-like Effects that have **activation conditions that can be met both during and outside the Damage Step cannot be activated**. For cards that have Problem-Solving Card Text, these normally state "(except during the Damage Step)" in their activation conditions. Otherwise, these effects are associated with activation conditions that involve actions regarding other cards, such as "When/If a ... is destroyed", "When/If a ... is added from ... to your hand", "When/If a ... monster is Special Summoned", etc. of cards like "Revival Rose", "Ambulanceroid", and "Cyber Dinosaur". This includes Trigger Effects of monsters that can activate in response to actions involving itself and/or other cards (but not just itself or other cards), such as "Madolche Chickolates"; they cannot be activated during the Damage Step.
-
-✔️ Any effect that specifically mentions an activation timing that is unique to the Damage Step
-
-$\hspace{2em}$✔️ This is indicated by phrases in the text such as "During damage calculation", "At the end of the Damage Step", "If/When you take battle damage", etc.
-
-$\hspace{2em}$✔️ This includes cards and effects that activate in response to damage (without specifying battle damage). If a Set Continuous Trap Card has an optional Trigger-like or optional Quick-like Effect with an activation timing at least partially specific to the Damage Step (such as "Yang Zing Creation" and "Damage = Reptile"), that Trap Card can be activated during the Damage Step if that Trigger-like/Quick-like Effect is also activated in the same Chain Link as the activation of the Trap Card itself
-
-A card only needs to meet one of the above requirements to be activated during the Damage Step. As long as it does not explicitly specify (except during the Damage Step), even if it fails to satisfy one of the above requirements, if it satisfies another one it can be activated during the Damage Step. For example, "Rope of Life" Special Summons a monster and exclusively changes the ATK of the Summoned monster (like "Reverse of Neos"); cards with such effects cannot be activated during the Damage Step for that reason alone, but since "Rope of Life" also has an activation timing that is unique to the Damage Step ("When a monster(s) is destroyed by battle and sent to your Graveyard:"), it can be activated during the Damage Step.
-
-**References**:
-<p align="left">
-	<ol>
-		<li>
-			<a target="_blank" href="https://www.yugioh-card.com/eu/play/damage-step-rules/">Official KONAMI's damage step rules</a>
-		</li>
 		<li>
 			<a target="_blank" href="https://yugipedia.com/wiki/Damage_Step">Yugipedia</a>
 		</li>
@@ -1776,14 +1743,152 @@ A card only needs to meet one of the above requirements to be activated during t
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+#### Cards/effects that can be activated during the Damage Step
+
+✔️ **Counter Trap Cards**<sup><a href="#cards_effects_that_can_be_activated_during_damage_step-2">[2]</a></sup><sup><a href="#cards_effects_that_can_be_activated_during_damage_step-3">[3]</a></sup>
+
+✔️ **Mandatory effects**<sup><a href="#cards_effects_that_can_be_activated_during_damage_step-3">[3]</a></sup>
+
+✔️ **Fast effects that negate the activation** of a card(s), or negate the **activation of an effect(s)**<sup><a href="#cards_effects_that_can_be_activated_during_damage_step-3">[3]</a></sup><sup><a href="#cards_effects_that_can_be_activated_during_damage_step-4">[4]</a></sup><sup><a href="#cards_effects_that_can_be_activated_during_damage_step-5">[5]</a></sup>
+
+✔️ Spell/Trap Cards and **Quick/Quick-like Effects** that **directly alter the ATK/DEF** of a monster(s), but **only up until damage calculation**. During damage calculation or afterwards in the Damage Step, they cannot be activated<sup><a href="#cards_effects_that_can_be_activated_during_damage_step-2">[2]</a></sup><sup><a href="#cards_effects_that_can_be_activated_during_damage_step-3">[3]</a></sup>
+	
+$\hspace{2em}$✔️ These cards and effects do not have to affect a battling monster; they can be used during the Damage Step to affect the ATK/DEF of a monster(s) that is not currently battling<sup><a href="#cards_effects_that_can_be_activated_during_damage_step-6">[6]</a></sup>
+
+$\hspace{2em}$❌ Optional Spell/Trap Cards and Quick/Quick-like Effects that can **indirectly change the ATK/DEF** of a monster (such as "Reverse Trap" or "Skill Drain") **cannot** be activated during the Damage Step for that reason alone<sup><a href="#cards_effects_that_can_be_activated_during_damage_step-7">[7]</a></sup><sup><a href="#cards_effects_that_can_be_activated_during_damage_step-8">[8]</a></sup>
+
+$\hspace{2em}$✔️ **Trap Cards that equip themselves to monsters and have Continuous-like Effects that directly alter the ATK/DEF** of the equipped monster, such as "Horn of the Phantom Beast", **can** be activated during the Damage Step for that reason alone<sup><a href="#cards_effects_that_can_be_activated_during_damage_step-9">[9]</a></sup>
+
+$\hspace{2em}$❌ Cards like "Half or Nothing", which **might not alter ATK/DEF at resolution, cannot** be activated during the Damage Step for that reason alone<sup><a href="#cards_effects_that_can_be_activated_during_damage_step-10">[10]</a></sup>
+
+$\hspace{2em}$❌ Cards such as "Powerful Rebirth" and "Reverse of Neos", which Special Summon a monster and exclusively **modify the ATK/DEF of that Summoned** monster, **cannot** be activated during the Damage Step for that reason alone<sup><a href="#cards_effects_that_can_be_activated_during_damage_step-11">[11]</a></sup>
+
+$\hspace{2em}$✔️ If a **Set Continuous Trap Card** has an **optional Quick-like Effect that directly alters the ATK/DEF** of a monster(s) (such as "Attack of the Cornered Rat"), that Trap Card **can** be activated during the Damage Step until damage calculation, but only if that Quick-like Effect is activated and resolved in the same Chain Link as the activation of the Trap Card itself<sup><a href="#cards_effects_that_can_be_activated_during_damage_step-12">[12]</a></sup>
+
+$\hspace{2em}$✔️ **Continuous Trap Cards** with **Continuous-like Effects that directly** alter the ATK/DEF of a monster(s), such as "Fire Formation - Kaiyo", **can be activated** during the Damage Step until damage calculation<sup><a href="#cards_effects_that_can_be_activated_during_damage_step-13">[13]</a></sup>
+
+$\hspace{4em}$✔️ Such Trap Cards **can be activated even if their relevant Continuous-like Effect would not affect any monsters**, such as activating "Dark Contract with the Witch" during your own turn or while you control no Fiend-Type monsters, or activating "Unpossessed" when a monster other than a "Familiar-Possessed" monster is attacking
+
+$\hspace{4em}$✔️ Such Trap Cards can be activated even if their relevant Continuous-like Effect only applies an ATK/DEF change under particular conditions and those conditions are not currently met (such as activating "Chosen of Zefra" while there are fewer than 3 "Zefra" monsters face-up in your Extra Deck), unless that condition could never be met during the Damage Step (such as "Swift Samurai Storm!")<sup><a href="#cards_effects_that_can_be_activated_during_damage_step-14">[14]</a></sup>
+
+
+$\hspace{4em}$❌ Even if a Continuous Trap Card can be activated during the Damage Step due to having a Continuous-like Effect that alters ATK/DEF, **if it also has a Quick-like Effect that can be activated in the same Chain Link as the activation of the Trap Card itself** (such as "Dark Contract with the Witch"), **that Quick-like Effect cannot be activated at the same time as the Trap Card's activation during the Damage Step**, unless it has another valid reason allowing it to be activated during the Damage Step<sup><a href="#cards_effects_that_can_be_activated_during_damage_step-15">[15]</a></sup>
+
+$\hspace{2em}$❌ Unique exceptions are "Evil Blast"<sup><a href="#cards_effects_that_can_be_activated_during_damage_step-16">[16]</a></sup>, "Scrap Sheen"<sup><a href="#cards_effects_that_can_be_activated_during_damage_step-17">[17]</a></sup> (TCG only), "Zero Force"<sup><a href="#cards_effects_that_can_be_activated_during_damage_step-18">[18]</a></sup>, "Curse of Anubis"<sup><a href="#cards_effects_that_can_be_activated_during_damage_step-19">[19]</a></sup>, and the Quick-like Effect of "Rocket Hand"<sup><a href="#cards_effects_that_can_be_activated_during_damage_step-20">[20]</a></sup>, which have rulings stating that they cannot be activated during the Damage Step.
+
+$\hspace{2em}$❌ Unlike Quick/Quick-like Effects, **having the effect of directly altering the ATK/DEF of a monster(s) does not permit optional Trigger/Trigger-like Effects to be activated during the Damage Step**, with examples being "Morpho Butterspy"<sup><a href="#cards_effects_that_can_be_activated_during_damage_step-21">[21]</a></sup> and "Performapal Turn Toad"
+
+✔️ **Optional Trigger and Trigger-like Effects** (if that effect activates in response to the card itself being moved to a different location including leaving the field, being flipped face-up including Flip effects, or having its battle position changed<sup><a href="#cards_effects_that_can_be_activated_during_damage_step-3">[3]</a></sup><sup><a href="#cards_effects_that_can_be_activated_during_damage_step-22">[22]</a></sup>) **can be activated during the Damage Step, unless the effect performs a Normal**<sup><a href="#cards_effects_that_can_be_activated_during_damage_step-23">[23]</a></sup> **or Fusion Summon**<sup><a href="#cards_effects_that_can_be_activated_during_damage_step-24">[24]</a></sup>
+
+$\hspace{2em}$❌ In general, other **optional Trigger and Trigger-like Effects that have activation conditions that can be met both during and outside the Damage Step cannot be activated**. For cards that have Problem-Solving Card Text, these normally state "(except during the Damage Step)" (for exampl "Fallen of Albaz") in their activation conditions. Otherwise, these effects are associated with activation conditions that involve actions regarding other cards, such as "When/If a ... is destroyed", "When/If a ... is added from ... to your hand", "When/If a ... monster is Special Summoned", etc. of cards like "Revival Rose", "Ambulanceroid", and "Cyber Dinosaur". This includes Trigger Effects of monsters that can activate in response to actions involving itself and/or other cards (but not just itself or other cards), such as "Madolche Chickolates"; they cannot be activated during the Damage Step.
+
+✔️ Any effect that **specifically mentions an activation timing that is unique to the Damage Step**
+
+$\hspace{2em}$✔️ This is indicated by phrases in the text such as **"During damage calculation", "At the end of the Damage Step", "If/When you take battle damage", etc.** (this includes cards and effects that activate **in response to damage, without specifying battle damage**, like "Blackfeather Darkrage Dragon", "Attack and Receive", and "Numinous Healer")
+
+$\hspace{2em}$✔️ If a **Set Continuous Trap Card has an optional Trigger-like or optional Quick-like Effect with an activation timing at least partially specific to the Damage Step** (such as "Yang Zing Creation" and "Damage = Reptile"), that Trap Card **can** be activated during the Damage Step if that Trigger-like/Quick-like Effect is also activated in the same Chain Link as the activation of the Trap Card itself<sup><a href="#cards_effects_that_can_be_activated_during_damage_step-25">[25]</a></sup>
+
+$\hspace{2em}$❌ In contrast, if a **Set Continuous Trap Card has a mandatory Trigger-like Effect with an activation timing at least partially specific to the Damage Step**, the Trap Card itself **cannot** be activated, even if its controller intended on activating that Trigger-like Effect in the same Chain Link as the activation of the Trap Card itself<sup><a href="#cards_effects_that_can_be_activated_during_damage_step-26">[26]</a></sup>
+
+A card only needs to meet one of the above requirements to be activated during the Damage Step. As long as it does not explicitly specify (except during the Damage Step), even if it fails to satisfy one of the above requirements, if it satisfies another one it can be activated during the Damage Step. For example, "Rope of Life" Special Summons a monster and exclusively changes the ATK of the Summoned monster (like "Reverse of Neos"); cards with such effects cannot be activated during the Damage Step for that reason alone, but since "Rope of Life" also has an activation timing that is unique to the Damage Step ("When a monster(s) is destroyed by battle and sent to your Graveyard:"), it can be activated during the Damage Step.
+
+*References*:
+<p align="left">
+	<ol>
+		<li id="cards_effects_that_can_be_activated_during_damage_step-1">
+			<a target="_blank" href="https://www.yugioh-card.com/eu/play/damage-step-rules/">Official KONAMI's damage step rules</a>
+		</li>
+		<li id="cards_effects_that_can_be_activated_during_damage_step-2">
+			<a target="_blank" href="https://yugipedia.com/wiki/File:Rulebook_v10.pdf?page=45">Official rulebook Version 10</a>
+		</li>
+		<li id="cards_effects_that_can_be_activated_during_damage_step-3">
+            <a target="_blank" href="https://ygorganization.com/perfect-rulebook-2017/">OCG Perfect Rulebook 2017</a>
+        </li>
+		<li id="cards_effects_that_can_be_activated_during_damage_step-4">
+			<a target="_blank" href="https://web.archive.org/web/20151025163422/http://www.yugioh-card.com/uk/gameplay/rulings/Rules_STOR.pdf">"Legendary Six Samurai - Shi En" ruling</a>, archived from the <a target="_blank" href="http://www.yugioh-card.com/uk/gameplay/rulings/Rules_STOR.pdf">original</a>
+		</li>
+		<li id="cards_effects_that_can_be_activated_during_damage_step-5">
+            <a target="_blank" href="http://web.archive.org/web/20090226221425/http://entertainment.upperdeck.com/yugioh/en/gameplay/faqs/cardfaqs/default.aspx?first=S&last=T">"Stardust Dragon" ruling</a>, archived from the <a target="_blank" href="http://entertainment.upperdeck.com/yugioh/en/gameplay/faqs/cardfaqs/default.aspx?first=S&last=T">original</a>
+        </li>
+		<li id="cards_effects_that_can_be_activated_during_damage_step-6">
+			<a target="_blank" href="https://web.archive.org/web/20200818094722/https://img.yugioh-card.com/uk/gameplay/rulings/TSHDRulebook_100430.pdf">"Blackwing - Bombardment" ruling</a>, archived from the <a target="_blank" href="http://www.yugioh-card.com/uk/gameplay/rulings/TSHDRulebook_100430.pdf">original</a>
+        </li>
+		<li id="cards_effects_that_can_be_activated_during_damage_step-7">
+            <a target="_blank" href="http://web.archive.org/web/20090220140220/http://entertainment.upperdeck.com/yugioh/en/gameplay/faqs/cardfaqs/default.aspx?first=P&last=R">"Reverse Trap" ruling</a>, archived from the <a target="_blank" href="http://entertainment.upperdeck.com/yugioh/en/gameplay/faqs/cardfaqs/default.aspx?first=P&last=R">original</a>
+        </li>
+        <li id="cards_effects_that_can_be_activated_during_damage_step-8">
+            <a target="_blank" href="http://web.archive.org/web/20090226221425/http://entertainment.upperdeck.com/yugioh/en/gameplay/faqs/cardfaqs/default.aspx?first=S&last=T">"Skill Drain"</a>, archived from the <a target="_blank" href="http://entertainment.upperdeck.com/yugioh/en/gameplay/faqs/cardfaqs/default.aspx?first=S&last=T">original</a>
+        </li>
+		<li id="cards_effects_that_can_be_activated_during_damage_step-9">
+            <a target="_blank" href="https://web.archive.org/web/20200927055455/https://img.yugioh-card.com/uk/gameplay/rulings/DREVRulebook_100803.pdf">"Horn of the Phantom Beast" ruling</a>, archived from the <a target="_blank" href="http://www.yugioh-card.com/uk/gameplay/rulings/DREVRulebook_100803.pdf">original</a>
+        </li>
+		<li id="cards_effects_that_can_be_activated_during_damage_step-10">
+            <a target="_blank" href="https://web.archive.org/web/20211125085806/https://img.yugioh-card.com/uk/gameplay/rulings/CRMS_sneak_ruling.pdf">"Half or Nothing" ruling</a>, archived from the <a target="_blank" href="http://www.yugioh-card.com/uk/gameplay/rulings/CRMS_sneak_ruling.pdf">original</a>
+        </li>
+		<li id="cards_effects_that_can_be_activated_during_damage_step-11">
+            <a target="_blank" href="http://web.archive.org/web/20080528194416/entertainment.upperdeck.com/community/forums/thread/843535.aspx">"Infernal Dragon" and "Reverse of Neos" rulings</a>, archived from the <a target="_blank" href="http://entertainment.upperdeck.com/community/forums/thread/843535.aspx">original</a>
+        </li>
+		<li id="cards_effects_that_can_be_activated_during_damage_step-12">
+            <a target="_blank" href="https://web.archive.org/web/20211106194036/https://img.yugioh-card.com/uk/gameplay/rulings/RGBT_rules.pdf">"Attack of the Cornered Rat" ruling</a>, archived from the <a target="_blank" href="https://img.yugioh-card.com/uk/gameplay/rulings/RGBT_rules.pdf">original</a>
+        </li>
+		<li id="cards_effects_that_can_be_activated_during_damage_step-13">
+			<a target="_blank" href="https://web.archive.org/web/20151025163422/http://www.yugioh-card.com/uk/gameplay/rulings/Rules_STOR.pdf">"Token Stampede" ruling</a>, archived from the <a target="_blank" href="http://www.yugioh-card.com/uk/gameplay/rulings/Rules_STOR.pdf">original</a>
+		</li>
+		<li id="cards_effects_that_can_be_activated_during_damage_step-14">
+            <a target="_blank" href="http://web.archive.org/web/20090226221425/http://entertainment.upperdeck.com/yugioh/en/gameplay/faqs/cardfaqs/default.aspx?first=S&last=T">"Swift Samurai Storm!" ruling</a>, archived from the <a target="_blank" href="http://entertainment.upperdeck.com/yugioh/en/gameplay/faqs/cardfaqs/default.aspx?first=S&last=T">original</a>
+        </li>
+		<li id="cards_effects_that_can_be_activated_during_damage_step-15">
+			<a target="_blank" href="https://db.ygoresources.com/qa#13429">"Dark Contract with the Witch" ruling</a>
+		</li>
+		<li id="cards_effects_that_can_be_activated_during_damage_step-16">
+            <a target="_blank" href="https://web.archive.org/web/20110102130232/http://www.yugioh-card.com/uk/gameplay/rulings/ABPF_rules.pdf">"Evil Blast" ruling</a>, archived from the <a target="_blank" href="http://www.yugioh-card.com/uk/gameplay/rulings/ABPF_rules.pdf">original</a>
+        </li>
+		<li id="cards_effects_that_can_be_activated_during_damage_step-17">
+            <a target="_blank" href="https://web.archive.org/web/20200927055455/https://img.yugioh-card.com/uk/gameplay/rulings/DREVRulebook_100803.pdf">"Scrap Sheen" ruling</a>, archived from the <a target="_blank" href="http://www.yugioh-card.com/uk/gameplay/rulings/DREVRulebook_100803.pdf">original</a>
+        </li>
+		<li id="cards_effects_that_can_be_activated_during_damage_step-18">
+			<a target="_blank" href="https://web.archive.org/web/20151025163422/http://www.yugioh-card.com/uk/gameplay/rulings/Rules_STOR.pdf">"Zero Force" ruling</a>, archived from the <a target="_blank" href="http://www.yugioh-card.com/uk/gameplay/rulings/Rules_STOR.pdf">original</a>
+        </li>
+		<li id="cards_effects_that_can_be_activated_during_damage_step-19">
+			<a target="_blank" href="https://db.ygoresources.com/card#6067">"Curse of Anubis" ruling</a>
+		</li>
+		<li id="cards_effects_that_can_be_activated_during_damage_step-20">
+            <a target="_blank" href="http://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=11668&request_locale=ja">"Rocket Hand" ruling</a>
+        </li>
+		<li id="cards_effects_that_can_be_activated_during_damage_step-21">
+            <a target="_blank" href="https://db.ygoresources.com/card#10035">"Morpho Butterspy" ruling</a>
+        </li>
+		<li id="cards_effects_that_can_be_activated_during_damage_step-22">
+            <a target="_blank" href="http://web.archive.org/web/20090226215920/http://entertainment.upperdeck.com/yugioh/en/gameplay/faqs/cardfaqs/default.aspx?first=U&last=Z">"Yubel" ruling</a>, archived from the <a target="_blank" href="http://entertainment.upperdeck.com/yugioh/en/gameplay/faqs/cardfaqs/default.aspx?first=U&last=Z">original</a>
+        </li>
+		<li id="cards_effects_that_can_be_activated_during_damage_step-23">
+			<a target="_blank" href="https://db.ygoresources.com/card#10035">Proof of Pruflas" ruling</a>
+        </li>
+		<li id="cards_effects_that_can_be_activated_during_damage_step-24">
+			<a target="_blank" href="https://db.ygoresources.com/card#15245">"Fall of Albaz" ruling</a>
+        </li>
+		<li id="cards_effects_that_can_be_activated_during_damage_step-25">
+            <a target="_blank" href="https://web.archive.org/web/20200927055455/https://img.yugioh-card.com/uk/gameplay/rulings/DREVRulebook_100803.pdf">"Desperate Tag" ruling</a>, archived from the <a target="_blank" href="http://www.yugioh-card.com/uk/gameplay/rulings/DREVRulebook_100803.pdf">original</a>
+        </li>
+		<li id="cards_effects_that_can_be_activated_during_damage_step-26">
+            <a target="_blank" href="https://web.archive.org/web/20200927055455/https://img.yugioh-card.com/uk/gameplay/rulings/DREVRulebook_100803.pdf">"Howl of the Wild" ruling</a>, archived from the <a target="_blank" href="http://www.yugioh-card.com/uk/gameplay/rulings/DREVRulebook_100803.pdf">original</a>
+        </li>
+		<li>
+			<a target="_blank" href="https://yugipedia.com/wiki/Damage_Step">Yugipedia</a>
+		</li>
+	</ol>
+</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 #### End of the Damage Step still occurs even if damage calculation was never conducted
 
 A card whose effect reads "at the end of the Damage Step" can be activated even if damage calculation has not been conducted and Before Damage Calculation has been reached.
 
-Examples:
+*Examples*:
 - ["Number C5: Chaos Chimera Dragon", "Reflect Bounder", "Divine Wrath"](https://db.ygoresources.com/qa#6177)
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -1796,15 +1901,13 @@ Examples:
 #### Precise sequence of events when substituting for destruction by battle
 
 A card whose effect reads "if (1) you control would be destroyed by battle, you can do (2)" can be applied when performing damage calculation:
-
 - If you choose to apply the effect, immediately after damage calculation do (2), which can be banishing a card, detach a material for effect...
-
 - If you choose not to apply the effect, you can now use any effects that can be activated after damage calculation.
 
-Examples:
+*Examples*:
 - ["Bujintei Kagutsuchi", "Zoodiac Whiptail"](https://db.ygoresources.com/qa#6398)
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -1818,7 +1921,7 @@ Examples:
 
 After you've resolved all your battles by repeating the Battle and Damage Steps, and you have no more monsters you want to attack with, announce to your opponent that you are ending your Battle Phase.
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -1832,7 +1935,7 @@ After you've resolved all your battles by repeating the Battle and Damage Steps,
 
 **If you conducted your Battle Phase**, your turn moves to Main Phase 2 afterwards. The actions a player can perform in this phase are the same as in Main Phase 1. However, if the player already did something in Main Phase 1 that has a limit to the number of times it can be done, the player cannot do it again in Main Phase 2.
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -1846,7 +1949,7 @@ After you've resolved all your battles by repeating the Battle and Damage Steps,
 
 Announce the end of your turn, and if there are any cards on the field which say "...during the End Phase..." in their text, resolve those effects in this phase. If you have more than 6 cards in your hand at the end of this phase, select and discard cards to the Graveyard until you only have 6 cards in your hand.
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -1860,10 +1963,10 @@ Announce the end of your turn, and if there are any cards on the field which say
 
 If 2 or more cards effects have mandatory actions during the End Phase ("during the End Phase [...]"), either they start or not a chain, the turn player can choose in which order activate or conduct the actions.
 
-Examples:
+*Examples*:
 - ["Mystic Mine", "Winged Dragon of Ra - Sphere Mode"](https://db.ygoresources.com/qa#8765)
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -1883,9 +1986,9 @@ If a card's effect is activated, the opponent is always given a chance to respon
 <div align="center">
 	<img src="./images/chain_diagram.png" width=250>
 </div>
-As shown in the diagram, the first effect activated is Chain Link 1. The next effect is Chain Link 2, and so on. Every time a new Chain Link is made, they are stacked up in the order that the cards are activated. Once the Chain is completed, the outcome is resolved starting with the most recent card to be activated at the top of the Chain and proceeding down to Chain Link 1
+As shown in the diagram, the first effect activated is Chain Link 1. The next effect is Chain Link 2, and so on. Every time a new Chain Link is made, they are stacked up in the order that the cards are activated. Once the Chain is completed, the outcome is resolved starting with the most recent card to be activated at the top of the Chain and proceeding down to Chain Link 1.
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -1949,7 +2052,7 @@ Spell, Trap, and Effect Monster effects have different Spell Speeds. There are S
 	</tr>	
 </table>
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -1963,7 +2066,7 @@ Spell, Trap, and Effect Monster effects have different Spell Speeds. There are S
 
 You can only create a Chain by responding to the activation of a card or effect. Summoning a monster, Tributing, changing a monster's battle position and paying costs are not effect activations and therefore you cannot respond to those actions using a Chain.
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -1985,7 +2088,7 @@ A player must pass Priority to the opponent when moving on to the next phase or 
 - The turn player starts with Priority to activate a card or effect first
 - After a card's activation, and at the end of each phase or step, Priority passes to the opponent.
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -2001,7 +2104,7 @@ A player must pass Priority to the opponent when moving on to the next phase or 
 
 For cases like "Each player targets 1 monster," where both players resolve an effect simultaneously, the turn player resolves the effect first. In this example, after the turn player makes their selection, the other player makes theirs.
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -2016,16 +2119,12 @@ For cases like "Each player targets 1 monster," where both players resolve an ef
 If effects of Spell Speed 1 cards (like Trigger Effects) are activated at the same time, they will be resolved in a special Chain. This Chain is made starting with the turn player's mandatory effects. If there is only 1 effect, that will be Chain Link 1.
 
 If there are 2 or more effects:
-
 - The turn player builds the Chain starting with their mandatory effects, in any order.
-
 - Then the opponent continues the Chain with their mandatory effects in any order.
-
 - Afterwards, the turn player adds their optional effects in any order.
-
 - And finally the opponent adds their optional effects in any order. 
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -2042,33 +2141,105 @@ If there are 2 or more effects:
 
 ## Problem Solving Card Text (PSCT)
 
+Problem-Solving Card Text (often abbreviated PSCT) is a method of writing card text used for prints released from July 8, 2011 onward. The purpose of Problem-Solving Card Text is to specify card effects to the point that most situations can be resolved by logically interpreting the card text<sup><a href="#psct_text_structure-1">[1]</a></sup>.
+
 Problem-Solving Card Text uses specific words with very particular meanings in the context of gameplay. How to interpret the text is important to understanding how to apply card text to the game.
 
 This interpretation can only be applied for cards that use Problem-Solving Card Text. Cards that were printed with earlier text may use some of the same terms or structures, but this does not necessarily mean that they work as if they were Problem-Solving Card Text.
 
 ### Text structure
 
-- All card effects that make a Chain Link include a colon ":" or a semicolon ";" somewhere in their text (possibly both). If a card effect does not use either, it does not make a Chain Link.
-  - The activation of a Spell or Trap Card always makes a Chain Link, but its effect that resolves with the card itself (if any) does not necessarily use a colon or semicolon. This effect is usually the first effect listed in the card's text.
-- Text before the colon ":" describes activation conditions (limits on when or how often a card or effect can be activated).<sup><a href="#cite_note-part3-5">[5]</a></sup>[6]
+- All card effects that make a Chain Link include a colon ":" or a semicolon ";" somewhere in their text (possibly both). If a card effect does not use either, it does not make a Chain Link<sup><a href="#psct_text_structure-3">[3]</a></sup>.
+  - The activation of a Spell or Trap Card always makes a Chain Link, but its effect that resolves with the card itself (if any) does not necessarily use a colon or semicolon<sup><a href="#psct_text_structure-3">[3]</a></sup>. This effect is usually the first effect listed in the card's text.
+- Text before the **colon** ":" describes **activation conditions** (limits on when or how often a card or effect can be activated<sup><a href="#psct_text_structure-3">[3]</a></sup><sup><a href="#psct_text_structure-7">[7]</a></sup>). These conditions only need to be met when the card is activated<sup><a href="#psct_text_structure-4">[4]</a></sup>.
+  - Conditions other than target requirements that have to be met during both activation and resolution are specifically noted in a separate sentence after the effect sentence (e.g. "Zombie Master", "Treeborn Frog")<sup><a href="#psct_text_structure-4">[4]</a></sup>.
+- Text before the **semicolon** ";" (but after the colon, if any) describes anything that happens when that card or effect is activated (such as **costs and targeting**<sup><a href="#psct_text_structure-3">[3]</a></sup><sup><a href="#psct_text_structure-7">[7]</a></sup>).
+- Built-In Special Summons (other than Synchro, Xyz, Pendulum, or Link) are denoted by parentheses "()" stating the location from which the monster can be Special Summoned<sup><a href="#psct_text_structure-5">[5]</a></sup>.
+- Cards with bulleted effects (●) that resolve in the same Chain Link specify whether they resolve simultaneously or sequentially (if sequentially, effects are applied in the order they are listed). In these cases, each effect activated resolves independent of the success of the other(s).
+  - The text "in sequence" indicates that the bulleted effects are applied sequentially (e.g. "Gravekeeper's Oracle", "Advance Zone").
+  - The text "(simultaneously)" indicates that the bulleted effects are applied simultaneously (e.g. "Ryko, Lightsworn Hunter", "Kunai with Chain").
+  - If neither is specified, the effects each make separate Chain Links (e.g. "Metaphys Horus").
 
-<li id="cite_note-part3-5"><span class="mw-cite-backlink">↑ <a href="#cite_ref-part3_5-0"><span class="cite-accessibility-label">Jump up to: </span><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-part3_5-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-part3_5-2"><sup><i><b>c</b></i></sup></a> <a href="#cite_ref-part3_5-3"><sup><i><b>d</b></i></sup></a></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r4617036"><cite id="CITEREFTewart2011" class="citation web cs1"><a href="/wiki/Kevin_Tewart" title="Kevin Tewart">Tewart, Kevin</a> (June 1, 2011). <a rel="nofollow" class="external text" href="https://yugiohblog.konami.com/articles/?p=2947">"Problem-Solving Card Text, Part 3: Conditions, Activations, and Effects"</a>. <a href="/wiki/Konami" title="Konami">Konami</a><span class="reference-accessdate">. Retrieved <span class="nowrap">July 28,</span> 2011</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Problem-Solving+Card+Text%2C+Part+3%3A+Conditions%2C+Activations%2C+and+Effects&amp;rft.pub=Konami&amp;rft.date=2011-06-01&amp;rft.aulast=Tewart&amp;rft.aufirst=Kevin&amp;rft_id=https%3A%2F%2Fyugiohblog.konami.com%2Farticles%2F%3Fp%3D2947&amp;rfr_id=info%3Asid%2Fyugipedia.com%3AProblem-Solving+Card+Text" class="Z3988"></span></span>
-</li>
+*References*:
+<p align="left">
+	<ol>
+		<li id="psct_text_structure-1">
+			<a target="_blank" href="">"Problem-Solving Card Text, Part 1: Reading the Card's of Tomorrow"</a>, archived from the <a target="_blank" href="https://yugiohblog.konami.com/articles/?p=2906">original</a>
+        </li>
+		<li id="psct_text_structure-2">
+            <a target="_blank" href="">"Problem-Solving Card Text, Part 2: New Words & Phrases"</a>, archived from the <a target="_blank" href="https://yugiohblog.konami.com/articles/?p=2915">original</a>
+        </li>
+		<li id="psct_text_structure-3">
+			<a target="_blank" href="https://web.archive.org/web/20240227023931/https://yugiohblog.konami.com/articles/?p=2947">"Problem-Solving Card Text, Part 3: Conditions, Activations, and Effects"</a>, archived from the <a target="_blank" href="https://yugiohblog.konami.com/articles/?p=2947">original</a>
+		</li>
+		<li id="psct_text_structure-4">
+            <a target="_blank" href="">"Problem-Solving Card Text, Part 4: The Clues on Your Cards"</a>, archived from the <a target="_blank" href="https://yugiohblog.konami.com/articles/?p=2962">original</a>
+        </li>
+		<li id="psct_text_structure-5">
+            <a target="_blank" href="">"Problem-Solving Card Text, Part 5: Special Summons"</a>, archived from the <a target="_blank" href="https://yugiohblog.konami.com/articles/?p=3111">original</a>
+        </li>
+		<li id="psct_text_structure-6">
+            <a target="_blank" href="">"Problem-Solving Card Text, Part 7: 2012 Update – Conjunction Functions"</a>, archived from the <a target="_blank" href="https://yugiohblog.konami.com/articles/?p=4514">original</a>
+        </li>
+		<li id="psct_text_structure-7">
+			<a target="_blank" href="https://yugipedia.com/wiki/File:Rulebook_v10.pdf?page=56">Official rulebook Version 10</a>
+		</li>
+		<li>
+			<a target="_blank" href="https://yugipedia.com/wiki/Problem-Solving_Card_Text">Yugipedia</a>
+		</li>
+	</ol>
+</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-These conditions only need to be met when the card is activated.[7]
-Conditions other than target requirements that have to be met during both activation and resolution are specifically noted in a separate sentence after the effect sentence (e.g. "Zombie Master", "Treeborn Frog").[7]
-Text before the semicolon ";" (but after the colon, if any) describes anything that happens when that card or effect is activated (such as costs and targeting).[5][6]
-Built-In Special Summons (other than Synchro, Xyz, Pendulum, or Link) are denoted by parentheses " () " stating the location from which the monster can be Special Summoned.[8]
-Cards with bulleted effects (●) that resolve in the same Chain Link specify whether they resolve simultaneously or sequentially (if sequentially, effects are applied in the order they are listed). In these cases, each effect activated resolves independent of the success of the other(s).
-The text "in sequence" indicates that the bulleted effects are applied sequentially (e.g. "Gravekeeper's Oracle", "Advance Zone").
-The text "(simultaneously)" indicates that the bulleted effects are applied simultaneously (e.g. "Ryko, Lightsworn Hunter", "Kunai with Chain").
-If neither is specified, the effects each make separate Chain Links (e.g. "Metaphys Horus").
+### Terminology and phrasing
 
-**References**:
+#### "that target" and "it"
+The terms "that target" or "those targets" and "it" or "they/them" have specific meanings in the resolution of the effect.
+- "That target" and "those targets" indicate that targets must still meet the target requirements at resolution to be affected. "Both (those) targets" and "all three targets" indicate that **all** targets must still meet the target requirements at resolution for any of them to be affected.
+- "It" and "they/them" indicate that the targets do not need to meet the target requirements at resolution, only when targeted.
+
+*References*:
 <p align="left">
 	<ol>
 		<li>
-			<a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official KONAMI's article</a>
+            <a target="_blank" href="">"Problem-Solving Card Text, Part 4: The Clues on Your Cards"</a>, archived from the <a target="_blank" href="https://yugiohblog.konami.com/articles/?p=2962">original</a>
+        </li>
+		<li>
+			<a target="_blank" href="https://yugipedia.com/wiki/Problem-Solving_Card_Text">Yugipedia</a>
+		</li>
+	</ol>
+</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+#### "that target" and "it"
+
+
+*References*:
+<p align="left">
+	<ol>
+		<li id="psct_text_structure-1">
+			<a target="_blank" href="">"Problem-Solving Card Text, Part 1: Reading the Card's of Tomorrow"</a>, archived from the <a target="_blank" href="https://yugiohblog.konami.com/articles/?p=2906">original</a>
+        </li>
+		<li id="psct_text_structure-2">
+            <a target="_blank" href="">"Problem-Solving Card Text, Part 2: New Words & Phrases"</a>, archived from the <a target="_blank" href="https://yugiohblog.konami.com/articles/?p=2915">original</a>
+        </li>
+		<li id="psct_text_structure-3">
+			<a target="_blank" href="https://web.archive.org/web/20240227023931/https://yugiohblog.konami.com/articles/?p=2947">"Problem-Solving Card Text, Part 3: Conditions, Activations, and Effects"</a>, archived from the <a target="_blank" href="https://yugiohblog.konami.com/articles/?p=2947">original</a>
+		</li>
+		<li id="psct_text_structure-4">
+            <a target="_blank" href="">"Problem-Solving Card Text, Part 4: The Clues on Your Cards"</a>, archived from the <a target="_blank" href="https://yugiohblog.konami.com/articles/?p=2962">original</a>
+        </li>
+		<li id="psct_text_structure-5">
+            <a target="_blank" href="">"Problem-Solving Card Text, Part 5: Special Summons"</a>, archived from the <a target="_blank" href="https://yugiohblog.konami.com/articles/?p=3111">original</a>
+        </li>
+		<li id="psct_text_structure-6">
+            <a target="_blank" href="">"Problem-Solving Card Text, Part 7: 2012 Update – Conjunction Functions"</a>, archived from the <a target="_blank" href="https://yugiohblog.konami.com/articles/?p=4514">original</a>
+        </li>
+		<li id="psct_text_structure-7">
+			<a target="_blank" href="https://yugipedia.com/wiki/File:Rulebook_v10.pdf?page=56">Official rulebook Version 10</a>
+		</li>
+		<li>
+			<a target="_blank" href="https://yugipedia.com/wiki/Problem-Solving_Card_Text">Yugipedia</a>
 		</li>
 	</ol>
 </p>
@@ -2085,7 +2256,7 @@ If neither is specified, the effects each make separate Chain Links (e.g. "Metap
 
 </div>
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -2099,10 +2270,10 @@ If neither is specified, the effects each make separate Chain Links (e.g. "Metap
 
 If a Token's (1) propertis (Attribute, Type, ATK, DEF, Level...) satisfy a certain card's (2) activation requirement and (2) requires to banish a Monster with those properties, (2) can be activated. If (1) is banished because of (2)'s cost, (2) resolves normally even if (1) original properties were not originally the one necessary to fulfil the activation of (2).
 
-Examples:
+*Examples*:
 - ["DNA Surgery", "Dragon's Rebirth"](https://db.ygoresources.com/qa#275)
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -2116,10 +2287,10 @@ Examples:
 
 A card's (1) effect which lowers a stat of a monster with action A and then does an action B, if action A applies to a monster (2) whose stat is lower than 1000 (even 0), then B **will** apply (even if (2)'s ATK is already 0, B will apply even if A is required such as "if you do" conjunctive).
 
-Examples:
+*Examples*:
 - ["Predaplant Chimerafflesia"](https://db.ygoresources.com/qa#275)
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -2137,10 +2308,10 @@ Examples:
 
 If an effect (1) that involves attaching a card (2) as an Xyz Material to a Xyz Monster on the field (3) is activated, if (3) is unaffected by cards' effects, then (1) resolves without attaching (2) to (3), and (1) is sent to the Graveyard.
 
-Examples:
+*Examples*:
 - ["Overlay Regen", "Forbidden Lance"](https://db.ygoresources.com/qa#19)
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -2155,10 +2326,10 @@ Examples:
 #### Attack target redirection
 If a monster (1) can attack all opponent's monsters once each, if it attacks a monster (2) but then its attack is redirected to another monster (3), (1) cannot attack again (2). Furthermore, (3) which has been made the attack target instead of (2), if (3) has not been destroyed by battle after the attack redircetion, (1) cannot attack again (3).
 
-Examples:
+*Examples*:
 - ["Ruffian Railcar", "ZW - Asura Strike", "Construction Train Signal Red"](https://db.ygoresources.com/qa#10214)
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -2173,10 +2344,10 @@ Examples:
 #### Attack all once each
 If a monster (1) can attack all opponent's monsters once each, if it attacks a monster (2) but then its attack is redirected to another monster (3), (1) cannot attack again (2). Furthermore, (3) which has been made the attack target instead of (2), if (3) has not been destroyed by battle after the attack redircetion, (1) cannot attack again (3).
 
-Examples:
+*Examples*:
 - ["Ruffian Railcar", "ZW - Asura Strike", "Construction Train Signal Red"](https://db.ygoresources.com/qa#10214)
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -2192,18 +2363,18 @@ Examples:
 When the effect "any Monster sent to the GY is banished instead" is applying you:
 
 - **Cannot** activate a card or effect that requires you to send a Monster to the Graveyard as a cost.
-- **Cannot** activate a card or effect that send cards from the top of your Deck to the Graveyard as cost as there may be monster cards among them.
-- **Can** activate a card or effect that requires you to send a Monster Card not treated as a Monster (for example treated as an Equip Spell Card) to the Graveyard as a cost.<sup><a href="#banish_only_monsters_and_paying_cost-2">[2]</a></sup>
+- **Cannot** activate a card or effect that send cards from the top of your Deck to the Graveyard as cost as there may be monster cards among them<sup><a href="#banish_only_monsters_and_paying_cost-1">[1]</a></sup>.
+- **Can** activate a card or effect that requires you to send a Monster Card not treated as a Monster (for example treated as an Equip Spell Card) to the Graveyard as a cost<sup><a href="#banish_only_monsters_and_paying_cost-2">[2]</a></sup>.
 
-Examples:
-- ["Dimensional Fissure", "Guardian Eatos"](https://db.ygoresources.com/qa#9105)
+*Examples*:
 - ["Charge of the Light Brigade", "Card Trooper", "Dimensional Fissure"](https://db.ygoresources.com/qa#9234)
+- ["Dimensional Fissure", "Guardian Eatos"](https://db.ygoresources.com/qa#9105)
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
-		<li>
-			<a target="_blank" href="https://db.ygoresources.com/qa#9234">YGOrg Database of Official OCG Rulings</a>,
+		<li id="banish_only_monsters_and_paying_cost-1">
+			<a target="_blank" href="https://db.ygoresources.com/qa#9234">YGOrg Database of Official OCG Rulings</a>
 		</li>
 		<li id="banish_only_monsters_and_paying_cost-2">
 			<a target="_blank" href="https://db.ygoresources.com/qa#9105">YGOrg Database of Official OCG Rulings</a>
@@ -2216,10 +2387,10 @@ Examples:
 
 If the two effects "any card sent to the GY is banished instead" and "neither player can banish cards" are applying both simultaneously, cards sent to the Graveyard will not be banished and are sent to the Graveyard normally.
 
-Examples:
+*Examples*:
 - ["Imperial Iron Wall", "Macro Cosmos"](https://db.ygoresources.com/qa#7460)
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -2235,7 +2406,7 @@ A monster "battles" (and is "battling") starting from when it attacks or is atta
 
 When a card requires a monster to have "battled" (past tense), the attack had to have reached the damage calculation portion of the Damage Step in order for the monster to have "battled". If the attack stops before damage calculation, the monster did not "battle". (Note that **an attack was still declared**, however, so in most cases the attacking monster cannot declare another attack.)
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -2251,10 +2422,10 @@ When a card requires a monster to have "battled" (past tense), the attack had to
 
 Monsters which violate this kind of effects are sent to the graveyard and are not considered as destroyed by card effects.
 
-Examples:
+*Examples*:
 - ["Gravekeeper's Chief", "Archfiend Zombie-Skull"](https://db.ygoresources.com/qa#8632)
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -2267,12 +2438,11 @@ Examples:
 ### Control/Possess
 
 - Cards you "control" are the cards in your Monster Zone, Spell & Trap Zone, Field Zone, and Pendulum Zone.
-
 - Cards in your "possession" include all cards you control, plus the cards in your hand, Deck, Extra Deck, Graveyard, your banished cards, cards in the middle of being Summoned to your side of the field, and Xyz Materials attached to monsters you control.
 
 If a player takes control of a card from their opponent, move it to the new controller's side of the field. If sent to the Graveyard, or returned to the hand or Deck, it is always returned to the Graveyard/hand/Deck of the original owner.
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -2286,7 +2456,7 @@ If a player takes control of a card from their opponent, move it to the new cont
 
 A card is destroyed when it is sent to the Graveyard due to battle between monsters or by an effect that destroys a card. A card that is returned from the field to the hand or Deck, or, that is sent to the Graveyard as a cost or Tribute, is NOT considered "destroyed." always returned to the Graveyard/hand/Deck of the original owner.
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -2300,7 +2470,7 @@ A card is destroyed when it is sent to the Graveyard due to battle between monst
 
 Discard means to send a card from your hand to the Graveyard. This can happen because of a card effect or by adjusting the number of cards in your hand during the End Phase.
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -2313,14 +2483,12 @@ Discard means to send a card from your hand to the Graveyard. This can happen be
 ### Equip Cards
 
 In addition to Equip Spell Cards, sometimes Trap Cards or Monster Cards can become equipped to a monster.
-
 - Equipped Traps remain Trap Cards
-
 - Equipped monsters are considered to be Equip Spells.
 
 The term "Equip Card" includes all 3 kinds (standard Equip Spells, equipped Traps, and monsters equipped to other monsters).
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -2334,7 +2502,7 @@ The term "Equip Card" includes all 3 kinds (standard Equip Spells, equipped Trap
 
 A monster that is equipped with an Equip Card is an "equipped monster." When this monster is destroyed or flipped face-down, the equipped card loses its target, and is destroyed and sent to the Graveyard.
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -2350,7 +2518,7 @@ If a Monster Card is equipped to another monster, it remains equipped to that mo
 
 **EXCEPTION**: Union monsters equipped by their own effects can be moved by appropriate card effects.
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -2364,7 +2532,7 @@ If a Monster Card is equipped to another monster, it remains equipped to that mo
 
 When a card says to "excavate" cards from your Deck, you reveal those cards to both players. Then, before you do anything else, apply the instructions from the card effect that excavated them. Cards that are being excavated are still treated as being in the Deck until sent elsewhere by the card instructions
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -2380,7 +2548,7 @@ Some monsters have effects that activate when they "leave the field". For exampl
 
 When a monster on the field is shuffled into the Deck, or becomes an Xyz Material, it is no longer a card on the field, however its effects that activate when it "leaves the field" will not activate. Deck includes both Main and Extra Deck.
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -2394,7 +2562,7 @@ When a monster on the field is shuffled into the Deck, or becomes an Xyz Materia
 
 Some monsters can inflict piercing battle damage when they attack a Defense Position monster. This means that you inflict damage to your opponent's LP equal to the difference between the attacking monster's ATK and the defending monster's DEF.
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -2408,7 +2576,7 @@ Some monsters can inflict piercing battle damage when they attack a Defense Posi
 
 When a card effect says to choose a card randomly, there is no official way of doing so, it is fine as long as neither player has a way of knowing which card is being chosen.
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -2422,7 +2590,7 @@ When a card effect says to choose a card randomly, there is no official way of d
 
 When an effect says to reveal a card, you show it to both players. You may have to reveal a face-down card, a card from your hand, or from the top of your Deck. Revealing a card does not activate the card or its Flip effect. Normally, revealed cards are returned to their original position after being looked at by both players.
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -2437,7 +2605,7 @@ When an effect says to reveal a card, you show it to both players. You may have 
 A card can be sent to the Graveyard in various ways. Destroying a card, discarding, and Tributing a monster are all actions that send a card to the Graveyard, and will normally activate "When/If this card is sent to the
 Graveyard..." Trigger Effects.
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -2451,7 +2619,7 @@ Graveyard..." Trigger Effects.
 
 When a banished card is moved to the Graveyard, it is not considered to be "sent to the Graveyard".
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -2463,20 +2631,20 @@ When a banished card is moved to the Graveyard, it is not considered to be "sent
 
 ### Summon from Spell/Trap Zone (and vice versa)
 
-If an effect (1) targets a Monster Card (2) in the Spell/Trap Zone ((1) is not treated as a monster), if another card is chained to (1) and summons (2) to the Monster Zone, then (2) is no longer treated as the same card that was targeted by (1), so (1) resolves without effect.\
-Similary, if (1) targets (2) while in a Monster Zone but (2) is placed in the Spell/Trap Zone, (2) is no longer treated as the same card that was targeted by (1), so (1) resolves without effect.
+If an effect (1) targets a Monster Card (2) in the Spell/Trap Zone ((1) is not treated as a monster), if another card is chained to (1) and summons (2) to the Monster Zone, then (2) is no longer treated as the same card that was targeted by (1), so (1) resolves without effect<sup><a href="#summon_from_spell_trap_zone-1">[1]</a></sup>.\
+Similary, if (1) targets (2) while in a Monster Zone but (2) is placed in the Spell/Trap Zone, (2) is no longer treated as the same card that was targeted by (1), so (1) resolves without effect<sup><a href="#summon_from_spell_trap_zone-2">[2]</a></sup>.
 
-Examples:
+*Examples*:
 - ["Raigeki Break", "Stargazer Magician", "Pendulum Switch"](https://db.ygoresources.com/qa#9328) (M -> S/T)
 - ["Raigeki Break", "Stargazer Magician", "Pendulum Switch"](https://db.ygoresources.com/qa#10485) (S/T -> M)
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
-		<li>
+		<li id="summon_from_spell_trap_zone-1">
 			<a target="_blank" href="https://db.ygoresources.com/qa#9328">YGOrg Database of Official OCG Rulings</a>
 		</li>
-		<li>
+		<li id="summon_from_spell_trap_zone-2">
 			<a target="_blank" href="https://db.ygoresources.com/qa#10485">YGOrg Database of Official OCG Rulings</a>
 		</li>
 	</ol>
@@ -2487,7 +2655,7 @@ Examples:
 
 Tributing is sending a monster you control to the Graveyard. You can Tribute a face-up or face-down monster, unless otherwise specified. Tributing a monster is one possible cost for Summoning a monster or activating an effect. A monster sent to the Graveyard by Tributing is not treated as "destroyed."
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -2503,10 +2671,10 @@ Tributing is sending a monster you control to the Graveyard. You can Tribute a f
 
 If an effect (1) that involves attaching a card (2) as an Xyz Material to a Xyz Monster on the field (3) is activated, if (3) is unaffected by cards' effects, then (1) resolves without attaching (2) to (3), and (1) is sent to the Graveyard.
 
-Examples:
+*Examples*:
 - ["Overlay Regen", "Forbidden Lance"](https://db.ygoresources.com/qa#19)
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -2523,10 +2691,10 @@ Examples:
 #### Location and cost
 In order to activate a card (1) whose effect involves a cost and applies to another card (2) (for example Summon (2) from the Graveyard), a correct target (2) must be present (on the field, in the Graveyard, ...) before attempting (1)'s activation. Even if a valid target (2) would be present after paying (1)'s cost, (1) cannot be activated.
 
-Examples:
+*Examples*:
 - ["Lumina, Lightsworn Summoner"](https://db.ygoresources.com/qa#7283)
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -2539,10 +2707,10 @@ Examples:
 #### Add, discard and send
 A card (1) effect which involves adding a card (2) with a certain property and then discarding/sending a card (3) with (2)'s same property, (1) can be activated even if there are no cards of with (2)'s property in your hand at the moment of (1)'s activation.
 
-Examples:
+*Examples*:
 - ["Dragunity Knight - Gae Dearg"](https://db.ygoresources.com/qa#8865)
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -2563,11 +2731,11 @@ Also you **can** activate optional effects that would take control of more than 
 
 After a successful activation of such card, if you do not have enough room in your Monster Zones, the extras are destroyed.
 
-Examples:
+*Examples*:
 - ["Ojama Trio", "Owner's Seal"](https://db.ygoresources.com/qa#7316)
 - ["Number F0: Utopic Draco Future"](https://db.ygoresources.com/qa#23335)
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -2583,7 +2751,7 @@ If a monster's Trigger Effect meets its activation conditions, BUT hasn't yet ha
 
 -   ["Drytron Alpha Thuban", "Cyber Angel Benten", "D.D. Crow"](https://db.ygoresources.com/qa#23251)
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -2597,10 +2765,10 @@ If a monster's Trigger Effect meets its activation conditions, BUT hasn't yet ha
 
 A monster (1) whose effect reads "The ATK of this card becomes the combined original ATK of the Tributed monsters", if it is Summoned by tributing a monster (2) on the field whose **original** ATK was set by another card (3), (1)'s ATK will be (2)'s printed ATK even though (2)'s original ATK differs from its printed ATK due to (3).
 
-Examples:
+*Examples*:
 - ["Beast King Barbaros", "Fog King"](https://db.ygoresources.com/qa#6999)
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -2616,10 +2784,10 @@ Examples:
 
 A monster (1) who gains different effects based on the materials used for its Summon, if one (2) of the materials had an effect on the field that treated its attribute as multiple attributes, then (1) will gain all the respective effects based on the multiple attributes of (2).
 
-Examples:
+*Examples*:
 - ["Genex Ally Triforce", "Elemental Mistress Doriado"](https://db.ygoresources.com/qa#7030)
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -2755,7 +2923,7 @@ Examples:
 	</tr>
 </table>
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -2914,7 +3082,7 @@ In the examples, the two cards on the left are the "Prev", the card on the right
     </tr>
 </table>
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -2942,7 +3110,7 @@ For these special cases, no matter what the effects currently in play are, they 
 those effects right afterwards.\
 When those effects stop applying, reapply everything, including lingering effects (1,3,5)
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
@@ -2963,7 +3131,7 @@ When those effects stop applying, reapply everything, including lingering effect
 
 ### Rivalry of the Warlords
 
-**References**:
+*References*:
 <p align="left">
 	<ol>
 		<li>
