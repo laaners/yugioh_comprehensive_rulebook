@@ -35,42 +35,38 @@ Examples:
 <sup><a href="#psct_text_structure-3">[3]</a></sup>
 
 **References**:
-<p align="left">
-	<ol>
-		<li>
-			<a href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 25</a>
-		</li>
-		<li id="properly_special_summon-2">
-			YGOrg Database of Official OCG Rulings: <a href="https://db.ygoresources.com/qa#10331">"Meklord Emperor Granel"</a>
-		</li>
-		<li>
-            <a href="https://ygorganization.com/perfect-rulebook-2017/">OCG Perfect Rulebook 2017 page 28</a>
-        </li>
-        <li id="sub-steps_of_the_damage_step-3">
-            <a href="https://ygorganization.com/perfect-rulebook-2017/">OCG Perfect Rulebook 2017 pages 188–193</a>
-        </li>
-        <li>
-			<a href="https://web.archive.org/web/20190414183558/https://yugiohblog.konami.com/articles/?p=8318">Official KONAMI's article</a>, archived from the <a href="https://yugiohblog.konami.com/articles/?p=8318">original</a>
-		</li>
-        <li>		
-			<a href="https://imgur.com/targeting-rules-insert-JH4NxL1">Insert from Rise of the True Dragons Structure Deck</a>
-		</li>
-	</ol>
-</p>
+<ol>
+    <li>
+        <a href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 25</a>
+    </li>
+    <li id="properly_special_summon-2">
+        YGOrg Database of Official OCG Rulings: <a href="https://db.ygoresources.com/qa#10331">"Meklord Emperor Granel"</a>
+    </li>
+    <li>
+        <a href="https://ygorganization.com/perfect-rulebook-2017/">OCG Perfect Rulebook 2017 page 28</a>
+    </li>
+    <li id="sub-steps_of_the_damage_step-3">
+        <a href="https://ygorganization.com/perfect-rulebook-2017/">OCG Perfect Rulebook 2017 pages 188–193</a>
+    </li>
+    <li>
+        <a href="https://web.archive.org/web/20190414183558/https://yugiohblog.konami.com/articles/?p=8318">Official KONAMI's article</a>, archived from the <a href="https://yugiohblog.konami.com/articles/?p=8318">original</a>
+    </li>
+    <li>		
+        <a href="https://imgur.com/targeting-rules-insert-JH4NxL1">Insert from Rise of the True Dragons Structure Deck</a>
+    </li>
+</ol>
 <p align="right">(<a href="#readme-top">back to table of contents</a>)</p>
 
 <sup><a href="#deckout_add_send_from_deck">[3]</a></sup>
 **References**:
-<p align="left">
-	<ol>
-        <li>
-			<a href="https://www.yugioh-card.com/en/rulebook/">Official rulebook pages 3-5</a>
-		</li>
-        <li>
-            <a href="https://ygorganization.com/perfect-rulebook-2017/">OCG Perfect Rulebook 2017 page 46</a>
-        </li>
-	</ol>
-</p>
+<ol>
+    <li>
+        <a href="https://www.yugioh-card.com/en/rulebook/">Official rulebook pages 3-5</a>
+    </li>
+    <li>
+        <a href="https://ygorganization.com/perfect-rulebook-2017/">OCG Perfect Rulebook 2017 page 46</a>
+    </li>
+</ol>
 <p align="right">(<a href="#readme-top">back to table of contents</a>)</p>
 
 

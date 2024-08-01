@@ -1,0 +1,28 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  max-width: 920px;
+  margin: auto;
+  padding: 0;
+}
+
+table {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border-collapse: collapse;
+  border-spacing: 0; /* Remove space between cells */
+}
+
+table th,
+table td {
+  border: 1px solid #ddd; /* Light gray border for cells */
+  padding: 8px; /* Space inside cells */
+}
+
+li {
+  margin: 0.2em;
+}
