@@ -5,11 +5,13 @@
 	- [The Game Mat/Dueling Field](#the-game-matdueling-field)
 		- [The field](#the-field)
 			- [Main Monster Zone](#main-monster-zone)
-			- [Spell \& Trap Zone Pendulum Zone](#spell--trap-zone-pendulum-zone)
+			- [Extra Monster Zone](#extra-monster-zone)
+			- [Spell \& Trap Zone](#spell--trap-zone)
+			- [Pendulum Zone](#pendulum-zone)
 			- [Field Zone](#field-zone)
 		- [Graveyard](#graveyard)
 		- [Deck Zone](#deck-zone)
-		- [Extra Deck](#extra-deck)
+		- [Extra Deck Zone](#extra-deck-zone)
 - [Monster cards](#monster-cards)
 	- [Normal Monsters](#normal-monsters)
 	- [Effect Monsters](#effect-monsters)
@@ -35,7 +37,7 @@
 	- [Flip Summon](#flip-summon)
 	- [Special Summon](#special-summon)
 		- [Special Summon with a Card's Effect](#special-summon-with-a-cards-effect)
-			- ["Immediately after this effect resolves" ... "Summon"](#immediately-after-this-effect-resolves--summon)
+			- [Immediately after this effect resolves ... Summon](#immediately-after-this-effect-resolves--summon)
 		- [Properly Special Summon](#properly-special-summon)
 			- [Flip Summon and Properly Special Summon](#flip-summon-and-properly-special-summon)
 	- [Summon restrictions](#summon-restrictions)
@@ -91,7 +93,7 @@
 		- [Simultaneous Effects](#simultaneous-effects)
 			- [Perform actions simultaneously](#perform-actions-simultaneously)
 			- [Simultaneous Effects Go On Chain (SEGOC)](#simultaneous-effects-go-on-chain-segoc)
-		- [If... You Can VS When... You Can](#if-you-can-vs-when-you-can)
+		- [If ... You Can vs When ... You Can](#if--you-can-vs-when--you-can)
 - [Card text](#card-text)
 	- [Problem Solving Card Text (PSCT)](#problem-solving-card-text-psct)
 		- [Activation condition/requirement](#activation-conditionrequirement)
@@ -189,11 +191,11 @@ This is a separate Deck of cards you can use to change your Deck during a Match.
 The Game Mat helps you organize your cards during a Duel. When you use your cards you place them on the Game Mat. Different kinds of cards are placed in different Zones.
 
 <div align="center">
-	<img src="./images/game_mat.png" width=800 />
+	<img loading="lazy" src="./images/game_mat.png" width=800 />
 </div>
 
 1. Main Monster Zone
-2. Spell & Trap Zone Pendulum Zone
+2. Spell & Trap Zone and Pendulum Zone
 3. Graveyard (GY)
 4. Deck
 5. Field Zone
@@ -216,8 +218,8 @@ If an effect says "the field", it refers one of the following locations:
 - Main Monster Zones
 - Extra Monster Zones
 - Spell & Trap Zones
+- Pendulum Zones
 - Field Zones
-- Pendulum Zones.
 
 If an effect simply says "card(s) on the field" without specifying yours or the opponent's, the effect can affect both player's Main Monster Zones, Extra Monster Zones, Spell & Trap Zones, Field Zones and Pendulum Zones.
 
@@ -257,7 +259,39 @@ This is where you put your monsters when they're played.
 </p>
 <p align="right">(<a href="#readme-top">back to table of contents</a>)</p>
 
-#### Spell & Trap Zone Pendulum Zone
+#### Extra Monster Zone
+This is where you put your monsters that are Summoned to the field by special methods from the Extra Deck
+- Normally, each player can only use 1 of these Zones. A monster placed in this Zone does not count towards the 5-monster limit of your Main Monster 
+Zone.
+- Fusion, Synchro, and Xyz Monsters can be first Summoned from the Extra Deck to any of your Main Monster Zones<sup><a href="#extra_monster_zone-2">[2]</a></sup>. They do not have to be Summoned to the Extra Monster Zone or a spot that a Link Monster is pointing to. You can still Summon a Fusion/Synchro/Xyz Monster from the Extra Deck to your Extra Monster Zone if you want to, though.
+- The restrictions requiring an Extra Monster Zone or Link Monster pointing still apply to Link Monsters and Pendulum Monsters that are Summoned from the Extra Deck.
+- An Extra Monster Deck Zone in which no monster has been placed is not treated as either yours or the opponent's. Only if a monster is placed in a zone, that zone is treated as being a zone of the controller of that monster.
+- Monsters that are not Special Summoned from the Extra Deck cannot be placed in the Extra Monster Zone.
+- An Extra Monster Zone in which a monster has been placed is also treated as a Monster Zone of the controller of that monster.
+- Monsters placed in the Extra Monster Zone cannot be moved to another zone unless an effect or resolution is applied.
+- If a monster that has been Special Summoned from the Extra Deck into the Extra Monster Zone is later sent to the Graveyard or banished and later would be Special Summoned, it is not Special Summoned to the Extra Monster Zone and is Special Summoned into a Main Monster zone instead.
+- The other Extra Monster Zone from the point of view of each Extra Monster Zone is not treated as "the adjacent zone".
+- If control of a monster in the Extra Monster Zone changes
+  - If control of a monster placed in an Extra Monster Zone switches to the other player's field, it is placed in an available Main Monster Zone of the player who gained control.
+  - If control of a monster that was transfered to the opponent from an Extra Monster Zone returns, it is not placed in the original Extra Monster Zone, and it is placed in an available Main Monster Zone of the player who regained control. If there is no available Main Monster Zone, that monster is destroyed and sent to the Graveyard.
+
+*References*:
+<p align="left">
+	<ol>
+		<li>
+			<a href="https://www.yugioh-card.com/en/rulebook/">Official rulebook pages 3-5</a>
+		</li>
+		<li id="extra_monster_zone-2">
+			<a href="https://www.yugioh-card.com/en/play/2021_rules_update/">Official KONAMI's 2021 rules update</a>
+		</li>
+		<li>
+            <a href="https://ygorganization.com/perfect-rulebook-2017/">OCG Perfect Rulebook 2017 pages 50-51</a>
+        </li>
+	</ol>
+</p>
+<p align="right">(<a href="#readme-top">back to table of contents</a>)</p>
+
+#### Spell & Trap Zone
 This is where you put Spell & Trap Cards.
 - You can have up to 5 cards here.
 - You place them here face-up to activate them, or place them face-down. 
@@ -278,6 +312,30 @@ This is where you put Spell & Trap Cards.
 	</ol>
 </p>
 <p align="right">(<a href="#readme-top">back to table of contents</a>)</p>
+
+#### Pendulum Zone
+
+This is the place where Pendulum Monsters activated as Spell Cards are placed in. The left-most and right-most of the 5 Spell & Trap Zones on the field are also treated as Pendulum Zones. However, they are only treated as Pendulum Zones as long as there is a Pendulum Monster in them that has been activated from the hand as a Spell Card on that has been placed in them by an effect that places cards in the Pendulum Zone. Furthermore, Pendulum Monsters placed here through these methods are treated as "cards in the Pendulum Zone(s)".
+- The only places in which Pendulum Monsters can be activated as Spell Cards from the hand or placed by an effect that places cards in a Pendulum Zone are the left-most and right-most of the 5 Spell & Trap Zones on the field.
+- New cards cannot be placed in a Pendulum Zone that already has a card placed on it.
+- Pendulum Monsters placed in the Pendulum Zone are not treated as monsters and are treated as Spell Cards, as well as cards in the Spell & Trap Zone. But they are still "Monster Cards".
+- Only the Pendulum Monster cards that have been placed in a Pendulum Zone by being activated from the hand as Spell Cards or placed there by an effect that places cards in the Pendulum Zone are treated as "cards in the Pendulum Zone". For example: A Pendulum Monster treated as an Equip Card by an effect like the effect of Relinquished that says which is placed in a Pendulum Zone is not treated as "a card in the Pendulum Zone". Therefore, its Pendulum Effects cannot be used and a Pendulum Summon cannot be performed.
+- Effects like Wavering Eyes that "destroy all cards in the Pendulum Zones" cannot destroy Pendulum Monsters that have been placed in the Pendulum Zones by methods other than being activated from the hand as a Spell Card or by being placed there by a card effect that places cards in the Pendulum Zone.
+- If an Effect like the effect of Acrobatic Magician which says "When this card is destroyed by battle: You can place this card in your Pendulum Zone" places a card from outside the Pendulum Zone into a Pendulum Zone, it can place a card in either the left-most or right-most of the 5 Spell & Trap Zones that is available. If a card is placed by this method, that zone is also treated as a Pendulum Zone, and the card placed there is also treated as "a card in the Pendulum Zone".
+
+**References**:
+<p align="left">
+	<ol>
+        <li>
+			<a href="https://www.yugioh-card.com/en/rulebook/">Official rulebook pages 3-5</a>
+		</li>
+        <li>
+            <a href="https://ygorganization.com/perfect-rulebook-2017/">OCG Perfect Rulebook 2017 pages 48-49</a>
+        </li>
+	</ol>
+</p>
+<p align="right">(<a href="#readme-top">back to table of contents</a>)</p>
+
 
 #### Field Zone
 Special Spell Cards called Field Spell Cards are played here (activated face-up or set face-down).
@@ -306,7 +364,7 @@ When Monster Cards are destroyed, and when Spell & Trap Cards are used, they're 
 - The order of the cards in the Graveyard should not be changed.
 - Graveyard is shortened in the card text to "GY".
 - If multiple cards are sent to the Graveyard simultaneously, it is the owner of those cards that decides the order in which they are placed in the Graveyard, regardless of the controller of the effect.
-- If cards are sent to the Graveyard, they are always sent to the owner’s Graveyard.
+- If cards are sent to the Graveyard, they are always sent to the owner's Graveyard.
 
 **References**:
 <p align="left">
@@ -343,7 +401,7 @@ Your Deck is placed face-down in this space.
 </p>
 <p align="right">(<a href="#readme-top">back to table of contents</a>)</p>
 
-### Extra Deck
+### Extra Deck Zone
 Place your Extra Deck face-down in this space.
 - You can look at the cards in your own Extra Deck during the game.
 - During a Duel, Extra Deck Monsters may be Summoned to the field from here using special methods.
@@ -367,28 +425,10 @@ Regarding Pendulum Monster Cards:
 </p>
 <p align="right">(<a href="#readme-top">back to table of contents</a>)</p>
 
-
- **7. Extra Monster Zone**\
-This is where you put your monsters that are Summoned to the field by special methods from the Extra Deck
-- Normally, each player can only use 1 of these Zones. A monster placed in this Zone does not count towards the 5-monster limit of your Main Monster 
-Zone.
-- Fusion, Synchro, and Xyz Monsters can be first Summoned from the Extra Deck to any of your Main Monster Zones. They do not have to be Summoned to the Extra Monster Zone or a spot that a Link Monster is pointing to. You can still Summon a Fusion/Synchro/Xyz Monster from the Extra Deck to your Extra Monster Zone if you want to, though.
-- The restrictions requiring an Extra Monster Zone or Link Monster pointing still apply to Link Monsters and Pendulum Monsters that are Summoned from the Extra Deck.
-
-*References*:
-<p align="left">
-	<ol>
-		<li>
-			<a href="https://www.yugioh-card.com/en/rulebook/">Official rulebook pages 3-5</a>
-		</li>
-	</ol>
-</p>
-<p align="right">(<a href="#readme-top">back to table of contents</a>)</p>
-
 # Monster cards
 
 <div align="center">
-	<img src="./images/monster_card.png" width=400 />
+	<img loading="lazy" src="./images/monster_card.png" width=400 />
 </div>
 
 **1. Card Name**\
@@ -399,7 +439,7 @@ Count the number of stars here to find out the monster's Level. For Xyz Monsters
 
 **3. Attribute**
 <div align="center">
-	<img src="./images/attributes.png" width=180 />
+	<img loading="lazy" src="./images/attributes.png" width=180 />
 </div>
 
 Every monster has an Attribute. This Attribute is sometimes important for card effects.
@@ -432,7 +472,7 @@ There are many kinds of Monster Cards. This game is more than a simple slugfest,
 <table align="center">
 	<tr>
 		<td align="center" width=150>
-			<img src="./images/card_blue-eyes_white_dragon.png" />
+			<img loading="lazy" src="./images/card_blue-eyes_white_dragon.png" />
 		</td>
 		<td>
 			These are basic Monster Cards without special abilities. Many Normal Monsters have higher Attack Points and Defense Points than Effect Monsters, instead of having special abilities.
@@ -454,7 +494,7 @@ There are many kinds of Monster Cards. This game is more than a simple slugfest,
 <table align="center">
 	<tr>
 		<td align="center" width=150>
-			<img src="./images/card_dark_magician_girl.png" />
+			<img loading="lazy" src="./images/card_dark_magician_girl.png" />
 		</td>
 		<td>
 			An Effect Monster is a monster that has special abilities. The effects of these monsters are split into four categories:
@@ -523,7 +563,7 @@ There are many kinds of Monster Cards. This game is more than a simple slugfest,
 <table align="center">
 	<tr>
 		<td align="center" width=150>
-			<img src="./images/card_relinquished.png" />
+			<img loading="lazy" src="./images/card_relinquished.png" />
 		</td>
 		<td>
 			Ritual Monsters are special monsters that are Special Summoned with a specific Ritual Spell Card, along with a required Tribute. Ritual Monster Cards are placed in the Main Deck and cannot be Summoned unless you have all the proper cards together in your hand or on the field.
@@ -531,7 +571,7 @@ There are many kinds of Monster Cards. This game is more than a simple slugfest,
 	</tr>
 	<tr>
 		<td align="center" width=150>
-			<img src="./images/card_black_illusion_ritual.png" />
+			<img loading="lazy" src="./images/card_black_illusion_ritual.png" />
 		</td>
 		<td>
 			<b>How to ritual Summon</b>
@@ -582,7 +622,7 @@ When activating a card (1) that has an effect that performs a Ritual Summon from
 <table align="center">
 	<tr>
 		<td align="center" width=150>
-			<img src="./images/card_elemental_hero_flame_wingman.png" />
+			<img loading="lazy" src="./images/card_elemental_hero_flame_wingman.png" />
 		</td>
 		<td>
 			Fusion Monsters placed in your Extra Deck (not in your Main Deck). They are Summoned by using the specific monsters listed on the card (called Fusion Materials) combined with a Summoning card like "Polymerization".
@@ -590,7 +630,7 @@ When activating a card (1) that has an effect that performs a Ritual Summon from
 	</tr>
 	<tr>
 		<td align="center" width=150>
-			<img src="./images/card_polymerization.png" />
+			<img loading="lazy" src="./images/card_polymerization.png" />
 		</td>
 		<td>
 			<b>How to fusion Summon</b>
@@ -624,7 +664,7 @@ When activating a card (1) that has an effect that performs a Ritual Summon from
 <table align="center">
 	<tr>
 		<td align="center" width=150>
-			<img src="./images/card_junk_warrior.png" />
+			<img loading="lazy" src="./images/card_junk_warrior.png" />
 		</td>
 		<td>
 			Synchro Monsters are placed in the Extra Deck, separate from the Main Deck. You can Special Summon a powerful Synchro Monster to the field in an instant just by using the Levels of your monsters. They can be Synchro Summoned from the Extra Deck by sending 1 face-up "Tuner" monster and any number of face-up non-Tuner monsters from your field to the Graveyard, when the sum of all their Levels is exactly equal to the Level of the Synchro Monster.
@@ -632,7 +672,7 @@ When activating a card (1) that has an effect that performs a Ritual Summon from
 	</tr>
 	<tr>
 		<td align="center" width=150>
-			<img src="./images/card_junk_synchron.png" />
+			<img loading="lazy" src="./images/card_junk_synchron.png" />
 		</td>
 		<td>
 			<b>Tuner Monsters</b>
@@ -643,7 +683,7 @@ When activating a card (1) that has an effect that performs a Ritual Summon from
 	<tr>
 		<td colspan=2>
 			<div align="center">
-				<img src="./images/synchro_Summon.png" width=420 />
+				<img loading="lazy" src="./images/synchro_summon.png" width=420 />
 			</div>
 			<b>How to synchro Summon</b>
 			<ol>
@@ -676,12 +716,12 @@ When activating a card (1) that has an effect that performs a Ritual Summon from
 <table align="center">
 	<tr>
 		<td align="center" width=150>
-			<img src="./images/card_number_39_utopia.png" />
+			<img loading="lazy" src="./images/card_number_39_utopia.png" />
 		</td>
 		<td>
 			Xyz Monsters (pronounced "ikseez") can be Xyz Summoned whenever you control monsters that are the same Level. Xyz Monsters start in your Extra Deck, not in your Main Deck, and wait for you to call them into action.
 			<br>
-			<img src="./images/xyz_details.png" width=350 />
+			<img loading="lazy" src="./images/xyz_details.png" width=350 />
 			<br>
 			When an Xyz Monster tells you to "detach" a material, take one of the stacked Xyz Material cards beneath your Xyz Monster and put it in the Graveyard.
 		</td>
@@ -689,7 +729,7 @@ When activating a card (1) that has an effect that performs a Ritual Summon from
 	<tr>
 		<td colspan=2>
 			<div align="center">
-				<img src="./images/xyz_Summon.png" width=420 />
+				<img loading="lazy" src="./images/xyz_summon.png" width=420 />
 			</div>
 			<b>How to Xyz Summon</b>
 			<ol>
@@ -739,12 +779,12 @@ Monsters that are used to Xyz Summon are called "Xyz Materials", and are placed 
 <table align="center">
 	<tr>
 		<td align="center" width=150>
-			<img src="./images/card_odd-eyes_pendulum_dragon.png" />
+			<img loading="lazy" src="./images/card_odd-eyes_pendulum_dragon.png" />
 		</td>
 		<td>
 			Pendulum Monster Cards are a unique kind of card that blurs the line between Monsters and Spells! They can be Summoned as monsters to attack or defend, or you can activate them as Spell Cards in your Pendulum Zones to activate extra special abilities and allow you to Pendulum Summon!
 			<br>
-			<img src="./images/pendulum_details.png" width=350 />
+			<img loading="lazy" src="./images/pendulum_details.png" width=350 />
 			<br>
 			Whenever one of your Pendulum Monster Cards on the field (regardless of which Zone it is in, or even if it is a monster or not) would be sent to the Graveyard, place it face-up on your Extra Deck instead. You can Pendulum Summon it back to the field later! Monsters Pendulum Summoned from the Extra Deck must be Summoned to the Extra Monster Zone or your Main Monster Zone pointed to by a Link Monster.
 		</td>
@@ -752,7 +792,7 @@ Monsters that are used to Xyz Summon are called "Xyz Materials", and are placed 
 	<tr>
 		<td colspan=2>
 			<div align="center">
-				<img src="./images/pendulum_Summon.png" width=420 />
+				<img loading="lazy" src="./images/pendulum_summon.png" width=420 />
 			</div>
 			<b>How to Pendulum Summon</b>
 			<ol>
@@ -784,12 +824,12 @@ Monsters that are used to Xyz Summon are called "Xyz Materials", and are placed 
 <table align="center">
 	<tr>
 		<td align="center" width=150>
-			<img src="./images/card_decode_talker.png" />
+			<img loading="lazy" src="./images/card_decode_talker.png" />
 		</td>
 		<td>
 			A Link Monster are monsters with the ability to increase the number of monsters you can Summon from your Extra Deck for other Link monsters and Pendulum monsters. In addition to the 1 Extra Monster Zone you can usually use, you can also Summon Link and Pendulum monsters from the Extra Deck to any of your Main Monster Zones that has a Link Monster's red arrow pointing to it.
 			<br>
-			<img src="./images/link_details.png" width=350 />
+			<img loading="lazy" src="./images/link_details.png" width=350 />
 			<br>
 			If 2 Extra Monster Zones are available, you can choose either one to Summon your monster. If there is a Link Monster already on the field, you can Link Summon a monster in one of your Zones it points to.
 		</td>
@@ -797,7 +837,7 @@ Monsters that are used to Xyz Summon are called "Xyz Materials", and are placed 
 	<tr>
 		<td colspan=2>
 			<div align="center">
-				<img src="./images/link_Summon.png" width=420 />
+				<img loading="lazy" src="./images/link_summon.png" width=420 />
 			</div>
 			<b>How to Link Summon</b>
 			<ol>
@@ -827,7 +867,7 @@ Monsters that are used to Xyz Summon are called "Xyz Materials", and are placed 
 
 ### Special Summon to the Main Monster Zones
 <div align="center">
-	<img src="./images/link_main_monster.png" width=250 />
+	<img loading="lazy" src="./images/link_main_monster.png" width=250 />
 </div>
 Link and Pendulum Monsters Summoned from the Extra Deck normally have to go in the Extra Monster Zone. But Link Monsters open up more Zones for you to use, because every Main Monster Zone that a Link Monster points to can also be used to Summon Link and Pendulum monsters from your Extra Deck.
 
@@ -855,7 +895,7 @@ Some common terms to know when dealing with Link Monsters:
 - **co-linked**: only Link Monsters can be "co-linked". Two Link Monsters are "co-linked" if they have Link Arrows that point at each other. In the following formation, Firewall Dragon is "co-linked" to 2 monsters: Link Spider and Honeybot.
 
 <div align="center">
-	<img src="./images/link_vocabulary.png" width=500 />
+	<img loading="lazy" src="./images/link_vocabulary.png" width=500 />
 </div>
 
 *References*:
@@ -874,13 +914,13 @@ In addition to being linked or co-linked, there's a special type of "linked" sta
 In the example below, we've placed a series of co-linked monsters from the right-hand Extra Monster Zone over to the left-hand Extra Monster Zone where the opponent has Link Summoned "Decode Talker". Each of our Link Monsters is co-linked to each other Link Monster it's linked to in the series, so when we Link Summon the final monster in the series, each monster in the series becomes Extra Linked in addition to being co-linked and linked, including the opponent's "Decode Talker". Any Link Monster that is co-linked to one of the monsters in this series is also Extra Linked, even if it's not contributing towards making the monsters Extra Linked. For example, an extra "Honeybot" to the left or right of one of the "Firewall Dragons" would also be Extra Linked.
 
 <div align="center">
-	<img src="./images/extra_link.png" width=500 />
+	<img loading="lazy" src="./images/extra_link.png" width=500 />
 </div>
 
 Under normal circumstances you cannot occupy both Extra Monster Zones with monsters from your Extra Deck. There is one, and only one, exception to this rule: If Link Summoning to the second Extra Monster Zone would create a complete series of Extra Linked Link Monsters, you may Link Summon a monster to that Extra Monster Zone to complete that series. So in the example below, you are allowed to Link Summon a monster to the left-hand Extra Monster Zone if and only if that monster would be co-linked to the left-hand "Firewall Dragon", causing all of the monsters to become Extra Linked.
 
 <div align="center">
-	<img src="./images/extra_link_2.png" width=500 />
+	<img loading="lazy" src="./images/extra_link_2.png" width=500 />
 </div>
 
 **Link Monsters can be co-linked on diagonals**, an Extra Link with only three monsters is then possible as well.
@@ -1067,7 +1107,7 @@ Monsters can also be Special Summoned onto the field through the effect of anoth
 </p>
 <p align="right">(<a href="#readme-top">back to table of contents</a>)</p>
 
-#### "Immediately after this effect resolves" ... "Summon"
+#### Immediately after this effect resolves ... Summon
 
 If an effect that Summon states "Immediately after this effect resolves", it instructs a player to perform a Synchro, Xyz, Pendulum, or Link Summon at the **resolution** of the Chain Link.
 - A monster summoned by such effects is **not** considered to have been "Special Summoned by an activated Monster/Spell/Trap effect"<sup><a href="#immediately_after_this_effect_resolves_summon-1">[1]</a></sup>
@@ -1132,7 +1172,7 @@ The restriction of "you cannot Normal or Special Summon the turn you activate th
 <p align="left">
 	<ol>
 		<li>
-			<a href="https://www.yugioh-card.com/en/play/2021_rules_update/">Official KONAMI's rule</a>
+			<a href="https://www.yugioh-card.com/en/play/2021_rules_update/">Official KONAMI's 2021 rules update</a>
 		</li>
 	</ol>
 </p>
@@ -1158,7 +1198,7 @@ A card (1) with the restriction of "you cannot Normal or Special Summon except [
 # Spell cards
 
 <div align="center">
-	<img src="./images/spell_trap_card.png" width=400 />
+	<img loading="lazy" src="./images/spell_trap_card.png" width=400 />
 </div>
 
 **1. Card Name**\
@@ -1169,7 +1209,7 @@ Instead of having an Attribute symbol like Monster Cards, a Spell Card has the "
 
 **3. Icon**
 <div align="center">
-	<img src="./images/spell_trap_icons.png" width=320 />
+	<img loading="lazy" src="./images/spell_trap_icons.png" width=320 />
 </div>
 
 There are 6 types of icons that represent special properties a Spell or Trap Card may have. Spell and Trap Cards without an icon are called Normal Spell Cards or Normal Trap Cards.
@@ -1195,7 +1235,7 @@ Spell Cards can normally be activated only during your Main Phase, and help you 
 ## Normal Spell Cards
 
 <div>
-	<img align="left" src="./images/icon_normal.png" width=50>
+	<img loading="lazy" align="left" src="./images/icon_normal.png" width=50>
 	Normal Spell Cards have single-use effects. To use a Normal Spell Card, announce its activation to your opponent, placing it face-up on the field. If the activation succeeds, then you resolve the effect written on the card. After resolving the effect, send the card to the Graveyard. 
 	<br clear="left">
 	<br>
@@ -1214,7 +1254,7 @@ Spell Cards can normally be activated only during your Main Phase, and help you 
 ## Ritual Spell Cards
 
 <div>
-	<img align="left" src="./images/icon_ritual.png" width=50>
+	<img loading="lazy" align="left" src="./images/icon_ritual.png" width=50>
 	These Spell Cards are used to perform Ritual Summons. Use these cards in the same way as you would use Normal Spell Cards.
 	<br clear="left">
 	<br>
@@ -1233,7 +1273,7 @@ Spell Cards can normally be activated only during your Main Phase, and help you 
 ## Continuous Spell Cards
 
 <div>
-	<img align="left" src="./images/icon_continuous.png" width=50>
+	<img loading="lazy" align="left" src="./images/icon_continuous.png" width=50>
 	These cards remain on the field once they are activated, and their effect continues while the card stays face-up on the field.
 	<br clear="left">
 	<br>
@@ -1252,7 +1292,7 @@ Spell Cards can normally be activated only during your Main Phase, and help you 
 ## Equip Spell Cards
 
 <div>
-	<img align="left" src="./images/icon_equip.png" width=50>
+	<img loading="lazy" align="left" src="./images/icon_equip.png" width=50>
 	These cards give an extra effect to 1 face-up monster of your choice (either your own or your opponent's, depending on the card). They remain on the field after they are activated. The Equip Spell Card affects only 1 monster (called the equipped monster), but still occupies one of your Spell & Trap Zones. If the equipped monster is destroyed, flipped face-down, or removed from the field, its Equip Cards are destroyed.
 	<br clear="left">
 	<br>
@@ -1271,7 +1311,7 @@ Spell Cards can normally be activated only during your Main Phase, and help you 
 ## Field Spell Cards
 
 <div>
-	<img align="left" src="./images/icon_field.png" width=50>
+	<img loading="lazy" align="left" src="./images/icon_field.png" width=50>
 	These cards go in your Field Zone and stay there. Each player can have 1 Field Spell Card on their own side of the field. To use another Field Spell, send your previous one to the Graveyard. These cards may be placed facedown in the Field Zone, but are not active until flipped face-up.
 	<br clear="left">
 	<br>
@@ -1290,7 +1330,7 @@ Spell Cards can normally be activated only during your Main Phase, and help you 
 ## Quick-Play Spell Cards
 
 <div>
-	<img align="left" src="./images/icon_quick.png" width=50>
+	<img loading="lazy" align="left" src="./images/icon_quick.png" width=50>
 	These are special Spell Cards that can be activated during any Phase of your turn, not just your Main Phase. You can also activate them during your opponent's turn if you Set the card face-down first, but then you cannot activate the card in the same turn you Set it.
 	<br clear="left">
 	<br>
@@ -1325,7 +1365,7 @@ Spell Cards can be Set face-down on the field like Trap Cards. However, the rule
 ## Normal Trap Cards
 
 <div>
-	<img align="left" src="./images/icon_normal.png" width=50>
+	<img loading="lazy" align="left" src="./images/icon_normal.png" width=50>
 	These are special Spell Cards that can be activated during any Phase of your turn, not just your Main Phase. You can also activate them during your opponent's turn if you Set the card face-down first, but then you cannot activate the card in the same turn you Set it.
 	<br clear="left">
 	<br>
@@ -1344,7 +1384,7 @@ Spell Cards can be Set face-down on the field like Trap Cards. However, the rule
 ## Continuous Trap Cards
 
 <div>
-	<img align="left" src="./images/icon_continuous.png" width=50>
+	<img loading="lazy" align="left" src="./images/icon_continuous.png" width=50>
 	Just like Continuous Spell Cards, Continuous Trap Cards remain on the field once they are activated and their effects continue while they are face-up on the field. Some Continuous Trap Cards have abilities similar to the Ignition Effects or Trigger Effects that can be found on Effect Monster Cards.
 	<br clear="left">
 	<br>
@@ -1363,7 +1403,7 @@ Spell Cards can be Set face-down on the field like Trap Cards. However, the rule
 ## Counter Trap Cards
 
 <div>
-	<img align="left" src="./images/icon_counter.png" width=50>
+	<img loading="lazy" align="left" src="./images/icon_counter.png" width=50>
 	These Trap Cards are normally activated in response to the activation of other cards, and may have abilities like negating the effects of those cards. These types of Traps are effective against Normal Spell Cards or Normal Trap Cards, which are otherwise hard to stop, however many Counter Trap Cards require a cost to activate them.
 	<br clear="left">
 	<br>
@@ -1504,7 +1544,7 @@ If you and your opponent both reach 0 LP at the same time, or if both players re
 A Duel progresses in a series of turns which are divided into phases
 
 <div align="center">
-	<img src="./images/turn_structure.png" width=300 />
+	<img loading="lazy" src="./images/turn_structure.png" width=300 />
 </div>
 
 *References*:
@@ -1596,7 +1636,7 @@ Now it's time to battle with your Monster Cards! This phase is divided into step
 **IMPORTANT**: The player who goes first cannot conduct their Battle Phase on their first turn.
 
 <div align="center">
-	<img src="./images/bp_steps.png" width=300 />
+	<img loading="lazy" src="./images/bp_steps.png" width=300 />
 </div>
 
 The Battle Phase is split into 4 steps and is conducted in the
@@ -1645,7 +1685,7 @@ Select 1 monster on your side of the field to attack with, and 1 of your opponen
 #### Replay Rules during the Battle Step
 
 <div align="center">
-	<img src="./images/batte_step_replay.png" width=180>
+	<img loading="lazy" src="./images/batte_step_replay.png" width=180>
 </div>
 
 After you've announced your attacking monster and the attack target monster during a Battle Step, the attack target might be removed from the field, or a new monster may be played onto the opponent's side of the field before the Damage Step, due to a card's effect. This causes a "Replay." When this occurs, you can choose to attack with the same monster again, or choose to attack with a different monster, or choose not to attack at all.
@@ -2236,7 +2276,7 @@ Chains are a way to order the resolution of multiple card effects. They are used
 
 If a card's effect is activated, the opponent is always given a chance to respond with a card effect of their own, creating a Chain. If your opponent responds with an effect, then you can choose to respond and add another effect to the Chain. If your opponent does not respond, you may activate a second effect and create a Chain to your own card's activation. Both players continue to add effects to the Chain until they both wish to add nothing else, then you resolve the outcome in reverse order - starting with the last card that was activated.
 <div align="center">
-	<img src="./images/chain_diagram.png" width=250>
+	<img loading="lazy" src="./images/chain_diagram.png" width=250>
 </div>
 As shown in the diagram, the first effect activated is Chain Link 1. The next effect is Chain Link 2, and so on. Every time a new Chain Link is made, they are stacked up in the order that the cards are activated. Once the Chain is completed, the outcome is resolved starting with the most recent card to be activated at the top of the Chain and proceeding down to Chain Link 1.
 
@@ -2463,7 +2503,7 @@ If the game state is open, and the turn player chooses not to do anything, and t
 </table>
 
 <div align="center" id="fast_effect_timing_flowchart">
-	<img src="./images/fast_effect_timing_flowchart.png" width=700 />
+	<img loading="lazy" src="./images/fast_effect_timing_flowchart.png" width=700 />
 </div>
 
 **References**:
@@ -2535,7 +2575,7 @@ If there are 2 or more effects:
 </p>
 <p align="right">(<a href="#readme-top">back to table of contents</a>)</p>
 
-### If... You Can VS When... You Can
+### If ... You Can vs When ... You Can
 
 There is a difference between optional effects that can be used "If" something happens and optional effects you can use "When" something happens.
 - Cards that say you can do something **"When"** something happens must activate their effects immediately when that something occurs. If they cannot, or something happens between the time the condition is met and the next time cards or effects can be activated, then you miss your chance to use them.
@@ -2580,22 +2620,22 @@ This interpretation can only be applied for cards that use Problem-Solving Card 
 <p align="left">
 	<ol>
 		<li id="psct_text_structure-1">
-			<a href="">"Problem-Solving Card Text, Part 1: Reading the Card's of Tomorrow"</a>, archived from the <a href="https://yugiohblog.konami.com/articles/?p=2906">original</a>
+			<a href="https://web.archive.org/web/20240108075035/https://yugiohblog.konami.com/articles/?p=2906">"Problem-Solving Card Text, Part 1: Reading the Card's of Tomorrow"</a>, archived from the <a href="https://yugiohblog.konami.com/articles/?p=2906">original</a>
         </li>
 		<li id="psct_text_structure-2">
-            <a href="">"Problem-Solving Card Text, Part 2: New Words & Phrases"</a>, archived from the <a href="https://yugiohblog.konami.com/articles/?p=2915">original</a>
+            <a href="https://web.archive.org/web/20240520100001/https://yugiohblog.konami.com/articles/?p=2915">"Problem-Solving Card Text, Part 2: New Words & Phrases"</a>, archived from the <a href="https://yugiohblog.konami.com/articles/?p=2915">original</a>
         </li>
 		<li id="psct_text_structure-3">
 			<a href="https://web.archive.org/web/20240227023931/https://yugiohblog.konami.com/articles/?p=2947">"Problem-Solving Card Text, Part 3: Conditions, Activations, and Effects"</a>, archived from the <a href="https://yugiohblog.konami.com/articles/?p=2947">original</a>
 		</li>
 		<li id="psct_text_structure-4">
-            <a href="">"Problem-Solving Card Text, Part 4: The Clues on Your Cards"</a>, archived from the <a href="https://yugiohblog.konami.com/articles/?p=2962">original</a>
+            <a href="https://web.archive.org/web/20240108083821/https://yugiohblog.konami.com/articles/?p=2962">"Problem-Solving Card Text, Part 4: The Clues on Your Cards"</a>, archived from the <a href="https://yugiohblog.konami.com/articles/?p=2962">original</a>
         </li>
 		<li id="psct_text_structure-5">
-            <a href="">"Problem-Solving Card Text, Part 5: Special Summons"</a>, archived from the <a href="https://yugiohblog.konami.com/articles/?p=3111">original</a>
+            <a href="https://web.archive.org/web/20240108083942/https://yugiohblog.konami.com/articles/?p=3111">"Problem-Solving Card Text, Part 5: Special Summons"</a>, archived from the <a href="https://yugiohblog.konami.com/articles/?p=3111">original</a>
         </li>
 		<li id="psct_text_structure-6">
-            <a href="">"Problem-Solving Card Text, Part 7: 2012 Update - Conjunction Functions"</a>, archived from the <a href="https://yugiohblog.konami.com/articles/?p=4514">original</a>
+            <a href="https://web.archive.org/web/20240228071547/https://yugiohblog.konami.com/articles/?p=4514">"Problem-Solving Card Text, Part 7: 2012 Update - Conjunction Functions"</a>, archived from the <a href="https://yugiohblog.konami.com/articles/?p=4514">original</a>
         </li>
 		<li id="psct_text_structure-7">
 			<a href="https://yugipedia.com/wiki/File:Rulebook_v10.pdf?page=56">Official rulebook Version 10</a>
@@ -2716,7 +2756,7 @@ The terms "that target" or "those targets" and "it" or "they/them" have specific
 <p align="left">
 	<ol>
 		<li>
-            <a href="">"Problem-Solving Card Text, Part 4: The Clues on Your Cards"</a>, archived from the <a href="https://yugiohblog.konami.com/articles/?p=2962">original</a>
+            <a href="https://web.archive.org/web/20240108083821/https://yugiohblog.konami.com/articles/?p=2962">"Problem-Solving Card Text, Part 4: The Clues on Your Cards"</a>, archived from the <a href="https://yugiohblog.konami.com/articles/?p=2962">original</a>
         </li>
 		<li>
 			<a href="https://yugipedia.com/wiki/Problem-Solving_Card_Text">Yugipedia</a>
@@ -2750,7 +2790,7 @@ There is no conjunctive that indicates both parts of the effect are required whi
 <p align="left">
 	<ol>
 		<li id="psct_conjunctives-1">
-            <a href="">"Problem-Solving Card Text, Part 7: 2012 Update - Conjunction Functions"</a>, archived from the <a href="https://yugiohblog.konami.com/articles/?p=4514">original</a>
+            <a href="https://web.archive.org/web/20240228071547/https://yugiohblog.konami.com/articles/?p=4514">"Problem-Solving Card Text, Part 7: 2012 Update - Conjunction Functions"</a>, archived from the <a href="https://yugiohblog.konami.com/articles/?p=4514">original</a>
         </li>
 		<li>
 			<a href="https://yugipedia.com/wiki/Problem-Solving_Card_Text">Yugipedia</a>
@@ -3109,7 +3149,7 @@ When a monster on the field is shuffled into the Deck, or becomes an Xyz Materia
 <p align="left">
 	<ol>
 		<li>
-			<a href="https://www.yugioh-card.com/en/play/2021_rules_update/">Official KONAMI's rule</a>
+			<a href="https://www.yugioh-card.com/en/play/2021_rules_update/">Official KONAMI's 2021 rules update</a>
 		</li>
 	</ol>
 </p>
@@ -3316,7 +3356,7 @@ If a monster's Trigger Effect meets its activation conditions, BUT hasn't yet ha
 <p align="left">
 	<ol>
 		<li>
-			<a href="https://www.yugioh-card.com/en/play/2021_rules_update/">Official KONAMI's rule</a>
+			<a href="https://www.yugioh-card.com/en/play/2021_rules_update/">Official KONAMI's 2021 rules update</a>
 		</li>
 	</ol>
 </p>
@@ -3539,19 +3579,19 @@ In the examples, the two cards on the left are the "Prev", the card on the right
         <td rowspan=6>
 			<details align="left">
                 <summary>(1,2) are always applied successfully</summary>
-                <img src="./images/image-1.png">(1900+700)-600 → 2000
+                <img loading="lazy" src="./images/image-1.png">(1900+700)-600 → 2000
             </details>
         </td>
         <td>
     		<details align="left">
                 <summary>Remove previous (1,3) when applying (3)</summary>
-                <img src="./images/image-2.png">(1900+700)/2 → 1300 ⇒ 1900
+                <img loading="lazy" src="./images/image-2.png">(1900+700)/2 → 1300 ⇒ 1900
             </details>
         </td>
         <td>
             <details align="left">
                 <summary>(1,3,5) are not reapplied until (4) stops applying</summary>
-                <img src="./images/image-6.png">set(1900+700) to 100 → 100 ⇒ 2600
+                <img loading="lazy" src="./images/image-6.png">set(1900+700) to 100 → 100 ⇒ 2600
             </details>
         </td>
         <td colspan=2 rowspan=2>Apply (5,6) and reapply (1,2) afterwards</td>
@@ -3562,13 +3602,13 @@ In the examples, the two cards on the left are the "Prev", the card on the right
         <td>
             <details align="left">
                 <summary>(2,4) are not reapplied until (3) stops applying</summary>
-                <img src="./images/image-3.png">(1900+800)/2 → 1350 ⇒ 2700
+                <img loading="lazy" src="./images/image-3.png">(1900+800)/2 → 1350 ⇒ 2700
             </details>
         </td>
         <td>
             <details align="left">
                 <summary>Apply (4) and reapply (2) afterwards</summary>
-                <img src="./images/image-5.png">set(1900+800) to 100 → 900 ⇒ 2700
+                <img loading="lazy" src="./images/image-5.png">set(1900+800) to 100 → 900 ⇒ 2700
             </details>
         </td>
     </tr>
@@ -3580,7 +3620,7 @@ In the examples, the two cards on the left are the "Prev", the card on the right
         <td>
             <details align="left">
                 <summary>(1,3,5) are not reapplied until (4) stops applying</summary>
-                <img src="./images/image-7.png">set (1900/2) to 100 → 100 ⇒ 950
+                <img loading="lazy" src="./images/image-7.png">set (1900/2) to 100 → 100 ⇒ 950
             </details>
         </td>
         <td>Remove previous (3,5) when applying (5)</td>
@@ -3593,7 +3633,7 @@ In the examples, the two cards on the left are the "Prev", the card on the right
         <td>
             <details align="left">
                 <summary>Apply new (4)</summary>
-                <img src="./images/image-8.png">set (2300x2) to 100 → 100 ⇒ 4600
+                <img loading="lazy" src="./images/image-8.png">set (2300x2) to 100 → 100 ⇒ 4600
             </details>
         </td>
         <td colspan=2>
@@ -3607,7 +3647,7 @@ In the examples, the two cards on the left are the "Prev", the card on the right
         <td rowspan=2>
             <details align="left">
                 <summary>Apply (3) after previous (5,6)</summary>
-                <img src="./images/image-4.png">(2300/2)x2 → 2300 ⇒ 1150 (in end ⇒ 2300)
+                <img loading="lazy" src="./images/image-4.png">(2300/2)x2 → 2300 ⇒ 1150 (in end ⇒ 2300)
             </details>
         </td>
         <td>(1,3,5) are not reapplied until (4) stops applying</td>

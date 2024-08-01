@@ -1,3 +1,7 @@
+# More resources
+
+https://www.reddit.com/r/yugioh/wiki/card_interactions/
+
 # Images
 
 <div align="center">
