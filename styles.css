@@ -4,15 +4,28 @@ body {
   justify-content: center;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .content {
   max-width: 920px;
   margin: auto;
   padding: 0;
+  overflow: scroll;
+}
+
+li {
+  margin: 0.2rem;
+}
+
+li::marker {
+  font-size: 1rem;
 }
 
 table {
-  margin-top: 1em;
-  margin-bottom: 1em;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   border-collapse: collapse;
   border-spacing: 0; /* Remove space between cells */
 }
@@ -21,8 +34,4 @@ table th,
 table td {
   border: 1px solid #ddd; /* Light gray border for cells */
   padding: 8px; /* Space inside cells */
-}
-
-li {
-  margin: 0.2em;
 }

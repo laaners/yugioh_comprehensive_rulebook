@@ -1,0 +1,24 @@
+/*https://stackoverflow.com/questions/2729927/number-nested-ordered-lists-in-html*/
+.toc ol {
+  counter-reset: item;
+}
+.toc li {
+  display: block;
+}
+.toc li:before {
+  content: counters(item, ".") ". ";
+  counter-increment: item;
+  font-weight: bolder; /* Makes the numbering bold */
+  font-size: 1rem;
+}
+
+.top-shortcut {
+  display: block;
+  position: fixed;
+  text-decoration: none;
+  bottom: 3vh;
+  right: 4vw;
+  z-index: 1;
+  font-size: 6vh;
+  padding: 1rem;
+}
