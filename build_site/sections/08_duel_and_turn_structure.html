@@ -1,0 +1,712 @@
+<h1>Duel and Turn Structure</h1>
+      <p>A single game is called a Duel, and a Duel ends when one player wins or the game ends in a draw. Duels are played in sets of 3 called a Match, and the winner of best 2-out-of-3 wins the Match.</p>
+      <h2>Winning a Duel</h2>
+      <p>Each player starts a Duel with 8000 LP (Life Points). You win a Duel if:</p>
+      <ul>
+        <li>You reduce your opponent's LP to 0</li>
+        <li>
+          If your opponent is unable to draw a card.\ Even if an effect that makes the player add cards from the Deck to the hand, or send cards from the Deck to the Graveyard, or something similar is activated when there are no cards left in the Deck, this only causes the effect to become unable to resolve but the player is not defeated<sup><a href="#">[2]</a></sup>
+        </li>
+        <li>If a card's special effect says you win (alternate victory conditions)</li>
+      </ul>
+      <p>
+        If you and your opponent both reach 0 LP at the same time, or if both players resolve a single effect that makes them draw when neither player has cards in the Deck<sup><a href="#">[2]</a></sup>, the Duel is declared a draw.
+      </p>
+      <p>A Duel progresses in a series of turns which are divided into phases</p>
+      <div align="center">
+        <img loading="lazy" src="./images/turn_structure.png" width="300">
+      </div>
+
+      <em>References:</em>
+      <ol>
+        <li>
+          <a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook pages 32-34</a>
+        </li>
+        <li id="deckout_add_send_from_deck">
+          <a target="_blank" href="https://ygorganization.com/perfect-rulebook-2017/">OCG Perfect Rulebook 2017 page 43</a>
+        </li>
+      </ol>
+
+      <h3>Victory conditions and immediately-afters</h3>
+      <p>Alternate victory conditions are checked and met before a new chain starts, even if a mandatory trigger effect has to start a chain.</p>
+      <em>References:</em>
+      <ol>
+        <li>
+          YGOrg Database of Official OCG Rulings:
+          <a target="_blank" href="https://db.ygoresources.com/qa#233">"Exodia the Forbidden One", "Graceful Charity", "Magical Thorn"</a>
+        </li>
+      </ol>
+
+      <h2>Draw Phase</h2>
+      <p>This is the first phase. The player whose turn it is (the "turn player")</p>
+      <ul>
+        <li><strong>Must draw 1 card</strong> from the top of their Deck (<strong>except for the very 1st turn of the Duel</strong>). A player with no cards left in their Deck and unable to draw loses the Duel.</li>
+        <li><strong>Can</strong>, after the draw, <strong>activate Trap Cards or Quick-Play Spell Cards</strong> before proceeding to the Standby Phase.</li>
+      </ul>
+      <p><strong>IMPORTANT</strong>: The player who goes first cannot draw during the Draw Phase of their first turn.</p>
+      <em>References:</em>
+      <ol>
+        <li>
+          <a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 35</a>
+        </li>
+      </ol>
+
+      <h2>Standby Phase</h2>
+      <p>Some cards have effects that activate, or costs you must pay, in the Standby Phase. The turn player:</p>
+      <ul>
+        <li>
+          <strong>Can activate Trap Cards or Quick-Play Spell Cards</strong>
+          before proceeding to the Main Phase 1.
+        </li>
+      </ul>
+      <em>References:</em>
+      <ol>
+        <li>
+          <a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 35</a>
+        </li>
+      </ol>
+
+      <h2>Main Phase 1</h2>
+      <p>This is when you play most of your cards: you can Normal Summon, Set, or change the battle position of a monster, activate a card's effect, and Set Spell and Trap Cards. These actions can be done in any order you want, but some actions have restrictions. The turn player:</p>
+      <ul>
+        <li><strong>Can Summon or Set a monster</strong>. There is no limit to the number of times you can Flip Summon or Special Summon during a turn, but you can only Normal Summon or Set a monster (including a Tribute Summon) once per turn.</li>
+        <li>
+          <strong>Can change their Monster's Battle Position</strong>. This includes Flip Summoning a monster, or changing the position of a face-up monster to face-up Attack or Defense Position. You can change the position of each monster you control, except in three cases:
+          <ol>
+            <li>You cannot change the battle position of a monster that was played onto the field this turn.</li>
+            <li>You cannot change it in Main Phase 2 if the monster attacked during the Battle Phase.</li>
+            <li>You cannot change it if you have already changed its battle position once this turn.</li>
+          </ol>
+        </li>
+        <li><strong>Can Activate a Card or Effect</strong>. You can activate Spell and Trap Cards, or the effects of Spell, Trap, or Effect Monster Cards as many times as you want during this phase, as long as you can keep paying any costs involved.</li>
+        <li><strong>Can Set Spell and Trap Cards</strong>. You can Set Spell and Trap Cards face-down in your Spell &amp; Trap Zone during this phase, as long as you have space.</li>
+      </ul>
+      <em>References:</em>
+      <ol>
+        <li>
+          <a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 36</a>
+        </li>
+      </ol>
+
+      <h2>Battle Phase</h2>
+      <p>Now it's time to battle with your Monster Cards! This phase is divided into steps. You do not have to conduct a Battle Phase every turn, even if you have a monster on the field.</p>
+      <p><strong>IMPORTANT</strong>: The player who goes first cannot conduct their Battle Phase on their first turn.</p>
+      <div align="center">
+        <img loading="lazy" src="./images/bp_steps.png" width="300">
+      </div>
+
+      <p>The Battle Phase is split into 4 steps and is conducted in the order shown in the diagram. The Battle Step and Damage Step are repeated each time you attack with a monster.</p>
+      <em>References:</em>
+      <ol>
+        <li>
+          <a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 37</a>
+        </li>
+      </ol>
+
+      <h3>Start Step</h3>
+      <p>This step starts the Battle Phase. The turn player should announce "I'm entering the Battle Phase." Remember, the player who goes first cannot conduct a Battle Phase in their very first turn.</p>
+      <em>References:</em>
+      <ol>
+        <li>
+          <a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 38</a>
+        </li>
+      </ol>
+
+      <h3>Battle Step</h3>
+      <p>Select 1 monster on your side of the field to attack with, and 1 of your opponent's monsters as your attack target, and then declare the attack. If your opponent does not have any monsters on the field, you can attack directly. Play then proceeds to the Damage Step. Afterwards, the attacking player returns to the Battle Step, and repeats this procedure.</p>
+      <ul>
+        <li>Each face-up Attack Position monster you control is allowed 1 attack per turn.</li>
+        <li>You do not have to attack with a monster if you don't want to.</li>
+      </ul>
+      <em>References:</em>
+      <ol>
+        <li>
+          <a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 38</a>
+        </li>
+      </ol>
+
+      <h4>Replay Rules during the Battle Step</h4>
+      <div align="center">
+        <img loading="lazy" src="./images/batte_step_replay.png" width="180">
+      </div>
+
+      <p>After you've announced your attacking monster and the attack target monster during a Battle Step, the attack target might be removed from the field, or a new monster may be played onto the opponent's side of the field before the Damage Step, due to a card's effect. This causes a "Replay." When this occurs, you can choose to attack with the same monster again, or choose to attack with a different monster, or choose not to attack at all.</p>
+      <p>Note that if you attack with a different monster, the first monster is still considered to have declared an attack, and it cannot attack again this turn.</p>
+      <em>References:</em>
+      <ol>
+        <li>
+          <a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 39</a>
+        </li>
+      </ol>
+
+      <h3>Damage Step</h3>
+      <p>In this step, the players calculate the result of the battle and whatever damage is done. After finishing the Damage Step, return to the Battle Step.</p>
+      <em>References:</em>
+      <ol>
+        <li>
+          <a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 38</a>
+        </li>
+      </ol>
+
+      <h4>Determining Damage</h4>
+      <p>You calculate battle damage based on the battle position of the monster you are attacking. If you attack an Attack Position monster, compare ATK vs. ATK. If you attack a Defense Position monster, compare your monster's ATK vs. the attacked monster's DEF.</p>
+      <table align="center">
+        <tbody>
+          <tr>
+            <td colspan="2">
+              <b>
+                <br>
+                ATK. of the attacking Monster VS. ATK of Opponent's Monster
+                <br><br>
+                <br><br>
+              </b>
+            </td>
+          </tr>
+          <tr>
+            <td><b>WIN</b></td>
+            <td>When your attacking monster's ATK is higher than the ATK of the opponent's monster, the attacking monster destroys the opponent's monster and sends it to the Graveyard. The amount that your attacking monster's ATK exceeds the ATK of your opponent's monster is subtracted from your opponent's LP as battle damage.</td>
+          </tr>
+          <tr>
+            <td><b>TIE</b></td>
+            <td>
+              When your attacking monster's ATK is equal to the ATK of the opponent's monster, the result is considered a tie, and both monsters are destroyed. Neither player takes any battle damage.
+              <br>
+              <b>Monsters with 0 ATK cannot destroy anything by battle. If two Attack Position monsters with 0 ATK battle each other, neither monster is destroyed.</b>
+              <a target="_blank" href="(https://www.yugioh-card.com/en/rulebook/">(Official rulebook page 50)</a>
+            </td>
+          </tr>
+          <tr>
+            <td><b>LOSE</b></td>
+            <td>When your attacking monster's ATK is lower than the ATK of the opponent's monster, the attacking monster is destroyed and sent to the Graveyard. The amount that the opponent's monster's ATK exceeds the ATK of your attacking monster is subtracted from your LP as battle damage.</td>
+          </tr>
+        </tbody>
+      </table>
+      <table align="center">
+        <tbody>
+          <tr>
+            <td colspan="2">
+              <b>
+                <br>
+                ATK. of the attacking Monster VS. DEF of Opponent's Monster
+                <br><br>
+                <br><br>
+              </b>
+            </td>
+          </tr>
+          <tr>
+            <td><b>WIN</b></td>
+            <td>When your attacking monster's ATK is higher than the DEF of the opponent's monster, the attacking monster destroys the opponent's monster and sends it to the Graveyard. Neither player takes any battle damage.</td>
+          </tr>
+          <tr>
+            <td><b>TIE</b></td>
+            <td>When your attacking monster's ATK is equal to the DEF of the opponent's monster, neither monster is destroyed. Neither player takes any battle damage.</td>
+          </tr>
+          <tr>
+            <td><b>LOSE</b></td>
+            <td>When your attacking monster's ATK is lower than the DEF of the opponent's monster, neither monster is destroyed. The amount that the opponent's monster's DEF exceeds the ATK of your attacking monster is subtracted from your LP as battle damage.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p>If there are no monsters on your opponent's side of the field, you can attack directly. The full amount of your attacking monster's ATK is subtracted from the opponent's LP as battle damage.</p>
+      <em>References:</em>
+      <ol>
+        <li>
+          <a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook pages 42-43, 50</a>
+        </li>
+      </ol>
+
+      <h4>Sub-steps of the Damage Step</h4>
+      <p>There are five distinct timings within the Damage Step.</p>
+      <ol>
+        <li>Start of the Damage Step</li>
+        <li>Before damage calculatin</li>
+        <li>Damage calculation</li>
+        <li>After damage calculation</li>
+        <li>End of the Damage Step</li>
+      </ol>
+      <table>
+        <tbody>
+          <tr>
+            <td><b>Sequence</b></td>
+            <td><b>What happens</b></td>
+            <td><b>What can/cannot activate</b></td>
+            <td><b>What can/cannot apply</b></td>
+          </tr>
+          <tr>
+            <td><b>Start of the Damage Step</b></td>
+            <td>
+              <ul>
+                <li>
+                  You declare that you are entering the Damage Step<sup><a href="#">[1]</a></sup>
+                </li>
+                <li>
+                  Face-down monsters are not flipped<sup><a href="#">[1]</a></sup>
+                </li>
+              </ul>
+            </td>
+            <td>
+              ✔️ "at the start of the Damage Step"<sup><a href="#">[1]</a></sup> <br><br>
+              ✔️ Spell/Trap Cards and Quick/Quick-like Effects that directly alter the ATK/DEF<sup><a href="#">[2]</a></sup><sup><a href="#sub-steps_of_the_damage_step-3">[3]</a></sup>
+            </td>
+            <td>
+              ✔️ "during the Damage Step (only)"<sup><a href="#">[1]</a></sup>
+            </td>
+          </tr>
+          <tr>
+            <td><b>Before damage calculation</b></td>
+            <td>
+              <ul>
+                <li>
+                  If the monster being attacked is face-down, flip it face-up<sup><a href="#">[1]</a></sup>
+                </li>
+              </ul>
+            </td>
+            <td>
+              ✔️ "before damage calculation"<sup><a href="#">[1]</a></sup> <br><br>
+              ✔️ Spell/Trap Cards and Quick/Quick-like Effects that directly alter the ATK/DEF<sup><a href="#">[2]</a></sup><sup><a href="#sub-steps_of_the_damage_step-3">[3]</a></sup> <br><br>
+              ❌ Effects that activate when a monsters is flipped face-up: won't activate as well after damage calculation if the flipped monster itself leaves the Monster Zone before then ("Drillroid" will destroy without triggering Flip effects)<sup><a href="#">[2]</a></sup><sup><a href="#sub-steps_of_the_damage_step-3">[3]</a></sup>
+            </td>
+            <td>
+              ✔️ If a monster is flipped face-up and it has a Continuous Effect, then typically that Continuous Effect is applied immediately, such as the effects of monsters like "Star Boy" and "Jinzo"<sup><a href="#">[4]</a></sup><sup><a href="#sub-steps_of_the_damage_step-5">[5]</a></sup> <br><br>
+              ❌ Continuous Effect that would prevent the flipped monster from being targeted for attacks are not relevant at this time, since the monster has already been targeted as an attack target<sup><a href="#">[6]</a></sup>. If the monster survives the Damage Step, its effect will prevent itself from being targeted by any future attacks <br><br>
+              ❌ Continuous Effects that would prevent the flipped monster from being attacked or the attacking monster from attacking (such as the effects of "Machina Sniper" and "Big-Tusked Mammoth") do not apply at this time, since the Battle Step is already over<sup><a href="#">[7]</a></sup><sup><a href="#sub-steps_of_the_damage_step-8">[8]</a></sup>. If the monster survives the Damage Step, its effect will protect itself from any future attacks <br><br>
+              ❌ Continuous Effect that destroys itself under certain conditions that are currently met (such as "Giant Kozaky", "Zombie Mammoth", etc)., the monster is not destroyed yet and the Damage Step proceeds normally, until after damage calculation<sup><a href="#">[9]</a></sup><sup><a href="#sub-steps_of_the_damage_step-10">[10]</a></sup>. The same applies if "Rivalry of Warlords" or "Gozen Match", or if there is an active 'Unclassified Effect' (belonging either to the flipped monster or another face-up monster) that states "You can only control 1 [...]" or "There can only be 1 [...] on the field"; the appropriate actions are determined and performed after damage calculation<sup><a href="#sub-steps_of_the_damage_step-11">[11]</a></sup><sup><a href="#sub-steps_of_the_damage_step-12">[12]</a></sup>
+            </td>
+          </tr>
+          <tr>
+            <td><b>Perform damage calculation</b></td>
+            <td>
+              <ul>
+                <li>Compare ATK/DEF and apply damage to Life Points</li>
+                <li>
+                  Determine whether either monster will be destroyed by battle or not, but do not send it to the GY yet<sup><a href="#">[1]</a></sup><sup><a href="#sub-steps_of_the_damage_step-3">[3]</a></sup><br>If there is a Continuous/Continuous-like Effect or Unclassified Effect that has the player perform a certain action instead of the monster being destroyed by this battle (such as that of "Return of the Dragon Lords" banishing itself from the GY instead of destroying the monster), the relevant player must choose (at this point) whether or not they will use it. If they do, that action is not performed right at that time; instead, it will be applied immediately after damage calculation ("Return of the Dragon Lords" would be banished after damage calculation)
+                </li>
+              </ul>
+            </td>
+            <td>
+              ✔️ "during damage calculation"<sup><a href="#">[1]</a></sup> <br><br>
+              ❌ Effects that activate when a monsters is flipped face-up: won't activate after damage calculation if the flipped monster itself leaves the Monster Zone before then ("Drillroid" will destroy without triggering FLIP effects)
+              <br><br>
+              ❌ Spell/Trap Cards and Quick/Quick-like Effects that directly alter the ATK/DEF<sup><a href="#">[2]</a></sup><sup><a href="#sub-steps_of_the_damage_step-3">[3]</a></sup>. In general, they can no longer be activated at this point or for the rest of this Damage Step
+            </td>
+            <td>✔️ "during damage calculation (only)", applied immediately</td>
+          </tr>
+          <tr>
+            <td><b>After damage calculation</b></td>
+            <td>
+              <ul>
+                <li>
+                  Monsters that have been considered to be destroyed by battle are still not sent to the GY yet<sup><a href="#">[1]</a></sup><sup><a href="#sub-steps_of_the_damage_step-3">[3]</a></sup>. Even though the monsters are still on the field:
+                  <ul>
+                    <li>
+                      They cannot be targeted by cards or effects, have their battle positions changed, or have their ATK/DEF changed
+                      <sup><a href="#">[2]</a></sup>
+                      <sup><a href="#">[3]</a></sup>
+                      <sup><a href="#">[13]</a></sup>
+                      <sup><a href="#">[14]</a></sup><br>
+                    </li>
+                    <li>
+                      Their Continuous Effects are no longer applied<sup><a href="#">[3]</a></sup><sup><a href="#sub-steps_of_the_damage_step-15">[15]</a></sup>
+                    </li>
+                    <li>
+                      Their optional Quick Effects can no longer be activated<sup><a href="#">[16]</a></sup>
+                    </li>
+                    <li>
+                      They cannot be returned to the hand by card effects<sup><a href="#">[17]</a></sup>, unless a card effect specifies that it can return destroyed monsters (such as "Last Minute Cancel"), but even then the destroyed monster will not be returned yet
+                    </li>
+                    <li>
+                      Their effects can still be negated<sup><a href="#">[18]</a></sup>
+                    </li>
+                    <li>
+                      Before those monsters would be sent to the GY (or another appropriate location) as a result of being destroyed by battle, it is possible for them to be destroyed by card effects, sent to the GY by card effects, or banished by card effects before that can occur<sup><a href="#">[19]</a></sup><sup><a href="#sub-steps_of_the_damage_step-20">[20]</a></sup>
+                    </li>
+                    <li>
+                      If a monster ends up leaving the field ("Gozen Match") before it can be sent to the GY (or another appropriate location) as a result of battle, cards and effects that would activate when/if that monster is destroyed by battle and sent to the GY cannot be activated<sup><a href="#">[12]</a></sup><sup><a href="#sub-steps_of_the_damage_step-21">[21]</a></sup>
+                    </li>
+                    <li>
+                      They cannot be used as a cost to activate a card or an optional effect<sup><a href="#">[22]</a></sup>. But they can be used as a cost to activate a mandatory effect, such as "Doomcaliber Knight"<sup><a href="#sub-steps_of_the_damage_step-23">[23]</a></sup>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </td>
+            <td>
+              ✔️ "after damage calculation"<sup><a href="#">[1]</a></sup><sup><a href="#sub-steps_of_the_damage_step-3">[3]</a></sup> <br><br>
+              ✔️ "this card battles" or "attacks or is attacked"<sup><a href="#">[1]</a></sup> <br><br>
+              ✔️ If a player takes battle damage such as "Don Zaloog"<sup><a href="#">[1]</a></sup> <br><br>
+              ✔️ If a monster is flipped face-up (including Flip effects)<sup><a href="#">[1]</a></sup>
+            </td>
+            <td>
+              ✔️ If a monster with a Continuous Effect that destroys itself under certain conditions ("Giant Kozaky", "Zombie Mammoth", etc). survives damage calculation without being determined to be "destroyed by battle", that Continuous Effect will immediately apply at this point and destroy that monster if those conditions are still met<sup><a href="#">[9]</a></sup> <br><br>
+              ✔️ If a monster was flipped face-up during the Damage Step and "Rivalry of Warlords"/"Gozen Match" is still active, if that monster has a Attribute/Type that conflicts with another monster already face-up on the field, the flipped monster will immediately be sent to the Graveyard at this point<sup><a href="#">[12]</a></sup> <br><br>
+              ✔️ If a monster was flipped face-up during the Damage Step and its name conflicts with another monster that is already face-up on the field, as defined by an 'Unclassified Effect' that states "You can only control 1 [...]" or "There can only be 1 [...] on the field" (belonging either to the flipped monster or another face-up monster), the flipped monster will be immediately destroyed<sup><a href="#">[11]</a></sup>
+            </td>
+          </tr>
+          <tr>
+            <td><b>End of the Damage Step</b></td>
+            <td>
+              <ul>
+                <li>
+                  Monsters that were determined to be destroyed by battle are now normally sent to the GY, unless they are Pendulum Monsters or if a card effect states otherwise<sup><a href="#">[1]</a></sup>
+                </li>
+                <li>
+                  Once there are no effects left to activate or resolve, the Damage Step ends, and the Battle Step is automatically re-entered. At the time both players agree to enter the Battle Step, effects that apply "until the end of the Damage Step" now expire and no longer apply<sup><a href="#">[1]</a></sup>
+                </li>
+              </ul>
+            </td>
+            <td>
+              ✔️ "at the end of the Damage Step"<sup><a href="#">[1]</a></sup> <br><br>
+              ✔️ When/if a monster is destroyed by battle<sup><a href="#">[1]</a></sup> <br><br>
+              ✔️ When/if a monster destroys another monster by battle<sup><a href="#">[1]</a></sup> <br><br>
+            </td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <em>References:</em>
+      <ol>
+        <li id="sub-steps_of_the_damage_step-1">
+          <a target="_blank" href="https://www.yugioh-card.com/eu/play/damage-step-rules/">Official KONAMI's damage step rules</a>
+        </li>
+        <li id="sub-steps_of_the_damage_step-2">
+          <a target="_blank" href="https://yugipedia.com/wiki/File:Rulebook_v10.pdf?page=45">Official rulebook Version 10</a>
+        </li>
+        <li id="sub-steps_of_the_damage_step-3">
+          <a target="_blank" href="https://ygorganization.com/perfect-rulebook-2017/">OCG Perfect Rulebook 2017 pages 188-193</a>
+        </li>
+        <li id="sub-steps_of_the_damage_step-4">
+          <a target="_blank" href="http://web.archive.org/web/20090226215920/http://entertainment.upperdeck.com/yugioh/en/gameplay/faqs/cardfaqs/default.aspx?first=F&amp;last=H">"Goblin King" ruling</a>, archived from the
+          <a target="_blank" href="http://entertainment.upperdeck.com/yugioh/en/gameplay/faqs/cardfaqs/default.aspx?first=F&amp;last=H">original</a>
+        </li>
+        <li id="sub-steps_of_the_damage_step-5">
+          <a target="_blank" href="http://web.archive.org/web/20090218205242/http://entertainment.upperdeck.com/yugioh/en/gameplay/faqs/cardfaqs/default.aspx?first=D&amp;last=E">"Embodiment of Apophis" ruling</a>, archived from the
+          <a target="_blank" href="http://entertainment.upperdeck.com/yugioh/en/gameplay/faqs/cardfaqs/default.aspx?first=D&amp;last=E">original</a>
+        </li>
+        <li id="sub-steps_of_the_damage_step-6">
+          <a target="_blank" href="http://web.archive.org/web/20090220023927/http://entertainment.upperdeck.com/yugioh/en/gameplay/faqs/cardfaqs/default.aspx?first=L&amp;last=O">"Morphtronic Magnen" ruling</a>, archived from the
+          <a target="_blank" href="http://entertainment.upperdeck.com/yugioh/en/gameplay/faqs/cardfaqs/default.aspx?first=L&amp;last=O">original</a>
+        </li>
+        <li id="sub-steps_of_the_damage_step-7">
+          <a target="_blank" href="http://web.archive.org/web/20090217182013/http://entertainment.upperdeck.com/yugioh/en/gameplay/faqs/cardfaqs/default.aspx?first=A&amp;last=C">"Big-Tusked Mammoth", ruling</a>, archived from the
+          <a target="_blank" href="http://entertainment.upperdeck.com/yugioh/en/gameplay/faqs/cardfaqs/default.aspx?first=A&amp;last=C">original</a>
+        </li>
+        <li id="sub-steps_of_the_damage_step-8">
+          <a target="_blank" href="https://web.archive.org/web/20200917042908/https://img.yugioh-card.com/uk/gameplay/rulings/10406SDMachinaMayhem_Rules.pdf">"Machina Sniper" ruling</a>, archived from the
+          <a target="_blank" href="http://www.yugioh-card.com/uk/gameplay/rulings/10406SDMachinaMayhem_Rules.pdf">original</a>
+        </li>
+        <li id="sub-steps_of_the_damage_step-9">
+          <a target="_blank" href="http://web.archive.org/web/20090226221419/http://entertainment.upperdeck.com/yugioh/en/gameplay/faqs/cardfaqs/default.aspx?first=F&amp;last=H">"Giant Kozaky" ruling</a>, archived from the
+          <a target="_blank" href="http://entertainment.upperdeck.com/yugioh/en/gameplay/faqs/cardfaqs/default.aspx?first=F&amp;last=H">original</a>
+        </li>
+        <li id="sub-steps_of_the_damage_step-10">
+          <a target="_blank" href="http://web.archive.org/web/20090226215920/http://entertainment.upperdeck.com/yugioh/en/gameplay/faqs/cardfaqs/default.aspx?first=U&amp;last=Z">"Zombie Mammoth" ruling</a>, archived from the
+          <a target="_blank" href="http://entertainment.upperdeck.com/yugioh/en/gameplay/faqs/cardfaqs/default.aspx?first=U&amp;last=Z">original</a>
+        </li>
+        <li id="sub-steps_of_the_damage_step-11">
+          <a target="_blank" href="http://web.archive.org/web/20090217182013/http://entertainment.upperdeck.com/yugioh/en/gameplay/faqs/cardfaqs/default.aspx?first=A&amp;last=C">"Amazoness Tiger" ruling</a>, archived from the
+          <a target="_blank" href="http://entertainment.upperdeck.com/yugioh/en/gameplay/faqs/cardfaqs/default.aspx?first=A&amp;last=C">original</a>
+        </li>
+        <li id="sub-steps_of_the_damage_step-12">
+          <a target="_blank" href="https://web.archive.org/web/20160305183700/http://www.yugioh-card.com/en/gameplay/card_faq1.html">"Rivalry of Warlords" and "Gozen Match" rulings</a>, archived from the
+          <a target="_blank" href="http://www.yugioh-card.com/en/gameplay/card_faq1.html">original</a>
+        </li>
+        <li id="sub-steps_of_the_damage_step-13">
+          <a target="_blank" href="http://web.archive.org/web/20090218205242/http://entertainment.upperdeck.com/yugioh/en/gameplay/faqs/cardfaqs/default.aspx?first=D&amp;last=E">"Dark Cat with White Tail" ruling</a>, archived from the
+          <a target="_blank" href="http://entertainment.upperdeck.com/yugioh/en/gameplay/faqs/cardfaqs/default.aspx?first=D&amp;last=E">original</a>
+        </li>
+        <li id="sub-steps_of_the_damage_step-14">
+          <a target="_blank" href="http://web.archive.org/web/20090226221419/http://entertainment.upperdeck.com/yugioh/en/gameplay/faqs/cardfaqs/default.aspx?first=I&amp;last=K">"Kangaroo Champ" ruling</a>, archived from the
+          <a target="_blank" href="http://entertainment.upperdeck.com/yugioh/en/gameplay/faqs/cardfaqs/default.aspx?first=I&amp;last=K">original</a>
+        </li>
+        <li id="sub-steps_of_the_damage_step-15">
+          <a target="_blank" href="http://web.archive.org/web/20090217182013/http://entertainment.upperdeck.com/yugioh/en/gameplay/faqs/cardfaqs/default.aspx?first=A&amp;last=C">"Ancient Gear Golem" ruling</a>, archived from the
+          <a target="_blank" href="http://entertainment.upperdeck.com/yugioh/en/gameplay/faqs/cardfaqs/default.aspx?first=A&amp;last=C">original</a>
+        </li>
+        <li id="sub-steps_of_the_damage_step-16">
+          <a target="_blank" href="https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=5&amp;fid=9497&amp;keyword=&amp;tag=-1&amp;request_locale=ja">"Infernoid Devyaty" ruling</a>
+        </li>
+        <li id="sub-steps_of_the_damage_step-17">
+          <a target="_blank" href="http://web.archive.org/web/20090226215920/http://entertainment.upperdeck.com/yugioh/en/gameplay/faqs/cardfaqs/default.aspx?first=U&amp;last=Z">"Wall of Illusion" ruling</a>, archived from the
+          <a target="_blank" href="http://entertainment.upperdeck.com/yugioh/en/gameplay/faqs/cardfaqs/default.aspx?first=U&amp;last=Z">original</a>
+        </li>
+        <li id="sub-steps_of_the_damage_step-18">
+          <a target="_blank" href="https://web.archive.org/web/20170821084622/http://www.yugioh-card.com/lat-am/gameplay/rulings/STBL_Rules_101116_v1-1.pdf">"Wattsquirrel" ruling</a>, archived from the
+          <a target="_blank" href="http://www.yugioh-card.com/lat-am/gameplay/rulings/STBL_Rules_101116_v1-1.pdf">original</a>
+        </li>
+        <li id="sub-steps_of_the_damage_step-19">
+          <a target="_blank" href="https://web.archive.org/web/20151025163422/http://www.yugioh-card.com/uk/gameplay/rulings/Rules_STOR.pdf">"Blackwing - Boreas the Sharp" ruling</a>, archived from the
+          <a target="_blank" href="http://www.yugioh-card.com/uk/gameplay/rulings/Rules_STOR.pdf">original</a>
+        </li>
+        <li id="sub-steps_of_the_damage_step-20">
+          <a target="_blank" href="https://web.archive.org/web/20170821084622/http://www.yugioh-card.com/lat-am/gameplay/rulings/STBL_Rules_101116_v1-1.pdf">"Ally of Justice Unknown Crusher" ruling</a>, archived from the
+          <a target="_blank" href="ttp://www.yugioh-card.com/lat-am/gameplay/rulings/STBL_Rules_101116_v1-1.pd">original</a>
+        </li>
+        <li id="sub-steps_of_the_damage_step-21">
+          <a target="_blank" href="http://web.archive.org/web/20090220140220/http://entertainment.upperdeck.com/yugioh/en/gameplay/faqs/cardfaqs/default.aspx?first=P&amp;last=R">"Red Dragon Archfiend" ruling</a>, archived from the
+          <a target="_blank" href="http://entertainment.upperdeck.com/yugioh/en/gameplay/faqs/cardfaqs/default.aspx?first=S&amp;last=T">original</a>
+        </li>
+        <li id="sub-steps_of_the_damage_step-22">
+          <a target="_blank" href="http://web.archive.org/web/20090226221425/http://entertainment.upperdeck.com/yugioh/en/gameplay/faqs/cardfaqs/default.aspx?first=S&amp;last=T">"Stardust Dragon" ruling</a>, archived from the
+          <a target="_blank" href="http://entertainment.upperdeck.com/yugioh/en/gameplay/faqs/cardfaqs/default.aspx?first=S&amp;last=T">original</a>
+        </li>
+        <li id="sub-steps_of_the_damage_step-23">
+          <a target="_blank" href="http://web.archive.org/web/20090218205242/http://entertainment.upperdeck.com/yugioh/en/gameplay/faqs/cardfaqs/default.aspx?first=D&amp;last=E">"Doomcaliber Knight" ruling</a>, archived from the
+          <a target="_blank" href="http://entertainment.upperdeck.com/yugioh/en/gameplay/faqs/cardfaqs/default.aspx?first=D&amp;last=E">original</a>
+        </li>
+        <li>
+          <a target="_blank" href="https://yugipedia.com/wiki/Damage_Step">Yugipedia</a>
+        </li>
+      </ol>
+
+      <h4>Cards/effects that can be activated during the Damage Step</h4>
+      <p>
+        ✔️ <strong>Counter Trap Cards</strong><sup><a href="#">[2]</a></sup><sup><a href="#cards_effects_that_can_be_activated_during_damage_step-3">[3]</a></sup>
+      </p>
+      <p>
+        ✔️ <strong>Mandatory effects</strong><sup><a href="#">[3]</a></sup>
+      </p>
+      <p>
+        ✔️ <strong>Fast effects that negate the activation</strong> of a card(s), or negate the <strong>activation of an effect(s)</strong><sup><a href="#">[3]</a></sup><sup><a href="#cards_effects_that_can_be_activated_during_damage_step-4">[4]</a></sup><sup><a href="#cards_effects_that_can_be_activated_during_damage_step-5">[5]</a></sup>
+      </p>
+      <p>
+        ✔️ Spell/Trap Cards and <strong>Quick/Quick-like Effects</strong> that <strong>directly alter the ATK/DEF</strong> of a monster(s), but <strong>only up until damage calculation</strong>. During damage calculation or afterwards in the Damage Step, they cannot be activated<sup><a href="#">[2]</a></sup><sup><a href="#cards_effects_that_can_be_activated_during_damage_step-3">[3]</a></sup>
+      </p>
+      <p>
+        $\hspace{2em}$✔️ These cards and effects do not have to affect a battling monster; they can be used during the Damage Step to affect the ATK/DEF of a monster(s) that is not currently battling<sup><a href="#">[6]</a></sup>
+      </p>
+      <p>
+        $\hspace{2em}$❌ Optional Spell/Trap Cards and Quick/Quick-like Effects that can <strong>indirectly change the ATK/DEF</strong> of a monster (such as "Reverse Trap" or "Skill Drain") <strong>cannot</strong> be activated during the Damage Step for that reason alone<sup><a href="#">[7]</a></sup><sup><a href="#cards_effects_that_can_be_activated_during_damage_step-8">[8]</a></sup>
+      </p>
+      <p>
+        $\hspace{2em}$✔️
+        <strong>Trap Cards that equip themselves to monsters and have Continuous-like Effects that directly alter the ATK/DEF</strong>
+        of the equipped monster, such as "Horn of the Phantom Beast",
+        <strong>can</strong> be activated during the Damage Step for that reason alone<sup><a href="#">[9]</a></sup>
+      </p>
+      <p>
+        $\hspace{2em}$❌ Cards like "Half or Nothing", which
+        <strong>might not alter ATK/DEF at resolution, cannot</strong> be activated during the Damage Step for that reason alone<sup><a href="#">[10]</a></sup>
+      </p>
+      <p>
+        $\hspace{2em}$❌ Cards such as "Powerful Rebirth" and "Reverse of Neos", which Special Summon a monster and exclusively <strong>modify the ATK/DEF of that Summoned</strong> monster, <strong>cannot</strong> be activated during the Damage Step for that reason alone<sup><a href="#">[11]</a></sup>
+      </p>
+      <p>
+        $\hspace{2em}$✔️ If a <strong>Set Continuous Trap Card</strong> has an
+        <strong>optional Quick-like Effect that directly alters the ATK/DEF</strong>
+        of a monster(s) (such as "Attack of the Cornered Rat"), that Trap Card <strong>can</strong> be activated during the Damage Step until damage calculation, but only if that Quick-like Effect is activated and resolved in the same Chain Link as the activation of the Trap Card itself<sup><a href="#">[12]</a></sup>
+      </p>
+      <p>
+        $\hspace{2em}$✔️ <strong>Continuous Trap Cards</strong> with <strong>Continuous-like Effects that directly</strong> alter the ATK/DEF of a monster(s), such as "Fire Formation - Kaiyo", <strong>can be activated</strong> during the Damage Step until damage calculation<sup><a href="#">[13]</a></sup>
+      </p>
+      <p>
+        $\hspace{4em}$✔️ Such Trap Cards
+        <strong>can be activated even if their relevant Continuous-like Effect would not affect any monsters</strong>, such as activating "Dark Contract with the Witch" during your own turn or while you control no Fiend-Type monsters, or activating "Unpossessed" when a monster other than a "Familiar-Possessed" monster is attacking
+      </p>
+      <p>
+        $\hspace{4em}$✔️ Such Trap Cards can be activated even if their relevant Continuous-like Effect only applies an ATK/DEF change under particular conditions and those conditions are not currently met (such as activating "Chosen of Zefra" while there are fewer than 3 "Zefra" monsters face-up in your Extra Deck), unless that condition could never be met during the Damage Step (such as "Swift Samurai Storm!")<sup><a href="#">[14]</a></sup>
+      </p>
+      <p>
+        $\hspace{4em}$❌ Even if a Continuous Trap Card can be activated during the Damage Step due to having a Continuous-like Effect that alters ATK/DEF,
+        <strong>if it also has a Quick-like Effect that can be activated in the same Chain Link as the activation of the Trap Card itself</strong>
+        (such as "Dark Contract with the Witch"),
+        <strong>that Quick-like Effect cannot be activated at the same time as the Trap Card's activation during the Damage Step</strong>, unless it has another valid reason allowing it to be activated during the Damage Step<sup><a href="#">[15]</a></sup>
+      </p>
+      <p>
+        $\hspace{2em}$❌ Unique exceptions are "Evil Blast"<sup><a href="#">[16]</a></sup>, "Scrap Sheen"<sup><a href="#cards_effects_that_can_be_activated_during_damage_step-17">[17]</a></sup> (TCG only), "Zero Force"<sup><a href="#cards_effects_that_can_be_activated_during_damage_step-18">[18]</a></sup>, "Curse of Anubis"<sup><a href="#cards_effects_that_can_be_activated_during_damage_step-19">[19]</a></sup>, and the Quick-like Effect of "Rocket Hand"<sup><a href="#cards_effects_that_can_be_activated_during_damage_step-20">[20]</a></sup>, which have rulings stating that they cannot be activated during the Damage Step.
+      </p>
+      <p>
+        $\hspace{2em}$❌ Unlike Quick/Quick-like Effects,
+        <strong>having the effect of directly altering the ATK/DEF of a monster(s) does not permit optional Trigger/Trigger-like Effects to be activated during the Damage Step</strong>, with examples being "Morpho Butterspy"<sup><a href="#">[21]</a></sup>
+        and "Performapal Turn Toad"
+      </p>
+      <p>
+        ✔️ <strong>Optional Trigger and Trigger-like Effects</strong> (if that effect activates in response to the card itself being moved to a different location including leaving the field, being flipped face-up including Flip effects, or having its battle position changed<sup><a href="#">[3]</a></sup><sup><a href="#cards_effects_that_can_be_activated_during_damage_step-22">[22]</a></sup>) <strong>can be activated during the Damage Step, unless the effect performs a Normal</strong><sup><a href="#cards_effects_that_can_be_activated_during_damage_step-23">[23]</a></sup> <strong>or Fusion Summon</strong><sup><a href="#cards_effects_that_can_be_activated_during_damage_step-24">[24]</a></sup>
+      </p>
+      <p>
+        $\hspace{2em}$❌ In general, other
+        <strong>optional Trigger and Trigger-like Effects that have activation conditions that can be met both during and outside the Damage Step cannot be activated</strong>. For cards that have Problem-Solving Card Text, these normally state "(except during the Damage Step)" (for exampl "Fallen of Albaz") in their activation conditions. Otherwise, these effects are associated with activation conditions that involve actions regarding other cards, such as "When/If a ... is destroyed", "When/If a ... is added from ... to your hand", "When/If a ... monster is Special Summoned", etc. of cards like "Revival Rose", "Ambulanceroid", and "Cyber Dinosaur". This includes Trigger Effects of monsters that can activate in response to actions involving itself and/or other cards (but not just itself or other cards), such as "Madolche Chickolates"; they cannot be activated during the Damage Step.
+      </p>
+      <p>
+        ✔️ Any effect that
+        <strong>specifically mentions an activation timing that is unique to the Damage Step</strong>
+      </p>
+      <p>
+        $\hspace{2em}$✔️ This is indicated by phrases in the text such as
+        <strong>"During damage calculation", "At the end of the Damage Step", "If/When you take battle damage", etc.</strong>
+        (this includes cards and effects that activate
+        <strong>in response to damage, without specifying battle damage</strong>, like "Blackfeather Darkrage Dragon", "Attack and Receive", and "Numinous Healer")
+      </p>
+      <p>
+        $\hspace{2em}$✔️ If a
+        <strong>Set Continuous Trap Card has an optional Trigger-like or optional Quick-like Effect with an activation timing at least partially specific to the Damage Step</strong>
+        (such as "Yang Zing Creation" and "Damage = Reptile"), that Trap Card <strong>can</strong> be activated during the Damage Step if that Trigger-like/Quick-like Effect is also activated in the same Chain Link as the activation of the Trap Card itself<sup><a href="#">[25]</a></sup>
+      </p>
+      <p>
+        $\hspace{2em}$❌ In contrast, if a
+        <strong>Set Continuous Trap Card has a mandatory Trigger-like Effect with an activation timing at least partially specific to the Damage Step</strong>, the Trap Card itself <strong>cannot</strong> be activated, even if its controller intended on activating that Trigger-like Effect in the same Chain Link as the activation of the Trap Card itself<sup><a href="#">[26]</a></sup>
+      </p>
+      <p>A card only needs to meet one of the above requirements to be activated during the Damage Step. As long as it does not explicitly specify (except during the Damage Step), even if it fails to satisfy one of the above requirements, if it satisfies another one it can be activated during the Damage Step. For example, "Rope of Life" Special Summons a monster and exclusively changes the ATK of the Summoned monster (like "Reverse of Neos"); cards with such effects cannot be activated during the Damage Step for that reason alone, but since "Rope of Life" also has an activation timing that is unique to the Damage Step ("When a monster(s) is destroyed by battle and sent to your Graveyard:"), it can be activated during the Damage Step.</p>
+      <em>References:</em>
+      <ol>
+        <li id="cards_effects_that_can_be_activated_during_damage_step-1">
+          <a target="_blank" href="https://www.yugioh-card.com/eu/play/damage-step-rules/">Official KONAMI's damage step rules</a>
+        </li>
+        <li id="cards_effects_that_can_be_activated_during_damage_step-2">
+          <a target="_blank" href="https://yugipedia.com/wiki/File:Rulebook_v10.pdf?page=45">Official rulebook Version 10</a>
+        </li>
+        <li id="cards_effects_that_can_be_activated_during_damage_step-3">
+          <a target="_blank" href="https://ygorganization.com/perfect-rulebook-2017/">OCG Perfect Rulebook 2017 pages 188-193</a>
+        </li>
+        <li id="cards_effects_that_can_be_activated_during_damage_step-4">
+          <a target="_blank" href="https://web.archive.org/web/20151025163422/http://www.yugioh-card.com/uk/gameplay/rulings/Rules_STOR.pdf">"Legendary Six Samurai - Shi En" ruling</a>, archived from the
+          <a target="_blank" href="http://www.yugioh-card.com/uk/gameplay/rulings/Rules_STOR.pdf">original</a>
+        </li>
+        <li id="cards_effects_that_can_be_activated_during_damage_step-5">
+          <a target="_blank" href="http://web.archive.org/web/20090226221425/http://entertainment.upperdeck.com/yugioh/en/gameplay/faqs/cardfaqs/default.aspx?first=S&amp;last=T">"Stardust Dragon" ruling</a>, archived from the
+          <a target="_blank" href="http://entertainment.upperdeck.com/yugioh/en/gameplay/faqs/cardfaqs/default.aspx?first=S&amp;last=T">original</a>
+        </li>
+        <li id="cards_effects_that_can_be_activated_during_damage_step-6">
+          <a target="_blank" href="https://web.archive.org/web/20200818094722/https://img.yugioh-card.com/uk/gameplay/rulings/TSHDRulebook_100430.pdf">"Blackwing - Bombardment" ruling</a>, archived from the
+          <a target="_blank" href="http://www.yugioh-card.com/uk/gameplay/rulings/TSHDRulebook_100430.pdf">original</a>
+        </li>
+        <li id="cards_effects_that_can_be_activated_during_damage_step-7">
+          <a target="_blank" href="http://web.archive.org/web/20090220140220/http://entertainment.upperdeck.com/yugioh/en/gameplay/faqs/cardfaqs/default.aspx?first=P&amp;last=R">"Reverse Trap" ruling</a>, archived from the
+          <a target="_blank" href="http://entertainment.upperdeck.com/yugioh/en/gameplay/faqs/cardfaqs/default.aspx?first=P&amp;last=R">original</a>
+        </li>
+        <li id="cards_effects_that_can_be_activated_during_damage_step-8">
+          <a target="_blank" href="http://web.archive.org/web/20090226221425/http://entertainment.upperdeck.com/yugioh/en/gameplay/faqs/cardfaqs/default.aspx?first=S&amp;last=T">"Skill Drain"</a>, archived from the
+          <a target="_blank" href="http://entertainment.upperdeck.com/yugioh/en/gameplay/faqs/cardfaqs/default.aspx?first=S&amp;last=T">original</a>
+        </li>
+        <li id="cards_effects_that_can_be_activated_during_damage_step-9">
+          <a target="_blank" href="https://web.archive.org/web/20200927055455/https://img.yugioh-card.com/uk/gameplay/rulings/DREVRulebook_100803.pdf">"Horn of the Phantom Beast" ruling</a>, archived from the
+          <a target="_blank" href="http://www.yugioh-card.com/uk/gameplay/rulings/DREVRulebook_100803.pdf">original</a>
+        </li>
+        <li id="cards_effects_that_can_be_activated_during_damage_step-10">
+          <a target="_blank" href="https://web.archive.org/web/20211125085806/https://img.yugioh-card.com/uk/gameplay/rulings/CRMS_sneak_ruling.pdf">"Half or Nothing" ruling</a>, archived from the
+          <a target="_blank" href="http://www.yugioh-card.com/uk/gameplay/rulings/CRMS_sneak_ruling.pdf">original</a>
+        </li>
+        <li id="cards_effects_that_can_be_activated_during_damage_step-11">
+          <a target="_blank" href="http://web.archive.org/web/20080528194416/entertainment.upperdeck.com/community/forums/thread/843535.aspx">"Infernal Dragon" and "Reverse of Neos" rulings</a>, archived from the
+          <a target="_blank" href="http://entertainment.upperdeck.com/community/forums/thread/843535.aspx">original</a>
+        </li>
+        <li id="cards_effects_that_can_be_activated_during_damage_step-12">
+          <a target="_blank" href="https://web.archive.org/web/20211106194036/https://img.yugioh-card.com/uk/gameplay/rulings/RGBT_rules.pdf">"Attack of the Cornered Rat" ruling</a>, archived from the
+          <a target="_blank" href="https://img.yugioh-card.com/uk/gameplay/rulings/RGBT_rules.pdf">original</a>
+        </li>
+        <li id="cards_effects_that_can_be_activated_during_damage_step-13">
+          <a target="_blank" href="https://web.archive.org/web/20151025163422/http://www.yugioh-card.com/uk/gameplay/rulings/Rules_STOR.pdf">"Token Stampede" ruling</a>, archived from the
+          <a target="_blank" href="http://www.yugioh-card.com/uk/gameplay/rulings/Rules_STOR.pdf">original</a>
+        </li>
+        <li id="cards_effects_that_can_be_activated_during_damage_step-14">
+          <a target="_blank" href="http://web.archive.org/web/20090226221425/http://entertainment.upperdeck.com/yugioh/en/gameplay/faqs/cardfaqs/default.aspx?first=S&amp;last=T">"Swift Samurai Storm!" ruling</a>, archived from the
+          <a target="_blank" href="http://entertainment.upperdeck.com/yugioh/en/gameplay/faqs/cardfaqs/default.aspx?first=S&amp;last=T">original</a>
+        </li>
+        <li id="cards_effects_that_can_be_activated_during_damage_step-15">
+          <a target="_blank" href="https://db.ygoresources.com/qa#13429">"Dark Contract with the Witch" ruling</a>
+        </li>
+        <li id="cards_effects_that_can_be_activated_during_damage_step-16">
+          <a target="_blank" href="https://web.archive.org/web/20110102130232/http://www.yugioh-card.com/uk/gameplay/rulings/ABPF_rules.pdf">"Evil Blast" ruling</a>, archived from the
+          <a target="_blank" href="http://www.yugioh-card.com/uk/gameplay/rulings/ABPF_rules.pdf">original</a>
+        </li>
+        <li id="cards_effects_that_can_be_activated_during_damage_step-17">
+          <a target="_blank" href="https://web.archive.org/web/20200927055455/https://img.yugioh-card.com/uk/gameplay/rulings/DREVRulebook_100803.pdf">"Scrap Sheen" ruling</a>, archived from the
+          <a target="_blank" href="http://www.yugioh-card.com/uk/gameplay/rulings/DREVRulebook_100803.pdf">original</a>
+        </li>
+        <li id="cards_effects_that_can_be_activated_during_damage_step-18">
+          <a target="_blank" href="https://web.archive.org/web/20151025163422/http://www.yugioh-card.com/uk/gameplay/rulings/Rules_STOR.pdf">"Zero Force" ruling</a>, archived from the
+          <a target="_blank" href="http://www.yugioh-card.com/uk/gameplay/rulings/Rules_STOR.pdf">original</a>
+        </li>
+        <li id="cards_effects_that_can_be_activated_during_damage_step-19">
+          <a target="_blank" href="https://db.ygoresources.com/card#6067">"Curse of Anubis" ruling</a>
+        </li>
+        <li id="cards_effects_that_can_be_activated_during_damage_step-20">
+          <a target="_blank" href="http://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&amp;cid=11668&amp;request_locale=ja">"Rocket Hand" ruling</a>
+        </li>
+        <li id="cards_effects_that_can_be_activated_during_damage_step-21">
+          <a target="_blank" href="https://db.ygoresources.com/card#10035">"Morpho Butterspy" ruling</a>
+        </li>
+        <li id="cards_effects_that_can_be_activated_during_damage_step-22">
+          <a target="_blank" href="http://web.archive.org/web/20090226215920/http://entertainment.upperdeck.com/yugioh/en/gameplay/faqs/cardfaqs/default.aspx?first=U&amp;last=Z">"Yubel" ruling</a>, archived from the
+          <a target="_blank" href="http://entertainment.upperdeck.com/yugioh/en/gameplay/faqs/cardfaqs/default.aspx?first=U&amp;last=Z">original</a>
+        </li>
+        <li id="cards_effects_that_can_be_activated_during_damage_step-23">
+          <a target="_blank" href="https://db.ygoresources.com/card#10035">"Proof of Pruflas" ruling</a>
+        </li>
+        <li id="cards_effects_that_can_be_activated_during_damage_step-24">
+          <a target="_blank" href="https://db.ygoresources.com/card#15245">"Fall of Albaz" ruling</a>
+        </li>
+        <li id="cards_effects_that_can_be_activated_during_damage_step-25">
+          <a target="_blank" href="https://web.archive.org/web/20200927055455/https://img.yugioh-card.com/uk/gameplay/rulings/DREVRulebook_100803.pdf">"Desperate Tag" ruling</a>, archived from the
+          <a target="_blank" href="http://www.yugioh-card.com/uk/gameplay/rulings/DREVRulebook_100803.pdf">original</a>
+        </li>
+        <li id="cards_effects_that_can_be_activated_during_damage_step-26">
+          <a target="_blank" href="https://web.archive.org/web/20200927055455/https://img.yugioh-card.com/uk/gameplay/rulings/DREVRulebook_100803.pdf">"Howl of the Wild" ruling</a>, archived from the
+          <a target="_blank" href="http://www.yugioh-card.com/uk/gameplay/rulings/DREVRulebook_100803.pdf">original</a>
+        </li>
+        <li>
+          <a target="_blank" href="https://yugipedia.com/wiki/Damage_Step">Yugipedia</a>
+        </li>
+      </ol>
+
+      <h4>End of the Damage Step still occurs even if damage calculation was never conducted</h4>
+      <p>A card whose effect reads "at the end of the Damage Step" can be activated even if damage calculation has not been conducted and Before Damage Calculation has been reached.</p>
+      <em>References:</em>
+      <ol>
+        <li>
+          YGOrg Database of Official OCG Rulings:
+          <a target="_blank" href="https://db.ygoresources.com/qa#6177">"Number C5: Chaos Chimera Dragon", "Reflect Bounder", "Divine Wrath"</a>
+        </li>
+      </ol>
+
+      <h4>Precise sequence of events when substituting for destruction by battle</h4>
+      <p>A card whose effect reads "if (1) you control would be destroyed by battle, you can do (2)" can be applied when performing damage calculation:</p>
+      <ul>
+        <li>If you choose to apply the effect, immediately after damage calculation do (2), which can be banishing a card, detach a material for effect...</li>
+        <li>If you choose not to apply the effect, you can now use any effects that can be activated after damage calculation.</li>
+      </ul>
+      <em>References:</em>
+      <ol>
+        <li>
+          YGOrg Database of Official OCG Rulings:
+          <a target="_blank" href="https://db.ygoresources.com/qa#6398">"Bujintei Kagutsuchi", "Zoodiac Whiptail"</a>
+        </li>
+      </ol>
+
+      <h3>End Step</h3>
+      <p>After you've resolved all your battles by repeating the Battle and Damage Steps, and you have no more monsters you want to attack with, announce to your opponent that you are ending your Battle Phase.</p>
+      <em>References:</em>
+      <ol>
+        <li>
+          <a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 38</a>
+        </li>
+      </ol>
+
+      <h2>Main Phase 2</h2>
+      <p><strong>If you conducted your Battle Phase</strong>, your turn moves to Main Phase 2 afterwards. The actions a player can perform in this phase are the same as in Main Phase 1. However, if the player already did something in Main Phase 1 that has a limit to the number of times it can be done, the player cannot do it again in Main Phase 2.</p>
+      <em>References:</em>
+      <ol>
+        <li>
+          <a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 40</a>
+        </li>
+      </ol>
+
+      <h2>End Phase</h2>
+      <p>Announce the end of your turn, and if there are any cards on the field which say "...during the End Phase..." in their text, resolve those effects in this phase. If you have more than 6 cards in your hand at the end of this phase, select and discard cards to the Graveyard until you only have 6 cards in your hand.</p>
+      <em>References:</em>
+      <ol>
+        <li>
+          <a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 40</a>
+        </li>
+      </ol>
+
+      <h3>Mandatory actions during the End Phase</h3>
+      <p>If 2 or more cards effects have mandatory actions during the End Phase ("during the End Phase [...]"), either they start or not a chain, the turn player can choose in which order activate or conduct the actions.</p>
+      <em>References:</em>
+      <ol>
+        <li>
+          YGOrg Database of Official OCG Rulings:
+          <a target="_blank" href="https://db.ygoresources.com/qa#8765">"Mystic Mine", "Winged Dragon of Ra - Sphere Mode"</a>
+        </li>
+      </ol>

@@ -1,0 +1,16 @@
+{
+  "emeraldwalk.runonsave": {
+    "commands": [
+      {
+        "match": "build_site\\\\.*.html",
+        "isAsync": true,
+        "cmd": "node ./build_site/build_site.js"
+      },
+      {
+        "match": "build_site\\\\build_site.js",
+        "isAsync": true,
+        "cmd": "node ./build_site/build_site.js"
+      },
+    ]
+  }
+}

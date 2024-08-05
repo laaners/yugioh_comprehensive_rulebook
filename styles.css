@@ -5,7 +5,9 @@ body {
 }
 
 html {
+  /*
   scroll-behavior: smooth;
+  */
 }
 
 .content {
@@ -35,3 +37,55 @@ table td {
   border: 1px solid #ddd; /* Light gray border for cells */
   padding: 8px; /* Space inside cells */
 }
+
+img {
+  max-width: 100% !important;
+}
+
+.footer {
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-size: 1.5rem;
+}
+
+/* TOC css */
+
+/*https://stackoverflow.com/questions/2729927/number-nested-ordered-lists-in-html*/
+/*
+*/
+.toc ol {
+  counter-reset: item;
+  padding-left: 2rem;
+}
+.toc li {
+  display: block;
+}
+.toc li:before {
+  content: counters(item, ".") ". ";
+  counter-increment: item;
+  font-weight: bolder;
+  font-size: 1rem;
+}
+
+.top-shortcut {
+  display: block;
+  position: fixed;
+  text-decoration: none;
+  bottom: 3vh;
+  right: 4vw;
+  z-index: 1;
+  font-size: 6vh;
+  padding: 1rem;
+}
+
+/*
+.toc ol {
+  list-style-type: none !important;
+  padding-left: 2rem;
+}
+*/
