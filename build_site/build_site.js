@@ -52,21 +52,22 @@ function createList(items) {
   return list;
 }
 
+function mergeIncludes(document) {
+  const includes = document.querySelectorAll("include");
+  if (includes.length < 1) return;
+  for (const element of includes) {
+    const section_name = element.textContent.replaceAll("\n", "").replaceAll(" ", "");
+    const section = readHTML(section_name);
+    mergeIncludes(section);
+    element.outerHTML = section.querySelector("body").innerHTML;
+  }
+}
+
 async function main() {
   // load index ------------------------------------------------------------
   const document = readHTML("build_site/index.html");
 
   // recursive merge includes ------------------------------------------------------------
-  function mergeIncludes(document) {
-    const includes = document.querySelectorAll("include");
-    if (includes.length < 1) return;
-    for (const element of includes) {
-      const section_name = element.textContent.replaceAll("\n", "").replaceAll(" ", "");
-      const section = readHTML(section_name);
-      mergeIncludes(section);
-      element.outerHTML = section.querySelector("body").innerHTML;
-    }
-  }
   mergeIncludes(document);
 
   // make toc ------------------------------------------------------------
@@ -161,6 +162,13 @@ async function main() {
 
         <link rel="stylesheet" href="styles.css" />
         <script src="script.js" type="text/javascript" defer></script>
+
+        <script type="text/javascript" defer="" src="./tippy/render.js.download"></script>
+        <script type="text/javascript" defer="" src="./tippy/tooltip.js.download"></script>
+        <script defer="" src="./tippy/core@2" type="text/javascript"></script>
+        <script defer="" src="./tippy/tippy.js@6" type="text/javascript"></script>
+        <link rel="stylesheet" href="./tippy/tooltips.css" />
+
     </head>
     <body>
   `;
@@ -179,17 +187,17 @@ async function fix() {
   // load index
   const document = readHTML("build_site/index.html");
 
-  // merge includes
+  // merge includes  
   const includes = document.querySelectorAll("include");
   if (includes.length < 1) return;
   for (const element of includes) {
     const section_name = element.textContent.replaceAll("\n", "").replaceAll(" ", "");
-    const section = readHTML(section_name.replace("sections", "sections_"));
+    const section = readHTML(section_name.replace("sections", "sections - Copy"));
     let lines = section.querySelector("body").innerHTML.split("\n");
     for (let i = 0; i < lines.length; i++) {
       const line = lines[i];
       if (line.includes('id="')) {
-        const elems = new JSDOM(line+"</li>").window.document.querySelectorAll("h1, h2, h3, h4, li");
+        const elems = new JSDOM(line + "</li>").window.document.querySelectorAll("h1, h2, h3, h4, li");
         let replaced_line = line;
         elems.forEach((elem) => {
           const oldString = elem.outerHTML;

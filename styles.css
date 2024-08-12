@@ -14,7 +14,7 @@ html {
   max-width: 920px;
   margin: auto;
   padding: 0;
-  overflow: scroll;
+  overflow: auto;
 }
 
 li {
@@ -50,7 +50,14 @@ img {
   left: 0;
   bottom: 0;
   width: 100%;
-  font-size: 1.5rem;
+}
+
+.space-left-2 {
+  margin-left: 2rem;
+}
+
+.space-left-4 {
+  margin-left: 4rem;
 }
 
 /* TOC css */
@@ -89,3 +96,15 @@ img {
   padding-left: 2rem;
 }
 */
+
+/* tooltip-anchor */
+
+.tooltip-anchor {
+  cursor: pointer;
+  background-color: #f0f0f0;
+  transition: background-color 0.3s ease;
+}
+
+.tooltip-anchor:hover {
+  background-color: #e0e0e0;
+}

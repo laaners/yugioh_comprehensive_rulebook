@@ -1,0 +1,201 @@
+<h3>Stats (ATK/DEF) modifiers</h3>
+<h4>Categories and interactions</h4>
+<p>Any given modifier can fall under one of the following different categories:</p>
+<ol>
+  <li>
+    <p>Activated/Lingering effect modifier that increases/decreases the current ATK/DEF.</p>
+  </li>
+  <li>
+    <p>Non-activated/Continuous effect modifier that increases/decreases the current ATK/DEF.</p>
+  </li>
+  <li>
+    <p>Activated/Lingering effect modifier that sets current ATK/DEF to determined value.</p>
+  </li>
+  <li>
+    <p>Non-activated/Continuous effect modifier that sets current ATK/DEF to determined value.</p>
+  </li>
+  <li>
+    <p>Activated/Lingering effect modifier that sets original ATK/DEF to determined value.</p>
+  </li>
+  <li>
+    <p>Non-activated/Continuous effect modifier that sets original ATK/DEF to determined value.</p>
+  </li>
+</ol>
+<p>Possible outcomes:</p>
+<ul>
+  <li>
+    <p>(x) are always applied successfully/Apply (x) after previous (5,6)</p>
+  </li>
+  <li>
+    <p>Remove previous (y) when applying (x): apply (x) then when (x) stops applying the value will forget/won't apply anymore about (y)</p>
+  </li>
+  <li><p>(y) are not reapplied until (x) stops applying</p></li>
+  <li><p>Apply (x) and reapply (y) afterwards</p></li>
+  <li>
+    <p>Apply new (x): overwrites previous (y) of the same kind, if (x) stops applying then (y) will return to apply</p>
+  </li>
+</ul>
+<p>In the examples, the two cards on the left are the "Prev", the card on the right separated by the previous two is the "New": "→" signifies the value after the "New" effect is applied, "⇒" signifies the value after the "New" effect has stopped applying</p>
+
+<table align="center">
+  <tbody>
+    <tr>
+      <td width="200" colspan="3" rowspan="3">
+        <b>
+          <div align="right">New</div>
+          <div align="center">\</div>
+          <div align="left">Prev</div>
+        </b>
+      </td>
+      <td><b>+/-</b></td>
+      <td colspan="2"><b>Set current</b></td>
+      <td colspan="2"><b>Set original</b></td>
+    </tr>
+    <tr>
+      <td><b>(1)+(2)</b></td>
+      <td><b>(3)</b></td>
+      <td><b>(4)</b></td>
+      <td><b>(5)</b></td>
+      <td><b>(6)</b></td>
+    </tr>
+    <tr>
+      <td><b>L+C</b></td>
+      <td><b>L</b></td>
+      <td><b>C</b></td>
+      <td><b>L</b></td>
+      <td><b>C</b></td>
+    </tr>
+    <!-- cases -->
+    <tr>
+      <td rowspan="2"><b>+/-</b></td>
+      <td><b>(1)</b></td>
+      <td><b>L</b></td>
+      <td rowspan="6">
+        <details align="left">
+          <summary>(1,2) are always applied successfully</summary>
+          <img loading="lazy" src="./images/image-1.png" />(1900+700)-600 → 2000
+        </details>
+      </td>
+      <td>
+        <details align="left">
+          <summary>Remove previous (1,3) when applying (3)</summary>
+          <img loading="lazy" src="./images/image-2.png" />(1900+700)/2 → 1300 ⇒ 1900
+        </details>
+      </td>
+      <td>
+        <details align="left">
+          <summary>(1,3,5) are not reapplied until (4) stops applying</summary>
+          <img loading="lazy" src="./images/image-6.png" />set(1900+700) to 100 → 100 ⇒ 2600
+        </details>
+      </td>
+      <td colspan="2" rowspan="2">Apply (5,6) and reapply (1,2) afterwards</td>
+    </tr>
+    <tr>
+      <td><b>(2)</b></td>
+      <td><b>C</b></td>
+      <td>
+        <details align="left">
+          <summary>(2,4) are not reapplied until (3) stops applying</summary>
+          <img loading="lazy" src="./images/image-3.png" />(1900+800)/2 → 1350 ⇒ 2700
+        </details>
+      </td>
+      <td>
+        <details align="left">
+          <summary>Apply (4) and reapply (2) afterwards</summary>
+          <img loading="lazy" src="./images/image-5.png" />set(1900+800) to 100 → 900 ⇒ 2700
+        </details>
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2"><b>Set current</b></td>
+      <td><b>(3)</b></td>
+      <td><b>L</b></td>
+      <td>Remove previous (1,3) when applying (3)</td>
+      <td>
+        <details align="left">
+          <summary>(1,3,5) are not reapplied until (4) stops applying</summary>
+          <img loading="lazy" src="./images/image-7.png" />set (1900/2) to 100 → 100 ⇒ 950
+        </details>
+      </td>
+      <td>Remove previous (3,5) when applying (5)</td>
+      <td>(3,5) are not reapplied until (6) stops applying</td>
+    </tr>
+    <tr>
+      <td><b>(4)</b></td>
+      <td><b>C</b></td>
+      <td>(2,4) are not reapplied until (3) stops applying</td>
+      <td>
+        <details align="left">
+          <summary>Apply new (4)</summary>
+          <img loading="lazy" src="./images/image-8.png" />set (2300x2) to 100 → 100 ⇒ 4600
+        </details>
+      </td>
+      <td colspan="2">Apply (5,6) and reapply (4) afterwards</td>
+    </tr>
+    <tr>
+      <td rowspan="2"><b>Set original</b></td>
+      <td><b>(5)</b></td>
+      <td><b>L</b></td>
+      <td rowspan="2">
+        <details align="left">
+          <summary>Apply (3) after previous (5,6)</summary>
+          <img loading="lazy" src="./images/image-4.png" />(2300/2)x2 → 2300 ⇒ 1150 (in end ⇒ 2300)
+        </details>
+      </td>
+      <td>(1,3,5) are not reapplied until (4) stops applying</td>
+      <td>Remove previous (3,5) when applying (5)</td>
+      <td>(3,5) are not reapplied until (6) stops applying</td>
+    </tr>
+    <tr>
+      <td><b>(6)</b></td>
+      <td><b>C</b></td>
+      <td>Apply (6) and reapply (4) afterwards</td>
+      <td>(6) are not reapplied until (5) stops applying</td>
+      <td>Apply new (6)</td>
+    </tr>
+  </tbody>
+</table>
+
+<em>References:</em>
+<ol>
+  <li>
+    <a target="_blank" href="https://www.dropbox.com/scl/fo/tia8xzqafu1ibscz0gz95/AEx_Ri-wkJ9QE75AWRKn4RQ?preview=Judge+Resources.pdf&amp;rlkey=z6uissqwewd81wm9c03zosaa3">Pazim's Resources (unofficial resource)</a>
+  </li>
+  <li>
+    <a target="_blank" href="https://ygorganization.com/atkdefmodifierguide/">YGOrg's article (unofficial resource)</a>
+  </li>
+  <li>
+    YGOrg Database of Official OCG Rulings:
+    <a target="_blank" href="https://db.ygoresources.com/qa#7">Lingering Current Addition -&gt; Lingering Original Set</a>
+  </li>
+  <li>
+    YGOrg Database of Official OCG Rulings:
+    <a target="_blank" href="https://db.ygoresources.com/qa#6143">Continuous Current Set -&gt; Lingering Original Set</a>
+  </li>
+  <li>
+    YGOrg Database of Official OCG Rulings:
+    <a target="_blank" href="https://db.ygoresources.com/qa#6248">Continuous Current Addition -&gt; Continuous Current Set</a>
+  </li>
+</ol>
+
+<h4>Special cases</h4>
+<p>For these special cases, no matter what the effects currently in play are, they are always applied last. If a new effect is applied, reapply those effects right afterwards.\ When those effects stop applying, reapply everything, including lingering effects (1,3,5)</p>
+<em>References:</em>
+<ol>
+  <li>
+    <a target="_blank" href="https://www.dropbox.com/scl/fo/tia8xzqafu1ibscz0gz95/AEx_Ri-wkJ9QE75AWRKn4RQ?preview=Judge+Resources.pdf&amp;rlkey=z6uissqwewd81wm9c03zosaa3">Pazim's Resources (unofficial resource)</a>
+  </li>
+  <li>
+    <a target="_blank" href="https://ygorganization.com/atkdefmodifierguide/">YGOrg's article (unofficial resource)</a>
+  </li>
+</ol>
+
+<h4>Gain original/printed stat of tributes</h4>
+<p>A monster (1) whose effect reads "The ATK of this card becomes the combined original ATK of the Tributed monsters", if it is Summoned by tributing a monster (2) on the field whose <strong>original</strong> ATK was set by another card (3), (1)'s ATK will be (2)'s printed ATK even though (2)'s original ATK differs from its printed ATK due to (3).</p>
+<em>References:</em>
+<ol>
+  <li>
+    YGOrg Database of Official OCG Rulings:
+    <a target="_blank" href="https://db.ygoresources.com/qa#6999">"Beast King Barbaros", "Fog King"</a>
+  </li>
+</ol>
