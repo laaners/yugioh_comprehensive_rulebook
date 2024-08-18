@@ -64,6 +64,8 @@ function mergeIncludes(document) {
 }
 
 async function main() {
+  console.log("Building...");
+
   // load index ------------------------------------------------------------
   const document = readHTML("build_site/index.html");
 
@@ -138,7 +140,7 @@ async function main() {
       let reference_number = 1;
       while (!line.includes("</ol>")) {
         if (line.includes("<li")) {
-          lines[i] = `<li id="${currentSectionId}-[${reference_number}]">`;
+          lines[i] = lines[i].replace("<li", `<li id="${currentSectionId}-[${reference_number}]"`);
           reference_number += 1;
         }
         i++;

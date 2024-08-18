@@ -19,12 +19,12 @@
   <summary align="center">✔️</summary>
   <ul>
     <li>
-      <a href="https://db.ygoresources.com/qa#69">"Revendread Slayer", "Book of Moon"</a>
+      <a target="_blank" href="https://db.ygoresources.com/qa#69">"Revendread Slayer", "Book of Moon"</a>
     </li>
   </ul>
 </details>
 
-# Examples list Examples: - ["Nekroz Cycle", "Nekroz of Clausolas"](https://db.ygoresources.com/qa#7022) 
+# Examples list Examples: - ["Nekroz Cycle", "Nekroz of Clausolas"](https://db.ygoresources.com/qa#7022)
 
 <!--
 # References/Citation
@@ -33,32 +33,28 @@
 <em>References:</em>
 <ol>
   <li>
+    <a target="_blank" href="https://ygorganization.com/perfect-rulebook-2017/">OCG Perfect Rulebook 2017 pages 188-193</a>
+  </li>
+  <li>
     <a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook pages 3-5</a>
   </li>
   <li>
     <a target="_blank" href="https://ygorganization.com/perfect-rulebook-2017/">OCG Perfect Rulebook 2017 page 42</a>
   </li>
   <li>
-    <a href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 25</a>
+    <a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 25</a>
   </li>
+  <li>YGOrg Database of Official OCG Rulings: <a target="_blank" href="https://db.ygoresources.com/qa#10331">"Meklord Emperor Granel"</a></li>
   <li>
-    YGOrg Database of Official OCG Rulings: <a href="https://db.ygoresources.com/qa#10331">"Meklord Emperor Granel"</a>
+    <a target="_blank" href="https://ygorganization.com/perfect-rulebook-2017/">OCG Perfect Rulebook 2017 page 28</a>
   </li>
+  <li><a target="_blank" href="https://web.archive.org/web/20190414183558/https://yugiohblog.konami.com/articles/?p=8318">Official KONAMI's article</a>, archived from the <a target="_blank" href="https://yugiohblog.konami.com/articles/?p=8318">original</a></li>
   <li>
-    <a href="https://ygorganization.com/perfect-rulebook-2017/">OCG Perfect Rulebook 2017 page 28</a>
-  </li>
-  <li id="sub-steps_of_the_damage_step-3">
-    <a href="https://ygorganization.com/perfect-rulebook-2017/">OCG Perfect Rulebook 2017 pages 188-193</a>
-  </li>
-  <li>
-    <a href="https://web.archive.org/web/20190414183558/https://yugiohblog.konami.com/articles/?p=8318">Official KONAMI's article</a>, archived from the <a href="https://yugiohblog.konami.com/articles/?p=8318">original</a>
-  </li>
-  <li>
-    <a href="https://imgur.com/targeting-rules-insert-JH4NxL1">Insert from Rise of the True Dragons Structure Deck</a>
+    <a target="_blank" href="https://imgur.com/targeting-rules-insert-JH4NxL1">Insert from Rise of the True Dragons Structure Deck</a>
   </li>
 </ol>
 
-<sup><a href="#">[3]</a></sup>
+<sup><a href="#">[1]</a></sup>
 
 <!--
 # Tooltip
@@ -67,22 +63,60 @@
 <span class="tooltip-anchor" data-name="31222701">"Wavering Eyes"</span>
 
 <!--
+# Glossary examples table
+-->
+
+<table align="center">
+  <tbody>
+    <tr>
+      <td align="center" colspan="2"><b>Examples</b></td>
+    </tr>
+    <tr>
+      <td align="center" width="100">
+        <img loading="lazy" src="https://images.ygoprodeck.com/images/cards/34475451.jpg" alt="34475451" />
+      </td>
+      <td class="td-top">
+        <strong>a</strong>
+        <p>a</p>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="100">
+        <img loading="lazy" src="https://images.ygoprodeck.com/images/cards/23446369.jpg" alt="23446369" />
+      </td>
+      <td class="td-top">
+        <strong>a</strong>
+        <p>a</p>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="100">
+        <img loading="lazy" src="https://images.ygoprodeck.com/images/cards/3103067.jpg" alt="3103067" />
+      </td>
+      <td class="td-top">
+        <strong>a</strong>
+        <p>a</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<!--
 # Yugipedia references extractor 
 -->
 
 <script>
-references = Array.from(document.body.querySelectorAll(".references li"))
+  references = Array.from(document.body.querySelectorAll(".references li"));
 
-res = ""
-for(let i = 3; i < references.length; i++) {
-  const reference = references[i]
-  let text = reference.querySelector(".reference-text")
-  if(text == undefined) continue
-  text = text.innerText
-  let hrefs = Array.from(reference.querySelectorAll(".reference-text cite a"))
-  hrefs = hrefs.map(_=>`<a href="${_.href}">${_.innerText.replace("the original", "original")}</a>`)
-  res += `<li id="sub-steps_of_the_damage_step-${i-9}">${hrefs.reduce((a,b) => a+", archived from the "+b)} ${text}</li>`
-}
-console.log(res)
-
+  res = "";
+  for (let i = 3; i < references.length; i++) {
+    const reference = references[i];
+    let text = reference.querySelector(".reference-text");
+    if (text == undefined) continue;
+    text = text.innerText;
+    let hrefs = Array.from(reference.querySelectorAll(".reference-text cite a"));
+    hrefs = hrefs.map((_) => `<a href="${_.href}">${_.innerText.replace("the original", "original")}</a>`);
+    res += `<li id="sub-steps_of_the_damage_step-${i - 9}">${hrefs.reduce((a, b) => a + ", archived from the " + b)} ${text}</li>`;
+  }
+  console.log(res);
 </script>

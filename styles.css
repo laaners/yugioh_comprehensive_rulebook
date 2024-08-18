@@ -36,6 +36,16 @@ table th,
 table td {
   border: 1px solid #ddd; /* Light gray border for cells */
   padding: 8px; /* Space inside cells */
+  font-size: 1rem;
+}
+
+.td-3 {
+  width: 200px;
+}
+
+.td-top {
+  vertical-align: top;
+  padding-bottom: 0px !important;
 }
 
 img {
