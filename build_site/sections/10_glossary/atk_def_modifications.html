@@ -1,0 +1,697 @@
+<h2>ATK/DEF Modifications</h2>
+
+<table align="center">
+  <tbody>
+    <tr>
+      <td align="center" colspan="4"><b>Examples</b></td>
+    </tr>
+    <tr>
+      <td align="center" width="100">
+        <img loading="lazy" src="https://images.ygoprodeck.com/images/cards/70046172.jpg" alt="70046172" />
+      </td>
+      <td class="td-top">
+        <strong>Rush Recklessly</strong>
+        <p>Target 1 face-up monster on the field; it gains 700 ATK until the end of this turn.</p>
+      </td>
+      <td align="center" width="100">
+        <img loading="lazy" src="https://images.ygoprodeck.com/images/cards/56747793.jpg" alt="56747793" />
+      </td>
+      <td class="td-top">
+        <strong>United We Stand</strong>
+        <p>The equipped monster gains 800 ATK/DEF for each face-up monster you control.</p>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="100">
+        <img loading="lazy" src="https://images.ygoprodeck.com/images/cards/73048641.jpg" alt="73048641" />
+      </td>
+      <td class="td-top">
+        <strong>Half Shut</strong>
+        <p>Target 1 face-up monster on the field; it cannot be destroyed by battle this turn, also its ATK is halved until the end of this turn.</p>
+      </td>
+      <td align="center" width="100">
+        <img loading="lazy" src="https://images.ygoprodeck.com/images/cards/22046459.jpg" alt="22046459" />
+      </td>
+      <td class="td-top">
+        <strong>Megamorph</strong>
+        <p>While your LP is lower than your opponent's, the equipped monster's ATK becomes double its original ATK. While your LP is higher, the equipped monster's ATK becomes half its original ATK.</p>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="100">
+        <img loading="lazy" src="https://images.ygoprodeck.com/images/cards/55713623.jpg" alt="55713623" />
+      </td>
+      <td class="td-top">
+        <strong>Shrink</strong>
+        <p>Target 1 face-up monster on the field; its original ATK becomes halved until the end of this turn.</p>
+      </td>
+      <td align="center" width="100">
+        <img loading="lazy" src="https://images.ygoprodeck.com/images/cards/62991886.jpg" alt="62991886" />
+      </td>
+      <td class="td-top">
+        <strong>Unstable Evolution</strong>
+        <p>While your LP is lower than your opponent's, the equipped monster's original ATK becomes 2400. While your LP is higher, the equipped monster's original ATK becomes 1000.</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
+  <li>
+    The original ATK/DEF are the values written in a Monster Card. The original values of a face-up monster on the field can also be modified by card effects<sup><a href="#">[1]</a></sup
+    >.
+  </li>
+  <li>
+    If the ATK or DEF of a monster is changed by its own Ignition or Trigger Monster Effect, and later the monster affected by that applied effect has its effects negated, the effect that modified the ATK and DEF is no longer applied after that resolution<sup><a href="#">[1]</a></sup
+    >.
+    <br />
+    Example: After resolving the effect of <span class="tooltip-anchor" data-name="56619314">"D/D/D Dragon King Pendragon"</span> (1) that says "Once per turn: You can discard 1 card; this card gains 500 ATK" resolves, if the effects of (1) are negated by the effect of <span class="tooltip-anchor" data-name="78474168">"Breakthrough Skill"</span> that says "negate the effects of that opponent's face-up monster, until the end of this turn", the ATK of (1) returns to its original value.
+  </li>
+  <li>
+    The ATK and DEF that results from effects that increase/decrease the ATK and DEF are not treated as original values<sup><a href="#">[1]</a></sup
+    >.
+  </li>
+  <li>
+    If multiple effects that increase or decrease the ATK and DEF are applied, those effects are accumulated<sup><a href="#">[1]</a></sup
+    >. Note that a monster's ATK/DEF cannot be lower than 0. Decreases are still applied to a monster's ATK/DEF even if they would become lower than 0, but will be cut off at 0. The leftover amount is still "store", so that it needs to be taken into account when you further increase a monster's ATK/DEF<sup><a href="#">[3]</a></sup
+    ><sup><a href="#">[4]</a></sup
+    >.
+  </li>
+  <li>
+    There are effects that say they make "the original ATK (or DEF) become [...]", which change the original value of the card. Effects that simply say "the ATK (or DEF) becomes [...]" do not modify the original values<sup><a href="#">[2]</a></sup
+    >.
+  </li>
+  <li>
+    If an effect that doubles the ATK or DEF is applied on a monster with ? ATK, the original ATK value is treated as 0<sup><a href="#">[2]</a></sup
+    >.
+    <br />
+    Example: If a <span class="tooltip-anchor" data-name="2948263">"Gogogo Golem - Golden Form"</span> that had its ATK become 4000 is targeted to activate <span class="tooltip-anchor" data-name="55713623">"Shrink"</span>, since the original ATK of <span class="tooltip-anchor" data-name="2948263">"Gogogo Golem - Golden Form"</span> is ?, its ATK becomes 0.
+  </li>
+</ul>
+
+<em>References:</em>
+<ol>
+  <li>
+    <a target="_blank" href="https://ygorganization.com/perfect-rulebook-2017/">OCG Perfect Rulebook 2017 page 156</a>
+  </li>
+  <li>
+    <a target="_blank" href="https://ygorganization.com/perfect-rulebook-2017/">OCG Perfect Rulebook 2017 page 160</a>
+  </li>
+  <li>
+    <a target="_blank" href="https://ygorganization.com/atkdefmodifierguide/">YGOrg's article (unofficial resource)</a>
+  </li>
+  <li>YGOrg Database of Official OCG Rulings: <a target="_blank" href="https://db.ygoresources.com/qa#17230">"Malacoda, Netherlord of the Burning Abyss"</a></li>
+</ol>
+
+<h3>Categories and interactions</h3>
+<p>
+  Any given modifier can fall under one of the following different categories<sup><a href="#">[1]</a></sup
+  >:
+</p>
+
+<ol>
+  <li>
+    <p>Activated/Lingering effect modifier that increases/decreases the current ATK/DEF.</p>
+  </li>
+  <li>
+    <p>Non-activated/Continuous effect modifier that increases/decreases the current ATK/DEF.</p>
+  </li>
+  <li>
+    <p>Activated/Lingering effect modifier that sets current ATK/DEF to determined value.</p>
+  </li>
+  <li>
+    <p>Non-activated/Continuous effect modifier that sets current ATK/DEF to determined value.</p>
+  </li>
+  <li>
+    <p>Activated/Lingering effect modifier that sets original ATK/DEF to determined value.</p>
+  </li>
+  <li>
+    <p>Non-activated/Continuous effect modifier that sets original ATK/DEF to determined value.</p>
+  </li>
+</ol>
+
+<p>Possible outcomes:</p>
+<ul>
+  <li>
+    <p>(x) are always applied successfully/Apply (x) after previous (5,6)</p>
+  </li>
+  <li>
+    <p>Remove previous (y) when applying (x): apply (x) then when (x) stops applying the value will forget/won't apply anymore about (y)</p>
+  </li>
+  <li><p>(y) are not reapplied until (x) stops applying</p></li>
+  <li><p>Apply (x) and reapply (y) afterwards</p></li>
+  <li>
+    <p>Apply new (x): overwrites previous (y) of the same kind, if (x) stops applying then (y) will return to apply</p>
+  </li>
+</ul>
+
+<p>In the examples, the two cards on the left are the "Prev", the card on the right separated by the previous two is the "New": "→" signifies the value after the "New" effect is applied, "⇒" signifies the value after the "New" effect has stopped applying</p>
+
+<table align="center">
+  <tbody>
+    <tr>
+      <td width="200" colspan="3" rowspan="3">
+        <b>
+          <div align="right">New</div>
+          <div align="center">\</div>
+          <div align="left">Prev</div>
+        </b>
+      </td>
+      <td><b>+/-</b></td>
+      <td colspan="2"><b>Set current</b></td>
+      <td colspan="2"><b>Set original</b></td>
+    </tr>
+    <tr>
+      <td><b>(1) &amp; (2)</b></td>
+      <td><b>(3)</b></td>
+      <td><b>(4)</b></td>
+      <td><b>(5)</b></td>
+      <td><b>(6)</b></td>
+    </tr>
+    <tr>
+      <td><b>L &amp; C</b></td>
+      <td><b>L</b></td>
+      <td><b>C</b></td>
+      <td><b>L</b></td>
+      <td><b>C</b></td>
+    </tr>
+    <!-- cases -->
+    <tr>
+      <td rowspan="2"><b>+/-</b></td>
+      <td><b>(1)</b></td>
+      <td><b>L</b></td>
+      <td rowspan="6">
+        <details align="left">
+          <summary>
+            (1,2) are always applied successfully<sup><a href="#">[1]</a></sup
+            ><sup><a href="#">[2]</a></sup
+            ><sup><a href="#">[5]</a></sup
+            ><sup><a href="#">[7]</a></sup>
+          </summary>
+          <hr />
+          <img loading="lazy" src="./images/atk_def_modification-1.png" />(1900+700)-600 → 2000 ⇒ 1900<sup><a href="#">[1]</a></sup>
+          <hr />
+          <img loading="lazy" src="./images/atk_def_modification-13.png" />1900/2+700 → 950+700=1650 ⇒ 1900<sup><a href="#">[2]</a></sup
+          ><sup><a href="#">[5]</a></sup>
+          <hr />
+          <img loading="lazy" src="./images/atk_def_modification-14.png" />1900/2+800 → 950+800=1750 ⇒ 950<sup><a href="#">[2]</a></sup>
+          <hr />
+          <img loading="lazy" src="./images/atk_def_modification-17.png" />(1900 halve original)+700 → 950+700=1650 ⇒ 1900<sup><a href="#">[7]</a></sup>
+        </details>
+      </td>
+      <td>
+        <details align="left">
+          <summary>
+            Remove previous (1,3) when applying (3)<sup><a href="#">[2]</a></sup>
+          </summary>
+          <hr />
+          <img loading="lazy" src="./images/atk_def_modification-2.png" />(1900+700)/2 → 1300 ⇒ 1900
+        </details>
+      </td>
+      <td>
+        <details align="left">
+          <summary>
+            (1,3,5) are not reapplied until (4) stops applying<sup><a href="#">[2]</a></sup
+            ><sup><a href="#">[6]</a></sup>
+          </summary>
+          <hr />
+          <img loading="lazy" src="./images/atk_def_modification-6.png" />(1900+700) set to 100 → 100 ⇒ 2600
+        </details>
+      </td>
+      <td colspan="2" rowspan="2">
+        <details align="left">
+          <summary>
+            Apply (5,6) and reapply (1,2) afterwards<sup><a href="#">[2]</a></sup
+            ><sup><a href="#">[3]</a></sup
+            ><sup><a href="#">[7]</a></sup
+            ><sup><a href="#">[9]</a></sup
+            ><sup><a href="#">[14]</a></sup>
+          </summary>
+          <hr />
+          <img loading="lazy" src="./images/atk_def_modification-9.png" />(1900+700) halve original → 950+700=1650 ⇒ 1900<sup><a href="#">[2]</a></sup
+          ><sup><a href="#">[7]</a></sup
+          ><sup><a href="#">[9]</a></sup
+          ><sup><a href="#">[14]</a></sup>
+          <hr />
+          <img loading="lazy" src="./images/atk_def_modification-10.png" />(1900+700) set original to 2400 → 2400+700=3100 ⇒ 2600<sup><a href="#">[2]</a></sup
+          ><sup><a href="#">[7]</a></sup>
+          <hr />
+          <img loading="lazy" src="./images/atk_def_modification-11.png" />(1900+800) halve original → 950+800=1750 ⇒ 2700<sup><a href="#">[3]</a></sup>
+          <hr />
+          <img loading="lazy" src="./images/atk_def_modification-12.png" />(1900+800) set original to 2400 → 2400+800=3200 ⇒ 2700<sup><a href="#">[3]</a></sup>
+        </details>
+      </td>
+    </tr>
+    <tr>
+      <td><b>(2)</b></td>
+      <td><b>C</b></td>
+      <td>
+        <details align="left">
+          <summary>
+            (2,4) are not reapplied until (3) stops applying<sup><a href="#">[3]</a></sup
+            ><sup><a href="#">[5]</a></sup
+            ><sup><a href="#">[9]</a></sup>
+          </summary>
+          <hr />
+          <img loading="lazy" src="./images/atk_def_modification-3.png" />(1900+800)/2 → 1350 ⇒ 2700
+        </details>
+      </td>
+      <td>
+        <details align="left">
+          <summary>
+            Apply (4) and reapply (2) afterwards<sup><a href="#">[3]</a></sup
+            ><sup><a href="#">[11]</a></sup>
+          </summary>
+          <hr />
+          <img loading="lazy" src="./images/atk_def_modification-5.png" />(1900+800) set to 100 → 100+800=900 ⇒ 2700
+        </details>
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2"><b>Set current</b></td>
+      <td><b>(3)</b></td>
+      <td><b>L</b></td>
+      <td>
+        <details align="left">
+          <summary>
+            Remove previous (1,3) when applying (3)<sup><a href="#">[4]</a></sup>
+          </summary>
+          <hr />
+          <img loading="lazy" src="./images/atk_def_modification-15.png" />(1900/2)/2 → 475 ⇒ 1900
+        </details>
+      </td>
+      <td>
+        <details align="left">
+          <summary>
+            (1,3,5) are not reapplied until (4) stops applying<sup><a href="#">[5]</a></sup>
+          </summary>
+          <hr />
+          <img loading="lazy" src="./images/atk_def_modification-7.png" />(1900/2) set to 100 → 100 ⇒ 950
+        </details>
+      </td>
+      <td>Remove previous (3,5) when applying (5)</td>
+      <td>(3,5) are not reapplied until (6) stops applying</td>
+    </tr>
+    <tr>
+      <td><b>(4)</b></td>
+      <td><b>C</b></td>
+      <td>
+        <details align="left">
+          <summary>
+            (2,4) are not reapplied until (3) stops applying<sup><a href="#">[6]</a></sup>
+          </summary>
+          <hr />
+          <img loading="lazy" src="./images/atk_def_modification-16.png" />(1900 set to 100)/2 → 50 ⇒ 100
+        </details>
+      </td>
+      <td>
+        <details align="left">
+          <summary>
+            Apply new (4)<sup><a href="#">[4]</a></sup>
+          </summary>
+          <hr />
+          <img loading="lazy" src="./images/atk_def_modification-4.png" />(1900x2) set to 100 → 100 ⇒ 3800
+        </details>
+      </td>
+      <td colspan="2">
+        <details align="left">
+          <summary>
+            Apply (5,6) and reapply (4) afterwards<sup><a href="#">[8]</a></sup
+            ><sup><a href="#">[13]</a></sup>
+          </summary>
+          <hr />
+          <img loading="lazy" src="./images/atk_def_modification-20.png" />(1900x2) halve original → 950x2=1900 ⇒ 3800<sup><a href="#">[8]</a></sup>
+        </details>
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2"><b>Set original</b></td>
+      <td><b>(5)</b></td>
+      <td><b>L</b></td>
+      <td rowspan="2">
+        <details align="left">
+          <summary>
+            Apply (3) after previous (5,6)<sup><a href="#">[10]</a></sup>
+          </summary>
+          <hr />
+          <img loading="lazy" src="./images/atk_def_modification-18.png" />(2300 halve original)x2 → 2300 ⇒ 1150
+        </details>
+      </td>
+      <td>(1,3,5) are not reapplied until (4) stops applying</td>
+      <td>
+        <details align="left">
+          <summary>
+            Remove previous (3,5) when applying (5)<sup><a href="#">[12]</a></sup>
+          </summary>
+          <hr />
+          <img loading="lazy" src="./images/atk_def_modification-19.png" />(1900 set original to 100) halve original → 50 ⇒ 1900
+        </details>
+      </td>
+      <td>(3,5) are not reapplied until (6) stops applying</td>
+    </tr>
+    <tr>
+      <td><b>(6)</b></td>
+      <td><b>C</b></td>
+      <td>Apply (6) and reapply (4) afterwards</td>
+      <td>(6) are not reapplied until (5) stops applying</td>
+      <td>Apply new (6)</td>
+    </tr>
+  </tbody>
+</table>
+
+<em>References:</em>
+<ol>
+  <li id="1-general">
+    <a target="_blank" href="https://ygorganization.com/perfect-rulebook-2017/">OCG Perfect Rulebook 2017 page 156: ATK/DEF Modifications</a>
+  </li>
+  <li id="2-activated+-">
+    <a target="_blank" href="https://ygorganization.com/perfect-rulebook-2017/">OCG Perfect Rulebook 2017 pages 157-158: ATK or DEF is Increased or Decreased by an Effect that Activates</a>
+  </li>
+  <li id="3-continuous+-">
+    <a target="_blank" href="https://ygorganization.com/perfect-rulebook-2017/">OCG Perfect Rulebook 2017 pages 159-160: ATK or DEF is Increased or Decreased by a Continuously Applied Effect</a>
+  </li>
+  <li id="4-activated_set-1">
+    <a target="_blank" href="https://ygorganization.com/perfect-rulebook-2017/">OCG Perfect Rulebook 2017 pages 160: values become a determined value</a>
+  </li>
+  <li id="5-activated_set-2">
+    <a target="_blank" href="https://ygorganization.com/perfect-rulebook-2017/">OCG Perfect Rulebook 2017 page 161: ATK or DEF Become a Determined Value by an Activated Effect</a>
+  </li>
+  <li id="6-continuous_set">
+    <a target="_blank" href="https://ygorganization.com/perfect-rulebook-2017/">OCG Perfect Rulebook 2017 page 162: Continuously Applied Effect that Makes the ATK or DEF Become a Determined Value is Applied</a>
+  </li>
+  <li id="7-original_set">
+    <a target="_blank" href="https://ygorganization.com/perfect-rulebook-2017/">OCG Perfect Rulebook 2017 page 163: Effect that Makes the Original ATK or DEF Become a Determined Value is Applied</a>
+  </li>
+  <li>
+    <a target="_blank" href="https://ygorganization.com/atkdefmodifierguide/">YGOrg's article (unofficial resource)</a>
+  </li>
+  <li id="9">
+    YGOrg Database of Official OCG Rulings:
+    <a target="_blank" href="https://db.ygoresources.com/qa#8224">"Blackwing - Gale the Whirlwind", "Tragoedia" etc.</a>
+  </li>
+  <li id="10">
+    YGOrg Database of Official OCG Rulings:
+    <a target="_blank" href="https://db.ygoresources.com/qa#21633">Lingering Original Set -> Lingering Current Set</a>
+  </li>
+  <li id="11">
+    YGOrg Database of Official OCG Rulings:
+    <a target="_blank" href="https://db.ygoresources.com/qa#6248">Continuous Current Addition -&gt; Continuous Current Set</a>
+  </li>
+  <li id="12">
+    YGOrg Database of Official OCG Rulings:
+    <a target="_blank" href="https://db.ygoresources.com/qa#20149">Lingering Original Set -&gt; Lingering Original Set</a>
+  </li>
+  <li id="13">
+    YGOrg Database of Official OCG Rulings:
+    <a target="_blank" href="https://db.ygoresources.com/qa#6143">Continuous Current Set -&gt; Lingering Original Set</a>
+  </li>
+  <li>
+    YGOrg Database of Official OCG Rulings:
+    <a target="_blank" href="https://db.ygoresources.com/qa#7">Lingering Current Addition -&gt; Lingering Original Set</a>
+  </li>
+  <li>
+    <a target="_blank" href="https://www.dropbox.com/scl/fo/tia8xzqafu1ibscz0gz95/AEx_Ri-wkJ9QE75AWRKn4RQ?preview=Judge+Resources.pdf&amp;rlkey=z6uissqwewd81wm9c03zosaa3">Pazim's Resources (unofficial resource)</a>
+  </li>
+</ol>
+
+<h3>Special cases</h3>
+
+<h4>Applying a special non-activated effect that is always applied last</h4>
+
+<p>Certain effects that set a monster's current ATK/DEF continuously are always reapplied last as new modifiers are introduced, breaking some of the rules established above. Even though they can be described in the same way (non-activated effects that set ATK/DEF to a determined value) it is not always clear why they work differently.</p>
+
+<p>
+  For these special cases, no matter what the effects currently in play are, they are always applied last<sup><a href="#">[2]</a></sup
+  >.
+</p>
+
+<ul>
+  <li>
+    If a new effect is applied, reapply those effects right afterwards<sup><a href="#">[2]</a></sup
+    >.
+  </li>
+  <li>
+    When those effects stop applying, reapply everything, including lingering effects (1,3,5)<sup><a href="#">[2]</a></sup
+    >.
+  </li>
+</ul>
+
+<table align="center">
+  <tbody>
+    <tr>
+      <td align="center" colspan="100%"><b>Examples</b></td>
+    </tr>
+    <tr>
+      <td align="center" width="100">
+        <img loading="lazy" src="https://images.ygoprodeck.com/images/cards/86804246.jpg" alt="86804246" />
+      </td>
+      <td class="td-top" colspan="100%">
+        <span class="tooltip-anchor" data-name="86804246"><strong>Super Crashbug</strong></span>
+        <p>
+          <span class="tooltip-anchor" data-name="69610924">"Number 17: Leviathan Dragon"</span> (1) and <span class="tooltip-anchor" data-name="86804246">"Super Crashbug"</span> (2) are on the field. The effect of (2) switches the ATK/DEF of (1), to be 0/2000. If the effect of (1) is activated, its ATK is recalculated with the effect of (2) being applied last. The ATK/DEF become 0/2500, not 500/2000. If (2) leaves the field, the ATK/DEF of (1) becomes 2500/0<sup><a href="#">[1]</a></sup
+          >.
+        </p>
+      </td>
+    </tr>
+
+    <tr>
+      <td align="center" width="100">
+        <img loading="lazy" src="https://images.ygoprodeck.com/images/cards/62180201.jpg" alt="62180201" />
+      </td>
+      <td class="td-top" colspan="100%">
+        <span class="tooltip-anchor" data-name="62180201"><strong>The Wicked Dreadroot</strong></span>
+        <p>
+          <span class="tooltip-anchor" data-name="74677422">"Red-Eyes Black Dragon"</span> (1) is equipped with <span class="tooltip-anchor" data-name="22046459">"Megamorph"</span>, and The <span class="tooltip-anchor" data-name="62180201">"The Wicked Dreadroot"</span> (2) is on the field, which halves the current ATK/DEF of all other monsters on the field. The ATK of (1) is either 600 or 2400, while its DEF is 1000 <sup><a href="#">[1]</a></sup
+          >.
+        </p>
+
+        <p>
+          <span class="tooltip-anchor" data-name="71645242">"Black Garden"</span> (1) and The <span class="tooltip-anchor" data-name="62180201">"The Wicked Dreadroot"</span> (2) are on the field. If <span class="tooltip-anchor" data-name="86120751">"Aleister the Invoker"</span> (3) is Normal Summoned, the effect of (2) is immediately applied, so the ATK/DEF of (3) become 500/900. The effect of (1) then activates, and halves the ATK of (3) to 250. Now, the effect of The (2) is reapplied to the newly-determined value, and halves it further to 125. (The DEF remains 900). If (2) leaves the field, the ATK of (3) becomes 250 again <sup><a href="#">[1]</a></sup
+          >.
+        </p>
+      </td>
+    </tr>
+
+    <tr>
+      <td align="center" width="100">
+        <img loading="lazy" src="https://images.ygoprodeck.com/images/cards/21208154.jpg" alt="21208154" />
+      </td>
+      <td class="td-top" colspan="100%">
+        <span class="tooltip-anchor" data-name="21208154"><strong>The Wicked Avatar</strong></span>
+        <p>
+          <span class="tooltip-anchor" data-name="21208154">"The Wicked Avatar"</span> (1) The <span class="tooltip-anchor" data-name="21208154">"The Wicked Avatar"</span> (1) and <span class="tooltip-anchor" data-name="41463181">"Salamangreat Heatleo"</span> (2) are on the field, and the ATK/DEF of (1) are each 2400. If the effect of (2) is activated, targeting a <span class="tooltip-anchor" data-name="2857636">"Knightmare Phoenix"</span> in the Graveyard and (1) on the field, the ATK of (1) becomes 1900, but immediately reverts to 2400. During this turn, if the effects of (1) are negated, its ATK will become 1900 again and its DEF becomes 0<sup><a href="#">[1]</a></sup
+          ><sup><a href="#">[3]</a></sup
+          >.
+        </p>
+      </td>
+    </tr>
+
+    <tr>
+      <td align="center" width="100">
+        <img loading="lazy" src="https://images.ygoprodeck.com/images/cards/85066822.jpg" alt="85066822" />
+      </td>
+      <td class="td-top" colspan="100%">
+        <span class="tooltip-anchor" data-name="85066822"><strong>Water Dragon</strong></span>
+        <p>
+          <span class="tooltip-anchor" data-name="85066822">"Water Dragon"</span> (1), <span class="tooltip-anchor" data-name="56132807">"Apple Magician Girl"</span> (2), and <span class="tooltip-anchor" data-name="7198399">"Chocolate Magician Girl"</span> are all on the field, and the ATK of (2) is 0 due to the effect of (1). If <span class="tooltip-anchor" data-name="36045450">"Magicians Unite"</span> is activated, targeting (2), its ATK becomes 3000, but the effect of (1) is immediately reapplied and makes the ATK become 0 again. If (1) is destroyed this turn, the ATK of (2) becomes 3000 again<sup><a href="#">[1]</a></sup
+          >.
+        </p>
+      </td>
+    </tr>
+
+    <tr>
+      <td align="center" width="100">
+        <img loading="lazy" src="https://images.ygoprodeck.com/images/cards/97811903.jpg" alt="97811903" />
+      </td>
+      <td class="td-top" colspan="100%">
+        <span class="tooltip-anchor" data-name="97811903"><strong>Clear Vice Dragon</strong></span>
+        <p>
+          If <span class="tooltip-anchor" data-name="97811903">"Clear Vice Dragon"</span> (1) attacks <span class="tooltip-anchor" data-name="74677422">"Red-Eyes Black Dragon"</span>, (1) will have 4800 ATK during damage calculation. If <span class="tooltip-anchor" data-name="86449372">"TA.I. Strike"</span> is activated during damage calculation, the ATK of (1) becomes 2400, but the effect is reapplied and becomes 4800 again<sup><a href="#">[1]</a></sup>
+          .
+        </p>
+      </td>
+    </tr>
+
+    <tr>
+      <td align="center" width="100">
+        <img loading="lazy" src="https://images.ygoprodeck.com/images/cards/93130021.jpg" alt="93130021" />
+      </td>
+      <td class="td-top" colspan="100%">
+        <span class="tooltip-anchor" data-name="93130021"><strong>Victory Viper XX03</strong></span>
+        <p>
+          <span class="tooltip-anchor" data-name="93130021">"Victory Viper XX03"</span> (1) and an "Option Token" (2) summoned by (1) are on the field. The Pendulum Effect of <span class="tooltip-anchor" data-name="4239451">"Performapal Turn Toad"</span> is applied to the (2), which switches its ATK/DEF from 1200/1000 to 1000/1200. However, its ATK/DEF immediately readjust to be the same as (1), so they become 1200/1000 again<sup><a href="#">[1]</a></sup
+          >.
+        </p>
+      </td>
+    </tr>
+
+    <tr>
+      <td align="center" width="100">
+        <img loading="lazy" src="https://images.ygoprodeck.com/images/cards/22359980.jpg" alt="22359980" />
+      </td>
+      <td class="td-top" colspan="100%">
+        <span class="tooltip-anchor" data-name="22359980"><strong>Mirror Wall</strong></span>
+        <p>
+          Injection Fairy Lily attacks while <span class="tooltip-anchor" data-name="22359980">"Mirror Wall"</span> (1) is on the field. Once the attack is declared, the ATK of Injection <span class="tooltip-anchor" data-name="79575620">"Fairy Lily"</span> (2) is halved to 200. During damage calculation, if the effect of (2) is activated, its ATK is recalculated. After its effect resolves, its ATK becomes 1700 due to (1), which is 3400 halved<sup><a href="#">[1]</a></sup
+          >.
+        </p>
+
+        <p>
+          The effect of <span class="tooltip-anchor" data-name="22359980">"Mirror Wall"</span> (1) is applied to a <span class="tooltip-anchor" data-name="59023523">"Cybernetic Magician"</span> (2) that attacked, so its ATK becomes 1200. If the effect of (2) is then activated, applying to itself, its ATK becomes 2000, but the effect of (1) immediately reapplies and halves that amount, so the ATK actually becomes 1000<sup><a href="#">[1]</a></sup
+          >.
+        </p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <tbody>
+    <tr>
+      <td colspan="100%" align="center"><b>More examples</b></td>
+    </tr>
+
+    <tr>
+      <td align="center" class="td-top" colspan="1" style="width: 20%">
+        <img loading="lazy" src="https://images.ygoprodeck.com/images/cards/98336111.jpg" alt="98336111" />
+        <br />
+        <span class="tooltip-anchor" data-name="98336111"><strong>Fusion Devourer</strong></span
+        ><sup><a href="#">[2]</a></sup>
+      </td>
+      <td align="center" class="td-top" colspan="1" style="width: 20%">
+        <img loading="lazy" src="https://images.ygoprodeck.com/images/cards/14258627.jpg" alt="14258627" />
+        <br />
+        <span class="tooltip-anchor" data-name="14258627"><strong>Gaia Plate the Earth Giant</strong></span
+        ><sup><a href="#">[2]</a></sup>
+      </td>
+      <td align="center" class="td-top" colspan="1" style="width: 20%">
+        <img loading="lazy" src="https://images.ygoprodeck.com/images/cards/14291024.jpg" alt="14291024" />
+        <br />
+        <span class="tooltip-anchor" data-name="14291024"><strong>Gradius' Option</strong></span
+        ><sup><a href="#">[4]</a></sup>
+      </td>
+      <td align="center" class="td-top" colspan="1" style="width: 20%">
+        <img loading="lazy" src="https://images.ygoprodeck.com/images/cards/71703785.jpg" alt="71703785" />
+        <br />
+        <span class="tooltip-anchor" data-name="71703785"><strong>Palladium Oracle Mahad</strong></span
+        ><sup><a href="#">[1]</a></sup>
+      </td>
+      <td align="center" class="td-top" colspan="1">
+        <img loading="lazy" src="https://images.ygoprodeck.com/images/cards/37261776.jpg" alt="37261776" />
+        <br />
+        <span class="tooltip-anchor" data-name="37261776"><strong>Salamangreat Violet Chimera</strong></span
+        ><sup><a href="#">[5]</a></sup>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<em>References:</em>
+<ol>
+  <li>
+    <a target="_blank" href="https://ygorganization.com/atkdefmodifierguide/">YGOrg's article (unofficial resource)</a>
+  </li>
+  <li>
+    <a target="_blank" href="https://www.dropbox.com/scl/fo/tia8xzqafu1ibscz0gz95/AEx_Ri-wkJ9QE75AWRKn4RQ?preview=Judge+Resources.pdf&amp;rlkey=z6uissqwewd81wm9c03zosaa3">Pazim's Resources (unofficial resource)</a>
+  </li>
+  <li>YGOrg Database of Official OCG Rulings: <a target="_blank" href="https://db.ygoresources.com/qa#8820">"The Wicked Avatar"</a></li>
+  <li>YGOrg Database of Official OCG Rulings: <a target="_blank" href="https://db.ygoresources.com/qa#10229">"Gradius' Option"</a></li>
+  <li>YGOrg Database of Official OCG Rulings: <a target="_blank" href="https://db.ygoresources.com/qa#22182">"Salamangreat Violet Chimera"</a></li>
+</ol>
+
+<h4>Activated effects that work like non-activated effects: Set own ATK/DEF on Summon</h4>
+
+<p>
+  A monster's effect that sets its own current or original ATK/DEF upon being Summoned is generally considered a Continuous Effect, because it does not activate. However, these effects behave more like activated effects with respect to the interaction rules covered above. They are only applied once when the Summon is successful, and are not continuously-applying thereafter. <span class="tooltip-anchor" data-name="27762803">"Naturia Beetle"</span> is similar as well, although its effect is not applied upon being Summoned<sup><a href="#">[1]</a></sup
+  >.
+</p>
+
+<ul>
+  <li>
+    A monster (1) whose effect reads "The ATK of this card becomes the combined original ATK of the Tributed monsters", if it is Summoned by tributing a monster (2) on the field whose <strong>original</strong> ATK was set by another card (3), (1)'s ATK will be (2)'s printed ATK even though (2)'s original ATK differs from its printed ATK due to (3)<sup><a href="#">[2]</a></sup
+    >.
+  </li>
+</ul>
+
+<table align="center">
+  <tbody>
+    <tr>
+      <td align="center" colspan="100%"><b>Examples</b></td>
+    </tr>
+    <tr>
+      <td align="center" width="100">
+        <img loading="lazy" src="https://images.ygoprodeck.com/images/cards/4280258.jpg" alt="4280258" />
+      </td>
+      <td class="td-top" colspan="100%">
+        <span class="tooltip-anchor" data-name="4280258"><strong>Apollousa, Bow of the Goddess</strong></span>
+        <p>
+          <span class="tooltip-anchor" data-name="4280258">"Apollousa, Bow of the Goddess"</span> (1) has an original ATK of 3200 by its own effect, and has used its effect to decrease its ATK by 800 twice, for a total decrease of 1600 ATK. If the effect of <span class="tooltip-anchor" data-name="55713623">"Shrink"</span> is applied to (1), its original ATK becomes 1600, and the decrease of 1600 by its own effect is reapplied, making its current ATK 0. At the end of the turn, the original ATK of (1) becomes 0<sup><a href="#">[1]</a></sup
+          ><sup><a href="#">[3]</a></sup
+          >.
+        </p>
+      </td>
+    </tr>
+
+    <tr>
+      <td align="center" width="100">
+        <img loading="lazy" src="https://images.ygoprodeck.com/images/cards/27762803.jpg" alt="27762803" />
+      </td>
+      <td class="td-top" colspan="100%">
+        <span class="tooltip-anchor" data-name="27762803"><strong>Naturia Beetle</strong></span>
+        <p>
+          <span class="tooltip-anchor" data-name="27762803">"Naturia Beetle"</span> (1) has its ATK/DEF halved by the effect of <span class="tooltip-anchor" data-name="2009101">"Blackwing - Gale the Whirlwind"</span> (2), so its ATK/DEF are 200/900. If a Spell Card is activated, the effect of (1) is applied and its original ATK/DEF switch. Its current ATK/DEF will be 1800/400, meaning the effect of (2) is no longer applied<sup><a href="#">[1]</a></sup
+          >.
+        </p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<em>References:</em>
+<ol>
+  <li>
+    <a target="_blank" href="https://ygorganization.com/atkdefmodifierguide/">YGOrg's article (unofficial resource)</a>
+  </li>
+  <li>
+    YGOrg Database of Official OCG Rulings:
+    <a target="_blank" href="https://db.ygoresources.com/qa#6999">"Beast King Barbaros", "Fog King"</a>
+  </li>
+  <li>
+    YGOrg Database of Official OCG Rulings:
+    <a target="_blank" href="https://db.ygoresources.com/qa#22612">"Apollousa, Bow of the Goddess", "Shrink"</a>
+  </li>
+</ol>
+
+<h4>Activated effects that work like non-activated effects</h4>
+
+<p>
+  Conversely, there are activated effects that behave like non-activated effects, such as <span class="tooltip-anchor" data-name="86396750">"Spiritual Beast Apelio"</span> and <span class="tooltip-anchor" data-name="5050644">"Aroma Garden"</span>. The activated effect's resolution is to begin applying a non-activated effect, which then takes effect for a certain amount of time. These cards have effects that activate and resolve, but the applied increase functions like a non-activated effect.<sup><a href="#">[1]</a></sup
+  >.
+</p>
+
+<table align="center">
+  <tbody>
+    <tr>
+      <td align="center" colspan="100%"><b>Examples</b></td>
+    </tr>
+    <tr>
+      <td align="center" width="100">
+        <img loading="lazy" src="https://images.ygoprodeck.com/images/cards/86396750.jpg" alt="86396750" />
+      </td>
+      <td class="td-top" colspan="100%">
+        <span class="tooltip-anchor" data-name="86396750"><strong>Spiritual Beast Apelio</strong></span>
+        <p>
+          The effect of your <span class="tooltip-anchor" data-name="86396750">"Spiritual Beast Apelio"</span> (1) has activated and resolved. Your <span class="tooltip-anchor" data-name="56655675">"Ritual Beast Ulti-Gaiapelio"</span> (2) with 3700 ATK attacks an opponent's Defense Position <span class="tooltip-anchor" data-name="62340868">"Kazejin"</span> (3), and during damage calculation the effect of (3) is activated. The ATK of (2) becomes 0, and damage calculation occurs with that value. After damage calculation concludes, the effect of (3) stops applying and the effect of (1) reapplies, so the ATK of (2) becomes 3700.<sup><a href="#">[1]</a></sup
+          >.
+        </p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<em>References:</em>
+<ol>
+  <li>
+    <a target="_blank" href="https://ygorganization.com/atkdefmodifierguide/">YGOrg's article (unofficial resource)</a>
+  </li>
+</ol>

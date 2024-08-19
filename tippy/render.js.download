@@ -1,0 +1,173 @@
+function renderArticleCard(data,widths={'w1':'50%','w2':'50%'}){let article_card=`<div class="p-2 deck_article-card-container" style="--w1: ${widths.w1}; --w2: ${widths.w2};">
+                <div class="d-flex position-relative rounded deck_article-card lazy" data-src="${data.article_image||data.image_card}" title="${data.deck_name||data.title}">
+                    <div class="d-flex flex-column justify-content-between w-100 rounded deck_article-card-overlay">
+                        <span class="align-self-start m-2 text-center rounded-pill article-type-badge">${(data.format||data.type)||'Article'}</span>
+                        <div class="d-flex flex-column text-white text-left p-2 rounded-bottom deck_article-card-details">
+                            <a href="/article/${data.pretty_url}/" class="stretched-link text-decoration-none text-reset text-truncate deck_article-card-title">${data.deck_name||data.title}</a>
+                            ${data.excerpt?`<span class="text-truncate deck_article-card-excerpt">${data.excerpt}</span>`:''}
+                            <div class="d-flex align-items-baseline">
+                                <span class="deck_article-avatar mr-1"><img src="${data.img_url}" loading="lazy"></span>
+                                <div class="d-flex flex-wrap flex-grow-1 deck_article-card-stats">
+                                    <span class="text-truncate mr-1">${data.username}</span>
+                                    <div class="d-flex justify-content-between flex-wrap flex-grow-1" style="column-gap: 8px;">
+                                        <span class="text-nowrap">- ${data.submit_date}</span>
+                                        <div class="d-flex align-items-center">
+                                            <span class="mr-2"><i class="fa-solid fa-eye"></i> ${data.deck_views||data.deck_views===0?data.deck_views.toLocaleString():data.views.toLocaleString()}</span>
+                                            <span><i class="fa-solid fa-messages"></i> ${data.comments}</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>`;return article_card;}
+function renderArticleListItem(data){let article_list_item=`<a class="text-decoration-none w-100" href="/article/${data.pretty_url}">
+            <div class="d-flex align-items-center s_m-article-li">
+                <div class="d-flex justify-content-center align-items-center s_m-article-li-img-frame">
+                    <img data-src="${data.image_card}" class="article-li-img-lazy">
+                </div>
+                <div class="d-flex flex-column" style="padding: 8px; gap: 8px;">
+                    <span class="s_m-article-li-title" style="font-weight: 700;">${data.title}</span>
+                    <div class="d-flex align-items-center text-primary" style="gap: 2px; font-size: 13px;">
+                        <span class="deck_article-avatar"><img src="${data.img_url?data.img_url:''}" title="${data.username} avatar" loading="lazy"></span>
+                        ${data.username}
+                    </div>
+                    <div class="d-flex s_m-article-li-stats" style="gap: 8px; font-size: 13px;">
+                        <span><i class="fa-solid fa-eye"></i> ${data.views.toLocaleString()}</span>
+                        <span><i class="fa-solid fa-messages"></i> ${data.comments}</span>
+                        <span><i class="fa-solid fa-clock"></i> ${data.submit_date}</span>
+                    </div>
+                </div>
+            </div>
+        </a>`;return article_list_item;}
+function renderGridDeckCards(container,decks,{mode,clearContainer=true,widths={w1:'50%',w2:'50%'}}={}){const ctr=jQuery(container);if(clearContainer===true){ctr.empty();}
+for(const deck of decks){const elem=jQuery('<div class="p-2 deck_article-card-container" style="--w1: '+widths.w1+'; --w2: '+widths.w2+';">'+
+'<div class="d-flex position-relative rounded deck_article-card lazy">'+
+'<div class="d-flex flex-column justify-content-between w-100 rounded deck_article-card-overlay">'+
+'<div class="d-flex flex-wrap p-2" style="gap: 4px;">'+
+'<div class="d-flex flex-grow-1"><span class="rounded-pill deck-type-badge text-center"></span></div>'+
+'<div class="d-flex align-items-start flex-wrap text-white" style="gap: 4px;">'+
+'<div class="px-1 rounded-pill deck-cost-badge"><i class="fa-solid fa-cart-shopping"></i></div>'+
+'<div class="px-1 rounded-pill deck-cost-badge"></div>'+
+'</div>'+
+'</div>'+
+'<div class="d-flex flex-column text-left p-2 rounded-bottom deck_article-card-details text-white">'+
+'<a class="stretched-link text-decoration-none text-reset text-truncate deck_article-card-title"></a>'+
+'<span class="text-truncate deck_article-card-excerpt"></span>'+
+'<div class="d-flex align-items-baseline">'+
+'<span class="deck_article-avatar mr-1"></span>'+
+'<div class="d-flex flex-wrap flex-grow-1 deck_article-card-stats">'+
+'<span class="text-truncate mr-1"></span>'+
+'<div class="d-flex justify-content-between flex-wrap flex-grow-1" style="column-gap: 8px;">'+
+'<span class="text-nowrap"></span>'+
+'<div class="d-flex align-items-center">'+
+'<span class="mr-2"><i class="fa-solid fa-eye"></i> </span>'+
+'<span><i class="fa-solid fa-messages"></i> </span>'+
+'</div>'+
+'</div>'+
+'</div>'+
+'</div>'+
+'</div>'+
+'</div>'+
+'</div>'+
+'</div>').appendTo(ctr);const isTournament=deck.format.toLowerCase().includes('tournament meta decks');let coverCard='';if(deck.cover_card){coverCard=deck.cover_card;}else if(deck.main_deck){const maindeckarray=JSON.parse(deck.main_deck);coverCard=maindeckarray[0];}
+elem.find('a').attr('href','/deck/'+deck.pretty_url);elem.find('.deck_article-card').attr('title',deck.deck_name).attr('data-src','https://images.ygoprodeck.com/images/cards_cropped/'+coverCard+'.jpg');elem.find('.deck_article-card-title').text(deck.deck_name);if(mode==='tournament'||isTournament){elem.find('.deck_article-card-overlay').children().first().children().eq(1).remove();if(deck.tournamentName){elem.find('.deck-type-badge').text(deck.tournamentName);elem.find('.deck_article-card-excerpt').remove();elem.find('.deck_article-avatar').remove();elem.find('.deck_article-card-stats').removeClass('d-flex flex-wrap flex-grow-1');const placement='<i class="fa-solid fa-trophy" aria-hidden="true"></i> '+deck.tournamentPlacement;const playerCount='('+(deck.tournamentPlayerCountIsApproximate?'~':'')+deck.tournamentPlayerCount+' players)';const tournamentDate='<i class="fa-regular fa-calendar" aria-hidden="true"></i> '+deck.submit_date;elem.find('.deck_article-card-stats').html(placement+' '+playerCount+' '+tournamentDate);if(deck.tournamentPlayerName){elem.find('.deck_article-card-stats').append(' piloted by <i class="fa-solid fa-user" aria-hidden="true"></i> '+deck.tournamentPlayerName);}}else{elem.find('.deck-type-badge').parent().remove();elem.find('.deck_article-card-excerpt').text(deck.deck_excerpt);elem.find('.deck_article-card-details').children('div').remove();}}else{elem.find('.deck-type-badge').text(deck.format);elem.find('.deck-cost-badge').first().appendText(deck.deck_price?' $'+deck.deck_price:' -');const SRCost='<img src="https://images.ygoprodeck.com/images/cards/icons/master_duel/super_rare.png" class="md-craft-icons"> '+(deck.super||'-');const URCost='<img src="https://images.ygoprodeck.com/images/cards/icons/master_duel/ultra_rare.png" class="md-craft-icons"> '+(deck.ultra||'-');elem.find('.deck-cost-badge').eq(1).html(SRCost+' '+URCost);elem.find('.deck_article-card-excerpt').text(deck.deck_excerpt);elem.find('.deck_article-avatar').html('<img src="'+deck.img_url+'" loading="lazy">');elem.find('.deck_article-card-stats').children('span').text(deck.username);elem.find('.deck_article-card-stats').children('div').children('span').text('- '+deck.submit_date);elem.find('.deck_article-card-stats').children('div').children('div').children().first().appendText(deck.deck_views.toLocaleString());elem.find('.deck_article-card-stats').children('div').children('div').children().eq(1).appendText(deck.comments);}}
+ctr.find('.lazy').Lazy({defaultImage:"https://images.ygoprodeck.com/images/assets/CardBack.jpg",scrollDirection:'vertical',effect:"fadeIn",effectTime:500,threshold:0,visibleOnly:true,onError:function(element){console.log('error loading '+element.data('src'));}});}
+function getPieChart(sel){let elm=sel;if(typeof(sel)==='string')
+elm=document.querySelector(sel);if(!elm){console.warn('Piechart with selector \''+sel+'\' not found.');return null;}
+if(!elm.classList.contains('piechart-container')){console.log('Element with selector \''+sel+'\' is not a pie chart (.piechart-container missing).');return null;}
+return elm;}
+function initPiechart(sel,total,shift){const pie=getPieChart(sel);if(!pie)return;jQuery(pie).empty();pie.piechartShift=(((shift||0)%1)+1)%1;pie.piechartCurrent=0;pie.piechartTotal=total;}
+function getPiechartRenderProgress(sel){const pie=getPieChart(sel);if(!pie)return{current:0,total:0};return{current:pie.piechartCurrent,total:pie.piechartTotal};}
+function renderPieSlice(sel,label,img,value,onClick){const pie=getPieChart(sel);if(!pie)return;const slice=jQuery('<span class="piechart-slice"></span>').prop('title',label+' ('+value+')').css('background-image',img);if(value<pie.piechartTotal){const getRadians=(()=>2*Math.PI*(((pie.piechartCurrent/pie.piechartTotal)+pie.piechartShift)%1-.25));let startingRadians=getRadians();pie.piechartCurrent+=value;let endingRadians=getRadians();const extremesPerSector=['calc(100% - 2px) 0%','calc(100% - 2px) calc(100% - 2px)','0% calc(100% - 2px)','0% 0%'];const pointForXY=((x,y,d)=>('calc('+((1+x)*50)+'% - '+d*y+'px) calc('+((1+y)*50)+'% + '+d*x+'px)'));const sectorForXY=((x,y)=>((x>=0)?((y<=0)?0:1):((y>=0)?2:3)));const startingX=Math.cos(startingRadians);const startingY=Math.sin(startingRadians);const startingSector=sectorForXY(startingX,startingY);const endingX=Math.cos(endingRadians);const endingY=Math.sin(endingRadians);const endingSector=sectorForXY(endingX,endingY);const coveredSectors=[];const goesBackwards=((endingSector<startingSector)||((endingSector===startingSector)&&(endingRadians<startingRadians)));for(let i=startingSector,n=endingSector+(goesBackwards?4:0);i<=n;++i){coveredSectors.push(i%4);}
+const middleX=Math.cos((startingRadians+endingRadians)/2);const middleY=Math.sin((startingRadians+endingRadians)/2);let clipPath=['calc(50% + '+middleX*2+'px) calc(50% + '+middleY*2+'px)'];clipPath.push(pointForXY(startingX,startingY,+2));for(const sector of coveredSectors){clipPath.push(extremesPerSector[sector]);}
+clipPath.push(pointForXY(endingX,endingY,-2));const coversBothInOrder=((one,two)=>{const a=coveredSectors.indexOf(one);return(a>=0)&&(coveredSectors[a+1]==two);});const leftEdge=(coversBothInOrder(2,3)?-1:Math.min(startingX,endingX,0))/2+.5;const rightEdge=(coversBothInOrder(0,1)?1:Math.max(startingX,endingX,0))/2+.5;const topEdge=(coversBothInOrder(3,0)?-1:Math.min(startingY,endingY,0))/2+.5;const bottomEdge=(coversBothInOrder(1,2)?1:Math.max(startingY,endingY,0))/2+.5;const backgroundSize=Math.max(rightEdge-leftEdge,bottomEdge-topEdge);const leftBackgroundImageEdge=(leftEdge+rightEdge-backgroundSize)/2;const topBackgroundImageEdge=(topEdge+bottomEdge-backgroundSize)/2;slice.css('clip-path','polygon('+clipPath.join(',')+')').css('background-size',backgroundSize*100+'% '+backgroundSize*100+'%').css('background-position-x','calc('+leftBackgroundImageEdge+' * var(--piechart-size))').css('background-position-y','calc('+topBackgroundImageEdge+' * var(--piechart-size))');}else{slice.css('background-size','100% 100%');}
+if(onClick)
+slice.click(onClick);slice.appendTo(pie);return slice;}
+function render_deck_preview(data){function generateCardHtml(deck){const cards=[];deck.forEach(cardId=>{const existingCard=cards.find(card=>card.id===cardId);if(existingCard){existingCard.quantity++;}else{cards.push({id:cardId,quantity:1});}});return cards.map(card=>{const quantityDisplay=card.quantity>1?`<span class="quantity-badge" style="position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); color: white; font-weight: bold; text-shadow: 1px 1px 2px black;">x${card.quantity}</span>`:'';return `
+            <div class="deck-preview-tooltip-card" data-card="${card.id}" style="position: relative;">
+                <img src="https://images.ygoprodeck.com/images/cards_small/${card.id}.jpg" loading="lazy" alt="${card.id}" title="${card.id}">
+                ${quantityDisplay}
+            </div>
+        `;}).join('');}
+let extraDeckHtml=data.extradeck.length>0?`
+        <div class="deck-preview-tooltip-extra">
+            <span class="deck-preview-tooltip-extra-title">Extra Deck</span>
+            <div class="deck-preview-tooltip-extra-cards ${data.sidedeck.length===0?'deck-preview-full-width':'deck-preview-half-width'}">
+                ${generateCardHtml(data.extradeck)}
+            </div>
+        </div>
+    `:'';let sideDeckHtml=data.sidedeck.length>0?`
+        <div class="deck-preview-tooltip-side">
+            <span class="deck-preview-tooltip-side-title">Side Deck</span>
+            <div class="deck-preview-tooltip-side-cards ${data.extradeck.length===0?'deck-preview-full-width':'deck-preview-half-width'}">
+                ${generateCardHtml(data.sidedeck)}
+            </div>
+        </div>
+    `:'';let deckClasses=`deck-preview-tooltip-${data.extradeck.length>0&&data.sidedeck.length>0?'two-column':'full-width'}`;let decksContainer='';if(data.extradeck.length>0||data.sidedeck.length>0){decksContainer=`<div class="${deckClasses}">
+            ${extraDeckHtml}
+            ${sideDeckHtml}
+        </div>`;}
+let deck_preview=`<div class="deck-preview-tooltip">
+        <div class="deck-preview-tooltip-header d-flex">
+            <span class="deck-preview-tooltip-title mr-auto">${data.deckname}</span>
+            <span class="deck-preview-tooltip-deckcount justify-content-end mr-3">${data.decksize} cards</span>
+        </div>
+        <div class="deck-preview-tooltip-body">
+            <div class="deck-preview-tooltip-maindeck">
+                <div class="deck-preview-tooltip-maindeck-cards deck-preview-full-width">
+                    ${generateCardHtml(data.maindeck)}
+                </div>
+            </div>
+            ${decksContainer}
+        </div>
+    </div>`;return deck_preview;}
+function render_card_preview(data){data=data['data'][0];let isMonster=data.type!=="Spell Card"&&data.type!=="Trap Card"&&data.type!=="Skill Card";let isLink=data.type==="Link Monster";let banIcons={"Banned":'https://images.ygoprodeck.com/images/assets/ban/limited_0.png',"Limited":'https://images.ygoprodeck.com/images/assets/ban/limited_1.png',"Semi-Limited":'https://images.ygoprodeck.com/images/assets/ban/limited_2.png'};const isTouchDevice='ontouchstart'in window||navigator.maxTouchPoints>0;let tcgBanStatus=data.banlist_info&&data.banlist_info.ban_tcg?data.banlist_info.ban_tcg:'';let ocgBanStatus=data.banlist_info&&data.banlist_info.ban_ocg?data.banlist_info.ban_ocg:'';let tcgBan=tcgBanStatus&&banIcons[tcgBanStatus]?`<div class="tooltip-ban-status"><img src="${banIcons[tcgBanStatus]}" class="tooltip-card-icon mr-1">TCG: ${tcgBanStatus}</div>`:'';let ocgBan=ocgBanStatus&&banIcons[ocgBanStatus]?`<div class="tooltip-ban-status"><img src="${banIcons[ocgBanStatus]}" class="tooltip-card-icon mr-1">OCG: ${ocgBanStatus}</div>`:'';let cardMarketPrice=data.card_prices&&data.card_prices[0]&&data.card_prices[0].cardmarket_price?data.card_prices[0].cardmarket_price:'';let cardTcgPlayerPrice=data.card_prices&&data.card_prices[0]&&data.card_prices[0].tcgplayer_price?data.card_prices[0].tcgplayer_price:'';let card_preview=`
+    <div class="card-preview-tooltip">
+        ${true?` 
+        <img class="tooltip-card" src="${data.card_images[0]['image_url']}" loading="lazy">
+        `:''}
+        <div class="card-preview-tooltip-details">
+            <div class="card-preview-header d-flex flex-wrap">
+                <div class="card-preview-tooltip-title mr-auto">${data.name}</div>
+                ${isMonster?`
+                <div class="card-preview-tooltip-attribute justify-content-end mr-3">
+                    <img src="https://images.ygoprodeck.com/images/cards/icons/attributes/${data.attribute}.jpg" class="tooltip-card-icon mr-1">${data.attribute}
+                </div>`:`
+                <div class="card-preview-tooltip-attribute justify-content-end mr-3">${data.type}</div>
+                <div class="card-preview-tooltip-attribute justify-content-end mr-3">
+                    <img src="https://images.ygoprodeck.com/images/cards/icons/${data.race}.png" class="tooltip-card-icon mr-1">${data.race}
+                </div>`}
+            </div>
+            ${isMonster?`
+            <div class="card-preview-header d-flex flex-wrap">
+                <div class="card-preview-tooltip-text card-preview-tooltip-type mr-auto">[${data.race}/${data.type}]</div>
+                ${!isLink?`
+                <div class="card-preview-tooltip-attribute justify-content-end mr-3">
+                    <img src="https://images.ygoprodeck.com/images/cards/icons/misc/level.png" class="tooltip-card-icon mr-1">${data.level}
+                </div>`:''}
+            </div>
+            `:''}
+            ${isMonster?`
+            <div class="card-preview-tooltip-text card-preview-tooltip-stats">
+                ATK/${data.atk} ${isLink?`LINK-${data.linkval}`:`DEF/${data.def}`}
+            </div>
+            `:''}
+            <br/>
+            <div class="card-preview-tooltip-text card-preview-tooltip-desc">${data.desc.replace(/\n/g,'<br>')}</div>
+            <div class="card-preview-tooltip-text d-flex">${tcgBan}${ocgBan}</div>
+            <!--
+            <footer class="card-preview-tooltip-footer">
+                <div class="card-preview-tooltip-text d-flex">
+                    <div class="card-preview-tooltip-price mr-3">
+                       <img src="https://images.ygoprodeck.com/images/cards/icons/cardmarket1.png" class="tooltip-card-icon mr-1">€${cardMarketPrice}
+                    </div>
+                    <div class="card-preview-tooltip-price">
+                       <img src="https://images.ygoprodeck.com/images/cards/icons/tcgplayer.png" class="tooltip-card-icon mr-1">$${cardTcgPlayerPrice}
+                    </div>
+                </div>
+            </footer>
+            -->
+        </div>
+    </div>`;return card_preview;}

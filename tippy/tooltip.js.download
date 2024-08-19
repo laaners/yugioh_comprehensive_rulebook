@@ -1,0 +1,161 @@
+window.TooltipStatus = true;
+window.isTooltipShown = false;
+function findNearestLinkWithAttribute(target, attributes) {
+    for (const attr of attributes) {
+        let link = target.closest(`[${attr}]`);
+        if (link) {
+            const suppressTooltip = link.closest(
+                '[data-trigger-tooltip="false"]'
+            );
+            if (suppressTooltip) {
+                return null;
+            }
+            return { link, value: link.getAttribute(attr) };
+        }
+    }
+    return null;
+}
+document.body.addEventListener(
+    "mouseenter",
+    function (event) {
+        if (!window.TooltipStatus) return;
+        const tooltipTypes = [
+            ["deck", ["data-deckurl"], (value) => +value.split("-").pop()],
+            ["card", ["data-id", "data-card"], (value) => +value],
+            ["card", ["data-name", "data-cardname"], (value) => value],
+        ];
+        for (const [
+            tippyType,
+            dataAttributes,
+            valueTransform,
+        ] of tooltipTypes) {
+            const info = findNearestLinkWithAttribute(
+                event.target,
+                dataAttributes
+            );
+            if (!info) continue;
+            const { link, value } = info;
+            if (link._tippy) return;
+            initializeTippy(link, tippyType, valueTransform(value));
+            break;
+        }
+    },
+    { capture: true }
+);
+function initializeTippy(link, type, id) {
+    if (typeof tippy !== "function") {
+        console.error("Tippy.js is not loaded.");
+        return;
+    }
+    if (!link) {
+        console.error("No link element found.");
+        return;
+    }
+    window.isTooltipShown = true;
+    const isTouchDevice =
+        "ontouchstart" in window || navigator.maxTouchPoints > 0;
+    if (isTouchDevice && type === "deck") return;
+    const tippyOptions = {
+        theme: `${type}-preview`,
+        content: "Loading...",
+        allowHTML: true,
+        maxWidth: 550,
+        delay: 150,
+        appendTo: document.body,
+        interactive: isTouchDevice,
+        trigger: isTouchDevice ? "click" : "mouseenter focus",
+        onShow(instance) {
+            if (type === "deck") {
+                fetchDataForDeck(instance, id);
+            } else if (type === "card") {
+                fetchDataForCard(instance, id);
+                updateCardViews(id);
+            }
+        },
+        onHidden(instance) {
+            isTouchDevice && instance.destroy();
+            window.isTooltipShown = false;
+        },
+    };
+    if (isTouchDevice) {
+        let lastTappedId = null;
+        let tooltipInstance = null;
+        link.addEventListener("click", function (event) {
+            if (lastTappedId === id && tooltipInstance) {
+                window.isTooltipShown = false;
+                if (!link.href) {
+                    link = link.closest("a");
+                }
+                if (link && link.hasAttribute("href")) {
+                    window.location.href = link.href;
+                }
+                lastTappedId = null;
+                if (!tooltipInstance.state.isDestroyed) {
+                    tooltipInstance.destroy();
+                }
+                tooltipInstance = null;
+            } else {
+                window.isTooltipShown = true;
+                event.preventDefault();
+                if (tooltipInstance && !tooltipInstance.state.isDestroyed) {
+                    tooltipInstance.destroy();
+                }
+                tooltipInstance = tippy(link, tippyOptions);
+                tooltipInstance.show();
+                lastTappedId = id;
+            }
+        });
+        tippyOptions.onClickOutside = (instance, event) => {
+            if (tooltipInstance) {
+                tooltipInstance.hide();
+            }
+            lastTappedId = null;
+            window.isTooltipShown = false;
+        };
+    } else {
+        if (!link.href) {
+            let alink = link.closest("a");
+            if (!alink || !alink.href) {
+                link.href = `/card/?search=${id}`;
+                link.setAttribute("href", link.href);
+            }
+        }
+        window.isTooltipShown = true;
+        tippy(link, tippyOptions);
+    }
+}
+async function fetchDataForDeck(tippyInstance, deckid) {
+    try {
+        const resp = await fetch(`/api/decks/getDeckInfo.php?deckId=${deckid}`);
+        if (!resp.ok) throw `${resp.status} ${resp.statusText}`;
+        const html = render_deck_preview(await resp.json());
+        tippyInstance.setContent(html);
+    } catch (error) {
+        tippyInstance.setContent("Failed to load deck data");
+        console.error(error);
+    }
+}
+async function fetchDataForCard(tippyInstance, card) {
+    try {
+        const type = Number.isInteger(Number(card)) ? "id" : "name";
+        const url = `https://db.ygoprodeck.com/api/v7/cardinfo.php?num=1&offset=0&${type}=${card}`;
+        const resp = await fetch(url);
+        if (!resp.ok) throw `${resp.status} ${resp.statusText}`;
+        const html = render_card_preview(await resp.json());
+        tippyInstance.setContent(html);
+    } catch (error) {
+        tippyInstance.setContent("Failed to load card data");
+        console.error(error);
+    }
+}
+async function updateCardViews(card) {
+    return;
+    if (!card) return;
+    try {
+        const url = `/api/card/updateViews.php?card=${card}`;
+        const resp = await fetch(url);
+        if (!resp.ok) throw `${resp.status} ${resp.statusText}`;
+    } catch (error) {
+        console.error(error);
+    }
+}

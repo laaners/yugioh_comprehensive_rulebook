@@ -1,0 +1,120 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+html {
+  /*
+  scroll-behavior: smooth;
+  */
+}
+
+.content {
+  max-width: 920px;
+  margin: auto;
+  padding: 0;
+  overflow: auto;
+}
+
+li {
+  margin: 0.2rem;
+}
+
+li::marker {
+  font-size: 1rem;
+}
+
+table {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-collapse: collapse;
+  border-spacing: 0; /* Remove space between cells */
+}
+
+table th,
+table td {
+  border: 1px solid #ddd; /* Light gray border for cells */
+  padding: 8px; /* Space inside cells */
+  font-size: 1rem;
+}
+
+.td-3 {
+  width: 200px;
+}
+
+.td-top {
+  vertical-align: top;
+  padding-bottom: 0px !important;
+}
+
+img {
+  max-width: 100% !important;
+}
+
+.footer {
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.space-left-2 {
+  margin-left: 2rem;
+}
+
+.space-left-4 {
+  margin-left: 4rem;
+}
+
+/* TOC css */
+
+/*https://stackoverflow.com/questions/2729927/number-nested-ordered-lists-in-html*/
+/*
+*/
+.toc ol {
+  counter-reset: item;
+  padding-left: 2rem;
+}
+.toc li {
+  display: block;
+}
+.toc li:before {
+  content: counters(item, ".") ". ";
+  counter-increment: item;
+  font-weight: bolder;
+  font-size: 1rem;
+}
+
+.top-shortcut {
+  display: block;
+  position: fixed;
+  text-decoration: none;
+  bottom: 3vh;
+  right: 4vw;
+  z-index: 1;
+  font-size: 6vh;
+  padding: 1rem;
+}
+
+/*
+.toc ol {
+  list-style-type: none !important;
+  padding-left: 2rem;
+}
+*/
+
+/* tooltip-anchor */
+
+.tooltip-anchor {
+  cursor: pointer;
+  background-color: #f0f0f0;
+  transition: background-color 0.3s ease;
+}
+
+.tooltip-anchor:hover {
+  background-color: #e0e0e0;
+}
