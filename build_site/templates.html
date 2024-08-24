@@ -19,7 +19,7 @@
   <summary align="center">✔️</summary>
   <ul>
     <li>
-      <a target="_blank" href="https://db.ygoresources.com/qa#69">"Revendread Slayer", "Book of Moon"</a>
+      <a target="_blank" href="https://db.ygoresources.com/qa#69">"Revendread Slayer", ""Book of Moon""</a>
     </li>
   </ul>
 </details>
@@ -31,7 +31,7 @@
 -->
 
 <em>References:</em>
-<ol>
+<ol class="references">
   <li>
     <a target="_blank" href="https://ygorganization.com/perfect-rulebook-2017/">OCG Perfect Rulebook 2017 pages 188-193</a>
   </li>
@@ -60,7 +60,7 @@
 # Tooltip
 -->
 
-<span class="tooltip-anchor" data-name="31222701">"Wavering Eyes"</span>
+<span class="tooltip-anchor" data-name="58153103">"Armed Dragon Thunder LV10"</span>
 
 <!--
 # Glossary examples table
@@ -109,7 +109,7 @@
   references = Array.from(document.body.querySelectorAll(".references li"));
 
   res = "";
-  for (let i = 3; i < references.length; i++) {
+  for (let you = 3; you < references.length; i++) {
     const reference = references[i];
     let text = reference.querySelector(".reference-text");
     if (text == undefined) continue;
@@ -120,3 +120,48 @@
   }
   console.log(res);
 </script>
+
+<!--
+# Yugipedia table example <tr>
+-->
+<script>
+name = document.body.querySelector(".heading div").innerText
+desc = document.body.querySelector(".lore").innerText.replaceAll("\n","<br>\n")
+id = +document.body.querySelector("td .mw-redirect").innerText
+elem = `
+    <tr>
+      <td align="center" width="100">
+        <img loading="lazy" src="https://images.ygoprodeck.com/images/cards/${id}.jpg" alt="${id}" />
+      </td>
+      <td class="td-top">
+        <strong>${name}</strong>
+        <p>${desc}</p>
+      </td>
+    </tr>
+`
+console.log(elem)
+</script>
+
+<!--
+# Add tooltips to text
+-->
+
+<script>
+text = `If "Tenpai Dragon Chundra"'s effect of was activated as Chain Link 1, the effect of "Sauravis, the Ancient and Ascended" can be activated during the attempt to Synchro Summon; if the effect of "Tenpai Dragon Chundra" was activated as Chain Link 2 or higher, it cannot be.`
+regex = /"([^"]*)"/g;
+cards = text.match(regex)
+cards = [...new Set(cards)].filter(_=>_ !== '"unaffected by activated effects"')
+for(card of cards) {
+  try {
+    let response = await fetch(`https://db.ygoprodeck.com/api/v7/cardinfo.php?name=${card.replaceAll('"',"")}`)
+    let { data } = await response.json();
+    data = data[0]
+    id = +data.id
+    text = text.replaceAll(card, `<span class="tooltip-anchor" data-name="${id}">${card}</span>`).replaceAll('"','\\"')
+  }
+  catch {}
+}
+console.log(text)
+</script>
+
+<sup><a href="#">[1]</a></sup>

@@ -16,11 +16,16 @@
     <br />
     Example: If the opponent does not control any face-up monsters, <span class="tooltip-anchor" data-name="97169186">"Smashing Ground"</span>, which has an effect that reads "Destroy the 1 face-up monster your opponent controls that has the highest DEF (your choice, if tied).", cannot be activated.
   </li>
-  <li>Unless otherwise specified, the activation conditions only need to be satisfied when the card is activated, not when it resolves.</li>
+  <li>
+    Unless otherwise specified, the activation conditions only need to be satisfied when the card is activated, not when it resolves<sup><a href="#">[1]</a></sup
+    >.
+  </li>
 </ul>
 
+<p>More on activations legality in the dedicated sections for each kind of effect.</p>
+
 <em>References:</em>
-<ol>
+<ol class="references">
   <li>
     <a target="_blank" href="https://yugipedia.com/wiki/Activation_condition">Yugipedia</a>
   </li>
@@ -29,12 +34,46 @@
   </li>
 </ol>
 
-<h4>Cannot "create" target through cost</h4>
-<p>In order to activate a card (1) with a cost to pay and targets another card (2) for its effect (for example target (2) and Summon it from the Graveyard), a correct target (2) must be present (on the field, in the Graveyard, ...) before attempting (1)'s activation. Even if a valid target would be created after paying (1)'s cost, (1) cannot be activated.</p>
+<h4>Activation legality of targeting and paying cost</h4>
+
+<p>
+  You cannot choose to use a card or effect that targets unless there is already a card for it to target<sup><a href="#">[1]</a></sup
+  >.
+</p>
+
+<ul>
+  <li>
+    If, after paying the cost of that card or effect, a new target appears that didn't exist before, you can choose that card as the target of your new effect<sup><a href="#">[1]</a></sup
+    ><sup><a href="#">[2]</a></sup
+    >.
+  </li>
+  <li>
+    Even if paying a cost of the card or effect you want to activate would create a target for it, you cannot activate it unless the required number of targets already exist<sup><a href="#">[1]</a></sup
+    ><sup><a href="#">[2]</a></sup
+    ><sup><a href="#">[3]</a></sup
+    >.
+  </li>
+  <li>
+    You control a card with an effect has multiple effects that you can choose (bulleted effects with "●") after paying a cost and the cost is the same. If:
+    <ul>
+      <li>The targets for one of the effects, "● effect 1", exist in the correct location, the card's effect can be legally activated and you can choose to resolve "● effect 1"</li>
+      <li>The targets for another one of the effects, "● effect 2", don't exist in the correct location, the card's effect can still be legally activated but you can't choose to resolve "● effect 2"</li>
+    </ul>
+    But if after paying the cost of that card or effect, a new target appears that didn't exist before that is a target(s) for "● effect 2", and now "● effect 2" has all its targets now, "● effect 2" can be chosen at this time<sup><a href="#">[2]</a></sup
+    >.
+    <br />
+    Example: When activating <span class="tooltip-anchor" data-name="581014">"Daigusto Emeral"</span>'s effect, you first detach a material, then choose which ● bulleted effect to activate, and target an appropriate card. If there are two monsters in your Graveyard, and at least one of them is a non-Effect monster, this means that you could currently choose the "● Target 1 non-Effect Monster in your Graveyard" effect. Therefore, you can activate <span class="tooltip-anchor" data-name="581014">"Daigusto Emeral"</span>'s effect by detaching a material. If the detached material is sent to your Graveyard, and this results in you having 3 monsters in your Graveyard, you can then choose the "● Target 3 monsters in your Graveyard" effect as the effect to activate.
+  </li>
+</ul>
+
 <em>References:</em>
-<ol>
+<ol class="references">
   <li>
     <a target="_blank" href="https://imgur.com/targeting-rules-insert-JH4NxL1">Insert from Rise of the True Dragons Structure Deck</a>
+  </li>
+  <li>
+    YGOrg Database of Official OCG Rulings:
+    <a target="_blank" href="https://db.ygoresources.com/qa#11724">Choice timing and activation legality when choosing which effect to activate</a>
   </li>
   <li>
     YGOrg Database of Official OCG Rulings:
@@ -42,22 +81,12 @@
   </li>
 </ol>
 
-<h4>Add, then discard/send</h4>
+<h4>Activation legality of effects that add, then discard/send</h4>
 <p>A card's (1) effect which involves adding a card (2) with a certain property and then discarding/sending a card (3) with (2)'s same property, (1) can be activated even if there are no cards of with (2)'s property in your hand at the moment of (1)'s activation.</p>
 <em>References:</em>
-<ol>
+<ol class="references">
   <li>
     YGOrg Database of Official OCG Rulings:
-    <a target="_blank" href="https://db.ygoresources.com/qa#8865">"Dragunity Knight - Gae Dearg"</a>
-  </li>
-</ol>
-
-<h4>ATK/DEF reduction</h4>
-<p>A card's (1) effect which involves reducing a Monster's (2) ATK/DEF can affect/target (2) even if (2)'s ATK/DEF is already 0, and (1) will resolve successfully.</p>
-<em>References:</em>
-<ol>
-  <li>
-    YGOrg Database of Official OCG Rulings:
-    <a target="_blank" href="https://db.ygoresources.com/qa#17230">"Malacoda, Netherlord of the Burning Abyss"</a>
+    <a target="_blank" href="https://db.ygoresources.com/qa#8865">Activation legality of effects that add, then discard/send</a>
   </li>
 </ol>

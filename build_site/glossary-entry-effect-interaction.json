@@ -1,0 +1,288 @@
+{
+    "Attach": {
+        "Cannot switch control/possession": [
+            {
+                "interaction": "Your opponent controls a monster (1) whose control/possession cannot switch. You cannot attach (1) to a monster you control (2) as material as it is considered changing control of that opponent's monster, therefore a card or effect that involves such action cannot be activated<sup><a>[]</a></sup>.",
+                "example": "Your opponent controls an <span class=\"tooltip-anchor\" data-name=\"58153103\">\"Armed Dragon Thunder LV10\"</span> , and its \"● 10+\" effect that prevents control of it from switching is being applied. In this scenario, you cannot activate the effect of your <span class=\"tooltip-anchor\" data-name=\"10443957\">\"Cyber Dragon Infinity\"</span> that attaches the target to it as material by targeting that <span class=\"tooltip-anchor\" data-name=\"58153103\">\"Armed Dragon Thunder LV10\"</span>.",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#23119\">\"Armed Dragon Thunder LV10\", \"Cyber Dragon Infinity\"</a></li>"
+            }
+        ],
+        "Unaffected": [
+            {
+                "interaction": "If an effect (1) that involves attaching a card (2) as an Xyz Material to a Xyz Monster on the field (3) is activated, if (3) is unaffected by cards' effects, then (1) resolves without attaching (2) to (3)<sup><a>[]</a></sup>.",
+                "example": "If <span class=\"tooltip-anchor\" data-name=\"27068117\">\"Overlay Regen\"</span> is activated, but <span class=\"tooltip-anchor\" data-name=\"27243130\">\"Forbidden Lance\"</span> is chained so that the targeted monster becomes unaffected by other Spell/Trap effects, it is not possible to attach <span class=\"tooltip-anchor\" data-name=\"27068117\">\"Overlay Regen\"</span> to the targeted monster as an Xyz Material, as it is unaffected by Spell effects. As a result, <span class=\"tooltip-anchor\" data-name=\"27068117\">\"Overlay Regen\"</span> is sent to the Graveyard. Also, if <span class=\"tooltip-anchor\" data-name=\"27068117\">\"Overlay Regen\"</span> is activated by targeting a monster that has already become unaffected by other Spell/Trap effects because of <span class=\"tooltip-anchor\" data-name=\"27243130\">\"Forbidden Lance\"</span>, it is still not possible to attach <span class=\"tooltip-anchor\" data-name=\"27068117\">\"Overlay Regen\"</span> to the targeted monster as an Xyz Material.",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#19\">Attaching material affects the monster being attached to</a></li>"
+            }
+        ]
+    },
+    "Attack all once each": {
+        "Attack directly": [
+            {
+                "interaction": "Monsters that can attack all opponent's monsters once and can attack directly<sup><a>[]</a></sup>:<ul><li>After attacking your opponent directly, it is not possible to attack all monsters they control once each.</li><li>If you attacked an opponent's monster first, you cannot attack your opponent directly afterwards.</li></ul>",
+                "example": "If the effect of <span class=\"tooltip-anchor\" data-name=\"94096616\">\"Bujingi Ophidian\"</span> is applied to <span class=\"tooltip-anchor\" data-name=\"75840616\">\"Bujintei Susanowo\"</span>, after attacking your opponent directly, it is not possible to attack all monsters they control once each. If you attacked an opponent's monster first, you cannot attack your opponent directly afterwards.",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#12791\">Monsters that can attack all opponent's monsters once each cannot attack the opponent directly afterwards and vice versa.</a></li>"
+            }
+        ],
+        "Change attack target": [
+            {
+                "interaction": "If a monster (1) can attack all opponent's monsters once each, if it attacks a monster (2) but then its attack is redirected to another monster (3), (1) cannot attack again (2). Furthermore, (3) which has been made the attack target instead of (2), if (3) has not been destroyed by battle after the attack redirection, (1) cannot attack again (3)<sup><a>[]</a></sup>.",
+                "example": "A <span class=\"tooltip-anchor\" data-name=\"84013237\">\"Number 39: Utopia\"</span> equipped with <span class=\"tooltip-anchor\" data-name=\"40941889\">\"ZW - Asura Strike\"</span> attacks an opponent's <span class=\"tooltip-anchor\" data-name=\"24919805\">\"Ruffian Railcar\"</span>, but the opponent activates the effect of Construction \"Train Signal Red\" from their hand, and damage calculation is performed. In this case, since the effect of Construction \"Train Signal Red\" makes itself the attack target, it cannot be attacked again by <span class=\"tooltip-anchor\" data-name=\"84013237\">\"Number 39: Utopia\"</span> equipped with <span class=\"tooltip-anchor\" data-name=\"40941889\">\"ZW - Asura Strike\"</span>. In addition, the <span class=\"tooltip-anchor\" data-name=\"24919805\">\"Ruffian Railcar\"</span> which was attacked when the opponent activated the effect of Construction \"Train Signal Red\" also cannot be attacked again.",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#10214\">Attack target redirection and effects that allow attacking all monsters, once each</a></li>"
+            }
+        ],
+        "Negate Effects": [
+            {
+                "interaction": "A monster (1) that can attack all opponent's monsters once each declares its second (or more) attack during the current Battle Phase (a continuous effect is applying). If (1)'s effects become negated<sup><a>[]</a></sup>:<ul><li>If its effects are negated during the Battle Step, it will no longer be possible to continue that attack, or to make additional attacks.</li><li>If its effects are negated during the Damage Step (by <span class=\"tooltip-anchor\" data-name=\"24299458\">\"Forbidden Droplet\"</span> for example), damage calculation will be conducted for that attack normally.</li></ul>",
+                "example": "",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#11046\">Multiple attacks, and the monster's effects being negated while attacking</a></li>"
+            }
+        ]
+    },
+    "Attack directly": {},
+    "Attack while in face-up Defense Position": {
+        "Negate Effects": [
+            {
+                "interaction": "A monster (1) is in face-up Defense Position and its effect that allows it to attack while in face-up Defense Position applies. If I declare an attack using this effect and an effect (2) that negates (1)'s effects is activated or applied<sup><a>[]</a></sup>:<ul><li>If (1)'s effects are negated during the Battle Step by (2), (1) can no longer attack while being in face-up Defense Position. In this case, the attack stops without entering the Damage Step.</li><li>If (1)'s effects are negated during the Damage Step, the Damage Step ends without conducting Damage Calculation.</li></ul>",
+                "example": "",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#14251\">Attacking in Defense Position, and negating the attacking monster's effects</a></li>"
+            }
+        ]
+    },
+    "Banish": {
+        "Negate Effects": [
+            {
+                "interaction": "A monster (1) activates its effect and an effect that banish cards (2) is chained to banish (1). Then an effect that negates monster's effects (3) is chained to negate (1). The Chain resolves in reverse order, the effect of (3) will be applied and (1) will be banished due to the effect of (2), and the effect of (1) will still be negated<sup><a>[]</a></sup>.",
+                "example": "You chained <span class=\"tooltip-anchor\" data-name=\"36261276\">\"Interdimensional Matter Transporter\"</span> to the activation of the effect of <span class=\"tooltip-anchor\" data-name=\"57774843\">\"Judgment Dragon\"</span>, and then further chained <span class=\"tooltip-anchor\" data-name=\"25789292\">\"Forbidden Chalice\"</span>. In this case, the Chain resolving in reverse order causes the <span class=\"tooltip-anchor\" data-name=\"57774843\">\"Judgment Dragon\"</span> that was affected by <span class=\"tooltip-anchor\" data-name=\"25789292\">\"Forbidden Chalice\"</span> to be banished. Its effect will be negated.",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#12314\">Effects negation, and what removes/doesn't remove it</a></li>"
+            }
+        ]
+    },
+    "Can only control 1: \"Rivalry of Warlords\"/\"Gozen Match\" like": {
+        "Change/Take/Give/Switch Control": [
+            {
+                "interaction": "You can take control of an opponent's monster that's the wrong Type/Attribute with a card like <span class=\"tooltip-anchor\" data-name=\"37520316\">\"Mind Control\"</span>. If you do, it's sent to the Graveyard immediately after you gain control of it<sup><a>[]</a></sup>.",
+                "example": "",
+                "reference": "<li><a target=\"_blank\" href=\"https://www.yugioh-card.com/eu/play/rivalry-of-warlords/\">Official KONAMI's FAQ of \"Rivalry of Warlords\" and \"Gozen Match\"</a></li>"
+            }
+        ]
+    },
+    "Cannot switch control/possession": {
+        "Change/Take/Give/Switch Control": [
+            {
+                "interaction": "If the only monsters your opponent controls are monsters whose control/possession cannot switch, you cannot activate an effect that would take control of an opponent's monster<sup><a>[]</a></sup>.",
+                "example": "When your <span class=\"tooltip-anchor\" data-name=\"84305651\">\"Goyo King\"</span> destroys an opponent's monster by battle, if the only monster your opponent controls is that <span class=\"tooltip-anchor\" data-name=\"20546916\">\"Botanical Lion\"</span> hose effect is applying (control of it cannot switch), you cannot activate the effect of <span class=\"tooltip-anchor\" data-name=\"84305651\">\"Goyo King\"</span> that takes control of your opponent's monster.",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#17477\">Activation legality for attempting to take control</a></li>"
+            }
+        ],
+        "Equipping Monsters": [
+            {
+                "interaction": "Your opponent controls a monster (1) whose control/possession cannot switch. You cannot equip (1) to a monster you control (2) as an equip card as it is considered changing control of that opponent's monster<sup><a>[]</a></sup>.",
+                "example": "Your opponent controls an <span class=\"tooltip-anchor\" data-name=\"58153103\">\"Armed Dragon Thunder LV10\"</span> , and its \"● 10+\" effect that prevents control of it from switching is being applied. In this scenario, you cannot activate the effect of your <span class=\"tooltip-anchor\" data-name=\"64631466\">\"Relinquished\"</span> that that equips the target to it by targeting that <span class=\"tooltip-anchor\" data-name=\"58153103\">\"Armed Dragon Thunder LV10\"</span>.",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#23118\">\"Armed Dragon Thunder LV10\", \"Relinquished\"</a></li>"
+            }
+        ]
+    },
+    "Cannot target for attacks": {
+        "Unaffected": [
+            {
+                "interaction": "If you are applying an effect to the monster, preventing monsters from being targeted affects the monsters doing the attack targeting<sup><a>[]</a></sup>.",
+                "example": "You control a face-up <span class=\"tooltip-anchor\" data-name=\"14541657\">\"Twilight Ninja Shingetsu\"</span> and a face-up <span class=\"tooltip-anchor\" data-name=\"40945356\">\"Twilight Ninja Nichirin, the Chunin\"</span>, and the opponent controls a <span class=\"tooltip-anchor\" data-name=\"3814632\">\"Skypalace Gangaridai\"</span> affected by the effect of <span class=\"tooltip-anchor\" data-name=\"49032236\">\"Number 81: Superdreadnought Rail Cannon Super Dora\"</span>. The effect of <span class=\"tooltip-anchor\" data-name=\"14541657\">\"Twilight Ninja Shingetsu\"</span> that prevents other \"Ninja\" Monsters you control from being targeted for attacks is an effect that affects the monsters performing attacks. Therefore, in the proposed scenario, since <span class=\"tooltip-anchor\" data-name=\"3814632\">\"Skypalace Gangaridai\"</span> is not affected by the effects of other cards, <span class=\"tooltip-anchor\" data-name=\"40945356\">\"Twilight Ninja Nichirin, the Chunin\"</span> can be targeted for an attack.",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#17557\">Preventing monsters from being targeted for an attack affects the monsters doing the attack targeting</a></li>"
+            }
+        ]
+    },
+    "Cannot target for effects": {
+        "Unaffected": [
+            {
+                "interaction": "If you are not applying an effect to the monster, preventing a monster from being targeted does not affect the monster<sup><a>[]</a></sup>.",
+                "example": "<span class=\"tooltip-anchor\" data-name=\"70147689\">\"Ancient Gear Fortress\"</span> (1) and a <span class=\"tooltip-anchor\" data-name=\"51788412\">\"Chaos Ancient Gear Giant\"</span> (2) which I Fusion Summoned this turn are on the field. (2)'s \"unaffected by Spell/Trap effects\" effect is applying. Since (2) is unaffected by Spell effects, the \"they cannot be destroyed by your opponent's card effects\" effect of (1) does not apply to it. (For example, it could be destroyed by your opponent's monster effects). However, the \"your opponent cannot target \"Ancient Gear\" monsters you control with card effects\" effect of (1) does not affect monsters. Therefore, your opponent will still be unable to target (2) with card effects this turn.",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#10702\">Preventing a monster from being targeted does not affect the monster (Unless you are applying an effect to the monster)</a></li>"
+            }
+        ]
+    },
+    "Change/Take/Give/Switch Control": {},
+    "Change attack target": {},
+    "Change to Face-down Defense Position": {
+        "Negate Activation of Effects": [
+            {
+                "interaction": "A monster (1) activates its effect and an effect that negates the activation of the effects (2) is chained to negate the activations of the effects of (1). Then an effect that flips monsters to face-down Defense Position (3) is chained to flip (1). The the Chain resolves in reverse order and (1) will still negate the (2)'s effects activation<sup><a>[]</a></sup>.",
+                "example": "When you Tribute Summon <span class=\"tooltip-anchor\" data-name=\"4929256\">\"Mobius the Frost Monarch\"</span>, you activate its effect. However, your opponent activates the effect of <span class=\"tooltip-anchor\" data-name=\"44508094\">\"Stardust Dragon\"</span> in response. If you now further activate <span class=\"tooltip-anchor\" data-name=\"14087893\">\"Book of Moon\"</span> by targeting your <span class=\"tooltip-anchor\" data-name=\"4929256\">\"Mobius the Frost Monarch\"</span>, this chain resolves backwards, and causes <span class=\"tooltip-anchor\" data-name=\"4929256\">\"Mobius the Frost Monarch\"</span> to be face-down by the time <span class=\"tooltip-anchor\" data-name=\"44508094\">\"Stardust Dragon\"</span>'s effect resolves. Even if <span class=\"tooltip-anchor\" data-name=\"4929256\">\"Mobius the Frost Monarch\"</span> is changed to face-down Defense Position, the effect of <span class=\"tooltip-anchor\" data-name=\"44508094\">\"Stardust Dragon\"</span> will still negate the activation of <span class=\"tooltip-anchor\" data-name=\"4929256\">\"Mobius the Frost Monarch\"</span>'s effect, and destroy <span class=\"tooltip-anchor\" data-name=\"4929256\">\"Mobius the Frost Monarch\"</span>.",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#10826\">Negating the activation of a monster's activated effect while it is face-down</a></li>"
+            }
+        ],
+        "Negate Effects": [
+            {
+                "interaction": "Consider effects that say \"when an effect is activated: ...; negate the/that effect\" like <span class=\"tooltip-anchor\" data-name=\"14558127\">\"Ash Blossom & Joyous Spring\"</span>. A monster (1) activates its effect and an effect that negates monster's effects (2) is chained to negate the activated effects of (1). Then an effect that flips monsters to face-down Defense Position (3) is chained to flip (1). The Chain resolves in reverse order, (1) changes to face-down Defense Position due to the effect of (2), and the effects of (1) will be still negated<sup><a>[]</a></sup>",
+                "example": "When my Level 5 or higher monster activates its effect, <span class=\"tooltip-anchor\" data-name=\"99064191\">\"Xyz Wrath\"</span> (1) is activated in response. If <span class=\"tooltip-anchor\" data-name=\"14087893\">\"Book of Moon\"</span> is then activated in response to (1), causing the Level 5 or higher monster to be in face-down Defense Position by the time (1) resolves, the effect of (1) will be applied normally. (The activated effect is negated, and the monster is destroyed).",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#14034\">Negating a monster's activated effect while it is face-down</a></li>"
+            },
+            {
+                "interaction": "Consider effects that negate effects but do not chain themselves to the activation of the effects like <span class=\"tooltip-anchor\" data-name=\"25789292\">\"Forbidden Chalice\"</span>. A monster (1) activates its effect and an effect that flips monsters to face-down Defense Position (2) is chained to flip (1). Then an effect that negates monster's effects (3) is chained to negate (1). Due to the Chain resolving in reverse order, the effect of (3) will not be applied once (1) changes to face-down Defense Position due to the effect of (2), so the effect of (1) will not be negated<sup><a>[]</a></sup>.",
+                "example": "I chained <span class=\"tooltip-anchor\" data-name=\"14087893\">\"Book of Moon\"</span> to the activation of the effect of <span class=\"tooltip-anchor\" data-name=\"57774843\">\"Judgment Dragon\"</span>, and then further chained <span class=\"tooltip-anchor\" data-name=\"25789292\">\"Forbidden Chalice\"</span>. Due to the Chain resolving in reverse order, the effect of <span class=\"tooltip-anchor\" data-name=\"25789292\">\"Forbidden Chalice\"</span> will not be applied once <span class=\"tooltip-anchor\" data-name=\"57774843\">\"Judgment Dragon\"</span> changes to face-down Defense Position due to the effect of <span class=\"tooltip-anchor\" data-name=\"14087893\">\"Book of Moon\"</span>, so the effect of <span class=\"tooltip-anchor\" data-name=\"57774843\">\"Judgment Dragon\"</span> will not be negated, and all other cards on the field will be destroyed.",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#12314\">Effects negation, and what removes/doesn't remove it</a></li>"
+            }
+        ],
+        "Traps Treated as Monsters (not treated as Traps)": [
+            {
+                "interaction": "Even if a Trap Card treated as a Monster Card which says it is not treated as a Trap Card is flipped face-down by the effect of <span class=\"tooltip-anchor\" data-name=\"14087893\">\"Book of Moon\"</span> or something similar, it is flipped face-down in the Main Monster Zone. If it is flipped face-up again, it is treated as a Monster according to what its text indicates<sup><a>[]</a></sup>.",
+                "example": "",
+                "reference": "<li><a target=\"_blank\" href=\"https://ygorganization.com/perfect-rulebook-2017/\">OCG Perfect Rulebook 2017 pages 169-170</a></li>"
+            }
+        ],
+        "Traps Treated as Monsters (still treated as Traps)": [
+            {
+                "interaction": "If a Trap Card treated as a Monster Card by its own effect is flipped face-down by an effect, it is placed face-down in the Spell & Trap Zone. It can be activated in the next turn and become a Monster Card once again<sup><a>[]</a></sup>.",
+                "example": "",
+                "reference": "<li><a target=\"_blank\" href=\"https://ygorganization.com/perfect-rulebook-2017/\">OCG Perfect Rulebook 2017 pages 169-170</a></li>"
+            },
+            {
+                "interaction": "Changing from Monster Trap to Trap, it does not create a new copy<sup><a>[]</a></sup>",
+                "example": "If the second effect of <span class=\"tooltip-anchor\" data-name=\"5133471\">\"Galaxy Cyclone\"</span> is activated by targeting an <span class=\"tooltip-anchor\" data-name=\"28649820\">\"Embodiment of Apophis\"</span> treated as a monster, and then <span class=\"tooltip-anchor\" data-name=\"14087893\">\"Book of Moon\"</span> is chained so that <span class=\"tooltip-anchor\" data-name=\"28649820\">\"Embodiment of Apophis\"</span> is Set, the targeted card is destroyed normally.",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#15243\">Changing from Monster+Trap to Trap does not create a new copy</a></li>"
+            }
+        ]
+    },
+    "Continuous destroys/sends itself (self-destruct/self-send)": {
+        "If ... would be destroyed, you can do ... instead: Destruction Substitution": [
+            {
+                "interaction": "Substituting for continuous attempts to destroy can be attempted, though futile<sup><a>[]</a></sup>.",
+                "example": "You have <span class=\"tooltip-anchor\" data-name=\"43175858\">\"Toon Kingdom\"</span> face-up on your side of the field, and you activate <span class=\"tooltip-anchor\" data-name=\"33453260\">\"Comic Hand\"</span> by targeting an opponent's <span class=\"tooltip-anchor\" data-name=\"23205979\">\"Spirit Reaper\"</span>. When <span class=\"tooltip-anchor\" data-name=\"33453260\">\"Comic Hand\"</span> resolves, you take control of the <span class=\"tooltip-anchor\" data-name=\"23205979\">\"Spirit Reaper\"</span> that was targeted, and it will be treated as a Toon monster. After you gain control of <span class=\"tooltip-anchor\" data-name=\"23205979\">\"Spirit Reaper\"</span>, its effect that destroys it when it is targeted by a card or effect will apply. In this case, you can apply the last effect of <span class=\"tooltip-anchor\" data-name=\"43175858\">\"Toon Kingdom\"</span> once, and banish the top card of your Deck face-down, but the effect of <span class=\"tooltip-anchor\" data-name=\"23205979\">\"Spirit Reaper\"</span> will immediately apply again, resulting in <span class=\"tooltip-anchor\" data-name=\"23205979\">\"Spirit Reaper\"</span> being destroyed.",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#15845\">Substituting for continuous attempts to destroy can be attempted, though futile</a></li>"
+            }
+        ]
+    },
+    "During the next/this turn ... Phase: Delayed effects": {
+        "Negate Summons": [
+            {
+                "interaction": "The Special Summon of a monster when resolving an effect that happens later (during the End Phase for example) does not start a chain such as <span class=\"tooltip-anchor\" data-name=\"46448938\">\"Spellbook of Judgment\"</span>.<ul><li>As it is a Special Summon of a monster due an effect, this Special Summon cannot be negated by activating effects that negate summons like <span class=\"tooltip-anchor\" data-name=\"50323155\">\"Black Horn of Heaven\"</span><sup><a>[]</a></sup>.</li><li>However, it is still an \"effects that include an effect that Special Summons a monster(s)\", so cards like <span class=\"tooltip-anchor\" data-name=\"c84749824\">\"Solemn Warning\"</span> can be activated in response<sup><a>[]</a></sup>.</li></ul>",
+                "example": "",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#12713\">Negating delayed Special Summons</a></li>"
+            }
+        ],
+        "\"Necrovalley\"": [
+            {
+                "interaction": "Example: if <span class=\"tooltip-anchor\" data-name=\"66386380\">\"Harpie Oracle\"</span> is Normal or Special Summoned and activates its effect while the effect of <span class=\"tooltip-anchor\" data-name=\"47355498\">\"Necrovalley\"</span> is applying, as in this scenario, the effect will not be negated. However, if the effect of <span class=\"tooltip-anchor\" data-name=\"47355498\">\"Necrovalley\"</span> is applying during the End Phase when you apply <span class=\"tooltip-anchor\" data-name=\"66386380\">\"Harpie Oracle\"</span>'s effect, you cannot add an appropriate Spell/Trap Card from your Graveyard to your hand. (If the effect of <span class=\"tooltip-anchor\" data-name=\"47355498\">\"Necrovalley\"</span> has stopped applying by the time you reach the End Phase, you can add the Spell/Trap Card from your Graveyard to your hand normally)<sup><a>[]</a></sup>.",
+                "example": "",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#12405\">Necrovalley and delayed effects</a></li>"
+            }
+        ],
+        "Unaffected": [
+            {
+                "interaction": "Effects that apply later (delayed effects) also applies after the Chain Link formed by their activation has finished resolving. Therefore, they can also affect monsters that are \"unaffected by activated effects\"<sup><a>[]</a></sup>.",
+                "example": "<span class=\"tooltip-anchor\" data-name=\"44146295\">\"Mirrorjade the Iceblade Dragon\"</span>'s effect will destroy <span class=\"tooltip-anchor\" data-name=\"37542782\">\"Cyberdark End Dragon\"</span> during the End Phase.",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#23491\">\"Unaffected by activated effects\" and what it means</a></li>"
+            }
+        ]
+    },
+    "Equipping Monsters": {
+        "Negate Effects": [
+            {
+                "interaction": "If a monster that has been equipped with Equip Cards by its effect has its effects negated, they are destroyed and sent to the Graveyard<sup><a>[]</a></sup>.",
+                "example": "While <span class=\"tooltip-anchor\" data-name=\"33460840\">\"Guardian of Felgrand\"</span> has been equipped with a card by its effect that says \"If this card is Normal or Special Summoned: You can equip 1 Level 7 or 8 Dragon-Type monster from your hand or Graveyard to this card.\", if the effect of <span class=\"tooltip-anchor\" data-name=\"82732705\">\"Skill Drain\"</span> is applied, the effects of <span class=\"tooltip-anchor\" data-name=\"33460840\">\"Guardian of Felgrand\"</span> are negated and the monster that was equipped is destroyed and sent to the Graveyard.",
+                "reference": "<li><a target=\"_blank\" href=\"https://ygorganization.com/perfect-rulebook-2017/\">OCG Perfect Rulebook 2017 pages 165-166</a></li>"
+            },
+            {
+                "interaction": "If the effects of an Equip Card equipped to a monster are negated, the effects are negated but it remains on the field equipped to the equipped monster<sup><a>[]</a></sup>.",
+                "example": "While the Union monster <span class=\"tooltip-anchor\" data-name=\"67159705\">\"Armored Cybern\"</span> is equipped to a monster, if the effect of <span class=\"tooltip-anchor\" data-name=\"37267041\">\"Silent Swordsman LV7\"</span> that says \"Negate all Spell effects on the field.\" is applied, the effects of <span class=\"tooltip-anchor\" data-name=\"67159705\">\"Armored Cybern\"</span> are negated but it stays equipped to the equipped monster.",
+                "reference": "<li><a target=\"_blank\" href=\"https://ygorganization.com/perfect-rulebook-2017/\">OCG Perfect Rulebook 2017 pages 165-166</a></li>"
+            }
+        ]
+    },
+    "If ... would be destroyed, you can do ... instead: Destruction Substitution": {
+        "Unaffected": [
+            {
+                "interaction": "Substitution does not affect the protected monster<sup><a>[]</a></sup>.",
+                "example": "If your <span class=\"tooltip-anchor\" data-name=\"11224103\">\"Horus the Black Flame Dragon LV6\"</span>, which is unaffected by Spell effects due to its own effect, would be destroyed by battle or card effect, you can apply the effect of <span class=\"tooltip-anchor\" data-name=\"6853254\">\"Return of the Dragon Lords\"</span> in my Graveyard.",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#18424\">Substitution does not affect the protected monster</a></li>"
+            }
+        ]
+    },
+    "Immediately after this effect resolves ... Summon": {
+        "Negate Activation of Cards": [
+            {
+                "interaction": "The activation of a card or of an effect can be negated by cards that are able to negate \"effects that include an effect that Special Summons a monster(s)\"<sup><a>[]</a></sup>.",
+                "example": "",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#23933\">Special Summons caused by a card effect, and whether the effect includes Special Summoning</a></li>"
+            }
+        ],
+        "Negate Activation of Effects": [
+            {
+                "interaction": "The activation of a card or of an effect can be negated by cards that are able to negate \"effects that include an effect that Special Summons a monster(s)\"<sup><a>[]</a></sup>.",
+                "example": "",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#23933\">Special Summons caused by a card effect, and whether the effect includes Special Summoning</a></li>"
+            }
+        ],
+        "Negate Summons": [
+            {
+                "interaction": "The Summon of that monster(s) can be negated if the effect resolves as Chain Link 1<sup><a>[]</a></sup>.",
+                "example": "If <span class=\"tooltip-anchor\" data-name=\"91810826\">\"Tenpai Dragon Chundra\"</span>'s effect of was activated as Chain Link 1, the effect of <span class=\"tooltip-anchor\" data-name=\"4810828\">\"Sauravis, the Ancient and Ascended\"</span> can be activated during the attempt to Synchro Summon; if the effect of <span class=\"tooltip-anchor\" data-name=\"91810826\">\"Tenpai Dragon Chundra\"</span> was activated as Chain Link 2 or higher, it cannot be.",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#24054\">\"Tenpai Dragon Chundra\", \"Sauravis, the Ancient and Ascended\"</a></li>"
+            }
+        ]
+    },
+    "Leaves the field": {
+        "Negate Activation of Cards": [
+            {
+                "interaction": "Negating a card's activation (not effect's activation) removes it from the field, but is not treated as leaving the field<sup><a>[]</a></sup>.",
+                "example": "A <span class=\"tooltip-anchor\" data-name=\"799183\">\"Super Soldier Shield\"</span> was set on the field by its own effect. That <span class=\"tooltip-anchor\" data-name=\"799183\">\"Super Soldier Shield\"</span> is activated, and it has its activation negated by <span class=\"tooltip-anchor\" data-name=\"3819470\">\"Seven Tools of the Bandit\"</span>. Since the <span class=\"tooltip-anchor\" data-name=\"799183\">\"Super Soldier Shield\"</span> that has its activation negated by <span class=\"tooltip-anchor\" data-name=\"3819470\">\"Seven Tools of the Bandit\"</span> is not considered to leave the field, it is not banished and is destroyed and sent to the Graveyard normally.",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#16574\">Negating a card's activation removes it from the field, but is not treated as leaving the field</a></li>"
+            }
+        ]
+    },
+    "Negate Activation of Cards": {},
+    "Negate Activation of Effects": {
+        "Unaffected": [
+            {
+                "interaction": "Negating an effect's activation affects the activating card<sup><a>[]</a></sup>.",
+                "example": "Your opponent activates the effect of <span class=\"tooltip-anchor\" data-name=\"21377582\">\"Master Peace, the True Dracoslaying King\"</span> that destroys 1 other card on the field, while it is also unaffected by monster and Trap effects as a result of being Tribute Summoned by Tributing a monster and a Continuous Trap Card. In this case, if you chain <span class=\"tooltip-anchor\" data-name=\"96404912\">\"Recall\"</span>, since <span class=\"tooltip-anchor\" data-name=\"21377582\">\"Master Peace, the True Dracoslaying King\"</span> is unaffected by Trap Cards, the activation of its effect is not negated by <span class=\"tooltip-anchor\" data-name=\"96404912\">\"Recall\"</span> and it is not destroyed, so its effect destroys the targeted card normally. Even in that case, your opponent draws 1 card.",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#17304\">Negating an effect's activation affects the activating card</a></li>"
+            }
+        ]
+    },
+    "Negate Effects": {
+        "Properties Changing: Copy effect continuous/lingering": [
+            {
+                "interaction": "When a monster's effects that gained the Level, name or effect of another monster are negated, then only the Level will return to its original value<sup><a>[]</a></sup>.",
+                "example": "The effect of <span class=\"tooltip-anchor\" data-name=\"58446973\">\"Infernoid Decatron\"</span> was activated, gaining the name and effects of <span class=\"tooltip-anchor\" data-name=\"88301393\">\"Infernoid Attondel\"</span> and increasing its Level by 8. Afterwards if <span class=\"tooltip-anchor\" data-name=\"58446973\">\"Infernoid Decatron\"</span> has its effects negated by the effect of <span class=\"tooltip-anchor\" data-name=\"82732705\">\"Skill Drain\"</span> being activated. In the proposed scenario, the Level of <span class=\"tooltip-anchor\" data-name=\"58446973\">\"Infernoid Decatron\"</span> that was increased by 8 returns to the original value, but the gained name remains as <span class=\"tooltip-anchor\" data-name=\"88301393\">\"Infernoid Attondel\"</span>. Also, the gained effects of <span class=\"tooltip-anchor\" data-name=\"88301393\">\"Infernoid Attondel\"</span> remain gained, but they are negated by <span class=\"tooltip-anchor\" data-name=\"82732705\">\"Skill Drain\"</span>.",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#15597\">When a monster's effects that gained the Level, name or effect of another monster are negated, then only the Level will return to its original value</a></li>"
+            }
+        ],
+        "Properties Changing: Name changing": [
+            {
+                "interaction": "When a monster's effects that gained the Level, name or effect of another monster are negated, then only the Level will return to its original value<sup><a>[]</a></sup>.",
+                "example": "The effect of <span class=\"tooltip-anchor\" data-name=\"58446973\">\"Infernoid Decatron\"</span> was activated, gaining the name and effects of <span class=\"tooltip-anchor\" data-name=\"88301393\">\"Infernoid Attondel\"</span> and increasing its Level by 8. Afterwards if <span class=\"tooltip-anchor\" data-name=\"58446973\">\"Infernoid Decatron\"</span> has its effects negated by the effect of <span class=\"tooltip-anchor\" data-name=\"82732705\">\"Skill Drain\"</span> being activated. In the proposed scenario, the Level of <span class=\"tooltip-anchor\" data-name=\"58446973\">\"Infernoid Decatron\"</span> that was increased by 8 returns to the original value, but the gained name remains as <span class=\"tooltip-anchor\" data-name=\"88301393\">\"Infernoid Attondel\"</span>. Also, the gained effects of <span class=\"tooltip-anchor\" data-name=\"88301393\">\"Infernoid Attondel\"</span> remain gained, but they are negated by <span class=\"tooltip-anchor\" data-name=\"82732705\">\"Skill Drain\"</span>.",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#15597\">When a monster's effects that gained the Level, name or effect of another monster are negated, then only the Level will return to its original value</a></li>"
+            }            
+        ],
+        "Return/Add to the Hand": [
+            {
+                "interaction": "A monster (1) activates its effect and an effect that returns cards to the hand (2) is chained to return (1) to the hand. Then an effect that negates monster's effects (3) is chained to negate (1). The Chain resolves in reverse order, the effect of (3) will be applied and (1) will be returned to the hand due to the effect of (2), and the effect of (1) will still be negated<sup><a>[]</a></sup>.",
+                "example": "You chained <span class=\"tooltip-anchor\" data-name=\"94192409\">\"Compulsory Evacuation Device\"</span> to the activation of the effect of <span class=\"tooltip-anchor\" data-name=\"57774843\">\"Judgment Dragon\"</span>, and then further chained <span class=\"tooltip-anchor\" data-name=\"25789292\">\"Forbidden Chalice\"</span>. In this case, the Chain resolving in reverse order causes the <span class=\"tooltip-anchor\" data-name=\"57774843\">\"Judgment Dragon\"</span> that was affected by <span class=\"tooltip-anchor\" data-name=\"25789292\">\"Forbidden Chalice\"</span> to be returned to the hand. Its effect will be negated.",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#12314\">Effects negation, and what removes/doesn't remove it</a></li>"
+            }
+        ],
+        "Traps Treated as Monsters (not treated as Traps)": [
+            {
+                "interaction": "Even when a Trap Card treated as a Monster Card which says it is not treated as a Trap Card has its effects negated, it remains in the Main Monster Zone<sup><a>[]</a></sup>.",
+                "example": "",
+                "reference": "<li><a target=\"_blank\" href=\"https://ygorganization.com/perfect-rulebook-2017/\">OCG Perfect Rulebook 2017 pages 169-170</a></li>"
+            }
+        ],
+        "Traps Treated as Monsters (still treated as Traps)": [
+            {
+                "interaction": "<ul><li>After you negate <strong>monster effects</strong> of a Trap Card treated as a Monster Card, its Trap Effect that it applies to itself is not negated, so the card remains in the Monster Zone<sup><a>[]</a></sup>.</li><li>After you negate <strong>trap effects</strong> of a Trap Card treated as a Monster Card, its Trap Effect that is applied to itself is negated, so it is no longer treated as a monster and cannot exist in the Monster Zone. Thus, it will be placed in the Spell & Trap Zone face-up (even if the negation effect is no longer applied, the Trap Card will not be Special Summoned to the Monster Zone again)<sup><a>[]</a></sup>.</li></ul>",
+                "example": "A Continuous Trap Card that has an effect of becoming a monster, such as <span class=\"tooltip-anchor\" data-name=\"44822037\">\"Angel Statue - Azurune\"</span>, has been Special Summoned to your Monster Zone by applying its own Trap Effect:</p><ul><li>If the effect of a previously Set <span class=\"tooltip-anchor\" data-name=\"10045474\">\"Infinite Impermanence\"</span> that negates all other Spell/Trap effects in its column is applied to <span class=\"tooltip-anchor\" data-name=\"44822037\">\"Angel Statue - Azurune\"</span> in the Monster Zone, its Trap Effect that is applied to itself is negated, so it is no longer treated as a monster and cannot exist in the Monster Zone. Thus, it will be placed in the Spell & Trap Zone face-up. (even if the effect of <span class=\"tooltip-anchor\" data-name=\"10045474\">\"Infinite Impermanence\"</span> is no longer applied, <span class=\"tooltip-anchor\" data-name=\"44822037\">\"Angel Statue - Azurune\"</span> will not be Special Summoned to the Monster Zone again).</li><li>However, if just the effect of <span class=\"tooltip-anchor\" data-name=\"10045474\">\"Infinite Impermanence\"</span> that negates the effects of its target applies to <span class=\"tooltip-anchor\" data-name=\"44822037\">\"Angel Statue - Azurune\"</span> that is treated as an Effect Monster, only its Monster Effects will be negated. In this case, its Trap Effect that it applies to itself is not negated, so <span class=\"tooltip-anchor\" data-name=\"44822037\">\"Angel Statue - Azurune\"</span> remains in the Monster Zone.</li></ul>",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#23130\">Negating monster effects of a Monster/Trap hybrid</a></li>"
+            }
+        ]
+
+    },
+    "Negate Summons": {},
+    "Properties Changing: Copy effect continuous/lingering": {},
+    "Properties Changing: Name changing": {},
+    "Return/Add to the Hand": {},
+    "Traps Treated as Monsters (not treated as Traps)": {},
+    "Traps Treated as Monsters (still treated as Traps)": {},
+    "Unaffected": {},
+    "\"Necrovalley\"": {}
+}

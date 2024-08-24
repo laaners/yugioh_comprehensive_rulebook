@@ -1,6 +1,9 @@
 const { JSDOM } = require("jsdom");
 const fs = require("fs");
 
+const glossary = require("./glossary-entry-effect-interaction.json");
+const glossary_entries = Object.keys(glossary).sort((a, b) => (a < b ? -1 : 1));
+
 // operating on root path, decomment for relative
 // const path = require("path");
 
@@ -41,7 +44,6 @@ function tocString2Json(input) {
 function createList(items) {
   let list = "<ol>";
   items.forEach((item) => {
-    const id = item.title.split(" ")[0];
     list += `<li><a href="#${item.id}">${item.title.replace(item.id + " ", "")}</a>`;
     if (item.children && item.children.length > 0) {
       list += createList(item.children);
@@ -55,12 +57,97 @@ function createList(items) {
 function mergeIncludes(document) {
   const includes = document.querySelectorAll("include");
   if (includes.length < 1) return;
+
   for (const element of includes) {
     const section_name = element.textContent.replaceAll("\n", "").replaceAll(" ", "");
     const section = readHTML(section_name);
     mergeIncludes(section);
+
+    // if glossary entry, add effects interaction
+    if (section_name.includes("build_site/sections/10_glossary/")) {
+      const section_title = Array.from(section.querySelectorAll("h2, h3"))[0].innerHTML;
+
+      // construct effect interaction list
+      try {
+        const glossary_entry_list = section.querySelector(".glossary-entry-effect-interaction");
+        const references_list = section.querySelector(".references");
+        const references_list_items = Array.from(references_list.querySelectorAll("li"));
+
+        let sup_current_index = references_list_items.length;
+
+        for (const entry of glossary_entries) {
+          if (glossary[section_title] != undefined) {
+            if (glossary[section_title][entry] != undefined) {
+              sup_current_index = addEffectInteractionEntry(glossary[section_title][entry], entry, sup_current_index, glossary_entry_list, references_list);
+            } else if (glossary[entry][section_title] != undefined) {
+              sup_current_index = addEffectInteractionEntry(glossary[entry][section_title], entry, sup_current_index, glossary_entry_list, references_list);
+            }
+          }
+        }
+      } catch (error) {
+        console.log(section_title);
+        console.log(error);
+        console.log();
+      }
+    }
+
     element.outerHTML = section.querySelector("body").innerHTML;
   }
+}
+
+function addEffectInteractionEntry(glossary_object, entry, sup_current_index, glossary_entry_list, references_list) {
+  for (let i = 0; i < glossary_object.length; i++) {
+    let interaction = glossary_object[i].interaction;
+    let example = glossary_object[i].example;
+    let reference = glossary_object[i].reference;
+
+    let alreadyExistingResourceIndex = -1;
+    const references_list_items = Array.from(references_list.querySelectorAll("li"));
+    if (references_list_items.length > 0) {
+      // console.log(reference)
+      alreadyExistingResourceIndex = references_list_items.findIndex((_) => _.outerHTML.replaceAll("\n", "").replaceAll("  ", "") === reference);
+    }
+
+    // add list-item interaction entry
+    if (interaction != undefined) {
+      sup_current_index += alreadyExistingResourceIndex === -1 ? 1 : 0;
+
+      if (i === 0) {
+        glossary_entry_list.innerHTML += `
+        <li>
+          <strong>${entry}</strong>`;
+      }
+      // else {
+      //   glossary_entry_list.innerHTML += `<br />`;
+      // }
+
+      if (example.length > 0) {
+        glossary_entry_list.innerHTML += `
+          ${interaction}
+            <details>
+              <summary>Example</summary>
+              ${example}
+              <hr />
+            </details>
+          `;
+      } else {
+        glossary_entry_list.innerHTML += `
+          ${interaction}
+          `;
+      }
+      glossary_entry_list.innerHTML = glossary_entry_list.innerHTML.replaceAll("<sup><a>[]</a></sup>", `<sup><a href="#">[${(alreadyExistingResourceIndex === -1 ? references_list_items.length : alreadyExistingResourceIndex) + 1}]</a></sup>`);
+
+      if (i === glossary_object.length - 1) {
+        glossary_entry_list.innerHTML += `</li>`;
+      }
+
+      if (reference.length > 0 && alreadyExistingResourceIndex === -1) {
+        references_list.innerHTML += "\n"+reference+"\n";
+      }
+    }
+  }
+
+  return sup_current_index;
 }
 
 async function main() {
@@ -189,7 +276,7 @@ async function fix() {
   // load index
   const document = readHTML("build_site/index.html");
 
-  // merge includes  
+  // merge includes
   const includes = document.querySelectorAll("include");
   if (includes.length < 1) return;
   for (const element of includes) {

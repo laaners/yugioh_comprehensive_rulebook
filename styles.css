@@ -83,7 +83,8 @@ img {
   display: block;
 }
 .toc li:before {
-  content: counters(item, ".") ". ";
+  content: none;
+  content: counters(item, ".") " ";
   counter-increment: item;
   font-weight: bolder;
   font-size: 1rem;
@@ -98,6 +99,10 @@ img {
   z-index: 1;
   font-size: 6vh;
   padding: 1rem;
+}
+
+.toc details {
+  display: block;
 }
 
 /*
@@ -118,3 +123,21 @@ img {
 .tooltip-anchor:hover {
   background-color: #e0e0e0;
 }
+
+/* Glossary entry */
+.glossary-entry-effect-interaction summary {
+  cursor: pointer;
+}
+
+/*
+.glossary-entry-effect-interaction ul {
+  list-style: none;
+}
+
+.glossary-entry-effect-interaction li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  padding-inline-start: 0;
+}
+*/
