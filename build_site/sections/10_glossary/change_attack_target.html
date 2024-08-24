@@ -45,12 +45,34 @@
   </tbody>
 </table>
 
-<h3>Attack all once each</h3>
-<p>If a monster (1) can attack all opponent's monsters once each, if it attacks a monster (2) but then its attack is redirected to another monster (3), (1) cannot attack again (2). Furthermore, (3) which has been made the attack target instead of (2), if (3) has not been destroyed by battle after the attack redirection, (1) cannot attack again (3).</p>
+<ul>
+  <li>When an effect that changes attack target on attack declaration is applied, Damage Step is entered and damage calculation is performed while the effect is resolving.</li>
+</ul>
+
+<p><strong>Interaction with other card effects</strong></p>
+<ul class="glossary-entry-effect-interaction"></ul>
+
 <em>References:</em>
-<ol>
+<ol class="references">
   <li>
     YGOrg Database of Official OCG Rulings:
-    <a target="_blank" href="https://db.ygoresources.com/qa#10214">"ZW - Asura Strike", "Construction Train Signal Red"</a>
+    <a target="_blank" href="https://db.ygoresources.com/qa#17979">Conducting damage calculation while an effect is resolving</a>
+  </li>
+</ol>
+
+<h3>Activation Legality in the Damage Step</h3>
+
+<p>When an effect of changing attack target is activated and is resolving:</p>
+<ul>
+  <li>Effects of cards that have to activate before damage calculation <strong>cannot</strong> be activated.</li>
+  <li>Effects of cards that have to activate during damage calculation <strong>cannot</strong> be activated</li>
+  <li>Effects of cards that have to activate at the end of the Damage Step <strong>can</strong> be activated.</li>
+</ul>
+
+<em>References:</em>
+<ol class="references">
+  <li>
+    YGOrg Database of Official OCG Rulings:
+    <a target="_blank" href="https://db.ygoresources.com/qa#17979">Conducting damage calculation while an effect is resolving</a>
   </li>
 </ol>

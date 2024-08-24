@@ -10,7 +10,7 @@
 </p>
 
 <em>References:</em>
-<ol>
+<ol class="references">
   <li>
     <a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 38</a>
   </li>
@@ -71,7 +71,7 @@
 
 <p>If there are no monsters on your opponent's side of the field, you can attack directly. The full amount of your attacking monster's ATK is subtracted from the opponent's LP as battle damage.</p>
 <em>References:</em>
-<ol>
+<ol class="references">
   <li>
     <a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook pages 42-43, 50</a>
   </li>
@@ -86,7 +86,7 @@
   <li>After damage calculation</li>
   <li>End of the Damage Step</li>
 </ol>
-<table>
+<table align="center">
   <tbody>
     <tr>
       <td><b>Sequence</b></td>
@@ -205,6 +205,7 @@
               </li>
               <li>
                 They cannot be used as a cost to activate a card or an optional effect<sup><a href="#">[22]</a></sup
+                ><sup><a href="#">[25]</a></sup
                 >. But they can be used as a cost to activate a mandatory effect, such as <span class="tooltip-anchor" data-name="78700060">"Doomcaliber Knight"</span><sup><a href="#">[23]</a></sup>
               </li>
             </ul>
@@ -220,7 +221,9 @@
       </td>
       <td>
         ✔️ If a monster with a Continuous Effect that destroys itself under certain conditions (<span class="tooltip-anchor" data-name="58185394">"Giant Kozaky"</span>, <span class="tooltip-anchor" data-name="43642620">"Zombie Mammoth"</span>, etc). survives damage calculation without being determined to be "destroyed by battle", that Continuous Effect will immediately apply at this point and destroy that monster if those conditions are still met<sup><a href="#">[9]</a></sup> <br /><br />
-        ✔️ If a monster was flipped face-up during the Damage Step and <span class="tooltip-anchor" data-name="90846359">"Rivalry of Warlords"</span>/<span class="tooltip-anchor" data-name="53334471">"Gozen Match"</span> is still active, if that monster has a Attribute/Type that conflicts with another monster already face-up on the field, the flipped monster will immediately be sent to the Graveyard at this point<sup><a href="#">[12]</a></sup> <br /><br />
+        ✔️ If a monster was flipped face-up during the Damage Step and <span class="tooltip-anchor" data-name="90846359">"Rivalry of Warlords"</span>/<span class="tooltip-anchor" data-name="53334471">"Gozen Match"</span> is still active, if that monster has a Attribute/Type that conflicts with another monster already face-up on the field, the flipped monster will immediately be sent to the Graveyard at this point<sup><a href="#">[12]</a></sup
+        >(but Flip Effects will still activate<sup><a href="#">[24]</a></sup
+        >) <br /><br />
         ✔️ If a monster was flipped face-up during the Damage Step and its name conflicts with another monster that is already face-up on the field, as defined by an 'Unclassified Effect' that states "You can only control 1 [...]" or "There can only be 1 [...] on the field" (belonging either to the flipped monster or another face-up monster), the flipped monster will be immediately destroyed<sup><a href="#">[11]</a></sup>
       </td>
     </tr>
@@ -247,7 +250,7 @@
 </table>
 
 <em>References:</em>
-<ol>
+<ol class="references">
   <li>
     <a target="_blank" href="https://www.yugioh-card.com/eu/play/damage-step-rules/">Official KONAMI's damage step rules</a>
   </li>
@@ -336,6 +339,10 @@
     <a target="_blank" href="http://web.archive.org/web/20090218205242/http://entertainment.upperdeck.com/yugioh/en/gameplay/faqs/cardfaqs/default.aspx?first=D&amp;last=E">"Doomcaliber Knight" ruling</a>, archived from the
     <a target="_blank" href="http://entertainment.upperdeck.com/yugioh/en/gameplay/faqs/cardfaqs/default.aspx?first=D&amp;last=E">original</a>
   </li>
+  <li id="24">
+    <a target="_blank" href="https://www.yugioh-card.com/eu/play/rivalry-of-warlords/">Official KONAMI's FAQ of "Rivalry of Warlords" and "Gozen Match"</a>
+  </li>
+  <li id="25">YGOrg Database of Official OCG Rulings: <a target="_blank" href="https://db.ygoresources.com/qa#22233">Determined-to-be-destroyed monsters and paying costs</a></li>
   <li>
     <a target="_blank" href="https://yugipedia.com/wiki/Damage_Step">Yugipedia</a>
   </li>
@@ -434,7 +441,7 @@
   >.
 </p>
 <em>References:</em>
-<ol>
+<ol class="references">
   <li>
     <a target="_blank" href="https://www.yugioh-card.com/eu/play/damage-step-rules/">Official KONAMI's damage step rules</a>
   </li>
@@ -539,7 +546,10 @@
 
 <p>
   A card whose effect reads "at the end of the Damage Step" can be activated even if damage calculation has not been conducted and Before Damage Calculation has been reached<sup><a href="#">[1]</a></sup
+  ><sup><a href="#">[3]</a></sup
   >.
+  <br />
+  Example: your <span class="tooltip-anchor" data-name="56532353">"Neo Blue-Eyes Ultimate Dragon"</span> attacks your opponent's <span class="tooltip-anchor" data-name="26593852">"Ally of Justice Catastor"</span>. At the Start of the Damage Step, the "destroy that monster" effect of <span class="tooltip-anchor" data-name="26593852">"Ally of Justice Catastor"</span> is activated, however you activate <span class="tooltip-anchor" data-name="49010598">"Divine Wrath"</span> in response, negating the activation and destroying <span class="tooltip-anchor" data-name="26593852">"Ally of Justice Catastor"</span>, and therefore damage calculation is not conducted. However, <span class="tooltip-anchor" data-name="56532353">"Neo Blue-Eyes Ultimate Dragon"</span> is still attacking, and you can still activate its effect at the End of the Damage Step.
 </p>
 
 <p>
@@ -550,26 +560,16 @@
 </p>
 
 <em>References:</em>
-<ol>
+<ol class="references">
   <li>
     YGOrg Database of Official OCG Rulings:
-    <a target="_blank" href="https://db.ygoresources.com/qa#6177">"Number C5: Chaos Chimera Dragon", "Reflect Bounder", "Divine Wrath"</a>
+    <a target="_blank" href="https://db.ygoresources.com/qa#6177">End of the Damage Step still occurs even if damage calculation was never conducted</a>
   </li>
   <li>
     <a target="_blank" href="https://ygorganization.com/perfect-rulebook-2017/">OCG Perfect Rulebook 2017 page 188</a>
   </li>
-</ol>
-
-<h4>Precise sequence of events when substituting for destruction by battle</h4>
-<p>A card whose effect reads "if (1) you control would be destroyed by battle, you can do (2)" can be applied when performing damage calculation:</p>
-<ul>
-  <li>If you choose to apply the effect, immediately after damage calculation do (2), which can be banishing a card, detach a material for effect...</li>
-  <li>If you choose not to apply the effect, you can now use any effects that can be activated after damage calculation.</li>
-</ul>
-<em>References:</em>
-<ol>
   <li>
     YGOrg Database of Official OCG Rulings:
-    <a target="_blank" href="https://db.ygoresources.com/qa#6398">"Bujintei Kagutsuchi", "Zoodiac Whiptail"</a>
+    <a target="_blank" href="https://db.ygoresources.com/qa#19155">Battling monsters leaving the field, and Damage Step events occurring</a>
   </li>
 </ol>
