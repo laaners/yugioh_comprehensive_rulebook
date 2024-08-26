@@ -125,19 +125,12 @@ img {
 }
 
 /* Glossary entry */
-.glossary-entry-effect-interaction summary {
+summary {
   cursor: pointer;
 }
 
 /*
-.glossary-entry-effect-interaction ul {
-  list-style: none;
-}
-
-.glossary-entry-effect-interaction li {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  padding-inline-start: 0;
+.glossary-entry-effect-interaction summary {
+  cursor: pointer;
 }
 */
