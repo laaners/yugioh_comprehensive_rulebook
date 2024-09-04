@@ -112,8 +112,6 @@
   <hr />
 </details>
 
-
-
 <!--
 # Yugipedia references extractor 
 -->
@@ -160,7 +158,7 @@ console.log(elem)
 -->
 
 <script>
-text = `If "Tenpai Dragon Chundra"'s effect of was activated as Chain Link 1, the effect of "Sauravis, the Ancient and Ascended" can be activated during the attempt to Synchro Summon; if the effect of "Tenpai Dragon Chundra" was activated as Chain Link 2 or higher, it cannot be.`
+text = `While the effect of "DNA Surgery" is applying, and Dragon-Type is declared, you can target a Monster Token treated as Dragon-Type to banish with the effect of "Dragon's Rebirth". Even in this case, the effect of Special Summoning a Dragon-Type monster from your hand or Graveyard is applied normally.`
 regex = /"([^"]*)"/g;
 cards = text.match(regex)
 cards = [...new Set(cards)].filter(_=>_ !== '"unaffected by activated effects"')
@@ -170,11 +168,22 @@ for(card of cards) {
     let { data } = await response.json();
     data = data[0]
     id = +data.id
-    text = text.replaceAll(card, `<span class="tooltip-anchor" data-name="${id}">${card}</span>`).replaceAll('"','\\"')
+    text = text.replaceAll(card, `<span class="tooltip-anchor" data-name="${id}">${card}</span>`)
   }
   catch {}
 }
-console.log(text)
+console.log(text.replaceAll('"','\\"'))
+console.log(`<details>
+  <summary>Example</summary>
+  ${text}
+  <hr />
+</details>
+`)
 </script>
 
-<sup><a href="#">[1]</a></sup>
+<!--
+# Check lowercase
+-->
+<script>
+  Array.from(document.querySelectorAll("li")).filter(li => li.innerHTML.charAt(0) === li.innerText.charAt(0).toLowerCase()).forEach(_=>console.log(_.innerHTML));
+</script>
