@@ -158,7 +158,7 @@ console.log(elem)
 -->
 
 <script>
-text = `While the effect of "DNA Surgery" is applying, and Dragon-Type is declared, you can target a Monster Token treated as Dragon-Type to banish with the effect of "Dragon's Rebirth". Even in this case, the effect of Special Summoning a Dragon-Type monster from your hand or Graveyard is applied normally.`
+text = `You activate "Advanced Heraldry Art" while "Soul Levy" is face-up in your opponent's Spell & Trap Zone, and the effect of "Soul Levy" is applied each time you Special Summon. The effect of "Advanced Heraldry Art" Special Summons the 2 targeted "Heraldic Beast" monsters from your Graveyard, then finishes resolving. After "Advanced Heraldry Art" resolves, the effect of "Soul Levy" is applied and sends 3 cards from the top of your Deck to the Graveyard. Then, when you perform the Xyz Summon using the 2 Special Summoned monsters as materials, the effect of "Soul Levy" is applied again and sends another 3 cards from the top of your Deck to the Graveyard. In this case, the first set of 3 cards sent to the Graveyard and the second set of 3 cards sent to the Graveyard are not treated as being sent at the same time.`
 regex = /"([^"]*)"/g;
 cards = text.match(regex)
 cards = [...new Set(cards)].filter(_=>_ !== '"unaffected by activated effects"')

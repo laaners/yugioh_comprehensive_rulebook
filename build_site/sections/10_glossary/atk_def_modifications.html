@@ -64,8 +64,11 @@
   <li>
     If the ATK or DEF of a monster is changed by its own Ignition or Trigger Monster Effect, and later the monster affected by that applied effect has its effects negated, the effect that modified the ATK and DEF is no longer applied after that resolution<sup><a href="#">[1]</a></sup
     >.
-    <br />
-    Example: After resolving the effect of <span class="tooltip-anchor" data-name="56619314">"D/D/D Dragon King Pendragon"</span> that says "Once per turn: You can discard 1 card; this card gains 500 ATK" resolves, if the effects of <span class="tooltip-anchor" data-name="56619314">"D/D/D Dragon King Pendragon"</span> are negated by the effect of <span class="tooltip-anchor" data-name="78474168">"Breakthrough Skill"</span> that says "negate the effects of that opponent's face-up monster, until the end of this turn", the ATK of <span class="tooltip-anchor" data-name="56619314">"D/D/D Dragon King Pendragon"</span> returns to its original value.
+    <details>
+      <summary>Example</summary>
+      After resolving the effect of <span class="tooltip-anchor" data-name="56619314">"D/D/D Dragon King Pendragon"</span> that says "Once per turn: You can discard 1 card; this card gains 500 ATK" resolves, if the effects of <span class="tooltip-anchor" data-name="56619314">"D/D/D Dragon King Pendragon"</span> are negated by the effect of <span class="tooltip-anchor" data-name="78474168">"Breakthrough Skill"</span> that says "negate the effects of that opponent's face-up monster, until the end of this turn", the ATK of <span class="tooltip-anchor" data-name="56619314">"D/D/D Dragon King Pendragon"</span> returns to its original value.
+      <hr />
+    </details>
   </li>
   <li>
     The ATK and DEF that results from effects that increase/decrease the ATK and DEF are not treated as original values<sup><a href="#">[1]</a></sup
@@ -84,8 +87,11 @@
   <li>
     If an effect that doubles the ATK or DEF is applied on a monster with ? ATK, the original ATK value is treated as 0<sup><a href="#">[2]</a></sup
     >.
-    <br />
-    Example: If a <span class="tooltip-anchor" data-name="2948263">"Gogogo Golem - Golden Form"</span> that had its ATK become 4000 is targeted to activate <span class="tooltip-anchor" data-name="55713623">"Shrink"</span>, since the original ATK of <span class="tooltip-anchor" data-name="2948263">"Gogogo Golem - Golden Form"</span> is ?, its ATK becomes 0.
+    <details>
+      <summary>Example</summary>
+      If a <span class="tooltip-anchor" data-name="2948263">"Gogogo Golem - Golden Form"</span> that had its ATK become 4000 is targeted to activate <span class="tooltip-anchor" data-name="55713623">"Shrink"</span>, since the original ATK of <span class="tooltip-anchor" data-name="2948263">"Gogogo Golem - Golden Form"</span> is ?, its ATK becomes 0.
+      <hr />
+    </details>
   </li>
 </ul>
 
@@ -417,7 +423,10 @@
 <h3>Special cases</h3>
 <h4>Applying a special non-activated effect that is always applied last</h4>
 
-<p>Certain effects that set a monster's current ATK/DEF continuously are always reapplied last as new modifiers are introduced, breaking some of the rules established above. Even though they can be described in the same way (non-activated effects that set ATK/DEF to a determined value) it is not always clear why they work differently.</p>
+<p>
+  Certain effects that set a monster's current ATK/DEF continuously are always reapplied last as new modifiers are introduced, breaking some of the rules established above. Even though they can be described in the same way (non-activated effects that set ATK/DEF to a determined value) it is not always clear why they work differently<sup><a href="#">[1]</a></sup
+  >.
+</p>
 
 <p>
   For these special cases, no matter what the effects currently in play are, they are always applied last<sup><a href="#">[2]</a></sup
@@ -526,6 +535,32 @@
 
     <tr>
       <td align="center" width="100">
+        <img loading="lazy" src="https://images.ygoprodeck.com/images/cards/14291024.jpg" alt="14291024" />
+      </td>
+      <td class="td-top" colspan="100%">
+        <span class="tooltip-anchor" data-name="14291024"><strong>Gradius' Option</strong></span>
+        <p>
+          <span class="tooltip-anchor" data-name="10992251">"Gradius"</span> and <span class="tooltip-anchor" data-name="14291024">"Gradius' Option"</span> are face-up on your side of the field. While the effect of <span class="tooltip-anchor" data-name="14291024">"Gradius' Option"</span> is applying, making its ATK 1200 and its DEF 800, the Pendulum Effect of <span class="tooltip-anchor" data-name="4239451">"Performapal Turn Toad"</span> is activated and switches its ATK and DEF, the ATK and DEF of <span class="tooltip-anchor" data-name="14291024">"Gradius' Option"</span> are calculated using its effect. In this scenario, although the 1200 ATK and 800 DEF of <span class="tooltip-anchor" data-name="14291024">"Gradius' Option"</span> are switched by the effect of <span class="tooltip-anchor" data-name="4239451">"Performapal Turn Toad"</span>, the effect of <span class="tooltip-anchor" data-name="14291024">"Gradius' Option"</span> then changes its ATK and DEF to equal that of the selected <span class="tooltip-anchor" data-name="10992251">"Gradius"</span>, which makes its ATK and DEF 1200 and 800 once again. The same result occurs when the monster effect during the Battle Phase of <span class="tooltip-anchor" data-name="4239451">"Performapal Turn Toad"</span> is applied to <span class="tooltip-anchor" data-name="14291024">"Gradius' Option"</span><sup><a href="#">[4]</a></sup
+          >.
+        </p>
+      </td>
+    </tr>
+
+    <tr>
+      <td align="center" width="100">
+        <img loading="lazy" src="https://images.ygoprodeck.com/images/cards/37261776.jpg" alt="37261776" />
+      </td>
+      <td class="td-top" colspan="100%">
+        <span class="tooltip-anchor" data-name="37261776"><strong>Salamangreat Violet Chimera</strong></span>
+        <p>
+          A <span class="tooltip-anchor" data-name="37261776">"Salamangreat Violet Chimera"</span> that was Fusion Summoned using another <span class="tooltip-anchor" data-name="37261776">"Salamangreat Violet Chimera"</span> as material is face-up in your Monster Zone. If you attack a <span class="tooltip-anchor" data-name="28240337">"Red-Eyes Zombie Necro Dragon"</span> with that <span class="tooltip-anchor" data-name="37261776">"Salamangreat Violet Chimera"</span>, the third effect of <span class="tooltip-anchor" data-name="37261776">"Salamangreat Violet Chimera"</span> is applied, it makes the ATK of the opponent's monster it battles become 0 during damage calculation only. If your opponent activates the effect of <span class="tooltip-anchor" data-name="6039967">"Vampire Fraulein"</span> during that damage calculation, even if the ATK of the opponent's monster is increased during damage calculation by the effect of <span class="tooltip-anchor" data-name="6039967">"Vampire Fraulein"</span>, its ATK becomes 0 by the effect of <span class="tooltip-anchor" data-name="37261776">"Salamangreat Violet Chimera"</span>, and damage calculation is performed<sup><a href="#">[5]</a></sup
+          >.
+        </p>
+      </td>
+    </tr>
+
+    <tr>
+      <td align="center" width="100">
         <img loading="lazy" src="https://images.ygoprodeck.com/images/cards/22359980.jpg" alt="22359980" />
       </td>
       <td class="td-top" colspan="100%">
@@ -550,35 +585,23 @@
       <td colspan="100%" align="center"><b>More examples</b></td>
     </tr>
     <tr>
-      <td align="center" class="td-top" colspan="1" style="width: 20%">
+      <td align="center" class="td-top" colspan="1" style="width: 10%">
         <img loading="lazy" src="https://images.ygoprodeck.com/images/cards/98336111.jpg" alt="98336111" />
         <br />
         <span class="tooltip-anchor" data-name="98336111"><strong>Fusion Devourer</strong></span
         ><sup><a href="#">[2]</a></sup>
       </td>
-      <td align="center" class="td-top" colspan="1" style="width: 20%">
+      <td align="center" class="td-top" colspan="1" style="width: 10%">
         <img loading="lazy" src="https://images.ygoprodeck.com/images/cards/14258627.jpg" alt="14258627" />
         <br />
         <span class="tooltip-anchor" data-name="14258627"><strong>Gaia Plate the Earth Giant</strong></span
         ><sup><a href="#">[2]</a></sup>
       </td>
-      <td align="center" class="td-top" colspan="1" style="width: 20%">
-        <img loading="lazy" src="https://images.ygoprodeck.com/images/cards/14291024.jpg" alt="14291024" />
-        <br />
-        <span class="tooltip-anchor" data-name="14291024"><strong>Gradius' Option</strong></span
-        ><sup><a href="#">[4]</a></sup>
-      </td>
-      <td align="center" class="td-top" colspan="1" style="width: 20%">
+      <td align="center" class="td-top" colspan="1" style="width: 10%">
         <img loading="lazy" src="https://images.ygoprodeck.com/images/cards/71703785.jpg" alt="71703785" />
         <br />
         <span class="tooltip-anchor" data-name="71703785"><strong>Palladium Oracle Mahad</strong></span
         ><sup><a href="#">[1]</a></sup>
-      </td>
-      <td align="center" class="td-top" colspan="1">
-        <img loading="lazy" src="https://images.ygoprodeck.com/images/cards/37261776.jpg" alt="37261776" />
-        <br />
-        <span class="tooltip-anchor" data-name="37261776"><strong>Salamangreat Violet Chimera</strong></span
-        ><sup><a href="#">[5]</a></sup>
       </td>
     </tr>
   </tbody>
@@ -608,6 +631,11 @@
   <li>
     A monster (1) whose effect reads "The ATK of this card becomes the combined original ATK of the Tributed monsters", if it is Summoned by tributing a monster (2) on the field whose <strong>original</strong> ATK was set by another card (3), (1)'s ATK will be (2)'s printed ATK even though (2)'s original ATK differs from its printed ATK due to (3)<sup><a href="#">[2]</a></sup
     >.
+    <details>
+      <summary>Example</summary>
+      A <span class="tooltip-anchor" data-name="78651105">"Beast King Barbaros"</span> which was Normal Summoned without Tributes, with an original ATK of 1900 is Tributed to Tribute Summon <span class="tooltip-anchor" data-name="6614221">"Fog King"</span>. <span class="tooltip-anchor" data-name="6614221">"Fog King"</span>'s ATK will become the combined printed ATK of the monsters Tributed for its Tribute Summon. Therefore, even if the original ATK of the <span class="tooltip-anchor" data-name="78651105">"Beast King Barbaros"</span> on the field is treated as 1900, <span class="tooltip-anchor" data-name="6614221">"Fog King"</span>'s ATK will become the 3000 printed on <span class="tooltip-anchor" data-name="78651105">"Beast King Barbaros"</span>.
+      <hr />
+    </details>
   </li>
 </ul>
 
