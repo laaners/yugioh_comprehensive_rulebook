@@ -64,7 +64,7 @@ function mergeIncludes(document) {
     mergeIncludes(section);
 
     // if glossary entry, add effects interaction
-    if (section_name.includes("build_site/sections/10_glossary/")) {
+    if (section_name.includes("build_site/sections/10_glossary/") || section_name.includes("build_site/sections/06_other_game_elements/")) {
       const section_title = Array.from(section.querySelectorAll("h2, h3"))[0].innerHTML;
 
       // construct effect interaction list

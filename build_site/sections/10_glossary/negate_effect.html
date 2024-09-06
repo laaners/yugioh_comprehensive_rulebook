@@ -42,11 +42,22 @@
 </table>
 
 <ul>
-  <li>If an effect that simply negates effects is activated in a chain to the activation of a card, the activation of the card is not negated and its effect is not applied afterwards.</li>
   <li>
-    Even if the effect of an activated card is negated, that effect is negated but its resolution is still treated as being performed.
-    <br />
-    Example: While the effect of <span class="tooltip-anchor" data-name="51452091">"Royal Decree"</span> that says "Negate all other Trap Card effects on the field." is being applied, if <span class="tooltip-anchor" data-name="4178474">"Raigeki Break"</span> is activated by discarding <span class="tooltip-anchor" data-name="50287060">"Archfiend of Gilfer"</span> as a cost, the effect of <span class="tooltip-anchor" data-name="4178474">"Raigeki Break"</span> is negated, but since the timing is treated as that effect being resolved, the effect of the discarded <span class="tooltip-anchor" data-name="50287060">"Archfiend of Gilfer"</span> that says "When this card is sent to the Graveyard: You can target 1 face-up monster on the field; equip that target with this card." cannot be activated.
+    If an effect that simply negates effects is activated in a chain to the activation of a card, the activation of the card is not negated and its effect is not applied afterwards<sup><a href="#">[1]</a></sup
+    >.
+  </li>
+  <li>
+    Even if the effect of an activated card is negated, that effect is negated but its resolution is still treated as being performed<sup><a href="#">[1]</a></sup
+    >.
+    <details>
+      <summary>Example</summary>
+      While the effect of <span class="tooltip-anchor" data-name="51452091">"Royal Decree"</span> that says "Negate all other Trap Card effects on the field." is being applied, if <span class="tooltip-anchor" data-name="4178474">"Raigeki Break"</span> is activated by discarding <span class="tooltip-anchor" data-name="50287060">"Archfiend of Gilfer"</span> as a cost, the effect of <span class="tooltip-anchor" data-name="4178474">"Raigeki Break"</span> is negated, but since the timing is treated as that effect being resolved, the effect of the discarded <span class="tooltip-anchor" data-name="50287060">"Archfiend of Gilfer"</span> that says "When this card is sent to the Graveyard: You can target 1 face-up monster on the field; equip that target with this card." cannot be activated.
+      <hr />
+    </details>
+  </li>
+  <li>
+    Even if a card's effect is being negated (such as by <span class="tooltip-anchor" data-name="82732705">"Skill Drain"</span>), it is still possible to activate its effects (which would require paying the cost)<sup><a href="#">[2]</a></sup
+    >.
   </li>
 </ul>
 
@@ -57,6 +68,9 @@
 <ol class="references">
   <li>
     <a target="_blank" href="https://ygorganization.com/perfect-rulebook-2017/">OCG Perfect Rulebook 2017 page 155</a>
+  </li>
+  <li>
+    <a target="_blank" href="https://yugipedia.com/wiki/Cost">Yugipedia</a>
   </li>
 </ol>
 
@@ -87,5 +101,23 @@
   <li>
     YGOrg Database of Official OCG Rulings:
     <a target="_blank" href="https://db.ygoresources.com/qa#12982">Activation legality for effect negation</a>
+  </li>
+</ol>
+
+<h3>Properties Changing</h3>
+<p>
+  When a monster's effects that gained the Level, name or effect of another monster are negated, then only the Level will return to its original value.
+  <details>
+    <summary>Example</summary>
+    The effect of <span class="tooltip-anchor" data-name="58446973">"Infernoid Decatron"</span> was activated, gaining the name and effects of <span class="tooltip-anchor" data-name="88301393">"Infernoid Attondel"</span> and increasing its Level by 8. Afterwards if <span class="tooltip-anchor" data-name="58446973">"Infernoid Decatron"</span> has its effects negated by the effect of <span class="tooltip-anchor" data-name="82732705">"Skill Drain"</span> being activated. In the proposed scenario, the Level of <span class="tooltip-anchor" data-name="58446973">"Infernoid Decatron"</span> that was increased by 8 returns to the original value, but the gained name remains as <span class="tooltip-anchor" data-name="88301393">"Infernoid Attondel"</span>. Also, the gained effects of <span class="tooltip-anchor" data-name="88301393">"Infernoid Attondel"</span> remain gained, but they are negated by <span class="tooltip-anchor" data-name="82732705">"Skill Drain"</span>.
+    <hr />
+  </details>
+</p>
+
+<em>References:</em>
+<ol class="references">
+  <li>
+    YGOrg Database of Official OCG Rulings:
+    <a target="_blank" href="https://db.ygoresources.com/qa#15597">When a monster's effects that gained the Level, name or effect of another monster are negated, then only the Level will return to its original value</a>
   </li>
 </ol>
