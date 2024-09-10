@@ -14,7 +14,7 @@
                 "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#19254\">Tokens cannot be Special Summoned from the Spell & Trap Zone</a></li>"
             },
             {
-                "interaction": "Similarly, <span class=\"tooltip-anchor\" data-name=\"53639887\">\"Divine Temple of the Snake-Eye\"</span> can't summon a Token from the Spell/Trap Zone<sup><a>[]</a></sup>.",
+                "interaction": "Another example being <span class=\"tooltip-anchor\" data-name=\"53639887\">\"Divine Temple of the Snake-Eye\"</span>: it cannot summon a Token from the Spell/Trap Zone<sup><a>[]</a></sup>.",
                 "example": "",
                 "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#19198\">\"Divine Temple of the Snake-Eye\"</a></li>"
             }
@@ -134,9 +134,14 @@
     "Cannot target for attacks": {
         "Unaffected": [
             {
-                "interaction": "If you are applying an effect to the monster, preventing monsters from being targeted affects the monsters doing the attack targeting<sup><a>[]</a></sup>.",
+                "interaction": "Preventing monsters from being targeted for an attack affects the monsters doing the attack targeting<sup><a>[]</a></sup>.",
                 "example": "You control a face-up <span class=\"tooltip-anchor\" data-name=\"14541657\">\"Twilight Ninja Shingetsu\"</span> and a face-up <span class=\"tooltip-anchor\" data-name=\"40945356\">\"Twilight Ninja Nichirin, the Chunin\"</span>, and the opponent controls a <span class=\"tooltip-anchor\" data-name=\"3814632\">\"Skypalace Gangaridai\"</span> affected by the effect of <span class=\"tooltip-anchor\" data-name=\"49032236\">\"Number 81: Superdreadnought Rail Cannon Super Dora\"</span>. The effect of <span class=\"tooltip-anchor\" data-name=\"14541657\">\"Twilight Ninja Shingetsu\"</span> that prevents other \"Ninja\" Monsters you control from being targeted for attacks is an effect that affects the monsters performing attacks. Therefore, in the proposed scenario, since <span class=\"tooltip-anchor\" data-name=\"3814632\">\"Skypalace Gangaridai\"</span> is not affected by the effects of other cards, <span class=\"tooltip-anchor\" data-name=\"40945356\">\"Twilight Ninja Nichirin, the Chunin\"</span> can be targeted for an attack.",
                 "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#17557\">Preventing monsters from being targeted for an attack affects the monsters doing the attack targeting</a></li>"
+            },
+            {
+                "interaction": "This is true for both effects that say \"monsters your opponent controls cannot target X for attacks\" like <span class=\"tooltip-anchor\" data-name=\"14541657\">\"Twilight Ninja Shingetsu\"</span> and effects that say \"your opponent cannot target X for attacks\" like <span class=\"tooltip-anchor\" data-name=\"10000080\">\"The Winged Dragon of Ra - Sphere Mode\"</span>: a monster unaffected by those cards can still target them for attacks<sup><a>[]</a></sup>.",
+                "example": "",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#11927\">\"The Winged Dragon of Ra - Sphere Mode\"</a></li>"
             }
         ]
     },
@@ -214,13 +219,6 @@
                 "interaction": "The Special Summon of a monster when resolving an effect that happens later (during the End Phase for example) does not start a chain such as <span class=\"tooltip-anchor\" data-name=\"46448938\">\"Spellbook of Judgment\"</span>.<ul><li>As it is a Special Summon of a monster due an effect, this Special Summon cannot be negated by activating effects that negate summons like <span class=\"tooltip-anchor\" data-name=\"50323155\">\"Black Horn of Heaven\"</span><sup><a>[]</a></sup>.</li><li>However, it is still an \"effects that include an effect that Special Summons a monster(s)\", so cards like <span class=\"tooltip-anchor\" data-name=\"c84749824\">\"Solemn Warning\"</span> can be activated in response<sup><a>[]</a></sup>.</li></ul>",
                 "example": "",
                 "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#12713\">Negating delayed Special Summons</a></li>"
-            }
-        ],
-        "\"Necrovalley\"": [
-            {
-                "interaction": "Example: if <span class=\"tooltip-anchor\" data-name=\"66386380\">\"Harpie Oracle\"</span> is Normal or Special Summoned and activates its effect while the effect of <span class=\"tooltip-anchor\" data-name=\"47355498\">\"Necrovalley\"</span> is applying, as in this scenario, the effect will not be negated. However, if the effect of <span class=\"tooltip-anchor\" data-name=\"47355498\">\"Necrovalley\"</span> is applying during the End Phase when you apply <span class=\"tooltip-anchor\" data-name=\"66386380\">\"Harpie Oracle\"</span>'s effect, you cannot add an appropriate Spell/Trap Card from your Graveyard to your hand. (If the effect of <span class=\"tooltip-anchor\" data-name=\"47355498\">\"Necrovalley\"</span> has stopped applying by the time you reach the End Phase, you can add the Spell/Trap Card from your Graveyard to your hand normally)<sup><a>[]</a></sup>.",
-                "example": "",
-                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#12405\">Necrovalley and delayed effects</a></li>"
             }
         ],
         "Unaffected": [
@@ -341,5 +339,29 @@
     "Traps Treated as Monsters (not treated as Traps)": {},
     "Traps Treated as Monsters (still treated as Traps)": {},
     "Unaffected": {},
-    "\"Necrovalley\"": {}
+    "\"Necrovalley\"": {
+        "During the X Phase, do ... : Delayed effects": [
+            {
+                "interaction": "Example: if <span class=\"tooltip-anchor\" data-name=\"66386380\">\"Harpie Oracle\"</span> is Normal or Special Summoned and activates its effect while the effect of <span class=\"tooltip-anchor\" data-name=\"47355498\">\"Necrovalley\"</span> is applying, as in this scenario, the effect will not be negated. However, if the effect of <span class=\"tooltip-anchor\" data-name=\"47355498\">\"Necrovalley\"</span> is applying during the End Phase when you apply <span class=\"tooltip-anchor\" data-name=\"66386380\">\"Harpie Oracle\"</span>'s effect, you cannot add an appropriate Spell/Trap Card from your Graveyard to your hand. (If the effect of <span class=\"tooltip-anchor\" data-name=\"47355498\">\"Necrovalley\"</span> has stopped applying by the time you reach the End Phase, you can add the Spell/Trap Card from your Graveyard to your hand normally)<sup><a>[]</a></sup>.",
+                "example": "",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#12405\">Necrovalley and delayed effects</a></li>"
+            }
+        ]
+    },
+    "\"Ghost Mourner & Moonlit Chill\"": {
+        "Change/Take/Give/Switch Control": [
+            {
+                "interaction": "The player who takes damage from the effect of <span class=\"tooltip-anchor\" data-name=\"52038441\">\"Ghost Mourner & Moonlit Chill\"</span> is the one who controls the targeted monster when it leaves the field<sup><a>[]</a></sup>.",
+                "example": "When your opponent Special Summoned <span class=\"tooltip-anchor\" data-name=\"38517737\">\"Blue-Eyes Alternative White Dragon\"</span> this turn, you activated the effect of \"Ghost Mourner & Moonlit Chill\". During the same turn, if that <span class=\"tooltip-anchor\" data-name=\"38517737\">\"Blue-Eyes Alternative White Dragon\"</span> leaves the field after its control was changed by the effect of <span class=\"tooltip-anchor\" data-name=\"31036355\">\"Creature Swap\"</span>, the player who takes damage from the effect of \"Ghost Mourner & Moonlit Chill\" is the one who controls the targeted monster when it leaves the field (in this scenario, since you were the controller of <span class=\"tooltip-anchor\" data-name=\"38517737\">\"Blue-Eyes Alternative White Dragon\"</span>, you take 3000 damage).",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#22947\">\"Ghost Mourner & Moonlit Chill\" and changing control</a></li>"
+            }
+        ],
+        "Unaffected": [
+            {
+                "interaction": "You can use <span class=\"tooltip-anchor\" data-name=\"52038441\">\"Ghost Mourner & Moonlit Chill\"</span> targeting a monster unaffected by cards effects. In this scenario, the monster's effects won't be negated but the controller of that monster will still take damage when it leaves the field<sup><a>[]</a></sup>.",
+                "example": "",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#23552\">\"Ghost Mourner & Moonlit Chill\" targets a monster that is unaffected</a></li>"
+            }
+        ]
+    }
 }

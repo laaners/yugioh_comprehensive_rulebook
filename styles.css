@@ -1,16 +1,24 @@
-body {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  display: flex;
-  justify-content: center;
-}
-
 html {
   /*
   scroll-behavior: smooth;
   */
 }
 
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  /*
+  justify-content: center;
+  */
+}
 
+img[alt="kuriboh_reading"] {
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /* Header styles */
 h1 {
@@ -29,11 +37,85 @@ h4 {
   font-size: 1.17rem; /* 24px (1.5 * 16px) */
 }
 
+/* sidebar and content with media query*/
+
+.content-sidebar {
+  margin-left: 2%;
+  margin-right: 2%;
+  display: flex;
+  align-items: center;
+
+  flex-direction: column;
+}
+
+.sidebar {
+  top: 0;
+  right: 0;
+  overflow-y: auto; /* Make it scrollable */
+  overflow-x: scroll;
+  overflow-wrap: break-word;
+  padding: 0px;
+  margin: 0;
+
+  position: static;
+  width: 100%;
+}
+
 .content {
-  max-width: 920px;
-  margin: auto;
   padding: 0;
-  overflow: auto;
+
+  max-width: 100%;
+  width: 100%;
+  margin: auto;
+}
+
+.top-shortcut {
+  display: block;
+  position: fixed;
+  text-decoration: none;
+  bottom: 3%;
+  z-index: 1;
+  font-size: 65px;
+  padding: 1rem;
+
+  right: 3%;
+}
+
+@media only screen and (min-width: 960px) {
+  .content-sidebar {
+    flex-direction: row;
+  }
+  .content-sidebar-2-left {
+    flex-direction: row-reverse;
+  }
+  .content-sidebar-2-top {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    height: 100vh; /* Full height */
+    position: fixed;
+    width: 30%;
+  }
+  .sidebar-2-top {
+    position: static;
+    width: 70%;
+    height: auto;
+  }
+
+  .content {
+    max-width: 70%;
+    width: 70%;
+    margin: 0;
+  }
+
+  .top-shortcut {
+    right: 30%;
+  }
+  .top-shortcut-2-left,
+  .top-shortcut-2-top {
+    right: 3%;
+  }
 }
 
 li {
@@ -45,6 +127,7 @@ li::marker {
 }
 
 table {
+  width: 100%;
   margin-top: 1rem;
   margin-bottom: 1rem;
   border-collapse: collapse;
@@ -94,9 +177,10 @@ img {
 /*https://stackoverflow.com/questions/2729927/number-nested-ordered-lists-in-html*/
 /*
 */
+
 .toc ol {
   counter-reset: item;
-  padding-left: 2rem;
+  padding-left: 1.5rem;
 }
 .toc li {
   display: block;
@@ -106,22 +190,45 @@ img {
   content: counters(item, ".") " ";
   counter-increment: item;
   font-weight: bolder;
-  font-size: 1rem;
+  font-size: counters(item) rem;
 }
-
-.top-shortcut {
-  display: block;
-  position: fixed;
-  text-decoration: none;
-  bottom: 3vh;
-  right: 4vw;
-  z-index: 1;
-  font-size: 6vh;
-  padding: 1rem;
-}
-
 .toc details {
   display: block;
+}
+
+.toc ol {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.toc ol ol {
+  font-size: 1.1rem;
+  font-weight: normal;
+}
+
+.toc-controller {
+  display: none;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.75rem;
+}
+
+.toc-controller div {
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+  font-size: 3rem;
+}
+
+.toc-controller div span {
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 960px) {
+  .toc-controller {
+    display: flex;
+  }
 }
 
 /*
@@ -130,6 +237,32 @@ img {
   padding-left: 2rem;
 }
 */
+
+/* Battle damage list css */
+.battle-damage-ol {
+  counter-reset: item;
+}
+
+/* Style the list items */
+.battle-damage-ol li {
+  list-style: none; /* Remove default numbering */
+  counter-increment: item;
+  position: relative;
+}
+
+/* For items with numbers less than 10, add a leading zero */
+.battle-damage-ol li::before {
+  content: "0" counter(item) ".";
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+/* For items with numbers 10 and greater, don't add the leading zero */
+.battle-damage-ol li:nth-child(n + 10)::before {
+  content: counter(item) ".";
+  font-weight: bold;
+  margin-right: 8px;
+}
 
 /* tooltip-anchor */
 
