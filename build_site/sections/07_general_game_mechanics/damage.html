@@ -74,15 +74,282 @@
   </li>
 </ol>
 
-<h3>Inflicting 0 damage is still something that happened</h3>
+<h4>Determining Battle Damage</h4>
 <p>
-  Inflicting 0 damage is still something that happened.
-  <details>
-    <summary>Example</summary>
-    Your opponent has just resolved the first effect of their <span class="tooltip-anchor" data-name="44373896">"Destruction Dragon"</span>, which was activated by targeting a <span class="tooltip-anchor" data-name="30312361">"Phantom of Chaos"</span> in your Monster Zone. In this situation, a monster you control was destroyed by the effect of your opponent's <span class="tooltip-anchor" data-name="44373896">"Destruction Dragon"</span>. Even though the ATK of your destroyed <span class="tooltip-anchor" data-name="30312361">"Phantom of Chaos"</span> is zero, the "if it was a Monster Card, inflict damage to your opponent equal to its original ATK" effect of <span class="tooltip-anchor" data-name="44373896">"Destruction Dragon"</span> is still also applied (you will take 0 damage as a result of this). So you cannot activate a card like <span class="tooltip-anchor" data-name="37383714">"Soul Rope"</span> that needs the last action to happen to be the destruction of the monster, as the last action happened was you taking 0 damage.
-    <hr />
-  </details>
+  You calculate battle damage based on the battle position of the monster you are attacking. If you attack an Attack Position monster, compare ATK vs. ATK. If you attack a Defense Position monster, compare your monster's ATK vs. the attacked monster's DEF<sup><a href="#">[1]</a></sup
+  >.
 </p>
+
+<table align="center">
+  <tbody>
+    <tr>
+      <td colspan="2">
+        <b>ATK. of the attacking Monster VS. ATK of Opponent's Monster</b><sup><a href="#">[1]</a></sup>
+      </td>
+    </tr>
+    <tr>
+      <td><b>WIN</b></td>
+      <td>When your attacking monster's ATK is higher than the ATK of the opponent's monster, the attacking monster destroys the opponent's monster and sends it to the Graveyard. The amount that your attacking monster's ATK exceeds the ATK of your opponent's monster is subtracted from your opponent's LP as battle damage.</td>
+    </tr>
+    <tr>
+      <td><b>TIE</b></td>
+      <td>
+        When your attacking monster's ATK is equal to the ATK of the opponent's monster, the result is considered a tie, and both monsters are destroyed. Neither player takes any battle damage.
+        <br />
+        <b>Monsters with 0 ATK cannot destroy anything by battle. If two Attack Position monsters with 0 ATK battle each other, neither monster is destroyed.</b>
+        <a target="_blank" href="(https://www.yugioh-card.com/en/rulebook/">(Official rulebook page 50)</a>
+      </td>
+    </tr>
+    <tr>
+      <td><b>LOSE</b></td>
+      <td>When your attacking monster's ATK is lower than the ATK of the opponent's monster, the attacking monster is destroyed and sent to the Graveyard. The amount that the opponent's monster's ATK exceeds the ATK of your attacking monster is subtracted from your LP as battle damage.</td>
+    </tr>
+  </tbody>
+</table>
+
+<table align="center">
+  <tbody>
+    <tr>
+      <td colspan="2">
+        <b>ATK. of the attacking Monster VS. DEF of Opponent's Monster</b><sup><a href="#">[1]</a></sup>
+      </td>
+    </tr>
+    <tr>
+      <td><b>WIN</b></td>
+      <td>When your attacking monster's ATK is higher than the DEF of the opponent's monster, the attacking monster destroys the opponent's monster and sends it to the Graveyard. Neither player takes any battle damage.</td>
+    </tr>
+    <tr>
+      <td><b>TIE</b></td>
+      <td>When your attacking monster's ATK is equal to the DEF of the opponent's monster, neither monster is destroyed. Neither player takes any battle damage.</td>
+    </tr>
+    <tr>
+      <td><b>LOSE</b></td>
+      <td>When your attacking monster's ATK is lower than the DEF of the opponent's monster, neither monster is destroyed. The amount that the opponent's monster's DEF exceeds the ATK of your attacking monster is subtracted from your LP as battle damage.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>
+  If there are no monsters on your opponent's side of the field, you can attack directly. The full amount of your attacking monster's ATK is subtracted from the opponent's LP as battle damage<sup><a href="#">[1]</a></sup
+  >.
+</p>
+
+<p>
+  There also exist effects that modify battle damage by doubling it, make your opponent take it instead, reduce it to zero, gain life points instead of taking it and so on. In such cases battle damage is determined by considering different types of effects in the following order<sup><a href="#">[2]</a></sup
+  >:
+</p>
+<ol class="battle-damage-ol">
+  <li>This card inflicts double battle damage (this phrasing exactly with "battle damage" as object of the phrase, in Japanese it is "倍の戦闘ダメージを与える").</li>
+  <li>Battle damage is taken by both players.</li>
+  <li>Battle damage you take is also inflicted to your opponent / your opponent takes any battle damage you would take instead.</li>
+  <li>Battle damage is treated as effect damage.</li>
+  <li>The player gains Life Points instead of taking battle damage.</li>
+  <li>Battle damage becomes 0.</li>
+  <li>Battle damage is halved.</li>
+  <li>Battle damage is doubled (this phrasing exactly with "battle damage" as subject of the phrase, in Japanese it is "戦闘ダメージは倍になる").</li>
+  <li>Battle damage becomes X (X being a predetermined value).</li>
+  <li>You do not take battle damage if it is more or less than X (however, note that if the Battle Damage has become 0 when applying "06" effects, the remaining effects are not applied).</li>
+</ol>
+
+<p>Take as an example <span class="tooltip-anchor" data-name="81260679">"Ohime the Manifested Mikanko"</span> (effect type "03") equipped with <span class="tooltip-anchor" data-name="41927278">"Double-Edged Sword"</span> (effect type "02"), so that <span class="tooltip-anchor" data-name="81260679">"Ohime the Manifested Mikanko"</span>'s ATK is 2000:</p>
+<ul>
+  <li>
+    When it attacks directly:
+    <table>
+      <tr>
+        <td>
+          <b>What applies</b>
+        </td>
+        <td>
+          <b>Battle Damage to the opponent</b>
+        </td>
+        <td>
+          <b>Battle Damage to you</b>
+        </td>
+      </tr>
+      <tr>
+        <td>Normal circumstances</td>
+        <td>2000</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td>Apply "02"</td>
+        <td>2000</td>
+        <td>2000</td>
+      </tr>
+      <tr>
+        <td>Apply "03"</td>
+        <td>4000</td>
+        <td>0</td>
+      </tr>
+    </table>
+  </li>
+
+  <li>
+    When it is in Defense Position and attacked by <span class="tooltip-anchor" data-name="55410871">"Blue-Eyes Chaos MAX Dragon"</span> (effect type "01"):
+    <table>
+      <tr>
+        <td>
+          <b>What applies</b>
+        </td>
+        <td>
+          <b>Battle Damage to the opponent</b>
+        </td>
+        <td>
+          <b>Battle Damage to you</b>
+        </td>
+      </tr>
+      <tr>
+        <td>Normal circumstances</td>
+        <td>0</td>
+        <td>4000</td>
+      </tr>
+      <tr>
+        <td>Apply "01"</td>
+        <td>0</td>
+        <td>8000</td>
+      </tr>
+      <tr>
+        <td>Apply "02"</td>
+        <td>8000</td>
+        <td>8000</td>
+      </tr>
+      <tr>
+        <td>Apply "03"</td>
+        <td>16000</td>
+        <td>0</td>
+      </tr>
+    </table>
+  </li>
+
+  <li>
+    When it battles <span class="tooltip-anchor" data-name="77205367">"Number C96: Dark Storm"</span> and both monsters are in Attack Position (effect type "03"):
+    <table>
+      <tr>
+        <td>
+          <b>What applies</b>
+        </td>
+        <td>
+          <b>Battle Damage to the opponent</b>
+        </td>
+        <td>
+          <b>Battle Damage to you</b>
+        </td>
+      </tr>
+      <tr>
+        <td>Normal circumstances</td>
+        <td>1000</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td>Apply "02"</td>
+        <td>1000</td>
+        <td>1000</td>
+      </tr>
+      <tr>
+        <td>Apply <b>both simultaneously and once</b> "03"</td>
+        <td>2000</td>
+        <td>1000</td>
+      </tr>
+    </table>
+    If the effect of <span class="tooltip-anchor" data-name="77205367">"Number C96: Dark Storm"</span> or <span class="tooltip-anchor" data-name="81260679">"Ohime the Manifested Mikanko"</span> make the opponent take battle damage, the effect of the other monster is not applied to that damage.
+  </li>
+
+  <li>
+    When it battles an opponent's <span class="tooltip-anchor" data-name="81260679">"Ohime the Manifested Mikanko"</span> and both monsters are in Attack Position (effect type "03"):
+    <table>
+      <tr>
+        <td>
+          <b>What applies</b>
+        </td>
+        <td>
+          <b>Battle Damage to the opponent</b>
+        </td>
+        <td>
+          <b>Battle Damage to you</b>
+        </td>
+      </tr>
+      <tr>
+        <td>Normal circumstances</td>
+        <td>2000</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td>Apply "02"</td>
+        <td>2000</td>
+        <td>2000</td>
+      </tr>
+      <tr>
+        <td>Apply <b>both simultaneously and once</b> "03"</td>
+        <td>2000</td>
+        <td>2000</td>
+      </tr>
+    </table>
+    If the effect of <span class="tooltip-anchor" data-name="81260679">"Ohime the Manifested Mikanko"</span> makes the opponent take battle damage, the effect of the other is not applied to that damage.
+  </li>
+
+  <li>
+    When it battles an opponent's <span class="tooltip-anchor" data-name="16178681">"Odd-Eyes Pendulum Dragon"</span> (effect type "08") and both monsters are in Attack Position:
+    <table>
+      <tr>
+        <td>
+          <b>What applies</b>
+        </td>
+        <td>
+          <b>Battle Damage to the opponent</b>
+        </td>
+        <td>
+          <b>Battle Damage to you</b>
+        </td>
+      </tr>
+      <tr>
+        <td>Normal circumstances</td>
+        <td>0</td>
+        <td>500</td>
+      </tr>
+      <tr>
+        <td>Apply "02"</td>
+        <td>500</td>
+        <td>500</td>
+      </tr>
+      <tr>
+        <td>Apply "03"</td>
+        <td>1000</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td>Apply "08"</td>
+        <td>1000</td>
+        <td>0x2</td>
+      </tr>
+    </table>
+    Since <span class="tooltip-anchor" data-name="16178681">"Odd-Eyes Pendulum Dragon"</span> does not inflict any damage to the <b>opponent (you)</b>, the battle damage is not doubled.
+  </li>
+</ul>
+
+<em>References:</em>
+<ol class="references">
+  <li>
+    <a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook pages 42-43, 50</a>
+  </li>
+  <li>YGOrg Database of Official OCG Rulings: <a target="_blank" href="https://db.ygoresources.com/qa#10331">"Ohime the Manifested Mikanko", "Double-Edged Sword"</a></li>
+</ol>
+
+<h3>Effect Damage</h3>
+
+<p>Damage inflicted to the LP as a result of an effect is called effect damage.</p>
+
+<ul>
+  <li>
+    Inflicting 0 damage is still something that happened<sup><a href="#">[1]</a></sup
+    >.
+    <details>
+      <summary>Example</summary>
+      Your opponent has just resolved the first effect of their <span class="tooltip-anchor" data-name="44373896">"Destruction Dragon"</span>, which was activated by targeting a <span class="tooltip-anchor" data-name="30312361">"Phantom of Chaos"</span> in your Monster Zone. In this situation, a monster you control was destroyed by the effect of your opponent's <span class="tooltip-anchor" data-name="44373896">"Destruction Dragon"</span>. Even though the ATK of your destroyed <span class="tooltip-anchor" data-name="30312361">"Phantom of Chaos"</span> is zero, the "if it was a Monster Card, inflict damage to your opponent equal to its original ATK" effect of <span class="tooltip-anchor" data-name="44373896">"Destruction Dragon"</span> is still also applied (you will take 0 damage as a result of this). So you cannot activate a card like <span class="tooltip-anchor" data-name="37383714">"Soul Rope"</span> that needs the last action to happen to be the destruction of the monster, as the last action happened was you taking 0 damage.
+      <hr />
+    </details>
+  </li>
+</ul>
 
 <em>References:</em>
 <ol class="references">

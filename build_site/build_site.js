@@ -65,7 +65,7 @@ function mergeIncludes(document) {
 
     // if glossary entry, add effects interaction
     if (section_name.includes("build_site/sections/10_glossary/") || section_name.includes("build_site/sections/06_other_game_elements/")) {
-      const section_title = Array.from(section.querySelectorAll("h2, h3"))[0].innerHTML;
+      const section_title = Array.from(section.querySelectorAll("h2, h3"))[0].innerHTML.replaceAll("&amp;","&");
 
       // construct effect interaction list
       try {
@@ -186,12 +186,20 @@ async function main() {
   const toc_json = tocString2Json(toc_string);
 
   let toc = `
-    <div class="toc" id="toc-top">
+    <div class="toc sidebar">
+        <div class="toc-controller">
+          Move Table of Contents
+          <div>
+            <span id="toc-2-left">◀</span>
+            <span id="toc-2-top">▲</span>
+            <span id="toc-2-right">▶</span>
+          </div>
+        </div>
         ${createList(toc_json)}
     </div>
   `;
 
-  document.querySelector("#toc-top").outerHTML = toc;
+  document.querySelector(".toc").outerHTML = toc;
 
   // fix <sup> (references) ------------------------------------------------------------
   let lines = document.querySelector("body").innerHTML.split("\n");
