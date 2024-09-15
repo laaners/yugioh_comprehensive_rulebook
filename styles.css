@@ -136,7 +136,7 @@ table {
 
 table th,
 table td {
-  border: 1px solid #ddd; /* Light gray border for cells */
+  border: 2px solid #ddd; /* Light gray border for cells */
   padding: 8px; /* Space inside cells */
   font-size: 1rem;
 }
@@ -228,6 +228,9 @@ img {
 @media only screen and (min-width: 960px) {
   .toc-controller {
     display: flex;
+  }
+  .toc ol ol {
+    font-size: 1rem;
   }
 }
 

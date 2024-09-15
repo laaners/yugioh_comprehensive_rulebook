@@ -50,10 +50,21 @@
 
 <h4>Multiple Hand Summon Monster Triggers</h4>
 <p>
-  If you have multiple monsters in your hand with Trigger Effects to Special Summon themselves (that activate in the hand in a particular timing), their effects cannot be activated in a chain and only 1 of them can be activated.
+  If you have multiple monsters in your hand with Trigger Effects to Special Summon themselves (that activate in the hand in a particular timing), their effects cannot be activated in a chain and only 1 of them can be activated<sup><a href="#">[1]</a></sup
+  >.
   <details>
     <summary>Example</summary>
     When you take battle damage while you have 2 copies of <span class="tooltip-anchor" data-name="44330098">"Gorz the Emissary of Darkness"</span>, only the effect of 1 copy of <span class="tooltip-anchor" data-name="44330098">"Gorz the Emissary of Darkness"</span> that says "When you take damage from a card in your opponent's possession:" can be activated.
+    <hr />
+  </details>
+</p>
+
+<p>
+  Exception to this rule is when the hand summon triggers are mandatory effects: in which case they all activate and they form a chain<sup><a href="#">[2]</a></sup
+  >.
+  <details>
+    <summary>Example</summary>
+    Two copies of <span class="tooltip-anchor" data-name="89310929">"Mist Valley Thunder Lord"</span> activate their effects in the same Chain, each targeting a different copy of <span class="tooltip-anchor" data-name="69448290">"Mist Valley Thunderbird"</span> you control. After the described Chain has resolved, the respective Trigger effects of each copy of <span class="tooltip-anchor" data-name="69448290">"Mist Valley Thunderbird"</span> will be activated as Chain Link 1 and Chain Link 2 respectively. Afterwards, your opponent will have the first opportunity to activate Chain Link 3.
     <hr />
   </details>
 </p>
@@ -63,6 +74,7 @@
   <li>
     <a target="_blank" href="https://ygorganization.com/perfect-rulebook-2017/">OCG Perfect Rulebook 2017 page 111</a>
   </li>
+  <li>YGOrg Database of Official OCG Rulings: <a target="_blank" href="https://db.ygoresources.com/qa#23813">Mandatory Trigger effects and not being Green Baboon</a></li>
 </ol>
 
 <h4>Changing card type prevents Trigger effects from activating</h4>
@@ -113,19 +125,32 @@
   <li>YGOrg Database of Official OCG Rulings: <a target="_blank" href="https://db.ygoresources.com/qa#19471">Trigger effects of Spell/Trap Cards will not "see" their activation condition before the card activation has resolved</a></li>
 </ol>
 
-<h4>Changing control after their Trigger effect meets its activation condition, before that effect can be activated</h4>
-<p>
-  Monsters changing control after their Trigger effect meets its activation condition can activate their effects after they've changed control (in which case the player who took control of the monster activates it).
-  <details>
-    <summary>Example</summary>
-    You activate the effect of <span class="tooltip-anchor" data-name="99427357">"Cyber Angel Natasha"</span> in your Graveyard, banishing <span class="tooltip-anchor" data-name="77235086">"Cyber Angel Benten"</span> as a cost from your Graveyard and targeting your opponent's <span class="tooltip-anchor" data-name="96633955">"Swordsoul Supreme Sovereign - Chengying"</span>. When resolving this effect, you gain control of <span class="tooltip-anchor" data-name="96633955">"Swordsoul Supreme Sovereign - Chengying"</span> and you can activate the effect of that <span class="tooltip-anchor" data-name="96633955">"Swordsoul Supreme Sovereign - Chengying"</span> you gained control of due the effect of <span class="tooltip-anchor" data-name="99427357">"Cyber Angel Natasha"</span>.
-    <hr />
-  </details>
-</p>
+<h4>Changing control and trigger effects</h4>
+<ul>
+  <li>
+    Monsters changing control after their Trigger effect meets its activation condition can activate their effects after they've changed control (in which case the player who took control of the monster activates it)<sup><a href="#">[1]</a></sup
+    >.
+    <details>
+      <summary>Example</summary>
+      You activate the effect of <span class="tooltip-anchor" data-name="99427357">"Cyber Angel Natasha"</span> in your Graveyard, banishing <span class="tooltip-anchor" data-name="77235086">"Cyber Angel Benten"</span> as a cost from your Graveyard and targeting your opponent's <span class="tooltip-anchor" data-name="96633955">"Swordsoul Supreme Sovereign - Chengying"</span>. When resolving this effect, you gain control of <span class="tooltip-anchor" data-name="96633955">"Swordsoul Supreme Sovereign - Chengying"</span> and you can activate the effect of that <span class="tooltip-anchor" data-name="96633955">"Swordsoul Supreme Sovereign - Chengying"</span> you gained control of due the effect of <span class="tooltip-anchor" data-name="99427357">"Cyber Angel Natasha"</span>.
+      <hr />
+    </details>
+  </li>
+  <li>
+    You activate a card (1) that takes control of an opponent monster as Chain Link 1. (1) does not target. Your opponent activates as Chain Link 2 an effect that summons a monster (2). The chain resolves backwards, (2) is special summoned first, then with (1) you take control of an opponent's monster. If you take control of (2), after the chain has finished resolving, you are (2)'s controller. Therefore, if (2)'s has a Trigger effect on summon, you can activate its effect at this time<sup><a href="#">[2]</a></sup
+    >.
+    <details>
+      <summary>Example</summary>
+      You activate the "take control of 1 monster your opponent controls until the End Phase" effect of <span class="tooltip-anchor" data-name="25311006">"Triple Tactics Talent"</span>, and your opponent activated the "immediately after this effect resolves, Link Summon 1 Link Monster using materials you control, including this card" effect of <span class="tooltip-anchor" data-name="65741786">"I:P Masquerena"</span> in response. As a result, <span class="tooltip-anchor" data-name="29301450">"S:P Little Knight"</span> is Link Summoned immediately after the effect of <span class="tooltip-anchor" data-name="65741786">"I:P Masquerena"</span> resolves, and You gain control of that <span class="tooltip-anchor" data-name="29301450">"S:P Little Knight"</span> when resolving the effect of <span class="tooltip-anchor" data-name="25311006">"Triple Tactics Talent"</span>. After the chain has finished resolving (at the time when the Trigger Effect of <span class="tooltip-anchor" data-name="29301450">"S:P Little Knight"</span> can be activated), you are <span class="tooltip-anchor" data-name="29301450">"S:P Little Knight"</span>'s controller. Therefore, you can activate its effect at this time.
+      <hr />
+    </details>
+  </li>
+</ul>
 
 <em>References:</em>
 <ol class="references">
   <li>YGOrg Database of Official OCG Rulings: <a target="_blank" href="https://db.ygoresources.com/qa#23349">Monsters changing control after their Trigger effect meets its activation condition, before that effect can be activated</a></li>
+  <li>YGOrg Database of Official OCG Rulings: <a target="_blank" href="https://db.ygoresources.com/qa#24016">pecial Summoning to a player's field, and control being changed before the effect can be activated</a></li>
 </ol>
 
 <h4>Monsters with a certain property being Summoned, and then losing that property before Trigger effects are checked for</h4>
@@ -144,7 +169,7 @@
   Events are not responded to until the chain has resolved.
   <details>
     <summary>Example</summary>
-    Your opponent activates the effect of <span class="tooltip-anchor" data-name="18094166">"Vision HERO Faris"</span> that Special Summons it from the hand, by discarding a <span class="tooltip-anchor" data-name="27780618">"Vision HERO Vyon"</span> from their hand. You have <span class="tooltip-anchor" data-name="63413494">"Consolation Prize"</span> face-up on your field. In this scenario, <span class="tooltip-anchor" data-name="63413494">"Consolation Prize"</span> cannot be activated by chaining to that card effect. After that activated effect resolves, <span class="tooltip-anchor" data-name="63413494">"Consolation Prize"</span> can be activated in a new Chain. Therefore, in this situation, when your opponent activates the second effect of <span class="tooltip-anchor" data-name="18094166">"Vision HERO Faris"</span> that places a "Vision HERO" monster from their Deck face-up in their Spell & Trap Zone, you can chain <span class="tooltip-anchor" data-name="63413494">"Consolation Prize"</span> (if your opponent does not activate the second effect of <span class="tooltip-anchor" data-name="18094166">"Vision HERO Faris"</span>, you can activate <span class="tooltip-anchor" data-name="63413494">"Consolation Prize"</span> as Chain Link 1).
+    Your opponent activates the effect of <span class="tooltip-anchor" data-name="18094166">"Vision HERO Faris"</span> that Special Summons it from the hand, by discarding a <span class="tooltip-anchor" data-name="27780618">"Vision HERO Vyon"</span> from their hand. You have <span class="tooltip-anchor" data-name="63413494">"Consolation Prize"</span> set on your field. In this scenario, <span class="tooltip-anchor" data-name="63413494">"Consolation Prize"</span> cannot be activated by chaining to that card effect. After that activated effect resolves, <span class="tooltip-anchor" data-name="63413494">"Consolation Prize"</span> can be activated in a new Chain. Therefore, in this situation, when your opponent activates the second effect of <span class="tooltip-anchor" data-name="18094166">"Vision HERO Faris"</span> that places a "Vision HERO" monster from their Deck face-up in their Spell & Trap Zone, you can chain <span class="tooltip-anchor" data-name="63413494">"Consolation Prize"</span> (if your opponent does not activate the second effect of <span class="tooltip-anchor" data-name="18094166">"Vision HERO Faris"</span>, you can activate <span class="tooltip-anchor" data-name="63413494">"Consolation Prize"</span> as Chain Link 1).
     <hr />
   </details>
 </p>
@@ -152,4 +177,22 @@
 <em>References:</em>
 <ol class="references">
   <li>YGOrg Database of Official OCG Rulings: <a target="_blank" href="https://db.ygoresources.com/qa#22833">Events are not responded to until the chain has resolved</a></li>
+</ol>
+
+<h4>Discarding for hand size for a second time, and Trigger effects</h4>
+<p>
+  When discarding for hand size for a <b>second time</b>, Trigger effects won't activate.
+  <details>
+    <summary>Example</summary>
+    At the end of your End Phase, you have 7 cards in your hand, and as a result, you discard <span class="tooltip-anchor" data-name="70711847">"Danger! Nessie!"</span>. You activate and resolve <span class="tooltip-anchor" data-name="70711847">"Danger! Nessie!"</span>'s effect, adding <span class="tooltip-anchor" data-name="43316238">"Danger! Bigfoot!"</span> to your hand. Since this results in your hand having 7 cards once again, you now discard <span class="tooltip-anchor" data-name="43316238">"Danger! Bigfoot!"</span>. You cannot activate <span class="tooltip-anchor" data-name="43316238">"Danger! Bigfoot!"</span> effect at this point. If you discard cards for hand size at the end of your End Phase, you can only activate effects on the Chain immediately following this. Even if, at some point after this first Chain, some other effect meets its activation condition, you cannot activate that effect.
+    <hr />
+  </details>
+</p>
+
+<em>References:</em>
+<ol class="references">
+  <li>
+    YGOrg Database of Official OCG Rulings:
+    <a target="_blank" href="https://db.ygoresources.com/qa#24089">Discarding for hand size for a second time, and Trigger effects</a>
+  </li>
 </ol>

@@ -1,5 +1,12 @@
 {
     "Tokens": {
+        "Banish until (temporarily banish a card)": [
+            {
+                "interaction": "The Token disappears and won't reapper again even when the effect of temporarily banishing stops applying<sup><a>[]</a></sup>.",
+                "example": "You have resolved <span class=\"tooltip-anchor\" data-name=\"29301450\">\"S:P Little Knight\"</span>'s \"banish both [targeted monsters] until the End Phase\" effect, banishing both itself and a Token. The targeted Token disappears, and <span class=\"tooltip-anchor\" data-name=\"29301450\">\"S:P Little Knight\"</span> is banished until the End Phase. At that point, <span class=\"tooltip-anchor\" data-name=\"29301450\">\"S:P Little Knight\"</span> returns to the Monster Zone as usual.",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#11586\">\"S:P Little Knight\" more interactions</a></li>"
+            }
+        ],
         "Equipping Monsters": [
             {
                 "interaction": "Tokens placed in the Spell & Trap Zone have the ATK printed on the card that Special Summoned the Token<sup><a>[]</a></sup>.",
@@ -106,12 +113,49 @@
             }
         ]
     },
+    "Banish until (temporarily banish a card)": {
+        "Traps Treated as Monsters (not treated as Traps)": [
+            {
+                "interaction": "A Trap Treated as a Monster (not treated as a Trap) is being banished until the End Phase by a card effect. Once the Trap returns to the field to the Monster Zone during the End Phase, it will no longer be treated as a monster, and will immediately be sent to the Graveyard<sup><a>[]</a></sup>.",
+                "example": "You have resolved <span class=\"tooltip-anchor\" data-name=\"29301450\">\"S:P Little Knight\"</span>'s \"banish both [targeted monsters] until the End Phase\" effect, banishing both itself and <span class=\"tooltip-anchor\" data-name=\"74577599\">\"Traptrix Holeutea\"</span>. Both cards are banished, and both return to the Monster Zone during the End Phase. At that point, <span class=\"tooltip-anchor\" data-name=\"74577599\">\"Traptrix Holeutea\"</span> is immediately sent to the Graveyard.",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#11586\">\"S:P Little Knight\" more interactions</a></li>"
+            }
+        ],
+        "Traps Treated as Monsters (still treated as Traps)": [
+            {
+                "interaction": "A Trap Treated as a Monster (strill treated as a Trap) is being banished until the End Phase by a card effect. Once the Trap returns to the field to the Monster Zone during the End Phase, it will no longer be treated as a monster, and will immediately be sent to the Graveyard<sup><a>[]</a></sup>.",
+                "example": "",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#12619\">Temporary banishment & Trap Monsters</a></li>"
+            }
+        ]
+    },
     "Can only control 1: \"Rivalry of Warlords\"/\"Gozen Match\" like": {
         "Change/Take/Give/Switch Control": [
             {
                 "interaction": "You can take control of an opponent's monster that's the wrong Type/Attribute with a card like <span class=\"tooltip-anchor\" data-name=\"37520316\">\"Mind Control\"</span>. If you do, it's sent to the Graveyard immediately after you gain control of it<sup><a>[]</a></sup>.",
                 "example": "",
                 "reference": "<li><a target=\"_blank\" href=\"https://www.yugioh-card.com/eu/play/rivalry-of-warlords/\">Official KONAMI's FAQ of \"Rivalry of Warlords\" and \"Gozen Match\"</a></li>"
+            }
+        ],
+        "Immediately after this effect resolves ... Summon": [
+            {
+                "interaction": "<span class=\"tooltip-anchor\" data-name=\"24207889\">\"There Can Be Only One\"</span> (1) is set on your opponent's field<sup><a>[]</a></sup>.<ul><li>You can activate an effect (2) as Chain Link 1 that summons back monsters (3) from a location (like the Graveyard) to the field and immediately after at resolution performs a Special Summon of a monster (4)</li><li>Your opponent chains as Chain Link 2 (1). The chain resolves backwards, and you have to summon monsters that don't violate (1), which means they have a different Type from the monsters you control. If you do not have any, (2) resolves without summoning anything.</li><li>When (3) are summoned back to the field, if two or more monsters in (3) have the same Type, due to (1) you have to keep monsters till you only control one of the same Type. If doing so the number of monsters summoned (3) changes and you cannot summon (4) anymore, then (2) resolves without performing the Special Summon.</li></ul>",
+                "example": "The only monster in your Monster Zone is <span class=\"tooltip-anchor\" data-name=\"71095768\">\"Bujinki Ahashima\"</span>. If you activate its effect that Special Summons 2 monsters with the same Level and performs an Xyz Summon, if your opponent chains <span class=\"tooltip-anchor\" data-name=\"24207889\">\"There Can Be Only One\"</span>, since <span class=\"tooltip-anchor\" data-name=\"71095768\">\"Bujinki Ahashima\"</span> is a Beast-Warrior monster, you cannot Special Summon any Beast-Warrior monsters from your hand or Graveyard with its effect. If you do not have any non-Beast-Warrior monsters in your hand or Graveyard to Special Summon, you cannot Special Summon any monsters. If, for example, you Special Summon a Winged Beast-Type <span class=\"tooltip-anchor\" data-name=\"68601507\">\"Bujingi Crane\"</span> from your hand and a Beast-Type <span class=\"tooltip-anchor\" data-name=\"5818294\">\"Bujingi Turtle\"</span> from your Graveyard, you can then perform an Xyz Summon using those 2 monsters. However, if you choose 1 <span class=\"tooltip-anchor\" data-name=\"68601507\">\"Bujingi Crane\"</span> from your hand and 1 <span class=\"tooltip-anchor\" data-name=\"68601507\">\"Bujingi Crane\"</span> from your Graveyard, both are Special Summoned successfully, but the effect of <span class=\"tooltip-anchor\" data-name=\"24207889\">\"There Can Be Only One\"</span> will be applied, you must send 1 of the <span class=\"tooltip-anchor\" data-name=\"68601507\">\"Bujingi Crane\"</span>s to the Graveyard, and the Xyz Summon cannot be performed.",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#22901\">Floodgates & summon-immediately-after</a></li>"
+            }
+        ]
+    },
+    "Cannot summon: Summon restrictions": {
+        "Properties Changing": [
+            {
+                "interaction": "A card (1) with the restriction of \"you cannot Normal or Special Summon except X monsters the turn you activate this card\" is applying. Normally, if you Summon a monster (2) which violates the restriction of (1), then (1) cannot be activated. Similarly, if you activate (1) first (2) cannot be Summoned. But if<sup><a>[]</a></sup>:<ul><li>A card (3) has an effect that applies to (2) such that when (2) is Summoned it does not violate the restriction of (1), then (1) can be activated <strong>after</strong> (2) has been Summoned.</li><li>A card (3) has an effect that applies to (2) such that when (2) is Summoned it does not violate the restriction of (1), but you have already activated (1) <strong>before</strong> (2) is Summoned, then (2) cannot be Summoned anymore.</li></ul>",
+                "example": "<span class=\"tooltip-anchor\" data-name=\"56769674\">\"A DNA Transplant\"</span> that was activated by declaring the LIGHT Attribute is face-up on the field. In this situation, I activate <span class=\"tooltip-anchor\" data-name=\"83764719\">\"Monster Reborn\"</span> and Special Summon <span class=\"tooltip-anchor\" data-name=\"11260714\">\"Darklord Superbia\"</span> from my Graveyard, then activate its effect and Special Summon <span class=\"tooltip-anchor\" data-name=\"3395226\">\"Mozarta the Melodious Maestra\"</span> from the Graveyard:<ul><li>Even if you Special Summoned a <span class=\"tooltip-anchor\" data-name=\"11260714\">\"Darklord Superbia\"</span> (whose original Attribute is DARK) this turn, if you did so while the effect of <span class=\"tooltip-anchor\" data-name=\"56769674\">\"A DNA Transplant\"</span> was applying declaring LIGHT, you can activate the effect of <span class=\"tooltip-anchor\" data-name=\"3395226\">\"Mozarta the Melodious Maestra\"</span>.</li><li>However, if you first activated the effect of <span class=\"tooltip-anchor\" data-name=\"3395226\">\"Mozarta the Melodious Maestra\"</span>, you cannot Special Summon monsters whose original Attributes are anything other than LIGHT, even if the effect of <span class=\"tooltip-anchor\" data-name=\"56769674\">\"A DNA Transplant\"</span> is applying.</li></ul>",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#8469\">Property changing and being treated as having Special Summoned monsters with a given property</a></li>"
+            },
+            {
+                "interaction": "An effect (1) is applying so that monsters with a certain specific property X cannot be summoned, but monsters with another specific property Y can be summoned. A monster (2)'s has X property, so (2) can't be summoned due to (1). If (2) has an effect that says \"summon this card as a monster with Y property\", then (2) can be summoned through that effect<sup><a>[]</a></sup>.",
+                "example": "Your opponent controls <span class=\"tooltip-anchor\" data-name=\"91279700\">\"Evilswarm Ophion\"</span>, which has materials attached and is applying its effect \"Level 5 or higher monsters cannot be Special Summoned\". <span class=\"tooltip-anchor\" data-name=\"42338879\">\"Cockadoodledoo\"</span> has effects that say \"you can Special Summon this card (from your hand) as a Level 3 monster\" or \"you can Special Summon this card (from your hand) as a Level 4 monster\", so you can Special Summon <span class=\"tooltip-anchor\" data-name=\"42338879\">\"Cockadoodledoo\"</span> using either of its effects.",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#13732\">Monsters being summoned \"as a monster with Y property\", and restrictions on summoning monsters with/without a specific property X</a></li>"
             }
         ]
     },
@@ -132,6 +176,13 @@
         ]
     },
     "Cannot target for attacks": {
+        "Must attack": [
+            {
+                "interaction": "If you control a monster (1) that says \"monsters your opponent controls that can attack must attack this card\" and a card that prevents (1) from being targeted for attacks, your opponent's monsters must attack (1) due to its effect<sup><a>[]</a></sup>.",
+                "example": "If you control a <span class=\"tooltip-anchor\" data-name=\"77590412\">\"Puppet Rook\"</span>, which is treated as a Fiend due to a card effect, and a <span class=\"tooltip-anchor\" data-name=\"48745395\">\"Labrynth Archfiend\"</span>, your opponent's monsters must attack <span class=\"tooltip-anchor\" data-name=\"77590412\">\"Puppet Rook\"</span> due to its effect.",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#23624\">\"Must attack\" & \"cannot be targeted for attacks\"</a></li>"
+            }
+        ],
         "Unaffected": [
             {
                 "interaction": "Preventing monsters from being targeted for an attack affects the monsters doing the attack targeting<sup><a>[]</a></sup>.",
@@ -205,7 +256,7 @@
         ]
     },
     "Continuous destroys/sends itself (self-destruct/self-send)": {
-        "If ... would be destroyed, you can do ... instead: Destruction Substitution": [
+        "If X would be destroyed, you can do ... instead: Destruction Substitution": [
             {
                 "interaction": "Substituting for continuous attempts to destroy can be attempted, though futile<sup><a>[]</a></sup>.",
                 "example": "You have <span class=\"tooltip-anchor\" data-name=\"43175858\">\"Toon Kingdom\"</span> face-up on your side of the field, and you activate <span class=\"tooltip-anchor\" data-name=\"33453260\">\"Comic Hand\"</span> by targeting an opponent's <span class=\"tooltip-anchor\" data-name=\"23205979\">\"Spirit Reaper\"</span>. When <span class=\"tooltip-anchor\" data-name=\"33453260\">\"Comic Hand\"</span> resolves, you take control of the <span class=\"tooltip-anchor\" data-name=\"23205979\">\"Spirit Reaper\"</span> that was targeted, and it will be treated as a Toon monster. After you gain control of <span class=\"tooltip-anchor\" data-name=\"23205979\">\"Spirit Reaper\"</span>, its effect that destroys it when it is targeted by a card or effect will apply. In this case, you can apply the last effect of <span class=\"tooltip-anchor\" data-name=\"43175858\">\"Toon Kingdom\"</span> once, and banish the top card of your Deck face-down, but the effect of <span class=\"tooltip-anchor\" data-name=\"23205979\">\"Spirit Reaper\"</span> will immediately apply again, resulting in <span class=\"tooltip-anchor\" data-name=\"23205979\">\"Spirit Reaper\"</span> being destroyed.",
@@ -243,7 +294,7 @@
             }
         ]
     },
-    "If ... would be destroyed, you can do ... instead: Destruction Substitution": {
+    "If X would be destroyed, you can do ... instead: Destruction Substitution": {
         "Unaffected": [
             {
                 "interaction": "Substitution does not affect the protected monster<sup><a>[]</a></sup>.",
@@ -273,6 +324,13 @@
                 "example": "If <span class=\"tooltip-anchor\" data-name=\"91810826\">\"Tenpai Dragon Chundra\"</span>'s effect of was activated as Chain Link 1, the effect of <span class=\"tooltip-anchor\" data-name=\"4810828\">\"Sauravis, the Ancient and Ascended\"</span> can be activated during the attempt to Synchro Summon; if the effect of <span class=\"tooltip-anchor\" data-name=\"91810826\">\"Tenpai Dragon Chundra\"</span> was activated as Chain Link 2 or higher, it cannot be.",
                 "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#24054\">\"Tenpai Dragon Chundra\", \"Sauravis, the Ancient and Ascended\"</a></li>"
             }
+        ],
+        "Properties Changing": [
+            {
+                "interaction": "An effect (1) is applying that changes properties of monsters face-up on the field.<ul><li>You can activate an effect (2) that summons back monsters (3) from a location (like the Graveyard) to the field and immediately after at resolution performs a Special Summon of a monster (4), as long as (3) and their properties satisfied the summoning requirements for (4) when (3) were in their original location (like the Graveyard).</li><li>But when (3) are summoned back to the field, as (1) is applying, if (1) changes (3)'s properties so that you can't summon (4) at resolution anymore, you must summon another monster that can be summoned with (3) after their properties have changed from the same location(s) of (4).</li><li>If there are no monsters that can be summoned from the location(s) of (4), after summoning back (3), (2) resolves without performing the Special Summon<sup><a>[]</a></sup>.</li></ul>",
+                "example": "<span class=\"tooltip-anchor\" data-name=\"81489939\">\"Stygian Dirge\"</span> is face-up on the field. You can activate <span class=\"tooltip-anchor\" data-name=\"29087919\">\"Geargia Change\"</span> targeting \"Geargiano\" monsters that are Level 3 in your Graveyard, as long as you are able to Xyz Summon a Rank 3 monster using the targeted monsters. In this scenario, since the Levels of the targeted monsters are reduced by 1 after being Special Summoned, you cannot Xyz Summon a Rank 3 monster, and you must instead Xyz Summon a Rank 2 monster if one exists in your Extra Deck. At this time, if you do not have a Rank 2 monster in your Extra Deck, the Xyz Summon is not performed.",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#15795\">Summon-immediately-after & monsters' properties changing after being Summoned</a></li>"
+            }
         ]
     },
     "Leaves the field": {
@@ -284,6 +342,7 @@
             }
         ]
     },
+    "Must attack": {},
     "Negate Activation of Cards": {},
     "Negate Activation of Effects": {
         "Unaffected": [
@@ -295,6 +354,13 @@
         ]
     },
     "Negate Effects": {
+        "Properties Changing": [
+            {
+                "interaction": "When a monster's effects that gained the Level, name or effect of another monster are negated, then only the Level will return to its original value<sup><a>[]</a></sup>.",
+                "example": "The effect of <span class=\"tooltip-anchor\" data-name=\"58446973\">\"Infernoid Decatron\"</span> was activated, gaining the name and effects of <span class=\"tooltip-anchor\" data-name=\"88301393\">\"Infernoid Attondel\"</span> and increasing its Level by 8. Afterwards if <span class=\"tooltip-anchor\" data-name=\"58446973\">\"Infernoid Decatron\"</span> has its effects negated by the effect of <span class=\"tooltip-anchor\" data-name=\"82732705\">\"Skill Drain\"</span> being activated. In the proposed scenario, the Level of <span class=\"tooltip-anchor\" data-name=\"58446973\">\"Infernoid Decatron\"</span> that was increased by 8 returns to the original value, but the gained name remains as <span class=\"tooltip-anchor\" data-name=\"88301393\">\"Infernoid Attondel\"</span>. Also, the gained effects of <span class=\"tooltip-anchor\" data-name=\"88301393\">\"Infernoid Attondel\"</span> remain gained, but they are negated by <span class=\"tooltip-anchor\" data-name=\"82732705\">\"Skill Drain\"</span>.",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#15597\">When a monster's effects that gained the Level, name or effect of another monster are negated, then only the Level will return to its original value</a></li>"
+            }
+        ],
         "Properties Changing: Copy effect continuous/lingering": [
             {
                 "interaction": "When a monster's effects that gained the Level, name or effect of another monster are negated, then only the Level will return to its original value<sup><a>[]</a></sup>.",
@@ -332,6 +398,7 @@
         ]
     },
     "Negate Summons": {},
+    "Properties Changing": {},
     "Properties Changing: Copy effect continuous/lingering": {},
     "Properties Changing: Name changing": {},
     "Return/Add to the Hand": {},

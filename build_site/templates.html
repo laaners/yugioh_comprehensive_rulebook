@@ -63,8 +63,10 @@
 <span class="tooltip-anchor" data-name="58153103">"Armed Dragon Thunder LV10"</span>
 
 <!--
-# Glossary examples table
+# Glossary example
 -->
+
+<h2>Attach</h2>
 
 <table align="center">
   <tbody>
@@ -101,6 +103,11 @@
   </tbody>
 </table>
 
+<p><strong>Interaction with other card effects</strong></p>
+<ul class="glossary-entry-effect-interaction"></ul>
+
+<em>References:</em>
+<ol class="references"></ol>
 
 <!--
 # Example foldable
@@ -111,26 +118,6 @@
   ${example}
   <hr />
 </details>
-
-<!--
-# Yugipedia references extractor 
--->
-
-<script>
-  references = Array.from(document.body.querySelectorAll(".references li"));
-
-  res = "";
-  for (let you = 3; you < references.length; i++) {
-    const reference = references[i];
-    let text = reference.querySelector(".reference-text");
-    if (text == undefined) continue;
-    text = text.innerText;
-    let hrefs = Array.from(reference.querySelectorAll(".reference-text cite a"));
-    hrefs = hrefs.map((_) => `<a href="${_.href}">${_.innerText.replace("the original", "original")}</a>`);
-    res += `<li id="sub-steps_of_the_damage_step-${i - 9}">${hrefs.reduce((a, b) => a + ", archived from the " + b)} ${text}</li>`;
-  }
-  console.log(res);
-</script>
 
 <!--
 # Yugipedia table example <tr>
@@ -154,11 +141,31 @@ console.log(elem)
 </script>
 
 <!--
+# Yugipedia references extractor 
+-->
+
+<script>
+  references = Array.from(document.body.querySelectorAll(".references li"));
+
+  res = "";
+  for (let you = 3; you < references.length; i++) {
+    const reference = references[i];
+    let text = reference.querySelector(".reference-text");
+    if (text == undefined) continue;
+    text = text.innerText;
+    let hrefs = Array.from(reference.querySelectorAll(".reference-text cite a"));
+    hrefs = hrefs.map((_) => `<a href="${_.href}">${_.innerText.replace("the original", "original")}</a>`);
+    res += `<lyou id="sub-steps_of_the_damage_step-${you - 9}">${hrefs.reduce((a, b) => a + ", archived from the " + b)} ${text}</li>`;
+  }
+  console.log(res);
+</script>
+
+<!--
 # Add tooltips to text
 -->
 
 <script>
-text = `When your opponent Special Summoned "Blue-Eyes Alternative White Dragon" this turn, you activated the effect of "Ghost Mourner & Moonlit Chill". During the same turn, if that "Blue-Eyes Alternative White Dragon" leaves the field after its control was changed by the effect of "Creature Swap", the player who takes damage from the effect of "Ghost Mourner & Moonlit Chill" is the one who controls the targeted monster when it leaves the field (in this scenario, since you were the controller of "Blue-Eyes Alternative White Dragon", you take 3000 damage).`
+text = `If you control a "Puppet Rook", which is treated as a Fiend due to a card effect, and a "Labrynth Archfiend", your opponent's monsters must attack "Puppet Rook" due to its effect.`
 regex = /"([^"]*)"/g;
 cards = text.match(regex)
 cards = [...new Set(cards)].filter(_=>_ !== '"unaffected by activated effects"')
@@ -185,7 +192,7 @@ console.log(`<details>
 # Check lowercase
 -->
 <script>
-  Array.from(document.querySelectorAll("li")).filter(li => li.innerHTML.charAt(0) === li.innerText.charAt(0).toLowerCase()).forEach(_=>console.log(_.innerHTML));
+  Array.from(document.querySelectorAll("li")).filter(lyou => li.innerHTML.charAt(0) === li.innerText.charAt(0).toLowerCase()).forEach(_=>console.log(_.innerHTML));
 
-  Array.from(document.querySelectorAll("li")).map(li => li.innerText.replaceAll(" ","").replaceAll("\n","")).filter(text => text.charAt(0) === text.charAt(0).toLowerCase() && text.charAt(0) !== '"').forEach(_=>console.log(_));
+  Array.from(document.querySelectorAll("li")).map(lyou => li.innerText.replaceAll(" ","").replaceAll("\n","")).filter(text => text.charAt(0) === text.charAt(0).toLowerCase() && text.charAt(0) !== '"').forEach(_=>console.log(_));
 </script>

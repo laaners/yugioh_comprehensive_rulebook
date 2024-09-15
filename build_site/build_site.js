@@ -65,7 +65,7 @@ function mergeIncludes(document) {
 
     // if glossary entry, add effects interaction
     if (section_name.includes("build_site/sections/10_glossary/") || section_name.includes("build_site/sections/06_other_game_elements/")) {
-      const section_title = Array.from(section.querySelectorAll("h2, h3"))[0].innerHTML.replaceAll("&amp;","&");
+      const section_title = Array.from(section.querySelectorAll("h2, h3"))[0].innerHTML.replaceAll("&amp;", "&");
 
       // construct effect interaction list
       try {
@@ -112,17 +112,20 @@ function addEffectInteractionEntry(glossary_object, entry, sup_current_index, gl
     if (interaction != undefined) {
       sup_current_index += alreadyExistingResourceIndex === -1 ? 1 : 0;
 
+      let entryHTML = ""
+
       if (i === 0) {
-        glossary_entry_list.innerHTML += `
+        entryHTML += `
         <li>
-          <strong>${entry}</strong>`;
+          <strong>${entry}</strong><br/>`;
       }
-      // else {
-      //   glossary_entry_list.innerHTML += `<br />`;
-      // }
+
+      if (glossary_object.length > 1) {
+        entryHTML += `<ul><li>`;
+      }
 
       if (example.length > 0) {
-        glossary_entry_list.innerHTML += `
+        entryHTML += `
           ${interaction}
             <details>
               <summary>Example</summary>
@@ -131,18 +134,24 @@ function addEffectInteractionEntry(glossary_object, entry, sup_current_index, gl
             </details>
           `;
       } else {
-        glossary_entry_list.innerHTML += `
+        entryHTML += `
           ${interaction}
           `;
       }
-      glossary_entry_list.innerHTML = glossary_entry_list.innerHTML.replaceAll("<sup><a>[]</a></sup>", `<sup><a href="#">[${(alreadyExistingResourceIndex === -1 ? references_list_items.length : alreadyExistingResourceIndex) + 1}]</a></sup>`);
+      entryHTML = entryHTML.replaceAll("<sup><a>[]</a></sup>", `<sup><a href="#">[${(alreadyExistingResourceIndex === -1 ? references_list_items.length : alreadyExistingResourceIndex) + 1}]</a></sup>`);
 
+      if (glossary_object.length > 1) {
+        entryHTML += `</li></ul>`;
+      }
+      
       if (i === glossary_object.length - 1) {
-        glossary_entry_list.innerHTML += `</li>`;
+        entryHTML += `</li>`;
       }
 
+      glossary_entry_list.innerHTML += entryHTML
+
       if (reference.length > 0 && alreadyExistingResourceIndex === -1) {
-        references_list.innerHTML += "\n"+reference+"\n";
+        references_list.innerHTML += "\n" + reference + "\n";
       }
     }
   }
@@ -270,6 +279,12 @@ async function main() {
     <body>
   `;
   html += document.querySelector("body").innerHTML + "\n</body>\n</html>";
+
+  // "unfold" all <details> ------------------------------------------------------------
+  // html = html.replaceAll("<details", "<details open")
+
+  // no images ------------------------------------------------------------
+  html = html.replaceAll("<img", "<img_");
 
   fs.writeFileSync("index.html", html, { flag: "w+" }, (err) => {
     if (err) return console.log(err);
