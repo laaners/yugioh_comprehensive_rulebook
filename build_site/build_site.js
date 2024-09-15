@@ -284,7 +284,7 @@ async function main() {
   // html = html.replaceAll("<details", "<details open")
 
   // no images ------------------------------------------------------------
-  html = html.replaceAll("<img", "<img_");
+  // html = html.replaceAll("<img", "<img_");
 
   fs.writeFileSync("index.html", html, { flag: "w+" }, (err) => {
     if (err) return console.log(err);
