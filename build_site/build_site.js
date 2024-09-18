@@ -2,7 +2,7 @@ const { JSDOM } = require("jsdom");
 const fs = require("fs");
 
 const glossary = require("./glossary-entry-effect-interaction.json");
-const glossary_entries = Object.keys(glossary).sort((a, b) => (a < b ? -1 : 1));
+const glossary_entries = Object.keys(glossary) //.sort((a, b) => (a < b ? -1 : 1));
 
 // operating on root path, decomment for relative
 // const path = require("path");
@@ -64,8 +64,8 @@ function mergeIncludes(document) {
     mergeIncludes(section);
 
     // if glossary entry, add effects interaction
-    if (section_name.includes("build_site/sections/10_glossary/") || section_name.includes("build_site/sections/06_other_game_elements/")) {
-      const section_title = Array.from(section.querySelectorAll("h2, h3"))[0].innerHTML.replaceAll("&amp;", "&");
+    if (section_name.includes("build_site/sections/10_glossary/") || section_name.includes("build_site/sections/06_other_game_elements/") || section_name.includes("build_site/sections/02_monster_cards/abilities/")) {
+      const section_title = Array.from(section.querySelectorAll("h2, h3, h4"))[0].innerHTML.replaceAll("&amp;", "&");
 
       // construct effect interaction list
       try {
@@ -105,14 +105,19 @@ function addEffectInteractionEntry(glossary_object, entry, sup_current_index, gl
     const references_list_items = Array.from(references_list.querySelectorAll("li"));
     if (references_list_items.length > 0) {
       // console.log(reference)
-      alreadyExistingResourceIndex = references_list_items.findIndex((_) => _.outerHTML.replaceAll("\n", "").replaceAll("  ", "") === reference);
+      alreadyExistingResourceIndex = references_list_items.findIndex((_) => _.outerHTML.replaceAll("\n", "").replaceAll("  ", "").replaceAll("&amp;", "&") === reference);
+
+      //if (reference.includes("Relay Soul")) {
+      //  console.log(references_list_items.filter((_) => _.outerHTML.includes("Relay Soul")).map((_) => _.outerHTML.replaceAll("\n", "").replaceAll("  ", "").replaceAll("&amp;", "&"))[0]);
+      //  console.log(reference);
+      //}
     }
 
     // add list-item interaction entry
     if (interaction != undefined) {
       sup_current_index += alreadyExistingResourceIndex === -1 ? 1 : 0;
 
-      let entryHTML = ""
+      let entryHTML = "";
 
       if (i === 0) {
         entryHTML += `
@@ -143,12 +148,12 @@ function addEffectInteractionEntry(glossary_object, entry, sup_current_index, gl
       if (glossary_object.length > 1) {
         entryHTML += `</li></ul>`;
       }
-      
+
       if (i === glossary_object.length - 1) {
         entryHTML += `</li>`;
       }
 
-      glossary_entry_list.innerHTML += entryHTML
+      glossary_entry_list.innerHTML += entryHTML;
 
       if (reference.length > 0 && alreadyExistingResourceIndex === -1) {
         references_list.innerHTML += "\n" + reference + "\n";
