@@ -64,7 +64,7 @@ function mergeIncludes(document) {
     mergeIncludes(section);
 
     // if glossary entry, add effects interaction
-    if (section_name.includes("build_site/sections/10_glossary/") || section_name.includes("build_site/sections/06_other_game_elements/") || section_name.includes("build_site/sections/02_monster_cards/abilities/")) {
+    if (section_name.includes("10_glossary/") || section_name.includes("06_other_game_elements/") || section_name.includes("02_monster_cards/abilities/") || section_name.includes("09_card_text/04_text_not_effect/")) {
       const section_title = Array.from(section.querySelectorAll("h2, h3, h4"))[0].innerHTML.replaceAll("&amp;", "&");
 
       // construct effect interaction list
@@ -107,8 +107,8 @@ function addEffectInteractionEntry(glossary_object, entry, sup_current_index, gl
       // console.log(reference)
       alreadyExistingResourceIndex = references_list_items.findIndex((_) => _.outerHTML.replaceAll("\n", "").replaceAll("  ", "").replaceAll("&amp;", "&") === reference);
 
-      //if (reference.includes("Relay Soul")) {
-      //  console.log(references_list_items.filter((_) => _.outerHTML.includes("Relay Soul")).map((_) => _.outerHTML.replaceAll("\n", "").replaceAll("  ", "").replaceAll("&amp;", "&"))[0]);
+      //if (reference.includes("Granguig")) {
+      //  console.log(references_list_items.filter((_) => _.outerHTML.includes("Granguig")).map((_) => _.outerHTML.replaceAll("\n", "").replaceAll("  ", "").replaceAll("&amp;", "&"))[0]);
       //  console.log(reference);
       //}
     }

@@ -145,7 +145,7 @@ console.log(elem)
 -->
 
 <script>
-text = `"R-Genex Accelerator" was face-up on your field when you performed your normal draw for the Draw Phase. If the card you draw is a "Genex" monster, even if a "Genex" monster is added to your hand by drawing, it is considered to have been added from your Deck to your hand. Therefore, in this scenario, you can activate the effect of "R-Genex Accelerator".`
+text = `If "Solemn Judgment" is activated during an attempt to Normal or Special Summon a monster, "Destruction Jammer" cannot be activated in response. Since the monster to be destroyed is not yet on the field, "Solemn Judgment" is not considered to be an effect that destroys cards on the field. If "Solemn Judgment" is activated during an attempt to Flip Summon, or an attempt to Normal Summon a Gemini Monster again, "Destruction Jammer" can be activated in response. In these cases, "Solemn Judgment" is considered to be an effect that destroys cards on the field.`
 regex = /"([^"]*)"/g;
 cards = text.match(regex)
 cards = [...new Set(cards)].filter(_=>_ !== '"unaffected by activated effects"')
