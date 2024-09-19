@@ -1,5 +1,196 @@
 {
+    "Text that specifies \"once per turn\": Activate vs Use": {
+        "Banish until (temporarily banish a card)": [
+            {
+                "interaction": "If \"the effect(s) of this card can only be <b>activated</b> once per turn\" or simply \"once per turn:\" is written (different from \"the effect of [card name] can only be activated/used once per turn\"), if that card is flipped face-down or leaves the field and it later appears on the field face-up once again, the same effect of cards with the same name can be activated<sup><a>[]</a></sup>.",
+                "example": "",
+                "reference": "<li><a target=\"_blank\" href=\"https://ygorganization.com/perfect-rulebook-2017/\">OCG Perfect Rulebook 2017 pages 176-177</a></li>"
+            },
+            {
+                "interaction": "If \"the effect of [card name] can only be <b>used</b> once per turn\" is written with a particular card name, if that card leaves the field and returns to the field in the same turn, that card or cards with the same name cannot activate that effect in that turn. The same applies if \"can only be used once per Duel\" is written<a>[]</a></sup>.",
+                "example": "",
+                "reference": "<li><a target=\"_blank\" href=\"https://ygorganization.com/perfect-rulebook-2017/\">OCG Perfect Rulebook 2017 pages 176-177</a></li>"
+            }
+        ],
+        "Change/Take/Give/Switch Control": [
+            {
+                "interaction": "If \"the effect(s) of this card can only be <b>activated</b> once per turn\" or simply \"once per turn:\" is written (different from \"the effect of [card name] can only be activated/used once per turn\"), if control switches to the opponent, the effect cannot be activated<sup><a>[]</a></sup>.",
+                "example": "You have activated the effect of <span class=\"tooltip-anchor\" data-name=\"29981921\">\"Legendary Six Samurai - Shi En\"</span> that negates the activation of a Spell/Trap Card. If control of <span class=\"tooltip-anchor\" data-name=\"29981921\">\"Legendary Six Samurai - Shi En\"</span> is now changed due to <span class=\"tooltip-anchor\" data-name=\"98045062\">\"Enemy Controller\"</span>'s effect, your opponent cannot use the same effect of that <span class=\"tooltip-anchor\" data-name=\"29981921\">\"Legendary Six Samurai - Shi En\"</span> this turn, even if they take control of it.",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#11282\">Unqualified 'once per turn' and change of control</a></li>"
+            },
+            {
+                "interaction": "If \"the effect of [card name] can only be <b>used</b> once per turn\" is written with a particular card name, if control switches to the opponent, monsters with the same name that the opponent controls can activate that effect<sup><a>[]</a></sup>.",
+                "example": "",
+                "reference": "<li><a target=\"_blank\" href=\"https://ygorganization.com/perfect-rulebook-2017/\">OCG Perfect Rulebook 2017 pages 176-177</a></li>"
+            }
+        ],
+        "Change to Face-down Defense Position": [
+            {
+                "interaction": "If \"the effect(s) of this card can only be <b>activated</b> once per turn\" or simply \"once per turn:\" is written (different from \"the effect of [card name] can only be activated/used once per turn\"), if that card is flipped face-down or leaves the field and it later appears on the field face-up once again, the same effect of cards with the same name can be activated<sup><a>[]</a></sup>.",
+                "example": "",
+                "reference": "<li><a target=\"_blank\" href=\"https://ygorganization.com/perfect-rulebook-2017/\">OCG Perfect Rulebook 2017 pages 176-177</a></li>"
+            },
+            {
+                "interaction": "If \"the effect of [card name] can only be <b>used</b> once per turn\" is written with a particular card name, if that card leaves the field and returns to the field in the same turn, that card or cards with the same name cannot activate that effect in that turn. The same applies if \"can only be used once per Duel\" is written<a>[]</a></sup>.",
+                "example": "",
+                "reference": "<li><a target=\"_blank\" href=\"https://ygorganization.com/perfect-rulebook-2017/\">OCG Perfect Rulebook 2017 pages 176-177</a></li>"
+            }
+        ],
+        "Properties Changing: Name changing": [
+            {
+                "interaction": "If an effect reads \"You can only use this effect of [card name] once per turn\" or \"You can only use the effect of a card with this name once per turn\", this is not influenced by changes to the card's name on the field<sup><a>[]</a></sup>.",
+                "example": "If the effect of <span class=\"tooltip-anchor\" data-name=\"92723496\">\"Giant Pairfish\"</span> that says \"You can discard 1 monster; Special Summon 1 Level 4 or lower Wyrm-Type monster from your Deck. You can only use this effect of \"Giant Pairfish\" once per turn.\" is activated, and later its name changes by the effect of another card, the effect of the <span class=\"tooltip-anchor\" data-name=\"92723496\">\"Giant Pairfish\"</span> that had its name changed during that turn cannot be activated.",
+                "reference": "<li><a target=\"_blank\" href=\"https://ygorganization.com/perfect-rulebook-2017/\">OCG Perfect Rulebook 2017 page 55</a></li>"
+            }
+        ],
+        "Properties Changing: Copy effect continuous/lingering": [
+            {
+                "interaction": "If the effects of another monster are gained by an effect that gains effects, the requirements to use that effect like \"can only activate the effect of [card name] once per turn\" are also applied<sup><a>[]</a></sup>.",
+                "example": "You control two \"Therion\" monsters, each equipped with a <span class=\"tooltip-anchor\" data-name=\"21727231\">\"Therion \"Reaper\" Fum\"</span>. Due to the effect of <span class=\"tooltip-anchor\" data-name=\"21727231\">\"Therion \"Reaper\" Fum\"</span>, both of these monsters have gained the effect of <span class=\"tooltip-anchor\" data-name=\"21727231\">\"Therion \"Reaper\" Fum\"</span>, which allows to return cards on the field to the hand. During a single turn, you can only activate that effect of one of these monsters. You are considered to be using the effect of <span class=\"tooltip-anchor\" data-name=\"21727231\">\"Therion \"Reaper\" Fum\"</span> to return a card to the hand not only if you activate that effect of a <span class=\"tooltip-anchor\" data-name=\"21727231\">\"Therion \"Reaper\" Fum\"</span>, but also if you activate that effect that another monster has gained. <span class=\"tooltip-anchor\" data-name=\"21727231\">\"Therion \"Reaper\" Fum\"</span>'s card text tells you that you can only use the effect to return to hand of <span class=\"tooltip-anchor\" data-name=\"21727231\">\"Therion \"Reaper\" Fum\"</span> once per turn. Therefore, you cannot use that effect twice during the same turn, even if different monsters have that effect.",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#23532\">Monsters gaining the effects of other monsters, and once-per-turn restrictions</a></li>"
+            }
+        ],
+        "Properties Changing: Copy effect resolves as another card's effect": [
+            {
+                "interaction": "Copying activated effects and named once per turn restrictions: this kind of effect \"ignores\" named once per turn restrictions<sup><a>[]</a></sup>.",
+                "example": "You can activate <span class=\"tooltip-anchor\" data-name=\"38844957\">\"Urgent Ritual Art\"</span> by banishing <span class=\"tooltip-anchor\" data-name=\"51124303\">\"Nekroz Kaleidoscope\"</span> during a turn in which the Ritual Summoning effect of <span class=\"tooltip-anchor\" data-name=\"51124303\">\"Nekroz Kaleidoscope\"</span> has been used. While resolving the effect of <span class=\"tooltip-anchor\" data-name=\"38844957\">\"Urgent Ritual Art\"</span>, the effect of the banished Ritual Spell Card is performed as the resolution of the effect of <span class=\"tooltip-anchor\" data-name=\"38844957\">\"Urgent Ritual Art\"</span>. Therefore, even in that case, <span class=\"tooltip-anchor\" data-name=\"38844957\">\"Urgent Ritual Art\"</span> can be activated by banishing <span class=\"tooltip-anchor\" data-name=\"51124303\">\"Nekroz Kaleidoscope\"</span>.",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#16653\">Copying activated effects and named once per turn restrictions</a></li>"
+            }
+        ]
+    },
+    "Text that determines Materials and Summoning procedures": {
+        "Leaves the field because of an opponent's card": [
+            {
+                "interaction": "A monster you that leaves the field because used as a material (for example as Tribute or Link material) for an opponent's monster summoning procedures, it counts as having left the field by your opponent's card<sup><a>[]</a></sup>.",
+                "example": "You control a Fusion Summoned <span class=\"tooltip-anchor\" data-name=\"44146295\">\"Mirrorjade the Iceblade Dragon\"</span>, and your opponent Tributes it to Special Summon <span class=\"tooltip-anchor\" data-name=\"36956512\">\"Gadarla, the Mystery Dust Kaiju\"</span> to my field. <span class=\"tooltip-anchor\" data-name=\"44146295\">\"Mirrorjade the Iceblade Dragon\"</span> is considered to have left the field by the opponent and it can activate its effect. Also, if your opponent sends that <span class=\"tooltip-anchor\" data-name=\"44146295\">\"Mirrorjade the Iceblade Dragon\"</span> to the Graveyard as Link Material for the Link Summon of <span class=\"tooltip-anchor\" data-name=\"98127546\">\"Underworld Goddess of the Closed World\"</span>, that effect can be activated as well.",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#23560\">\"Leaves the field by your opponent\" and Summoning procedures</a></li>"
+            }
+        ],
+        "Unaffected": [
+            {
+                "interaction": "The text \"You can also use 1 monster your opponent controls as material to Link Summon this card\" of <span class=\"tooltip-anchor\" data-name=\"98127546\">\"Underworld Goddess of the Closed World\"</span> is not an effect, therefore an opponent's monster that is unaffected by monster effects can still be used as a Link Material<sup><a>[]</a></sup>.",
+                "example": "",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#23132\">\"Underworld Goddess of the Closed World\" using an opponent's monster that is unaffected</a></li>"
+            }
+        ]
+    },
+    "Text that is maintenance cost": {
+        "Properties Changing: Copy effect continuous/lingering": [
+            {
+                "interaction": "Copying the effect of a card does not copy the maintenance cost<sup><a>[]</a></sup>.",
+                "example": "If <span class=\"tooltip-anchor\" data-name=\"84565800\">\"Legendary Knight Hermos\"</span> gains the effects of <span class=\"tooltip-anchor\" data-name=\"14309486\">\"Koa'ki Meiru Overload\"</span>, the text that says \"During each of your End Phases, destroy this card unless you send 1 \"Iron Core of Koa'ki Meiru\" from your hand to the Graveyard or reveal 1 Rock-Type monster in your hand.\" is not applied.",
+                "reference": "<li><a target=\"_blank\" href=\"https://ygorganization.com/perfect-rulebook-2017/\">OCG Perfect Rulebook 2017 page 175</a></li>"
+            }
+        ]
+    },
+    "Text that says \"this card is always treated as [card name]/[a particular title/archetype] card\"": {
+        "Declare 1 card name": [
+            {
+                "interaction": "A card named [X] whose text reads \"this card is always treated as [Y]\" cannot be declared by card name: when activating an effect that involves declaring a card name, you cannot declare [X] but you can declare [Y]<sup><a>[]</a></sup>.",
+                "example": "The card names <span class=\"tooltip-anchor\" data-name=\"295517\">\"A Legendary Ocean\"</span> and <span class=\"tooltip-anchor\" data-name=\"34103656\">\"Lemuria, the Forgotten City\"</span> are always treated as <span class=\"tooltip-anchor\" data-name=\"22702055\">\"Umi\"</span>. When declaring a card name, you cannot declare the card names <span class=\"tooltip-anchor\" data-name=\"295517\">\"A Legendary Ocean\"</span> or <span class=\"tooltip-anchor\" data-name=\"34103656\">\"Lemuria, the Forgotten City\"</span>. Both <span class=\"tooltip-anchor\" data-name=\"295517\">\"A Legendary Ocean\"</span> and <span class=\"tooltip-anchor\" data-name=\"34103656\">\"Lemuria, the Forgotten City\"</span> are card names that are always treated as <span class=\"tooltip-anchor\" data-name=\"22702055\">\"Umi\"</span>. Therefore, the original card name of these cards while they are being used in a Duel will also be <span class=\"tooltip-anchor\" data-name=\"22702055\">\"Umi\"</span>. As a result, if you declare <span class=\"tooltip-anchor\" data-name=\"22702055\">\"Umi\"</span> when activating <span class=\"tooltip-anchor\" data-name=\"65681983\">\"Crossout Designator\"</span>, you can banish either <span class=\"tooltip-anchor\" data-name=\"22702055\">\"Umi\"</span>, <span class=\"tooltip-anchor\" data-name=\"295517\">\"A Legendary Ocean\"</span>, or <span class=\"tooltip-anchor\" data-name=\"34103656\">\"Lemuria, the Forgotten City\"</span> when <span class=\"tooltip-anchor\" data-name=\"65681983\">\"Crossout Designator\"</span> resolves. Regardless of which one you banish, the effect of <span class=\"tooltip-anchor\" data-name=\"65681983\">\"Crossout Designator\"</span> will apply to all cards whose original name is <span class=\"tooltip-anchor\" data-name=\"22702055\">\"Umi\"</span>, which includes the cards A Legendary Ocean and Lemuria, the Forgotten City.",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#277\">\"Umi\", \"Crossout Designator\"</a></li>"
+            }
+        ],
+        "Properties Changing: Name changing": [
+            {
+                "interaction": "Archetype inclusion/exclusion \"this card is always treated as [a particular title/archetype] card\" clauses apply to a particular card name, not to a particular card: copying the name of a card with such clauses will copy also the \"[a particular title/archetype]\" clause<sup><a>[]</a></sup>.",
+                "example": "You activate the effect of <span class=\"tooltip-anchor\" data-name=\"79531196\">\"Crystal Rose\"</span>, and when it resolves, you send <span class=\"tooltip-anchor\" data-name=\"61011438\">\"Brilliant Rose\"</span> to the Graveyard. As a result, the name of <span class=\"tooltip-anchor\" data-name=\"79531196\">\"Crystal Rose\"</span> is now treated as <span class=\"tooltip-anchor\" data-name=\"61011438\">\"Brilliant Rose\"</span>. Due to <span class=\"tooltip-anchor\" data-name=\"61011438\">\"Brilliant Rose\"</span>'s text, it is also treated as a \"Gem-Knight\" card.",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#23798\">Archetype inclusion/exclusion clauses apply to a particular card name, not to a particular card</a></li>"
+            }
+        ]
+    },
+    "Flip": {
+        "Can only control 1: \"Rivalry of Warlords\"/\"Gozen Match\" like": [
+            {
+                "interaction": "If a monster was flipped face-up during the Damage Step and \"Rivalry of Warlords\"/\"Gozen Match\" is still active, if that monster has a Attribute/Type that conflicts with another monster already face-up on the field, the flipped monster will immediately be sent to the Graveyard at this point, but Flip Effects will still activate<sup><a>[]</a></sup>.",
+                "example": "",
+                "reference": "<li><a target=\"_blank\" href=\"https://www.yugioh-card.com/eu/play/rivalry-of-warlords/\">Official KONAMI's FAQ of \"Rivalry of Warlords\" and \"Gozen Match\"</a></li>"
+            }
+        ],
+        "Reveal": [
+            {
+                "interaction": "Revealing a card does not activate its Flip effects<sup><a>[]</a></sup>.",
+                "example": "",
+                "reference": "<li><a target=\"_blank\" href=\"https://www.yugioh-card.com/en/rulebook/\">Official rulebook page 55</a></li>"
+            }
+        ]
+    },
+    "Union": {
+        "Change to Face-down Defense Position": [
+            {
+                "interaction": "You activate the effect of an Union Monster (1) that targets another monster (2) on your field and equips to it. If an effect (3) is chained that changes (1) to face-down Defense Position, when resolving the effect of (1), the effect is not applied (the face-down Defense Position (1) remains in the Monster Zone)<sup><a>[]</a></sup>.",
+                "example": "You activate the effect of <span class=\"tooltip-anchor\" data-name=\"39890958\">\"Heavy Mech Support Armor\"</span> that equips it to a Machine-Type monster on my field, targeting <span class=\"tooltip-anchor\" data-name=\"91998119\">\"XYZ-Dragon Cannon\"</span>. If <span class=\"tooltip-anchor\" data-name=\"14087893\">\"Book of Moon\"</span> is chained, and <span class=\"tooltip-anchor\" data-name=\"39890958\">\"Heavy Mech Support Armor\"</span> itself is changed to face-down Defense Position, when resolving the effect of <span class=\"tooltip-anchor\" data-name=\"39890958\">\"Heavy Mech Support Armor\"</span>, if it has been changed to face-down Defense Position, the effect is not applied (the face-down Defense Position <span class=\"tooltip-anchor\" data-name=\"39890958\">\"Heavy Mech Support Armor\"</span> remains in the Monster Zone).",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#19485\">\"Heavy Mech Support Armor\", \"Book of Moon\"</a></li>"
+            }
+        ],
+        "Negate Effects": [
+            {
+                "interaction": "If the effects of an Equip Card equipped to a monster are negated, the effects are negated but it remains on the field equipped to the equipped monster<sup><a>[]</a></sup>.",
+                "example": "While the Union monster <span class=\"tooltip-anchor\" data-name=\"67159705\">\"Armored Cybern\"</span> is equipped to a monster, if the effect of <span class=\"tooltip-anchor\" data-name=\"37267041\">\"Silent Swordsman LV7\"</span> that says \"Negate all Spell effects on the field.\" is applied, the effects of <span class=\"tooltip-anchor\" data-name=\"67159705\">\"Armored Cybern\"</span> are negated but it stays equipped to the equipped monster.",
+                "reference": "<li><a target=\"_blank\" href=\"https://ygorganization.com/perfect-rulebook-2017/\">OCG Perfect Rulebook 2017 pages 165-166</a></li>"
+            }
+        ]
+    },
+    "Gemini": {
+        "Banish until (temporarily banish a card)": [
+            {
+                "interaction": "A Gemini Monster that has been normal summoned again and gained its effects, if banished temporarily and subsequently returned to the field, it is treated as a Normal Monster again and its gained effect is no longer applied<sup><a>[]</a></sup>.",
+                "example": "<span class=\"tooltip-anchor\" data-name=\"69884162\">\"Elemental HERO Neos Alius\"</span> is then Normal Summoned again so that its effect that treats its name as <span class=\"tooltip-anchor\" data-name=\"89943723\">\"Elemental HERO Neos\"</span> is applying. Afterward, <span class=\"tooltip-anchor\" data-name=\"69884162\">\"Elemental HERO Neos Alius\"</span> is banished by the effect of <span class=\"tooltip-anchor\" data-name=\"36261276\">\"Interdimensional Matter Transporter\"</span>, and then returned to the field during the End Phase. In this scenario, it is treated as a Normal Monster again and its effect that treats its name as <span class=\"tooltip-anchor\" data-name=\"89943723\">\"Elemental HERO Neos\"</span> is no longer applied. Even in this case, <span class=\"tooltip-anchor\" data-name=\"69884162\">\"Elemental HERO Neos Alius\"</span> is still treated as a Normal Summoned monster, and so it can be equipped with cards like <span class=\"tooltip-anchor\" data-name=\"88610708\">\"Bashing Shield\"</span>.",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#7610\">Temporary banishment and Normal-Summoned-Again status</a></li>"
+            }
+        ],
+        "Cannot summon: Summon restrictions": [
+            {
+                "interaction": "Summoning a Gemini monsters is treated as summoning a normal monster, even if it will gain its effects on the moment its summon is successful<sup><a>[]</a></sup>.",
+                "example": "Even if the effect of <span class=\"tooltip-anchor\" data-name=\"45141013\">\"Heat Wave\"</span> is applying, you can activate the effect of <span class=\"tooltip-anchor\" data-name=\"16984449\">\"Blazewing Butterfly\"</span> to Special Summon a Gemini monster from your Graveyard. The targeted monster will be Special Summoned and treated as an Effect Monster as usual.",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#224\">\"Blazewing Butterfly\", \"Heat Wave\"</a></li>"
+            }
+        ],
+        "Negate Effects": [
+            {
+                "interaction": "Gemini monsters which are treated as Normal Monsters by their \"This card is treated as a Normal Monster while face-up on the field or in the Graveyard.\" effect are also monsters to which the \"its effects are negated\" effect can be applied<sup><a>[]</a></sup>.",
+                "example": "",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#12982\">Activation legality for effect negation</a></li>"
+            },
+            {
+                "interaction": "If a Gemini monster has its effects negated, it also cannot be Normal Summoned again<sup><a>[]</a></sup>.",
+                "example": "",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#8821\">Normal Summoning a negated Gemini Monster</a></li>"
+            },
+            {
+                "interaction": "If a Gemini monster treated as a Normal Monster has its effects negated, the effect that says \"This card is treated as a Normal Monster while face-up on the field or in the Graveyard\" is negated and it is treated as an Effect Monster<sup><a>[]</a></sup>.",
+                "example": "",
+                "reference": "<li><a target=\"_blank\" href=\"https://ygorganization.com/perfect-rulebook-2017/\">OCG Perfect Rulebook 2017 pages 166-167</a></li>"
+            },
+            {
+                "interaction": "If a Gemini monster treated as an Effect Monster has its effects negated, the effects after the \"•\" are negated and it is treated as an Effect Monster<sup><a>[]</a></sup>.",
+                "example": "A Gemini monster that is attacked and destroyed in battle by <span class=\"tooltip-anchor\" data-name=\"53982768\">\"Dark Ruler Ha Des\"</span> has its effects negated by the effect of <span class=\"tooltip-anchor\" data-name=\"53982768\">\"Dark Ruler Ha Des\"</span> that says \"Negate the effects of monsters destroyed by battle with Fiend-Type monsters you control\", and it is treated as an Effect Monster as long as it is in the Graveyard.",
+                "reference": "<li><a target=\"_blank\" href=\"https://ygorganization.com/perfect-rulebook-2017/\">OCG Perfect Rulebook 2017 pages 166-167</a></li>"
+            }
+        ],
+        "Negate Summons": [
+            {
+                "interaction": "When a Gemini monster on the field is Normal Summoned once again, cards that negate that Normal Summon can be activated. A Gemini monster that has its Summon negated is not treated as being destroyed and sent to the Graveyard from the hand or field<sup><a>[]</a></sup>.",
+                "example": "",
+                "reference": "<li><a target=\"_blank\" href=\"https://ygorganization.com/perfect-rulebook-2017/\">OCG Perfect Rulebook 2017 pages 166-167</a></li>"
+            }
+        ],
+        "Properties Changing: Copy effect continuous/lingering": [
+            {
+                "interaction": "If the effects of a Gemini Monster (1) are gained by a Monster (2) that has an effect that gains effects, (2) will be treated as a Normal Monster, but can be Normal Summoned again to gain the listed effect of (1)<sup><a>[]</a></sup>.",
+                "example": "If you activate <span class=\"tooltip-anchor\" data-name=\"43237273\">\"Neo-Spacian Dark Panther\"</span>'s effect by targeting a Gemini monster such as <span class=\"tooltip-anchor\" data-name=\"95888876\">\"Chthonian Emperor Dragon\"</span>, <span class=\"tooltip-anchor\" data-name=\"43237273\">\"Neo-Spacian Dark Panther\"</span> will gain the effects of the targeted Gemini monster. As a result, it will be treated as a Normal Monster, but can be Normal Summoned again to gain the listed effect.",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#6751\">\"Neo-Spacian Dark Panther\", \"Chthonian Emperor Dragon\"</a></li>"
+            }
+        ]
+    },
     "Tokens": {
+        "Banish": [
+            {
+                "interaction": "The Token stops existing, but this event is not treated as a card being banished<sup><a>[]</a></sup>.",
+                "example": "The effect of <span class=\"tooltip-anchor\" data-name=\"68073522\">\"Soul Absorption\"</span> does not activate if a <span class=\"tooltip-anchor\" data-name=\"73915052\">\"Sheep Token\"</span> you control is banished by the effect of an opponent's <span class=\"tooltip-anchor\" data-name=\"9748752\">\"Caius the Shadow Monarch\"</span>: at the time the token would leave the field it stops existing, and as a result, a card is not banished.",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#75\">\"Soul Absorption\" and Tokens</a></li>"
+            }
+        ],
         "Banish until (temporarily banish a card)": [
             {
                 "interaction": "The Token disappears and won't reapper again even when the effect of temporarily banishing stops applying<sup><a>[]</a></sup>.",
@@ -12,6 +203,13 @@
                 "interaction": "Tokens placed in the Spell & Trap Zone have the ATK printed on the card that Special Summoned the Token<sup><a>[]</a></sup>.",
                 "example": "<span class=\"tooltip-anchor\" data-name=\"16255173\">\"The Grand Jupiter\"</span> can be equipped with a Token by its own effect. For example, if a <span class=\"tooltip-anchor\" data-name=\"17418745\">\"Photon Token\"</span> that was Special Summoned by the effect of Photon Sanctuary is equipped to <span class=\"tooltip-anchor\" data-name=\"16255173\">\"The Grand Jupiter\"</span>, the second effect of <span class=\"tooltip-anchor\" data-name=\"16255173\">\"The Grand Jupiter\"</span> will increase its own ATK by the original ATK of the equipped <span class=\"tooltip-anchor\" data-name=\"17418745\">\"Photon Token\"</span>, which is 2000.",
                 "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#19254\">Tokens placed in the Spell & Trap Zone have the ATK printed on the card that Special Summoned the Token</a></li>"
+            }
+        ],
+        "Return/Add to the Hand": [
+            {
+                "interaction": "The Token stops existing<sup><a>[]</a></sup>.",
+                "example": "You can target a Token Monster with the effect of <span class=\"tooltip-anchor\" data-name=\"86937530\">\"Fairy Tail - Luna\"</span>. The Token is removed from the field and <span class=\"tooltip-anchor\" data-name=\"86937530\">\"Fairy Tail - Luna\"</span> is returned to the hand as normal.",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#262\">\"Fairy Tail - Luna\" and Tokens</a></li>"
             }
         ],
         "Summon from Spell/Trap/Pendulum Zone": [
@@ -55,12 +253,35 @@
             }
         ]
     },
+    "Activate [X] from [location]: Activate a Card through another Card's effect": {
+        "Cannot/Neither player can": [
+            {
+                "interaction": "If a continuous effect that says \"[X] cannot be activated\" is applying, you still cannot activate [X] through another card's effect<sup><a>[]</a></sup>.",
+                "example": "The effect of <span class=\"tooltip-anchor\" data-name=\"89208725\">\"Metaverse\"</span> either adds a Field Spell Card from your Deck to your hand, or activates one from your Deck. While the effect of <span class=\"tooltip-anchor\" data-name=\"58921041\">\"Anti-Spell Fragrance\"</span> is applying, you can still activate <span class=\"tooltip-anchor\" data-name=\"89208725\">\"Metaverse\"</span>, but the effect of <span class=\"tooltip-anchor\" data-name=\"58921041\">\"Anti-Spell Fragrance\"</span> prevents you from activating Spell Cards that were not Set first. Therefore, the Field Spell Card must be added to your hand.",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#21195\">\"Anti-Spell Fragrance\", \"Metaverse\"</a></li>"
+            }
+        ],
+        "Each time [A] happens, do [B]: Continuous Effects that apply at chain link resolution": [
+            {
+                "interaction": "Continuous effects that say \"Each time [X] is activated, do [B]\" won't apply [B] if [X] is activated by another card effect<sup><a>[]</a></sup>.",
+                "example": "If a Spell Card is activated by another effect, <span class=\"tooltip-anchor\" data-name=\"88901771\">\"Skilled Blue Magician\"</span>'s\"each time a Spell Card is activated, place 1 Spell Counter on this card when that Spell resolves\" effect will not be applied, and no Spell Counters are placed as a result of that activation. If <span class=\"tooltip-anchor\" data-name=\"48934760\">\"Demise of the Land\"</span> is activated, one Spell Counter is placed on <span class=\"tooltip-anchor\" data-name=\"88901771\">\"Skilled Blue Magician\"</span> (it is placed as a result of <span class=\"tooltip-anchor\" data-name=\"48934760\">\"Demise of the Land\"</span>'s own activation).",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#228\">\"Demise of the Land\", \"Skilled Blue Magician\"</a></li>"
+            }
+        ]
+    },
     "Attach": {
         "Cannot switch control/possession": [
             {
                 "interaction": "Your opponent controls a monster (1) whose control/possession cannot switch. You cannot attach (1) to a monster you control (2) as material as it is considered changing control of that opponent's monster, therefore a card or effect that involves such action cannot be activated<sup><a>[]</a></sup>.",
                 "example": "Your opponent controls an <span class=\"tooltip-anchor\" data-name=\"58153103\">\"Armed Dragon Thunder LV10\"</span> , and its \"● 10+\" effect that prevents control of it from switching is being applied. In this scenario, you cannot activate the effect of your <span class=\"tooltip-anchor\" data-name=\"10443957\">\"Cyber Dragon Infinity\"</span> that attaches the target to it as material by targeting that <span class=\"tooltip-anchor\" data-name=\"58153103\">\"Armed Dragon Thunder LV10\"</span>.",
                 "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#23119\">\"Armed Dragon Thunder LV10\", \"Cyber Dragon Infinity\"</a></li>"
+            }
+        ],
+        "Change to Face-down Defense Position": [
+            {
+                "interaction": "If an effect (1) that involves attaching a card (2) as an Xyz Material to a Xyz Monster on the field (3) is activated, if (3) is flipped face-down by another card's effect, then (1) resolves still by attaching (2) to (3)<sup><a>[]</a></sup>.",
+                "example": "If <span class=\"tooltip-anchor\" data-name=\"27068117\">\"Overlay Regen\"</span> is activated, but <span class=\"tooltip-anchor\" data-name=\"14087893\">\"Book of Moon\"</span> is chained so that the targeted Xyz Monster is in face-down Defense Position when <span class=\"tooltip-anchor\" data-name=\"27068117\">\"Overlay Regen\"</span> resolves, at the time <span class=\"tooltip-anchor\" data-name=\"27068117\">\"Overlay Regen\"</span> resolves, even if the targeted Xyz Monster is now face-down, the effect of attaching <span class=\"tooltip-anchor\" data-name=\"27068117\">\"Overlay Regen\"</span> to it as an Xyz Material still applies as usual.",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#4\">\"Overlay Regen\", \"Book of Moon\"</a></li>"
             }
         ],
         "Unaffected": [
@@ -76,7 +297,7 @@
             {
                 "interaction": "Monsters that can attack all opponent's monsters once and can attack directly<sup><a>[]</a></sup>:<ul><li>After attacking your opponent directly, it is not possible to attack all monsters they control once each.</li><li>If you attacked an opponent's monster first, you cannot attack your opponent directly afterwards.</li></ul>",
                 "example": "If the effect of <span class=\"tooltip-anchor\" data-name=\"94096616\">\"Bujingi Ophidian\"</span> is applied to <span class=\"tooltip-anchor\" data-name=\"75840616\">\"Bujintei Susanowo\"</span>, after attacking your opponent directly, it is not possible to attack all monsters they control once each. If you attacked an opponent's monster first, you cannot attack your opponent directly afterwards.",
-                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#12791\">Monsters that can attack all opponent's monsters once each cannot attack the opponent directly afterwards and vice versa.</a></li>"
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#12791\">Monsters that can attack all opponent's monsters once each cannot attack the opponent directly afterwards and vice versa</a></li>"
             }
         ],
         "Change attack target": [
@@ -137,7 +358,7 @@
                 "reference": "<li><a target=\"_blank\" href=\"https://www.yugioh-card.com/eu/play/rivalry-of-warlords/\">Official KONAMI's FAQ of \"Rivalry of Warlords\" and \"Gozen Match\"</a></li>"
             }
         ],
-        "Immediately after this effect resolves ... Summon": [
+        "Immediately after this effect resolves, [method] Summon [X]": [
             {
                 "interaction": "<span class=\"tooltip-anchor\" data-name=\"24207889\">\"There Can Be Only One\"</span> (1) is set on your opponent's field<sup><a>[]</a></sup>.<ul><li>You can activate an effect (2) as Chain Link 1 that summons back monsters (3) from a location (like the Graveyard) to the field and immediately after at resolution performs a Special Summon of a monster (4)</li><li>Your opponent chains as Chain Link 2 (1). The chain resolves backwards, and you have to summon monsters that don't violate (1), which means they have a different Type from the monsters you control. If you do not have any, (2) resolves without summoning anything.</li><li>When (3) are summoned back to the field, if two or more monsters in (3) have the same Type, due to (1) you have to keep monsters till you only control one of the same Type. If doing so the number of monsters summoned (3) changes and you cannot summon (4) anymore, then (2) resolves without performing the Special Summon.</li></ul>",
                 "example": "The only monster in your Monster Zone is <span class=\"tooltip-anchor\" data-name=\"71095768\">\"Bujinki Ahashima\"</span>. If you activate its effect that Special Summons 2 monsters with the same Level and performs an Xyz Summon, if your opponent chains <span class=\"tooltip-anchor\" data-name=\"24207889\">\"There Can Be Only One\"</span>, since <span class=\"tooltip-anchor\" data-name=\"71095768\">\"Bujinki Ahashima\"</span> is a Beast-Warrior monster, you cannot Special Summon any Beast-Warrior monsters from your hand or Graveyard with its effect. If you do not have any non-Beast-Warrior monsters in your hand or Graveyard to Special Summon, you cannot Special Summon any monsters. If, for example, you Special Summon a Winged Beast-Type <span class=\"tooltip-anchor\" data-name=\"68601507\">\"Bujingi Crane\"</span> from your hand and a Beast-Type <span class=\"tooltip-anchor\" data-name=\"5818294\">\"Bujingi Turtle\"</span> from your Graveyard, you can then perform an Xyz Summon using those 2 monsters. However, if you choose 1 <span class=\"tooltip-anchor\" data-name=\"68601507\">\"Bujingi Crane\"</span> from your hand and 1 <span class=\"tooltip-anchor\" data-name=\"68601507\">\"Bujingi Crane\"</span> from your Graveyard, both are Special Summoned successfully, but the effect of <span class=\"tooltip-anchor\" data-name=\"24207889\">\"There Can Be Only One\"</span> will be applied, you must send 1 of the <span class=\"tooltip-anchor\" data-name=\"68601507\">\"Bujingi Crane\"</span>s to the Graveyard, and the Xyz Summon cannot be performed.",
@@ -145,6 +366,7 @@
             }
         ]
     },
+    "Cannot/Neither player can": {},
     "Cannot summon: Summon restrictions": {
         "Properties Changing": [
             {
@@ -207,6 +429,13 @@
     },
     "Change/Take/Give/Switch Control": {},
     "Change attack target": {
+        "End the Battle Phase": [
+            {
+                "interaction": "If your opponent attacks and an effect (1) that \"changes attack target and performs damage calculation\" is activated, then you chain an effect (2) that ends the Battle Phase, due to the effect of (2) resolving, the effect of (1) resolves during the End Step of the Battle Phase. Because the attack is completed, you do not perform damage calculation<sup><a>[]</a></sup>.",
+                "example": "During your opponent's turn, if your opponent attacks your <span class=\"tooltip-anchor\" data-name=\"2732323\">\"Decoy Dragon\"</span> and its effect is activated, and you chain the effect of <span class=\"tooltip-anchor\" data-name=\"34710660\">\"Electromagnetic Turtle\"</span>, due to the effect of <span class=\"tooltip-anchor\" data-name=\"34710660\">\"Electromagnetic Turtle\"</span> resolving, the effect of <span class=\"tooltip-anchor\" data-name=\"2732323\">\"Decoy Dragon\"</span> resolves during the End Step of the Battle Phase. The targeted Dragon-Type monster is still Special Summoned from your Graveyard, but because the attack is completed, you do not perform damage calculation.",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#168\">\"Decoy Dragon\", \"Electromagnetic Turtle\"</a></li>"
+            }
+        ],
         "Unaffected": [
             {
                 "interaction": "Changing the attack target affects the monster<sup><a>[]</a></sup>.",
@@ -225,7 +454,7 @@
         ],
         "Negate Effects": [
             {
-                "interaction": "Consider effects that say \"when an effect is activated: ...; negate the/that effect\" (<strong>negating activated effect</strong>) like <span class=\"tooltip-anchor\" data-name=\"14558127\">\"Ash Blossom & Joyous Spring\"</span>. A monster (1) activates its effect and an effect that negates monster's activated effects (2) is chained to negate the activated effects of (1). Then an effect that flips monsters to face-down Defense Position (3) is chained to flip (1). The Chain resolves in reverse order, (1) changes to face-down Defense Position due to the effect of (2), and the effects of (1) will be still negated<sup><a>[]</a></sup>",
+                "interaction": "Consider effects that say \"when an effect is activated: [cost]; negate the/that effect\" (<strong>negating activated effect</strong>) like <span class=\"tooltip-anchor\" data-name=\"14558127\">\"Ash Blossom & Joyous Spring\"</span>. A monster (1) activates its effect and an effect that negates monster's activated effects (2) is chained to negate the activated effects of (1). Then an effect that flips monsters to face-down Defense Position (3) is chained to flip (1). The Chain resolves in reverse order, (1) changes to face-down Defense Position due to the effect of (2), and the effects of (1) will be still negated<sup><a>[]</a></sup>",
                 "example": "When my Level 5 or higher monster activates its effect, <span class=\"tooltip-anchor\" data-name=\"99064191\">\"Xyz Wrath\"</span> is activated in response. If <span class=\"tooltip-anchor\" data-name=\"14087893\">\"Book of Moon\"</span> is then activated in response, causing the Level 5 or higher monster to be in face-down Defense Position by the time <span class=\"tooltip-anchor\" data-name=\"99064191\">\"Xyz Wrath\"</span> resolves, the effect of <span class=\"tooltip-anchor\" data-name=\"99064191\">\"Xyz Wrath\"</span> will be applied normally (the activated effect is negated, and the monster is destroyed).",
                 "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#14034\">Negating a monster's activated effect while it is face-down</a></li>"
             },
@@ -256,7 +485,7 @@
         ]
     },
     "Continuous destroys/sends itself (self-destruct/self-send)": {
-        "If X would be destroyed, you can do ... instead: Destruction Substitution": [
+        "If [X] would be destroyed, you can do [A] instead: Destruction Substitution": [
             {
                 "interaction": "Substituting for continuous attempts to destroy can be attempted, though futile<sup><a>[]</a></sup>.",
                 "example": "You have <span class=\"tooltip-anchor\" data-name=\"43175858\">\"Toon Kingdom\"</span> face-up on your side of the field, and you activate <span class=\"tooltip-anchor\" data-name=\"33453260\">\"Comic Hand\"</span> by targeting an opponent's <span class=\"tooltip-anchor\" data-name=\"23205979\">\"Spirit Reaper\"</span>. When <span class=\"tooltip-anchor\" data-name=\"33453260\">\"Comic Hand\"</span> resolves, you take control of the <span class=\"tooltip-anchor\" data-name=\"23205979\">\"Spirit Reaper\"</span> that was targeted, and it will be treated as a Toon monster. After you gain control of <span class=\"tooltip-anchor\" data-name=\"23205979\">\"Spirit Reaper\"</span>, its effect that destroys it when it is targeted by a card or effect will apply. In this case, you can apply the last effect of <span class=\"tooltip-anchor\" data-name=\"43175858\">\"Toon Kingdom\"</span> once, and banish the top card of your Deck face-down, but the effect of <span class=\"tooltip-anchor\" data-name=\"23205979\">\"Spirit Reaper\"</span> will immediately apply again, resulting in <span class=\"tooltip-anchor\" data-name=\"23205979\">\"Spirit Reaper\"</span> being destroyed.",
@@ -264,7 +493,22 @@
             }
         ]
     },
-    "During the X Phase, do ... : Delayed effects": {
+    "Declare 1 card name": {},
+    "Draw": {
+        "Return/Add to the Hand": [
+            {
+                "interaction": "If cards from the Deck are added to the hand by an effect that does not draw cards but \"adds them to the hand\", this is not treated as drawing cards<sup><a>[]</a></sup>.",
+                "example": "If a card is added to the hand by the effect of <span class=\"tooltip-anchor\" data-name=\"98645731\">\"Pot of Duality\"</span> that says \"Excavate the top 3 cards of your Deck, add 1 of them to your hand, also, after that, shuffle the rest back into your Deck.\", this is not treated as drawing cards.",
+                "reference": "<li><a target=\"_blank\" href=\"https://ygorganization.com/perfect-rulebook-2017/\">OCG Perfect Rulebook 2017 page 145</a></li>"
+            },
+            {
+                "interaction": "Cards that are drawn are treated as being added to the hand<sup><a>[]</a></sup>.",
+                "example": "<span class=\"tooltip-anchor\" data-name=\"73783043\">\"R-Genex Accelerator\"</span> was face-up on your field when you performed your normal draw for the Draw Phase. If the card you draw is a \"Genex\" monster, even if a \"Genex\" monster is added to your hand by drawing, it is considered to have been added from your Deck to your hand. Therefore, in this scenario, you can activate the effect of <span class=\"tooltip-anchor\" data-name=\"73783043\">\"R-Genex Accelerator\"</span>.",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#276\">\"R-Genex Accelerator\"</a></li>"
+            }
+        ]
+    },
+    "During the [X] Phase, [A]: Delayed effects": {
         "Negate Summons": [
             {
                 "interaction": "The Special Summon of a monster when resolving an effect that happens later (during the End Phase for example) does not start a chain such as <span class=\"tooltip-anchor\" data-name=\"46448938\">\"Spellbook of Judgment\"</span>.<ul><li>As it is a Special Summon of a monster due an effect, this Special Summon cannot be negated by activating effects that negate summons like <span class=\"tooltip-anchor\" data-name=\"50323155\">\"Black Horn of Heaven\"</span><sup><a>[]</a></sup>.</li><li>However, it is still an \"effects that include an effect that Special Summons a monster(s)\", so cards like <span class=\"tooltip-anchor\" data-name=\"c84749824\">\"Solemn Warning\"</span> can be activated in response<sup><a>[]</a></sup>.</li></ul>",
@@ -272,7 +516,7 @@
                 "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#12713\">Negating delayed Special Summons</a></li>"
             }
         ],
-        "Unaffected": [
+        "Unaffected by activated effects": [
             {
                 "interaction": "Effects that apply later (delayed effects) also applies after the Chain Link formed by their activation has finished resolving. Therefore, they can also affect monsters that are \"unaffected by activated effects\"<sup><a>[]</a></sup>.",
                 "example": "<span class=\"tooltip-anchor\" data-name=\"44146295\">\"Mirrorjade the Iceblade Dragon\"</span>'s effect will destroy <span class=\"tooltip-anchor\" data-name=\"37542782\">\"Cyberdark End Dragon\"</span> during the End Phase.",
@@ -280,7 +524,23 @@
             }
         ]
     },
+    "Each time [A] happens, do [B]: Continuous Effects that apply at chain link resolution": {},
+    "End the Battle Phase": {},
     "Equipping Monsters": {
+        "Leaves the field": [
+            {
+                "interaction": "A monster on the field becoming an Equip Spell is not treated as the monster \"leaving the field\"<sup><a>[]</a></sup>.",
+                "example": "",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#94\">\"Relay Soul\" and monster moved to Spell & Trap Zone</a></li>"
+            }
+        ],
+        "Leaves the field because of an opponent's card": [
+            {
+                "interaction": "If your opponent fails to equip a monster you control to a monster your opponent's controls, this is not treated as \"leaving the field because of your opponent's card\"<sup><a>[]</a></sup>.",
+                "example": "Your opponent activates the effect of their <span class=\"tooltip-anchor\" data-name=\"94259633\">\"Relinquished Anima\"</span>, targeting your Fusion Summoned <span class=\"tooltip-anchor\" data-name=\"44146295\">\"Mirrorjade the Iceblade Dragon\"</span>. In response, you activate the effect of <span class=\"tooltip-anchor\" data-name=\"44146295\">\"Mirrorjade the Iceblade Dragon\"</span>, which banishes a monster on the field. When this chain resolves, you banish <span class=\"tooltip-anchor\" data-name=\"94259633\">\"Relinquished Anima\"</span>, therefore, <span class=\"tooltip-anchor\" data-name=\"94259633\">\"Relinquished Anima\"</span> no longer exists on the field when its effect resolves, and <span class=\"tooltip-anchor\" data-name=\"44146295\">\"Mirrorjade the Iceblade Dragon\"</span> is sent to the Graveyard instead of becoming an Equip Card. In the situation, <span class=\"tooltip-anchor\" data-name=\"44146295\">\"Mirrorjade the Iceblade Dragon\"</span> is not treated as being sent to the Graveyard by your opponent. Therefore, that effect of <span class=\"tooltip-anchor\" data-name=\"44146295\">\"Mirrorjade the Iceblade Dragon\"</span> cannot be activated.",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#23547\">\"Leaves the field by your opponent\" and failing to equip</a></li>"
+            }
+        ],
         "Negate Effects": [
             {
                 "interaction": "If a monster that has been equipped with Equip Cards by its effect has its effects negated, they are destroyed and sent to the Graveyard<sup><a>[]</a></sup>.",
@@ -294,7 +554,7 @@
             }
         ]
     },
-    "If X would be destroyed, you can do ... instead: Destruction Substitution": {
+    "If [X] would be destroyed, you can do [A] instead: Destruction Substitution": {
         "Unaffected": [
             {
                 "interaction": "Substitution does not affect the protected monster<sup><a>[]</a></sup>.",
@@ -303,10 +563,17 @@
             }
         ]
     },
-    "Immediately after this effect resolves ... Summon": {
+    "Immediately after this effect resolves, [method] Summon [X]": {
+        "Leaves the field because of an opponent's card effect": [
+            {
+                "interaction": "Monsters used as materials in this way do not \"leave the field by a card effect\"<sup><a>[]</a></sup>.",
+                "example": "",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#23173\">\"I:P Masquerena\", \"Granguignol the Dusk Dragon\"</a></li>"
+            }
+        ],
         "Negate Activation of Cards": [
             {
-                "interaction": "The activation of a card or of an effect can be negated by cards that are able to negate \"effects that include an effect that Special Summons a monster(s)\"<sup><a>[]</a></sup>.",
+                "interaction": "The activation of a card or of an effect that \"Immediately after this effect resolves, [method] Summon [X]\" can be negated by cards that are able to negate \"effects that include an effect that Special Summons a monster(s)\"<sup><a>[]</a></sup>.",
                 "example": "",
                 "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#23933\">Special Summons caused by a card effect, and whether the effect includes Special Summoning</a></li>"
             }
@@ -340,8 +607,24 @@
                 "example": "A <span class=\"tooltip-anchor\" data-name=\"799183\">\"Super Soldier Shield\"</span> was set on the field by its own effect. That <span class=\"tooltip-anchor\" data-name=\"799183\">\"Super Soldier Shield\"</span> is activated, and it has its activation negated by <span class=\"tooltip-anchor\" data-name=\"3819470\">\"Seven Tools of the Bandit\"</span>. Since the <span class=\"tooltip-anchor\" data-name=\"799183\">\"Super Soldier Shield\"</span> that has its activation negated by <span class=\"tooltip-anchor\" data-name=\"3819470\">\"Seven Tools of the Bandit\"</span> is not considered to leave the field, it is not banished and is destroyed and sent to the Graveyard normally.",
                 "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#16574\">Negating a card's activation removes it from the field, but is not treated as leaving the field</a></li>"
             }
+        ],
+        "Place a card on the field in your Spell/Trap/Pendulum Zone": [
+            {
+                "interaction": "Placing a monster on the field in a Spell/Trap/Pendulum Zone is not treated as the monster \"leaving the field\". However, the effects of <span class=\"tooltip-anchor\" data-name=\"17601919\">\"Pumprincess the Princess of Ghosts\"</span>, of <span class=\"tooltip-anchor\" data-name=\"80549379\">\"Dragunity Javelin\"</span>, or of <span class=\"tooltip-anchor\" data-name=\"49514333\">\"Tiki Soul\"</span>, may place destroyed monsters in the Spell & Trap Zone instead. In this case, that monster is treated as having left the field first<sup><a>[]</a></sup>.",
+                "example": "",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#94\">\"Relay Soul\" and monster moved to Spell & Trap Zone</a></li>"
+            }
+        ],
+        "Return/Shuffle to the Deck": [
+            {
+                "interaction": "When a monster on the field is shuffled into the Deck, it is no longer a card on the field, however its effects that activate when it \"leaves the field\" will not activate<sup><a>[]</a></sup>. Deck includes both Main and Extra Deck.",
+                "example": "",
+                "reference": "<li><a target=\"_blank\" href=\"https://www.yugioh-card.com/en/play/2021_rules_update/\">Official KONAMI's 2021 rules update</a></li>"
+            }
         ]
     },
+    "Leaves the field because of an opponent's card": {},
+    "Leaves the field because of an opponent's card effect": {},
     "Must attack": {},
     "Negate Activation of Cards": {},
     "Negate Activation of Effects": {
@@ -382,6 +665,13 @@
                 "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#12314\">Effects negation, and what removes/doesn't remove it</a></li>"
             }
         ],
+        "This turn/For the rest of the turn/Until [X] turn, apply [A]: Lingering Effects": [
+            {
+                "interaction": "A face-up card has applied an effect that lasts for this turn. If in this same turn that card has its effects negated, the previously applied effect will still linger for the turn<sup><a>[]</a></sup>.",
+                "example": "You successfully Fusion Summoned a <span class=\"tooltip-anchor\" data-name=\"18514525\">\"Prank-Kids Rocket Ride\"</span> and activated its effect this turn. If <span class=\"tooltip-anchor\" data-name=\"82732705\">\"Skill Drain\"</span> is activated after the effect of <span class=\"tooltip-anchor\" data-name=\"18514525\">\"Prank-Kids Rocket Ride\"</span> has resolved, and its effects are negated, <span class=\"tooltip-anchor\" data-name=\"18514525\">\"Prank-Kids Rocket Ride\"</span> will no longer lose 1000 ATK, but it will still be able to attack directly with its effect that turn.",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#162\">\"Prank-Kids Rocket Ride\", \"Skill Drain\"</a></li>"
+            }
+        ],
         "Traps Treated as Monsters (not treated as Traps)": [
             {
                 "interaction": "Even when a Trap Card treated as a Monster Card which says it is not treated as a Trap Card has its effects negated, it remains in the Main Monster Zone<sup><a>[]</a></sup>.",
@@ -398,19 +688,33 @@
         ]
     },
     "Negate Summons": {},
+    "Place a card on the field in your Spell/Trap/Pendulum Zone": {},
     "Properties Changing": {},
-    "Properties Changing: Copy effect continuous/lingering": {},
     "Properties Changing: Name changing": {},
+    "Properties Changing: Copy effect continuous/lingering": {},
+    "Properties Changing: Copy effect resolves as another card's effect": {},
+    "Return/Shuffle to the Deck": {},
     "Return/Add to the Hand": {},
+    "Reveal": {},
     "Summon from Spell/Trap/Pendulum Zone": {},
+    "This turn/For the rest of the turn/Until [X] turn, apply [A]: Lingering Effects": {
+        "Unaffected": [
+            {
+                "interaction": "Cards that become unaffected after a lingering effect has activated and is already applying, will be unaffected by that lingering effect<sup><a>[]</a></sup>.",
+                "example": "<span class=\"tooltip-anchor\" data-name=\"81994591\">\"Diamond Core of Koa'ki Meiru\"</span>'s effect in the Graveyard has been applied this turn, \"Koa'ki Meiru\" monsters you control cannot be destroyed. If <span class=\"tooltip-anchor\" data-name=\"27243130\">\"Forbidden Lance\"</span> is later applied to your <span class=\"tooltip-anchor\" data-name=\"14309486\">\"Koa'ki Meiru Overload\"</span>, causing it target to become unaffected by Spell effects, so the effect of <span class=\"tooltip-anchor\" data-name=\"81994591\">\"Diamond Core of Koa'ki Meiru\"</span> will not be applied to that unaffected monster. In this situation, if your opponent then activates <span class=\"tooltip-anchor\" data-name=\"74122412\">\"Nekroz of Gungnir\"</span>'s effect targeting your <span class=\"tooltip-anchor\" data-name=\"14309486\">\"Koa'ki Meiru Overload\"</span>, <span class=\"tooltip-anchor\" data-name=\"14309486\">\"Koa'ki Meiru Overload\"</span> will be destroyed as normal by the effect of <span class=\"tooltip-anchor\" data-name=\"74122412\">\"Nekroz of Gungnir\"</span>.",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#99\">\"Diamond Core of Koa'ki Meiru\", \"Forbidden Lance\"</a></li>"
+            }
+        ]
+    },
     "Traps Treated as Monsters (not treated as Traps)": {},
     "Traps Treated as Monsters (still treated as Traps)": {},
     "Unaffected": {},
+    "Unaffected by activated effects": {},
     "\"Necrovalley\"": {
-        "During the X Phase, do ... : Delayed effects": [
+        "During the [X] Phase, [A]: Delayed effects": [
             {
-                "interaction": "Example: if <span class=\"tooltip-anchor\" data-name=\"66386380\">\"Harpie Oracle\"</span> is Normal or Special Summoned and activates its effect while the effect of <span class=\"tooltip-anchor\" data-name=\"47355498\">\"Necrovalley\"</span> is applying, as in this scenario, the effect will not be negated. However, if the effect of <span class=\"tooltip-anchor\" data-name=\"47355498\">\"Necrovalley\"</span> is applying during the End Phase when you apply <span class=\"tooltip-anchor\" data-name=\"66386380\">\"Harpie Oracle\"</span>'s effect, you cannot add an appropriate Spell/Trap Card from your Graveyard to your hand. (If the effect of <span class=\"tooltip-anchor\" data-name=\"47355498\">\"Necrovalley\"</span> has stopped applying by the time you reach the End Phase, you can add the Spell/Trap Card from your Graveyard to your hand normally)<sup><a>[]</a></sup>.",
-                "example": "",
+                "interaction": "An effect that resolves at a later point, moving a card(s) in the GY to a different place, can be activated when <span class=\"tooltip-anchor\" data-name=\"47355498\">\"Necrovalley\"</span> is face-up on the field and its effect will not be negated. If at the time of the delayed effect resolution <span class=\"tooltip-anchor\" data-name=\"47355498\">\"Necrovalley\"</span> is still face-up on the field, that effect won't resolve successfully and won't move any card in the GY. If on other hand <span class=\"tooltip-anchor\" data-name=\"47355498\">\"Necrovalley\"</span> is not face-up on the field anymore, then that effect resolves normally by moving a card(s) in the GY<sup><a>[]</a></sup>.",
+                "example": "If <span class=\"tooltip-anchor\" data-name=\"66386380\">\"Harpie Oracle\"</span> is Normal or Special Summoned and activates its effect while the effect of <span class=\"tooltip-anchor\" data-name=\"47355498\">\"Necrovalley\"</span> is applying, as in this scenario, the effect will not be negated. However, if the effect of <span class=\"tooltip-anchor\" data-name=\"47355498\">\"Necrovalley\"</span> is applying during the End Phase when you apply <span class=\"tooltip-anchor\" data-name=\"66386380\">\"Harpie Oracle\"</span>'s effect, you cannot add an appropriate Spell/Trap Card from your Graveyard to your hand. (If the effect of <span class=\"tooltip-anchor\" data-name=\"47355498\">\"Necrovalley\"</span> has stopped applying by the time you reach the End Phase, you can add the Spell/Trap Card from your Graveyard to your hand normally)",
                 "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#12405\">Necrovalley and delayed effects</a></li>"
             }
         ]

@@ -19,7 +19,7 @@
   <summary align="center">✔️</summary>
   <ul>
     <li>
-      <a target="_blank" href="https://db.ygoresources.com/qa#69">"Revendread Slayer", ""Book of Moon""</a>
+      <a target="_blank" href="https://db.ygoresources.com/qa#69">"Revendread Slayer", """Book of Moon"""</a>
     </li>
   </ul>
 </details>
@@ -44,7 +44,6 @@
   <li>
     <a target="_blank" href="https://www.yugioh-card.com/en/rulebook/">Official rulebook page 25</a>
   </li>
-  <li>YGOrg Database of Official OCG Rulings: <a target="_blank" href="https://db.ygoresources.com/qa#10331">"Meklord Emperor Granel"</a></li>
   <li>
     <a target="_blank" href="https://ygorganization.com/perfect-rulebook-2017/">OCG Perfect Rulebook 2017 page 28</a>
   </li>
@@ -52,6 +51,7 @@
   <li>
     <a target="_blank" href="https://imgur.com/targeting-rules-insert-JH4NxL1">Insert from Rise of the True Dragons Structure Deck</a>
   </li>
+  <li>YGOrg Database of Official OCG Rulings: <a target="_blank" href="https://db.ygoresources.com/qa#10331">"Meklord Emperor Granel"</a></li>
 </ol>
 
 <sup><a href="#">[1]</a></sup>
@@ -103,7 +103,7 @@
   </tbody>
 </table>
 
-<p><strong>Interaction with other card effects</strong></p>
+<p><strong>Effect interactions</strong></p>
 <ul class="glossary-entry-effect-interaction"></ul>
 
 <em>References:</em>
@@ -141,31 +141,11 @@ console.log(elem)
 </script>
 
 <!--
-# Yugipedia references extractor 
--->
-
-<script>
-  references = Array.from(document.body.querySelectorAll(".references li"));
-
-  res = "";
-  for (let you = 3; you < references.length; i++) {
-    const reference = references[i];
-    let text = reference.querySelector(".reference-text");
-    if (text == undefined) continue;
-    text = text.innerText;
-    let hrefs = Array.from(reference.querySelectorAll(".reference-text cite a"));
-    hrefs = hrefs.map((_) => `<a href="${_.href}">${_.innerText.replace("the original", "original")}</a>`);
-    res += `<lyou id="sub-steps_of_the_damage_step-${you - 9}">${hrefs.reduce((a, b) => a + ", archived from the " + b)} ${text}</li>`;
-  }
-  console.log(res);
-</script>
-
-<!--
 # Add tooltips to text
 -->
 
 <script>
-text = `If you control a "Puppet Rook", which is treated as a Fiend due to a card effect, and a "Labrynth Archfiend", your opponent's monsters must attack "Puppet Rook" due to its effect.`
+text = `If "Solemn Judgment" is activated during an attempt to Normal or Special Summon a monster, "Destruction Jammer" cannot be activated in response. Since the monster to be destroyed is not yet on the field, "Solemn Judgment" is not considered to be an effect that destroys cards on the field. If "Solemn Judgment" is activated during an attempt to Flip Summon, or an attempt to Normal Summon a Gemini Monster again, "Destruction Jammer" can be activated in response. In these cases, "Solemn Judgment" is considered to be an effect that destroys cards on the field.`
 regex = /"([^"]*)"/g;
 cards = text.match(regex)
 cards = [...new Set(cards)].filter(_=>_ !== '"unaffected by activated effects"')
@@ -192,7 +172,39 @@ console.log(`<details>
 # Check lowercase
 -->
 <script>
-  Array.from(document.querySelectorAll("li")).filter(lyou => li.innerHTML.charAt(0) === li.innerText.charAt(0).toLowerCase()).forEach(_=>console.log(_.innerHTML));
+Array.from(document.querySelectorAll("li")).filter(li => li.innerHTML.charAt(0) === li.innerText.charAt(0).toLowerCase()).forEach(_=>console.log(_.innerHTML));
+Array.from(document.querySelectorAll("li")).map(li => li.innerText.replaceAll(" ","").replaceAll("\n","")).filter(text => text.charAt(0) === text.charAt(0).toLowerCase() && text.charAt(0) !== '"').forEach(_=>console.log(_));
+</script>
 
-  Array.from(document.querySelectorAll("li")).map(lyou => li.innerText.replaceAll(" ","").replaceAll("\n","")).filter(text => text.charAt(0) === text.charAt(0).toLowerCase() && text.charAt(0) !== '"').forEach(_=>console.log(_));
+<!--
+# Compare OCG DB updates vs YGOrg
+-->
+
+<script>
+ygorg = Array.from(document.body.querySelectorAll("a")).filter(a=>a.innerText.toLowerCase() === "source").map(a=>+a.href.split("fid=")[1].split("&")[0]).sort((a,b)=>a-b)
+
+yoursite = Array.from(document.querySelectorAll("a")).map(a=>a.href).filter(href=>href.includes("https://db.ygoresources.com/qa")).map(href=>+href.replace("https://db.ygoresources.com/qa#","")).sort((a,b)=>a-b)
+yoursite = [...new Set(yoursite)]
+ygorg = 
+yoursite.filter(_=>ygorg.includes(_))
+</script>
+
+<!--
+# Yugipedia references extractor 
+-->
+
+<script>
+references = Array.from(document.body.querySelectorAll(".references li"));
+
+res = "";
+for (let you = 3; you < references.length; i++) {
+  const reference = references[i];
+  let text = reference.querySelector(".reference-text");
+  if (text == undefined) continue;
+  text = text.innerText;
+  let hrefs = Array.from(reference.querySelectorAll(".reference-text cite a"));
+  hrefs = hrefs.map((_) => `<a href="${_.href}">${_.innerText.replace("the original", "original")}</a>`);
+  res += `<li id="sub-steps_of_the_damage_step-${you - 9}">${hrefs.reduce((a, b) => a + ", archived from the " + b)} ${text}</li>`;
+}
+console.log(res);
 </script>
