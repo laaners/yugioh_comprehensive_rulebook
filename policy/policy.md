@@ -153,7 +153,7 @@ NEURON has an offline mode, which includes (but is not limited to) a Life Point 
 - If you arrive at an event intoxicated or under the influence of any narcotics or controlled substances or become so during the course of the event, you will be Disqualified and removed from the venue and may be subject to additional penalties.
 - If you arrive at an event under the influence of any substances prohibited in the FAQ, or become so during the course of the event, you will be Disqualified and removed from the venue and may be subject to additional penalties.
 - Prescription medicine may only be brought to/used at the event by the person for whom it is prescribed.
-- Persons may not bring any items into the tournament venue that are prohibited by law in their area (local, state, or federal). In addition, unlawful items/transactions, weapons of any kind, and substance drugs (whether or not they are legal on a local, state, National and/or federal level), and anything prohibited in the event FAQ are not allowed at Sanctioned/Official events. People who bring any such items to a tournament venue will incur penalties, including Disqualification and removal from the event, and risk suspension from KDE Organized Play.
+- People may not bring any items into the tournament venue that are prohibited by law in their area (local, state, or federal). In addition, unlawful items/transactions, weapons of any kind, and substance drugs (whether or not they are legal on a local, state, National and/or federal level), and anything prohibited in the event FAQ are not allowed at Sanctioned/Official events. People who bring any such items to a tournament venue will incur penalties, including Disqualification and removal from the event, and risk suspension from KDE Organized Play.
 - The use of electronic and/or vapor cigarettes is not permitted on the tournament floor at any Sanctioned/Official events, or in areas designated for tournament attendees.
 - The following electronic devices may be used during a Match, for the following uses only:
     - Calculators may be used to assist with Life Point calculation, and not as the sole means of tracking Life Points.
@@ -162,7 +162,7 @@ NEURON has an offline mode, which includes (but is not limited to) a Life Point 
 - Other electronic devices are prohibited for use during a Match. Duelists with a medical necessity for an electronic device other than a calculator should speak with the Head Judge prior to the start of the tournament.
 - You may not wear headphones or earbuds during a Match.
 - You may not eat or drink on tournament tables, including between rounds. You may keep water etc. with you, but containers must have lids and cannot be kept on the table.
-- If you attend an event in costume, you may not wear any masks, hoods, etc., that cover your face during the registration process or during any Duel. You are responsible for ensuring that your costume or accessories will not damage tournament property or injure other persons at the event. Face paint or makeup that obscures or hides your face is also prohibited.
+- If you attend an event in costume, you may not wear any masks, hoods, etc., that cover your face during the registration process or during any Duel. You are responsible for ensuring that your costume or accessories will not damage tournament property or injure other People at the event. Face paint or makeup that obscures or hides your face is also prohibited.
 - Duelists with a medical or religious necessity for masks or other head/face coverings should speak with the Head Judge prior to the start of the tournament.
 - Certain areas may require masks or face coverings to be worn, in the interest of public health. In these circumstances, Duelists should wear appropriate masks or face coverings as required
 
@@ -550,8 +550,457 @@ The loop stops once this chain has resolved. If Duelist A wishes to do the loop 
 
 ### Infinite Loop
 
+Infinite Loops are loops that occur involuntarily, usually from a series of mandatory Trigger Effects that meet the activation conditions for each other upon resolution or due to continuous effects that are stuck switching on and off endlessly due to a change in the game state. Since all the effects involved in an Infinite Loop must occur, there is no clear point in the game where the player can stop the loop.
 
+If an Infinite Loop occurs, follow these instructions:
+1. Perform each action in one iteration of the loop once.
+2. Determine if the loop will cause a victory condition (Ex: An Infinite Loop in which a Duelist draws 2 cards per iteration will eventually end in fulfilling a victory condition for one of the Duelists.)
+3. If so, proceed to the iteration in which the victory condition will occur and determine the winner.
+4. If no victory condition will be achieved, the Duelists should call a judge to determine the card that is the primary cause of the loop and send it to the Graveyard. Play will resume from that point and no penalties are assessed. Any effects that could activate as a result of the card going to the Graveyard can/will still activate accordingly.
+    - If the judge determines that multiple cards primarily cause the loop, the card most recently activated should be sent to the Graveyard.
 
-# Reporting the Match Results
+Examples:
+- Duelist A has a Set **Pole Position** on the field. Duelist B has a face- up **Dark Magician** equipped with **Magic Formula** and a face-up **Dark Magician Girl** equipped with **Axe of Despair**.\
+\
+If Duelist A activates his Set **Pole Position**, its Spell protection is applied to **Dark Magician**, then to **Dark Magician Girl** then back to **Dark Magician**. The players determine this is an Infinite Loop that will not result in a victory condition, so they call a judge. The judge determines **Pole Position** is causing the loop. **Pole Position** is sent to the Graveyard, and play continues.
+- Duelist A has a Set **Pole Position** on the field. Duelist B has a face- up **Dark Magician** equipped with **Magic Formula**, a face-up **Dark Magician Girl** equipped with **Axe of Despair**, and **Bait Doll** in his hand. During his Main Phase 1 he activated **Bait Doll**, targeting the Set **Pole Position**.\
+\
+**Pole Position** is forcibly activated. Its Spell protection is applied to **Dark Magician**, then to **Dark Magician Girl** then back to **Dark Magician**. The players determine this is an Infinite Loop that will not result in a victory condition, so they call a judge. The judge determines **Pole Position** is causing the loop. **Pole Position** is sent to the Graveyard, and play continues.
 
-# Tournament Infractions
+## P. Appeals
+
+If you disagree with a floor judge's ruling, whether it is a Rulings or Policy issue, you have the right to appeal that ruling to the Head Judge of the tournament.
+- The Head Judge's ruling is final and cannot be appealed.
+- You may not appeal a floor judge's ruling until after the floor judge has finished issuing the ruling. You should wait until the floor judge has issued the ruling, then respectfully inform the floor judge that you wish to appeal the ruling.
+- If you accept the floor judge's ruling, you cannot ask to appeal that ruling later on during the game.
+
+In Tier 3 or higher events, an appeal may be taken by an Assistant Head Judge instead of the Head Judge. In this case, the Assistant Head Judge's ruling is final, and cannot be appealed.
+- If the initial decision was made by the Head Judge, or an Assistant Head Judge (Tier 3 events), their decision is final and cannot be appealed.
+
+## Q. Conceding a Game or Match
+
+You may concede a Game or Match at any time up until the point that the Game or Match has concluded, during either Duelist's turn, but only by meeting these requirements:
+- Conceding a Game or Match is not specifically prohibited (in some instances, such as the World Championship, conceding matches may require additional steps or permissions).
+    - If you are unsure of the process, please ask a judge.
+- You may not offer or accept any sort of compensation in exchange for conceding a Game or Match.
+- You may not concede a Game or Match after the Game or Match has already concluded.
+    - This means that once a Game or Match result is reached (a win, a loss, or a draw), that result cannot be changed, even if a Match Result Slip has yet to be signed.
+
+Duelists who concede in exchange for money, prizes, or other incentives are guilty of Bribery and/or Collusion, which is a violation of the Official KDE-E Tournament Infractions and Penalties Policy Guidelines.
+
+Duelists who change the result of a Game or a Match are guilty of Altering the Result of a Game or Match, which is a violation of the Official KDE-E Tournament Infractions and Penalties Policy Guidelines. (See Section T. Altering the Result of a Game or Match for additional information.)
+
+### Conceding is Allowed
+
+- During Game 3 of a Match, Duelist A has a monster with 1,000 ATK in face-up Attack Position on the field. Duelist B is at 1,000 Life Points and does not have any cards on the field or hand, and no effects to activate to stop a direct attack. During the Battle Phase, before declaring an Attack, Duelist A may still concede the Match.
+- During a Game, Duelist A has an emergency and needs to leave the tournament. Duelist A can concede to Duelist B.
+- It is Duelist A's Main Phase 1 and she activates a card effect. Duelist B realizes that Duelist A has all of the cards needed to be able to bring his Life Points down to 0. Duelist B may concede the Game and proceed to the next Game. Duelist B does not need Duelist A's permission in order to concede.
+
+## Conceding is not allowed
+- During Game 3 of a Match, Duelist A has a monster with 1,000 ATK in face-up Attack Position on the field. Duelist B is at 1,000 Life Points and does not have any cards on the field or hand, and no effects to activate to stop a direct attack. Duelist A declares an attack and the damage is dealt to bring Duelist B's Life Points to 0. A result has been reached and the Match may no longer be conceded.
+- Duelist A wins Game 3, therefore winning the Match. Duelist A realizes that he must drop from the event and head home. Even though Duelist A is dropping from the event and the Match Result Slip has not been completed yet, he may not concede the Match to his opponent, because the result of the Match has already been determined.
+
+## R. Time Extensions
+
+Judges should always note down the time at which they take a judge call, to ensure an appropriate time extension is provided.
+- Any judge call which lasts longer than one (1) minute requires that the Match be given an appropriate time extension.
+- Time extensions are given after the call has been resolved.
+- Time extensions should only be given for actual time lost **during** a round – time extensions should never be longer than the actual time that remained in the round.
+- Time extensions should not be given when there is an infraction that results in a Game Loss.
+- Multiple time extensions may occur during a round for the same match.
+
+Examples:
+- **Time extensions cannot exceed the time remaining in the round**\
+A judge responds to a judge call at a Match with 3 minutes left in the Round. The Duelists decide to appeal the ruling to the Head Judge. The total length of the appeal time was 7 minutes. The Duelists should only be given a 3-minute time extension as that was the time lost during the round. - **Time extensions are not given when no time remains in the round**\
+A judge responds to a judge call at a Match during End of Match procedures. The issue is resolved in 3 minutes. No time extensions should be given as no time was lost during the round, as End of Match procedures are not timed.
+- **Time extensions are not given with a Game Loss**\
+After a Deck check, a Duelist receives a Marked Cards – Major infraction, resulting in a Game Loss penalty. No time extension is given for the Deck check.
+- **Multiple time extensions run consecutively**\
+A table was randomly selected for a Deck check, which gets them an eight-minute time extension. Later in that same round, one Duelist calls for a ruling. The table would get another appropriate time extension. Later in that same round the other Duelist has a policy issue, resulting in a third time extension. The 3 time extensions should run one after another.\
+- **Time extensions begin when the judge arrives at the table**\
+A judge arrives at a Match that has called for a judge. The Duelists inform the judge they have been waiting for 2 minutes for a judge to arrive. The judge takes 3 minutes to answer their question. The Duelists should receive a 3-minute time extension, as that was the time the judge spent answering the judge call.
+
+## S. Bribery and/or Collusion
+
+The outcome of a Match may not be influenced by any outside incentives or additional prizes/compensation.
+
+Offering or accepting a bribe is against KDE-E Tournament Policy and will result in a Disqualification from the event.
+
+**Prize Splitting**:\
+At the Tournament Organizer's discretion, it is acceptable to split all prizing to be awarded to Duelists remaining in a Single-Elimination tournament or Top Cut if all those Duelists agree to do so, and no additional incentives or coercion is involved.\
+This is commonly referred to as a "prize split" and is not bribery and/or collusion.\
+Tier 3 and higher events, such as National Championship, State Championships, YCS, and WCQ events, do not allow prize splits under any circumstances.
+
+## T. Random Outcome
+
+Duelists or tournament officials may not randomly determine an outcome of a Match, such as flipping a coin or rolling a die to determine a winner.
+
+Failure to follow this rule will result in a Disqualification from the event.
+
+## U. Altering the Result of a Game or Match
+
+Once the Game or Match has concluded, you may not concede or "give the win" to the opponent. This means that once a Game or Match result is reached (a win, a loss, or a draw), that result cannot be changed.
+
+Duelists who change the result of a Game or a Match are guilty of Altering the Result of a Game or Match, a violation of the Official KDE-E Tournament Infractions and Penalties Policy Guidelines.
+
+Example: During Game 3 of a Match, a Duelist deals enough damage to bring his opponent's Life Points to 0. The Match has officially ended, with the Duelist as the winner. Even though the Match Result Slip has not been signed yet, Examples the Duelist is no longer able to concede to his opponent because the Match now has an official result. Marking the losing Duelist as the winner may result in penalties, including Disqualification from the event.
+
+## V. Intentional Draws
+
+Intentional Match Draws (both Duelists agreeing to end the Match as a Draw, rather than playing it out) are not allowed.
+
+Matches cannot end in a Draw, outside of End of Round procedures during the Swiss Rounds of a Swiss event.
+
+# V. Reporting the Match Results
+
+## A. Reporting the Match Result
+
+The winning Duelist is responsible for accurately reporting the result of a Match. Most tournaments will provide printed Match Result Slips for you to use to report Match results, however some tournaments may require you to verbally confirm the Match Result with a judge or scorekeeper. Some tournaments may require Match Result submission via the NEURON Smart Device App.
+
+You should consult a Tournament Official if you are unsure of the proper procedure for reporting your Match Result. 
+- Match Results cannot be altered once they have been submitted. 
+- Verify the Match Result carefully before submitting it, including whether a Duelist is opting to drop from the event. 
+- Match Results for completed Matches must be submitted within 5 minutes of the end of the Round. 
+- If a Match Result for a completed Match is not submitted within 5 minutes of the end of the round, the Duelist responsible for reporting the Match Result will incur a Procedural Error – Major penalty, consisting of a Game Loss. 
+- This Game Loss will be applied to the next round.
+
+## B. End of Match Procedures
+
+Sometimes a Match will not be finished when the time ends for a round. If this happens, it is both Duelists' responsibility to note whose turn it is when time is called. Duelists who require assistance with the End of Match procedures should call for a judge, either by raising their hand at an in-person event or tagging a Judge as instructed at a Remote Duel event. The judge should be notified that the Match is ongoing and whose turn it is. The judge may or may not stay to supervise the End of Match procedure but should ensure that both Duelists understand the following procedures.
+
+End of Match procedures should follow these three (3) rules:
+1. **Rule #1**: If time is called while Duelists are in the middle of a Game, the current Game must have a decision (Win, Loss, or Draw).
+2. **Rule #2**: Once the current Game has concluded with a decision, determine the winner of the Match by determining the number of Game Wins (or Game Losses) each Duelist has for the current Match. The Duelist with the most Game Wins will win the Match.
+    - Swiss Rounds: If both Duelists have the same number of Game Wins, or if time was called in between games of a Match when both Duelists had the same number of Game Wins, then the Match is a Draw. - Single-Elimination Rounds: If both Duelists have the same number of Game Wins, or if time is called in between Games of a Match while both Duelists have the same number of Game Wins, they will begin a new Duel with specific guidelines.
+        - Neither Duelist may use his or her Side Deck. If time was called in between Games of a Match and at least one Duelist has already accessed his or her Side Deck, then both Duelists may use their Side Deck.
+        - Duelists must use a random method (die roll, coin flip, etc.) to determine who will go first. The winner of the random method chooses who will go first.
+        - The Duel will continue for a total of four (4) turns, two (2) turns for each Duelist, unless a Duelist manages to win the Duel before the four (4) turns have concluded.  A "turn" is defined as the start of the Draw Phase until the end of the End Phase for a single Duelist.
+        - Once the four (4) turns are completed, Life Point totals are compared and the Duelist with the highest Life Point total wins the Match.
+        - If both Duelists' Life Points are the same after the four (4) turns are completed, then play will continue on a turn-by-turn basis, with the Duelist with the most Life Points at the end of a turn being declared the winner of that Game.
+3. **Rule #3**: If a win condition occurs during End of Match Procedures, that Duelist wins the current Game.
+
+Keeping these three (3) rules in mind, please follow these instructions when proceeding to End of Match procedures:
+1. Continue with the current Phase of the Game. Once the Phase is over, stop the game.
+2. Determine a Game Winner at this point, with the Duelist with the most Life Points winning the Game. 
+    - During Swiss Rounds, if both Duelists' Life Points are the same, the Game is a Draw. Compare Game Wins with the Duelist with the most Game Wins winning the Match. If the Game Win totals are the same, the Match is a Draw. 
+    - During Single-Elimination, if both Duelists' Life Points are the same at the end of the current Phase (Step 1 above), finish the current turn. If both Duelists' Life Points are the same at the end of the turn, then play will continue on a turn-by-turn basis, with the Duelist with the most Life Points at the end of a turn being declared the winner of that Game. 
+        - **Match Draws cannot occur during Single-Elimination Rounds.**
+
+# VI. Tournament Infractions
+
+Infractions occur when a participant in an event violates tournament policy.
+
+Policy documents are intended to educate Duelists, judges, and other tournament officials on correct and expected behavior at events.
+
+The Official KDE-E Yu-Gi-Oh! TRADING CARD GAME Tournament Policy document and the Official KDE- E Tournament Infractions and Penalties Policy document outline the appropriate code of behavior for all attendees in an event.
+
+Duelists, judges, and other tournament officials share the responsibility for maintaining a fair and consistent event, by understanding and adhering to their roles in the event. 
+- All are expected to abide by the policies listed in Tournament Policy documents and addendums. 
+- The Official KDE-E Tournament Infractions and Penalty Policy contains additional information to be used during all Sanctioned and Official tournaments.
+
+## A. Procedural Errors
+
+This category covers infractions involving the general errors in game play you might commit during the course of a Duel.
+
+## B. Tardiness
+
+This category covers infractions that prevent you from beginning your Match within the specified timeframe allowed by the tournament.
+
+## C. Deck Errors
+
+This category covers infractions associated with registering incorrect contents on a Deck List or playing with an illegal Deck. If an error is caught prior to the start of the first round, it is acceptable (at the Head Judge's discretion) to correct the Deck List without applying a penalty.
+
+## D. Drawing Extra Cards
+
+This category covers infractions associated with drawing cards from the Deck outside of when you are allowed to do so.
+
+## E. Marked Cards
+
+This category covers infractions involving Marked Cards and/or sleeves. A card or sleeve is considered to be "marked" if it can be distinguished, while face-down, from the other cards contained in a Deck. This includes, but is not limited to, markings on the cards/sleeves or cards that are warped. It is your responsibility to maintain un-marked cards and sleeves throughout the duration of an event.
+
+## F. Slow Play
+
+This category covers infractions associated with the pace of your game. You are expected to play at a reasonable speed, regardless of the complexity of the game situation, and should not waste time during a Duel or in between games of a Match.
+
+## G. Unsporting Conduct
+
+This category covers infractions associated with inappropriate behavior, usually but not always during or associated with an event. Unsporting Conduct infractions are considered to be intentional.
+
+People who engage in unsporting conduct or behavior that endangers or detracts from an event, will be removed from the venue and be subject to additional penalties.\
+If KDE-E determines that you have violated its Tournament Infractions and Penalties Policies for Unsporting Conduct – Severe, you will be added to our public Suspended People List.
+
+## H. Cheating
+
+KDE-E shows no tolerance towards cheating and takes this infraction very seriously. Cheating includes, but is not limited to, intentionally misrepresenting the game state, rules, or tournament polices. It also includes reporting inaccurate information or lying to your opponent or to tournament officials.
+
+The Head Judge will investigate People suspected of cheating. If the Head Judge believes the person has cheated, the Head Judge will issue a Disqualification and send their report to the KDE Penalty Committee.
+
+The KDE Penalty Committee will then review the incident and determine if any additional penalties are required. 
+- If KDE-E determines that you have violated its Tournament Infractions and Penalties Policies for Unsporting Conduct – Cheating, you will be added to our public Suspended People List.
+
+## I. Illegal Game/Match Outcomes
+
+Games and/or Matches cannot be determined by random methods (such as a die roll), or by bribery. The result of any Game and/or Match cannot be changed after the Game and/or Match has concluded.
+
+## J. Wagering
+
+Wagering of any kind is not permitted at a Sanctioned or Official Yu-Gi-Oh! TCG tournament. This includes, but is not limited to, both official and unofficial Matches or Games being played at a Sanctioned event.
+
+## K. Buying and Selling Cards and Other Items
+
+You should familiarize yourself with the rules on buying, selling, and trading at each venue, including the KDE-E event FAQs.
+
+Most venues do not allow people to buy and sell from one another. If you violate this policy, you risk incurring penalties, including being disqualified and removed from the venue.
+
+## L. Predatory Trading
+
+Predatory trading practices (targeting inexperienced or young Duelists for extremely unbalanced trades) are not tolerated. If you engage in such practices, you risk being removed from the venue and may be subject to additional penalties.
+
+## M. Prohibited Items
+
+People may not bring any items into the tournament venue that are prohibited by law in their area (local, state, or federal). In addition, unlawful items/transactions, weapons of any kind, and substance drugs (whether or not they are legal on a local, state, and/or federal level), and anything prohibited in the event FAQ are not allowed at Sanctioned/Official events. People who bring any such items to a tournament venue will incur penalties, including Disqualification and removal from the event, and risk suspension from KDE Organized Play.
+
+Please see Event FAQs for additional information on prohibited items.
+
+The use of electronic and/or vapor cigarettes is not permitted on the tournament floor, or in areas designated for tournament attendees.
+
+## N. Privileged Information
+
+People who publicize privileged information, such as set contents, card spoilers, etc., for KDE-E brands before such information is officially released to the public, may incur penalties including suspension from participation in Organized Play and/or removal as an OTS. 
+- This includes sharing or reposting privileged information. 
+- It is not restricted to the original sources.
+
+Being in possession of Yu-Gi-Oh! TRADING CARD GAME products before they are first released to the public, such as at a Core Booster Premiere! event, or on the OTS Release Date for products without a Premiere! event, is considered publicizing private information. Any people found to have such products who do not promptly notify KDE-E are in violation of this policy. 
+
+## O. Impersonation of KONAMI Employees or Representatives
+
+People who falsely present themselves as employees or representatives of KONAMI will incur penalties including suspension from KONAMI Organized Play, and/or removal as an OTS, etc.
+
+## P. Violating KONAMI Community Code of Conduct
+
+People who violate the KONAMI Community Code of Conduct may incur penalties including suspension from KONAMI Organized Play, and/or removal as an OTS, etc.
+
+Code of Conduct can be found here: https://www.yugioh-card.com/eu/code-of-conduct/
+
+## Q. Suspension from KDE Organized Play
+
+People who have been disqualified from an event are subject to review by the KDE Penalty Committee, to determine if further penalties will be assigned.\
+Disqualified people are responsible for filling out a Disqualification form at the event, which provides them with the opportunity to tell their side of the story.
+
+Disqualification reports will also be collected from the Head Judge, and any opponents, spectators, or other tournament officials who were involved or witness to the incident. Authors of disqualification reports may be contacted by KDE-E for further detail or clarification about the incident.
+
+Disqualification reports will be reviewed by the KDE Penalty Committee, and the person(s) will be contacted with the committee's findings. In some instances, no further action will be considered necessary. In others, the person(s) may receive a suspension from KDE's Organized Play program.
+
+Suspended people who have provided a correct e-mail address will be notified of their suspension and the date on which they may apply for reinstatement into the Organized Play program. People who fail to provide a valid e-mail address or who decline to complete the proper paperwork are still subject to the terms and length of any subsequent suspension, but risk not being contacted about the suspension and may risk extensions to their suspension if they attend an event while suspended. 
+- A suspended person will not be automatically reinstated into Organized Play.
+
+On or after the date they are eligible for reinstatement, they must contact the KDE Penalty Committee at eu-penalty@konami.com to request reinstatement. Suspended people who have requested reinstatement should then wait to be notified by the KDE Penalty Committee whether or not they have been reinstated.
+
+Even after the eligibility date has passed, people are still considered to be suspended until they have both applied for reinstatement and received a notification from KDE-E that they have been reinstated to KDE Organized Play. 
+- Infractions do not need to have occurred inside the venue as long as it impacts or connects to a Sanctioned or Official event.
+- KDE-E reserves the right to suspend people from the KDE Organized Play program for misbehavior not connected to a specific event. 
+- People do not need to have been disqualified in order to warrant additional penalties from the KDE Penalty Committee. 
+- If a person is charged with a criminal offense, whether or not that offense took place at a tournament, that person may be automatically entered into the Suspended People list and may no longer participate in KDE Organized Play.
+
+A suspended person may not participate in, attend, or be in any area at a venue that is associated with any Sanctioned or Official KDE Organized Play event, until such a time as they have been reinstated as a person in good standing. This includes all tiers of events, such as locals, Premiere! events, Regional Qualifiers, etc.
+
+People with questions about their status may e-mail eu-penalty@konami.com for more information.
+
+# VII. Constructed Deck Information
+
+## A. General
+
+Constructed Decks for Yu-Gi-Oh! TCG tournaments must meet specific guidelines for use in the event. You must ensure that your Decks meet these requirements before entering an event. 
+- Your Deck includes the Main Deck and may include a Side Deck and/or an Extra Deck. 
+- You may not have more than three (3) copies of any card included in your Main Deck, Side Deck, and Extra Deck combined.
+
+Yu-Gi-Oh! TCG cards that are not registered on your Deck List as part of the Main Deck, Side Deck, or Extra Deck may not be kept with your Deck (in the Card Case, calculator case, in or around your play area, etc.) with the exception of cards used and clearly marked as Tokens.
+
+The following are some examples of cards that may not be kept with your Deck:
+- "Lucky" or mascot cards
+- Cards used as Translations (must be kept outside of the Card Case and/or Deck)
+- Cards recently received in a trade
+
+## B. Main Deck
+
+Constructed Main Decks for Yu-Gi-Oh! TCG events must have a minimum of 40 cards, and a maximum of 60 cards.
+
+Only the cards in the Main Deck count towards this total. Cards in the Side or Extra Decks do not count towards this total.
+
+## C. Side Deck
+
+In a Constructed Tournament, you may use a Side Deck consisting of 0 to 15 cards in addition to your Main Deck.
+
+When the Match begins, you and your opponent must both confirm the exact number of cards in each other's Side Deck.
+
+Side Deck cards may be exchanged for cards in the Main Deck or the Extra Deck between Duels in a Match, on a 1-for-1 basis.\
+Example: A Duelist may remove five (5) cards from their Main Deck and two (2) cards from their Extra Deck before the start of the next Duel in a Match, and replace them with the exact same number of cards from the Side Deck.
+
+If the Side Deck is used between Duels, the Side Deck should be counted out in full view of the opponent, to show that the Side Deck remains the same size as was confirmed before the Match began.
+
+Cards cannot be exchanged between the Main Deck and Extra Deck, even if you are keeping those cards in your Side Deck.
+
+After each round of a tournament, both Duelists must remove all Side Deck cards and restore their Main and Extra Decks to their original state before the next Match begins.
+
+You may not add cards to your Main Deck from your Side Deck before the first Duel in a Match.
+
+If the first Duel in a Match is decided by a Game Loss penalty before the Duel has begun, neither Duelist may use their Side Decks before the second Duel of the match. 
+- You must perform all Side Deck actions in a timely manner, including card selection and shuffling. 
+- **You have less than three (3) minutes to perform these tasks**. o Please note that this time limit is the maximum amount of time to be utilized in the Side Deck process if you plan on Side Decking for your next Duel and does not guarantee you the full three (3) minutes simply to pass the time.
+
+## D. Extra Deck
+
+You may have an Extra Deck of up to 15 Fusion, Synchro, Xyz, or Link Monsters. Fusion, Synchro, Xyz, or Link Monsters are never kept in the Main Deck.
+
+## E. Advanced Format
+
+Advanced Format tournaments use a specific list of playable cards, called the Forbidden and Limited List. Some cards are forbidden from use, or limited to a set number in the Deck, in order to better balance tournament play. The Forbidden and Limited List changes periodically.
+
+# VIII. Card Legality
+
+## G. Cards with Updated Text or Errata
+
+Cards will occasionally undergo an errata or updated text. It is your responsibility to ensure you know the most recent text for all cards in your Deck.
+
+The most recent text for all cards can be found in the official Yu-Gi-Oh! TRADING CARD GAME Card Database at: https://www.db.yugioh-card.com/yugiohdb/.
+
+Scanning a card with the "Camera Search" feature of NEURON will also provide you with the most recent text.
+
+You are not required to play versions of cards with the most recent text. However, you are required to play all copies of your cards according to the most recent text.
+
+If you are playing with cards that have outdated text, you must do one of the following: 
+- Have a copy of the card with the most recent text kept outside your Deck or Card Case Deck, available to show opponents or tournament officials 
+- Have a written copy of the most recent text of the card, stored outside of your Card Case, available to show opponents or tournament officials 
+- Use the "Card Search" or "Camera Search" function in NEURON to provide the most recent text of the card
+
+This must be done even if you are running copies of the card with the most recent text in your Deck.
+
+## H. Foreign Language Cards
+
+TCG cards printed in English, French, German, Italian, Portuguese, Spanish, or Japanese are legal for play in Sanctioned and Official tournaments within all TCG territories, provided they have the TCG card back, with the Yu-Gi-Oh! logo in English. If you want to use a foreign language card, you must verify that the card was printed for the TCG (and not the OCG).
+
+It is your responsibility to provide an accurate translation for cards that are not in the local language of the event. You may incur a penalty if you do not provide a translation or provide an incomplete or inaccurate translation.
+
+If you are using a card that is not in a local language, you must do one of the following: 
+- Have a local-language version of the card, stored outside of your Deck or Card Case, available to show opponents or tournament officials 
+- Have an accurate, written version of the most recent card text, stored outside of your Card Case, available to show opponents or tournament officials 
+- Use the "Card Search" or "Camera Search" function in NEURON to provide an accurate translation of the card
+
+**Electronic images such as cell phone pictures, websites, etc., may not be used for translation purposes.**
+
+In Spanish-speaking Latin American countries, translations of card text are not required if you are using English or Spanish language product.
+
+In Brazil, you are not required to show translations of card text if using Portuguese or English language cards.
+
+If you are using cards in any other languages, you must still provide an English or Portuguese language translation. If you are using foreign language cards in your Deck, you must use the accepted local language name of the card instead of the translated name printed on the card when you are writing out your Deck list (if applicable). This ensures that that the Judge staff will know which cards you are playing in your Deck.
+
+If a country has more than one accepted local language, all card names should be written using a single accepted language.
+
+## I. OCG Cards
+
+Cards printed for the Asian version of Yu-Gi-Oh! TCG (which is called the "Yu-Gi-Oh! Official Card Game" or "OCG") are usually printed in Japanese, Korean, or Simplified Chinese, and are legal for play only in Sanctioned events in Japan and parts of Asia. While OCG cards are sometimes available in other languages, including English, they are not legal for Sanctioned play in TCG territories (such as North America, Central America, South America, Europe, New Zealand, and Australia).
+
+You can tell the difference between a TCG card and an OCG card by checking the logo on the back of the card. Any card with the TCG logo on the back of the card is legal for play in TCG territories. This does include cards printed in Japanese, Korean, or Simplified Chinese that have the TCG logo on the back of the card. Any card with the OCG logo on the back of the card is not legal for play in TCG Territories.
+
+## J. Altered Cards
+
+Cards that have been altered from their original manufactured version with surface decoration added by the consumer may be used for tournament play ONLY if they do not violate any of the following rules.
+
+These rules apply to all cards in the Deck, including Main, Side, and Extra. 
+- Cards that have been modified (by adding or subtracting foil, layers of paper, etc.) from the originally manufactured version of the card are not legal for tournament play. 
+- Cards with surface decoration which makes the card or card image unrecognizable are not legal for tournament play. 
+- Cards with surface decoration which alters the thickness or texture of the card are not legal for tournament play. 
+- Cards with surface decoration that obscures any portion of the card text or key card traits (Card Text, Level, Monster Type, ATK, DEF, etc.) are not legal for tournament play. 
+- Cards with surface decoration expanding the illustration beyond the illustration box are not legal for tournament play. 
+- Cards with surface decoration that may be considered offensive are not legal for tournament play. 
+- Cards with surface decoration that makes the card distinguishable from other cards in the Deck while face-down are considered marked, and not legal for tournament play. 
+- Cards with alterations of any kind, front or back, are not legal for Tier 4 tournaments (the Yu-Gi- Oh! TCG World Championship).
+
+The Head Judge of the event has final arbitration on whether or not an altered card(s) violates any of the above rules.
+
+You are responsible for determining whether or not your altered cards are legal for use before the start of the tournament.
+
+Examples:
+- **Artwork extension is not allowed**\
+A Duelist has a copy of Judgment Dragon in which the art has been extended beyond the illustration box. The Duelist may not play with this card. 
+- **Custom rarity is not allowed**\
+A Duelist has a copy of a Blade Armor Ninja that has been customized into a Secret Rare copy of the card. The Duelist may not play with this card. 
+- **Alterations to artwork may or may not be allowed**\
+A Duelist has a copy of Spore that has had slight alterations done to the card image with a marker. The Duelist must ask the Head Judge if the alterations on the card fall within the policy and abide by the Head Judge's decision.
+- **Layers added are not allowed**\
+A Duelist has a copy of Tyrant Dragon that has had a layer of holographic film added to the surface of the card, to make it look like a Duel Terminal card. The Duelist may not play with this card.
+- **Obscured text is not allowed**\
+A Duelist has a copy of Honest with a large autograph covering the text. The Duelist may not play with this card.
+
+## K. Marked Cards
+
+A card is considered to be "marked" if it can be distinguished from other cards in the Deck without seeing the front of the card. 
+- This includes (but is not limited to) warping, creases, discoloration, card thickness or texture, and watermarks. 
+- If the cards are sleeved, "marked" includes (but is not limited to) sleeves with identifying marks or other unique characteristics that distinguish it from other cards in the Deck. If your cards are double- sleeved, this applies to both sleeves. 
+- If you are using sleeves to protect your cards, you should take extra precautions to ensure that your sleeves do not become marked during the course of a tournament.
+
+If the Head Judge determines that your sleeves are marked, they may require you to re-sleeve your Deck in order to continue in the tournament.
+
+If the Head Judge determines that your cards are marked, they may require you to replace the marked card(s) in order to continue in the tournament. 
+
+If you cannot replace the card(s) before your next Match begins, appropriate tardiness penalties at three (3) minutes and ten (10) minutes will begin to apply, since you no longer have a Deck that matches your registered Deck List and you are not ready to begin the Match.
+
+These tardiness penalties are **in addition** to the penalties that were applied for Marked Cards.
+
+If you cannot replace the card(s) or sleeves or choose not to replace them by the 10-minute mark in the Match, you will need to be dropped from the tournament until you are able to replace the card(s) or sleeves. Once the card(s) have been replaced, you must notify the Scorekeeper to re-enroll in the tournament.\
+If you do not notify the Scorekeeper to re-enroll you in the tournament, you will not be paired in any subsequent round.
+
+On extremely rare occasions, you may pull a damaged, miscut or warped card, which can be distinguished from the rest of the Deck while face-down, directly from a product. Even though the cards came in this condition, these cards are considered to be marked and cannot be used in a Deck.
+
+Examples:
+- An older card that is noticeably flimsy
+- A 'warped' card
+- A card that may have been accidentally bent during the tournament
+- Sleeves with manufacturer's holograph trademark in different positions
+- Cards in sleeves that are too big, causing the cards to shift around in the sleeves
+- Cards with yellowed edges
+- Cards sleeved with sleeves from different packs
+- Sleeves that have acquired dirt, bends, frays, etc.
+- Re-sleeved cards that look newer than the previously sleeved cards
+- Cards that become warped during the event due to humidity, etc.
+- Cards pulled from a pack that are creased or bent Sleeves with an irregular manufacturing defect on any of the sides
+- Cards that are positioned at the top of the sleeve while other cards in the Deck are at the bottom of the sleeve
+
+## L. Misprint Cards
+
+On extremely rare occasions, you may pull a miscut or misprinted card from a product.
+
+These cards are not considered to be tournament legal if they are distinguishable from other cards in the Deck while face-down (marked). If the miscut or misprinted card is not distinguishable from other cards in the Deck while face-down, it is tournament legal assuming all of the information that the card should provide is readily available. 
+- You must play misprinted cards as if they have the correct information printed on them.
+
+You must provide an accurate, local-language copy of the latest version of the correct card text, a correct local-language copy of the card, or the "Camera Search" function in NEURON to show to opponents or tournament officials.
+
+Cards used to supply the proper card text must be kept outside your Deck or Card Case.
+
+Examples:
+- **Missing information must be played as the correct information**\
+A Duelist is playing with a card without a card name printed on it. This card is only tournament legal if the Duelist provides a local-language version of the card text (including the card name) available outside of the Deck to show to an opponent or tournament official.
+- **Misprinted information must be played as the correct information**\
+A Duelist is playing with a card that has the wrong card name or statistic printed on it. The Duelist must play the card as if it had the correct card name and statistics and must provide a correct local-language copy of the card or an accurate local- language copy of the correct card text to opponents and tournament officials.
+- **Miscut cards may be marked**\
+A Duelist is playing with a card that has been miscut, making it smaller than the other cards in her Deck. This card is considered marked, and she cannot use it in her Deck.
+- **Cards with manufacturing defects may be marked**\
+A Duelist is playing with a card that has been too heavily stamped with foil, which has raised the name of the card on the back of the card. This card is considered marked, and he cannot play with this card.
+
+## M. Cards With Localization Errors or Incorrect Text
+
+Occasionally, TCG cards may contain localization errors or incorrect text that alter the function of the card. In these cases, the cards should be played according to the English-language text found on the Card Database at https://www.db.yugioh-card.com/yugiohdb/ or using the "Card Search" or "Camera Search" function in NEURON.
+
+## N. Counterfeit Cards
+
+Counterfeit cards (fake cards that are created by third-party companies that can resemble officially released cards) cannot be used in your Deck in a Sanctioned or Official tournament.
+
+Even if you own an official copy of the card, you cannot include counterfeit cards in your Deck.
+
+If you have information regarding the sale and distribution of counterfeit cards, you should contact KDE-E at: https://eu-support.konami.com/hc/en-gb/categories/115001814428-Yu-Gi-Oh-
+
+## O. Proxy Cards
+
+Proxies (cards used to represent a different card) are not allowed in Sanctioned or Official events. Photocopies, cards that have been relabeled, etc., are considered "proxies" and cannot be used in your Deck in a Sanctioned or Official tournament. This includes Tier 1 events.
+
+Even if you own an official copy of the card, you cannot include proxy cards in your Deck.
