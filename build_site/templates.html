@@ -145,7 +145,7 @@ console.log(elem)
 -->
 
 <script>
-text = `If "Solemn Judgment" is activated during an attempt to Normal or Special Summon a monster, "Destruction Jammer" cannot be activated in response. Since the monster to be destroyed is not yet on the field, "Solemn Judgment" is not considered to be an effect that destroys cards on the field. If "Solemn Judgment" is activated during an attempt to Flip Summon, or an attempt to Normal Summon a Gemini Monster again, "Destruction Jammer" can be activated in response. In these cases, "Solemn Judgment" is considered to be an effect that destroys cards on the field.`
+text = `The effect of "Banisher of the Light", "Macro Cosmos", "Banisher of the Radiance", or "Dimensional Fissure" is applying. If a card such as "Crystal Beast Ruby Carbuncle" is now destroyed, it can be placed in the Spell & Trap Zone when it is destroyed. Furthermore, if you choose not to apply "Crystal Beast Ruby Carbuncle"'s effect to place it there, "Crystal Beast Ruby Carbuncle" will be banished by the effect of "Banisher of the Light" etc.`
 regex = /"([^"]*)"/g;
 cards = text.match(regex)
 cards = [...new Set(cards)].filter(_=>_ !== '"unaffected by activated effects"')
