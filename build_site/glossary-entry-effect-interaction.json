@@ -7,7 +7,7 @@
                 "reference": "<li><a target=\"_blank\" href=\"https://ygorganization.com/perfect-rulebook-2017/\">OCG Perfect Rulebook 2017 pages 176-177</a></li>"
             },
             {
-                "interaction": "If \"the effect of [card name] can only be <b>used</b> once per turn\" is written with a particular card name, if that card leaves the field and returns to the field in the same turn, that card or cards with the same name cannot activate that effect in that turn. The same applies if \"can only be used once per Duel\" is written<a>[]</a></sup>.",
+                "interaction": "If \"the effect of [card name] can only be <b>used</b> once per turn\" is written with a particular card name, if that card leaves the field and returns to the field in the same turn, that card or cards with the same name cannot activate that effect in that turn. The same applies if \"can only be used once per Duel\" is written<sup><a>[]</a></sup>.",
                 "example": "",
                 "reference": "<li><a target=\"_blank\" href=\"https://ygorganization.com/perfect-rulebook-2017/\">OCG Perfect Rulebook 2017 pages 176-177</a></li>"
             }
@@ -31,7 +31,7 @@
                 "reference": "<li><a target=\"_blank\" href=\"https://ygorganization.com/perfect-rulebook-2017/\">OCG Perfect Rulebook 2017 pages 176-177</a></li>"
             },
             {
-                "interaction": "If \"the effect of [card name] can only be <b>used</b> once per turn\" is written with a particular card name, if that card leaves the field and returns to the field in the same turn, that card or cards with the same name cannot activate that effect in that turn. The same applies if \"can only be used once per Duel\" is written<a>[]</a></sup>.",
+                "interaction": "If \"the effect of [card name] can only be <b>used</b> once per turn\" is written with a particular card name, if that card leaves the field and returns to the field in the same turn, that card or cards with the same name cannot activate that effect in that turn. The same applies if \"can only be used once per Duel\" is written<sup><a>[]</a></sup>.",
                 "example": "",
                 "reference": "<li><a target=\"_blank\" href=\"https://ygorganization.com/perfect-rulebook-2017/\">OCG Perfect Rulebook 2017 pages 176-177</a></li>"
             }
@@ -71,6 +71,18 @@
                 "interaction": "The text \"You can also use 1 monster your opponent controls as material to Link Summon this card\" of <span class=\"tooltip-anchor\" data-name=\"98127546\">\"Underworld Goddess of the Closed World\"</span> is not an effect, therefore an opponent's monster that is unaffected by monster effects can still be used as a Link Material<sup><a>[]</a></sup>.",
                 "example": "",
                 "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#23132\">\"Underworld Goddess of the Closed World\" using an opponent's monster that is unaffected</a></li>"
+            },
+            {
+                "interaction": "The text \"You can Special Summon this card (from your hand) to your opponent's field in Attack Position, by Tributing 1 monster they control\" of a \"Kaiju\" Monster is not an effect, therefore an opponent's monster that is unaffected by monster effects can still be tributed<sup><a>[]</a></sup>.",
+                "example": "",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#298\">\"Metaltron XII, the True Dracombatant\", \"Kumongous, the Sticky String Kaiju\"</li>"
+            }
+        ],
+        "\"Necrovalley\"": [
+            {
+                "interaction": "If you Special Summon a <strong>Special Summon Monster</strong> using the procedure described in its card text, this is not treated as a Special Summon performed by a card effect. Therefore, since this is not a card effect being applied to cards in the Graveyard (as described in <span class=\"tooltip-anchor\" data-name=\"47355498\">\"Necrovalley\"</span>'s text), you can Special Summon such monsters this way<sup><a>[]</a></sup>.",
+                "example": "The following monsters have a Special Summoning procedure described at the beginning of their respective card text, which is not treated as an effect: <span class=\"tooltip-anchor\" data-name=\"32731036\">\"The Bystial Lubellion\"</span>, <span class=\"tooltip-anchor\" data-name=\"69120785\">\"The Bystial Alba Los\"</span>, <span class=\"tooltip-anchor\" data-name=\"23288411\">\"Mementoal Tecuhtlica - Combined Creation\"</span>, <span class=\"tooltip-anchor\" data-name=\"14799437\">\"Infernoid Onuncu\"</span>. However, note that the effect of Necrovalley that prevents players from banishing cards from the Graveyard is also applying. This prevents you from banishing cards from the Graveyard, regardless of whether a card effect is doing so. Therefore, in order to Special Summon <span class=\"tooltip-anchor\" data-name=\"14799437\">\"Infernoid Onuncu\"</span>, you will need to banish 3 \"Infernoid\" monsters from your hand.",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#6500\">\"Necrovalley\" and Special Summon monsters</li>"
             }
         ]
     },
@@ -102,9 +114,9 @@
     "Flip": {
         "Can only control 1: \"Rivalry of Warlords\"/\"Gozen Match\" like": [
             {
-                "interaction": "If a monster was flipped face-up during the Damage Step and \"Rivalry of Warlords\"/\"Gozen Match\" is still active, if that monster has a Attribute/Type that conflicts with another monster already face-up on the field, the flipped monster will immediately be sent to the Graveyard at this point, but Flip Effects will still activate<sup><a>[]</a></sup>.",
+                "interaction": "If a monster was flipped face-up during the Damage Step and \"Rivalry of Warlords\"/\"Gozen Match\" is still active, if that monster has a Attribute/Type that conflicts with another monster already face-up on the field, the flipped monster will immediately be sent to the Graveyard at this point (After damage calculation), and Flip Effects will <b>not</b> activate<sup><a>[]</a></sup>.",
                 "example": "",
-                "reference": "<li><a target=\"_blank\" href=\"https://www.yugioh-card.com/eu/play/rivalry-of-warlords/\">Official KONAMI's FAQ of \"Rivalry of Warlords\" and \"Gozen Match\"</a></li>"
+                "reference": "<li id=\"26\">YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#6168\">\"Rivalry of Warlords\" and face-down monsters</a></li>"
             }
         ],
         "Reveal": [
@@ -141,7 +153,7 @@
         ],
         "Cannot summon: Summon restrictions": [
             {
-                "interaction": "Summoning a Gemini monsters is treated as summoning a normal monster, even if it will gain its effects on the moment its summon is successful<sup><a>[]</a></sup>.",
+                "interaction": "Summoning a Gemini monster from the Graveyard is treated as summoning a normal monster, even if it will gain its effects on the moment its summon is successful: if an effect is applying that prevents Effect monsters to be summoned, you can still Special Summon a Gemini monster from the Graveyard<sup><a>[]</a></sup>.",
                 "example": "Even if the effect of <span class=\"tooltip-anchor\" data-name=\"45141013\">\"Heat Wave\"</span> is applying, you can activate the effect of <span class=\"tooltip-anchor\" data-name=\"16984449\">\"Blazewing Butterfly\"</span> to Special Summon a Gemini monster from your Graveyard. The targeted monster will be Special Summoned and treated as an Effect Monster as usual.",
                 "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#224\">\"Blazewing Butterfly\", \"Heat Wave\"</a></li>"
             }
@@ -334,6 +346,15 @@
             }
         ]
     },
+    "Banish instead of sending to the Graveyard": {
+        "Place a card on the field in your Spell/Trap/Pendulum Zone instead of destroying it": [
+            {
+                "interaction": "The effect of <span class=\"tooltip-anchor\" data-name=\"61528025\">\"Banisher of the Light\"</span>, <span class=\"tooltip-anchor\" data-name=\"30241314\">\"Macro Cosmos\"</span>, <span class=\"tooltip-anchor\" data-name=\"94853057\">\"Banisher of the Radiance\"</span>, or <span class=\"tooltip-anchor\" data-name=\"81674782\">\"Dimensional Fissure\"</span> (1) is applying. A card's effect (2), that places a card (3) in the Spell & Trap Zone when (3) is destroyed instead of sending it to the Graveyard, can be applied when (3) would be destroyed even when (1) would banish (3). In this case, (3) will be placed in the Spell & Trap Zone. Furthermore, if you choose not to apply (2)'s effect to place (3) there, (3) will be banished by the effect of (1)<sup><a>[]</a></sup>.",
+                "example": "The effect of <span class=\"tooltip-anchor\" data-name=\"61528025\">\"Banisher of the Light\"</span>, <span class=\"tooltip-anchor\" data-name=\"30241314\">\"Macro Cosmos\"</span>, <span class=\"tooltip-anchor\" data-name=\"94853057\">\"Banisher of the Radiance\"</span>, or <span class=\"tooltip-anchor\" data-name=\"81674782\">\"Dimensional Fissure\"</span> is applying. If a card such as <span class=\"tooltip-anchor\" data-name=\"32710364\">\"Crystal Beast Ruby Carbuncle\"</span> is now destroyed, it can be placed in the Spell & Trap Zone when it is destroyed. Furthermore, if you choose not to apply <span class=\"tooltip-anchor\" data-name=\"32710364\">\"Crystal Beast Ruby Carbuncle\"</span>'s effect to place it there, <span class=\"tooltip-anchor\" data-name=\"32710364\">\"Crystal Beast Ruby Carbuncle\"</span> will be banished by the effect of <span class=\"tooltip-anchor\" data-name=\"61528025\">\"Banisher of the Light\"</span> etc.",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#6635\">\"Banisher of the Light\", \"Crystal Beast Ruby Carbuncle\"</a></li>"
+            }
+        ]
+    },
     "Banish until (temporarily banish a card)": {
         "Traps Treated as Monsters (not treated as Traps)": [
             {
@@ -414,7 +435,7 @@
             {
                 "interaction": "This is true for both effects that say \"monsters your opponent controls cannot target X for attacks\" like <span class=\"tooltip-anchor\" data-name=\"14541657\">\"Twilight Ninja Shingetsu\"</span> and effects that say \"your opponent cannot target X for attacks\" like <span class=\"tooltip-anchor\" data-name=\"10000080\">\"The Winged Dragon of Ra - Sphere Mode\"</span>: a monster unaffected by those cards can still target them for attacks<sup><a>[]</a></sup>.",
                 "example": "",
-                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#11927\">\"The Winged Dragon of Ra - Sphere Mode\"</a></li>"
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/card#11927\">\"The Winged Dragon of Ra - Sphere Mode\"</a></li>"
             }
         ]
     },
@@ -574,14 +595,14 @@
         "Negate Activation of Cards": [
             {
                 "interaction": "The activation of a card or of an effect that \"Immediately after this effect resolves, [method] Summon [X]\" can be negated by cards that are able to negate \"effects that include an effect that Special Summons a monster(s)\"<sup><a>[]</a></sup>.",
-                "example": "",
+                "example": "<span class=\"tooltip-anchor\" data-name=\"84330567\">\"Tearlaments Rulkallos\"</span> can be chained to the activation of <span class=\"tooltip-anchor\" data-name=\"65741786\">\"I:P Masquerena\"</span>'s effect. The activation of <span class=\"tooltip-anchor\" data-name=\"65741786\">\"I:P Masquerena\"</span>'s effect is considered to \"include an effect that Special Summons a monster(s)\".",
                 "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#23933\">Special Summons caused by a card effect, and whether the effect includes Special Summoning</a></li>"
             }
         ],
         "Negate Activation of Effects": [
             {
-                "interaction": "The activation of a card or of an effect can be negated by cards that are able to negate \"effects that include an effect that Special Summons a monster(s)\"<sup><a>[]</a></sup>.",
-                "example": "",
+                "interaction": "The activation of a card or of an effect that \"Immediately after this effect resolves, [method] Summon [X]\" can be negated by cards that are able to negate \"effects that include an effect that Special Summons a monster(s)\"<sup><a>[]</a></sup>.",
+                "example": "<span class=\"tooltip-anchor\" data-name=\"84330567\">\"Tearlaments Rulkallos\"</span> can be chained to the activation of <span class=\"tooltip-anchor\" data-name=\"65741786\">\"I:P Masquerena\"</span>'s effect. The activation of <span class=\"tooltip-anchor\" data-name=\"65741786\">\"I:P Masquerena\"</span>'s effect is considered to \"include an effect that Special Summons a monster(s)\".",
                 "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#23933\">Special Summons caused by a card effect, and whether the effect includes Special Summoning</a></li>"
             }
         ],
@@ -615,6 +636,13 @@
                 "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#94\">\"Relay Soul\" and monster moved to Spell & Trap Zone</a></li>"
             }
         ],
+        "Place a card on the field in your Spell/Trap/Pendulum Zone instead of destroying it": [
+            {
+                "interaction": "Placing a monster on the field in a Spell/Trap/Pendulum Zone is not treated as the monster \"leaving the field\". However, the effects of <span class=\"tooltip-anchor\" data-name=\"17601919\">\"Pumprincess the Princess of Ghosts\"</span>, of <span class=\"tooltip-anchor\" data-name=\"80549379\">\"Dragunity Javelin\"</span>, or of <span class=\"tooltip-anchor\" data-name=\"49514333\">\"Tiki Soul\"</span>, may place destroyed monsters in the Spell & Trap Zone instead. In this case, that monster is treated as having left the field first<sup><a>[]</a></sup>.",
+                "example": "",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#94\">\"Relay Soul\" and monster moved to Spell & Trap Zone</a></li>"
+            }
+        ],
         "Return/Shuffle to the Deck": [
             {
                 "interaction": "When a monster on the field is shuffled into the Deck, it is no longer a card on the field, however its effects that activate when it \"leaves the field\" will not activate<sup><a>[]</a></sup>. Deck includes both Main and Extra Deck.",
@@ -637,6 +665,13 @@
         ]
     },
     "Negate Effects": {
+        "Place a card on the field in your Spell/Trap/Pendulum Zone instead of destroying it": [
+            {
+                "interaction": "If the effects of a card that places itself face-up in the Spell & Trap Zone when it is destroyed are being negated, that effect cannot be applied. If it is destroyed by battle or card effect it is sent to the Graveyard normally<sup><a>[]</a></sup>.",
+                "example": "<span class=\"tooltip-anchor\" data-name=\"82732705\">\"Skill Drain\"</span> is face-up on the field, and its effect that negates the effects of all face-up monsters on the field is applying. In this situation, if a face-up <span class=\"tooltip-anchor\" data-name=\"32710364\">\"Crystal Beast Ruby Carbuncle\"</span> on the field is destroyed by battle or card effect, the effect that places it face-up in the Spell & Trap Zone as a Continuous Spell Card when it is destroyed cannot be applied. A <span class=\"tooltip-anchor\" data-name=\"32710364\">\"Crystal Beast Ruby Carbuncle\"</span> that is destroyed by battle or card effect is sent to the Graveyard normally.",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#6629\">\"Skill Drain\", \"Crystal Beast Ruby Carbuncle\" </a></li>"
+            }
+        ],
         "Properties Changing": [
             {
                 "interaction": "When a monster's effects that gained the Level, name or effect of another monster are negated, then only the Level will return to its original value<sup><a>[]</a></sup>.",
@@ -689,6 +724,7 @@
     },
     "Negate Summons": {},
     "Place a card on the field in your Spell/Trap/Pendulum Zone": {},
+    "Place a card on the field in your Spell/Trap/Pendulum Zone instead of destroying it": {},
     "Properties Changing": {},
     "Properties Changing: Name changing": {},
     "Properties Changing: Copy effect continuous/lingering": {},
