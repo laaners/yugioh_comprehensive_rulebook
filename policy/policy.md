@@ -926,7 +926,7 @@ This must be done even if you are running copies of the card with the most recen
 
 ## H. Foreign Language Cards
 
-TCG cards printed in English, French, German, Italian, Portuguese, Spanish, or Japanese are legal for play in Sanctioned and Official tournaments within all TCG territories, provided they have the TCG card back, with the Yu-Gi-Oh! logo in English. If you want to use a foreign language card, you must verify that the card was printed for the TCG (and not the OCG).
+TCG cards printed in English, French, German, Italian, Portuguese, Spanish, or **Japanese** are legal for play in Sanctioned and Official tournaments within all TCG territories, provided they have the TCG card back, with the Yu-Gi-Oh! logo in English. If you want to use a foreign language card, you must verify that the card was printed for the TCG (and not the OCG).
 
 It is your responsibility to provide an accurate translation for cards that are not in the local language of the event. You may incur a penalty if you do not provide a translation or provide an incomplete or inaccurate translation.
 

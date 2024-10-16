@@ -145,7 +145,7 @@ console.log(elem)
 -->
 
 <script>
-text = `The effect of "Banisher of the Light", "Macro Cosmos", "Banisher of the Radiance", or "Dimensional Fissure" is applying. If a card such as "Crystal Beast Ruby Carbuncle" is now destroyed, it can be placed in the Spell & Trap Zone when it is destroyed. Furthermore, if you choose not to apply "Crystal Beast Ruby Carbuncle"'s effect to place it there, "Crystal Beast Ruby Carbuncle" will be banished by the effect of "Banisher of the Light" etc.`
+text = `You control "Hugin the Runick Wings" and a Field Spell. "Runick Slumber"'s effect has been applied to "Hugin the Runick Wings", and as a result,"the next time [it] would be destroyed by battle or card effect this turn, it is not destroyed." In this situation, "Black Rose Dragon"'s "destroy all cards on the field" effect now resolves. You cannot apply "Hugin the Runick Wings"'s "if another card(s) you control would be destroyed by card effect, you can banish this card you control instead" effect.`
 regex = /"([^"]*)"/g;
 cards = text.match(regex)
 cards = [...new Set(cards)].filter(_=>_ !== '"unaffected by activated effects"')
