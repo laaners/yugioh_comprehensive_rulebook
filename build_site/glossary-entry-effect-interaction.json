@@ -291,14 +291,14 @@
         ],
         "Change to Face-down Defense Position": [
             {
-                "interaction": "If an effect (1) that involves attaching a card (2) as an Xyz Material to a Xyz Monster on the field (3) is activated, if (3) is flipped face-down by another card's effect, then (1) resolves still by attaching (2) to (3)<sup><a>[]</a></sup>.",
+                "interaction": "If an effect (1) that involves attaching a card (2) as an Xyz Material to an Xyz Monster on the field (3) is activated, if (3) is flipped face-down by another card's effect, then (1) resolves still by attaching (2) to (3)<sup><a>[]</a></sup>.",
                 "example": "If <span class=\"tooltip-anchor\" data-name=\"27068117\">\"Overlay Regen\"</span> is activated, but <span class=\"tooltip-anchor\" data-name=\"14087893\">\"Book of Moon\"</span> is chained so that the targeted Xyz Monster is in face-down Defense Position when <span class=\"tooltip-anchor\" data-name=\"27068117\">\"Overlay Regen\"</span> resolves, at the time <span class=\"tooltip-anchor\" data-name=\"27068117\">\"Overlay Regen\"</span> resolves, even if the targeted Xyz Monster is now face-down, the effect of attaching <span class=\"tooltip-anchor\" data-name=\"27068117\">\"Overlay Regen\"</span> to it as an Xyz Material still applies as usual.",
                 "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#4\">\"Overlay Regen\", \"Book of Moon\"</a></li>"
             }
         ],
         "Unaffected": [
             {
-                "interaction": "If an effect (1) that involves attaching a card (2) as an Xyz Material to a Xyz Monster on the field (3) is activated, if (3) is unaffected by cards' effects, then (1) resolves without attaching (2) to (3)<sup><a>[]</a></sup>.",
+                "interaction": "If an effect (1) that involves attaching a card (2) as an Xyz Material to an Xyz Monster on the field (3) is activated, if (3) is unaffected by cards' effects, then (1) resolves without attaching (2) to (3)<sup><a>[]</a></sup>.",
                 "example": "If <span class=\"tooltip-anchor\" data-name=\"27068117\">\"Overlay Regen\"</span> is activated, but <span class=\"tooltip-anchor\" data-name=\"27243130\">\"Forbidden Lance\"</span> is chained so that the targeted monster becomes unaffected by other Spell/Trap effects, it is not possible to attach <span class=\"tooltip-anchor\" data-name=\"27068117\">\"Overlay Regen\"</span> to the targeted monster as an Xyz Material, as it is unaffected by Spell effects. As a result, <span class=\"tooltip-anchor\" data-name=\"27068117\">\"Overlay Regen\"</span> is sent to the Graveyard. Also, if <span class=\"tooltip-anchor\" data-name=\"27068117\">\"Overlay Regen\"</span> is activated by targeting a monster that has already become unaffected by other Spell/Trap effects because of <span class=\"tooltip-anchor\" data-name=\"27243130\">\"Forbidden Lance\"</span>, it is still not possible to attach <span class=\"tooltip-anchor\" data-name=\"27068117\">\"Overlay Regen\"</span> to the targeted monster as an Xyz Material.",
                 "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#19\">Attaching material affects the monster being attached to</a></li>"
             }
@@ -338,6 +338,13 @@
         ]
     },
     "Banish": {
+        "Negate Activated Effects": [
+            {
+                "interaction": "A monster (1) activates its effect and an effect that banish cards (2) is chained to banish (1). Then an effect that negates monster's effects (3) is chained to negate (1). The Chain resolves in reverse order, the effect of (3) will be applied and (1) will be banished due to the effect of (2), and the effect of (1) will still be negated<sup><a>[]</a></sup>.",
+                "example": "You chained <span class=\"tooltip-anchor\" data-name=\"36261276\">\"Interdimensional Matter Transporter\"</span> to the activation of the effect of <span class=\"tooltip-anchor\" data-name=\"57774843\">\"Judgment Dragon\"</span>, and then further chained <span class=\"tooltip-anchor\" data-name=\"25789292\">\"Forbidden Chalice\"</span>. In this case, the Chain resolving in reverse order causes the <span class=\"tooltip-anchor\" data-name=\"57774843\">\"Judgment Dragon\"</span> that was affected by <span class=\"tooltip-anchor\" data-name=\"25789292\">\"Forbidden Chalice\"</span> to be banished. Its effect will be negated.",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#12314\">Effects negation, and what removes/doesn't remove it</a></li>"
+            }
+        ],
         "Negate Effects": [
             {
                 "interaction": "A monster (1) activates its effect and an effect that banish cards (2) is chained to banish (1). Then an effect that negates monster's effects (3) is chained to negate (1). The Chain resolves in reverse order, the effect of (3) will be applied and (1) will be banished due to the effect of (2), and the effect of (1) will still be negated<sup><a>[]</a></sup>.",
@@ -347,6 +354,13 @@
         ]
     },
     "Banish instead of sending to the Graveyard": {
+        "If [X] would be destroyed, you can do [A] instead: Destruction Substitution": [
+            {
+                "interaction": "The effect of <span class=\"tooltip-anchor\" data-name=\"61528025\">\"Banisher of the Light\"</span>, <span class=\"tooltip-anchor\" data-name=\"30241314\">\"Macro Cosmos\"</span>, <span class=\"tooltip-anchor\" data-name=\"94853057\">\"Banisher of the Radiance\"</span>, or <span class=\"tooltip-anchor\" data-name=\"81674782\">\"Dimensional Fissure\"</span> (1) is applying. A card's effect (2), that prevents a card (3) from being destroyed by sending a card (4) to the graveyard instead, can be applied when (3) would be destroyed even when (1) would banish (4). In this case, (3) will not be destroyed and (4) will be banished by the effect of (1)<sup><a>[]</a></sup>.",
+                "example": "<span class=\"tooltip-anchor\" data-name=\"30241314\">\"Macro Cosmos\"</span> is face-up in your opponent's Spell & Trap Zone. In this situation, if a <span class=\"tooltip-anchor\" data-name=\"58699500\">\"Cherubini, Ebon Angel of the Burning Abyss\"</span> in your Extra Monster Zone would be destroyed by battle, or by an opponent's card effect, you can apply its \"you can send 1 other card you control to the Graveyard instead\" effect. If you do, the card you choose to be sent to the Graveyard will not end up in the Graveyard, but will be banished by <span class=\"tooltip-anchor\" data-name=\"30241314\">\"Macro Cosmos\"</span>' effect instead. However, <span class=\"tooltip-anchor\" data-name=\"58699500\">\"Cherubini, Ebon Angel of the Burning Abyss\"</span> will not be destroyed, and will remain in the Monster Zone (However, note that you need to choose the replacement card from among the cards that are not about to be destroyed. This is the case regardless of whether or not the effect of <span class=\"tooltip-anchor\" data-name=\"30241314\">\"Macro Cosmos\"</span> is applying).",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#21607\">\"Macro Cosmos \"Cherubini, Ebon Angel of the Burning Abyss\"</a></li>"
+            }
+        ],
         "Place a card on the field in your Spell/Trap/Pendulum Zone instead of destroying it": [
             {
                 "interaction": "The effect of <span class=\"tooltip-anchor\" data-name=\"61528025\">\"Banisher of the Light\"</span>, <span class=\"tooltip-anchor\" data-name=\"30241314\">\"Macro Cosmos\"</span>, <span class=\"tooltip-anchor\" data-name=\"94853057\">\"Banisher of the Radiance\"</span>, or <span class=\"tooltip-anchor\" data-name=\"81674782\">\"Dimensional Fissure\"</span> (1) is applying. A card's effect (2), that places a card (3) in the Spell & Trap Zone when (3) is destroyed instead of sending it to the Graveyard, can be applied when (3) would be destroyed even when (1) would banish (3). In this case, (3) will be placed in the Spell & Trap Zone. Furthermore, if you choose not to apply (2)'s effect to place (3) there, (3) will be banished by the effect of (1)<sup><a>[]</a></sup>.",
@@ -388,6 +402,15 @@
         ]
     },
     "Cannot/Neither player can": {},
+    "Cannot be destroyed once/next/first time per turn": {
+        "If [X] would be destroyed, you can do [A] instead: Destruction Substitution": [
+            {
+                "interaction": "<b>Optional</b> substitution effects (1) <b>cannot</b> be applied if the substituted card itself (3) would also be destroyed at the point in time the substitution effect (1) applies. In which case both (2) and (3) will be destroyed. This is true even if an effect that would prevent (3) from being destroyed once/next/first time per turn is applying: the substitution effect cannot be applied<sup><a>[]</a></sup>.",
+                "example": "You control <span class=\"tooltip-anchor\" data-name=\"55990317\">\"Hugin the Runick Wings\"</span> and a Field Spell. <span class=\"tooltip-anchor\" data-name=\"67835547\">\"Runick Slumber\"</span>'s effect has been applied to <span class=\"tooltip-anchor\" data-name=\"55990317\">\"Hugin the Runick Wings\"</span>, and as a result,\"the next time [it] would be destroyed by battle or card effect this turn, it is not destroyed.\" In this situation, <span class=\"tooltip-anchor\" data-name=\"73580471\">\"Black Rose Dragon\"</span>'s \"destroy all cards on the field\" effect now resolves. You cannot apply <span class=\"tooltip-anchor\" data-name=\"55990317\">\"Hugin the Runick Wings\"</span>'s \"if another card(s) you control would be destroyed by card effect, you can banish this card you control instead\" effect.",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#24071\">\"Hugin the Runick Wings\", \"Runick Slumber\"</a></li>"
+            }
+        ]
+    },
     "Cannot summon: Summon restrictions": {
         "Properties Changing": [
             {
@@ -473,12 +496,14 @@
                 "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#10826\">Negating the activation of a monster's activated effect while it is face-down</a></li>"
             }
         ],
-        "Negate Effects": [
+        "Negate Activated Effects": [
             {
-                "interaction": "Consider effects that say \"when an effect is activated: [cost]; negate the/that effect\" (<strong>negating activated effect</strong>) like <span class=\"tooltip-anchor\" data-name=\"14558127\">\"Ash Blossom & Joyous Spring\"</span>. A monster (1) activates its effect and an effect that negates monster's activated effects (2) is chained to negate the activated effects of (1). Then an effect that flips monsters to face-down Defense Position (3) is chained to flip (1). The Chain resolves in reverse order, (1) changes to face-down Defense Position due to the effect of (2), and the effects of (1) will be still negated<sup><a>[]</a></sup>",
+                "interaction": "Consider effects that say \"when an effect is activated: [cost]; negate the/that effect\" (<strong>negating activated effect</strong>) like <span class=\"tooltip-anchor\" data-name=\"14558127\">\"Ash Blossom & Joyous Spring\"</span>. A monster (1) activates its effect and an effect that negates monster's activated effects (2) is chained to negate the activated effects of (1). Then an effect that flips monsters to face-down Defense Position (3) is chained to flip (1). The Chain resolves in reverse order, (1) changes to face-down Defense Position due to the effect of (2), and the effects of (1) will still be negated<sup><a>[]</a></sup>",
                 "example": "When my Level 5 or higher monster activates its effect, <span class=\"tooltip-anchor\" data-name=\"99064191\">\"Xyz Wrath\"</span> is activated in response. If <span class=\"tooltip-anchor\" data-name=\"14087893\">\"Book of Moon\"</span> is then activated in response, causing the Level 5 or higher monster to be in face-down Defense Position by the time <span class=\"tooltip-anchor\" data-name=\"99064191\">\"Xyz Wrath\"</span> resolves, the effect of <span class=\"tooltip-anchor\" data-name=\"99064191\">\"Xyz Wrath\"</span> will be applied normally (the activated effect is negated, and the monster is destroyed).",
                 "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#14034\">Negating a monster's activated effect while it is face-down</a></li>"
-            },
+            }
+        ],
+        "Negate Effects": [
             {
                 "interaction": "Consider effects that negate effects but not the activated effects like <span class=\"tooltip-anchor\" data-name=\"25789292\">\"Forbidden Chalice\"</span>. A monster (1) activates its effect and an effect that flips monsters to face-down Defense Position (2) is chained to flip (1). Then an effect that negates monster's effects (3) is chained to negate (1). Due to the Chain resolving in reverse order, the effect of (3) will not be applied once (1) changes to face-down Defense Position due to the effect of (2), so the effect of (1) will not be negated<sup><a>[]</a></sup>.",
                 "example": "You chained <span class=\"tooltip-anchor\" data-name=\"14087893\">\"Book of Moon\"</span> to the activation of the effect of <span class=\"tooltip-anchor\" data-name=\"57774843\">\"Judgment Dragon\"</span>, and then further chained <span class=\"tooltip-anchor\" data-name=\"25789292\">\"Forbidden Chalice\"</span>. Due to the Chain resolving in reverse order, the effect of <span class=\"tooltip-anchor\" data-name=\"25789292\">\"Forbidden Chalice\"</span> will not be applied once <span class=\"tooltip-anchor\" data-name=\"57774843\">\"Judgment Dragon\"</span> changes to face-down Defense Position due to the effect of <span class=\"tooltip-anchor\" data-name=\"14087893\">\"Book of Moon\"</span>, so the effect of <span class=\"tooltip-anchor\" data-name=\"57774843\">\"Judgment Dragon\"</span> will not be negated, and all other cards on the field will be destroyed.",
@@ -661,6 +686,15 @@
                 "interaction": "Negating an effect's activation affects the activating card<sup><a>[]</a></sup>.",
                 "example": "Your opponent activates the effect of <span class=\"tooltip-anchor\" data-name=\"21377582\">\"Master Peace, the True Dracoslaying King\"</span> that destroys 1 other card on the field, while it is also unaffected by monster and Trap effects as a result of being Tribute Summoned by Tributing a monster and a Continuous Trap Card. In this case, if you chain <span class=\"tooltip-anchor\" data-name=\"96404912\">\"Recall\"</span>, since <span class=\"tooltip-anchor\" data-name=\"21377582\">\"Master Peace, the True Dracoslaying King\"</span> is unaffected by Trap Cards, the activation of its effect is not negated by <span class=\"tooltip-anchor\" data-name=\"96404912\">\"Recall\"</span> and it is not destroyed, so its effect destroys the targeted card normally. Even in that case, your opponent draws 1 card.",
                 "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#17304\">Negating an effect's activation affects the activating card</a></li>"
+            }
+        ]
+    },
+    "Negate Activated Effects": {
+        "Return/Add to the Hand": [
+            {
+                "interaction": "A monster (1) activates its effect and an effect that returns cards to the hand (2) is chained to return (1) to the hand. Then an effect that negates monster's effects (3) is chained to negate (1). The Chain resolves in reverse order, the effect of (3) will be applied and (1) will be returned to the hand due to the effect of (2), and the effect of (1) will still be negated<sup><a>[]</a></sup>.",
+                "example": "You chained <span class=\"tooltip-anchor\" data-name=\"94192409\">\"Compulsory Evacuation Device\"</span> to the activation of the effect of <span class=\"tooltip-anchor\" data-name=\"57774843\">\"Judgment Dragon\"</span>, and then further chained <span class=\"tooltip-anchor\" data-name=\"25789292\">\"Forbidden Chalice\"</span>. In this case, the Chain resolving in reverse order causes the <span class=\"tooltip-anchor\" data-name=\"57774843\">\"Judgment Dragon\"</span> that was affected by <span class=\"tooltip-anchor\" data-name=\"25789292\">\"Forbidden Chalice\"</span> to be returned to the hand. Its effect will be negated.",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#12314\">Effects negation, and what removes/doesn't remove it</a></li>"
             }
         ]
     },
