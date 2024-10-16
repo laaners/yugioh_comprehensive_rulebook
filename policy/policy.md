@@ -34,7 +34,7 @@
     - [P. Appeals](#p-appeals)
     - [Q. Conceding a Game or Match](#q-conceding-a-game-or-match)
         - [Conceding is Allowed](#conceding-is-allowed)
-    - [Conceding is not allowed](#conceding-is-not-allowed)
+        - [Conceding is not allowed](#conceding-is-not-allowed)
     - [R. Time Extensions](#r-time-extensions)
     - [S. Bribery and/or Collusion](#s-bribery-andor-collusion)
     - [T. Random Outcome](#t-random-outcome)
@@ -482,6 +482,226 @@ Sleeves with excessive wear, noticeable patterns, factory defects, or other iden
 - You may also be subject to penalties, regardless of the tournament Tier, if your sleeves are determined to be marked. If you have a question about the legality of your sleeves, the Head Judge is the final arbiter as to whether or not your sleeves can be used in that tournament. If you are unsure if your sleeves are marked, you should consult a judge prior to the start of the tournament or as soon as the possible markings are discovered.
 - Even if the judge does not determine the sleeves to be marked, sleeves could still become marked during the event. You are responsible to keep track of the wear and tear on your sleeves and replace them as needed, or you may incur Marked Cards penalties.
 
+## H. Tournament Materials
+
+You are responsible for providing all necessary tournament materials, including any dice, counters, Tokens, etc., required for your Deck. 
+- You are responsible to ensure that all tournament materials you bring to the event meet tournament-legal standards. 
+- You are responsible for ensuring you do not damage cards or tournament property when using any of your tournament materials. 
+- If you are participating in a Livestreamed event, you may be required to abide by additional rules regarding Tournament Materials. 
+- The Head Judge will serve as the final arbiter of legality for all tournament materials, based on their best interpretation of the policies below.
+
+<table>
+    <tr>
+        <th>Tournament Material</th>
+        <th>Explanation</th>
+    </tr>
+    <tr>
+        <th>
+            Card Case
+        </th>
+        <td>
+            A Card Case is used to carry your Deck and occasionally additional tournament materials. 
+            <ul>
+                <li>
+                    Duelists are not allowed to have additional Yu-Gi-Oh! TCG cards inside the Card Case used to hold their tournament Deck. All other cards must be kept separate from their tournament Deck. 
+                </il>
+                <li>
+                    If a Duelist uses a Double Deck Card Case, they may not have an Card Case additional Deck in the Card Case. 
+                </il>
+                <li>
+                    If a Deck List is being used, only cards registered on their Deck List or cards labeled as Tokens should be in the Card Case. 
+                </il>
+                <li>
+                    Card Cases with graphics or text inappropriate for an all-ages environment cannot be used.
+                </il>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <th>
+            Paper and pencil/pen
+        </th>
+        <td>
+            You are required to use paper and a pencil or pen to track Life Points. 
+            <ul>
+                <li>
+                    You may not use electronic tablets or a similar writing surface that can be cleared, instead of paper.
+                </li>
+                <li>
+                    You may use a calculator or NEURON to assist with the math pencil/pen involved in adding or subtracting Life Points, but you must keep a paper record of all Life Point changes to help resolve any disputes.
+                </li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <th>
+            Replacement card sleeves
+        </th>
+        <td>
+            You should have access to additional card sleeves, to replace any sleeves in your Deck that become damaged or otherwise marked during Replacement card the course of the tournament.
+            <ul>
+                <li>
+                    Please review the rules for sleeves and sleeving in G. Sleeves
+                </li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <th>
+            Tokens
+        </th>
+        <td>
+            Anything used as a Token must meet the following requirements: 
+            <ul>
+                <li>
+                    It must be able to indicate ATK position and DEF position. 
+                </li>
+                <li>
+                    Non-token cards used as tokens must be marked as tokens, by Tokens writing "Token" on the face of the card itself. The word "Token" must be clearly and immediately visible, so as not to create a misleading game state.
+                </li>
+                <li>
+                    Non-token cards that are specifically prohibited by Tournament Policy (such as non-token OCG cards not marked as Tokens, or cards not marked as Tokens that state they cannot be used in a Duel), cannot be used as tokens. 
+                </li>
+                <li>
+                    Items that could be mistaken for other game elements, are overly large, could damage cards or other tournament property, or contain offensive text or images cannot be used as tokens, even if they have been labeled as tokens. 
+                </li>
+                <li>
+                    Tokens with graphics or text inappropriate for an all-ages environment cannot be used. 
+                </li>
+                <li>
+                    Unofficial tokens may be disallowed during livestreamed matches.
+                </li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <th>
+            Zone Markers
+        </th>
+        <td>
+            Zone Markers used to indicate blocked zones must meet the following requirements: 
+            <ul>
+                <li>
+                    The marker must have an X or text stating the zone is blocked. Zone Markers 
+                </li>
+                <li>
+                    Generic items such as dice, coins, counters, etc. cannot be used. 
+                </li>
+                <li>
+                    Generic tokens or tokens used for other purposes cannot be used. 
+                </li>
+                <li>
+                </li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <th>
+            Dice
+        </th>
+        <td>
+            Dice must be unweighted, with clear and readable markings.
+            <ul>
+                <li>
+                    Dice that are overly large, could damage cards or other Dice tournament property, or have graphics or text inappropriate for an all-ages environment cannot be used.
+                </li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <th>
+            Counters
+        </th>
+        <td>
+            Counters must be items that cannot be confused with other game elements. 
+            <ul>
+                <li>
+                    Items that are overly large, could damage cards or other tournament property, or have graphics or text inappropriate for an all-ages environment cannot be used. 
+                </li>
+                <li>
+                    Physical counters are required – the "counter" function in Counters NEURON cannot be used without also using physical counters. 
+                </li>
+                <li>
+                    Counters must be added to cards in the appropriate quantity (example: if card effect(s) would place 4 counters on a card, Duelists should add four counters, rather than using a die placed to show "4.")
+                </li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <th>
+            Coins
+        </th>
+        <td>
+            Coins must be unweighted, with clear and readable markings.
+            <ul>
+                <li>
+                    Coins that are overly large, could damage cards or other Coins tournament property, or contain offensive images or text cannot be used.
+                </li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <th>
+            Field Center Market/Card
+        </th>
+        <td>
+            You are encouraged to use a Field Center Card or Marker, to clarify the position of cards on the field. Field Center 
+            <ul>
+                <li>
+                    Both Duelists should agree on both the Field Center and the Field Marker/Card Center Marker prior to the start of the Match.
+                </li>
+                <li>
+                    Field Center Markers cannot be items that could be confused for other game elements, such as Token cards, or other official Yu- Gi-Oh! TCG cards. 
+                </li>
+                <li>
+                    Field Center Markers that are overly large, could damage cards or other tournament property, or have graphics or text inappropriate for an all-ages environment cannot be used. 
+                </li>
+                <li>
+                    Unofficial Field Centers may be disallowed during livestreamed matches.
+                </li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <th>
+            Game Mat
+        </th>
+        <td>
+            Game Mats are not required for tournament play unless directed by a tournament official. 
+            <ul>
+                <li>
+                    Game Mats must fit within the space allotted to you. 
+                </li>
+                <li>
+                    Game Mats that are overly large, could damage cards or other Game Mat tournament property, or have graphics or text inappropriate for an all-ages environment cannot be used. 
+                </li>
+                <li>
+                    Unofficial Game Mats may be disallowed during livestreamed matches.
+                </li>
+            </ul>
+        </td>
+    </tr>
+</table>
+
+## I. Field Layout
+
+While a Game Mat is not required in order to play, you are responsible for placing all of your cards and Deck elements according to the layout established by the current official field layout.
+
+Specified locations include the Main Monster Zones, the Spell and Trap Zones, the Pendulum Zones, the Field Zone, the Extra Monster Zone, the Deck, the Extra Deck, and the Graveyard. 
+- You may not create your own layouts. 
+- You may, however, modify layouts if it is necessary to meet physical needs such as an injury, left-handedness, etc., with the exception of Tier 4 tournaments. 
+- If you need to modify the field layout, you are responsible for clearly notifying your opponent of the changes to the field.
+- You are required to maintain the positions of all cards as they are originally placed on the field, except when directed otherwise by a card effect.
+- Banished cards should be kept next to the Graveyard, in clear view of both Duelists.
+- Both Duelists are responsible for agreeing upon the Field Center and Field Center Marker prior to the start of the Match.
+
+What not to do:
+- Do not "collapse" your field in order to save space.
+- Do not shift cards from one Zone to the next unless a card effect directs you to do so.
+- Do not put anything in a Zone reserved for something else, such as putting tokens or your Side Deck into the Extra Deck Zone.
+- Do not place Banished cards underneath the Spell and Trap Zone.
+- Do not place your hand of cards in any location that would confuse the Game State
+
 ## J. Note-Taking
 
 Note-taking in Official Yu-Gi-Oh! TCG tournaments is allowed in the following instances:
@@ -645,7 +865,7 @@ Duelists who change the result of a Game or a Match are guilty of Altering the R
 - During a Game, Duelist A has an emergency and needs to leave the tournament. Duelist A can concede to Duelist B.
 - It is Duelist A's Main Phase 1 and she activates a card effect. Duelist B realizes that Duelist A has all of the cards needed to be able to bring his Life Points down to 0. Duelist B may concede the Game and proceed to the next Game. Duelist B does not need Duelist A's permission in order to concede.
 
-## Conceding is not allowed
+### Conceding is not allowed
 - During Game 3 of a Match, Duelist A has a monster with 1,000 ATK in face-up Attack Position on the field. Duelist B is at 1,000 Life Points and does not have any cards on the field or hand, and no effects to activate to stop a direct attack. Duelist A declares an attack and the damage is dealt to bring Duelist B's Life Points to 0. A result has been reached and the Match may no longer be conceded.
 - Duelist A wins Game 3, therefore winning the Match. Duelist A realizes that he must drop from the event and head home. Even though Duelist A is dropping from the event and the Match Result Slip has not been completed yet, he may not concede the Match to his opponent, because the result of the Match has already been determined.
 
