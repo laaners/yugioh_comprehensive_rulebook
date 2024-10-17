@@ -24,6 +24,8 @@
     - [E. Shuffling](#e-shuffling)
     - [F. Determining Who Goes First](#f-determining-who-goes-first)
     - [G. Sleeves](#g-sleeves)
+    - [H. Tournament Materials](#h-tournament-materials)
+    - [I. Field Layout](#i-field-layout)
     - [J. Note-Taking](#j-note-taking)
     - [L. Public Knowledge](#l-public-knowledge)
     - [M. Private Knowledge](#m-private-knowledge)
@@ -880,7 +882,8 @@ Judges should always note down the time at which they take a judge call, to ensu
 
 Examples:
 - **Time extensions cannot exceed the time remaining in the round**\
-A judge responds to a judge call at a Match with 3 minutes left in the Round. The Duelists decide to appeal the ruling to the Head Judge. The total length of the appeal time was 7 minutes. The Duelists should only be given a 3-minute time extension as that was the time lost during the round. - **Time extensions are not given when no time remains in the round**\
+A judge responds to a judge call at a Match with 3 minutes left in the Round. The Duelists decide to appeal the ruling to the Head Judge. The total length of the appeal time was 7 minutes. The Duelists should only be given a 3-minute time extension as that was the time lost during the round.
+- **Time extensions are not given when no time remains in the round**\
 A judge responds to a judge call at a Match during End of Match procedures. The issue is resolved in 3 minutes. No time extensions should be given as no time was lost during the round, as End of Match procedures are not timed.
 - **Time extensions are not given with a Game Loss**\
 After a Deck check, a Duelist receives a Marked Cards – Major infraction, resulting in a Game Loss penalty. No time extension is given for the Deck check.
@@ -940,7 +943,8 @@ Sometimes a Match will not be finished when the time ends for a round. If this h
 End of Match procedures should follow these three (3) rules:
 1. **Rule #1**: If time is called while Duelists are in the middle of a Game, the current Game must have a decision (Win, Loss, or Draw).
 2. **Rule #2**: Once the current Game has concluded with a decision, determine the winner of the Match by determining the number of Game Wins (or Game Losses) each Duelist has for the current Match. The Duelist with the most Game Wins will win the Match.
-    - Swiss Rounds: If both Duelists have the same number of Game Wins, or if time was called in between games of a Match when both Duelists had the same number of Game Wins, then the Match is a Draw. - Single-Elimination Rounds: If both Duelists have the same number of Game Wins, or if time is called in between Games of a Match while both Duelists have the same number of Game Wins, they will begin a new Duel with specific guidelines.
+    - Swiss Rounds: If both Duelists have the same number of Game Wins, or if time was called in between games of a Match when both Duelists had the same number of Game Wins, then the Match is a Draw.
+    - Single-Elimination Rounds: If both Duelists have the same number of Game Wins, or if time is called in between Games of a Match while both Duelists have the same number of Game Wins, they will begin a new Duel with specific guidelines.
         - Neither Duelist may use his or her Side Deck. If time was called in between Games of a Match and at least one Duelist has already accessed his or her Side Deck, then both Duelists may use their Side Deck.
         - Duelists must use a random method (die roll, coin flip, etc.) to determine who will go first. The winner of the random method chooses who will go first.
         - The Duel will continue for a total of four (4) turns, two (2) turns for each Duelist, unless a Duelist manages to win the Duel before the four (4) turns have concluded.  A "turn" is defined as the start of the Draw Phase until the end of the End Phase for a single Duelist.
@@ -1113,7 +1117,7 @@ After each round of a tournament, both Duelists must remove all Side Deck cards 
 
 You may not add cards to your Main Deck from your Side Deck before the first Duel in a Match.
 
-If the first Duel in a Match is decided by a Game Loss penalty before the Duel has begun, neither Duelist may use their Side Decks before the second Duel of the match. 
+If the first Duel in a Match is decided by a Game Loss penalty before the Duel has begun, neither Duelist may use their Side Decks before the second Duel of the match.
 - You must perform all Side Deck actions in a timely manner, including card selection and shuffling. 
 - **You have less than three (3) minutes to perform these tasks**. o Please note that this time limit is the maximum amount of time to be utilized in the Side Deck process if you plan on Side Decking for your next Duel and does not guarantee you the full three (3) minutes simply to pass the time.
 
@@ -1199,7 +1203,7 @@ A Duelist has a copy of Spore that has had slight alterations done to the card i
 - **Layers added are not allowed**\
 A Duelist has a copy of Tyrant Dragon that has had a layer of holographic film added to the surface of the card, to make it look like a Duel Terminal card. The Duelist may not play with this card.
 - **Obscured text is not allowed**\
-A Duelist has a copy of Honest with a large autograph covering the text. The Duelist may not play with this card.
+A Duelist has a copy of Honest with a **large autograph** covering the text. The Duelist may not play with this card.
 
 ## K. Marked Cards
 

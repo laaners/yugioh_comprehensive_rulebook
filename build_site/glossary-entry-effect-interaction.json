@@ -233,7 +233,7 @@
             {
                 "interaction": "Another example being <span class=\"tooltip-anchor\" data-name=\"53639887\">\"Divine Temple of the Snake-Eye\"</span>: it cannot summon a Token from the Spell/Trap Zone<sup><a>[]</a></sup>.",
                 "example": "",
-                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#19198\">\"Divine Temple of the Snake-Eye\"</a></li>"
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/card#19198\">\"Divine Temple of the Snake-Eye\"</a></li>"
             }
         ]
     },
@@ -405,7 +405,7 @@
     "Cannot be destroyed once/next/first time per turn": {
         "If [X] would be destroyed, you can do [A] instead: Destruction Substitution": [
             {
-                "interaction": "<b>Optional</b> substitution effects (1) <b>cannot</b> be applied if the substituted card itself (3) would also be destroyed at the point in time the substitution effect (1) applies. In which case both (2) and (3) will be destroyed. This is true even if an effect that would prevent (3) from being destroyed once/next/first time per turn is applying: the substitution effect cannot be applied<sup><a>[]</a></sup>.",
+                "interaction": "<b>Optional</b> substitution effects (1) <b>cannot</b> be applied to protect another card (2) if the substituting card itself (3) would also be destroyed at the point in time the substitution effect (1) applies. In which case both (2) and (3) will be destroyed. This is true even if an effect that would prevent (3) from being destroyed once/next/first time per turn is applying: the substitution effect cannot be applied<sup><a>[]</a></sup>.",
                 "example": "You control <span class=\"tooltip-anchor\" data-name=\"55990317\">\"Hugin the Runick Wings\"</span> and a Field Spell. <span class=\"tooltip-anchor\" data-name=\"67835547\">\"Runick Slumber\"</span>'s effect has been applied to <span class=\"tooltip-anchor\" data-name=\"55990317\">\"Hugin the Runick Wings\"</span>, and as a result,\"the next time [it] would be destroyed by battle or card effect this turn, it is not destroyed.\" In this situation, <span class=\"tooltip-anchor\" data-name=\"73580471\">\"Black Rose Dragon\"</span>'s \"destroy all cards on the field\" effect now resolves. You cannot apply <span class=\"tooltip-anchor\" data-name=\"55990317\">\"Hugin the Runick Wings\"</span>'s \"if another card(s) you control would be destroyed by card effect, you can banish this card you control instead\" effect.",
                 "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#24071\">\"Hugin the Runick Wings\", \"Runick Slumber\"</a></li>"
             }

@@ -190,6 +190,38 @@ yoursite.filter(_=>ygorg.includes(_))
 </script>
 
 <!--
+# Reupdate all db resources
+-->
+<script>
+yoursite = Array.from(document.querySelectorAll("a")).map(a=>a.href).filter(href=>href.includes("https://db.ygoresources.com/qa")).sort((a,b)=>a-b)
+yoursite = [...new Set(yoursite)]
+
+tmp = ""
+count = 0
+Array.from(document.body.querySelectorAll(".qa-entry")).forEach(_=>{
+  if(!yoursite.includes(_.href)) {
+    tmp += _.outerHTML.replace(`href="/`, `target="_blank" href="https://db.ygoresources.com/`)+"\n<br>\n\n"
+    count += 1
+  }
+})
+tmp += "<h1>"+count+"</h1>"
+console.log(tmp)
+
+
+tmp = ""
+count = 0
+dbsite = Array.from(document.body.querySelectorAll(".qa-entry")).map(_=>_.href)
+yoursite.forEach(_=>{
+  if(!dbsite.includes(_)) {
+    tmp += _+"\n<br>\n\n"
+    count += 1
+  }
+})
+tmp += "<h1>"+count+"</h1>"
+console.log(tmp)
+</script>
+
+<!--
 # Yugipedia references extractor 
 -->
 
