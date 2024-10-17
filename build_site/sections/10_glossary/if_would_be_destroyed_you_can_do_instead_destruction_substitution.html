@@ -57,45 +57,88 @@
     </details>
   </li>
   <li>
-    For this kind of effects we identify the card (1) that applies the substitution effect for effect destruction, the card (2) that is being destroyed, and the card (3) that is substituting for (2)'s destruction (sometimes (1) and (3) are the same card). Regarding substitution effects when both (2) and (3) are being simultaneously destroyed:
-    <ul>
-      <li>
-        <b>Mandatory</b> substitution effects (1) applies even if the substituted card itself (3) would also be destroyed. In which case, only (1) will be destroyed<sup><a href="#">[1]</a></sup
-        >.
-        <details>
-          <summary>Example</summary>
-          If both <span class="tooltip-anchor" data-name="65685470">"Spirit of the Six Samurai"</span> (1)=(3) and the monster (2) it is equipped to would be destroyed at the same time by an effect such as <span class="tooltip-anchor" data-name="18591904">"Final Destiny"</span>, effect of <span class="tooltip-anchor" data-name="65685470">"Spirit of the Six Samurai"</span> will be applied, <span class="tooltip-anchor" data-name="65685470">"Spirit of the Six Samurai"</span> will be destroyed instead, and the monster it was equipped to will remain on the field.
-          <hr />
-        </details>
-      </li>
-      <li>
-        <b>Optional</b> substitution effects (1) <b>can</b> be applied when the substituted card itself (3) is not being destroyed at the point in time the substitution effect (1) applies. In which case, only (1) will be destroyed<sup><a href="#">[3]</a></sup
-        >.
-        <details>
-          <summary>Example</summary>
-          Your opponent activates <span class="tooltip-anchor" data-name="53567095">"Icarus Attack"</span>, targeting <span class="tooltip-anchor" data-name="81823360">"Megalosmasher X"</span> (2) and <span class="tooltip-anchor" data-name="17228908">"Lost World"</span> (1) on your field. Even if <span class="tooltip-anchor" data-name="17228908">"Lost World"</span> and a Normal Monster on the field would be destroyed at the same time, as in this scenario, you can apply the effect of <span class="tooltip-anchor" data-name="17228908">"Lost World"</span> that destroys Dinosaur-Type monsters in your hand or Deck (3) instead. In this scenario, <span class="tooltip-anchor" data-name="17228908">"Lost World"</span> itself is destroyed by the effect of <span class="tooltip-anchor" data-name="53567095">"Icarus Attack"</span>, but <span class="tooltip-anchor" data-name="81823360">"Megalosmasher X"</span> is not destroyed, and you destroy 1 Dinosaur-Type monster in your hand or Deck instead.
-          <hr />
-        </details>
-      </li>
-      <li>
-        <b>Optional</b> substitution effects (1) <b>cannot</b> be applied if the substituted card itself (3) would also be destroyed at the point in time the substitution effect (1) applies. In which case both (2) and (3) will be destroyed<sup><a href="#">[5]</a></sup
-        >.
-        <details>
-          <summary>Example</summary>
-          Your opponent activates <span class="tooltip-anchor" data-name="53567095">"Icarus Attack"</span>, targeting your face-up <span class="tooltip-anchor" data-name="90351981">"Orcustrated Babel"</span> (2) in the Field Zone and <span class="tooltip-anchor" data-name="55051920">"Orcustrated Core"</span> (1)=(3) in the Spell & Trap Zone. In this scenario, since <span class="tooltip-anchor" data-name="55051920">"Orcustrated Core"</span> itself would be destroyed by <span class="tooltip-anchor" data-name="53567095">"Icarus Attack"</span>, you cannot apply its effect and send it to the Graveyard instead.
-          <hr />
-        </details>
-      </li>
-      <li>
-        <b>Optional</b> substitution effects (1) <b>can</b> be applied if the substituted card itself (3) would also be destroyed at the point in time the substitution effect (1) applies but (3) cannot be destroyed due to another card's effect. In which case, only (3) will be destroyed<sup><a href="#">[4]</a></sup
-        >.
-        <details>
-          <summary>Example</summary>
-          <span class="tooltip-anchor" data-name="77610772">"Ib the World Chalice Priestess"</span> (1)=(3) is in your Main Monster Zone, and <span class="tooltip-anchor" data-name="30194529">"Ningirsu the World Chalice Warrior"</span> (2) is in a Main Monster Zone adjacent to it. In this situation, if your opponent activates <span class="tooltip-anchor" data-name="53129443">"Dark Hole"</span>, since <span class="tooltip-anchor" data-name="77610772">"Ib the World Chalice Priestess"</span> is also linked to <span class="tooltip-anchor" data-name="30194529">"Ningirsu the World Chalice Warrior"</span>, its first effect prevents it from being destroyed by battle or card effects, so it will not be destroyed by <span class="tooltip-anchor" data-name="53129443">"Dark Hole"</span>. As a result, since <span class="tooltip-anchor" data-name="30194529">"Ningirsu the World Chalice Warrior"</span> would be destroyed, you can apply the effect of <span class="tooltip-anchor" data-name="77610772">"Ib the World Chalice Priestess"</span> and send it to the Graveyard instead.
-          <hr />
-        </details>
-      </li>
-    </ul>
+    For this kind of effects we identify the card (1) that applies the substitution effect for effect destruction, the card (2) that is being destroyed, and the card (3) that is substituting for (2)'s destruction (sometimes (1) and (3) are the same card). If multiple cards among (1), (2) and (3) are being destroyed simultaneously:
+    <table align="center">
+      <tbody>
+        <tr>
+          <td rowspan="2" style="width: 20%;"></td>
+          <td colspan="3" align="center"><b>What "would" be destroyed</b></td>
+          <td rowspan="2" align="center"><b>What happens</b></td>
+        </tr>
+        <tr>
+          <td align="center" style="width: 8%"><b>(1)</b></td>
+          <td align="center" style="width: 8%"><b>(2)</b></td>
+          <td align="center" style="width: 8%"><b>(3)</b></td>
+        </tr>
+        <tr>
+          <td><b>Mandatory (1)</b></td>
+          <td>✔️/❌</td>
+          <td>✔️</td>
+          <td>✔️</td>
+          <td>
+            <b>Substitution works successfully</b>
+            <br />(1) is or is not destroyed, (2) is protected and (3) is substituted<sup><a href="#">[1]</a></sup
+            >.
+            <details>
+              <summary>Example</summary>
+              If both <span class="tooltip-anchor" data-name="65685470">"Spirit of the Six Samurai"</span> (1)=(3) and the monster (2) it is equipped to would be destroyed at the same time by an effect such as <span class="tooltip-anchor" data-name="18591904">"Final Destiny"</span>, effect of <span class="tooltip-anchor" data-name="65685470">"Spirit of the Six Samurai"</span> will be applied, <span class="tooltip-anchor" data-name="65685470">"Spirit of the Six Samurai"</span> will be destroyed instead, and the monster it was equipped to will remain on the field.
+              <hr />
+            </details>
+          </td>
+        </tr>
+
+        <tr>
+          <td><b>Optional (1)</b></td>
+          <td>✔️/❌</td>
+          <td>✔️</td>
+          <td>❌</td>
+          <td>
+            <b>Substitution works successfully</b>
+            <br />(1) is or is not destroyed, (2) is protected and (3) is substituted<sup><a href="#">[3]</a></sup
+            >.
+            <details>
+              <summary>Example</summary>
+              Your opponent activates <span class="tooltip-anchor" data-name="53567095">"Icarus Attack"</span>, targeting <span class="tooltip-anchor" data-name="81823360">"Megalosmasher X"</span> (2) and <span class="tooltip-anchor" data-name="17228908">"Lost World"</span> (1) on your field. Even if <span class="tooltip-anchor" data-name="17228908">"Lost World"</span> and a Normal Monster on the field would be destroyed at the same time, as in this scenario, you can apply the effect of <span class="tooltip-anchor" data-name="17228908">"Lost World"</span> that destroys Dinosaur-Type monsters in your hand or Deck (3) instead. In this scenario, <span class="tooltip-anchor" data-name="17228908">"Lost World"</span> itself is destroyed by the effect of <span class="tooltip-anchor" data-name="53567095">"Icarus Attack"</span>, but <span class="tooltip-anchor" data-name="81823360">"Megalosmasher X"</span> is not destroyed, and you destroy 1 Dinosaur-Type monster in your hand or Deck instead.
+              <hr />
+            </details>
+          </td>
+        </tr>
+
+        <tr>
+          <td><b>Optional (1)</b></td>
+          <td>✔️/❌</td>
+          <td>✔️</td>
+          <td>✔️</td>
+          <td>
+            <b>Substitution cannot be attempted</b>
+            <br />(1) is or is not destroyed, (2) is destroyed and (3) is destroyed<sup><a href="#">[5]</a></sup
+            >.
+            <details>
+              <summary>Example</summary>
+              Your opponent activates <span class="tooltip-anchor" data-name="53567095">"Icarus Attack"</span>, targeting your face-up <span class="tooltip-anchor" data-name="90351981">"Orcustrated Babel"</span> (2) in the Field Zone and <span class="tooltip-anchor" data-name="55051920">"Orcustrated Core"</span> (1)=(3) in the Spell & Trap Zone. In this scenario, since <span class="tooltip-anchor" data-name="55051920">"Orcustrated Core"</span> itself would be destroyed by <span class="tooltip-anchor" data-name="53567095">"Icarus Attack"</span>, you cannot apply its effect and send it to the Graveyard instead.
+              <hr />
+            </details>
+          </td>
+        </tr>
+
+        <tr>
+          <td><b>Optional (1) but (3) cannot be destroyed due to a card's effect</b></td>
+          <td>✔️/❌</td>
+          <td>✔️</td>
+          <td>✔️</td>
+          <td>
+            <b>Substitution works successfully</b>
+            <br />(1) is or is not destroyed, (2) is protected and (3) is substituted<sup><a href="#">[4]</a></sup
+            >.
+            <details>
+              <summary>Example</summary>
+              <span class="tooltip-anchor" data-name="77610772">"Ib the World Chalice Priestess"</span> (1)=(3) is in your Main Monster Zone, and <span class="tooltip-anchor" data-name="30194529">"Ningirsu the World Chalice Warrior"</span> (2) is in a Main Monster Zone adjacent to it. In this situation, if your opponent activates <span class="tooltip-anchor" data-name="53129443">"Dark Hole"</span>, since <span class="tooltip-anchor" data-name="77610772">"Ib the World Chalice Priestess"</span> is also linked to <span class="tooltip-anchor" data-name="30194529">"Ningirsu the World Chalice Warrior"</span>, its first effect prevents it from being destroyed by battle or card effects, so it will not be destroyed by <span class="tooltip-anchor" data-name="53129443">"Dark Hole"</span>. As a result, since <span class="tooltip-anchor" data-name="30194529">"Ningirsu the World Chalice Warrior"</span> would be destroyed, you can apply the effect of <span class="tooltip-anchor" data-name="77610772">"Ib the World Chalice Priestess"</span> and send it to the Graveyard instead.
+              <hr />
+            </details>
+          </td>
+        </tr>
+      </tbody>
+    </table>
   </li>
 </ul>
 

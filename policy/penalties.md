@@ -18,7 +18,7 @@ Both Duelists are required to divulge any and all information that may be requir
 - Match loss: **unintentional**, only head judge may give match loss penalty, with the exception of tardiness.
 - Disqualification: **intentional** cheating, ignorance of a rule does not necessarily prevent the person from being disqualified. Only head judge may disqualified.
 
-Only the head judge of an event may upgrade or downgrade a penalty (only penalties, infractions should never be upgraded or downgraded).
+**Only the head judge of an event may upgrade or downgrade a penalty (only penalties, infractions should never be upgraded or downgraded)**.
 - Upgrades should only be given to a person repeating the same infraction during the course of the same event. 
 - A Head Judge may choose to be a bit more lenient in the upgrade process during a Tier 1 event, choosing not to upgrade the penalty after the second infraction. 
 - A Head Judge should be consistent about upgrading penalties at Tier 2 events. 
@@ -88,7 +88,7 @@ Types of infractions:
 - **T: Tardiness**\
 **Major and Strict**, which indicate the severity of the infraction. Tardiness penalties should never be upgraded after repeat infractions. Since Tardiness penalties are never upgraded, Tardiness penalties are not required to be entered into the KONAMI Tournament Software (KTS) or the KONAMI Card Game Network (KCGN).
 - **DE: Deck and Deck List Errors**\
-**Major and Strict**, registering incorrect contents on a Deck List or playing
+**Minor and Major**, registering incorrect contents on a Deck List or playing
 with an illegal Deck. If an error that would result in an illegal Deck or Deck List is caught prior to the start of the first round, it is acceptable (at the Head Judge’s discretion) to correct the Duelist’s Deck List without applying a penalty.
 - **DC: Drawing Extra Cards**\
 **Minor and Major**
@@ -195,7 +195,7 @@ with an illegal Deck. If an error that would result in an illegal Deck or Deck L
                 <li>Extra deck card shuffled into the main deck and drawn during a game. Return to extra and draw a new card</li>
                 <li>Handwriting unreadable</li>
                 <li>Playing with legal foreign language card but no translation kept outisde of the deck</li>
-                <li>Playing with proxies, replace them and also apply standard tardiness</li>
+                <li>Playing with proxies/counterfeit cards, replace them with actual version, receive warning and also apply standard tardiness</li>
             </ul>
         </td>
     </tr>
@@ -331,7 +331,7 @@ with an illegal Deck. If an error that would result in an illegal Deck or Deck L
                 <li>Swearing or inappropriate or offensive gestures</li>
                 <li>Insulting a player, spectator or tournament official</li>
                 <li>Failing to follow instructions of a tournament ufficial</li>
-                <li>Not moving from ul when asked to do so</li>
+                <li>Not moving out of the aisle when asked to do so</li>
                 <li>Using electronic device other than calculator, mobile device functions other than offline NEURON</li>
                 <li>Offensive/explicit clothing</li>
                 <li>Recording outside of designated areas</li>
