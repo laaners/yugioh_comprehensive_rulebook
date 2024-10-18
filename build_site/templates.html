@@ -145,7 +145,7 @@ console.log(elem)
 -->
 
 <script>
-text = `You control "Hugin the Runick Wings" and a Field Spell. "Runick Slumber"'s effect has been applied to "Hugin the Runick Wings", and as a result,"the next time [it] would be destroyed by battle or card effect this turn, it is not destroyed." In this situation, "Black Rose Dragon"'s "destroy all cards on the field" effect now resolves. You cannot apply "Hugin the Runick Wings"'s "if another card(s) you control would be destroyed by card effect, you can banish this card you control instead" effect.`
+text = `Your opponent resolved the effect of their "Unchained Soul of Disaster" by targeting your "Sky Striker Ace - Kagari", Link Summoning "Unchained Soul of Rage" using both of these monsters. You cannot activate the effect of a "Sky Striker Ace - Raye" in your Graveyard. The monster is not considered to have left the field due to your opponent's card effect.`
 regex = /"([^"]*)"/g;
 cards = text.match(regex)
 cards = [...new Set(cards)].filter(_=>_ !== '"unaffected by activated effects"')
