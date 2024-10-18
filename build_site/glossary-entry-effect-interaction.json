@@ -613,8 +613,8 @@
         "Leaves the field because of an opponent's card effect": [
             {
                 "interaction": "Monsters used as materials in this way do not \"leave the field by a card effect\"<sup><a>[]</a></sup>.",
-                "example": "",
-                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#23173\">\"I:P Masquerena\", \"Granguignol the Dusk Dragon\"</a></li>"
+                "example": "Your opponent resolved the effect of their <span class=\"tooltip-anchor\" data-name=\"89019964\">\"Unchained Soul of Disaster\"</span> by targeting your <span class=\"tooltip-anchor\" data-name=\"63288573\">\"Sky Striker Ace - Kagari\"</span>, Link Summoning <span class=\"tooltip-anchor\" data-name=\"67680512\">\"Unchained Soul of Rage\"</span> using both of these monsters. You cannot activate the effect of a <span class=\"tooltip-anchor\" data-name=\"26077387\">\"Sky Striker Ace - Raye\"</span> in your Graveyard. The monster is not considered to have left the field due to your opponent's card effect.",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#23445\">\"Unchained Soul of Disaster\", \"Sky Striker Ace - Raye\"</a></li>"
             }
         ],
         "Negate Activation of Cards": [
