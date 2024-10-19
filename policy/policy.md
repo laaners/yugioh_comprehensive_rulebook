@@ -1,6 +1,8 @@
 <!-- TOC -->
 
 - [I. Preparing to Play](#i-preparing-to-play)
+    - [C. Head Judge](#c-head-judge)
+    - [D. Assistant Head Judge/Public Events Lead](#d-assistant-head-judgepublic-events-lead)
     - [E. Floor Judge](#e-floor-judge)
         - [Should be answered](#should-be-answered)
         - [Should not be answered](#should-not-be-answered)
@@ -83,6 +85,40 @@
 <!-- /TOC -->
 
 # I. Preparing to Play
+
+## C. Head Judge
+
+The Head Judge oversees the tournament and the rest of the judge staff.
+
+If there is only one judge on staff for a tournament, that judge assumes the role of the Head Judge.
+
+There can only be one Head Judge for a Sanctioned or Official Yu-Gi-Oh! TCG tournament.
+
+The Head Judge makes the final call for game play rulings and/or policy appeals. No other individual, including the Tournament Organizer or a KONAMI employee, can overturn a game play ruling or tournament policy decision made by the Head Judge. 
+- The Head Judge should take this responsibility seriously and familiarize themselves with and properly enforce current and correct rulings and tournament policy. 
+- The Head Judge cannot make decisions that override or otherwise conflict with official Tournament Policy, the official rulebook, tournament-specific Operations Documents, etc. 
+- The Head Judge should not create new tournament policies.
+
+The Head Judge needs to be physically present and available during the tournament, to deal with event issues and answer appeals promptly. The Head Judge should be adequately prepared to ensure proper guidelines are followed.
+
+The Head Judge should clearly identify themselves to the tournament attendees at the start of the tournament. The Head Judge is responsible for making announcements to tournament attendees to inform them of tournament procedures, round start and end times, and any other information they may require.
+
+The Head Judge is responsible for communicating accurate information throughout the tournament to Duelists and event staff.
+
+Time permitting, the Head Judge should act as a mentor for the event's judge staff and should carefully consider individual judges' strengths and weaknesses when building the staff list and assembling teams. It is beneficial for judges to receive feedback and evaluation from the Head Judge, discussing the judge's strengths as well as anything the judge needs to improve upon.
+
+**Only the Head Judge may disqualify people from a Sanctioned event.**
+- The Tournament Organizer, Event Manager, or any other member of staff may not disqualify people from Sanctioned or Official KDE-E events. 
+- The Head Judge, Tournament Organizer, Event Manager, or any other member of staff may not suspend people from Sanctioned or Official KDE-E events 
+- Only the KDE-E and KDE-US Penalty Committee may suspend persons from Sanctioned and/or Official events.
+
+## D. Assistant Head Judge/Public Events Lead
+
+At Tier 3 events, there will usually be one or more Assistant Head Judges on staff.\
+There may also be a Public Events Lead, at tournaments offering Public Events in addition to the main event (YCS, WCQ, etc.) 
+- Assistant Head Judges at Tier 3 events can answer appeals and handle other responsibilities of the Head Judge, as described above. 
+- The Public Event Lead of a Tier 3 event can also handle appeals and other responsibilities of a Head Judge, for Public Events. 
+- Assistant Head Judges cannot overrule any decision made by the Head Judge.
 
 ## E. Floor Judge
 
@@ -517,6 +553,7 @@ You are responsible for providing all necessary tournament materials, including 
                     Card Cases with graphics or text inappropriate for an all-ages environment cannot be used.
                 </il>
             </ul>
+            <span><b>-------------------------</b></span>
         </td>
     </tr>
     <tr>
@@ -533,6 +570,7 @@ You are responsible for providing all necessary tournament materials, including 
                     You may use a calculator or NEURON to assist with the math pencil/pen involved in adding or subtracting Life Points, but you must keep a paper record of all Life Point changes to help resolve any disputes.
                 </li>
             </ul>
+            <span><b>-------------------------</b></span>
         </td>
     </tr>
     <tr>
@@ -546,6 +584,7 @@ You are responsible for providing all necessary tournament materials, including 
                     Please review the rules for sleeves and sleeving in G. Sleeves
                 </li>
             </ul>
+            <span><b>-------------------------</b></span>
         </td>
     </tr>
     <tr>
@@ -574,6 +613,7 @@ You are responsible for providing all necessary tournament materials, including 
                     Unofficial tokens may be disallowed during livestreamed matches.
                 </li>
             </ul>
+            <span><b>-------------------------</b></span>
         </td>
     </tr>
     <tr>
@@ -595,6 +635,7 @@ You are responsible for providing all necessary tournament materials, including 
                 <li>
                 </li>
             </ul>
+            <span><b>-------------------------</b></span>
         </td>
     </tr>
     <tr>
@@ -608,6 +649,7 @@ You are responsible for providing all necessary tournament materials, including 
                     Dice that are overly large, could damage cards or other Dice tournament property, or have graphics or text inappropriate for an all-ages environment cannot be used.
                 </li>
             </ul>
+            <span><b>-------------------------</b></span>
         </td>
     </tr>
     <tr>
@@ -627,6 +669,7 @@ You are responsible for providing all necessary tournament materials, including 
                     Counters must be added to cards in the appropriate quantity (example: if card effect(s) would place 4 counters on a card, Duelists should add four counters, rather than using a die placed to show "4.")
                 </li>
             </ul>
+            <span><b>-------------------------</b></span>
         </td>
     </tr>
     <tr>
@@ -640,6 +683,7 @@ You are responsible for providing all necessary tournament materials, including 
                     Coins that are overly large, could damage cards or other Coins tournament property, or contain offensive images or text cannot be used.
                 </li>
             </ul>
+            <span><b>-------------------------</b></span>
         </td>
     </tr>
     <tr>
@@ -662,6 +706,7 @@ You are responsible for providing all necessary tournament materials, including 
                     Unofficial Field Centers may be disallowed during livestreamed matches.
                 </li>
             </ul>
+            <span><b>-------------------------</b></span>
         </td>
     </tr>
     <tr>
@@ -681,6 +726,7 @@ You are responsible for providing all necessary tournament materials, including 
                     Unofficial Game Mats may be disallowed during livestreamed matches.
                 </li>
             </ul>
+            <span><b>-------------------------</b></span>
         </td>
     </tr>
 </table>
