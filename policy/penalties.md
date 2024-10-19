@@ -128,6 +128,7 @@ with an illegal Deck. If an error that would result in an illegal Deck or Deck L
                 <li>Duelist <i>A</i> does not reveal cleary targets, like searched ones</li>
                 <li>Duelist <i>A</i> takes back a move like setting a Spell/Trap or summoning a monster</li>
             </ul>
+            <span><b>-------------------------</b></span>
         </td>
     </tr>
     <tr>
@@ -142,6 +143,7 @@ with an illegal Deck. If an error that would result in an illegal Deck or Deck L
                 <li>Duelist <i>A</i> does not communicate previous match outcome in time</li>
                 <li>Duelist <i>A</i> missed mandatory game mechanic such as discarding for hand size</li>
             </ul>
+            <span><b>-------------------------</b></span>
         </td>
     </tr>
     <tr>
@@ -154,6 +156,7 @@ with an illegal Deck. If an error that would result in an illegal Deck or Deck L
                 <li>Duelist <i>A</i> spills water on the deck and damages the cards</li>
                 <li>Duelist <i>A</i> loses deck in between matches and does not notify until after the round has already been paired</li>
             </ul>
+            <span><b>-------------------------</b></span>
         </td>
     </tr>
     <tr>
@@ -167,12 +170,13 @@ with an illegal Deck. If an error that would result in an illegal Deck or Deck L
                 <li>Duelist <i>A</i> sat at the wrong ul and played the wrong opponent, and the mistake was caught after the three-minute mark in the round, but before the 10-minute mark</li>
                 <li>Duelist <i>A</i> received a Marked Cards – Minor infraction and was instructed to replace the marked cards before the next round began. The Duelist was unable to replace the cards before the 10-minute mark in the round</li>
             </ul>
+            <span><b>-------------------------</b></span>
         </td>
     </tr>
     <tr>
         <td><b>
             T-Strict (Match Loss)
-            <br><br></b>Duelist not in their seat and ready to begin after 3 minutes have passed from the beginning of the round
+            <br><br></b>Duelist not in their seat and ready to begin after 10 minutes have passed from the beginning of the round
         </td>
         <td>
             <ul>
@@ -180,6 +184,7 @@ with an illegal Deck. If an error that would result in an illegal Deck or Deck L
                 <li>Duelist <i>A</i> sat at the wrong ul and played the wrong opponent, and the mistake was caught after the 10-minute mark</li>
                 <li>Duelist <i>A</i> fails to build and/or register his Deck within the allotted timeframe during a Sealed pack event</li>
             </ul>
+            <span><b>-------------------------</b></span>
         </td>
     </tr>
     <tr>
@@ -197,6 +202,7 @@ with an illegal Deck. If an error that would result in an illegal Deck or Deck L
                 <li>Playing with legal foreign language card but no translation kept outisde of the deck</li>
                 <li>Playing with proxies/counterfeit cards, replace them with actual version, receive warning and also apply standard tardiness</li>
             </ul>
+            <span><b>-------------------------</b></span>
         </td>
     </tr>
     <tr>
@@ -214,6 +220,7 @@ with an illegal Deck. If an error that would result in an illegal Deck or Deck L
                 <li>A Duelist registers "Bottomless," "Mirror," "Stardust," etc., on her Deck List. These names can indicate more than one card. The Deck List should be updated with the full names of the cards she is playing</li>
                 <li>A Duelist registers Black Luster Soldier on her Deck List. When her Deck is checked, the Duelist is playing Black Luster Soldier - Envoy of the Beginning. If Black Luster Soldier - Envoy of the Beginning is not on the forbidden list, and it is an actual card in the Yu-Gi-Oh! TCG, the Deck should be fixed to match the Deck List – the Duelist must play with Black Luster Soldier, the card named on the Deck List</li>
             </ul>
+            <span><b>-------------------------</b></span>
         </td>
     </tr>
     <tr>
@@ -228,6 +235,7 @@ with an illegal Deck. If an error that would result in an illegal Deck or Deck L
                 <li><i><u>A</u></i> accidentally knocks over cards from the top of her Deck</li>
                 <li><i><u>A</u></i> going first in the Duel accidentally draws 6 instead of 5 cards for his starting hand. Since all cards are drawn from a randomized pile at the same time, it is appropriate to return a randomly selected card to the top of the deck. The card should be shown to both Duelists</li>
             </ul>
+            <span><b>-------------------------</b></span>
         </td>
     </tr>
     <tr>
@@ -240,6 +248,7 @@ with an illegal Deck. If an error that would result in an illegal Deck or Deck L
                 <li><i><u>A</u></i> accidentally draws an extra card via an effect and adds it to her hand, with no way to correctly identify which card was added</li>
                 <li><i><u>A</u></i> resolves an effect that searches for a card, selects a card from his Deck, and then adds it to his hand without revealing the card to the opponent. Neither the opponent or a Judge is able to positively identify the card that was added to the hand</li>
             </ul>
+            <span><b>-------------------------</b></span>
         </td>
     </tr>
     <tr>
@@ -253,6 +262,7 @@ with an illegal Deck. If an error that would result in an illegal Deck or Deck L
                 <li>Duelist <i><u>A</u></i> has 2 random sleeves in his Deck with minor wear and tear. The 2 cards in the sleeves bear no pattern</li>
                 <li>Duelist <i><u>A</u></i> has 3 cards in his Deck with minor bends that can be noticed through the sleeves. The 3 cards bear no pattern</li>
             </ul>
+            <span><b>-------------------------</b></span>
         </td>
     </tr>
     <tr>
@@ -268,6 +278,7 @@ with an illegal Deck. If an error that would result in an illegal Deck or Deck L
                 <li>Duelist <i><u>A</u></i> has 3 cards with additional wear and tear on the top left corner. The marking is on the only 3 Trap Cards in the Duelist's Main Deck. The Head Judge determines the markings were made accidentally based on how the Duelist handles his face-down Spell/Trap Cards. The Duelist should receive a Marked Cards – Major (Game Loss) and replace the cards</li>
                 <li>Duelist <i><u>A</u></i> is playing with cards that have been altered from their original manufactured state. The alterations make it so that the Duelist/Judge is unable to determine which card it is at first glance, or the rarity has been altered from how it was manufactured by KONAMI. The Duelist should receive a Marked Cards – Major (Game Loss) and replace the cards</li>
             </ul>
+            <span><b>-------------------------</b></span>
         </td>
     </tr>
     <tr>
@@ -280,6 +291,7 @@ with an illegal Deck. If an error that would result in an illegal Deck or Deck L
                 <li> During a judge call near the end of the round, a Duelist is found with 15 cards from their Side Deck that are warped. Upon investigation, the Head Judge determines that this was unintentional. The entire Side Deck is considered to be marked with a significant pattern. The Duelist should receive a Marked Cards – Strict (Match Loss) and will need to replace the cards or remove them from their Side Deck before being allowed to continue play. If the cards are being removed, the Deck List should be updated accordingly. It is appropriate for the Head Judge to provide a time extension into the next round, to provide the Duelist with an opportunity to properly correct the issue</li>
                 <li>During a mid-round Deck check, a Duelist is found with 6 sleeves of a slightly different shade of color than the color of the rest of his Main Deck. Upon investigation, the Head Judge determines that the player ran out of sleeves while sleeving his Side Deck and the entire Side Deck is currently using a different pack of sleeves than the Main Deck, and the Duelist seemed to be genuinely unaware of the difference. The entire Side Deck is considered to be marked with a significant pattern. The Duelist should receive a Marked Cards – Strict (Match Loss) and will need to replace the sleeves before being allowed to continue play</li>
             </ul>
+            <span><b>-------------------------</b></span>
         </td>
     </tr>
     <tr>
@@ -297,6 +309,7 @@ with an illegal Deck. If an error that would result in an illegal Deck or Deck L
                 <li>Duelist <i><u>A</u></i> arrives at his ul after 3 minutes have passed in the round, then takes an additional length of time to roll out his Game Mat, rummage for his Deck, or otherwise get set up for the game. The Slow Play penalty should be given in addition to the Tardiness penalty</li>
                 <li>Duelist <i><u>A</u></i> repeatedly takes a long time to make decisions about which of his cards to play in a complex combo-based Deck. Upon investigation, it is determined he does not appear to be doing so intentionally</li>
             </ul>
+            <span><b>-------------------------</b></span>
         </td>
     </tr>
     <tr>
@@ -309,6 +322,7 @@ with an illegal Deck. If an error that would result in an illegal Deck or Deck L
                 <li>A judge assigns an SP-Minor infraction and penalty to a Duelist who has spent too much time looking through their opponent's Graveyard. Later in the same round, the Duelist again spends too much time looking through their opponent's Graveyard. The judge issues another Slow Play infraction and notifies the Head Judge. The Head Judge verifies the situation and upgrades the second infraction to an SP-Major</li>
                 <li>A judge assigns an SP-Minor infraction and penalty to a Duelist who took too long to decide which of his cards to play. During the next round, the same Duelist again receives a SP-Minor for repeatedly checking and re-checking his Set cards. The judge asks the Duelist if he has received prior penalties for Slow Play, and he replies that he has. The judge notifies the Head Judge who verifies the situation and upgrades the second infraction to an SP- Major</li>
             </ul>
+            <span><b>-------------------------</b></span>
         </td>
     </tr>
     <tr>
@@ -320,6 +334,7 @@ with an illegal Deck. If an error that would result in an illegal Deck or Deck L
             <ul>
                 <li>A Duelist who has already incurred an SP-Major spends too much time studying their hand and their Graveyard, incurring another Slow Play infraction. The judge notifies the Head Judge, who verifies the situation and upgrades the third infraction to an SP-Strict</li>
             </ul>
+            <span><b>-------------------------</b></span>
         </td>
     </tr>
     <tr>
@@ -344,6 +359,7 @@ with an illegal Deck. If an error that would result in an illegal Deck or Deck L
                 <li>Rule-shark: unnoticed illegal activation by A, reparable game state, but <i><u>B</u></i> tries to gain advantage. A PE-Minor, B UC-Minor</li>
                 <li><i><u>A</u></i> demands a side deck check for cards they don't know are in B's side deck (investigated), but they think are unusual</li>
             </ul>
+            <span><b>-------------------------</b></span>
         </td>
     </tr>
     <tr>
@@ -354,6 +370,7 @@ with an illegal Deck. If an error that would result in an illegal Deck or Deck L
                 <li>Throwing chairs in anger</li>
                 <li>Refusing to sign or rips up a match result slip (next game is lost)</li>
             </ul>
+            <span><b>-------------------------</b></span>
         </td>
     </tr>    
     <tr>
@@ -378,6 +395,7 @@ with an illegal Deck. If an error that would result in an illegal Deck or Deck L
                 <li>A person brings a prohibited item to a Sanctioned or Official event that is not allowed via that event's FAQ or is illegal on a local, state, or federal level. If an item is legal at the state level but illegal on the federal level, the item is not allowed at the event. If an item is prohibited in the FAQ, the item is not allowed at the event regardless of state or federal laws</li>
                 <li>A person attends a Sanctioned event that prohibits buying and selling items with the intent to buy and/or sell items with other people rather than an approved vendor</li>
             </ul>
+            <span><b>-------------------------</b></span>
         </td>
     </tr>    
     <tr>
@@ -409,6 +427,7 @@ with an illegal Deck. If an error that would result in an illegal Deck or Deck L
                 <li>(Tournament Fraud) A Duelist falsifies a Match Result Slip</li>
                 <li>(Tournament Fraud) A Duelist alters the results of the Match after the Match has officially concluded</li>
             </ul>
+            <span><b>-------------------------</b></span>
         </td>
     </tr>    
 </table>
