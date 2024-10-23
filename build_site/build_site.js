@@ -7,11 +7,16 @@ const glossary_entries = Object.keys(glossary) //.sort((a, b) => (a < b ? -1 : 1
 // operating on root path, decomment for relative
 // const path = require("path");
 
+const fileCache = new Map();
+
 function readHTML(file_name) {
-  return new JSDOM(fs.readFileSync(file_name).toString()).window.document;
-  // relative path
-  // return new JSDOM(fs.readFileSync(path.resolve(__dirname, file_name)).toString()).window.document;
+    if (!fileCache.has(file_name)) {
+        const content = fs.readFileSync(file_name, 'utf-8');
+        fileCache.set(file_name, new JSDOM(content).window.document);
+    }
+    return fileCache.get(file_name);
 }
+
 
 function tocString2Json(input) {
   const lines = input.trim().split("\n");
@@ -60,6 +65,7 @@ function mergeIncludes(document) {
 
   for (const element of includes) {
     const section_name = element.textContent.replaceAll("\n", "").replaceAll(" ", "");
+    console.log(section_name)
     const section = readHTML(section_name);
     mergeIncludes(section);
 
@@ -174,6 +180,7 @@ async function main() {
   mergeIncludes(document);
 
   // make toc ------------------------------------------------------------
+  console.log("Make TOC")
   const headers = document.querySelectorAll("h1, h2, h3 ,h4");
 
   let idLevel = [0, 0, 0, 0];
@@ -214,24 +221,36 @@ async function main() {
   `;
 
   document.querySelector(".toc").outerHTML = toc;
-
+  
   // fix <sup> (references) ------------------------------------------------------------
+  console.log("Fixing <sup>")
   let lines = document.querySelector("body").innerHTML.split("\n");
   let currentSectionId = "";
 
   let i = 0;
+  // i = lines.length;
   for (; i < lines.length; i++) {
     let line = lines[i];
 
     // reference id is of "currentSectionId-[reference_number]"", for example "1.3.2-[1]"
     // find currentSectionId first
     if (line.includes("<h") && !line.includes("<hr")) {
-      const header = new JSDOM(line).window.document.querySelector("h1, h2, h3, h4");
-      currentSectionId = header.id;
+      //const header = new JSDOM(line).window.document.querySelector("h1, h2, h3, h4");
+      //currentSectionId = header.id;
+      currentSectionId = line.split(`style="margin: 0;" id="`)[1].split(`">`)[0]
     }
 
     // add correct anchors tu sup
-    if (line.includes("<sup>")) {
+    if(line.includes("<sup>")) {
+      // Use a regular expression to match <a href="#">[X]</a>, where X is a number
+      const regex = /<a href="#">\[(\d+)\]<\/a>/g;
+
+      lines[i] = line.replace(regex, (match, number) => {
+        return `<a href="#${currentSectionId}-[${number}]">[${number}]</a>`;
+      });
+    }
+
+    if (line.includes("<sup>") && false) {
       const sups = new JSDOM(line).window.document.querySelectorAll("sup a");
       let sups_replace_line = line;
       sups.forEach((sup) => {
@@ -253,6 +272,7 @@ async function main() {
           reference_number += 1;
         }
         i++;
+        
         line = lines[i];
       }
     }
@@ -260,30 +280,33 @@ async function main() {
   document.querySelector("body").innerHTML = lines.join("\n");
 
   // write new index html ------------------------------------------------------------
+  console.log("Generating index.html")
   let html = `
 <!DOCTYPE html>
-    <html>
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="description" content="A fan site for Yu-Gi-Oh!'s Comprehensive Rules" />
-        <!--
-        -->
-        <meta name="viewport" content="width=device-width, initial-scale=0.5"/>
-        <title>Yu-Gi-Oh! Comprehensive Rules</title>
+<html>
+  <head>
+      <meta charset="UTF-8" />
+      <meta name="description" content="A fan site for Yu-Gi-Oh!'s Comprehensive Rules" />
+      <!--
+      -->
+      <meta name="viewport" content="width=device-width, initial-scale=0.5"/>
+      <title>Yu-Gi-Oh! Comprehensive Rules</title>
 
-        <link rel="stylesheet" href="styles.css" />
-        <script src="script.js" type="text/javascript" defer></script>
+      <link rel="stylesheet" href="styles.css" />
+      <script src="script.js" type="text/javascript" defer></script>
 
-        <script type="text/javascript" defer="" src="./tippy/render.js.download"></script>
-        <script type="text/javascript" defer="" src="./tippy/tooltip.js.download"></script>
-        <script defer="" src="./tippy/core@2" type="text/javascript"></script>
-        <script defer="" src="./tippy/tippy.js@6" type="text/javascript"></script>
-        <link rel="stylesheet" href="./tippy/tooltips.css" />
+      <script type="text/javascript" defer="" src="./tippy/render.js.download"></script>
+      <script type="text/javascript" defer="" src="./tippy/tooltip.js.download"></script>
+      <script defer="" src="./tippy/core@2" type="text/javascript"></script>
+      <script defer="" src="./tippy/tippy.js@6" type="text/javascript"></script>
+      <link rel="stylesheet" href="./tippy/tooltips.css" />
 
-    </head>
-    <body>
+  </head>
+  <body>
+    ${ document.querySelector("body").innerHTML}
+  </body>
+</html>
   `;
-  html += document.querySelector("body").innerHTML + "\n</body>\n</html>";
 
   // "unfold" all <details> ------------------------------------------------------------
   // html = html.replaceAll("<details", "<details open")

@@ -247,21 +247,21 @@ img {
 }
 
 /* Style the list items */
-.battle-damage-ol li {
+.battle-damage-ol-li {
   list-style: none; /* Remove default numbering */
   counter-increment: item;
   position: relative;
 }
 
 /* For items with numbers less than 10, add a leading zero */
-.battle-damage-ol li::before {
+.battle-damage-ol-li::before {
   content: "0" counter(item) ".";
   font-weight: bold;
   margin-right: 8px;
 }
 
 /* For items with numbers 10 and greater, don't add the leading zero */
-.battle-damage-ol li:nth-child(n + 10)::before {
+.battle-damage-ol-li:nth-child(n + 10)::before {
   content: counter(item) ".";
   font-weight: bold;
   margin-right: 8px;

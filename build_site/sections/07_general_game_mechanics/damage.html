@@ -148,22 +148,36 @@
   >:
 </p>
 <ol class="battle-damage-ol">
-  <li>This card inflicts double battle damage (this phrasing exactly with "battle damage" as object of the phrase, in Japanese it is "倍の戦闘ダメージを与える").</li>
-  <li>Battle damage is taken by both players.</li>
-  <li>Battle damage you take is also inflicted to your opponent / your opponent takes any battle damage you would take instead.</li>
-  <li>Battle damage is treated as effect damage.</li>
-  <li>The player gains Life Points instead of taking battle damage.</li>
-  <li>Battle damage becomes 0.</li>
-  <li>Battle damage is halved.</li>
-  <li>Battle damage is doubled (this phrasing exactly with "battle damage" as subject of the phrase, in Japanese it is "戦闘ダメージは倍になる").</li>
-  <li>Battle damage becomes [value].</li>
-  <li>You do not take battle damage if it is more or less than [value] (however, note that if the Battle Damage has become 0 when applying "06" effects, the remaining effects are not applied).</li>
+  <li class="battle-damage-ol-li">This card inflicts double battle damage (this phrasing exactly with "this card" as object of the phrase, in Japanese it is "倍の戦闘ダメージを与える").</li>
+  <li class="battle-damage-ol-li">Battle damage is taken by both players.</li>
+  <li class="battle-damage-ol-li">Battle damage you take is also inflicted to your opponent / your opponent takes any battle damage you would take instead.</li>
+  <li class="battle-damage-ol-li">Battle damage is treated as effect damage.</li>
+  <li class="battle-damage-ol-li">The player gains Life Points instead of taking battle damage.</li>
+  <li class="battle-damage-ol-li">Battle damage becomes 0.</li>
+  <li class="battle-damage-ol-li">
+    Battle damage is halved.
+    <ul>
+      <li>
+        Multiple effects that halve battle damage do not stack when they are applying at the same time<sup><a href="#">[2]</a></sup
+        >.
+        <details>
+          <summary>Example</summary>
+          <u>Question:</u><br />I have previously resolved <span class="tooltip-anchor" data-name="84211599">"Pot of Prosperity"</span> this turn, causing all damage my opponent takes to be halved. If I now attack directly with <span class="tooltip-anchor" data-name="59642500">"Masked HERO Anki"</span> (ATK 2800) using to its own effect, which also causes battle damage inflicted to my opponent to be halved. Do these two effects stack?<br /><u>Answer:</u><br />The effect of <span class="tooltip-anchor" data-name="84211599">"Pot of Prosperity"</span> that halves damage taken by the opponent, and the effect of <span class="tooltip-anchor" data-name="59642500">"Masked HERO Anki"</span> that halves battle damage inflicted to the opponent, do not stack. (Damage will not be halved again.)<br />Therefore, regardless of whether your opponent controls a monster or not, if your <span class="tooltip-anchor" data-name="59642500">"Masked HERO Anki"</span> attacks directly in the situation given above, your opponent will take half the battle damage they would usually take, i.e., 1400 damage.
+          <hr />
+        </details>
+      </li>
+    </ul>
+  </li>
+  <li class="battle-damage-ol-li">Battle damage is doubled (either this phrasing exactly with "battle damage" as subject of the phrase, or "Double any battle damage your opponent takes", in Japanese it is "戦闘ダメージは倍になる").</li>
+  <li class="battle-damage-ol-li">Battle damage becomes [value].</li>
+  <li class="battle-damage-ol-li">You do not take battle damage if it is more or less than [value] (however, note that if the Battle Damage has become 0 when applying "06" effects, the remaining effects are not applied).</li>
 </ol>
 
 <p>
   Take as an example <span class="tooltip-anchor" data-name="81260679">"Ohime the Manifested Mikanko"</span> (effect type "03") equipped with <span class="tooltip-anchor" data-name="41927278">"Double-Edged Sword"</span> (effect type "02"), so that <span class="tooltip-anchor" data-name="81260679">"Ohime the Manifested Mikanko"</span>'s ATK is 2000<sup><a href="#">[1]</a></sup
   >:
 </p>
+
 <ul>
   <li>
     When it attacks directly:
@@ -341,7 +355,8 @@
 
 <em>References:</em>
 <ol class="references">
-  <li>YGOrg Database of Official OCG Rulings: <a target="_blank" href="https://db.ygoresources.com/qa#10331">"Ohime the Manifested Mikanko", "Double-Edged Sword"</a></li>
+  <li>YGOrg Database of Official OCG Rulings: <a target="_blank" href="https://db.ygoresources.com/qa#23822">"Ohime the Manifested Mikanko", "Double-Edged Sword"</a></li>
+  <li>YGOrg Database of Official OCG Rulings: <a target="_blank" href="https://db.ygoresources.com/qa#23511">"Masked HERO Anki", "Pot of Prosperity"</a></li>
 </ol>
 
 <h3>Effect Damage</h3>
@@ -354,7 +369,7 @@
     >.
     <details>
       <summary>Example</summary>
-      Your opponent has just resolved the first effect of their <span class="tooltip-anchor" data-name="44373896">"Destruction Dragon"</span>, which was activated by targeting a <span class="tooltip-anchor" data-name="30312361">"Phantom of Chaos"</span> in your Monster Zone. In this situation, a monster you control was destroyed by the effect of your opponent's <span class="tooltip-anchor" data-name="44373896">"Destruction Dragon"</span>. Even though the ATK of your destroyed <span class="tooltip-anchor" data-name="30312361">"Phantom of Chaos"</span> is zero, the "if it was a Monster Card, inflict damage to your opponent equal to its original ATK" effect of <span class="tooltip-anchor" data-name="44373896">"Destruction Dragon"</span> is still also applied (you will take 0 damage as a result of this). So you cannot activate a card like <span class="tooltip-anchor" data-name="37383714">"Soul Rope"</span> that needs the last action to happen to be the destruction of the monster, as the last action happened was you taking 0 damage.
+      <u>Question:</u><br />My opponent has just resolved the effect of their <span class="tooltip-anchor" data-name="44373896">"Destruction Dragon"</span>, which was activated by targeting a <span class="tooltip-anchor" data-name="30312361">"Phantom of Chaos"</span> in my Monster Zone. Can I now activate <span class="tooltip-anchor" data-name="37383714">"Soul Rope"</span>, which can be activated "when a monster you control is destroyed by a card effect and sent to the Graveyard" ?<br /><u>Answer:</u><br />In the situation you describe, a monster you control was destroyed by the effect of your opponent's <span class="tooltip-anchor" data-name="44373896">"Destruction Dragon"</span>. Even though the ATK of your destroyed <span class="tooltip-anchor" data-name="30312361">"Phantom of Chaos"</span> is zero, the "if it was a Monster Card, inflict damage to your opponent equal to its original ATK" effect of <span class="tooltip-anchor" data-name="44373896">"Destruction Dragon"</span> is still also applied. (You will take zero damage as a result of this.)<br />Therefore, you cannot activate <span class="tooltip-anchor" data-name="37383714">"Soul Rope"</span> afterwards.
       <hr />
     </details>
   </li>

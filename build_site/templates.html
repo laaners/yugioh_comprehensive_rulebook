@@ -145,7 +145,34 @@ console.log(elem)
 -->
 
 <script>
-text = `Your opponent resolved the effect of their "Unchained Soul of Disaster" by targeting your "Sky Striker Ace - Kagari", Link Summoning "Unchained Soul of Rage" using both of these monsters. You cannot activate the effect of a "Sky Striker Ace - Raye" in your Graveyard. The monster is not considered to have left the field due to your opponent's card effect.`
+cards = Array.from(document.body.querySelectorAll(".card-link"))
+for(card of cards) {
+  try {
+    let response = await fetch(`https://db.ygoprodeck.com/api/v7/cardinfo.php?name=${card.innerText}`)
+    let { data } = await response.json();
+    data = data[0]
+    id = +data.id
+    card.outerHTML = `<span class="tooltip-anchor" data-name="${id}">"${card.innerText}"</span>`
+  }
+  catch {}
+}
+q = document.querySelector("#qa-question").innerHTML
+a = document.querySelector("#qa-answer section").innerHTML
+text = `<u>Question:</u><br>${q}<br><u>Answer:</u><br>${a}`
+.replaceAll("①st", "")
+.replaceAll("②nd", "")
+.replaceAll("③rd", "")
+.replaceAll("『"," \"")
+.replaceAll("』","\" ")
+.replaceAll("<br><br>","<br>")
+.replaceAll("\u200E", "")
+console.log(`"example": "`+text.replaceAll('"',"\\\"")+"\",")
+console.log(`<details><summary>Example</summary>${text}<hr /></details>`)
+console.log(`<li>YGOrg Database of Official OCG Rulings: <a target="_blank" href="${window.location.href}">${[...new Set(cards.map(_=>'"'+_.innerText+'"'))].join(", ")}</a></li>`)
+
+/*--------------*/
+
+text = `"Dimensional Fissure" is face-up in the Spell & Trap Zone. Both Traps Treated as Monsters (not treated as Traps) and Traps Treated as Monsters (still treated as Traps) won't be banished when destroyed and will be sent to the Graveyard normally.`
 regex = /"([^"]*)"/g;
 cards = text.match(regex)
 cards = [...new Set(cards)].filter(_=>_ !== '"unaffected by activated effects"')
@@ -159,13 +186,9 @@ for(card of cards) {
   }
   catch {}
 }
-console.log(text.replaceAll('"','\\"'))
-console.log(`<details>
-  <summary>Example</summary>
-  ${text}
-  <hr />
-</details>
-`)
+console.log(text.replaceAll('"',"\\\""))
+console.log(`<details><summary>Example</summary>${text}<hr /></details>`)
+
 </script>
 
 <!--
