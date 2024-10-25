@@ -2,7 +2,9 @@ const { JSDOM } = require("jsdom");
 const fs = require("fs");
 
 const glossary = require("./glossary-entry-effect-interaction.json");
-const glossary_entries = Object.keys(glossary) //.sort((a, b) => (a < b ? -1 : 1));
+const glossary_entries = Object.keys(glossary); //.sort((a, b) => (a < b ? -1 : 1));
+
+const fixedGlossaryOnce = [];
 
 // operating on root path, decomment for relative
 // const path = require("path");
@@ -10,13 +12,12 @@ const glossary_entries = Object.keys(glossary) //.sort((a, b) => (a < b ? -1 : 1
 const fileCache = new Map();
 
 function readHTML(file_name) {
-    if (!fileCache.has(file_name)) {
-        const content = fs.readFileSync(file_name, 'utf-8');
-        fileCache.set(file_name, new JSDOM(content).window.document);
-    }
-    return fileCache.get(file_name);
+  if (!fileCache.has(file_name)) {
+    const content = fs.readFileSync(file_name, "utf-8");
+    fileCache.set(file_name, new JSDOM(content).window.document);
+  }
+  return fileCache.get(file_name);
 }
-
 
 function tocString2Json(input) {
   const lines = input.trim().split("\n");
@@ -27,7 +28,11 @@ function tocString2Json(input) {
     const level = line.match(/^\t*/)[0].length;
     const id = line.trim().split(" ")[0];
     const title = line.trim().replace(id + " ", "");
-    const newItem = { title, id, children: [] };
+    const newItem = {
+      title,
+      id,
+      children: [],
+    };
 
     while (stack.length && stack[stack.length - 1].level >= level) {
       stack.pop();
@@ -40,7 +45,10 @@ function tocString2Json(input) {
       parent.children.push(newItem);
     }
 
-    stack.push({ level, item: newItem });
+    stack.push({
+      level,
+      item: newItem,
+    });
   });
 
   return result;
@@ -49,7 +57,10 @@ function tocString2Json(input) {
 function createList(items) {
   let list = "<ol>";
   items.forEach((item) => {
-    list += `<li><a href="#${item.id}">${item.title.replace(item.id + " ", "")}</a>`;
+    list += `<li><a href="#${item.id}">${item.title.replace(
+      item.id + " ",
+      ""
+    )}</a>`;
     if (item.children && item.children.length > 0) {
       list += createList(item.children);
     }
@@ -64,29 +75,61 @@ function mergeIncludes(document) {
   if (includes.length < 1) return;
 
   for (const element of includes) {
-    const section_name = element.textContent.replaceAll("\n", "").replaceAll(" ", "");
-    console.log(section_name)
+    const section_name = element.textContent
+      .replaceAll("\n", "")
+      .replaceAll(" ", "");
+    console.log(section_name);
     const section = readHTML(section_name);
     mergeIncludes(section);
 
     // if glossary entry, add effects interaction
-    if (section_name.includes("10_glossary/") || section_name.includes("06_other_game_elements/") || section_name.includes("02_monster_cards/abilities/") || section_name.includes("09_card_text/04_text_not_effect/")) {
-      const section_title = Array.from(section.querySelectorAll("h2, h3, h4"))[0].innerHTML.replaceAll("&amp;", "&");
+    if (
+      section_name.includes("10_glossary/") ||
+      section_name.includes("06_other_game_elements/") ||
+      section_name.includes("02_monster_cards/abilities/") ||
+      section_name.includes("09_card_text/04_text_not_effect/")
+    ) {
+      const section_title = Array.from(
+        section.querySelectorAll("h2, h3, h4")
+      )[0].innerHTML.replaceAll("&amp;", "&");
+
+      if (fixedGlossaryOnce.includes(section_title)) {
+        element.outerHTML = section.querySelector("body").innerHTML;
+        continue;
+      } else {
+        fixedGlossaryOnce.push(section_title);
+      }
 
       // construct effect interaction list
       try {
-        const glossary_entry_list = section.querySelector(".glossary-entry-effect-interaction");
+        const glossary_entry_list = section.querySelector(
+          ".glossary-entry-effect-interaction"
+        );
         const references_list = section.querySelector(".references");
-        const references_list_items = Array.from(references_list.querySelectorAll("li"));
+        const references_list_items = Array.from(
+          references_list.querySelectorAll("li")
+        );
 
         let sup_current_index = references_list_items.length;
 
         for (const entry of glossary_entries) {
           if (glossary[section_title] != undefined) {
             if (glossary[section_title][entry] != undefined) {
-              sup_current_index = addEffectInteractionEntry(glossary[section_title][entry], entry, sup_current_index, glossary_entry_list, references_list);
+              sup_current_index = addEffectInteractionEntry(
+                glossary[section_title][entry],
+                entry,
+                sup_current_index,
+                glossary_entry_list,
+                references_list
+              );
             } else if (glossary[entry][section_title] != undefined) {
-              sup_current_index = addEffectInteractionEntry(glossary[entry][section_title], entry, sup_current_index, glossary_entry_list, references_list);
+              sup_current_index = addEffectInteractionEntry(
+                glossary[entry][section_title],
+                entry,
+                sup_current_index,
+                glossary_entry_list,
+                references_list
+              );
             }
           }
         }
@@ -101,17 +144,31 @@ function mergeIncludes(document) {
   }
 }
 
-function addEffectInteractionEntry(glossary_object, entry, sup_current_index, glossary_entry_list, references_list) {
+function addEffectInteractionEntry(
+  glossary_object,
+  entry,
+  sup_current_index,
+  glossary_entry_list,
+  references_list
+) {
   for (let i = 0; i < glossary_object.length; i++) {
     let interaction = glossary_object[i].interaction;
     let example = glossary_object[i].example;
     let reference = glossary_object[i].reference;
 
     let alreadyExistingResourceIndex = -1;
-    const references_list_items = Array.from(references_list.querySelectorAll("li"));
+    const references_list_items = Array.from(
+      references_list.querySelectorAll("li")
+    );
     if (references_list_items.length > 0) {
       // console.log(reference)
-      alreadyExistingResourceIndex = references_list_items.findIndex((_) => _.outerHTML.replaceAll("\n", "").replaceAll("  ", "").replaceAll("&amp;", "&") === reference);
+      alreadyExistingResourceIndex = references_list_items.findIndex(
+        (_) =>
+          _.outerHTML
+            .replaceAll("\n", "")
+            .replaceAll("  ", "")
+            .replaceAll("&amp;", "&") === reference
+      );
 
       //if (reference.includes("Granguig")) {
       //  console.log(references_list_items.filter((_) => _.outerHTML.includes("Granguig")).map((_) => _.outerHTML.replaceAll("\n", "").replaceAll("  ", "").replaceAll("&amp;", "&"))[0]);
@@ -149,7 +206,14 @@ function addEffectInteractionEntry(glossary_object, entry, sup_current_index, gl
           ${interaction}
           `;
       }
-      entryHTML = entryHTML.replaceAll("<sup><a>[]</a></sup>", `<sup><a href="#">[${(alreadyExistingResourceIndex === -1 ? references_list_items.length : alreadyExistingResourceIndex) + 1}]</a></sup>`);
+      entryHTML = entryHTML.replaceAll(
+        "<sup><a>[]</a></sup>",
+        `<sup><a href="#">[${
+          (alreadyExistingResourceIndex === -1
+            ? references_list_items.length
+            : alreadyExistingResourceIndex) + 1
+        }]</a></sup>`
+      );
 
       if (glossary_object.length > 1) {
         entryHTML += `</li></ul>`;
@@ -180,7 +244,7 @@ async function main() {
   mergeIncludes(document);
 
   // make toc ------------------------------------------------------------
-  console.log("Make TOC")
+  console.log("Make TOC");
   const headers = document.querySelectorAll("h1, h2, h3 ,h4");
 
   let idLevel = [0, 0, 0, 0];
@@ -221,9 +285,9 @@ async function main() {
   `;
 
   document.querySelector(".toc").outerHTML = toc;
-  
+
   // fix <sup> (references) ------------------------------------------------------------
-  console.log("Fixing <sup>")
+  console.log("Fixing <sup>");
   let lines = document.querySelector("body").innerHTML.split("\n");
   let currentSectionId = "";
 
@@ -237,11 +301,13 @@ async function main() {
     if (line.includes("<h") && !line.includes("<hr")) {
       //const header = new JSDOM(line).window.document.querySelector("h1, h2, h3, h4");
       //currentSectionId = header.id;
-      currentSectionId = line.split(`style="margin: 0;" id="`)[1].split(`">`)[0]
+      currentSectionId = line
+        .split(`style="margin: 0;" id="`)[1]
+        .split(`">`)[0];
     }
 
     // add correct anchors tu sup
-    if(line.includes("<sup>")) {
+    if (line.includes("<sup>")) {
       // Use a regular expression to match <a href="#">[X]</a>, where X is a number
       const regex = /<a href="#">\[(\d+)\]<\/a>/g;
 
@@ -268,11 +334,14 @@ async function main() {
       let reference_number = 1;
       while (!line.includes("</ol>")) {
         if (line.includes("<li")) {
-          lines[i] = lines[i].replace("<li", `<li id="${currentSectionId}-[${reference_number}]"`);
+          lines[i] = lines[i].replace(
+            "<li",
+            `<li id="${currentSectionId}-[${reference_number}]"`
+          );
           reference_number += 1;
         }
         i++;
-        
+
         line = lines[i];
       }
     }
@@ -280,7 +349,7 @@ async function main() {
   document.querySelector("body").innerHTML = lines.join("\n");
 
   // write new index html ------------------------------------------------------------
-  console.log("Generating index.html")
+  console.log("Generating index.html");
   let html = `
 <!DOCTYPE html>
 <html>
@@ -303,7 +372,7 @@ async function main() {
 
   </head>
   <body>
-    ${ document.querySelector("body").innerHTML}
+    ${document.querySelector("body").innerHTML}
   </body>
 </html>
   `;
@@ -314,9 +383,16 @@ async function main() {
   // no images ------------------------------------------------------------
   // html = html.replaceAll("<img", "<img_");
 
-  fs.writeFileSync("index.html", html, { flag: "w+" }, (err) => {
-    if (err) return console.log(err);
-  });
+  fs.writeFileSync(
+    "index.html",
+    html,
+    {
+      flag: "w+",
+    },
+    (err) => {
+      if (err) return console.log(err);
+    }
+  );
 
   console.log("Done build");
 }
@@ -331,13 +407,19 @@ async function fix() {
   const includes = document.querySelectorAll("include");
   if (includes.length < 1) return;
   for (const element of includes) {
-    const section_name = element.textContent.replaceAll("\n", "").replaceAll(" ", "");
-    const section = readHTML(section_name.replace("sections", "sections - Copy"));
+    const section_name = element.textContent
+      .replaceAll("\n", "")
+      .replaceAll(" ", "");
+    const section = readHTML(
+      section_name.replace("sections", "sections - Copy")
+    );
     let lines = section.querySelector("body").innerHTML.split("\n");
     for (let i = 0; i < lines.length; i++) {
       const line = lines[i];
       if (line.includes('id="')) {
-        const elems = new JSDOM(line + "</li>").window.document.querySelectorAll("h1, h2, h3, h4, li");
+        const elems = new JSDOM(
+          line + "</li>"
+        ).window.document.querySelectorAll("h1, h2, h3, h4, li");
         let replaced_line = line;
         elems.forEach((elem) => {
           const oldString = elem.outerHTML;
@@ -350,9 +432,16 @@ async function fix() {
     }
     element.innerHTML = lines.join("\n");
 
-    fs.writeFileSync(section_name, lines.join("\n"), { flag: "w+" }, (err) => {
-      if (err) return console.log(err);
-    });
+    fs.writeFileSync(
+      section_name,
+      lines.join("\n"),
+      {
+        flag: "w+",
+      },
+      (err) => {
+        if (err) return console.log(err);
+      }
+    );
   }
   console.log("Done fix");
 }
