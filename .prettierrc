@@ -2,5 +2,13 @@
   "tabWidth": 2,
   "useTabs": false,
   "semi": true,
-  "printWidth": 140000
+  "printWidth": 140000,
+  "overrides": [
+    {
+      "files": "*.js",
+      "options": {
+        "printWidth": 80
+      }
+    }
+  ]
 }
