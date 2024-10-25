@@ -124,9 +124,9 @@ with an illegal Deck. If an error that would result in an illegal Deck or Deck L
                 <li>Duelist <i>A</i> rushes from his Main Phase 1 straight into declaring an attack with his Monster without notifying his opponent that he is changing Phases and not giving his opponent the opportunity to respond to the changing of Phases</li>
                 <li>Duelists neglect to agree on the location of the Field Center before beginning their Game</li>
                 <li>Duelist <i>A</i> does not keep track of LP</li>
+                <li>Duelist <i>A</i> takes back a move like setting a Spell/Trap or summoning a monster</li>
                 <li>Duelist <i>A</i> does not communite clearly with B</li>
                 <li>Duelist <i>A</i> does not reveal cleary targets, like searched ones</li>
-                <li>Duelist <i>A</i> takes back a move like setting a Spell/Trap or summoning a monster</li>
             </ul>
             <span><b>-------------------------</b></span>
         </td>
@@ -141,7 +141,7 @@ with an illegal Deck. If an error that would result in an illegal Deck or Deck L
                 <li>Duelist <i>A</i> accidentally shuffles hand into the deck</li>
                 <li>Duelist <i>A</i> remembered maintenance cost that had to be payed turns ago</li>
                 <li>Duelist <i>A</i> does not communicate previous match outcome in time</li>
-                <li>Duelist <i>A</i> missed mandatory game mechanic such as discarding for hand size</li>
+                <li>A Duelist forgets to discard down to the legal hand limit at the end of his turn. During his opponent's turn he plays a card that draws a card. There is no way to know which cards the Duelist had in his hand prior to drawing the card. This is not a missed mandatory effect but a mandatory game mechanic. This action is irreparable, and it is appropriate to give the Duelist a Game Loss</li>
             </ul>
             <span><b>-------------------------</b></span>
         </td>
@@ -167,8 +167,8 @@ with an illegal Deck. If an error that would result in an illegal Deck or Deck L
         <td>
             <ul>
                 <li>Duelist <i>A</i> is not in his seat and ready to begin within 3 minutes into the round</li>
-                <li>Duelist <i>A</i> sat at the wrong ul and played the wrong opponent, and the mistake was caught after the three-minute mark in the round, but before the 10-minute mark</li>
-                <li>Duelist <i>A</i> received a Marked Cards – Minor infraction and was instructed to replace the marked cards before the next round began. The Duelist was unable to replace the cards before the 10-minute mark in the round</li>
+                <li>Duelist <i>A</i> sat at the wrong table and played the wrong opponent, and the mistake was caught after the 3-minute mark in the round, but before the 10-minute mark</li>
+                <li>Duelist <i>A</i> fails to build and/or register his Deck within the allotted timeframe during a Sealed pack event</li>
             </ul>
             <span><b>-------------------------</b></span>
         </td>
@@ -181,8 +181,8 @@ with an illegal Deck. If an error that would result in an illegal Deck or Deck L
         <td>
             <ul>
                 <li>Duelist <i>A</i> is not in his seat within 10 minutes into the round</li>
-                <li>Duelist <i>A</i> sat at the wrong ul and played the wrong opponent, and the mistake was caught after the 10-minute mark</li>
-                <li>Duelist <i>A</i> fails to build and/or register his Deck within the allotted timeframe during a Sealed pack event</li>
+                <li>Duelist <i>A</i> sat at the wrong table and played the wrong opponent, and the mistake was caught after the 10-minute mark</li>
+                <li>Duelist <i>A</i> received a Marked Cards – Minor infraction and was instructed to replace the marked cards before the next round began. The Duelist was unable to replace the cards before the 10-minute mark in the round</li>
             </ul>
             <span><b>-------------------------</b></span>
         </td>
@@ -195,8 +195,8 @@ with an illegal Deck. If an error that would result in an illegal Deck or Deck L
         <td>
             <ul>
                 <li>Banlist infraction prior start of round 1</li>
-                <li>Deck size infraction prior start of round 1</li>
-                <li>Forgot to swap side deck from previous match before beginning new match</li>
+                <li>Deck size infraction (e.g. 39 cards) prior start of round 1</li>
+                <li>Forgot to swap side deck from previous match before beginning new match. The Duelist must restore the Deck within the 3-minute window or risk an additional penalty for Tardiness</li>
                 <li>Extra deck card shuffled into the main deck and drawn during a game. Return to extra and draw a new card</li>
                 <li>Handwriting unreadable</li>
                 <li>Playing with legal foreign language card but no translation kept outisde of the deck</li>
