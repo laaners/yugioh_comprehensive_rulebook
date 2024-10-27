@@ -257,7 +257,7 @@ async function main() {
     const title = idString + " " + header.textContent;
 
     header.outerHTML = `
-        <div style="display:flex; align-items: center; margin: 0; margin-top: 1.5rem;">
+        <div style="display:flex; align-items: center; margin: 0; margin-top: 1.5rem;" class="my-header">
             <h${level} style="margin: 0;" id="${idString}">${title}</h${level}>
             <a href="#${idString}" style="margin-left: 1rem;">
                 <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
@@ -280,7 +280,18 @@ async function main() {
             <span id="toc-2-right">▶</span>
           </div>
         </div>
-        ${createList(toc_json)}
+        <div style="display: flex; justify-content: center; align-items: center; margin-top: 8px; display: none;">
+          <input class="search-bar" type="text" placeholder="Search..">
+          <button type="submit" class="search-button">
+            <img src="images/search.png">
+          </button>
+          <button type="reset" class="reset-button">
+            <img src="images/cross.png">
+          </button>
+        </div>
+        <div class="toc-content" style="overflow-y: hidden">
+          ${createList(toc_json)}
+        </div>
     </div>
   `;
 
@@ -316,18 +327,18 @@ async function main() {
       });
     }
 
-    if (line.includes("<sup>") && false) {
-      const sups = new JSDOM(line).window.document.querySelectorAll("sup a");
-      let sups_replace_line = line;
-      sups.forEach((sup) => {
-        const reference_number = sup.textContent;
-        const oldString = sup.outerHTML;
-        sup.href = "#" + currentSectionId + "-" + reference_number;
-        const newString = sup.outerHTML;
-        sups_replace_line = sups_replace_line.replaceAll(oldString, newString);
-      });
-      lines[i] = sups_replace_line;
-    }
+    // if (line.includes("<sup>") && false) {
+    //   const sups = new JSDOM(line).window.document.querySelectorAll("sup a");
+    //   let sups_replace_line = line;
+    //   sups.forEach((sup) => {
+    //     const reference_number = sup.textContent;
+    //     const oldString = sup.outerHTML;
+    //     sup.href = "#" + currentSectionId + "-" + reference_number;
+    //     const newString = sup.outerHTML;
+    //     sups_replace_line = sups_replace_line.replaceAll(oldString, newString);
+    //   });
+    //   lines[i] = sups_replace_line;
+    // }
 
     // add correct id to reference entries
     if (line.includes("References")) {

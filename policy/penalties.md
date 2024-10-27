@@ -306,7 +306,7 @@ with an illegal Deck. If an error that would result in an illegal Deck or Deck L
                 <li>Duelist <i><u>A</u></i> repeatedly requests to see her opponent's Graveyard, or constantly requests a hand count during a given turn and does not appear to be doing so intentionally</li>
                 <li>Duelist <i><u>A</u></i> takes longer than the 3 minutes allowed to access her Side Deck in between games of a Match and does not appear to be doing so intentionally</li>
                 <li>Duelist <i><u>A</u></i> is excessively slow while taking notes, or repeatedly pauses the turn to refer to notes taken in the current Match. Upon investigation, he does not appear to be doing so intentionally</li>
-                <li>Duelist <i><u>A</u></i> arrives at his ul after 3 minutes have passed in the round, then takes an additional length of time to roll out his Game Mat, rummage for his Deck, or otherwise get set up for the game. The Slow Play penalty should be given in addition to the Tardiness penalty</li>
+                <li>Duelist <i><u>A</u></i> arrives at his table after 3 minutes have passed in the round, then takes an additional length of time to roll out his Game Mat, rummage for his Deck, or otherwise get set up for the game. The Slow Play penalty should be given in addition to the Tardiness penalty</li>
                 <li>Duelist <i><u>A</u></i> repeatedly takes a long time to make decisions about which of his cards to play in a complex combo-based Deck. Upon investigation, it is determined he does not appear to be doing so intentionally</li>
             </ul>
             <span><b>-------------------------</b></span>
@@ -341,8 +341,8 @@ with an illegal Deck. If an error that would result in an illegal Deck or Deck L
         <td><b>UC-Minor (Warning)</b></td>
         <td>
             <ul>
-                <li>Leaves trash behind on his ul after a Match</li>
-                <li>Eats or drinks at a ul during a Match</li>
+                <li>Leaves trash behind on his table after a Match</li>
+                <li>Eats or drinks at a table during a Match</li>
                 <li>Swearing or inappropriate or offensive gestures</li>
                 <li>Insulting a player, spectator or tournament official</li>
                 <li>Failing to follow instructions of a tournament ufficial</li>
