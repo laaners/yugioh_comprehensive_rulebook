@@ -225,6 +225,11 @@ img {
   cursor: pointer;
 }
 
+.toc li.hidden {
+  display: none;
+  counter-increment: none; /* Ensure counter does not increment on hidden items */
+}
+
 @media only screen and (min-width: 960px) {
   .toc-controller {
     display: flex;
@@ -289,3 +294,42 @@ summary {
   cursor: pointer;
 }
 */
+
+/* search bar */
+.search-bar {
+  padding: 6px 10px;
+  font-size: 17px;
+  border-width: 2px;
+}
+
+.search-button {
+  padding: 6px 10px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+
+  display: block;
+}
+
+.reset-button {
+  padding: 2px 6px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+
+  display: none;
+}
+
+.search-button img {
+  width: 18px;
+  height: 18px;
+  object-fit: cover;
+}
+
+.reset-button img {
+  width: 26px;
+  height: 26px;
+  object-fit: cover;
+}

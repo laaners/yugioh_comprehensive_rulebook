@@ -1,6 +1,6 @@
 {
     "Text that specifies \"once per turn\": Activate vs Use": {
-        "Banish until (temporarily banish a card)": [
+        "Banish until - Temporarily banish": [
             {
                 "interaction": "If \"the effect(s) of this card can only be <b>activated</b> once per turn\" or simply \"once per turn:\" is written (different from \"the effect of [card name] can only be activated/used once per turn\"), if that card is flipped face-down or leaves the field and it later appears on the field face-up once again, the same effect of cards with the same name can be activated<sup><a>[]</a></sup>.",
                 "example": "",
@@ -36,21 +36,21 @@
                 "reference": "<li><a target=\"_blank\" href=\"https://ygorganization.com/perfect-rulebook-2017/\">OCG Perfect Rulebook 2017 pages 176-177</a></li>"
             }
         ],
-        "Properties Changing: Name changing": [
+        "Properties Changing - Name changing": [
             {
                 "interaction": "If an effect reads \"You can only use this effect of [card name] once per turn\" or \"You can only use the effect of a card with this name once per turn\", this is not influenced by changes to the card's name on the field<sup><a>[]</a></sup>.",
                 "example": "If the effect of <span class=\"tooltip-anchor\" data-name=\"92723496\">\"Giant Pairfish\"</span> that says \"You can discard 1 monster; Special Summon 1 Level 4 or lower Wyrm-Type monster from your Deck. You can only use this effect of \"Giant Pairfish\" once per turn.\" is activated, and later its name changes by the effect of another card, the effect of the <span class=\"tooltip-anchor\" data-name=\"92723496\">\"Giant Pairfish\"</span> that had its name changed during that turn cannot be activated.",
                 "reference": "<li><a target=\"_blank\" href=\"https://ygorganization.com/perfect-rulebook-2017/\">OCG Perfect Rulebook 2017 page 55</a></li>"
             }
         ],
-        "Properties Changing: Copy effect continuous/lingering": [
+        "Properties Changing - Copy effect continuous/lingering": [
             {
                 "interaction": "If the effects of another monster are gained by an effect that gains effects, the requirements to use that effect like \"can only activate the effect of [card name] once per turn\" are also applied<sup><a>[]</a></sup>.",
                 "example": "<u>Question:</u><br>I control two \"Therion\" monsters, each equipped with a <span class=\"tooltip-anchor\" data-name=\"21727231\">\"Therion \"Reaper\" Fum\"</span>. Due to the  effect of <span class=\"tooltip-anchor\" data-name=\"21727231\">\"Therion \"Reaper\" Fum\"</span>, both of these monsters have gained the  effect of <span class=\"tooltip-anchor\" data-name=\"21727231\">\"Therion \"Reaper\" Fum\"</span>, which allows me to return cards on the field to the hand.<br>During a single turn, can I activate both of these monsters' respective effect gained by <span class=\"tooltip-anchor\" data-name=\"21727231\">\"Therion \"Reaper\" Fum\"</span>?<br><u>Answer:</u><br>You can only activate that effect of one of these monsters.<br>You are considered to be using the  effect of <span class=\"tooltip-anchor\" data-name=\"21727231\">\"Therion \"Reaper\" Fum\"</span> not only if you activate that effect of a <span class=\"tooltip-anchor\" data-name=\"21727231\">\"Therion \"Reaper\" Fum\"</span>, but also if you activate that effect that another monster has gained due to the  effect of <span class=\"tooltip-anchor\" data-name=\"21727231\">\"Therion \"Reaper\" Fum\"</span>.<br><span class=\"tooltip-anchor\" data-name=\"21727231\">\"Therion \"Reaper\" Fum\"</span>'s card text tells you that you can only use the  effect of <span class=\"tooltip-anchor\" data-name=\"21727231\">\"Therion \"Reaper\" Fum\"</span> once per turn. Therefore, you cannot use the  effect of <span class=\"tooltip-anchor\" data-name=\"21727231\">\"Therion \"Reaper\" Fum\"</span> twice during the same turn, even if different monsters have that effect.",
                 "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#23532\">Monsters gaining the effects of other monsters, and once-per-turn restrictions</a></li>"
             }
         ],
-        "Properties Changing: Copy effect resolves as another card's effect": [
+        "Properties Changing - Copy effect resolves as another card's effect": [
             {
                 "interaction": "Copying activated effects and named once per turn restrictions: this kind of effect \"ignores\" named once per turn restrictions<sup><a>[]</a></sup>.",
                 "example": "<u>Question:</u><br>Can you activate <span class=\"tooltip-anchor\" data-name=\"38844957\">\"Urgent Ritual Art\"</span> by banishing <span class=\"tooltip-anchor\" data-name=\"51124303\">\"Nekroz Kaleidoscope\"</span> during a turn in which the Ritual Summoning effect of <span class=\"tooltip-anchor\" data-name=\"51124303\">\"Nekroz Kaleidoscope\"</span> has been used?<br><u>Answer:</u><br>While resolving the effect of <span class=\"tooltip-anchor\" data-name=\"38844957\">\"Urgent Ritual Art\"</span>, the effect of the banished Ritual Spell Card is performed as the resolution of the effect of <span class=\"tooltip-anchor\" data-name=\"38844957\">\"Urgent Ritual Art\"</span>.<br>Therefore, even in that case, <span class=\"tooltip-anchor\" data-name=\"38844957\">\"Urgent Ritual Art\"</span> can be activated by banishing <span class=\"tooltip-anchor\" data-name=\"51124303\">\"Nekroz Kaleidoscope\"</span>.",
@@ -66,9 +66,9 @@
                 "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#9612\"></a></li>"
             }
         ],
-        "Banish instead of sending to the Graveyard": [
+        "Any [X] sent to the Graveyard is banished instead": [
             {
-                "interaction": "While the effect of <span class=\"tooltip-anchor\" data-name=\"30241314\">\"Macro Cosmos\"</span>, cards sent to the Graveyard are banished instead, therefore you cannot send cards to the Graveyard as part of a Special Summoning procedure<sup><a>[]</a></sup>.",
+                "interaction": "While the effect of <span class=\"tooltip-anchor\" data-name=\"30241314\">\"Macro Cosmos\"</span>, cards sent to the Graveyard are banished instead, therefore you cannot \"send cards to the Graveyard\" as part of a Special Summoning procedure. This is only valid for summoning procedures that exactly say \"send to the Graveyard\"<sup><a>[]</a></sup>.",
                 "example": "<u>Question:</u><br>The effect of <span class=\"tooltip-anchor\" data-name=\"30241314\">\"Macro Cosmos\"</span> is applying, banishing any cards that would be sent to the Graveyard. In this situation, is it possible to Special Summon <span class=\"tooltip-anchor\" data-name=\"79229522\">\"Chimeratech Fortress Dragon\"</span> by banishing \"<span class=\"tooltip-anchor\" data-name=\"70095154\">\"Cyber Dragon\"</span>\" + 1+ Machine monsters?<br>Furthermore, if the effect of <span class=\"tooltip-anchor\" data-name=\"30241314\">\"Macro Cosmos\"</span> is negated by <span class=\"tooltip-anchor\" data-name=\"77585513\">\"Jinzo\"</span>, can I send that <span class=\"tooltip-anchor\" data-name=\"77585513\">\"Jinzo\"</span> to the Graveyard in order to Special Summon <span class=\"tooltip-anchor\" data-name=\"79229522\">\"Chimeratech Fortress Dragon\"</span>?<br><u>Answer:</u><br>While the effect of <span class=\"tooltip-anchor\" data-name=\"30241314\">\"Macro Cosmos\"</span> is applying, cards sent to the Graveyard are banished instead. Therefore, you cannot send cards to the Graveyard as part of a Special Summoning procedure, and therefore cannot Special Summon <span class=\"tooltip-anchor\" data-name=\"79229522\">\"Chimeratech Fortress Dragon\"</span> from the Extra Deck.<br>Furthermore, if the effects of <span class=\"tooltip-anchor\" data-name=\"30241314\">\"Macro Cosmos\"</span> are negated by the effect of <span class=\"tooltip-anchor\" data-name=\"77585513\">\"Jinzo\"</span>, and that <span class=\"tooltip-anchor\" data-name=\"77585513\">\"Jinzo\"</span> is sent to the Graveyard, it would be banished by <span class=\"tooltip-anchor\" data-name=\"30241314\">\"Macro Cosmos\"</span>' effect. Therefore, you cannot send that <span class=\"tooltip-anchor\" data-name=\"77585513\">\"Jinzo\"</span> to the Graveyard as part of a Special Summoning procedure while both it and <span class=\"tooltip-anchor\" data-name=\"30241314\">\"Macro Cosmos\"</span> are face-up on the field.",
                 "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#6878\">\"Chimeratech Fortress Dragon\", \"Macro Cosmos\"</a></li>"
             }
@@ -101,7 +101,7 @@
         ]
     },
     "Text that is maintenance cost": {
-        "Properties Changing: Copy effect continuous/lingering": [
+        "Properties Changing - Copy effect continuous/lingering": [
             {
                 "interaction": "Copying the effect of a card does not copy the maintenance cost<sup><a>[]</a></sup>.",
                 "example": "If <span class=\"tooltip-anchor\" data-name=\"84565800\">\"Legendary Knight Hermos\"</span> gains the effects of <span class=\"tooltip-anchor\" data-name=\"14309486\">\"Koa'ki Meiru Overload\"</span>, the text that says \"During each of your End Phases, destroy this card unless you send 1 \"Iron Core of Koa'ki Meiru\" from your hand to the Graveyard or reveal 1 Rock-Type monster in your hand.\" is not applied.",
@@ -117,7 +117,7 @@
                 "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#277\">\"Umi\", \"Crossout Designator\"</a></li>"
             }
         ],
-        "Properties Changing: Name changing": [
+        "Properties Changing - Name changing": [
             {
                 "interaction": "Archetype inclusion/exclusion \"this card is always treated as [a particular title/archetype] card\" clauses apply to a particular card name, not to a particular card: copying the name of a card with such clauses will copy also the \"[a particular title/archetype]\" clause<sup><a>[]</a></sup>.",
                 "example": "<u>Question:</u><br>I activate the effect of <span class=\"tooltip-anchor\" data-name=\"79531196\">\"Crystal Rose\"</span>, and when it resolves, I send <span class=\"tooltip-anchor\" data-name=\"61011438\">\"Brilliant Rose\"</span> to the Graveyard.<br>As a result, the name of <span class=\"tooltip-anchor\" data-name=\"79531196\">\"Crystal Rose\"</span> is now treated as \"<span class=\"tooltip-anchor\" data-name=\"61011438\">\"Brilliant Rose\"</span>\". Will it also be treated as a \"Gem-Knight\" card due to <span class=\"tooltip-anchor\" data-name=\"61011438\">\"Brilliant Rose\"</span>'s text?<br><u>Answer:</u><br>Yes, it is also treated as a \"Gem-Knight\" card.",
@@ -126,7 +126,7 @@
         ]
     },
     "Flip": {
-        "Can only control 1: \"Rivalry of Warlords\"/\"Gozen Match\" like": [
+        "Can only control 1 - \"Rivalry of Warlords\"/\"Gozen Match\" like": [
             {
                 "interaction": "If a monster was flipped face-up during the Damage Step and \"Rivalry of Warlords\"/\"Gozen Match\" is still active, if that monster has a Attribute/Type that conflicts with another monster already face-up on the field, the flipped monster will immediately be sent to the Graveyard at this point (After damage calculation), and Flip Effects will <b>not</b> activate<sup><a>[]</a></sup>.",
                 "example": "",
@@ -158,7 +158,7 @@
         ]
     },
     "Gemini": {
-        "Banish until (temporarily banish a card)": [
+        "Banish until - Temporarily banish": [
             {
                 "interaction": "A Gemini Monster that has been normal summoned again and gained its effects, if banished temporarily and subsequently returned to the field, it is treated as a Normal Monster again and its gained effect is no longer applied<sup><a>[]</a></sup>.",
                 "example": "<u>Question:</u><br><span class=\"tooltip-anchor\" data-name=\"69884162\">\"Elemental HERO Neos Alius\"</span> is Special Summoned by the effect of <span class=\"tooltip-anchor\" data-name=\"8949584\">\"A Hero Lives\"</span>, and then Normal Summoned again so that its effect that treats its name as <span class=\"tooltip-anchor\" data-name=\"89943723\">\"Elemental HERO Neos\"</span> is applying. Afterward, <span class=\"tooltip-anchor\" data-name=\"69884162\">\"Elemental HERO Neos Alius\"</span> is banished by the effect of <span class=\"tooltip-anchor\" data-name=\"36261276\">\"Interdimensional Matter Transporter\"</span>, and then returned to the field during the End Phase. In this case, is it possible to equip <span class=\"tooltip-anchor\" data-name=\"69884162\">\"Elemental HERO Neos Alius\"</span> with <span class=\"tooltip-anchor\" data-name=\"88610708\">\"Bashing Shield\"</span>?<br><u>Answer:</u><br>In this scenario, after <span class=\"tooltip-anchor\" data-name=\"69884162\">\"Elemental HERO Neos Alius\"</span> is banished by the effect of <span class=\"tooltip-anchor\" data-name=\"36261276\">\"Interdimensional Matter Transporter\"</span> and subsequently returned to the field, it is treated as a Normal Monster again and its effect that treats its name as <span class=\"tooltip-anchor\" data-name=\"89943723\">\"Elemental HERO Neos\"</span> is no longer applied. Even in this case, <span class=\"tooltip-anchor\" data-name=\"69884162\">\"Elemental HERO Neos Alius\"</span> is still treated as a Normal Summoned monster, and so it can be equipped with <span class=\"tooltip-anchor\" data-name=\"88610708\">\"Bashing Shield\"</span>.",
@@ -172,7 +172,7 @@
                 "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#19547\">\"Fullmetalfoes Alkahest\" and Gemini monsters</a></li>"
             }
         ],
-        "Cannot summon: Summon restrictions": [
+        "Cannot summon - Summon restrictions": [
             {
                 "interaction": "Summoning a Gemini monster from the Graveyard is treated as summoning a normal monster, even if it will gain its effects on the moment its summon is successful: if an effect is applying that prevents Effect monsters to be summoned, you can still Special Summon a Gemini monster from the Graveyard<sup><a>[]</a></sup>.",
                 "example": "<u>Question:</u><br>Can the effect of <span class=\"tooltip-anchor\" data-name=\"16984449\">\"Blazewing Butterfly\"</span> to Special Summon a Gemini monster from the Graveyard be activated while the effect of <span class=\"tooltip-anchor\" data-name=\"45141013\">\"Heat Wave\"</span> is applying?<br><u>Answer:</u><br>Even if the effect of <span class=\"tooltip-anchor\" data-name=\"45141013\">\"Heat Wave\"</span> is applying, you can activate the effect of <span class=\"tooltip-anchor\" data-name=\"16984449\">\"Blazewing Butterfly\"</span> to Special Summon a Gemini monster from your Graveyard. The targeted monster will be Special Summoned and treated as an Effect Monster as usual.",
@@ -208,7 +208,7 @@
                 "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#6762\">\"Horn of Heaven\", \"Chthonian Emperor Dragon\"</a></li>"
             }
         ],
-        "Properties Changing: Copy effect continuous/lingering": [
+        "Properties Changing - Copy effect continuous/lingering": [
             {
                 "interaction": "If the effects of a Gemini Monster (1) are gained by a Monster (2) that has an effect that gains effects, (2) will be treated as a Normal Monster, but can be Normal Summoned again to gain the listed effect of (1)<sup><a>[]</a></sup>.",
                 "example": "<u>Question:</u><br>If I activate <span class=\"tooltip-anchor\" data-name=\"43237273\">\"Neo-Spacian Dark Panther\"</span>'s effect by targeting a Gemini monster such as <span class=\"tooltip-anchor\" data-name=\"95888876\">\"Chthonian Emperor Dragon\"</span>, what happens?<br><u>Answer:</u><br><span class=\"tooltip-anchor\" data-name=\"43237273\">\"Neo-Spacian Dark Panther\"</span> will gain the effects of the targeted Gemini monster. As a result, it will be treated as a Normal Monster, but can be Normal Summoned again to gain the listed effect.",
@@ -236,7 +236,7 @@
                 "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#12740\">\"Evenly Matched\", \"Panther Warrior\", \"Kashtira Big Bang\"</a></li>"
             }
         ],
-        "Banish until (temporarily banish a card)": [
+        "Banish until - Temporarily banish": [
             {
                 "interaction": "The Token disappears and won't reapper again even when the effect of temporarily banishing stops applying<sup><a>[]</a></sup>.",
                 "example": "<u>Question:</u><br>What happens if <span class=\"tooltip-anchor\" data-name=\"29301450\">\"S:P Little Knight\"</span>'s \"banish both until the End Phase\" effect resolves targeting both itself and one of the following?<br>Ⓐ: A Token<br>Ⓑ: A monster that was originally a Trap Card, such as <span class=\"tooltip-anchor\" data-name=\"74577599\">\"Traptrix Holeutea\"</span><br>Ⓒ: A Ritual, Fusion, Synchro, Xyz, or Link Monster that has not been properly Special Summoned<br><u>Answer:</u><br>Ⓐ: The targeted Token disappears, and <span class=\"tooltip-anchor\" data-name=\"29301450\">\"S:P Little Knight\"</span> is banished until the End Phase. (At that point, <span class=\"tooltip-anchor\" data-name=\"29301450\">\"S:P Little Knight\"</span> returns to the Monster Zone as usual.)<br>Ⓑ: Both <span class=\"tooltip-anchor\" data-name=\"29301450\">\"S:P Little Knight\"</span> and <span class=\"tooltip-anchor\" data-name=\"74577599\">\"Traptrix Holeutea\"</span> are banished, and both return to the Monster Zone during the End Phase. At that point, <span class=\"tooltip-anchor\" data-name=\"74577599\">\"Traptrix Holeutea\"</span> is immediately sent to the Graveyard.<br>Ⓒ: Both monsters are banished, and both monsters return to the Monster Zone normally during the End Phase. (The monsters that return during the End Phase are not being Special Summoned.)",
@@ -298,7 +298,7 @@
             }
         ]
     },
-    "Activate [X] from [location]: Activate a Card through another Card's effect": {
+    "Activate [X] from [location] - Activate a Card through another Card's effect": {
         "Cannot/Neither player can": [
             {
                 "interaction": "If a continuous effect that says \"[X] cannot be activated\" is applying, you still cannot activate [X] through another card's effect<sup><a>[]</a></sup>.",
@@ -306,11 +306,55 @@
                 "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#21195\">\"Anti-Spell Fragrance\", \"Metaverse\"</a></li>"
             }
         ],
-        "Each time [A] happens, do [B]: Continuous Effects that apply at chain link resolution": [
+        "Each time [A] happens, do [B] - Continuous Effects that apply at chain link resolution": [
             {
                 "interaction": "Continuous effects that say \"Each time [X] is activated, do [B]\" won't apply [B] if [X] is activated by another card effect<sup><a>[]</a></sup>.",
                 "example": "<u>Question:</u><br>If <span class=\"tooltip-anchor\" data-name=\"48934760\">\"Demise of the Land\"</span> is activated, how many Spell Counters are placed on <span class=\"tooltip-anchor\" data-name=\"88901771\">\"Skilled Blue Magician\"</span>?<br><u>Answer:</u><br>Only one Spell Counter is placed on <span class=\"tooltip-anchor\" data-name=\"88901771\">\"Skilled Blue Magician\"</span>. (It is placed as a result of <span class=\"tooltip-anchor\" data-name=\"48934760\">\"Demise of the Land\"</span>'s own activation.)<br>If a Spell Card is activated by another effect, <span class=\"tooltip-anchor\" data-name=\"88901771\">\"Skilled Blue Magician\"</span>'s \"each time a Spell Card is activated, place 1 Spell Counter on this card when that Spell resolves\" effect will not be applied, and no Spell Counters are placed as a result of that activation.",
                 "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#228\">\"Demise of the Land\", \"Skilled Blue Magician\"</a></li>"
+            }
+        ]
+    },
+    "Any [X] sent to the Graveyard is banished instead": {
+        "Discard": [
+            {
+                "interaction": "If <span class=\"tooltip-anchor\" data-name=\"30241314\">\"Macro Cosmos\"</span> or something similar is activated, so that cards that would be sent to the Graveyard are banished, discarded cards are not sent to the Graveyard and are banished instead. Cards banished in this way are treated as being banished by a card effect, even if they were discarded as cost<sup><a>[]</a></sup>.",
+                "example": "<u>Question:</u><br>I activate <span class=\"tooltip-anchor\" data-name=\"48130397\">\"Super Polymerization\"</span>, or activate <span class=\"tooltip-anchor\" data-name=\"68468459\">\"Fallen of Albaz\"</span>' effect, by discarding <span class=\"tooltip-anchor\" data-name=\"36577931\">\"Despian Tragedy\"</span> as a cost.<br>After this activation resolves, can the effect of <span class=\"tooltip-anchor\" data-name=\"36577931\">\"Despian Tragedy\"</span>, which activates if it is sent to the Graveyard or banished by a card effect, be activated?<br><u>Answer:</u><br>In this case, <span class=\"tooltip-anchor\" data-name=\"36577931\">\"Despian Tragedy\"</span> was discarded as a cost to activate an effect. It was not sent to the Graveyard by a card effect. Thus, the effect of <span class=\"tooltip-anchor\" data-name=\"36577931\">\"Despian Tragedy\"</span> cannot be activated.<br>The effect of <span class=\"tooltip-anchor\" data-name=\"36577931\">\"Despian Tragedy\"</span> is an effect that can be activated when <span class=\"tooltip-anchor\" data-name=\"36577931\">\"Despian Tragedy\"</span> is sent to the Graveyard by a card effect, or is banished.<br>However, if the situation above occurs while the effect of <span class=\"tooltip-anchor\" data-name=\"30241314\">\"Macro Cosmos\"</span> is applying, the <span class=\"tooltip-anchor\" data-name=\"36577931\">\"Despian Tragedy\"</span> will not be discarded to the Graveyard. Instead, it will be banished by the effect of <span class=\"tooltip-anchor\" data-name=\"30241314\">\"Macro Cosmos\"</span>. As <span class=\"tooltip-anchor\" data-name=\"36577931\">\"Despian Tragedy\"</span> was banished by a card effect, the effect of <span class=\"tooltip-anchor\" data-name=\"36577931\">\"Despian Tragedy\"</span> can then be activated.",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#23227\">\"Despian Tragedy\", \"Fallen of Albaz\", \"Super Polymerization\", \"Macro Cosmos\"</a></li>"
+            }
+        ],
+        "Leaves the field because of an opponent's card effect": [
+            {
+                "interaction": "The activation condition for an effect that says \"if [X] leaves the field because of an opponent's card effect\" can (and can only) be activated if the reason for it leaving the field is your opponent's card effect. The effects of <span class=\"tooltip-anchor\" data-name=\"30241314\">\"Macro Cosmos\"</span> or something similar do not have any impact on the answer to this question<sup><a>[]</a></sup>.",
+                "example": "<u>Question:</u><br>My <span class=\"tooltip-anchor\" data-name=\"72272462\">\"Despian Quaeritis\"</span> is sent to my Graveyard, but it is instead banished due to the \"any (cards/monsters) sent to the Graveyard are banished instead\" effect of my opponent's <span class=\"tooltip-anchor\" data-name=\"30241314\">\"Macro Cosmos\"</span>, <span class=\"tooltip-anchor\" data-name=\"81674782\">\"Dimensional Fissure\"</span> or <span class=\"tooltip-anchor\" data-name=\"91800273\">\"Dimension Shifter\"</span>. Can I now activate <span class=\"tooltip-anchor\" data-name=\"72272462\">\"Despian Quaeritis\"</span>' second effect, which can be activated if it leaves the field due to my opponent's card effect?<br><u>Answer:</u><br>The activation condition for <span class=\"tooltip-anchor\" data-name=\"72272462\">\"Despian Quaeritis\"</span>' effect is \"if this face-up card in its owner's control leaves the field because of an opponent's card effect.\" Therefore, <span class=\"tooltip-anchor\" data-name=\"72272462\">\"Despian Quaeritis\"</span>' effect can (and can only) be activated if the reason for it leaving the field is your opponent's card effect. The effects of <span class=\"tooltip-anchor\" data-name=\"91800273\">\"Dimension Shifter\"</span>, <span class=\"tooltip-anchor\" data-name=\"81674782\">\"Dimensional Fissure\"</span> and <span class=\"tooltip-anchor\" data-name=\"30241314\">\"Macro Cosmos\"</span> do not have any impact on the answer to this question.<br>For example, if your <span class=\"tooltip-anchor\" data-name=\"72272462\">\"Despian Quaeritis\"</span> is destroyed by a <span class=\"tooltip-anchor\" data-name=\"12580477\">\"Raigeki\"</span> that your opponent activated, and banished as a result (due to <span class=\"tooltip-anchor\" data-name=\"91800273\">\"Dimension Shifter\"</span> etc.), you can activate its effect. If it is destroyed by a <span class=\"tooltip-anchor\" data-name=\"53129443\">\"Dark Hole\"</span> that you activated, and banished as a result (even if this is due to your opponent's <span class=\"tooltip-anchor\" data-name=\"91800273\">\"Dimension Shifter\"</span> etc.), you cannot.",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#23991\">\"Despian Quaeritis\", \"Macro Cosmos\"</a></li>"
+            }
+        ],
+        "If [X] would be destroyed, you can do [A] instead - Destruction Substitution": [
+            {
+                "interaction": "The effect of <span class=\"tooltip-anchor\" data-name=\"61528025\">\"Banisher of the Light\"</span>, <span class=\"tooltip-anchor\" data-name=\"30241314\">\"Macro Cosmos\"</span>, <span class=\"tooltip-anchor\" data-name=\"94853057\">\"Banisher of the Radiance\"</span>, or <span class=\"tooltip-anchor\" data-name=\"81674782\">\"Dimensional Fissure\"</span> (1) is applying. A card's effect (2), that prevents a card (3) from being destroyed by sending a card (4) to the graveyard instead, can be applied when (3) would be destroyed even when (1) would banish (4). In this case, (3) will not be destroyed and (4) will be banished by the effect of (1)<sup><a>[]</a></sup>.",
+                "example": "<u>Question:</u><br><span class=\"tooltip-anchor\" data-name=\"30241314\">\"Macro Cosmos\"</span> is face-up in my opponent's Spell &amp; Trap Zone, and its \"Any [X] sent to the Graveyard is banished instead\" effect is applying.<br>In this situation, if a <span class=\"tooltip-anchor\" data-name=\"58699500\">\"Cherubini, Ebon Angel of the Burning Abyss\"</span> in my Extra Monster Zone would be destroyed by battle, or by an opponent's card effect, can I apply its \"you can send 1 other card you control to the Graveyard instead\" effect?<br><u>Answer:</u><br>Yes, you can.<br>If you do, the card you choose to be sent to the Graveyard will not end up in the Graveyard, but will be banished by <span class=\"tooltip-anchor\" data-name=\"30241314\">\"Macro Cosmos\"</span>' effect instead. However, <span class=\"tooltip-anchor\" data-name=\"58699500\">\"Cherubini, Ebon Angel of the Burning Abyss\"</span> will not be destroyed, and will remain in the Monster Zone.<br>(However, note that you need to choose the replacement card from among the cards that are not about to be destroyed. This is the case regardless of whether or not the effect of <span class=\"tooltip-anchor\" data-name=\"30241314\">\"Macro Cosmos\"</span> is applying.)",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#21607\">\"Macro Cosmos \"Cherubini, Ebon Angel of the Burning Abyss\"</a></li>"
+            }
+        ],
+        "Place a card on the field in your Spell/Trap/Pendulum Zone instead of destroying it": [
+            {
+                "interaction": "The effect of <span class=\"tooltip-anchor\" data-name=\"61528025\">\"Banisher of the Light\"</span>, <span class=\"tooltip-anchor\" data-name=\"30241314\">\"Macro Cosmos\"</span>, <span class=\"tooltip-anchor\" data-name=\"94853057\">\"Banisher of the Radiance\"</span>, or <span class=\"tooltip-anchor\" data-name=\"81674782\">\"Dimensional Fissure\"</span> (1) is applying. A card's effect (2), that places a card (3) in the Spell & Trap Zone when (3) is destroyed instead of sending it to the Graveyard, can be applied when (3) would be destroyed even when (1) would banish (3). In this case, (3) will be placed in the Spell & Trap Zone. Furthermore, if you choose not to apply (2)'s effect to place (3) there, (3) will be banished by the effect of (1)<sup><a>[]</a></sup>.",
+                "example": "<u>Question:</u><br>The effect of <span class=\"tooltip-anchor\" data-name=\"61528025\">\"Banisher of the Light\"</span>, <span class=\"tooltip-anchor\" data-name=\"30241314\">\"Macro Cosmos\"</span>, <span class=\"tooltip-anchor\" data-name=\"94853057\">\"Banisher of the Radiance\"</span>, or <span class=\"tooltip-anchor\" data-name=\"81674782\">\"Dimensional Fissure\"</span> is applying. If a card such as <span class=\"tooltip-anchor\" data-name=\"32710364\">\"Crystal Beast Ruby Carbuncle\"</span> is now destroyed, can I place it in the Spell &amp; Trap Zone as a Continuous Spell?<br><u>Answer:</u><br>Even if an effect such as <span class=\"tooltip-anchor\" data-name=\"61528025\">\"Banisher of the Light\"</span>'s is applying, <span class=\"tooltip-anchor\" data-name=\"32710364\">\"Crystal Beast Ruby Carbuncle\"</span> can be placed in the Spell &amp; Trap Zone when it is destroyed.<br>Furthermore, if you choose not to apply <span class=\"tooltip-anchor\" data-name=\"32710364\">\"Crystal Beast Ruby Carbuncle\"</span>'s effect to place it there, <span class=\"tooltip-anchor\" data-name=\"32710364\">\"Crystal Beast Ruby Carbuncle\"</span> will be banished by the effect of <span class=\"tooltip-anchor\" data-name=\"61528025\">\"Banisher of the Light\"</span> etc.",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#6635\">\"Banisher of the Light\", \"Crystal Beast Ruby Carbuncle\"</a></li>"
+            }
+        ],
+        "Traps Treated as Monsters (not treated as Traps)": [
+            {
+                "interaction": "<span class=\"tooltip-anchor\" data-name=\"81674782\">\"Dimensional Fissure\"</span> is face-up in the Spell & Trap Zone. Both Traps Treated as Monsters (not treated as Traps) and Traps Treated as Monsters (still treated as Traps) won't be banished when destroyed and will be sent to the Graveyard normally<sup><a>[]</a></sup>.",
+                "example": "<u>Question:</u><br><span class=\"tooltip-anchor\" data-name=\"81674782\">\"Dimensional Fissure\"</span> is face-up in the Spell &amp; Trap Zone. In this situation, if <span class=\"tooltip-anchor\" data-name=\"54241725\">\"The Prime Monarch\"</span> and <span class=\"tooltip-anchor\" data-name=\"8522996\">\"The First Monarch\"</span> were each Special Summoned as monsters by their own effects, and are then destroyed by the effect of <span class=\"tooltip-anchor\" data-name=\"53129443\">\"Dark Hole\"</span>, will they be banished?<br><u>Answer:</u><br>In this scenario, if <span class=\"tooltip-anchor\" data-name=\"54241725\">\"The Prime Monarch\"</span> and <span class=\"tooltip-anchor\" data-name=\"8522996\">\"The First Monarch\"</span> are destroyed by <span class=\"tooltip-anchor\" data-name=\"53129443\">\"Dark Hole\"</span>, neither card is banished and is sent to the Graveyard normally.",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#7959\">\"Dimensional Fissure\", \"The Prime Monarch\", \"The First Monarch\"</a></li>"
+            }
+        ],
+        "Traps Treated as Monsters (still treated as Traps)": [
+            {
+                "interaction": "<span class=\"tooltip-anchor\" data-name=\"81674782\">\"Dimensional Fissure\"</span> is face-up in the Spell & Trap Zone. Both Traps Treated as Monsters (not treated as Traps) and Traps Treated as Monsters (still treated as Traps) won't be banished when destroyed and will be sent to the Graveyard normally<sup><a>[]</a></sup>.",
+                "example": "<u>Question:</u><br><span class=\"tooltip-anchor\" data-name=\"81674782\">\"Dimensional Fissure\"</span> is face-up in the Spell &amp; Trap Zone. In this situation, if <span class=\"tooltip-anchor\" data-name=\"54241725\">\"The Prime Monarch\"</span> and <span class=\"tooltip-anchor\" data-name=\"8522996\">\"The First Monarch\"</span> were each Special Summoned as monsters by their own effects, and are then destroyed by the effect of <span class=\"tooltip-anchor\" data-name=\"53129443\">\"Dark Hole\"</span>, will they be banished?<br><u>Answer:</u><br>In this scenario, if <span class=\"tooltip-anchor\" data-name=\"54241725\">\"The Prime Monarch\"</span> and <span class=\"tooltip-anchor\" data-name=\"8522996\">\"The First Monarch\"</span> are destroyed by <span class=\"tooltip-anchor\" data-name=\"53129443\">\"Dark Hole\"</span>, neither card is banished and is sent to the Graveyard normally.",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#7959\">\"Dimensional Fissure\", \"The Prime Monarch\", \"The First Monarch\"</a></li>"
             }
         ]
     },
@@ -410,37 +454,7 @@
         ]
     },
     "Banish face-down": {},
-    "Banish instead of sending to the Graveyard": {
-        "If [X] would be destroyed, you can do [A] instead: Destruction Substitution": [
-            {
-                "interaction": "The effect of <span class=\"tooltip-anchor\" data-name=\"61528025\">\"Banisher of the Light\"</span>, <span class=\"tooltip-anchor\" data-name=\"30241314\">\"Macro Cosmos\"</span>, <span class=\"tooltip-anchor\" data-name=\"94853057\">\"Banisher of the Radiance\"</span>, or <span class=\"tooltip-anchor\" data-name=\"81674782\">\"Dimensional Fissure\"</span> (1) is applying. A card's effect (2), that prevents a card (3) from being destroyed by sending a card (4) to the graveyard instead, can be applied when (3) would be destroyed even when (1) would banish (4). In this case, (3) will not be destroyed and (4) will be banished by the effect of (1)<sup><a>[]</a></sup>.",
-                "example": "<u>Question:</u><br><span class=\"tooltip-anchor\" data-name=\"30241314\">\"Macro Cosmos\"</span> is face-up in my opponent's Spell &amp; Trap Zone, and its \"any card sent to the Graveyard is banished instead\" effect is applying.<br>In this situation, if a <span class=\"tooltip-anchor\" data-name=\"58699500\">\"Cherubini, Ebon Angel of the Burning Abyss\"</span> in my Extra Monster Zone would be destroyed by battle, or by an opponent's card effect, can I apply its \"you can send 1 other card you control to the Graveyard instead\" effect?<br><u>Answer:</u><br>Yes, you can.<br>If you do, the card you choose to be sent to the Graveyard will not end up in the Graveyard, but will be banished by <span class=\"tooltip-anchor\" data-name=\"30241314\">\"Macro Cosmos\"</span>' effect instead. However, <span class=\"tooltip-anchor\" data-name=\"58699500\">\"Cherubini, Ebon Angel of the Burning Abyss\"</span> will not be destroyed, and will remain in the Monster Zone.<br>(However, note that you need to choose the replacement card from among the cards that are not about to be destroyed. This is the case regardless of whether or not the effect of <span class=\"tooltip-anchor\" data-name=\"30241314\">\"Macro Cosmos\"</span> is applying.)",
-                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#21607\">\"Macro Cosmos \"Cherubini, Ebon Angel of the Burning Abyss\"</a></li>"
-            }
-        ],
-        "Place a card on the field in your Spell/Trap/Pendulum Zone instead of destroying it": [
-            {
-                "interaction": "The effect of <span class=\"tooltip-anchor\" data-name=\"61528025\">\"Banisher of the Light\"</span>, <span class=\"tooltip-anchor\" data-name=\"30241314\">\"Macro Cosmos\"</span>, <span class=\"tooltip-anchor\" data-name=\"94853057\">\"Banisher of the Radiance\"</span>, or <span class=\"tooltip-anchor\" data-name=\"81674782\">\"Dimensional Fissure\"</span> (1) is applying. A card's effect (2), that places a card (3) in the Spell & Trap Zone when (3) is destroyed instead of sending it to the Graveyard, can be applied when (3) would be destroyed even when (1) would banish (3). In this case, (3) will be placed in the Spell & Trap Zone. Furthermore, if you choose not to apply (2)'s effect to place (3) there, (3) will be banished by the effect of (1)<sup><a>[]</a></sup>.",
-                "example": "<u>Question:</u><br>The effect of <span class=\"tooltip-anchor\" data-name=\"61528025\">\"Banisher of the Light\"</span>, <span class=\"tooltip-anchor\" data-name=\"30241314\">\"Macro Cosmos\"</span>, <span class=\"tooltip-anchor\" data-name=\"94853057\">\"Banisher of the Radiance\"</span>, or <span class=\"tooltip-anchor\" data-name=\"81674782\">\"Dimensional Fissure\"</span> is applying. If a card such as <span class=\"tooltip-anchor\" data-name=\"32710364\">\"Crystal Beast Ruby Carbuncle\"</span> is now destroyed, can I place it in the Spell &amp; Trap Zone as a Continuous Spell?<br><u>Answer:</u><br>Even if an effect such as <span class=\"tooltip-anchor\" data-name=\"61528025\">\"Banisher of the Light\"</span>'s is applying, <span class=\"tooltip-anchor\" data-name=\"32710364\">\"Crystal Beast Ruby Carbuncle\"</span> can be placed in the Spell &amp; Trap Zone when it is destroyed.<br>Furthermore, if you choose not to apply <span class=\"tooltip-anchor\" data-name=\"32710364\">\"Crystal Beast Ruby Carbuncle\"</span>'s effect to place it there, <span class=\"tooltip-anchor\" data-name=\"32710364\">\"Crystal Beast Ruby Carbuncle\"</span> will be banished by the effect of <span class=\"tooltip-anchor\" data-name=\"61528025\">\"Banisher of the Light\"</span> etc.",
-                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#6635\">\"Banisher of the Light\", \"Crystal Beast Ruby Carbuncle\"</a></li>"
-            }
-        ],
-        "Traps Treated as Monsters (not treated as Traps)": [
-            {
-                "interaction": "<span class=\"tooltip-anchor\" data-name=\"81674782\">\"Dimensional Fissure\"</span> is face-up in the Spell & Trap Zone. Both Traps Treated as Monsters (not treated as Traps) and Traps Treated as Monsters (still treated as Traps) won't be banished when destroyed and will be sent to the Graveyard normally<sup><a>[]</a></sup>.",
-                "example": "<u>Question:</u><br><span class=\"tooltip-anchor\" data-name=\"81674782\">\"Dimensional Fissure\"</span> is face-up in the Spell &amp; Trap Zone. In this situation, if <span class=\"tooltip-anchor\" data-name=\"54241725\">\"The Prime Monarch\"</span> and <span class=\"tooltip-anchor\" data-name=\"8522996\">\"The First Monarch\"</span> were each Special Summoned as monsters by their own effects, and are then destroyed by the effect of <span class=\"tooltip-anchor\" data-name=\"53129443\">\"Dark Hole\"</span>, will they be banished?<br><u>Answer:</u><br>In this scenario, if <span class=\"tooltip-anchor\" data-name=\"54241725\">\"The Prime Monarch\"</span> and <span class=\"tooltip-anchor\" data-name=\"8522996\">\"The First Monarch\"</span> are destroyed by <span class=\"tooltip-anchor\" data-name=\"53129443\">\"Dark Hole\"</span>, neither card is banished and is sent to the Graveyard normally.",
-                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#7959\">\"Dimensional Fissure\", \"The Prime Monarch\", \"The First Monarch\"</a></li>"
-            }
-        ],
-        "Traps Treated as Monsters (still treated as Traps)": [
-            {
-                "interaction": "<span class=\"tooltip-anchor\" data-name=\"81674782\">\"Dimensional Fissure\"</span> is face-up in the Spell & Trap Zone. Both Traps Treated as Monsters (not treated as Traps) and Traps Treated as Monsters (still treated as Traps) won't be banished when destroyed and will be sent to the Graveyard normally<sup><a>[]</a></sup>.",
-                "example": "<u>Question:</u><br><span class=\"tooltip-anchor\" data-name=\"81674782\">\"Dimensional Fissure\"</span> is face-up in the Spell &amp; Trap Zone. In this situation, if <span class=\"tooltip-anchor\" data-name=\"54241725\">\"The Prime Monarch\"</span> and <span class=\"tooltip-anchor\" data-name=\"8522996\">\"The First Monarch\"</span> were each Special Summoned as monsters by their own effects, and are then destroyed by the effect of <span class=\"tooltip-anchor\" data-name=\"53129443\">\"Dark Hole\"</span>, will they be banished?<br><u>Answer:</u><br>In this scenario, if <span class=\"tooltip-anchor\" data-name=\"54241725\">\"The Prime Monarch\"</span> and <span class=\"tooltip-anchor\" data-name=\"8522996\">\"The First Monarch\"</span> are destroyed by <span class=\"tooltip-anchor\" data-name=\"53129443\">\"Dark Hole\"</span>, neither card is banished and is sent to the Graveyard normally.",
-                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#7959\">\"Dimensional Fissure\", \"The Prime Monarch\", \"The First Monarch\"</a></li>"
-            }
-        ]
-    },
-    "Banish until (temporarily banish a card)": {
+    "Banish until - Temporarily banish": {
         "Change/Take/Give/Switch Control": [
             {
                 "interaction": "When cards that have been banished temporarily are returned to the field, if their controller had changed, they are returned to the side of the field of the controller they had before being banished<sup><a>[]</a></sup>.",
@@ -463,7 +477,7 @@
             }
         ]
     },
-    "Can only control 1: \"Rivalry of Warlords\"/\"Gozen Match\" like": {
+    "Can only control 1 - \"Rivalry of Warlords\"/\"Gozen Match\" like": {
         "Change/Take/Give/Switch Control": [
             {
                 "interaction": "You can take control of an opponent's monster that's the wrong Type/Attribute with a card like <span class=\"tooltip-anchor\" data-name=\"37520316\">\"Mind Control\"</span>. If you do, it's sent to the Graveyard immediately after you gain control of it<sup><a>[]</a></sup>.",
@@ -481,7 +495,7 @@
     },
     "Cannot/Neither player can": {},
     "Cannot be destroyed once/next/first time per turn": {
-        "If [X] would be destroyed, you can do [A] instead: Destruction Substitution": [
+        "If [X] would be destroyed, you can do [A] instead - Destruction Substitution": [
             {
                 "interaction": "<b>Optional</b> substitution effects (1) <b>cannot</b> be applied to protect another card (2) if the substituting card itself (3) would also be destroyed at the point in time the substitution effect (1) applies. In which case both (2) and (3) will be destroyed. This is true even if an effect that would prevent (3) from being destroyed once/next/first time per turn is applying: the substitution effect cannot be applied<sup><a>[]</a></sup>.",
                 "example": "<u>Question:</u><br>I control <span class=\"tooltip-anchor\" data-name=\"55990317\">\"Hugin the Runick Wings\"</span> and a Field Spell. <span class=\"tooltip-anchor\" data-name=\"67835547\">\"Runick Slumber\"</span>'s effect has been applied to <span class=\"tooltip-anchor\" data-name=\"55990317\">\"Hugin the Runick Wings\"</span>, and as a result, \"the next time [it] would be destroyed by battle or card effect this turn, it is not destroyed.\" <br>In this situation, <span class=\"tooltip-anchor\" data-name=\"73580471\">\"Black Rose Dragon\"</span>'s \"destroy all cards on the field\" effect now resolves. Can I apply <span class=\"tooltip-anchor\" data-name=\"55990317\">\"Hugin the Runick Wings\"</span>'s \"if another card(s) you control would be destroyed by card effect, you can banish this card you control instead\" effect?<br><u>Answer:</u><br>No, you cannot.",
@@ -489,7 +503,7 @@
             }
         ]
     },
-    "Cannot summon: Summon restrictions": {
+    "Cannot summon - Summon restrictions": {
         "Properties Changing": [
             {
                 "interaction": "A card (1) with the restriction of \"you cannot Normal or Special Summon except X monsters the turn you activate this card\" is applying. Normally, if you Summon a monster (2) which violates the restriction of (1), then (1) cannot be activated. Similarly, if you activate (1) first (2) cannot be Summoned. But if<sup><a>[]</a></sup>:<ul><li>A card (3) has an effect that applies to (2) such that when (2) is Summoned it does not violate the restriction of (1), then (1) can be activated <strong>after</strong> (2) has been Summoned.</li><li>A card (3) has an effect that applies to (2) such that when (2) is Summoned it does not violate the restriction of (1), but you have already activated (1) <strong>before</strong> (2) is Summoned, then (2) cannot be Summoned anymore.</li></ul>",
@@ -550,14 +564,14 @@
         ]
     },
     "Card or effect that includes an effect that does [A]": {
-        "During the [X] Phase, [A]: Delayed effects": [
+        "During the [X] Phase, do [A] - Delayed effects": [
             {
                 "interaction": "Effects that resolve [A] later during [X] (during the End Phase for example) are still \"effects that include an effect that does [A]\"<sup><a>[]</a></sup>.",
                 "example": "<u>Question:</u><br>When my opponent Special Summons a monster due to <span class=\"tooltip-anchor\" data-name=\"46448938\">\"Spellbook of Judgment\"</span>, can I activate <span class=\"tooltip-anchor\" data-name=\"84749824\">\"Solemn Warning\"</span>, <span class=\"tooltip-anchor\" data-name=\"50323155\">\"Black Horn of Heaven\"</span>, <span class=\"tooltip-anchor\" data-name=\"93016201\">\"Royal Oppression\"</span>, or similar?<br><u>Answer:</u><br>The Special Summon of a monster when resolving <span class=\"tooltip-anchor\" data-name=\"46448938\">\"Spellbook of Judgment\"</span> during the End Phase does not start a chain. However, as it is a Special Summon of a monster due to the effect of <span class=\"tooltip-anchor\" data-name=\"46448938\">\"Spellbook of Judgment\"</span>, this Special Summon cannot be negated by activating <span class=\"tooltip-anchor\" data-name=\"84749824\">\"Solemn Warning\"</span>, <span class=\"tooltip-anchor\" data-name=\"50323155\">\"Black Horn of Heaven\"</span>, <span class=\"tooltip-anchor\" data-name=\"93016201\">\"Royal Oppression\"</span>, or similar.<br>However, <span class=\"tooltip-anchor\" data-name=\"84749824\">\"Solemn Warning\"</span> and <span class=\"tooltip-anchor\" data-name=\"93016201\">\"Royal Oppression\"</span> can be activated in response to the card activation of <span class=\"tooltip-anchor\" data-name=\"46448938\">\"Spellbook of Judgment\"</span>.",
                 "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#12713\">Negating delayed Special Summons</a></li>"
             }
         ],
-        "Effect becomes [A]: changing/overwriting effects": [
+        "Effect becomes [A] - Changing/overwriting effects": [
             {
                 "interaction": "Changing/overwriting an effect so that it does [A] instead does not make it a card or effect \"that includes an effect that does [A]\"<sup><a>[]</a></sup>.",
                 "example": "<u>Question:</u><br>When my opponent activates the effect of <span class=\"tooltip-anchor\" data-name=\"38053381\">\"Generaider Boss Stage\"</span> that Special Summons a \"Generaider\" monster from their Deck, I chain <span class=\"tooltip-anchor\" data-name=\"5318639\">\"Mystical Space Typhoon\"</span> and target <span class=\"tooltip-anchor\" data-name=\"38053381\">\"Generaider Boss Stage\"</span>. Then, if my opponent chains the effect of <span class=\"tooltip-anchor\" data-name=\"64325438\">\"Generaider Boss Room\"</span>, can I further chain the effect of <span class=\"tooltip-anchor\" data-name=\"14558127\">\"Ash Blossom &amp; Joyous Spring\"</span>?<br><u>Answer:</u><br>When your opponent activates the effect of <span class=\"tooltip-anchor\" data-name=\"64325438\">\"Generaider Boss Room\"</span>, you cannot chain the effect of <span class=\"tooltip-anchor\" data-name=\"14558127\">\"Ash Blossom &amp; Joyous Spring\"</span>.",
@@ -571,7 +585,7 @@
                 "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#23933\">Special Summons caused by a card effect, and whether the effect includes Special Summoning</a></li>"
             }
         ],
-        "Properties Changing: Copy effect resolves as another card's effect": [
+        "Properties Changing - Copy effect resolves as another card's effect": [
             {
                 "interaction": "A card or effect that copies a card's effect that does [A] is not treates as a card or effect \"that includes an effect that does [A]\"<sup><a>[]</a></sup>.",
                 "example": "<u>Question:</u><br>When the \"You can pay 2000 Life Points and send 1 \"Fusion\" or \"<span class=\"tooltip-anchor\" data-name=\"24094653\">\"Polymerization\"</span>\" Normal or Quick-Play Spell from your Deck to the Graveyard; this effect becomes that Spell's effect when that card is activated, also, you cannot Special Summon monsters for the rest of this turn.\" effect of <span class=\"tooltip-anchor\" data-name=\"70369116\">\"Predaplant Verte Anaconda\"</span> is activated, will the \"The activation of your cards and effects that include an effect that Fusion Summons a Fusion Monster cannot be negated, also your opponent's cards and effects cannot activate when a monster is Fusion Summoned this way.\" effect of <span class=\"tooltip-anchor\" data-name=\"47679935\">\"Magical Meltdown\"</span> be applied?<br><u>Answer:</u><br>No, it will not be applied.<br>Even if the effect of <span class=\"tooltip-anchor\" data-name=\"70369116\">\"Predaplant Verte Anaconda\"</span> results in a Fusion Summon being performed, it is not treated as an effect that \"includes an effect that Fusion Summons a Fusion Monster,\" so the effect of <span class=\"tooltip-anchor\" data-name=\"47679935\">\"Magical Meltdown\"</span>, <span class=\"tooltip-anchor\" data-name=\"9069157\">\"Dragonroid\"</span> or <span class=\"tooltip-anchor\" data-name=\"18973184\">\"Branded Lost\"</span> will not be applied.<br>As an example, if the opponent activates <span class=\"tooltip-anchor\" data-name=\"40605147\">\"Solemn Strike\"</span> in response to the activation of the effect of <span class=\"tooltip-anchor\" data-name=\"70369116\">\"Predaplant Verte Anaconda\"</span>, its activation will be negated.<br>If the Fusion Summon performed is successful, the opponent can still respond with cards and effects.",
@@ -580,7 +594,7 @@
         ]
     },
     "Card or effect that would do [A]": {
-        "During the [X] Phase, [A]: Delayed effects": [
+        "During the [X] Phase, do [A] - Delayed effects": [
             {
                 "interaction": "Effects that resolve [A] later during [X] (during the End Phase for example) are not \"effects that would do [A]\". Also, since the application of the effect during the [X] Phase does not create a chain, the effect of cards that chain to \"Card or effect that would do [A]\" cannot be activated at that time<sup><a>[]</a></sup>.",
                 "example": "<u>Question:</u><br>Can the activation of the effect of <span class=\"tooltip-anchor\" data-name=\"5010422\">\"Prediction Princess Astromorrigan\"</span> be negated by <span class=\"tooltip-anchor\" data-name=\"44508094\">\"Stardust Dragon\"</span>?<br><u>Answer:</u><br>The effect of <span class=\"tooltip-anchor\" data-name=\"44508094\">\"Stardust Dragon\"</span> cannot be chained to that of <span class=\"tooltip-anchor\" data-name=\"5010422\">\"Prediction Princess Astromorrigan\"</span>. Also, since the application of the effect during the End Phase does not create a chain, the effect of <span class=\"tooltip-anchor\" data-name=\"44508094\">\"Stardust Dragon\"</span> cannot be activated at that time.",
@@ -594,7 +608,7 @@
                 "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#11290\">\"Horus the Black Flame Dragon LV8\", \"Stardust Dragon\"</a></li>"
             }
         ],
-        "Properties Changing: Copy effect resolves as another card's effect": [
+        "Properties Changing - Copy effect resolves as another card's effect": [
             {
                 "interaction": "An effect that copies a card's effect that does [A] is not treates as an \"effects that would do [A]\"<sup><a>[]</a></sup>.",
                 "example": "<u>Question:</u><br>If the effect of <span class=\"tooltip-anchor\" data-name=\"6511113\">\"Traptrix Rafflesia\"</span> that makes its effect become the same as a \"Hole\" Normal Trap Card is activated, can the effect of <span class=\"tooltip-anchor\" data-name=\"44508094\">\"Stardust Dragon\"</span> be chained to it?<br><u>Answer:</u><br>The effect of <span class=\"tooltip-anchor\" data-name=\"6511113\">\"Traptrix Rafflesia\"</span> is not treated as an effect that destroys cards on the field when it is activated. Even if <span class=\"tooltip-anchor\" data-name=\"4206964\">\"Trap Hole\"</span> or <span class=\"tooltip-anchor\" data-name=\"29401950\">\"Bottomless Trap Hole\"</span> are sent to the Graveyard when their activation requirements are met, it is not possible to chain the effect of <span class=\"tooltip-anchor\" data-name=\"44508094\">\"Stardust Dragon\"</span>.",
@@ -662,7 +676,7 @@
         ]
     },
     "Continuous destroys/sends itself (self-destruct/self-send)": {
-        "If [X] would be destroyed, you can do [A] instead: Destruction Substitution": [
+        "If [X] would be destroyed, you can do [A] instead - Destruction Substitution": [
             {
                 "interaction": "Substituting for continuous attempts to destroy can be attempted, though futile<sup><a>[]</a></sup>.",
                 "example": "<u>Question:</u><br>If <span class=\"tooltip-anchor\" data-name=\"43175858\">\"Toon Kingdom\"</span> is face-up on my side of the field, and I activate <span class=\"tooltip-anchor\" data-name=\"33453260\">\"Comic Hand\"</span> by targeting an opponent's <span class=\"tooltip-anchor\" data-name=\"23205979\">\"Spirit Reaper\"</span>, how will the effects apply?<br><u>Answer:</u><br>When <span class=\"tooltip-anchor\" data-name=\"33453260\">\"Comic Hand\"</span> resolves, you take control of the <span class=\"tooltip-anchor\" data-name=\"23205979\">\"Spirit Reaper\"</span> that was targeted, and it will be treated as a Toon monster.<br>After you gain control of <span class=\"tooltip-anchor\" data-name=\"23205979\">\"Spirit Reaper\"</span>, its effect that destroys it when it is targeted by a card or effect will apply. In this case, you can apply the last effect of <span class=\"tooltip-anchor\" data-name=\"43175858\">\"Toon Kingdom\"</span> once, and banish the top card of your Deck face-down, but the effect of <span class=\"tooltip-anchor\" data-name=\"23205979\">\"Spirit Reaper\"</span> will immediately apply again, resulting in <span class=\"tooltip-anchor\" data-name=\"23205979\">\"Spirit Reaper\"</span> being destroyed.",
@@ -671,6 +685,7 @@
         ]
     },
     "Declare 1 card name": {},
+    "Discard": {},
     "Draw": {
         "Return/Add to the Hand": [
             {
@@ -685,7 +700,7 @@
             }
         ]
     },
-    "During the [X] Phase, [A]: Delayed effects": {
+    "During the [X] Phase, do [A] - Delayed effects": {
         "Negate Summons": [
             {
                 "interaction": "The Special Summon of a monster when resolving an effect that happens later (during the End Phase for example) does not start a chain such as <span class=\"tooltip-anchor\" data-name=\"46448938\">\"Spellbook of Judgment\"</span>.<ul><li>As it is a Special Summon of a monster due an effect, this Special Summon cannot be negated by activating effects that negate summons like <span class=\"tooltip-anchor\" data-name=\"50323155\">\"Black Horn of Heaven\"</span><sup><a>[]</a></sup>.</li><li>However, it is still an \"effects that include an effect that Special Summons a monster(s)\", so cards like <span class=\"tooltip-anchor\" data-name=\"c84749824\">\"Solemn Warning\"</span> can be activated in response<sup><a>[]</a></sup>.</li></ul>",
@@ -701,8 +716,8 @@
             }
         ]
     },
-    "Each time [A] happens, do [B]: Continuous Effects that apply at chain link resolution": {},
-    "Effect becomes [A]: changing/overwriting effects": {
+    "Each time [A] happens, do [B] - Continuous Effects that apply at chain link resolution": {},
+    "Effect becomes [A] - Changing/overwriting effects": {
         "Unaffected": [
             {
                 "interaction": "Changing/overwriting an effect so that it does [A] instead does not affect monsters.",
@@ -740,7 +755,21 @@
             }
         ]
     },
-    "If [X] would be destroyed, you can do [A] instead: Destruction Substitution": {
+    "If [X] destroys a monster by battle: do [A]": {
+        "Traps Treated as Monsters (still treated as Traps)": [
+            {
+                "interaction": "If an effect (1) reads \"If [X] destroys a monster by battle: do [A]\", if [X] destroys a trap treated as a monster (still treated as a trap) then [A] can be activated<sup><a>[]</a></sup>.",
+                "example": "<u>Question:</u><br>If my <span class=\"tooltip-anchor\" data-name=\"53981499\">\"Mighty Warrior\"</span> destroys <span class=\"tooltip-anchor\" data-name=\"28649820\">\"Embodiment of Apophis\"</span> by battle and sends it to the Graveyard, will <span class=\"tooltip-anchor\" data-name=\"53981499\">\"Mighty Warrior\"</span>'s effect that inflicts damage be activated?<br><u>Answer:</u><br>Even if <span class=\"tooltip-anchor\" data-name=\"53981499\">\"Mighty Warrior\"</span> destroys <span class=\"tooltip-anchor\" data-name=\"28649820\">\"Embodiment of Apophis\"</span> by battle, its effect will still be activated and inflict damage to your opponent.<br>As you destroyed <span class=\"tooltip-anchor\" data-name=\"28649820\">\"Embodiment of Apophis\"</span> with original ATK 1600 by battle, your opponent will take 800 points of damage.",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#12544\">\"Mighty Warrior\", \"Embodiment of Apophis\"</a></li>"
+            },
+            {
+                "interaction": "If an effect (1) reads \"If [X] destroys a monster by battle and sends it to the GY: do [A]\", if [X] destroys a trap treated as a monster (still treated as a trap) then [A] cannot be activated as it is not a monster anymore in the Graveyard<sup><a>[]</a></sup>.",
+                "example": "<u>Question:</u><br>When <span class=\"tooltip-anchor\" data-name=\"26885836\">\"Heroic Challenger - War Hammer\"</span> destroys an <span class=\"tooltip-anchor\" data-name=\"28649820\">\"Embodiment of Apophis\"</span> or <span class=\"tooltip-anchor\" data-name=\"49514333\">\"Tiki Soul\"</span> that are treated as monsters by battle and sends them to the Graveyard, can its effect to equip the destroyed monster to itself be activated? Also, if <span class=\"tooltip-anchor\" data-name=\"26885836\">\"Heroic Challenger - War Hammer\"</span> destroys a Spell/Trap Card treated as a monster by the effect of <span class=\"tooltip-anchor\" data-name=\"81210420\">\"Magical Hats\"</span> by battle and sends it to the Graveyard, can its effect to equip the destroyed monster be activated?<br><u>Answer:</u><br>The effect of <span class=\"tooltip-anchor\" data-name=\"26885836\">\"Heroic Challenger - War Hammer\"</span> cannot be activated if it destroys an <span class=\"tooltip-anchor\" data-name=\"28649820\">\"Embodiment of Apophis\"</span> treated as a monster by its own effect, or another Spell/Trap treated as a monster by the effects of <span class=\"tooltip-anchor\" data-name=\"81210420\">\"Magical Hats\"</span>, by battle.",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#12277\">\"Heroic Challenger - War Hammer\", \"Embodiment of Apophis\", \"Tiki Soul\", \"Magical Hats\"</a></li>"
+            }
+        ]
+    },
+    "If [X] would be destroyed, you can do [A] instead - Destruction Substitution": {
         "Unaffected": [
             {
                 "interaction": "Substitution does not affect the protected monster, and a monster unaffected by card effects can be protected by destruction substitution<sup><a>[]</a></sup>.",
@@ -851,14 +880,14 @@
                 "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#15597\">When a monster's effects that gained the Level, name or effect of another monster are negated, then only the Level will return to its original value</a></li>"
             }
         ],
-        "Properties Changing: Copy effect continuous/lingering": [
+        "Properties Changing - Copy effect continuous/lingering": [
             {
                 "interaction": "When a monster's effects that gained the Level, name or effect of another monster are negated, then only the Level will return to its original value<sup><a>[]</a></sup>.",
                 "example": "<u>Question:</u><br>The effect of <span class=\"tooltip-anchor\" data-name=\"58446973\">\"Infernoid Decatron\"</span> was activated, gaining the name and effects of <span class=\"tooltip-anchor\" data-name=\"88301393\">\"Infernoid Attondel\"</span> and increasing its Level by 8.<br>Afterwards if <span class=\"tooltip-anchor\" data-name=\"58446973\">\"Infernoid Decatron\"</span> has its effects negated by the effect of <span class=\"tooltip-anchor\" data-name=\"82732705\">\"Skill Drain\"</span> being activated, what happens with the applied effect?<br><u>Answer:</u><br>In the proposed scenario, the Level of <span class=\"tooltip-anchor\" data-name=\"58446973\">\"Infernoid Decatron\"</span> that was increased by 8 returns to the original value, but the gained name remains as <span class=\"tooltip-anchor\" data-name=\"88301393\">\"Infernoid Attondel\"</span>.<br>Also, the gained effects of <span class=\"tooltip-anchor\" data-name=\"88301393\">\"Infernoid Attondel\"</span> remain gained, but they are negated by <span class=\"tooltip-anchor\" data-name=\"82732705\">\"Skill Drain\"</span>.<br>(If you activate the \"this card can make a second attack in a row\" effect, it will be negated. If you activate the \"target 1 card in your opponent's Graveyard; banish it\" effect by Tributing another monster, it will be negated. If you activate that effect by Tributing <span class=\"tooltip-anchor\" data-name=\"58446973\">\"Infernoid Decatron\"</span> itself, it will not be negated.)<br>Similarly, the following monsters will also retain the card names they gained, even if their effects are negated after the effect in question has been applied: <span class=\"tooltip-anchor\" data-name=\"72708264\">\"Performapal Bot-Eyes Lizard\"</span>, <span class=\"tooltip-anchor\" data-name=\"79531196\">\"Crystal Rose\"</span>, <span class=\"tooltip-anchor\" data-name=\"16828633\">\"Genex Spare\"</span>, and <span class=\"tooltip-anchor\" data-name=\"51827737\">\"Genex Recycled\"</span>.",
                 "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#15597\">When a monster's effects that gained the Level, name or effect of another monster are negated, then only the Level will return to its original value</a></li>"
             }
         ],
-        "Properties Changing: Name changing": [
+        "Properties Changing - Name changing": [
             {
                 "interaction": "When a monster's effects that gained the Level, name or effect of another monster are negated, then only the Level will return to its original value<sup><a>[]</a></sup>.",
                 "example": "<u>Question:</u><br>The effect of <span class=\"tooltip-anchor\" data-name=\"58446973\">\"Infernoid Decatron\"</span> was activated, gaining the name and effects of <span class=\"tooltip-anchor\" data-name=\"88301393\">\"Infernoid Attondel\"</span> and increasing its Level by 8.<br>Afterwards if <span class=\"tooltip-anchor\" data-name=\"58446973\">\"Infernoid Decatron\"</span> has its effects negated by the effect of <span class=\"tooltip-anchor\" data-name=\"82732705\">\"Skill Drain\"</span> being activated, what happens with the applied effect?<br><u>Answer:</u><br>In the proposed scenario, the Level of <span class=\"tooltip-anchor\" data-name=\"58446973\">\"Infernoid Decatron\"</span> that was increased by 8 returns to the original value, but the gained name remains as <span class=\"tooltip-anchor\" data-name=\"88301393\">\"Infernoid Attondel\"</span>.<br>Also, the gained effects of <span class=\"tooltip-anchor\" data-name=\"88301393\">\"Infernoid Attondel\"</span> remain gained, but they are negated by <span class=\"tooltip-anchor\" data-name=\"82732705\">\"Skill Drain\"</span>.<br>(If you activate the \"this card can make a second attack in a row\" effect, it will be negated. If you activate the \"target 1 card in your opponent's Graveyard; banish it\" effect by Tributing another monster, it will be negated. If you activate that effect by Tributing <span class=\"tooltip-anchor\" data-name=\"58446973\">\"Infernoid Decatron\"</span> itself, it will not be negated.)<br>Similarly, the following monsters will also retain the card names they gained, even if their effects are negated after the effect in question has been applied: <span class=\"tooltip-anchor\" data-name=\"72708264\">\"Performapal Bot-Eyes Lizard\"</span>, <span class=\"tooltip-anchor\" data-name=\"79531196\">\"Crystal Rose\"</span>, <span class=\"tooltip-anchor\" data-name=\"16828633\">\"Genex Spare\"</span>, and <span class=\"tooltip-anchor\" data-name=\"51827737\">\"Genex Recycled\"</span>.",
@@ -872,7 +901,7 @@
                 "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#12314\">Effects negation, and what removes/doesn't remove it</a></li>"
             }
         ],
-        "This turn/For the rest of the turn/Until [X] turn, apply [A]: Lingering Effects": [
+        "This turn/For the rest of the turn/Until [X] turn, apply [A] - Lingering Effects": [
             {
                 "interaction": "A face-up card has applied an effect that lasts for this turn. If in this same turn that card has its effects negated, the previously applied effect will still linger for the turn<sup><a>[]</a></sup>.",
                 "example": "<u>Question:</u><br>I successfully Fusion Summoned a <span class=\"tooltip-anchor\" data-name=\"18514525\">\"Prank-Kids Rocket Ride\"</span> and activated its effect this turn. If <span class=\"tooltip-anchor\" data-name=\"82732705\">\"Skill Drain\"</span> is activated after it resolved, how is the effect applied?<br><u>Answer:</u><br>If <span class=\"tooltip-anchor\" data-name=\"82732705\">\"Skill Drain\"</span> is activated after the effect of <span class=\"tooltip-anchor\" data-name=\"18514525\">\"Prank-Kids Rocket Ride\"</span> has resolved, and its effects are negated, <span class=\"tooltip-anchor\" data-name=\"18514525\">\"Prank-Kids Rocket Ride\"</span> will no longer lose 1000 ATK, but it will still be able to attack directly with its effect that turn.",
@@ -898,14 +927,14 @@
     "Place a card on the field in your Spell/Trap/Pendulum Zone": {},
     "Place a card on the field in your Spell/Trap/Pendulum Zone instead of destroying it": {},
     "Properties Changing": {},
-    "Properties Changing: Name changing": {},
-    "Properties Changing: Copy effect continuous/lingering": {},
-    "Properties Changing: Copy effect resolves as another card's effect": {},
+    "Properties Changing - Name changing": {},
+    "Properties Changing - Copy effect continuous/lingering": {},
+    "Properties Changing - Copy effect resolves as another card's effect": {},
     "Return/Shuffle to the Deck": {},
     "Return/Add to the Hand": {},
     "Reveal": {},
     "Summon from Spell/Trap/Pendulum Zone": {},
-    "This turn/For the rest of the turn/Until [X] turn, apply [A]: Lingering Effects": {
+    "This turn/For the rest of the turn/Until [X] turn, apply [A] - Lingering Effects": {
         "Unaffected by activated effects": [
             {
                 "interaction": "Continuous/lingering effects that begin applying when the Chain Link formed by the card activation resolves, these effects will continue to apply to monsters afterwards. Therefore, these effects can affect monsters that are \"unaffected by activated effects\"<sup><a>[]</a></sup>.",
@@ -919,7 +948,7 @@
     "Unaffected": {},
     "Unaffected by activated effects": {},
     "\"Necrovalley\"": {
-        "During the [X] Phase, [A]: Delayed effects": [
+        "During the [X] Phase, do [A] - Delayed effects": [
             {
                 "interaction": "An effect that resolves at a later point, moving a card(s) in the GY to a different place, can be activated when <span class=\"tooltip-anchor\" data-name=\"47355498\">\"Necrovalley\"</span> is face-up on the field and its effect will not be negated. If at the time of the delayed effect resolution <span class=\"tooltip-anchor\" data-name=\"47355498\">\"Necrovalley\"</span> is still face-up on the field, that effect won't resolve successfully and won't move any card in the GY. If on other hand <span class=\"tooltip-anchor\" data-name=\"47355498\">\"Necrovalley\"</span> is not face-up on the field anymore, then that effect resolves normally by moving a card(s) in the GY<sup><a>[]</a></sup>.",
                 "example": "<u>Question:</u><br><span class=\"tooltip-anchor\" data-name=\"47355498\">\"Necrovalley\"</span> is face-up in my opponent's Field Zone. In this situation, if I Normal or Special Summon <span class=\"tooltip-anchor\" data-name=\"66386380\">\"Harpie Oracle\"</span> and activate its effect, will it be negated?<br><u>Answer:</u><br>Even if <span class=\"tooltip-anchor\" data-name=\"66386380\">\"Harpie Oracle\"</span> is Normal or Special Summoned and activates its effect while the effect of <span class=\"tooltip-anchor\" data-name=\"47355498\">\"Necrovalley\"</span> is applying, as in this scenario, the effect will not be negated.<br>However, if the effect of <span class=\"tooltip-anchor\" data-name=\"47355498\">\"Necrovalley\"</span> is applying during the End Phase when you apply <span class=\"tooltip-anchor\" data-name=\"66386380\">\"Harpie Oracle\"</span>'s effect, you cannot add an appropriate Spell/Trap Card from your Graveyard to your hand.<br>(If the effect of <span class=\"tooltip-anchor\" data-name=\"47355498\">\"Necrovalley\"</span> has stopped applying by the time you reach the End Phase, you can add the Spell/Trap Card from your Graveyard to your hand normally.)",
