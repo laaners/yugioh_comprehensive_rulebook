@@ -112,6 +112,11 @@ function mergeIncludes(document) {
 
         let sup_current_index = references_list_items.length;
 
+        // for separators
+        let last_html =
+          glossary_entry_list == undefined ? "" : glossary_entry_list.innerHTML;
+        let final_html = "";
+
         for (const entry of glossary_entries) {
           if (glossary[section_title] != undefined) {
             if (glossary[section_title][entry] != undefined) {
@@ -131,7 +136,42 @@ function mergeIncludes(document) {
                 references_list
               );
             }
+
+            if (last_html !== glossary_entry_list.innerHTML) {
+              // separators
+              if (
+                entry ===
+                'Text that says "this card is always treated as [card name]/[a particular title/archetype] card"'
+              ) {
+                final_html += `<hr><p style="text-align:center;"><strong>Texts that are not an effect</strong></p><hr>${glossary_entry_list.innerHTML}`;
+                glossary_entry_list.innerHTML = ""
+                last_html = glossary_entry_list.innerHTML;
+              }
+              if (entry === "Gemini") {
+                final_html += `<hr><p style="text-align:center;"><strong>Monster abilities</strong></p><hr>${glossary_entry_list.innerHTML}`;
+                glossary_entry_list.innerHTML = ""
+                last_html = glossary_entry_list.innerHTML;
+              }
+              if (entry === "Counters") {
+                final_html += `<hr><p style="text-align:center;"><strong>Other game elements</strong></p><hr>${glossary_entry_list.innerHTML}`;
+                glossary_entry_list.innerHTML = ""
+                last_html = glossary_entry_list.innerHTML;
+              }
+              if (entry === "Unaffected by activated effects") {
+                final_html += `<hr><p style="text-align:center;"><strong>Other effects</strong></p><hr>${glossary_entry_list.innerHTML}`;
+                glossary_entry_list.innerHTML = ""
+                last_html = glossary_entry_list.innerHTML;
+              }
+              if (entry === '"Necrovalley"') {
+                final_html += `<hr><p style="text-align:center;"><strong>Specific cards</strong></p><hr>${glossary_entry_list.innerHTML}`;
+                glossary_entry_list.innerHTML = ""
+                last_html = glossary_entry_list.innerHTML;
+              }
+            }
           }
+        }
+        if (glossary[section_title] != undefined) {
+          glossary_entry_list.innerHTML = final_html;
         }
       } catch (error) {
         console.log(section_title);

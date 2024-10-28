@@ -315,6 +315,13 @@
         ]
     },
     "Any [X] sent to the Graveyard is banished instead": {
+        "Destroy": [
+            {
+                "interaction": "If <span class=\"tooltip-anchor\" data-name=\"30241314\">\"Macro Cosmos\"</span> or something similar is activated, so that cards that would be sent to the Graveyard are banished, cards that are destroyed are not sent to the Graveyard and are banished instead<sup><a>[]</a></sup>.",
+                "example": "",
+                "reference": "<li><a target=\"_blank\" href=\"https://ygorganization.com/perfect-rulebook-2017/\">OCG Perfect Rulebook 2017 page 147</a></li>"
+            }
+        ],
         "Discard": [
             {
                 "interaction": "If <span class=\"tooltip-anchor\" data-name=\"30241314\">\"Macro Cosmos\"</span> or something similar is activated, so that cards that would be sent to the Graveyard are banished, discarded cards are not sent to the Graveyard and are banished instead. Cards banished in this way are treated as being banished by a card effect, even if they were discarded as cost<sup><a>[]</a></sup>.",
@@ -341,6 +348,13 @@
                 "interaction": "The effect of <span class=\"tooltip-anchor\" data-name=\"61528025\">\"Banisher of the Light\"</span>, <span class=\"tooltip-anchor\" data-name=\"30241314\">\"Macro Cosmos\"</span>, <span class=\"tooltip-anchor\" data-name=\"94853057\">\"Banisher of the Radiance\"</span>, or <span class=\"tooltip-anchor\" data-name=\"81674782\">\"Dimensional Fissure\"</span> (1) is applying. A card's effect (2), that places a card (3) in the Spell & Trap Zone when (3) is destroyed instead of sending it to the Graveyard, can be applied when (3) would be destroyed even when (1) would banish (3). In this case, (3) will be placed in the Spell & Trap Zone. Furthermore, if you choose not to apply (2)'s effect to place (3) there, (3) will be banished by the effect of (1)<sup><a>[]</a></sup>.",
                 "example": "<u>Question:</u><br>The effect of <span class=\"tooltip-anchor\" data-name=\"61528025\">\"Banisher of the Light\"</span>, <span class=\"tooltip-anchor\" data-name=\"30241314\">\"Macro Cosmos\"</span>, <span class=\"tooltip-anchor\" data-name=\"94853057\">\"Banisher of the Radiance\"</span>, or <span class=\"tooltip-anchor\" data-name=\"81674782\">\"Dimensional Fissure\"</span> is applying. If a card such as <span class=\"tooltip-anchor\" data-name=\"32710364\">\"Crystal Beast Ruby Carbuncle\"</span> is now destroyed, can I place it in the Spell &amp; Trap Zone as a Continuous Spell?<br><u>Answer:</u><br>Even if an effect such as <span class=\"tooltip-anchor\" data-name=\"61528025\">\"Banisher of the Light\"</span>'s is applying, <span class=\"tooltip-anchor\" data-name=\"32710364\">\"Crystal Beast Ruby Carbuncle\"</span> can be placed in the Spell &amp; Trap Zone when it is destroyed.<br>Furthermore, if you choose not to apply <span class=\"tooltip-anchor\" data-name=\"32710364\">\"Crystal Beast Ruby Carbuncle\"</span>'s effect to place it there, <span class=\"tooltip-anchor\" data-name=\"32710364\">\"Crystal Beast Ruby Carbuncle\"</span> will be banished by the effect of <span class=\"tooltip-anchor\" data-name=\"61528025\">\"Banisher of the Light\"</span> etc.",
                 "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#6635\">\"Banisher of the Light\", \"Crystal Beast Ruby Carbuncle\"</a></li>"
+            }
+        ],
+        "Send to the Graveyard": [
+            {
+                "interaction": "If <span class=\"tooltip-anchor\" data-name=\"30241314\">\"Macro Cosmos\"</span> or something similar is activated, so that cards that would be sent to the Graveyard are banished, cards are not sent to the Graveyard and are banished instead<sup><a>[]</a></sup>.",
+                "example": "",
+                "reference": "<li><a target=\"_blank\" href=\"https://ygorganization.com/perfect-rulebook-2017/\">OCG Perfect Rulebook 2017 pages 148-149</a></li>"
             }
         ],
         "Traps Treated as Monsters (not treated as Traps)": [
@@ -457,9 +471,14 @@
     "Banish until - Temporarily banish": {
         "Change/Take/Give/Switch Control": [
             {
-                "interaction": "When cards that have been banished temporarily are returned to the field, if their controller had changed, they are returned to the side of the field of the controller they had before being banished<sup><a>[]</a></sup>.",
+                "interaction": "When monsters that have been banished temporarily are returned to the field, if their controller had changed by an effect, they are returned to the side of the field of the controller they had before being banished. Then, if the control of the monsters has been changed due to an effect that <b>temporarily</b> gains control of the monsters, control of the monsters returns to the original owner<sup><a>[]</a></sup>.",
                 "example": "<u>Question:</u><br>While I control my opponent's monster due to the effect of <span class=\"tooltip-anchor\" data-name=\"98045062\">\"Enemy Controller\"</span> or <span class=\"tooltip-anchor\" data-name=\"87910978\">\"Brain Control\"</span>, that monster is banished by <span class=\"tooltip-anchor\" data-name=\"36261276\">\"Interdimensional Matter Transporter\"</span>. What happens to control of that monster during the End Phase?<br>Additionally, if that same monster is banished by <span class=\"tooltip-anchor\" data-name=\"22959079\">\"Dimensionhole\"</span> instead, what happens to control of that monster during the next Standby Phase?<br><u>Answer:</u><br>If a monster is being controlled due to <span class=\"tooltip-anchor\" data-name=\"98045062\">\"Enemy Controller\"</span> or similar, and that monster is banished by <span class=\"tooltip-anchor\" data-name=\"36261276\">\"Interdimensional Matter Transporter\"</span>, control of the monster that returns to the field during the End Phase will return to the original owner.<br>Also, even if the monster is banished due to <span class=\"tooltip-anchor\" data-name=\"22959079\">\"Dimensionhole\"</span>, control of the monster that was returned to the field during the next Standby Phase will return to the original owner.",
                 "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#8811\">\"Enemy Controller\", \"Interdimensional Matter Transporter\"</a></li>"
+            },
+            {
+                "interaction": "When monsters that have been banished temporarily are returned to the field, if their controller had changed by an effect, they are returned to the side of the field of the controller they had before being banished. Then, if the control of the monsters has been changed due to an effect that <b>permanently</b> gains control of the monsters, control of the monsters does not return to the original owner<sup><a>[]</a></sup>.",
+                "example": "<u>Question:</u><br>I have gained control of a monster by one of the following effects. That monster is then banished, and returned to the field, by the effect of <span class=\"tooltip-anchor\" data-name=\"60238002\">\"Interdimensional Matter Forwarder\"</span>. What happens to the monster?<br>Ⓐ: the effect of <span class=\"tooltip-anchor\" data-name=\"80117527\">\"Number 11: Big Eye\"</span>.<br>(i.e., an effect that lets me permanently gain control of the monster)<br>Ⓑ: the effect of <span class=\"tooltip-anchor\" data-name=\"4031928\">\"Change of Heart\"</span><br>(i.e., and effect that lets me temporarily gain control of the monster)<br><u>Answer:</u><br>Ⓐ: You retain control of the monster. For effects such as that of Big Eye, which do not have a time limit for which you gain control of the monster, control will not return to your opponent even if the card is banished temporarily.<br>Ⓑ: Control of the monster immediately returns to your opponent. For effects such as that of <span class=\"tooltip-anchor\" data-name=\"4031928\">\"Change of Heart\"</span>, which specify a time limit for which you gain control of the monster, the effect will end if the monster is temporarily banished. Therefore, when the monster returns to the Monster Zone, control immediately returns to the opponent.",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#17476\">\"Interdimensional Matter Forwarder\", \"Number 11: Big Eye\"</a></li>"
             }
         ],
         "Traps Treated as Monsters (not treated as Traps)": [
@@ -616,7 +635,15 @@
             }
         ]
     },
-    "Change/Take/Give/Switch Control": {},
+    "Change/Take/Give/Switch Control": {
+        "Send to the Graveyard": [
+            {
+                "interaction": "If control of a card changes and it is sent to the Graveyard by the resolution of a card effect, that card is sent to the owner's Graveyard<sup><a>[]</a></sup>.",
+                "example": "",
+                "reference": "<li><a target=\"_blank\" href=\"https://ygorganization.com/perfect-rulebook-2017/\">OCG Perfect Rulebook 2017 pages 148-149</a></li>"
+            }
+        ]
+    },
     "Change attack target": {
         "End the Battle Phase": [
             {
@@ -685,18 +712,92 @@
         ]
     },
     "Declare 1 card name": {},
-    "Discard": {},
-    "Draw": {
+    "Destroy": {
+        "Discard": [
+            {
+                "interaction": "Cards that are discarded are not treated as being destroyed<sup><a>[]</a></sup>.",
+                "example": "",
+                "reference": "<li><a target=\"_blank\" href=\"https://ygorganization.com/perfect-rulebook-2017/\">OCG Perfect Rulebook 2017 pages 148-149</a></li>"
+            }
+        ],
         "Return/Add to the Hand": [
             {
-                "interaction": "If cards from the Deck are added to the hand by an effect that does not draw cards but \"adds them to the hand\", this is not treated as drawing cards<sup><a>[]</a></sup>.",
-                "example": "If a card is added to the hand by the effect of <span class=\"tooltip-anchor\" data-name=\"98645731\">\"Pot of Duality\"</span> that says \"Excavate the top 3 cards of your Deck, add 1 of them to your hand, also, after that, shuffle the rest back into your Deck.\", this is not treated as drawing cards.",
-                "reference": "<li><a target=\"_blank\" href=\"https://ygorganization.com/perfect-rulebook-2017/\">OCG Perfect Rulebook 2017 page 145</a></li>"
+                "interaction": "A card that is returned from the field to the hand or Deck, or, that is sent to the Graveyard as a cost or Tribute, is NOT considered \"destroyed\"<sup><a>[]</a></sup>.",
+                "example": "",
+                "reference": "<li><a target=\"_blank\" href=\"https://www.yugioh-card.com/en/rulebook/\">Official rulebook page 53</a></li>"
+            }
+        ],
+        "Return/Shuffle to the Deck": [
+            {
+                "interaction": "A card that is returned from the field to the hand or Deck, or, that is sent to the Graveyard as a cost or Tribute, is NOT considered \"destroyed\"<sup><a>[]</a></sup>.",
+                "example": "",
+                "reference": "<li><a target=\"_blank\" href=\"https://www.yugioh-card.com/en/rulebook/\">Official rulebook page 53</a></li>"
+            }
+        ],
+        "Send to the Graveyard": [
+            {
+                "interaction": "Destroying a card, discarding, and Tributing a monster are all actions that send a card to the Graveyard<sup><a>[]</a></sup>.",
+                "example": "",
+                "reference": "<li><a target=\"_blank\" href=\"https://www.yugioh-card.com/en/rulebook/\">Official rulebook page 55</a></li>"
             },
+            {
+                "interaction": "A card that is returned from the field to the hand or Deck, or, that is sent to the Graveyard as a cost or Tribute, is NOT considered \"destroyed\"<sup><a>[]</a></sup>.",
+                "example": "",
+                "reference": "<li><a target=\"_blank\" href=\"https://www.yugioh-card.com/en/rulebook/\">Official rulebook page 53</a></li>"
+            },
+            {
+                "interaction": "If cards with an effect that prevents cards from being destroyed by effects is being applied, effects that send cards to the Graveyard are still applied<sup><a>[]</a></sup>.",
+                "example": "",
+                "reference": "<li><a target=\"_blank\" href=\"https://ygorganization.com/perfect-rulebook-2017/\">OCG Perfect Rulebook 2017 pages 148-149</a></li>"
+            }
+        ],
+        "Traps Treated as Monsters (still treated as Traps)": [
+            {
+                "interaction": "A Trap Card treated as a Monster Card by its own effect is treated as a Trap Card (written on the card's text) and a Monster Card. As a result, it can be destroyed by cards that destroy monsters and cards that destroy Spells or Traps<sup><a>[]</a></sup>.",
+                "example": "",
+                "reference": "<li><a target=\"_blank\" href=\"https://ygorganization.com/perfect-rulebook-2017/\">OCG Perfect Rulebook 2017 pages 169-170</a></li>"
+            }
+        ],
+        "Traps Treated as Monsters (not treated as Traps)": [
+            {
+                "interaction": "Trap Cards treated as Monster Cards which say they are not treated as a Trap Card, like <span class=\"tooltip-anchor\" data-name=\"98827725\">\"The Phantom Knights of Shade Brigandine\"</span>, are only treated as Monster Cards. As a result, they cannot be destroyed by effects that destroy Spell or Trap Cards<sup><a>[]</a></sup>.",
+                "example": "",
+                "reference": "<li><a target=\"_blank\" href=\"https://ygorganization.com/perfect-rulebook-2017/\">OCG Perfect Rulebook 2017 pages 169-170</a></li>"
+            }
+        ],
+        "Tribute": [
+            {
+                "interaction": "A monster sent to the Graveyard by Tributing is not treated as \"destroyed\"<sup><a>[]</a></sup>.",
+                "example": "",
+                "reference": "<li><a target=\"_blank\" href=\"https://www.yugioh-card.com/en/rulebook/\">Official rulebook page 55</a></li>"
+            }
+        ]
+    },
+    "Discard": {
+        "Send to the Graveyard": [
+            {
+                "interaction": "Destroying a card, discarding, and Tributing a monster are all actions that send a card to the Graveyard<sup><a>[]</a></sup>.",
+                "example": "",
+                "reference": "<li><a target=\"_blank\" href=\"https://www.yugioh-card.com/en/rulebook/\">Official rulebook page 55</a></li>"
+            },
+            {
+                "interaction": "Cards sent from the hand to the Graveyard are not treated as cards that are discarded from the hand<sup><a>[]</a></sup>.",
+                "example": "If <span class=\"tooltip-anchor\" data-name=\"82888408\">\"The Fabled Cerburrel\"</span> is sent to the Graveyard by the effect of <span class=\"tooltip-anchor\" data-name=\"18175965\">\"Guardian Dreadscythe\"</span> that says \"Send 1 card from your hand to the Graveyard, and if you do, Special Summon this card from the Graveyard.\", since <span class=\"tooltip-anchor\" data-name=\"82888408\">\"The Fabled Cerburrel\"</span> is not treated as being discarded from the hand, its effect that says \"If this card is discarded to the Graveyard: Special Summon it\" cannot be activated.",
+                "reference": "<li><a target=\"_blank\" href=\"https://ygorganization.com/perfect-rulebook-2017/\">OCG Perfect Rulebook 2017 pages 148-149</a></li>"
+            }
+        ]
+    },
+    "Draw": {
+        "Return/Add to the Hand": [
             {
                 "interaction": "Cards that are drawn are treated as being added to the hand<sup><a>[]</a></sup>.",
                 "example": "<u>Question:</u><br><span class=\"tooltip-anchor\" data-name=\"73783043\">\"R-Genex Accelerator\"</span> was face-up on my field when I performed my normal draw for the Draw Phase. If the card I draw is a \"Genex\" monster, can I activate the effect of <span class=\"tooltip-anchor\" data-name=\"73783043\">\"R-Genex Accelerator\"</span> to Special Summon that monster from my hand?<br><u>Answer:</u><br>Even if a \"Genex\" monster is added to your hand by drawing, it is considered to have been added from your Deck to your hand. Therefore, in this scenario, you can activate the effect of <span class=\"tooltip-anchor\" data-name=\"73783043\">\"R-Genex Accelerator\"</span>.",
                 "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#276\">\"R-Genex Accelerator\"</a></li>"
+            },
+            {
+                "interaction": "If cards from the Deck are added to the hand by an effect that does not draw cards but \"adds them to the hand\", this is not treated as drawing cards<sup><a>[]</a></sup>.",
+                "example": "If a card is added to the hand by the effect of <span class=\"tooltip-anchor\" data-name=\"98645731\">\"Pot of Duality\"</span> that says \"Excavate the top 3 cards of your Deck, add 1 of them to your hand, also, after that, shuffle the rest back into your Deck.\", this is not treated as drawing cards.",
+                "reference": "<li><a target=\"_blank\" href=\"https://ygorganization.com/perfect-rulebook-2017/\">OCG Perfect Rulebook 2017 page 145</a></li>"
             }
         ]
     },
@@ -933,6 +1034,30 @@
     "Return/Shuffle to the Deck": {},
     "Return/Add to the Hand": {},
     "Reveal": {},
+    "Send to the Graveyard": {
+        "Tribute": [
+            {
+                "interaction": "Destroying a card, discarding, and Tributing a monster are all actions that send a card to the Graveyard<sup><a>[]</a></sup>.",
+                "example": "",
+                "reference": "<li><a target=\"_blank\" href=\"https://www.yugioh-card.com/en/rulebook/\">Official rulebook page 55</a></li>"
+            },
+            {
+                "interaction": "Cards that are sent to the Graveyard are not treated as destroyed cards or Tributed cards<sup><a>[]</a></sup>.",
+                "example": "",
+                "reference": "<li><a target=\"_blank\" href=\"https://ygorganization.com/perfect-rulebook-2017/\">OCG Perfect Rulebook 2017 pages 148-149</a></li>"
+            }
+        ]
+    },
+    "Specifically lists a card name/mentions a card name": {
+        "Substitute for any 1 Fusion Material": [
+            {
+                "interaction": "If a card \"Fusion Summons a Fusion Monster that lists [X] as material\", it must use a material requirement that meets [X], and must also use a monster that meets [X] to meet that specific requirement<sup><a>[]</a></sup>.",
+                "example": "<u>Question:</u><br>I control a <span class=\"tooltip-anchor\" data-name=\"53493204\">\"Goddess with the Third Eye\"</span> (LIGHT) and a <span class=\"tooltip-anchor\" data-name=\"68468459\">\"Fallen of Albaz\"</span> (DARK).<br>If I now resolve <span class=\"tooltip-anchor\" data-name=\"44362883\">\"Branded Fusion\"</span>, can I Fusion Summon <span class=\"tooltip-anchor\" data-name=\"70534340\">\"Lubellion the Searing Dragon\"</span>, which lists \"1 DARK monster + \"<span class=\"tooltip-anchor\" data-name=\"68468459\">\"Fallen of Albaz\"</span>\"\" as the necessary material?<br><u>Answer:</u><br>No, you cannot.<br>When performing a Fusion Summon using <span class=\"tooltip-anchor\" data-name=\"44362883\">\"Branded Fusion\"</span>, you must use a monster named \"<span class=\"tooltip-anchor\" data-name=\"68468459\">\"Fallen of Albaz\"</span>\" for the \"<span class=\"tooltip-anchor\" data-name=\"68468459\">\"Fallen of Albaz\"</span>\" that is listed as the Fusion Monster's material.<br>In other words, you can use either <span class=\"tooltip-anchor\" data-name=\"68468459\">\"Fallen of Albaz\"</span> itself, or a <span class=\"tooltip-anchor\" data-name=\"25451383\">\"Albion the Shrouded Dragon\"</span> whose name is treated as \"<span class=\"tooltip-anchor\" data-name=\"68468459\">\"Fallen of Albaz\"</span>\", as \"<span class=\"tooltip-anchor\" data-name=\"68468459\">\"Fallen of Albaz\"</span>\" for the Fusion Summon. You cannot use <span class=\"tooltip-anchor\" data-name=\"53493204\">\"Goddess with the Third Eye\"</span>. (The effect of <span class=\"tooltip-anchor\" data-name=\"53493204\">\"Goddess with the Third Eye\"</span> allows it to substitute for a Fusion Material, but does not change its name.) The same applies to using <span class=\"tooltip-anchor\" data-name=\"79109599\">\"King of the Swamp\"</span> in place of <span class=\"tooltip-anchor\" data-name=\"53493204\">\"Goddess with the Third Eye\"</span>.",
+                "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#23495\"> If a card \"Fusion Summons a Fusion Monster that lists [X] as material\", it must use a material requirement that meets [X], and must also use a monster that meets [X] to meet that specific requirement</a></li>"
+            }
+        ]
+    },
+    "Substitute for any 1 Fusion Material": {},
     "Summon from Spell/Trap/Pendulum Zone": {},
     "This turn/For the rest of the turn/Until [X] turn, apply [A] - Lingering Effects": {
         "Unaffected by activated effects": [
@@ -945,6 +1070,7 @@
     },
     "Traps Treated as Monsters (not treated as Traps)": {},
     "Traps Treated as Monsters (still treated as Traps)": {},
+    "Tribute": {},
     "Unaffected": {},
     "Unaffected by activated effects": {},
     "\"Necrovalley\"": {
