@@ -2,6 +2,15 @@ const { JSDOM } = require("jsdom");
 const fs = require("fs");
 
 const glossary = require("./glossary-entry-effect-interaction.json");
+
+// add extra deck interactions to fusion, synchro, xyz, link
+//for (const [key, value] of Object.entries(glossary["Extra Deck Monsters"])) {
+//  glossary["Fusion Monsters"][key] = value;
+//  glossary["Synchro Monsters"][key] = value;
+//  glossary["Xyz Monsters"][key] = value;
+//  glossary["Link Monsters"][key] = value;
+//}
+
 const glossary_entries = Object.keys(glossary); //.sort((a, b) => (a < b ? -1 : 1));
 
 const fixedGlossaryOnce = [];
@@ -87,7 +96,16 @@ function mergeIncludes(document) {
       section_name.includes("10_glossary/") ||
       section_name.includes("06_other_game_elements/") ||
       section_name.includes("02_monster_cards/abilities/") ||
-      section_name.includes("09_card_text/04_text_not_effect/")
+      section_name.includes("09_card_text/04_text_not_effect/") ||
+      section_name.includes("09_card_text/04_text_not_effect/") ||
+      section_name.includes("02_monster_cards/01_normal_monsters") ||
+      // section_name.includes("02_monster_cards/02_effect_monsters") ||
+      section_name.includes("02_monster_cards/03_ritual_monsters") ||
+      section_name.includes("02_monster_cards/04_fusion_monsters") ||
+      section_name.includes("02_monster_cards/05_synchro_monsters") ||
+      section_name.includes("02_monster_cards/06_xyz_monsters") ||
+      section_name.includes("02_monster_cards/07_pendulum_monsters") ||
+      section_name.includes("02_monster_cards/08_link_monsters")
     ) {
       const section_title = Array.from(
         section.querySelectorAll("h2, h3, h4")
@@ -135,6 +153,29 @@ function mergeIncludes(document) {
                 glossary_entry_list,
                 references_list
               );
+            } else if (
+              section_title === "Fusion Monsters" ||
+              section_title === "Synchro Monsters" ||
+              section_title === "Xyz Monsters" ||
+              section_title === "Link Monsters"
+            ) {
+              if (glossary["Extra Deck Monsters"][entry] != undefined) {
+                sup_current_index = addEffectInteractionEntry(
+                  glossary["Extra Deck Monsters"][entry],
+                  entry,
+                  sup_current_index,
+                  glossary_entry_list,
+                  references_list
+                );
+              } else if (glossary[entry]["Extra Deck Monsters"] != undefined) {
+                sup_current_index = addEffectInteractionEntry(
+                  glossary[entry]["Extra Deck Monsters"],
+                  entry,
+                  sup_current_index,
+                  glossary_entry_list,
+                  references_list
+                );
+              }
             }
 
             if (last_html !== glossary_entry_list.innerHTML) {
@@ -144,27 +185,32 @@ function mergeIncludes(document) {
                 'Text that says "this card is always treated as [card name]/[a particular title/archetype] card"'
               ) {
                 final_html += `<hr><p style="text-align:center;"><strong>Texts that are not an effect</strong></p><hr>${glossary_entry_list.innerHTML}`;
-                glossary_entry_list.innerHTML = ""
+                glossary_entry_list.innerHTML = "";
                 last_html = glossary_entry_list.innerHTML;
               }
               if (entry === "Gemini") {
                 final_html += `<hr><p style="text-align:center;"><strong>Monster abilities</strong></p><hr>${glossary_entry_list.innerHTML}`;
-                glossary_entry_list.innerHTML = ""
+                glossary_entry_list.innerHTML = "";
+                last_html = glossary_entry_list.innerHTML;
+              }
+              if (entry === "Extra Deck Monsters") {
+                final_html += `<hr><p style="text-align:center;"><strong>Monster card types</strong></p><hr>${glossary_entry_list.innerHTML}`;
+                glossary_entry_list.innerHTML = "";
                 last_html = glossary_entry_list.innerHTML;
               }
               if (entry === "Counters") {
                 final_html += `<hr><p style="text-align:center;"><strong>Other game elements</strong></p><hr>${glossary_entry_list.innerHTML}`;
-                glossary_entry_list.innerHTML = ""
+                glossary_entry_list.innerHTML = "";
                 last_html = glossary_entry_list.innerHTML;
               }
               if (entry === "Unaffected by activated effects") {
                 final_html += `<hr><p style="text-align:center;"><strong>Other effects</strong></p><hr>${glossary_entry_list.innerHTML}`;
-                glossary_entry_list.innerHTML = ""
+                glossary_entry_list.innerHTML = "";
                 last_html = glossary_entry_list.innerHTML;
               }
               if (entry === '"Necrovalley"') {
                 final_html += `<hr><p style="text-align:center;"><strong>Specific cards</strong></p><hr>${glossary_entry_list.innerHTML}`;
-                glossary_entry_list.innerHTML = ""
+                glossary_entry_list.innerHTML = "";
                 last_html = glossary_entry_list.innerHTML;
               }
             }
@@ -206,8 +252,12 @@ function addEffectInteractionEntry(
         (_) =>
           _.outerHTML
             .replaceAll("\n", "")
-            .replaceAll("  ", "")
-            .replaceAll("&amp;", "&") === reference
+            .replaceAll(" ", "")
+            .replaceAll("&amp;", "&") ==
+          reference
+            .replaceAll("\n", "")
+            .replaceAll(" ", "")
+            .replaceAll("&amp;", "&")
       );
 
       //if (reference.includes("Granguig")) {
@@ -430,6 +480,9 @@ async function main() {
 
   // "unfold" all <details> ------------------------------------------------------------
   // html = html.replaceAll("<details", "<details open")
+
+  // hide triangle ------------------------------------------------------------
+  // html = html.replaceAll(`<a class="top-shortcut" href="#page-top">▲</a>`, "")
 
   // no images ------------------------------------------------------------
   // html = html.replaceAll("<img", "<img_");
