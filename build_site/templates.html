@@ -177,7 +177,7 @@ console.log(`<li>YGOrg Database of Official OCG Rulings: <a target="_blank" href
 
 /*--------------*/
 
-text = `"Number 53: Heart-eartH" says "When this card on the field is destroyed by a card effect while it has no Xyz Materials: You can Special Summon 1 "Number 92: Heart-eartH Dragon" from your Extra Deck and attach this card from the Graveyard to it as an Xyz Material." If "Number 53: Heart-eartH" was removed from the Graveyard with a Chained effect, you cannot Summon "Number 92: Heart-eartH Dragon".`
+text = `"Polymerization" was activated, Fusion Materials are sent to the Graveyard during the resolution of that effect and then the Fusion Monster is Fusion Summoned. Since the Fusion Summon has already been performed by the time the resolution ends, the opponent cannot activate cards like "Black Horn of Heaven" that negate the Fusion Summon.`
 regex = /"([^"]*)"/g;
 cards = text.match(regex)
 cards = [...new Set(cards)].filter(_=>_ !== '"unaffected by activated effects"')
@@ -202,6 +202,15 @@ console.log(`<details><summary>Example</summary>${text}<hr /></details>`)
 <script>
 Array.from(document.querySelectorAll("li")).filter(li => li.innerHTML.charAt(0) === li.innerText.charAt(0).toLowerCase()).forEach(_=>console.log(_.innerHTML));
 Array.from(document.querySelectorAll("li")).map(li => li.innerText.replaceAll(" ","").replaceAll("\n","")).filter(text => text.charAt(0) === text.charAt(0).toLowerCase() && text.charAt(0) !== '"').forEach(_=>console.log(_));
+</script>
+
+<!--
+# Check long OCG rulings references
+-->
+<script>
+Array.from(document.body.querySelectorAll("li")).filter(_=>_.innerHTML.includes("OCG Rulings")).map(_=>_.innerHTML).filter(_=>_.length > 300)
+
+Array.from(document.body.querySelectorAll("li")).filter(_=>_.innerHTML.includes("OCG Rulings")).map(_=>_.innerText).filter(_=>_.split('", "').length > 2)
 </script>
 
 <!--
