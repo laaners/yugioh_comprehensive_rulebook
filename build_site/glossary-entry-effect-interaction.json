@@ -391,7 +391,7 @@
     ],
     "Tokens": [
       {
-        "interaction": "Monster Tokens cannot be used as Xyz Materials<sup><a>[2]</a></sup>.",
+        "interaction": "Monster Tokens cannot be used as Xyz Materials<sup><a>[]</a></sup>.",
         "example": "",
         "reference": "<li><a target=\"_blank\" href=\"https://ygorganization.com/perfect-rulebook-2017/\">OCG Perfect Rulebook 2017 page 95</a></li>"
       }
@@ -619,7 +619,7 @@
     ],
     "Send to the Graveyard": [
       {
-        "interaction": "Since Token Monsters are removed from the duel when they leave the field, they cannot be sent to the Graveyard for texts that say \"send to the Graveyard;\" (as cost)<sup><a>[]</a></sup>.",
+        "interaction": "Since Token Monsters are removed from the duel when they leave the field, they cannot be sent to the Graveyard (as cost) for texts that say \"send to the Graveyard;\"<sup><a>[]</a></sup>.",
         "example": "",
         "reference": "<li><a target=\"_blank\" href=\"https://ygorganization.com/perfect-rulebook-2017/\">OCG Perfect Rulebook 2017 pages 132-133</a></li>"
       }
@@ -764,7 +764,7 @@
   "Apply 1 of the following effects/all effects": {
     "Card or effect that includes an effect that does [A]": [
       {
-        "interaction": "Cards that say \"apply\" apply effects at the resolution of it. Therefore no matter what if effect is chosen, if at least one of the effects does [A] then it is a \"Card or effect that includes an effect that does [A]\"<sup><a>[]</a></sup>.",
+        "interaction": "Cards that say \"apply\" apply effects at the resolution of it. Therefore no matter what effect is chosen, if at least one of the effects does [A] then it is a \"Card or effect that includes an effect that does [A]\"<sup><a>[]</a></sup>.",
         "example": "<u>Question:</u><br>When my opponent activates the effect of <span class=\"tooltip-anchor\" data-name=\"39185163\">\"Doomking Balerdroch\"</span> when a Zombie-Type monster's effect is activated, can I chain the effect of <span class=\"tooltip-anchor\" data-name=\"73642296\">\"Ghost Belle &amp; Haunted Mansion\"</span>?<br><u>Answer:</u><br>You can chain the effect of <span class=\"tooltip-anchor\" data-name=\"73642296\">\"Ghost Belle &amp; Haunted Mansion\"</span> to the effect of your opponent's <span class=\"tooltip-anchor\" data-name=\"39185163\">\"Doomking Balerdroch\"</span>. Furthermore, it does not matter if your opponent has already applied the effect of banishing from the Graveyard that turn.",
         "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#13348\">\"Doomking Balerdroch\", \"Ghost Belle & Haunted Mansion\"</a></li>"
       }
@@ -1004,7 +1004,7 @@
     ],
     "Effect becomes [A] - Changing/overwriting effects": [
       {
-        "interaction": "Changing/overwriting an effect so that it does [A] instead does not make it a card or effect \"that includes an effect that does [A]\"<sup><a>[]</a></sup>.",
+        "interaction": "A card (1) that changes/overwrites an effect (2) so that (2) does [A] instead does not make (1) a card or effect \"that includes an effect that does [A]\"<sup><a>[]</a></sup>.",
         "example": "<u>Question:</u><br>When my opponent activates the effect of <span class=\"tooltip-anchor\" data-name=\"38053381\">\"Generaider Boss Stage\"</span> that Special Summons a \"Generaider\" monster from their Deck, I chain <span class=\"tooltip-anchor\" data-name=\"5318639\">\"Mystical Space Typhoon\"</span> and target <span class=\"tooltip-anchor\" data-name=\"38053381\">\"Generaider Boss Stage\"</span>. Then, if my opponent chains the effect of <span class=\"tooltip-anchor\" data-name=\"64325438\">\"Generaider Boss Room\"</span>, can I further chain the effect of <span class=\"tooltip-anchor\" data-name=\"14558127\">\"Ash Blossom &amp; Joyous Spring\"</span>?<br><u>Answer:</u><br>When your opponent activates the effect of <span class=\"tooltip-anchor\" data-name=\"64325438\">\"Generaider Boss Room\"</span>, you cannot chain the effect of <span class=\"tooltip-anchor\" data-name=\"14558127\">\"Ash Blossom &amp; Joyous Spring\"</span>.",
         "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#22759\">\"Generaider Boss Room\", \"Ash Blossom & Joyous Spring\"</a></li>"
       }
@@ -1018,7 +1018,7 @@
     ],
     "Properties Changing - Copy effect resolves as another card's effect": [
       {
-        "interaction": "A card or effect that copies a card's effect that does [A] is not treated as a card or effect \"that includes an effect that does [A]\"<sup><a>[]</a></sup>.",
+        "interaction": "A card or effect (1) that copies a card's effect (2) that does [A] does not make (1) a card or effect \"that includes an effect that does [A]\"<sup><a>[]</a></sup>.",
         "example": "<u>Question:</u><br>When the \"You can pay 2000 Life Points and send 1 \"Fusion\" or \"<span class=\"tooltip-anchor\" data-name=\"24094653\">\"Polymerization\"</span>\" Normal or Quick-Play Spell from your Deck to the Graveyard; this effect becomes that Spell's effect when that card is activated, also, you cannot Special Summon monsters for the rest of this turn.\" effect of <span class=\"tooltip-anchor\" data-name=\"70369116\">\"Predaplant Verte Anaconda\"</span> is activated, will the \"The activation of your cards and effects that include an effect that Fusion Summons a Fusion Monster cannot be negated, also your opponent's cards and effects cannot activate when a monster is Fusion Summoned this way.\" effect of <span class=\"tooltip-anchor\" data-name=\"47679935\">\"Magical Meltdown\"</span> be applied?<br><u>Answer:</u><br>No, it will not be applied.<br>Even if the effect of <span class=\"tooltip-anchor\" data-name=\"70369116\">\"Predaplant Verte Anaconda\"</span> results in a Fusion Summon being performed, it is not treated as an effect that \"includes an effect that Fusion Summons a Fusion Monster,\" so the effect of <span class=\"tooltip-anchor\" data-name=\"47679935\">\"Magical Meltdown\"</span>, <span class=\"tooltip-anchor\" data-name=\"9069157\">\"Dragonroid\"</span> or <span class=\"tooltip-anchor\" data-name=\"18973184\">\"Branded Lost\"</span> will not be applied.<br>As an example, if the opponent activates <span class=\"tooltip-anchor\" data-name=\"40605147\">\"Solemn Strike\"</span> in response to the activation of the effect of <span class=\"tooltip-anchor\" data-name=\"70369116\">\"Predaplant Verte Anaconda\"</span>, its activation will be negated.<br>If the Fusion Summon performed is successful, the opponent can still respond with cards and effects.",
         "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#22936\">\"Predaplant Verte Anaconda\", \"Magical Meltdown\", \"Fusion Duplication\", \"Transaction Rollback\"</a></li>"
       }
@@ -1224,7 +1224,7 @@
   "During the [X] Phase, do [A] - Delayed effects": {
     "Negate Summons": [
       {
-        "interaction": "The Special Summon of a monster when resolving an effect that happens later (during the End Phase for example) does not start a chain such as <span class=\"tooltip-anchor\" data-name=\"46448938\">\"Spellbook of Judgment\"</span>.<ul><li>As it is a Special Summon of a monster due an effect, this Special Summon cannot be negated by activating effects that negate summons like <span class=\"tooltip-anchor\" data-name=\"50323155\">\"Black Horn of Heaven\"</span><sup><a>[]</a></sup>.</li><li>However, it is still an \"effects that include an effect that Special Summons a monster(s)\", so cards like <span class=\"tooltip-anchor\" data-name=\"c84749824\">\"Solemn Warning\"</span> can be activated in response<sup><a>[]</a></sup>.</li></ul>",
+        "interaction": "The Special Summon of a monster when resolving an effect that happens later (during the End Phase for example) does not start a chain such as <span class=\"tooltip-anchor\" data-name=\"46448938\">\"Spellbook of Judgment\"</span>.<ul><li>As it is a Special Summon of a monster due an effect, this Special Summon cannot be negated by activating effects that negate summons like <span class=\"tooltip-anchor\" data-name=\"50323155\">\"Black Horn of Heaven\"</span><sup><a>[]</a></sup>.</li><li>However, it is still an \"effects that include an effect that Special Summons a monster(s)\", so cards like <span class=\"tooltip-anchor\" data-name=\"84749824\">\"Solemn Warning\"</span> can be activated in response<sup><a>[]</a></sup>.</li></ul>",
         "example": "<u>Question:</u><br>When my opponent Special Summons a monster due to <span class=\"tooltip-anchor\" data-name=\"46448938\">\"Spellbook of Judgment\"</span>, can I activate <span class=\"tooltip-anchor\" data-name=\"84749824\">\"Solemn Warning\"</span>, <span class=\"tooltip-anchor\" data-name=\"50323155\">\"Black Horn of Heaven\"</span>, <span class=\"tooltip-anchor\" data-name=\"93016201\">\"Royal Oppression\"</span>, or similar?<br><u>Answer:</u><br>The Special Summon of a monster when resolving <span class=\"tooltip-anchor\" data-name=\"46448938\">\"Spellbook of Judgment\"</span> during the End Phase does not start a chain. However, as it is a Special Summon of a monster due to the effect of <span class=\"tooltip-anchor\" data-name=\"46448938\">\"Spellbook of Judgment\"</span>, this Special Summon cannot be negated by activating <span class=\"tooltip-anchor\" data-name=\"84749824\">\"Solemn Warning\"</span>, <span class=\"tooltip-anchor\" data-name=\"50323155\">\"Black Horn of Heaven\"</span>, <span class=\"tooltip-anchor\" data-name=\"93016201\">\"Royal Oppression\"</span>, or similar.<br>However, <span class=\"tooltip-anchor\" data-name=\"84749824\">\"Solemn Warning\"</span> and <span class=\"tooltip-anchor\" data-name=\"93016201\">\"Royal Oppression\"</span> can be activated in response to the card activation of <span class=\"tooltip-anchor\" data-name=\"46448938\">\"Spellbook of Judgment\"</span>.",
         "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#12713\">Negating delayed Special Summons</a></li>"
       }

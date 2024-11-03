@@ -177,7 +177,7 @@ console.log(`<li>YGOrg Database of Official OCG Rulings: <a target="_blank" href
 
 /*--------------*/
 
-text = `"Polymerization" was activated, Fusion Materials are sent to the Graveyard during the resolution of that effect and then the Fusion Monster is Fusion Summoned. Since the Fusion Summon has already been performed by the time the resolution ends, the opponent cannot activate cards like "Black Horn of Heaven" that negate the Fusion Summon.`
+text = `sss "Waking the Dragon", sa, "Dark Magician"`
 regex = /"([^"]*)"/g;
 cards = text.match(regex)
 cards = [...new Set(cards)].filter(_=>_ !== '"unaffected by activated effects"')
@@ -214,7 +214,7 @@ Array.from(document.body.querySelectorAll("li")).filter(_=>_.innerHTML.includes(
 </script>
 
 <!--
-# Compare OCG DB updates vs YGOrg
+# Compare OCG DB updates YGOrg with my site
 -->
 
 <script>
@@ -224,6 +224,29 @@ yoursite = Array.from(document.querySelectorAll("a")).map(a=>a.href).filter(href
 yoursite = [...new Set(yoursite)]
 ygorg = 
 yoursite.filter(_=>ygorg.includes(_))
+</script>
+
+<!--
+# Compare OCG DB updates YGOrg with rulings list
+-->
+
+<script>
+ygorg = Array.from(document.body.querySelectorAll("a")).filter(a=>a.innerText.toLowerCase() === "source").map(a=>+a.href.split("fid=")[1].split("&")[0]).sort((a,b)=>a-b)
+
+yoursite = Array.from(document.querySelectorAll(".qa-entry")).map(a=>a.href).filter(href=>href.includes("https://db.ygoresources.com/qa")).map(href=>+href.replace("https://db.ygoresources.com/qa#","")).sort((a,b)=>a-b)
+yoursite = [...new Set(yoursite)]
+ygorg = 
+yoursite.filter(_=>ygorg.includes(_))
+
+tmp = ""
+ygorg.filter(_=>!yoursite.includes(_)).forEach(_=>{
+  tmp += `
+  
+  <a class="qa-entry" target="_blank" href="https://db.ygoresources.com/qa#${_}"><div class="qa-entry-text">Unknown Q&amp;A entry #${_}. Maybe the server is unreachable?</div><div class="qa-entry-tags"></div></a>
+  <br>`
+})
+console.log(tmp)
+
 </script>
 
 <!--
