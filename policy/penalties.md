@@ -199,7 +199,7 @@ with an illegal Deck. If an error that would result in an illegal Deck or Deck L
                 <li>Forgot to swap side deck from previous match before beginning new match. The Duelist must restore the Deck within the 3-minute window or risk an additional penalty for Tardiness</li>
                 <li>Extra deck card shuffled into the main deck and drawn during a game. Return to extra and draw a new card</li>
                 <li>Handwriting unreadable</li>
-                <li>Playing with legal foreign language card but no translation kept outisde of the deck</li>
+                <li>Playing with legal foreign language card but no translation kept outside of the deck</li>
                 <li>Playing with proxies/counterfeit cards, replace them with actual version, receive warning and also apply standard tardiness</li>
             </ul>
             <span><b>-------------------------</b></span>

@@ -43,21 +43,7 @@
 </ol>
 
 <h4>Costs that Tribute</h4>
-
-<p>In order to activate effects that read "Tribute [X];", those monsters need to be Tributed. The Tributed monsters are sent to the Graveyard.</p>
-
-<ul>
-  <li>The Tributed monsters are not treated as being destroyed. As a result, they are treated as being sent to the Graveyard.</li>
-  <li>
-    Even if the monsters that would be Tributed need to meet certain requirements, face-down monsters on the field can be sent to the Graveyard.
-    <details>
-      <summary>Example</summary>
-      A face-down <span class="tooltip-anchor" data-name="75195825">"Master Pendulum, the Dracoslayer"</span> can be Tributed as a cost to activate the effect of <span class="tooltip-anchor" data-name="16960351">"Dracocension"</span>, which reads "You can Tribute 1 Dragon-Type monster that has a Level; Special Summon, from your Deck, 1 Wyrm-Type monster with the same Level as the Tributed monster's original Level, and if you do, any monster destroyed by battle with that monster is shuffled into the Deck instead of going to the Graveyard.".
-      <hr />
-    </details>
-  </li>
-  <li>If <span class="tooltip-anchor" data-name="30241314">"Macro Cosmos"</span> or something similar is being applied, so that monsters that would be sent to the Graveyard are banished, you can still Tribute monsters. In that case, the Tributed monsters are not sent to the Graveyard and are banished instead.</li>
-</ul>
+<include>build_site/sections/09_card_text/02_activating_cards_and_effects/cost/costs_that_tribute.html</include>
 
 <em>References:</em>
 <ol class="references">
@@ -66,31 +52,8 @@
   </li>
 </ol>
 
-<h4>Costs that Discard from the Hand</h4>
-
-<p>
-  For costs that read "discard a card(s)", cards from the hand must be discarded from the hand in order to activate the effects. Cards that are discarded are treated as being discarded from the hand and as being sent to the Graveyard as a result<sup><a href="#">[1]</a></sup
-  >.
-</p>
-
-<ul>
-  <li>
-    When paying costs that say "discard to the Graveyard", if <span class="tooltip-anchor" data-name="30241314">"Macro Cosmos"</span> or something similar is being applied, so that cards that would be sent to the Graveyard are banished, the activation of cards that discard to the Graveyard as a cost cannot be performed. Costs that simply say "discard" can be paid. In that case, the cards are not sent to the Graveyard and are banished as a result<sup><a href="#">[1]</a></sup
-    >.
-    <details>
-      <summary>Example</summary>
-      While the effect of <span class="tooltip-anchor" data-name="30241314">"Macro Cosmos"</span> is being applied, the effect of <span class="tooltip-anchor" data-name="74968065">"Hecatrice"</span> that says "You can discard this card to the Graveyard to add 1 "Valhalla, Hall of the Fallen" from your Deck to your hand." cannot be activated, but the effect of <span class="tooltip-anchor" data-name="62015408">"Ghost Reaper & Winter Cherries"</span> that says "During either player's turn, if your opponent controls more monsters than you do: You can discard this card;" can be activated.
-      <hr />
-    </details>
-    Furthermore, cards banished in this way are treated as being banished by a card effect, even if they were discarded as cost<sup><a href="#">[2]</a></sup
-    >.
-    <details>
-      <summary>Example</summary>
-      <u>Question:</u><br />I activate <span class="tooltip-anchor" data-name="48130397">"Super Polymerization"</span>, or activate <span class="tooltip-anchor" data-name="68468459">"Fallen of Albaz"</span>' effect, by discarding <span class="tooltip-anchor" data-name="36577931">"Despian Tragedy"</span> as a cost.<br />After this activation resolves, can the effect of <span class="tooltip-anchor" data-name="36577931">"Despian Tragedy"</span>, which activates if it is sent to the Graveyard or banished by a card effect, be activated?<br /><u>Answer:</u><br />In this case, <span class="tooltip-anchor" data-name="36577931">"Despian Tragedy"</span> was discarded as a cost to activate an effect. It was not sent to the Graveyard by a card effect. Thus, the effect of <span class="tooltip-anchor" data-name="36577931">"Despian Tragedy"</span> cannot be activated.<br />The effect of <span class="tooltip-anchor" data-name="36577931">"Despian Tragedy"</span> is an effect that can be activated when <span class="tooltip-anchor" data-name="36577931">"Despian Tragedy"</span> is sent to the Graveyard by a card effect, or is banished.<br />However, if the situation above occurs while the effect of <span class="tooltip-anchor" data-name="30241314">"Macro Cosmos"</span> is applying, the <span class="tooltip-anchor" data-name="36577931">"Despian Tragedy"</span> will not be discarded to the Graveyard. Instead, it will be banished by the effect of <span class="tooltip-anchor" data-name="30241314">"Macro Cosmos"</span>. As <span class="tooltip-anchor" data-name="36577931">"Despian Tragedy"</span> was banished by a card effect, the effect of <span class="tooltip-anchor" data-name="36577931">"Despian Tragedy"</span> can then be activated.
-      <hr />
-    </details>
-  </li>
-</ul>
+<h4>Costs that Discard</h4>
+<include>build_site/sections/09_card_text/02_activating_cards_and_effects/cost/costs_that_discard.html</include>
 
 <em>References:</em>
 <ol class="references">
@@ -101,23 +64,7 @@
 </ol>
 
 <h4>Costs that Send to the Graveyard</h4>
-
-<p>For costs that read "send to the Graveyard;", those monsters must be sent to the Graveyard in order to activate the effect.</p>
-
-<ul>
-  <li>The monsters sent to the Graveyard are not treated as being destroyed.</li>
-  <li>Cards sent from the hand to the Graveyard are not treated as being discarded from the hand.</li>
-  <li>
-    If a monster that would be sent to the Graveyard as a cost needs to meet certain requirements, a face-down monster on the field cannot be sent to the Graveyard.
-    <details>
-      <summary>Example</summary>
-      A face-down Plant-Type monster cannot be sent to the Graveyard to activate the cost of the effect of <span class="tooltip-anchor" data-name="95239444">"Orea, the Sylvan High Arbiter"</span>, which reads "You can send 1 Plant-Type monster from your hand or face-up from your side of the field to the Graveyard;".
-      <hr />
-    </details>
-  </li>
-  <li>If <span class="tooltip-anchor" data-name="30241314">"Macro Cosmos"</span> or similar is being applied, so that the cards that would be sent to the Graveyard are banished instead and so that it is not possible to send cards to the Graveyard, activations that send cards to the Graveyard as a cost cannot be performed.</li>
-  <li>Since Token Monsters are removed from the duel when they leave the field, they cannot be sent to the Graveyard for texts that say "send to the Graveyard;".</li>
-</ul>
+<include>build_site/sections/09_card_text/02_activating_cards_and_effects/cost/costs_that_send_to_the_graveyard.html</include>
 
 <em>References:</em>
 <ol class="references">
@@ -127,20 +74,7 @@
 </ol>
 
 <h4>Costs that Return/Add to the Hand</h4>
-
-<p>For costs that read "return a card(s) to the hand;", cards must be returned to the hand in order to activate the effects.</p>
-
-<ul>
-  <li>
-    If a card will be banished when it leaves the field, it cannot be returned to the hand as a cost to activate the effect of a card (1) that requires to do so, therefore (1) cannot be activated<sup><a>[1]</a></sup
-    >.
-    <details>
-      <summary>Example</summary>
-      <u>Question:</u><br />Can I return&nbsp;<span class="tooltip-anchor" data-name="33420078">"Plaguespreader Zombie"</span> Special Summoned with its own effect to Special Summon&nbsp;<span class="tooltip-anchor" data-name="14785765">"Blackwing - Zephyros the Elite"</span> with its own effect?<br /><u>Answer:</u><br />Since&nbsp;<span class="tooltip-anchor" data-name="33420078">"Plaguespreader Zombie"</span> was Special Summoned with its own effect, it will be banished when it leaves the field, so you cannot be returned to the hand as a cost to activate the effect of&nbsp;<span class="tooltip-anchor" data-name="14785765">"Blackwing - Zephyros the Elite"</span>.<br />If&nbsp;<span class="tooltip-anchor" data-name="33420078">"Plaguespreader Zombie"</span> that was Special Summoned by its own effect becomes an Equip Card due to the effect&nbsp;<span class="tooltip-anchor" data-name="22091647">"Immortal Phoenix Gearfried"</span>, the part of the effect that makes&nbsp;<span class="tooltip-anchor" data-name="33420078">"Plaguespreader Zombie"</span> being banished when it leaves the field is no longer applied. In that situation, you can return&nbsp;<span class="tooltip-anchor" data-name="33420078">"Plaguespreader Zombie"</span> that is equipped to&nbsp;<span class="tooltip-anchor" data-name="22091647">"Immortal Phoenix Gearfried"</span> as a cost to activate the effect of&nbsp;<span class="tooltip-anchor" data-name="14785765">"Blackwing - Zephyros the Elite"</span>.
-      <hr />
-    </details>
-  </li>
-</ul>
+<include>build_site/sections/09_card_text/02_activating_cards_and_effects/cost/costs_that_return_to_the_hand.html</include>
 
 <em>References:</em>
 <ol class="references">

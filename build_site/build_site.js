@@ -480,9 +480,12 @@ async function main() {
 
   // "unfold" all <details> ------------------------------------------------------------
   // html = html.replaceAll("<details", "<details open")
-
+  
   // hide triangle ------------------------------------------------------------
   // html = html.replaceAll(`<a class="top-shortcut" href="#page-top">▲</a>`, "")
+
+  // hide all <details> ------------------------------------------------------------
+  // html = html.replaceAll("<details", "<details style='display:none'")
 
   // no images ------------------------------------------------------------
   // html = html.replaceAll("<img", "<img_");
