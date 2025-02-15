@@ -1,0 +1,76 @@
+{
+  "Destroy": {
+    "Send to the Graveyard": {
+      "interaction": true,
+      "references": [
+        "<li><a target=\"_blank\" href=\"https://www.yugioh-card.com/en/rulebook/\">Official rulebook page 55</a></li>"
+      ]
+    }
+  },
+  "Discard": {
+    "Destroy": {
+      "interaction": false,
+      "references": [
+        "<li><a target=\"_blank\" href=\"https://ygorganization.com/perfect-rulebook-2017/\">OCG Perfect Rulebook 2017 pages 148-149</a></li>"
+      ]
+    },
+    "Send to the Graveyard": {
+      "interaction": true,
+      "references": [
+        "<li><a target=\"_blank\" href=\"https://www.yugioh-card.com/en/rulebook/\">Official rulebook page 55</a></li>",
+        "<li><a target=\"_blank\" href=\"https://ygorganization.com/perfect-rulebook-2017/\">OCG Perfect Rulebook 2017 pages 148-149</a></li>"
+      ]
+    }
+  },
+  "Return/Add to the Hand": {
+    "Destroy": {
+      "interaction": false,
+      "references": [
+        "<li><a target=\"_blank\" href=\"https://www.yugioh-card.com/en/rulebook/\">Official rulebook page 53</a></li>"
+      ]
+    }
+  },
+  "Return/Shuffle to the Deck": {
+    "Destroy": {
+      "interaction": false,
+      "references": [
+        "<li><a target=\"_blank\" href=\"https://www.yugioh-card.com/en/rulebook/\">Official rulebook page 53</a></li>"
+      ]
+    }
+  },
+  "Send to the Graveyard": {
+    "Destroy": {
+      "interaction": false,
+      "references": [
+        "<li><a target=\"_blank\" href=\"https://ygorganization.com/perfect-rulebook-2017/\">OCG Perfect Rulebook 2017 pages 132-133</a></li>",
+        "<li><a target=\"_blank\" href=\"https://ygorganization.com/perfect-rulebook-2017/\">OCG Perfect Rulebook 2017 pages 148-149</a></li>"
+      ]
+    },
+    "Discard": {
+      "interaction": false,
+      "references": [
+        "<li><a target=\"_blank\" href=\"https://www.yugioh-card.com/en/rulebook/\">Official rulebook page 55</a></li>"
+      ]
+    },
+    "Tribute": {
+      "interaction": false,
+      "references": [
+        "<li><a target=\"_blank\" href=\"https://ygorganization.com/perfect-rulebook-2017/\">OCG Perfect Rulebook 2017 pages 148-149</a></li>"
+      ]
+    }
+  },
+  "Tribute": {
+    "Destroy": {
+      "interaction": false,
+      "references": [
+        "<li><a target=\"_blank\" href=\"https://www.yugioh-card.com/en/rulebook/\">Official rulebook page 55</a></li>"
+      ]
+    },
+    "Send to the Graveyard": {
+      "interaction": true,
+      "references": [
+        "<li><a target=\"_blank\" href=\"https://www.yugioh-card.com/en/rulebook/\">Official rulebook page 55</a></li>"
+      ]
+    }
+  }
+}

@@ -177,7 +177,7 @@ console.log(`<li>YGOrg Database of Official OCG Rulings: <a target="_blank" href
 
 /*--------------*/
 
-text = `sss "Waking the Dragon", sa, "Dark Magician"`
+text = `Another example being "Centur-Ion Trudea": even if the effects of this card, which has been Special Summoned by this effect, are later negated, its Level will not return to the original value.`
 regex = /"([^"]*)"/g;
 cards = text.match(regex)
 cards = [...new Set(cards)].filter(_=>_ !== '"unaffected by activated effects"')
