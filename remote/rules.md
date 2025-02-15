@@ -49,7 +49,7 @@ Per esempio giocater A deve far tagliare il mazzo all'avversario B:
 
 # Cambiare il controllo di una carta
 
-- Se una carta cambia il controllo all'avversario, giralo e mettilo a faccia in giù e spostalo in modo che sia visibile a metà sulla parte sopra del tuo terrono:
+- Se una carta cambia il controllo all'avversario, giralo e mettilo a faccia in giù e spostalo in modo che sia visibile a metà sulla parte sopra del tuo terreno:
 
 ![alt text](image-4.png)
 
