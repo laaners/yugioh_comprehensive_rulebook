@@ -39,8 +39,13 @@ Le cate bandite vanno qua:
 - In caso di lag, aspettare che si sistemi e **comunicare che si ha lag a voce o con un messaggio**. Il tempo di attesa non verrà aggiunto in un'eventuale extension
 - **Le mani (quelle attaccate alle braccia non le carta) sempre visibili. Se non vuoi sempre tenerla visibili alla telecamere, posizionare le carte in mano coperte da qualche parte sul terreno prima di togliere le mani dalla telecamera. Se non si rispetta questo punto applicherò delle penalità.**
 
-# Mischiare il mazzo
-- Per semplicità facciamo che ogni volta che vuoi pescare, se prima hai searchato nel mazzo, allora devi mischiare il mazzo e poi lo tagli. Per tagliare chiedi all'avversario un numero qualsiasi, l'avversario risponde e sposti dalla cima del mazzo al fondo il numero di carte dichiarato ([stabilito dalle regole ufficiali](https://img.yugioh-card.com/en/downloads/remoteduel/EN_Remote_Duel_Best_Practice_Guide_V_1_2.pdf))
+# Mischiare e tagliare il mazzo
+
+Per semplicità facciamo che ogni volta che vuoi pescare, se prima hai searchato nel mazzo, allora devi mischiare il mazzo e poi lo tagli. Per tagliare chiedi all'avversario un numero qualsiasi, l'avversario risponde e sposti dalla cima del mazzo al fondo il numero di carte dichiarato ([stabilito dalle regole ufficiali](https://img.yugioh-card.com/en/downloads/remoteduel/EN_Remote_Duel_Best_Practice_Guide_V_1_2.pdf))
+
+Per esempio giocater A deve far tagliare il mazzo all'avversario B:
+- B dichiare un numero come 10
+- A sposta le prima 10 carte dalla cima del suo mazzo in fondo SENZA RIVELARLE O GUARDARLE
 
 # Cambiare il controllo di una carta
 
