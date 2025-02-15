@@ -26,7 +26,7 @@
 
 ![alt text](image.png)
 
-Le cate bandite vanno qua:
+Le carte bandite vanno qua:
 
 ![alt text](image-1.png)
 
@@ -43,7 +43,7 @@ Le cate bandite vanno qua:
 
 Per semplicità facciamo che ogni volta che vuoi pescare, se prima hai searchato nel mazzo, allora devi mischiare il mazzo e poi lo tagli. Per tagliare chiedi all'avversario un numero qualsiasi, l'avversario risponde e sposti dalla cima del mazzo al fondo il numero di carte dichiarato ([stabilito dalle regole ufficiali](https://img.yugioh-card.com/en/downloads/remoteduel/EN_Remote_Duel_Best_Practice_Guide_V_1_2.pdf))
 
-Per esempio giocater A deve far tagliare il mazzo all'avversario B:
+Per esempio giocatore A deve far tagliare il mazzo all'avversario B:
 - B dichiara un numero come 10
 - A sposta le prime 10 carte dalla cima del suo mazzo in fondo SENZA RIVELARLE O GUARDARLE
 
