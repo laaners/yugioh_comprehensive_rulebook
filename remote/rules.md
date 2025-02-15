@@ -45,7 +45,7 @@ Per semplicità facciamo che ogni volta che vuoi pescare, se prima hai searchato
 
 Per esempio giocater A deve far tagliare il mazzo all'avversario B:
 - B dichiara un numero come 10
-- A sposta le prima 10 carte dalla cima del suo mazzo in fondo SENZA RIVELARLE O GUARDARLE
+- A sposta le prime 10 carte dalla cima del suo mazzo in fondo SENZA RIVELARLE O GUARDARLE
 
 # Cambiare il controllo di una carta
 
