@@ -6,7 +6,7 @@
 - **Niente proxy**
 - Tempo per siddare: 3 minuti
 - Lista come screenshot da neuron
-- Decklist da consegnare **entro** le 21:00 precise (puoi anche consegnarmela lista), liste consegnate dalle 21:01 in poi non le conto, prendo in considerazione l'ultima
+- Decklist da consegnare **entro** le 21:00 precise (puoi anche consegnarmela prima), liste consegnate dalle 21:01 in poi non le conto, prendo in considerazione l'ultima
 - Controllo la lista a fine duello, quindi dovete restare per 1h circa, non potete andare offline dopo la fine del duello
 
 # Tappetino
