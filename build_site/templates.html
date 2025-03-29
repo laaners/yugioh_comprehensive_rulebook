@@ -256,6 +256,7 @@ console.log(tmp)
 yoursite = Array.from(document.querySelectorAll("a")).map(a=>a.href).filter(href=>href.includes("https://db.ygoresources.com/qa")).sort((a,b)=>a-b)
 yoursite = [...new Set(yoursite)]
 
+// sources up to date that are not on yoursite yet
 tmp = ""
 count = 0
 Array.from(document.body.querySelectorAll(".qa-entry")).forEach(_=>{
@@ -266,8 +267,9 @@ Array.from(document.body.querySelectorAll(".qa-entry")).forEach(_=>{
 })
 tmp += "<h1>"+count+"</h1>"
 console.log(tmp)
+console.log(count)
 
-
+// sources on yoursite that are not more up to date
 tmp = ""
 count = 0
 dbsite = Array.from(document.body.querySelectorAll(".qa-entry")).map(_=>_.href)
@@ -279,6 +281,8 @@ yoursite.forEach(_=>{
 })
 tmp += "<h1>"+count+"</h1>"
 console.log(tmp)
+console.log(count)
+
 </script>
 
 <!--
