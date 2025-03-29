@@ -35,12 +35,12 @@
       },
 
       {
-        "match": "build_site\\\\glossary-entry-effect-interaction.js",
+        "match": "build_site\\\\glossary-entry.*.json",
         "isAsync": true,
         "cmd": "node ./build_site/build_site.js"
       },
       {
-        "match": "build_site/glossary-entry-effect-interaction.js",
+        "match": "build_site/glossary-entry.*.json",
         "isAsync": true,
         "cmd": "node ./build_site/build_site.js"
       }

@@ -1,15 +1,29 @@
 <ul>
   <li>
-    Monsters changing control after their Trigger effect meets its activation condition can activate their effects after they've changed control (in which case the player who took control of the monster activates it)<sup><a href="#">[1]</a></sup
-    >.
-    <details>
-      <summary>Example</summary>
-      <u>Question:</u><br />I activate the effect of <span class="tooltip-anchor" data-name="99427357">"Cyber Angel Natasha"</span> in my Graveyard, banishing <span class="tooltip-anchor" data-name="77235086">"Cyber Angel Benten"</span> as a cost from my Graveyard and targeting my opponent's <span class="tooltip-anchor" data-name="96633955">"Swordsoul Supreme Sovereign - Chengying"</span>. When resolving this effect, I gain control of <span class="tooltip-anchor" data-name="96633955">"Swordsoul Supreme Sovereign - Chengying"</span>.<br />In this case, can I activate the effect of <span class="tooltip-anchor" data-name="96633955">"Swordsoul Supreme Sovereign - Chengying"</span> to banish 1 card each from my opponent's field and Graveyard since <span class="tooltip-anchor" data-name="77235086">"Cyber Angel Benten"</span> has been banished?<br /><u>Answer:</u><br />In the given situation, you can activate the effect of that <span class="tooltip-anchor" data-name="96633955">"Swordsoul Supreme Sovereign - Chengying"</span> you gained control of due the effect of <span class="tooltip-anchor" data-name="99427357">"Cyber Angel Natasha"</span>.
-      <hr />
-    </details>
+    Monsters changing control after their Trigger effect meets its activation condition:
+    <ul>
+      <li>
+        Can activate their effects after they've changed control if the event triggering the event does not specify which player did the event (in which case the player who took control of the monster activates it)<sup><a href="#">[1]</a></sup
+        >.
+        <details>
+          <summary>Example</summary>
+          <u>Question:</u><br />I activate the effect of <span class="tooltip-anchor" data-name="99427357">"Cyber Angel Natasha"</span> in my Graveyard, banishing <span class="tooltip-anchor" data-name="77235086">"Cyber Angel Benten"</span> as a cost from my Graveyard and targeting my opponent's <span class="tooltip-anchor" data-name="96633955">"Swordsoul Supreme Sovereign - Chengying"</span>. When resolving this effect, I gain control of <span class="tooltip-anchor" data-name="96633955">"Swordsoul Supreme Sovereign - Chengying"</span>.<br />In this case, can I activate the effect of <span class="tooltip-anchor" data-name="96633955">"Swordsoul Supreme Sovereign - Chengying"</span> to banish 1 card each from my opponent's field and Graveyard since <span class="tooltip-anchor" data-name="77235086">"Cyber Angel Benten"</span> has been banished?<br /><u>Answer:</u><br />In the given situation, you can activate the effect of that <span class="tooltip-anchor" data-name="96633955">"Swordsoul Supreme Sovereign - Chengying"</span> you gained control of due the effect of <span class="tooltip-anchor" data-name="99427357">"Cyber Angel Natasha"</span>.
+          <hr />
+        </details>
+      </li>
+      <li>
+        Cannot activate their effects after they've changed control if the event triggering the event specifies which player did the event<sup><a href="#">[2]</a></sup
+        >.
+        <details>
+          <summary>Example</summary>
+          <u>Question:</u><br />While <span class="tooltip-anchor" data-name="95474755">"Number 89: Diablosis the Mind Hacker"</span> is face-up in my Monster Zone, my opponent activates <span class="tooltip-anchor" data-name="35261759">"Pot of Desires"</span> and pays the cost of banishing 10 cards from the top of their Deck face-down.<br />If my opponent then further chains <span class="tooltip-anchor" data-name="98045062">"Enemy Controller"</span> and takes control of my <span class="tooltip-anchor" data-name="95474755">"Number 89: Diablosis the Mind Hacker"</span>, can the third effect of <span class="tooltip-anchor" data-name="95474755">"Number 89: Diablosis the Mind Hacker"</span> be activated?<br /><u>Answer:</u><br />In this scenario, the effect of <span class="tooltip-anchor" data-name="95474755">"Number 89: Diablosis the Mind Hacker"</span> can only be activated after resolving the Chain that includes <span class="tooltip-anchor" data-name="98045062">"Enemy Controller"</span> and <span class="tooltip-anchor" data-name="35261759">"Pot of Desires"</span>. After resolving that Chain, since control of <span class="tooltip-anchor" data-name="95474755">"Number 89: Diablosis the Mind Hacker"</span> has switched to your opponent, its third effect cannot be activated.
+          <hr />
+        </details>
+      </li>
+    </ul>
   </li>
   <li>
-    You activate a card (1) that takes control of an opponent monster as Chain Link 1. (1) does not target. Your opponent activates as Chain Link 2 an effect that summons a monster (2). The chain resolves backwards, (2) is special summoned first, then with (1) you take control of an opponent's monster. If you take control of (2), after the chain has finished resolving, you are (2)'s controller. Therefore, if (2)'s has a Trigger effect on summon, you can activate its effect at this time<sup><a href="#">[2]</a></sup
+    You activate a card (1) that takes control of an opponent monster as Chain Link 1. (1) does not target. Your opponent activates as Chain Link 2 an effect that summons a monster (2). The chain resolves backwards, (2) is special summoned first, then with (1) you take control of an opponent's monster. If you take control of (2), after the chain has finished resolving, you are (2)'s controller. Therefore, if (2)'s has a Trigger effect on summon, you can activate its effect at this time<sup><a href="#">[3]</a></sup
     >.
     <details>
       <summary>Example</summary>
@@ -22,5 +36,6 @@
 <em>References:</em>
 <ol class="references">
   <li>YGOrg Database of Official OCG Rulings: <a target="_blank" href="https://db.ygoresources.com/qa#23349">Monsters changing control after their Trigger effect meets its activation condition, before that effect can be activated</a></li>
+  <li>YGOrg Database of Official OCG Rulings: <a target="_blank" href="https://db.ygoresources.com/qa#21045">"Number 89: Diablosis the Mind Hacker", "Enemy Controller", "Pot of Desires"</a></li>
   <li>YGOrg Database of Official OCG Rulings: <a target="_blank" href="https://db.ygoresources.com/qa#24016">Special Summoning to a player's field, and control being changed before the effect can be activated</a></li>
 </ol>

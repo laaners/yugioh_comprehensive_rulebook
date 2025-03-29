@@ -2,6 +2,7 @@ const { JSDOM } = require("jsdom");
 const fs = require("fs");
 
 const glossary = require("./glossary-entry-effect-interaction.json");
+const actions_treated = require("./glossary-entry-action-treated-as-or-not.json");
 
 // add extra deck interactions to fusion, synchro, xyz, link
 //for (const [key, value] of Object.entries(glossary["Extra Deck Monsters"])) {
@@ -96,7 +97,9 @@ function mergeIncludes(document) {
       section_name.includes("10_glossary/") ||
       section_name.includes("06_other_game_elements/") ||
       section_name.includes("02_monster_cards/abilities/") ||
-      section_name.includes("09_card_text/04_text_not_effect/") ||
+      section_name.includes(
+        "09_card_text/02_activating_cards_and_effects/cost/"
+      ) ||
       section_name.includes("09_card_text/04_text_not_effect/") ||
       section_name.includes("02_monster_cards/01_normal_monsters") ||
       // section_name.includes("02_monster_cards/02_effect_monsters") ||
@@ -180,6 +183,11 @@ function mergeIncludes(document) {
 
             if (last_html !== glossary_entry_list.innerHTML) {
               // separators
+              if (entry === "Tribute for cost") {
+                final_html += `<hr><p style="text-align:center;"><strong>Costs</strong></p><hr>${glossary_entry_list.innerHTML}`;
+                glossary_entry_list.innerHTML = "";
+                last_html = glossary_entry_list.innerHTML;
+              }
               if (
                 entry ===
                 'Text that says "this card is always treated as [card name]/[a particular title/archetype] card"'
@@ -237,6 +245,8 @@ function addEffectInteractionEntry(
   glossary_entry_list,
   references_list
 ) {
+  let finalHTML = "";
+
   for (let i = 0; i < glossary_object.length; i++) {
     let interaction = glossary_object[i].interaction;
     let example = glossary_object[i].example;
@@ -279,7 +289,8 @@ function addEffectInteractionEntry(
       }
 
       if (glossary_object.length > 1) {
-        entryHTML += `<ul><li>`;
+        if (i === 0) entryHTML += `<ul><li>`;
+        else entryHTML += `<li>`;
       }
 
       if (example.length > 0) {
@@ -306,20 +317,23 @@ function addEffectInteractionEntry(
       );
 
       if (glossary_object.length > 1) {
-        entryHTML += `</li></ul>`;
+        if (i === glossary_object.length - 1) entryHTML += `</li></ul>`;
+        else entryHTML += `</li>`;
       }
 
       if (i === glossary_object.length - 1) {
         entryHTML += `</li>`;
       }
 
-      glossary_entry_list.innerHTML += entryHTML;
+      finalHTML += entryHTML;
 
       if (reference.length > 0 && alreadyExistingResourceIndex === -1) {
         references_list.innerHTML += "\n" + reference + "\n";
       }
     }
   }
+
+  glossary_entry_list.innerHTML += finalHTML;
 
   return sup_current_index;
 }
@@ -480,7 +494,7 @@ async function main() {
 
   // "unfold" all <details> ------------------------------------------------------------
   // html = html.replaceAll("<details", "<details open")
-  
+
   // hide triangle ------------------------------------------------------------
   // html = html.replaceAll(`<a class="top-shortcut" href="#page-top">▲</a>`, "")
 
