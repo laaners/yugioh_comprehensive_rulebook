@@ -13,6 +13,15 @@
       }
     ]
   },
+  "Return/Shuffle to the Deck for cost": {
+    "Leaves the field": [
+      {
+        "interaction": "When a monster on the field is shuffled into the Deck, it is no longer a card on the field, however its effects that activate when it \"leaves the field\" will not activate<sup><a>[]</a></sup>. Deck includes both Main and Extra Deck.",
+        "example": "",
+        "reference": "<li><a target=\"_blank\" href=\"https://www.yugioh-card.com/en/play/2021_rules_update/\">Official KONAMI's 2021 rules update</a></li>"
+      }
+    ]
+  },
   "Return/Add to the Hand for cost": {
     "Banish it when it leaves the field": [
       {
@@ -22,7 +31,44 @@
       }
     ]
   },
-  "Tribute for cost": {},
+  "Send to the Graveyard for cost": {
+    "Any [X] sent to the Graveyard is banished instead": [
+      {
+        "interaction": "For costs that read \"send to the Graveyard;\", those cards must be sent to the Graveyard in order to activate the effect. If <span class=\"tooltip-anchor\" data-name=\"30241314\">\"Macro Cosmos\"</span> or similar is being applied, so that the cards that would be sent to the Graveyard are banished instead and so that it is not possible to send cards to the Graveyard, activations that send cards to the Graveyard as a cost cannot be performed<sup><a>[]</a></sup>.",
+        "example": "",
+        "reference": "<li><a target=\"_blank\" href=\"https://ygorganization.com/perfect-rulebook-2017/\">OCG Perfect Rulebook 2017 page 131-133</a></li>"
+      },
+      {
+        "interaction": "When the effect \"any Monster sent to the GY is banished instead\" is applying you cannot activate a card or effect that requires you to send a Monster to the Graveyard as a cost<sup><a>[]</a></sup>.",
+        "example": "",
+        "reference": "<li><a target=\"_blank\" href=\"https://db.ygoresources.com/qa#9234\">\"Dimensional Fissure\" and activation legality</a></li>"
+      },
+      {
+        "interaction": "When the effect \"any Monster sent to the GY is banished instead\" is applying you cannot activate a card or effect that send cards from the top of your Deck to the Graveyard as cost as there may be monster cards among them<sup><a>[]</a></sup>.",
+        "example": "",
+        "reference": "<li><a target=\"_blank\" href=\"https://db.ygoresources.com/qa#9234\">\"Dimensional Fissure\" and activation legality</a></li>"
+      },
+      {
+        "interaction": "When the effect \"any Monster sent to the GY is banished instead\" is applying you can activate a card or effect that requires you to send a Monster Card not treated as a Monster (for example treated as an Equip Spell Card) to the Graveyard as a cost<sup><a>[]</a></sup>.",
+        "example": "<u>Question:</u><br>If the effect of <span class=\"tooltip-anchor\" data-name=\"81674782\">\"Dimensional Fissure\"</span> is applied, you cannot send monsters to the Graveyard as a cost to activate a card or an effect, but is it possible to send a card such a Union Monster treated as an Equip Spell Card to the Graveyard as a cost to activate the effect of <span class=\"tooltip-anchor\" data-name=\"34022290\">\"Guardian Eatos\"</span>?<br><u>Answer:</u><br>Even if the effect of <span class=\"tooltip-anchor\" data-name=\"81674782\">\"Dimensional Fissure\"</span> is applied, you can send cards such as Union Monsters treated as Equip Spell Cards to the Graveyard as a cost to activate the effect of <span class=\"tooltip-anchor\" data-name=\"34022290\">\"Guardian Eatos\"</span>.",
+        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#9105\">\"Guardian Eatos\", \"Dimensional Fissure\"</a></li>"
+      },
+      {
+        "interaction": "When the effect \"any Monster sent to the GY is banished instead\" is applying you can activate a card or effect that requires you to send a Trap Card summoned as a monster (either not treated as a Trap or still treated as a Trap) to the Graveyard as a cost<sup><a>[]</a></sup>.",
+        "example": "<u>Question:</u><br>I control an <span class=\"tooltip-anchor\" data-name=\"44822037\">\"Angel Statue - Azurune\"</span>, which was Special Summoned by its own effect, and the effect of <span class=\"tooltip-anchor\" data-name=\"81674782\">\"Dimensional Fissure\"</span> (or <span class=\"tooltip-anchor\" data-name=\"55154344\">\"Ryu-Ge Realm - Wyrm Winds\"</span>) is applying. Can I activate <span class=\"tooltip-anchor\" data-name=\"44822037\">\"Angel Statue - Azurune\"</span>'s effect by \"send[ing ...] 1 Continuous Trap in your Monster Zone that was Special Summoned from the Spell &amp; Trap Zone [to the Graveyard]?\" <br><u>Answer:</u><br>Yes, you can.",
+        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#24094\">\"Angel Statue - Azurune\", \"Dimensional Fissure\", \"Ryu-Ge Realm - Wyrm Winds\"</a></li>"
+      }
+    ]
+  },
+  "Tribute for cost": {
+    "Any [X] sent to the Graveyard is banished instead": [
+      {
+        "interaction": "For costs that tribute, if <span class=\"tooltip-anchor\" data-name=\"30241314\">\"Macro Cosmos\"</span> or something similar is being applied, so that monsters that would be sent to the Graveyard are banished, you can still Tribute monsters. In that case, the Tributed monsters are not sent to the Graveyard and are banished instead<sup><a>[]</a></sup>.",
+        "example": "",
+        "reference": "<li><a target=\"_blank\" href=\"https://ygorganization.com/perfect-rulebook-2017/\">OCG Perfect Rulebook 2017 page 131-133</a></li>"
+      }
+    ]
+  },
   "Text that specifies \"once per turn\" - Activate vs Use": {
     "Banish until - Temporarily banish": [
       {
@@ -60,21 +106,21 @@
         "reference": "<li><a target=\"_blank\" href=\"https://ygorganization.com/perfect-rulebook-2017/\">OCG Perfect Rulebook 2017 pages 176-177</a></li>"
       }
     ],
-    "Properties Changing - Name changing": [
+    "Change Name": [
       {
         "interaction": "If an effect reads \"You can only use this effect of [card name] once per turn\" or \"You can only use the effect of a card with this name once per turn\", this is not influenced by changes to the card's name on the field<sup><a>[]</a></sup>.",
         "example": "If the effect of <span class=\"tooltip-anchor\" data-name=\"92723496\">\"Giant Pairfish\"</span> that says \"You can discard 1 monster; Special Summon 1 Level 4 or lower Wyrm-Type monster from your Deck. You can only use this effect of \"Giant Pairfish\" once per turn.\" is activated, and later its name changes by the effect of another card, the effect of the <span class=\"tooltip-anchor\" data-name=\"92723496\">\"Giant Pairfish\"</span> that had its name changed during that turn cannot be activated.",
         "reference": "<li><a target=\"_blank\" href=\"https://ygorganization.com/perfect-rulebook-2017/\">OCG Perfect Rulebook 2017 page 55</a></li>"
       }
     ],
-    "Properties Changing - Copy effect continuous/lingering": [
+    "Copy effect continuous/lingering": [
       {
         "interaction": "If the effects of another monster are gained by an effect that gains effects, the requirements to use that effect like \"can only activate the effect of [card name] once per turn\" are also applied<sup><a>[]</a></sup>.",
         "example": "<u>Question:</u><br>I control two \"Therion\" monsters, each equipped with a <span class=\"tooltip-anchor\" data-name=\"21727231\">\"Therion \"Reaper\" Fum\"</span>. Due to the  effect of <span class=\"tooltip-anchor\" data-name=\"21727231\">\"Therion \"Reaper\" Fum\"</span>, both of these monsters have gained the  effect of <span class=\"tooltip-anchor\" data-name=\"21727231\">\"Therion \"Reaper\" Fum\"</span>, which allows me to return cards on the field to the hand.<br>During a single turn, can I activate both of these monsters' respective effect gained by <span class=\"tooltip-anchor\" data-name=\"21727231\">\"Therion \"Reaper\" Fum\"</span>?<br><u>Answer:</u><br>You can only activate that effect of one of these monsters.<br>You are considered to be using the  effect of <span class=\"tooltip-anchor\" data-name=\"21727231\">\"Therion \"Reaper\" Fum\"</span> not only if you activate that effect of a <span class=\"tooltip-anchor\" data-name=\"21727231\">\"Therion \"Reaper\" Fum\"</span>, but also if you activate that effect that another monster has gained due to the  effect of <span class=\"tooltip-anchor\" data-name=\"21727231\">\"Therion \"Reaper\" Fum\"</span>.<br><span class=\"tooltip-anchor\" data-name=\"21727231\">\"Therion \"Reaper\" Fum\"</span>'s card text tells you that you can only use the  effect of <span class=\"tooltip-anchor\" data-name=\"21727231\">\"Therion \"Reaper\" Fum\"</span> once per turn. Therefore, you cannot use the  effect of <span class=\"tooltip-anchor\" data-name=\"21727231\">\"Therion \"Reaper\" Fum\"</span> twice during the same turn, even if different monsters have that effect.",
         "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#23532\">Monsters gaining the effects of other monsters, and once-per-turn restrictions</a></li>"
       }
     ],
-    "Properties Changing - Copy effect resolves as another card's effect": [
+    "Copy effect resolves as another card's effect": [
       {
         "interaction": "Copying activated effects and named once per turn restrictions: this kind of effect \"ignores\" named once per turn restrictions<sup><a>[]</a></sup>.",
         "example": "<u>Question:</u><br>Can you activate <span class=\"tooltip-anchor\" data-name=\"38844957\">\"Urgent Ritual Art\"</span> by banishing <span class=\"tooltip-anchor\" data-name=\"51124303\">\"Nekroz Kaleidoscope\"</span> during a turn in which the Ritual Summoning effect of <span class=\"tooltip-anchor\" data-name=\"51124303\">\"Nekroz Kaleidoscope\"</span> has been used?<br><u>Answer:</u><br>While resolving the effect of <span class=\"tooltip-anchor\" data-name=\"38844957\">\"Urgent Ritual Art\"</span>, the effect of the banished Ritual Spell Card is performed as the resolution of the effect of <span class=\"tooltip-anchor\" data-name=\"38844957\">\"Urgent Ritual Art\"</span>.<br>Therefore, even in that case, <span class=\"tooltip-anchor\" data-name=\"38844957\">\"Urgent Ritual Art\"</span> can be activated by banishing <span class=\"tooltip-anchor\" data-name=\"51124303\">\"Nekroz Kaleidoscope\"</span>.",
@@ -86,12 +132,12 @@
     "Pendulum Monsters": [
       {
         "interaction": "When a Pendulum Monster Card is sent from the field to the Graveyard, it is added face-up to the Extra Deck, instead. Therefore, you cannot send a Pendulum Monster Card to the Graveyard in order to Special Summon a monster using its listed procedure that says \"send cards to the Graveyard\". This is the case only for summoning procedures that exactly say \"send to the Graveyard\"<sup><a>[]</a></sup>.",
-        "example": "<u>Question:</u><br>If Timegazer Magician is treated as a Machine-Type monster because of DNA Surgery, can it and Cyber Dragon be sent to the Graveyard to Special Summon <span class=\"tooltip-anchor\" data-name=\"79229522\">\"Chimeratech Fortress Dragon\"</span>?<br>Can I send a Spellcaster Pendulum Monster Card, and/or a Synchro Pendulum Monster Card, from my field to the Graveyard in order to Special Summon <span class=\"tooltip-anchor\" data-name=\"66532962\">\"Magistus Chorozo\"</span>?<br><u>Answer:</u><br>No, you cannot.<br>When a Pendulum Monster Card is sent from the field to the Graveyard, it is added face-up to the Extra Deck, instead. Therefore, you cannot send a Pendulum Monster Card to the Graveyard in order to Special Summon <span class=\"tooltip-anchor\" data-name=\"66532962\">\"Magistus Chorozo\"</span> using its listed procedure.<br>However, note that as an exception to the general rule above, if the \"cards on the field cannot be returned to the Deck\" effect of <span class=\"tooltip-anchor\" data-name=\"4130270\">\"G.B. Hunter\"</span> is applying, you will be able to succeed in sending a Pendulum Monster Card from the field to the Graveyard, and therefore can also send a Pendulum Monster Card you control to the Graveyard in order to Special Summon <span class=\"tooltip-anchor\" data-name=\"66532962\">\"Magistus Chorozo\"</span> using its procedure.",
+        "example": "<u>Question:</u><br>If Timegazer Magician is treated as a Machine-Type monster because of DNA Surgery, can it and Cyber Dragon be sent to the Graveyard to Special Summon <span class=\"tooltip-anchor\" data-name=\"79229522\">\"Chimeratech Fortress Dragon\"</span>?<br>Can I send a Spellcaster Pendulum Monster Card, and/or a Synchro Pendulum Monster Card, from my field to the Graveyard in order to Special Summon <span class=\"tooltip-anchor\" data-name=\"66532962\">\"Magistus Chorozo\"</span>?<br><u>Answer:</u><br>No, you cannot.<br>When a Pendulum Monster Card is sent from the field to the Graveyard, it is added face-up to the Extra Deck, instead. Therefore, you cannot send a Pendulum Monster Card to the Graveyard in order to Special Summon <span class=\"tooltip-anchor\" data-name=\"66532962\">\"Magistus Chorozo\"</span> using its listed procedure.",
         "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#13355\">\"Chimeratech Fortress Dragon\", \"G.B. Hunter\" and Pendulum Monsters</a></li>"
       },
       {
         "interaction": "However, note that as an exception to the general rule above, if the \"cards on the field cannot be returned to the Deck\" effect of <span class=\"tooltip-anchor\" data-name=\"4130270\">\"G.B. Hunter\"</span> is applying, you will be able to succeed in sending a Pendulum Monster Card from the field to the Graveyard, and therefore can also send a Pendulum Monster Card you control to the Graveyard in order to Special Summon a monster using its listed procedure that says \"send cards to the Graveyard\"<sup><a>[]</a></sup>.",
-        "example": "<u>Question:</u><br>If Timegazer Magician is treated as a Machine-Type monster because of DNA Surgery, can it and Cyber Dragon be sent to the Graveyard to Special Summon <span class=\"tooltip-anchor\" data-name=\"79229522\">\"Chimeratech Fortress Dragon\"</span>?<br>Can I send a Spellcaster Pendulum Monster Card, and/or a Synchro Pendulum Monster Card, from my field to the Graveyard in order to Special Summon <span class=\"tooltip-anchor\" data-name=\"66532962\">\"Magistus Chorozo\"</span>?<br><u>Answer:</u><br>No, you cannot.<br>When a Pendulum Monster Card is sent from the field to the Graveyard, it is added face-up to the Extra Deck, instead. Therefore, you cannot send a Pendulum Monster Card to the Graveyard in order to Special Summon <span class=\"tooltip-anchor\" data-name=\"66532962\">\"Magistus Chorozo\"</span> using its listed procedure.<br>However, note that as an exception to the general rule above, if the \"cards on the field cannot be returned to the Deck\" effect of <span class=\"tooltip-anchor\" data-name=\"4130270\">\"G.B. Hunter\"</span> is applying, you will be able to succeed in sending a Pendulum Monster Card from the field to the Graveyard, and therefore can also send a Pendulum Monster Card you control to the Graveyard in order to Special Summon <span class=\"tooltip-anchor\" data-name=\"66532962\">\"Magistus Chorozo\"</span> using its procedure.",
+        "example": "",
         "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#13355\">\"Chimeratech Fortress Dragon\", \"G.B. Hunter\" and Pendulum Monsters</a></li>"
       }
     ],
@@ -137,7 +183,7 @@
     ]
   },
   "Text that is maintenance cost": {
-    "Properties Changing - Copy effect continuous/lingering": [
+    "Copy effect continuous/lingering": [
       {
         "interaction": "Copying the effect of a card does not copy the maintenance cost<sup><a>[]</a></sup>.",
         "example": "If <span class=\"tooltip-anchor\" data-name=\"84565800\">\"Legendary Knight Hermos\"</span> gains the effects of <span class=\"tooltip-anchor\" data-name=\"14309486\">\"Koa'ki Meiru Overload\"</span>, the text that says \"During each of your End Phases, destroy this card unless you send 1 \"Iron Core of Koa'ki Meiru\" from your hand to the Graveyard or reveal 1 Rock-Type monster in your hand.\" is not applied.",
@@ -153,7 +199,7 @@
         "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#277\">\"Umi\", \"Crossout Designator\"</a></li>"
       }
     ],
-    "Properties Changing - Name changing": [
+    "Change Name": [
       {
         "interaction": "Archetype inclusion/exclusion \"this card is always treated as [a particular title/archetype] card\" clauses apply to a particular card name, not to a particular card: copying the name of a card with such clauses will copy also the \"[a particular title/archetype]\" clause<sup><a>[]</a></sup>.",
         "example": "<u>Question:</u><br>I activate the effect of <span class=\"tooltip-anchor\" data-name=\"79531196\">\"Crystal Rose\"</span>, and when it resolves, I send <span class=\"tooltip-anchor\" data-name=\"61011438\">\"Brilliant Rose\"</span> to the Graveyard.<br>As a result, the name of <span class=\"tooltip-anchor\" data-name=\"79531196\">\"Crystal Rose\"</span> is now treated as \"<span class=\"tooltip-anchor\" data-name=\"61011438\">\"Brilliant Rose\"</span>\". Will it also be treated as a \"Gem-Knight\" card due to <span class=\"tooltip-anchor\" data-name=\"61011438\">\"Brilliant Rose\"</span>'s text?<br><u>Answer:</u><br>Yes, it is also treated as a \"Gem-Knight\" card.",
@@ -256,7 +302,7 @@
         "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#281\">\"Solemn Judgment\", \"Destruction Jammer\"</a></li>"
       }
     ],
-    "Properties Changing - Copy effect continuous/lingering": [
+    "Copy effect continuous/lingering": [
       {
         "interaction": "If the effects of a Gemini Monster (1) are gained by a Monster (2) that has an effect that gains effects, (2) will be treated as a Normal Monster, but can be Normal Summoned again to gain the listed effect of (1)<sup><a>[]</a></sup>.",
         "example": "<u>Question:</u><br>If I activate <span class=\"tooltip-anchor\" data-name=\"43237273\">\"Neo-Spacian Dark Panther\"</span>'s effect by targeting a Gemini monster such as <span class=\"tooltip-anchor\" data-name=\"95888876\">\"Chthonian Emperor Dragon\"</span>, what happens?<br><u>Answer:</u><br><span class=\"tooltip-anchor\" data-name=\"43237273\">\"Neo-Spacian Dark Panther\"</span> will gain the effects of the targeted Gemini monster. As a result, it will be treated as a Normal Monster, but can be Normal Summoned again to gain the listed effect.",
@@ -578,7 +624,7 @@
         "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#62\">\"Herald of Pure Light\"</a></li>"
       }
     ],
-    "Return/Shuffle to the Deck": [
+    "Return/Shuffle to the Deck as an effect": [
       {
         "interaction": "Efffects that return/shuffle a monster to the Deck can be applied on Extra Deck monsters like a Fusion Monster. In that case, the monster is not returned/shuffled to the Main Deck and is returned to the Extra Deck instead. Furthermore, in that case, since no cards were returned to the Deck, the Deck is not shuffled. This action is still treated as returning/shuffling a monster to the deck<sup><a>[]</a></sup>.",
         "example": "<u>Question:</u><br>If I activate <span class=\"tooltip-anchor\" data-name=\"64014615\">\"Pot of Acquisitiveness\"</span> by targeting a total of 3 banished Fusion, Synchro, Xyz, and/or Link Monsters, how does it resolve?<br><u>Answer:</u><br>If you activate <span class=\"tooltip-anchor\" data-name=\"64014615\">\"Pot of Acquisitiveness\"</span> by targeting a total of 3 banished Fusion, Synchro, Xyz, and/or Link Monsters, those monsters are returned to the Extra Deck instead of the Main Deck. Note that since no cards were returned to the Main Deck, it is not shuffled. After that, you will still draw 1 card normally.",
@@ -903,8 +949,8 @@
     "Change/Take/Give/Switch Control": [
       {
         "interaction": "When monsters that have been banished temporarily are returned to the field, if their controller had changed by an effect, they are returned to the side of the field of the controller they had before being banished. Then, if the control of the monsters has been changed due to an effect that <b>temporarily</b> gains control of the monsters, control of the monsters returns to the original owner<sup><a>[]</a></sup>.",
-        "example": "<u>Question:</u><br>While I control my opponent's monster due to the effect of <span class=\"tooltip-anchor\" data-name=\"98045062\">\"Enemy Controller\"</span> or <span class=\"tooltip-anchor\" data-name=\"87910978\">\"Brain Control\"</span>, that monster is banished by <span class=\"tooltip-anchor\" data-name=\"36261276\">\"Interdimensional Matter Transporter\"</span>. What happens to control of that monster during the End Phase?<br>Additionally, if that same monster is banished by <span class=\"tooltip-anchor\" data-name=\"22959079\">\"Dimensionhole\"</span> instead, what happens to control of that monster during the next Standby Phase?<br><u>Answer:</u><br>If a monster is being controlled due to <span class=\"tooltip-anchor\" data-name=\"98045062\">\"Enemy Controller\"</span> or similar, and that monster is banished by <span class=\"tooltip-anchor\" data-name=\"36261276\">\"Interdimensional Matter Transporter\"</span>, control of the monster that returns to the field during the End Phase will return to the original owner.<br>Also, even if the monster is banished due to <span class=\"tooltip-anchor\" data-name=\"22959079\">\"Dimensionhole\"</span>, control of the monster that was returned to the field during the next Standby Phase will return to the original owner.",
-        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#8811\">\"Enemy Controller\", \"Interdimensional Matter Transporter\"</a></li>"
+        "example": "",
+        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#17476\">\"Interdimensional Matter Forwarder\", \"Number 11: Big Eye\"</a></li>"
       },
       {
         "interaction": "When monsters that have been banished temporarily are returned to the field, if their controller had changed by an effect, they are returned to the side of the field of the controller they had before being banished. Then, if the control of the monsters has been changed due to an effect that <b>permanently</b> gains control of the monsters, control of the monsters does not return to the original owner<sup><a>[]</a></sup>.",
@@ -942,7 +988,7 @@
         "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#22901\">Floodgates & summon-immediately-after</a></li>"
       }
     ],
-    "Properties Changing": [
+    "Change Properties": [
       {
         "interaction": "A monster (1) with multiple attributes must be sent to the Graveyard while an <span class=\"tooltip-anchor\" data-name=\"53334471\">\"Gozen Match\"</span>'s activation resolves. Also, while (1) is not face-up on the field, its only attribute is the one listed on the card. Thus, you can still Normal, Flip or Special Summon (1) even if <span class=\"tooltip-anchor\" data-name=\"53334471\">\"Gozen Match\"</span>'s is applying. However, as soon as the effect of (1) is then applied, it must be sent to the Graveyard<sup><a>[]</a></sup>.",
         "example": "<u>Question:</u><br>If the effect of <span class=\"tooltip-anchor\" data-name=\"53334471\">\"Gozen Match\"</span> applies, so that each player can only control monsters of 1 Attribute, will face-up monsters with multiple attributes, such as <span class=\"tooltip-anchor\" data-name=\"99414168\">\"Elemental Mistress Doriado\"</span>, <span class=\"tooltip-anchor\" data-name=\"47297616\">\"Light and Darkness Dragon\"</span>, or <span class=\"tooltip-anchor\" data-name=\"11366199\">\"Dark Simorgh\"</span>, be sent to the Graveyard?<br>Furthermore, is it possible to Normal Summon, Flip Summon or Special Summon these monsters?<br><u>Answer:</u><br>If <span class=\"tooltip-anchor\" data-name=\"53334471\">\"Gozen Match\"</span>'s activation resolves while <span class=\"tooltip-anchor\" data-name=\"99414168\">\"Elemental Mistress Doriado\"</span>, etc., are face-up, the <span class=\"tooltip-anchor\" data-name=\"99414168\">\"Elemental Mistress Doriado\"</span>, etc., with multiple attributes must be sent to the Graveyard.<br>Also, while monsters such as <span class=\"tooltip-anchor\" data-name=\"99414168\">\"Elemental Mistress Doriado\"</span> are not face-up on the field, their only attribute is the one listed on the card. Thus, you can still Normal, Flip or Special Summon them even if <span class=\"tooltip-anchor\" data-name=\"53334471\">\"Gozen Match\"</span> is applying.<br>However, as soon as the effect of <span class=\"tooltip-anchor\" data-name=\"99414168\">\"Elemental Mistress Doriado\"</span>, etc., is then applied, it must be sent to the Graveyard.",
@@ -961,7 +1007,7 @@
     ]
   },
   "Cannot summon - Summon restrictions": {
-    "Properties Changing": [
+    "Change Properties": [
       {
         "interaction": "A card (1) with the restriction of \"you cannot Normal or Special Summon except X monsters the turn you activate this card\" is applying. Normally, if you Summon a monster (2) which violates the restriction of (1), then (1) cannot be activated. Similarly, if you activate (1) first (2) cannot be Summoned. But if<sup><a>[]</a></sup>:<ul><li>A card (3) has an effect that applies to (2) such that when (2) is Summoned it does not violate the restriction of (1), then (1) can be activated <strong>after</strong> (2) has been Summoned.</li><li>A card (3) has an effect that applies to (2) such that when (2) is Summoned it does not violate the restriction of (1), but you have already activated (1) <strong>before</strong> (2) is Summoned, then (2) cannot be Summoned anymore.</li></ul>",
         "example": "<u>Question:</u><br>A <span class=\"tooltip-anchor\" data-name=\"56769674\">\"DNA Transplant\"</span> that was activated by declaring the LIGHT Attribute is face-up on the field. In this situation, I activate <span class=\"tooltip-anchor\" data-name=\"83764719\">\"Monster Reborn\"</span> and Special Summon <span class=\"tooltip-anchor\" data-name=\"11260714\">\"Darklord Superbia\"</span> from my Graveyard, then activate its effect and Special Summon <span class=\"tooltip-anchor\" data-name=\"3395226\">\"Mozarta the Melodious Maestra\"</span> from the Graveyard. During the same turn, can I activate the effect of <span class=\"tooltip-anchor\" data-name=\"3395226\">\"Mozarta the Melodious Maestra\"</span>?<br><u>Answer:</u><br>Even if you Special Summoned a <span class=\"tooltip-anchor\" data-name=\"11260714\">\"Darklord Superbia\"</span> (whose original Attribute is DARK) this turn, if you did so while the effect of <span class=\"tooltip-anchor\" data-name=\"56769674\">\"DNA Transplant\"</span> was applying declaring LIGHT, you can activate the effect of <span class=\"tooltip-anchor\" data-name=\"3395226\">\"Mozarta the Melodious Maestra\"</span>.<br>However, if you first activated the effect of <span class=\"tooltip-anchor\" data-name=\"3395226\">\"Mozarta the Melodious Maestra\"</span>, you cannot Special Summon monsters whose original Attributes are anything other than LIGHT, even if the effect of <span class=\"tooltip-anchor\" data-name=\"56769674\">\"DNA Transplant\"</span> is applying.",
@@ -1042,7 +1088,7 @@
         "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#23933\">Special Summons caused by a card effect, and whether the effect includes Special Summoning</a></li>"
       }
     ],
-    "Properties Changing - Copy effect resolves as another card's effect": [
+    "Copy effect resolves as another card's effect": [
       {
         "interaction": "A card or effect (1) that copies a card's effect (2) that does [A] does not make (1) a card or effect \"that includes an effect that does [A]\"<sup><a>[]</a></sup>.",
         "example": "<u>Question:</u><br>When the \"You can pay 2000 Life Points and send 1 \"Fusion\" or \"<span class=\"tooltip-anchor\" data-name=\"24094653\">\"Polymerization\"</span>\" Normal or Quick-Play Spell from your Deck to the Graveyard; this effect becomes that Spell's effect when that card is activated, also, you cannot Special Summon monsters for the rest of this turn.\" effect of <span class=\"tooltip-anchor\" data-name=\"70369116\">\"Predaplant Verte Anaconda\"</span> is activated, will the \"The activation of your cards and effects that include an effect that Fusion Summons a Fusion Monster cannot be negated, also your opponent's cards and effects cannot activate when a monster is Fusion Summoned this way.\" effect of <span class=\"tooltip-anchor\" data-name=\"47679935\">\"Magical Meltdown\"</span> be applied?<br><u>Answer:</u><br>No, it will not be applied.<br>Even if the effect of <span class=\"tooltip-anchor\" data-name=\"70369116\">\"Predaplant Verte Anaconda\"</span> results in a Fusion Summon being performed, it is not treated as an effect that \"includes an effect that Fusion Summons a Fusion Monster,\" so the effect of <span class=\"tooltip-anchor\" data-name=\"47679935\">\"Magical Meltdown\"</span>, <span class=\"tooltip-anchor\" data-name=\"9069157\">\"Dragonroid\"</span> or <span class=\"tooltip-anchor\" data-name=\"18973184\">\"Branded Lost\"</span> will not be applied.<br>As an example, if the opponent activates <span class=\"tooltip-anchor\" data-name=\"40605147\">\"Solemn Strike\"</span> in response to the activation of the effect of <span class=\"tooltip-anchor\" data-name=\"70369116\">\"Predaplant Verte Anaconda\"</span>, its activation will be negated.<br>If the Fusion Summon performed is successful, the opponent can still respond with cards and effects.",
@@ -1065,7 +1111,7 @@
         "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#11290\">\"Horus the Black Flame Dragon LV8\", \"Stardust Dragon\"</a></li>"
       }
     ],
-    "Properties Changing - Copy effect resolves as another card's effect": [
+    "Copy effect resolves as another card's effect": [
       {
         "interaction": "An effect that copies a card's effect that does [A] is not treated as an \"effects that would do [A]\"<sup><a>[]</a></sup>.",
         "example": "<u>Question:</u><br>If the effect of <span class=\"tooltip-anchor\" data-name=\"6511113\">\"Traptrix Rafflesia\"</span> that makes its effect become the same as a \"Hole\" Normal Trap Card is activated, can the effect of <span class=\"tooltip-anchor\" data-name=\"44508094\">\"Stardust Dragon\"</span> be chained to it?<br><u>Answer:</u><br>The effect of <span class=\"tooltip-anchor\" data-name=\"6511113\">\"Traptrix Rafflesia\"</span> is not treated as an effect that destroys cards on the field when it is activated. Even if <span class=\"tooltip-anchor\" data-name=\"4206964\">\"Trap Hole\"</span> or <span class=\"tooltip-anchor\" data-name=\"29401950\">\"Bottomless Trap Hole\"</span> are sent to the Graveyard when their activation requirements are met, it is not possible to chain the effect of <span class=\"tooltip-anchor\" data-name=\"44508094\">\"Stardust Dragon\"</span>.",
@@ -1123,6 +1169,8 @@
     ]
   },
   "Change battle position": {},
+  "Change Level/Rank": {},
+  "Change Name": {},
   "Change to face-down Defense Position": {
     "Equipping Monsters": [
       {
@@ -1172,6 +1220,7 @@
       }
     ]
   },
+  "Change Properties": {},
   "Continuous destroys/sends itself (self-destruct/self-send)": {
     "If [X] would be destroyed, you can do [A] instead - Destruction Substitution": [
       {
@@ -1181,6 +1230,8 @@
       }
     ]
   },
+  "Copy effect continuous/lingering": {},
+  "Copy effect resolves as another card's effect": {},
   "Declare 1 card name": {},
   "Destroy": {
     "Traps Treated as Monsters (still treated as Traps)": [
@@ -1290,7 +1341,7 @@
     ]
   },
   "If/When [X] destroys a monster by battle: do [A]": {
-    "Properties Changing": [
+    "Change Properties": [
       {
         "interaction": "If an effect (1) reads \"If/When [X] destroys a monster [Y] with certain property Z by battle: do [A]\", even if [X] destroys [Y] which had property Z on the field due to another card effect but after being destroyed and sent to the Graveyard [Y] has no longer property Z, [A] can still be activated<sup><a>[]</a></sup>.",
         "example": "<u>Question:</u><br>If <span class=\"tooltip-anchor\" data-name=\"17313545\">\"Brain Golem\"</span> destroys a monster that is treated as LIGHT Attribute due to an effect like <span class=\"tooltip-anchor\" data-name=\"10352095\">\"Scroll of Bewitchment\"</span>, will its effect to attack again activate?<br><u>Answer:</u><br>The effect of <span class=\"tooltip-anchor\" data-name=\"17313545\">\"Brain Golem\"</span> will activate at the End of the Damage Step, if the Attribute of the monster to be destroyed by the battle is LIGHT.<br>Therefore, even if the destroyed monster's Attribute is treated as LIGHT due to the effect of <span class=\"tooltip-anchor\" data-name=\"10352095\">\"Scroll of Bewitchment\"</span>, that effect of <span class=\"tooltip-anchor\" data-name=\"17313545\">\"Brain Golem\"</span> will activate at the End of the Damage Step.<br>As a result, even if the Attribute of the monster after being destroyed and sent to the Graveyard is no longer LIGHT, <span class=\"tooltip-anchor\" data-name=\"17313545\">\"Brain Golem\"</span> can still attack again.",
@@ -1361,7 +1412,7 @@
         "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#16986\">\"Solemn Judgment\", \"Ehther the Heavenly Monarch\"</a></li>"
       }
     ],
-    "Properties Changing": [
+    "Change Properties": [
       {
         "interaction": "An effect (1) is applying that changes properties of monsters face-up on the field.<ul><li>You can activate an effect (2) that summons back monsters (3) from a location (like the Graveyard) to the field and immediately after at resolution performs a Special Summon of a monster (4), as long as (3) and their properties satisfied the summoning requirements for (4) when (3) were in their original location (like the Graveyard).</li><li>But when (3) are summoned back to the field, as (1) is applying, if (1) changes (3)'s properties so that you can't summon (4) at resolution anymore, you must summon another monster that can be summoned with (3) after their properties have changed from the same location(s) of (4).</li><li>If there are no monsters that can be summoned from the location(s) of (4), after summoning back (3), (2) resolves without performing the Special Summon<sup><a>[]</a></sup>.</li></ul>",
         "example": "<u>Question:</u><br>If my opponent has <span class=\"tooltip-anchor\" data-name=\"81489939\">\"Stygian Dirge\"</span> face-up on their side of the field, can I activate <span class=\"tooltip-anchor\" data-name=\"29087919\">\"Geargia Change\"</span>?<br><u>Answer:</u><br>Since the targeted \"<span class=\"tooltip-anchor\" data-name=\"71786742\">\"Geargiano\"</span>\" monsters are Level 3, as long as you are able to Xyz Summon a Rank 3 monster using the targeted monsters, you can still activate <span class=\"tooltip-anchor\" data-name=\"29087919\">\"Geargia Change\"</span>.<br>In this scenario, since the Levels of the targeted monsters are reduced by 1 after being Special Summoned, you cannot Xyz Summon a Rank 3 monster, and you must instead Xyz Summon a Rank 2 monster if one exists in your Extra Deck.<br>At this time, if you do not have a Rank 2 monster in your Extra Deck, the Xyz Summon is not performed.",
@@ -1403,7 +1454,7 @@
         "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#94\">\"Relay Soul\" and monster moved to Spell & Trap Zone</a></li>"
       }
     ],
-    "Return/Shuffle to the Deck": [
+    "Return/Shuffle to the Deck as an effect": [
       {
         "interaction": "When a monster on the field is shuffled into the Deck, it is no longer a card on the field, however its effects that activate when it \"leaves the field\" will not activate<sup><a>[]</a></sup>. Deck includes both Main and Extra Deck.",
         "example": "",
@@ -1441,21 +1492,21 @@
         "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#6629\">\"Skill Drain\", \"Crystal Beast Ruby Carbuncle\" </a></li>"
       }
     ],
-    "Properties Changing": [
+    "Change Properties": [
       {
         "interaction": "When a monster's effects that gained the Level, name or effect of another monster are negated, then only the Level will return to its original value<sup><a>[]</a></sup>.",
         "example": "<u>Question:</u><br>The effect of <span class=\"tooltip-anchor\" data-name=\"58446973\">\"Infernoid Decatron\"</span> was activated, gaining the name and effects of <span class=\"tooltip-anchor\" data-name=\"88301393\">\"Infernoid Attondel\"</span> and increasing its Level by 8.<br>Afterwards if <span class=\"tooltip-anchor\" data-name=\"58446973\">\"Infernoid Decatron\"</span> has its effects negated by the effect of <span class=\"tooltip-anchor\" data-name=\"82732705\">\"Skill Drain\"</span> being activated, what happens with the applied effect?<br><u>Answer:</u><br>In the proposed scenario, the Level of <span class=\"tooltip-anchor\" data-name=\"58446973\">\"Infernoid Decatron\"</span> that was increased by 8 returns to the original value, but the gained name remains as <span class=\"tooltip-anchor\" data-name=\"88301393\">\"Infernoid Attondel\"</span>.<br>Also, the gained effects of <span class=\"tooltip-anchor\" data-name=\"88301393\">\"Infernoid Attondel\"</span> remain gained, but they are negated by <span class=\"tooltip-anchor\" data-name=\"82732705\">\"Skill Drain\"</span>.<br>(If you activate the \"this card can make a second attack in a row\" effect, it will be negated. If you activate the \"target 1 card in your opponent's Graveyard; banish it\" effect by Tributing another monster, it will be negated. If you activate that effect by Tributing <span class=\"tooltip-anchor\" data-name=\"58446973\">\"Infernoid Decatron\"</span> itself, it will not be negated.)<br>Similarly, the following monsters will also retain the card names they gained, even if their effects are negated after the effect in question has been applied: <span class=\"tooltip-anchor\" data-name=\"72708264\">\"Performapal Bot-Eyes Lizard\"</span>, <span class=\"tooltip-anchor\" data-name=\"79531196\">\"Crystal Rose\"</span>, <span class=\"tooltip-anchor\" data-name=\"16828633\">\"Genex Spare\"</span>, and <span class=\"tooltip-anchor\" data-name=\"51827737\">\"Genex Recycled\"</span>.",
         "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#15597\">When a monster's effects that gained the Level, name or effect of another monster are negated, then only the Level will return to its original value</a></li>"
       }
     ],
-    "Properties Changing - Name changing": [
+    "Change Name": [
       {
         "interaction": "When a monster's effects that gained the Level, name or effect of another monster are negated, then only the Level will return to its original value<sup><a>[]</a></sup>.",
         "example": "<u>Question:</u><br>The effect of <span class=\"tooltip-anchor\" data-name=\"58446973\">\"Infernoid Decatron\"</span> was activated, gaining the name and effects of <span class=\"tooltip-anchor\" data-name=\"88301393\">\"Infernoid Attondel\"</span> and increasing its Level by 8.<br>Afterwards if <span class=\"tooltip-anchor\" data-name=\"58446973\">\"Infernoid Decatron\"</span> has its effects negated by the effect of <span class=\"tooltip-anchor\" data-name=\"82732705\">\"Skill Drain\"</span> being activated, what happens with the applied effect?<br><u>Answer:</u><br>In the proposed scenario, the Level of <span class=\"tooltip-anchor\" data-name=\"58446973\">\"Infernoid Decatron\"</span> that was increased by 8 returns to the original value, but the gained name remains as <span class=\"tooltip-anchor\" data-name=\"88301393\">\"Infernoid Attondel\"</span>.<br>Also, the gained effects of <span class=\"tooltip-anchor\" data-name=\"88301393\">\"Infernoid Attondel\"</span> remain gained, but they are negated by <span class=\"tooltip-anchor\" data-name=\"82732705\">\"Skill Drain\"</span>.<br>(If you activate the \"this card can make a second attack in a row\" effect, it will be negated. If you activate the \"target 1 card in your opponent's Graveyard; banish it\" effect by Tributing another monster, it will be negated. If you activate that effect by Tributing <span class=\"tooltip-anchor\" data-name=\"58446973\">\"Infernoid Decatron\"</span> itself, it will not be negated.)<br>Similarly, the following monsters will also retain the card names they gained, even if their effects are negated after the effect in question has been applied: <span class=\"tooltip-anchor\" data-name=\"72708264\">\"Performapal Bot-Eyes Lizard\"</span>, <span class=\"tooltip-anchor\" data-name=\"79531196\">\"Crystal Rose\"</span>, <span class=\"tooltip-anchor\" data-name=\"16828633\">\"Genex Spare\"</span>, and <span class=\"tooltip-anchor\" data-name=\"51827737\">\"Genex Recycled\"</span>.",
         "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#15597\">When a monster's effects that gained the Level, name or effect of another monster are negated, then only the Level will return to its original value</a></li>"
       }
     ],
-    "Properties Changing - Level/Rank changing": [
+    "Change Level/Rank": [
       {
         "interaction": "For monster effects that change Levels, if the effect can only be applied to the activating monster itself, that effect will cease to apply if the monster's effects are negated<sup><a>[]</a></sup>.",
         "example": "<u>Question:</u><br>I have activated and resolved the effect of my <span class=\"tooltip-anchor\" data-name=\"68431965\">\"Shooting Riser Dragon\"</span>, and as I sent <span class=\"tooltip-anchor\" data-name=\"9742784\">\"Jet Synchron\"</span> to the Graveyard using it, the Level of <span class=\"tooltip-anchor\" data-name=\"68431965\">\"Shooting Riser Dragon\"</span> is currently reduced by 1.<br>If the effects of this <span class=\"tooltip-anchor\" data-name=\"68431965\">\"Shooting Riser Dragon\"</span> are now negated, such as by <span class=\"tooltip-anchor\" data-name=\"82732705\">\"Skill Drain\"</span>'s effect, what happens to <span class=\"tooltip-anchor\" data-name=\"68431965\">\"Shooting Riser Dragon\"</span>'s Level?<br><u>Answer:</u><br>The Level will return to the original value. (Note that \"you cannot activate the effects of monsters with the same name the sent monster had in the Graveyard\" still applies.)<br>For monster effects that change Levels, if the effect can only be applied to the activating monster itself, that effect will cease to apply if the monster's effects are negated.",
@@ -1472,7 +1523,7 @@
         "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/card#19373\">\"Centur-Ion Trudea\"</a></li>"
       }
     ],
-    "Properties Changing - Copy effect continuous/lingering": [
+    "Copy effect continuous/lingering": [
       {
         "interaction": "When a monster's effects that gained the Level, name or effect of another monster are negated, then only the Level will return to its original value<sup><a>[]</a></sup>.",
         "example": "<u>Question:</u><br>The effect of <span class=\"tooltip-anchor\" data-name=\"58446973\">\"Infernoid Decatron\"</span> was activated, gaining the name and effects of <span class=\"tooltip-anchor\" data-name=\"88301393\">\"Infernoid Attondel\"</span> and increasing its Level by 8.<br>Afterwards if <span class=\"tooltip-anchor\" data-name=\"58446973\">\"Infernoid Decatron\"</span> has its effects negated by the effect of <span class=\"tooltip-anchor\" data-name=\"82732705\">\"Skill Drain\"</span> being activated, what happens with the applied effect?<br><u>Answer:</u><br>In the proposed scenario, the Level of <span class=\"tooltip-anchor\" data-name=\"58446973\">\"Infernoid Decatron\"</span> that was increased by 8 returns to the original value, but the gained name remains as <span class=\"tooltip-anchor\" data-name=\"88301393\">\"Infernoid Attondel\"</span>.<br>Also, the gained effects of <span class=\"tooltip-anchor\" data-name=\"88301393\">\"Infernoid Attondel\"</span> remain gained, but they are negated by <span class=\"tooltip-anchor\" data-name=\"82732705\">\"Skill Drain\"</span>.<br>(If you activate the \"this card can make a second attack in a row\" effect, it will be negated. If you activate the \"target 1 card in your opponent's Graveyard; banish it\" effect by Tributing another monster, it will be negated. If you activate that effect by Tributing <span class=\"tooltip-anchor\" data-name=\"58446973\">\"Infernoid Decatron\"</span> itself, it will not be negated.)<br>Similarly, the following monsters will also retain the card names they gained, even if their effects are negated after the effect in question has been applied: <span class=\"tooltip-anchor\" data-name=\"72708264\">\"Performapal Bot-Eyes Lizard\"</span>, <span class=\"tooltip-anchor\" data-name=\"79531196\">\"Crystal Rose\"</span>, <span class=\"tooltip-anchor\" data-name=\"16828633\">\"Genex Spare\"</span>, and <span class=\"tooltip-anchor\" data-name=\"51827737\">\"Genex Recycled\"</span>.",
@@ -1525,14 +1576,9 @@
     ]
   },
   "Place a card on the field in your Spell/Trap/Pendulum Zone": {},
-  "Place a card on the field in your Spell/Trap/Pendulum Zone instead of destroying it": {},
-  "Properties Changing": {},
-  "Properties Changing - Name changing": {},
-  "Properties Changing - Level/Rank changing": {},
-  "Properties Changing - Copy effect continuous/lingering": {},
-  "Properties Changing - Copy effect resolves as another card's effect": {},
+  "Place a card on the field in your Spell/Trap/Pendulum Zone instead of destroying it": {},  
   "Properties Changing - Gains this effect": {},
-  "Return/Shuffle to the Deck": {},
+  "Return/Shuffle to the Deck as an effect": {},
   "Return/Add to the Hand as an effect": {},
   "Reveal": {},
   "Send to the Graveyard as an effect": {},
