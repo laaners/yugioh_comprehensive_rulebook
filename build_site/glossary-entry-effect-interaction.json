@@ -1,212 +1,4 @@
 {
-  "Discard for cost": {
-    "Any [X] sent to the Graveyard is banished instead": [
-      {
-        "interaction": "When paying costs that say \"discard to the Graveyard\", if <span class=\"tooltip-anchor\" data-name=\"30241314\">\"Macro Cosmos\"</span> or something similar is being applied, so that cards that would be sent to the Graveyard are banished, the activation of cards that discard to the Graveyard as a cost cannot be performed. Costs that simply say \"discard\" can be paid. In that case, the cards are not sent to the Graveyard and are banished as a result<sup><a>[]</a></sup>.",
-        "example": "",
-        "reference": "<li><a target=\"_blank\" href=\"https://ygorganization.com/perfect-rulebook-2017/\">OCG Perfect Rulebook 2017 page 131-133</a></li>"
-      },
-      {
-        "interaction": "If <span class=\"tooltip-anchor\" data-name=\"30241314\">\"Macro Cosmos\"</span> or something similar is activated, so that cards that would be sent to the Graveyard are banished, discarded cards are not sent to the Graveyard and are banished instead. Cards banished in this way are treated as being banished by a card effect, even if they were discarded as cost<sup><a>[]</a></sup>.",
-        "example": "<u>Question:</u><br>I activate <span class=\"tooltip-anchor\" data-name=\"48130397\">\"Super Polymerization\"</span>, or activate <span class=\"tooltip-anchor\" data-name=\"68468459\">\"Fallen of Albaz\"</span>' effect, by discarding <span class=\"tooltip-anchor\" data-name=\"36577931\">\"Despian Tragedy\"</span> as a cost.<br>After this activation resolves, can the effect of <span class=\"tooltip-anchor\" data-name=\"36577931\">\"Despian Tragedy\"</span>, which activates if it is sent to the Graveyard or banished by a card effect, be activated?<br><u>Answer:</u><br>In this case, <span class=\"tooltip-anchor\" data-name=\"36577931\">\"Despian Tragedy\"</span> was discarded as a cost to activate an effect. It was not sent to the Graveyard by a card effect. Thus, the effect of <span class=\"tooltip-anchor\" data-name=\"36577931\">\"Despian Tragedy\"</span> cannot be activated.<br>The effect of <span class=\"tooltip-anchor\" data-name=\"36577931\">\"Despian Tragedy\"</span> is an effect that can be activated when <span class=\"tooltip-anchor\" data-name=\"36577931\">\"Despian Tragedy\"</span> is sent to the Graveyard by a card effect, or is banished.<br>However, if the situation above occurs while the effect of <span class=\"tooltip-anchor\" data-name=\"30241314\">\"Macro Cosmos\"</span> is applying, the <span class=\"tooltip-anchor\" data-name=\"36577931\">\"Despian Tragedy\"</span> will not be discarded to the Graveyard. Instead, it will be banished by the effect of <span class=\"tooltip-anchor\" data-name=\"30241314\">\"Macro Cosmos\"</span>. As <span class=\"tooltip-anchor\" data-name=\"36577931\">\"Despian Tragedy\"</span> was banished by a card effect, the effect of <span class=\"tooltip-anchor\" data-name=\"36577931\">\"Despian Tragedy\"</span> can then be activated.",
-        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#23227\">\"Despian Tragedy\", \"Fallen of Albaz\", \"Super Polymerization\", \"Macro Cosmos\"</a></li>"
-      }
-    ]
-  },
-  "Return/Shuffle to the Deck for cost": {
-    "Leaves the field": [
-      {
-        "interaction": "When a monster on the field is shuffled into the Deck, it is no longer a card on the field, however its effects that activate when it \"leaves the field\" will not activate<sup><a>[]</a></sup>. Deck includes both Main and Extra Deck.",
-        "example": "",
-        "reference": "<li><a target=\"_blank\" href=\"https://www.yugioh-card.com/en/play/2021_rules_update/\">Official KONAMI's 2021 rules update</a></li>"
-      }
-    ]
-  },
-  "Return/Add to the Hand for cost": {
-    "Banish it when it leaves the field": [
-      {
-        "interaction": "If a card will be banished when it leaves the field, it cannot be returned to the hand as a cost to activate the effect of a card (1) that requires to do so, therefore (1) cannot be activated<sup><a>[]</a></sup>.",
-        "example": "<u>Question:</u><br>Can I return&nbsp;<span class=\"tooltip-anchor\" data-name=\"33420078\">\"Plaguespreader Zombie\"</span> Special Summoned with its own effect to Special Summon&nbsp;<span class=\"tooltip-anchor\" data-name=\"14785765\">\"Blackwing - Zephyros the Elite\"</span> with its own effect?<br><u>Answer:</u><br>Since&nbsp;<span class=\"tooltip-anchor\" data-name=\"33420078\">\"Plaguespreader Zombie\"</span> was Special Summoned with its own effect, it will be banished when it leaves the field, so you cannot be returned to the hand as a cost to activate the effect of&nbsp;<span class=\"tooltip-anchor\" data-name=\"14785765\">\"Blackwing - Zephyros the Elite\"</span>.<br>If&nbsp;<span class=\"tooltip-anchor\" data-name=\"33420078\">\"Plaguespreader Zombie\"</span> that was Special Summoned by its own effect becomes an Equip Card due to the effect&nbsp;<span class=\"tooltip-anchor\" data-name=\"22091647\">\"Immortal Phoenix Gearfried\"</span>, the part of the effect that makes&nbsp;<span class=\"tooltip-anchor\" data-name=\"33420078\">\"Plaguespreader Zombie\"</span> being banished when it leaves the field is no longer applied. In that situation, you can return&nbsp;<span class=\"tooltip-anchor\" data-name=\"33420078\">\"Plaguespreader Zombie\"</span> that is equipped to&nbsp;<span class=\"tooltip-anchor\" data-name=\"22091647\">\"Immortal Phoenix Gearfried\"</span> as a cost to activate the effect of&nbsp;<span class=\"tooltip-anchor\" data-name=\"14785765\">\"Blackwing - Zephyros the Elite\"</span>.",
-        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#10487\">\"Plaguespreader Zombie\", \"Blackwing - Zephyros the Elite\", \"Immortal Phoenix Gearfried\"</a></li>"
-      }
-    ]
-  },
-  "Send to the Graveyard for cost": {
-    "Any [X] sent to the Graveyard is banished instead": [
-      {
-        "interaction": "For costs that read \"send to the Graveyard;\", those cards must be sent to the Graveyard in order to activate the effect. If <span class=\"tooltip-anchor\" data-name=\"30241314\">\"Macro Cosmos\"</span> or similar is being applied, so that the cards that would be sent to the Graveyard are banished instead and so that it is not possible to send cards to the Graveyard, activations that send cards to the Graveyard as a cost cannot be performed<sup><a>[]</a></sup>.",
-        "example": "",
-        "reference": "<li><a target=\"_blank\" href=\"https://ygorganization.com/perfect-rulebook-2017/\">OCG Perfect Rulebook 2017 page 131-133</a></li>"
-      },
-      {
-        "interaction": "When the effect \"any Monster sent to the GY is banished instead\" is applying you cannot activate a card or effect that requires you to send a Monster to the Graveyard as a cost<sup><a>[]</a></sup>.",
-        "example": "",
-        "reference": "<li><a target=\"_blank\" href=\"https://db.ygoresources.com/qa#9234\">\"Dimensional Fissure\" and activation legality</a></li>"
-      },
-      {
-        "interaction": "When the effect \"any Monster sent to the GY is banished instead\" is applying you cannot activate a card or effect that send cards from the top of your Deck to the Graveyard as cost as there may be monster cards among them<sup><a>[]</a></sup>.",
-        "example": "",
-        "reference": "<li><a target=\"_blank\" href=\"https://db.ygoresources.com/qa#9234\">\"Dimensional Fissure\" and activation legality</a></li>"
-      },
-      {
-        "interaction": "When the effect \"any Monster sent to the GY is banished instead\" is applying you can activate a card or effect that requires you to send a Monster Card not treated as a Monster (for example treated as an Equip Spell Card) to the Graveyard as a cost<sup><a>[]</a></sup>.",
-        "example": "<u>Question:</u><br>If the effect of <span class=\"tooltip-anchor\" data-name=\"81674782\">\"Dimensional Fissure\"</span> is applied, you cannot send monsters to the Graveyard as a cost to activate a card or an effect, but is it possible to send a card such a Union Monster treated as an Equip Spell Card to the Graveyard as a cost to activate the effect of <span class=\"tooltip-anchor\" data-name=\"34022290\">\"Guardian Eatos\"</span>?<br><u>Answer:</u><br>Even if the effect of <span class=\"tooltip-anchor\" data-name=\"81674782\">\"Dimensional Fissure\"</span> is applied, you can send cards such as Union Monsters treated as Equip Spell Cards to the Graveyard as a cost to activate the effect of <span class=\"tooltip-anchor\" data-name=\"34022290\">\"Guardian Eatos\"</span>.",
-        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#9105\">\"Guardian Eatos\", \"Dimensional Fissure\"</a></li>"
-      },
-      {
-        "interaction": "When the effect \"any Monster sent to the GY is banished instead\" is applying you can activate a card or effect that requires you to send a Trap Card summoned as a monster (either not treated as a Trap or still treated as a Trap) to the Graveyard as a cost<sup><a>[]</a></sup>.",
-        "example": "<u>Question:</u><br>I control an <span class=\"tooltip-anchor\" data-name=\"44822037\">\"Angel Statue - Azurune\"</span>, which was Special Summoned by its own effect, and the effect of <span class=\"tooltip-anchor\" data-name=\"81674782\">\"Dimensional Fissure\"</span> (or <span class=\"tooltip-anchor\" data-name=\"55154344\">\"Ryu-Ge Realm - Wyrm Winds\"</span>) is applying. Can I activate <span class=\"tooltip-anchor\" data-name=\"44822037\">\"Angel Statue - Azurune\"</span>'s effect by \"send[ing ...] 1 Continuous Trap in your Monster Zone that was Special Summoned from the Spell &amp; Trap Zone [to the Graveyard]?\" <br><u>Answer:</u><br>Yes, you can.",
-        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#24094\">\"Angel Statue - Azurune\", \"Dimensional Fissure\", \"Ryu-Ge Realm - Wyrm Winds\"</a></li>"
-      }
-    ]
-  },
-  "Tribute for cost": {
-    "Any [X] sent to the Graveyard is banished instead": [
-      {
-        "interaction": "For costs that tribute, if <span class=\"tooltip-anchor\" data-name=\"30241314\">\"Macro Cosmos\"</span> or something similar is being applied, so that monsters that would be sent to the Graveyard are banished, you can still Tribute monsters. In that case, the Tributed monsters are not sent to the Graveyard and are banished instead<sup><a>[]</a></sup>.",
-        "example": "",
-        "reference": "<li><a target=\"_blank\" href=\"https://ygorganization.com/perfect-rulebook-2017/\">OCG Perfect Rulebook 2017 page 131-133</a></li>"
-      }
-    ]
-  },
-  "Text that specifies \"once per turn\" - Activate vs Use": {
-    "Banish until - Temporarily banish": [
-      {
-        "interaction": "If \"the effect(s) of this card can only be <b>activated</b> once per turn\" or simply \"once per turn:\" is written (different from \"the effect of [card name] can only be activated/used once per turn\"), if that card is flipped face-down or leaves the field and it later appears on the field face-up once again, the same effect of cards with the same name can be activated<sup><a>[]</a></sup>.",
-        "example": "",
-        "reference": "<li><a target=\"_blank\" href=\"https://ygorganization.com/perfect-rulebook-2017/\">OCG Perfect Rulebook 2017 pages 176-177</a></li>"
-      },
-      {
-        "interaction": "If \"the effect of [card name] can only be <b>used</b> once per turn\" is written with a particular card name, if that card leaves the field and returns to the field in the same turn, that card or cards with the same name cannot activate that effect in that turn. The same applies if \"can only be used once per Duel\" is written<sup><a>[]</a></sup>.",
-        "example": "",
-        "reference": "<li><a target=\"_blank\" href=\"https://ygorganization.com/perfect-rulebook-2017/\">OCG Perfect Rulebook 2017 pages 176-177</a></li>"
-      }
-    ],
-    "Change/Take/Give/Switch Control": [
-      {
-        "interaction": "If \"the effect(s) of this card can only be <b>activated</b> once per turn\" or simply \"once per turn:\" is written (different from \"the effect of [card name] can only be activated/used once per turn\"), if control switches to the opponent, the effect cannot be activated<sup><a>[]</a></sup>.",
-        "example": "<u>Question:</u><br>The turn player has activated the  effect of <span class=\"tooltip-anchor\" data-name=\"29981921\">\"Legendary Six Samurai - Shi En\"</span> that negates the activation of a Spell/Trap Card. If control of <span class=\"tooltip-anchor\" data-name=\"29981921\">\"Legendary Six Samurai - Shi En\"</span> is now changed due to <span class=\"tooltip-anchor\" data-name=\"98045062\">\"Enemy Controller\"</span>'s effect, can the opponent also activate the  effect of that same <span class=\"tooltip-anchor\" data-name=\"29981921\">\"Legendary Six Samurai - Shi En\"</span> this turn?<br><u>Answer:</u><br>If you have already used that effect of <span class=\"tooltip-anchor\" data-name=\"29981921\">\"Legendary Six Samurai - Shi En\"</span> this turn, your opponent cannot use the same effect of that <span class=\"tooltip-anchor\" data-name=\"29981921\">\"Legendary Six Samurai - Shi En\"</span> this turn, even if they take control of it.",
-        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#11282\">Unqualified 'once per turn' and change of control</a></li>"
-      },
-      {
-        "interaction": "If \"the effect of [card name] can only be <b>used</b> once per turn\" is written with a particular card name, if control switches to the opponent, monsters with the same name that the opponent controls can activate that effect<sup><a>[]</a></sup>.",
-        "example": "",
-        "reference": "<li><a target=\"_blank\" href=\"https://ygorganization.com/perfect-rulebook-2017/\">OCG Perfect Rulebook 2017 pages 176-177</a></li>"
-      }
-    ],
-    "Change to face-down Defense Position": [
-      {
-        "interaction": "If \"the effect(s) of this card can only be <b>activated</b> once per turn\" or simply \"once per turn:\" is written (different from \"the effect of [card name] can only be activated/used once per turn\"), if that card is flipped face-down or leaves the field and it later appears on the field face-up once again, the same effect of cards with the same name can be activated<sup><a>[]</a></sup>.",
-        "example": "",
-        "reference": "<li><a target=\"_blank\" href=\"https://ygorganization.com/perfect-rulebook-2017/\">OCG Perfect Rulebook 2017 pages 176-177</a></li>"
-      },
-      {
-        "interaction": "If \"the effect of [card name] can only be <b>used</b> once per turn\" is written with a particular card name, if that card leaves the field and returns to the field in the same turn, that card or cards with the same name cannot activate that effect in that turn. The same applies if \"can only be used once per Duel\" is written<sup><a>[]</a></sup>.",
-        "example": "",
-        "reference": "<li><a target=\"_blank\" href=\"https://ygorganization.com/perfect-rulebook-2017/\">OCG Perfect Rulebook 2017 pages 176-177</a></li>"
-      }
-    ],
-    "Change Name": [
-      {
-        "interaction": "If an effect reads \"You can only use this effect of [card name] once per turn\" or \"You can only use the effect of a card with this name once per turn\", this is not influenced by changes to the card's name on the field<sup><a>[]</a></sup>.",
-        "example": "If the effect of <span class=\"tooltip-anchor\" data-name=\"92723496\">\"Giant Pairfish\"</span> that says \"You can discard 1 monster; Special Summon 1 Level 4 or lower Wyrm-Type monster from your Deck. You can only use this effect of \"Giant Pairfish\" once per turn.\" is activated, and later its name changes by the effect of another card, the effect of the <span class=\"tooltip-anchor\" data-name=\"92723496\">\"Giant Pairfish\"</span> that had its name changed during that turn cannot be activated.",
-        "reference": "<li><a target=\"_blank\" href=\"https://ygorganization.com/perfect-rulebook-2017/\">OCG Perfect Rulebook 2017 page 55</a></li>"
-      }
-    ],
-    "Copy effect continuous/lingering": [
-      {
-        "interaction": "If the effects of another monster are gained by an effect that gains effects, the requirements to use that effect like \"can only activate the effect of [card name] once per turn\" are also applied<sup><a>[]</a></sup>.",
-        "example": "<u>Question:</u><br>I control two \"Therion\" monsters, each equipped with a <span class=\"tooltip-anchor\" data-name=\"21727231\">\"Therion \"Reaper\" Fum\"</span>. Due to the  effect of <span class=\"tooltip-anchor\" data-name=\"21727231\">\"Therion \"Reaper\" Fum\"</span>, both of these monsters have gained the  effect of <span class=\"tooltip-anchor\" data-name=\"21727231\">\"Therion \"Reaper\" Fum\"</span>, which allows me to return cards on the field to the hand.<br>During a single turn, can I activate both of these monsters' respective effect gained by <span class=\"tooltip-anchor\" data-name=\"21727231\">\"Therion \"Reaper\" Fum\"</span>?<br><u>Answer:</u><br>You can only activate that effect of one of these monsters.<br>You are considered to be using the  effect of <span class=\"tooltip-anchor\" data-name=\"21727231\">\"Therion \"Reaper\" Fum\"</span> not only if you activate that effect of a <span class=\"tooltip-anchor\" data-name=\"21727231\">\"Therion \"Reaper\" Fum\"</span>, but also if you activate that effect that another monster has gained due to the  effect of <span class=\"tooltip-anchor\" data-name=\"21727231\">\"Therion \"Reaper\" Fum\"</span>.<br><span class=\"tooltip-anchor\" data-name=\"21727231\">\"Therion \"Reaper\" Fum\"</span>'s card text tells you that you can only use the  effect of <span class=\"tooltip-anchor\" data-name=\"21727231\">\"Therion \"Reaper\" Fum\"</span> once per turn. Therefore, you cannot use the  effect of <span class=\"tooltip-anchor\" data-name=\"21727231\">\"Therion \"Reaper\" Fum\"</span> twice during the same turn, even if different monsters have that effect.",
-        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#23532\">Monsters gaining the effects of other monsters, and once-per-turn restrictions</a></li>"
-      }
-    ],
-    "Copy effect resolves as another card's effect": [
-      {
-        "interaction": "Copying activated effects and named once per turn restrictions: this kind of effect \"ignores\" named once per turn restrictions<sup><a>[]</a></sup>.",
-        "example": "<u>Question:</u><br>Can you activate <span class=\"tooltip-anchor\" data-name=\"38844957\">\"Urgent Ritual Art\"</span> by banishing <span class=\"tooltip-anchor\" data-name=\"51124303\">\"Nekroz Kaleidoscope\"</span> during a turn in which the Ritual Summoning effect of <span class=\"tooltip-anchor\" data-name=\"51124303\">\"Nekroz Kaleidoscope\"</span> has been used?<br><u>Answer:</u><br>While resolving the effect of <span class=\"tooltip-anchor\" data-name=\"38844957\">\"Urgent Ritual Art\"</span>, the effect of the banished Ritual Spell Card is performed as the resolution of the effect of <span class=\"tooltip-anchor\" data-name=\"38844957\">\"Urgent Ritual Art\"</span>.<br>Therefore, even in that case, <span class=\"tooltip-anchor\" data-name=\"38844957\">\"Urgent Ritual Art\"</span> can be activated by banishing <span class=\"tooltip-anchor\" data-name=\"51124303\">\"Nekroz Kaleidoscope\"</span>.",
-        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#16653\">Copying activated effects and named once per turn restrictions</a></li>"
-      }
-    ]
-  },
-  "Text that determines Materials and Summoning procedures": {
-    "Pendulum Monsters": [
-      {
-        "interaction": "When a Pendulum Monster Card is sent from the field to the Graveyard, it is added face-up to the Extra Deck, instead. Therefore, you cannot send a Pendulum Monster Card to the Graveyard in order to Special Summon a monster using its listed procedure that says \"send cards to the Graveyard\". This is the case only for summoning procedures that exactly say \"send to the Graveyard\"<sup><a>[]</a></sup>.",
-        "example": "<u>Question:</u><br>If Timegazer Magician is treated as a Machine-Type monster because of DNA Surgery, can it and Cyber Dragon be sent to the Graveyard to Special Summon <span class=\"tooltip-anchor\" data-name=\"79229522\">\"Chimeratech Fortress Dragon\"</span>?<br>Can I send a Spellcaster Pendulum Monster Card, and/or a Synchro Pendulum Monster Card, from my field to the Graveyard in order to Special Summon <span class=\"tooltip-anchor\" data-name=\"66532962\">\"Magistus Chorozo\"</span>?<br><u>Answer:</u><br>No, you cannot.<br>When a Pendulum Monster Card is sent from the field to the Graveyard, it is added face-up to the Extra Deck, instead. Therefore, you cannot send a Pendulum Monster Card to the Graveyard in order to Special Summon <span class=\"tooltip-anchor\" data-name=\"66532962\">\"Magistus Chorozo\"</span> using its listed procedure.",
-        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#13355\">\"Chimeratech Fortress Dragon\", \"G.B. Hunter\" and Pendulum Monsters</a></li>"
-      },
-      {
-        "interaction": "However, note that as an exception to the general rule above, if the \"cards on the field cannot be returned to the Deck\" effect of <span class=\"tooltip-anchor\" data-name=\"4130270\">\"G.B. Hunter\"</span> is applying, you will be able to succeed in sending a Pendulum Monster Card from the field to the Graveyard, and therefore can also send a Pendulum Monster Card you control to the Graveyard in order to Special Summon a monster using its listed procedure that says \"send cards to the Graveyard\"<sup><a>[]</a></sup>.",
-        "example": "",
-        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#13355\">\"Chimeratech Fortress Dragon\", \"G.B. Hunter\" and Pendulum Monsters</a></li>"
-      }
-    ],
-    "Tokens": [
-      {
-        "interaction": "When Special Summoning a monster with its own procedure, a Token on the field can be banished and the monster is summoned normally<sup><a>[]</a></sup>.",
-        "example": "<u>Question:</u><br>When Special Summoning&nbsp;<span class=\"tooltip-anchor\" data-name=\"14466224\">\"The Atmosphere\"</span> from my hand with its own procedure, can I banish a Token(s) such as \"Sheep Token\" on my field?<br>Also, when Special Summoning&nbsp;<span class=\"tooltip-anchor\" data-name=\"88264978\">\"Red-Eyes Darkness Metal Dragon\"</span>, can I banish a Token that is a Dragon on my field?<br><u>Answer:</u><br>You can Special Summon&nbsp;<span class=\"tooltip-anchor\" data-name=\"14466224\">\"The Atmosphere\"</span> and&nbsp;<span class=\"tooltip-anchor\" data-name=\"88264978\">\"Red-Eyes Darkness Metal Dragon\"</span> using a Token as described in the given situations.",
-        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#9612\">\"The Atmosphere\" and Tokens</a></li>"
-      }
-    ],
-    "Any [X] sent to the Graveyard is banished instead": [
-      {
-        "interaction": "While the effect of <span class=\"tooltip-anchor\" data-name=\"30241314\">\"Macro Cosmos\"</span>, cards sent to the Graveyard are banished instead, therefore you cannot \"send cards to the Graveyard\" as part of a Special Summoning procedure. This is the case only for summoning procedures that exactly say \"send to the Graveyard\"<sup><a>[]</a></sup>.",
-        "example": "<u>Question:</u><br>The effect of <span class=\"tooltip-anchor\" data-name=\"30241314\">\"Macro Cosmos\"</span> is applying, banishing any cards that would be sent to the Graveyard. In this situation, is it possible to Special Summon <span class=\"tooltip-anchor\" data-name=\"79229522\">\"Chimeratech Fortress Dragon\"</span> by banishing \"<span class=\"tooltip-anchor\" data-name=\"70095154\">\"Cyber Dragon\"</span>\" + 1+ Machine monsters?<br>Furthermore, if the effect of <span class=\"tooltip-anchor\" data-name=\"30241314\">\"Macro Cosmos\"</span> is negated by <span class=\"tooltip-anchor\" data-name=\"77585513\">\"Jinzo\"</span>, can I send that <span class=\"tooltip-anchor\" data-name=\"77585513\">\"Jinzo\"</span> to the Graveyard in order to Special Summon <span class=\"tooltip-anchor\" data-name=\"79229522\">\"Chimeratech Fortress Dragon\"</span>?<br><u>Answer:</u><br>While the effect of <span class=\"tooltip-anchor\" data-name=\"30241314\">\"Macro Cosmos\"</span> is applying, cards sent to the Graveyard are banished instead. Therefore, you cannot send cards to the Graveyard as part of a Special Summoning procedure, and therefore cannot Special Summon <span class=\"tooltip-anchor\" data-name=\"79229522\">\"Chimeratech Fortress Dragon\"</span> from the Extra Deck.<br>Furthermore, if the effects of <span class=\"tooltip-anchor\" data-name=\"30241314\">\"Macro Cosmos\"</span> are negated by the effect of <span class=\"tooltip-anchor\" data-name=\"77585513\">\"Jinzo\"</span>, and that <span class=\"tooltip-anchor\" data-name=\"77585513\">\"Jinzo\"</span> is sent to the Graveyard, it would be banished by <span class=\"tooltip-anchor\" data-name=\"30241314\">\"Macro Cosmos\"</span>' effect. Therefore, you cannot send that <span class=\"tooltip-anchor\" data-name=\"77585513\">\"Jinzo\"</span> to the Graveyard as part of a Special Summoning procedure while both it and <span class=\"tooltip-anchor\" data-name=\"30241314\">\"Macro Cosmos\"</span> are face-up on the field.",
-        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#6878\">\"Chimeratech Fortress Dragon\", \"Macro Cosmos\"</a></li>"
-      }
-    ],
-    "Leaves the field because of an opponent's card": [
-      {
-        "interaction": "A monster you control that leaves the field because used as a material (for example as Tribute or Link material) for an opponent's monster summoning procedures, it counts as having left the field by your opponent's card<sup><a>[]</a></sup>.",
-        "example": "<u>Question:</u><br>I control a Fusion Summoned <span class=\"tooltip-anchor\" data-name=\"44146295\">\"Mirrorjade the Iceblade Dragon\"</span>, and my opponent Tributes it to Special Summon <span class=\"tooltip-anchor\" data-name=\"36956512\">\"Gadarla, the Mystery Dust Kaiju\"</span> to my field. Can its effect when it leaves the field be activated?<br>Also, if my opponent sends that <span class=\"tooltip-anchor\" data-name=\"44146295\">\"Mirrorjade the Iceblade Dragon\"</span> to the Graveyard as Link Material for the Link Summon of <span class=\"tooltip-anchor\" data-name=\"98127546\">\"Underworld Goddess of the Closed World\"</span>, can its effect be activated?<br><u>Answer:</u><br>That effect can be activated in both cases. (<span class=\"tooltip-anchor\" data-name=\"44146295\">\"Mirrorjade the Iceblade Dragon\"</span> is considered to have left the field by the opponent).<br>Furthermore, when <span class=\"tooltip-anchor\" data-name=\"44146295\">\"Mirrorjade the Iceblade Dragon\"</span>'s effect is then resolved during the End Phase, <span class=\"tooltip-anchor\" data-name=\"98127546\">\"Underworld Goddess of the Closed World\"</span> will be destroyed by it.",
-        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#23560\">\"Leaves the field by your opponent\" and Summoning procedures</a></li>"
-      }
-    ],
-    "Unaffected": [
-      {
-        "interaction": "The text \"You can also use 1 monster your opponent controls as material to Link Summon this card\" of <span class=\"tooltip-anchor\" data-name=\"98127546\">\"Underworld Goddess of the Closed World\"</span> is not an effect, therefore an opponent's monster that is unaffected by monster effects can still be used as a Link Material<sup><a>[]</a></sup>.",
-        "example": "",
-        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#23132\">\"Underworld Goddess of the Closed World\" using an opponent's monster that is unaffected</a></li>"
-      },
-      {
-        "interaction": "The text \"You can Special Summon this card (from your hand) to your opponent's field in Attack Position, by Tributing 1 monster they control\" of a \"Kaiju\" Monster is not an effect, therefore an opponent's monster that is unaffected by monster effects can still be tributed<sup><a>[]</a></sup>.",
-        "example": "",
-        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#298\">\"Metaltron XII, the True Dracombatant\", \"Kumongous, the Sticky String Kaiju\"</li>"
-      }
-    ],
-    "\"Necrovalley\"": [
-      {
-        "interaction": "If you Special Summon a <strong>Special Summon Monster from the Graveyard</strong> using the procedure described in its card text, this is not treated as a Special Summon performed by a card effect. Therefore, since this is not a card effect being applied to cards in the Graveyard (as described in <span class=\"tooltip-anchor\" data-name=\"47355498\">\"Necrovalley\"</span>'s text), you can Special Summon such monsters this way<sup><a>[]</a></sup>.",
-        "example": "<u>Question:</u><br><span class=\"tooltip-anchor\" data-name=\"47355498\">\"Necrovalley\"</span> is face-up in my opponent's Field Zone, and its  effect is applying.<br>In this situation, can I Special Summon <span class=\"tooltip-anchor\" data-name=\"14799437\">\"Infernoid Onuncu\"</span> using the \"by banishing 3 \"Infernoid\" monsters from your hand or Graveyard\" procedure listed in its text?<br><u>Answer:</u><br>If you Special Summon a Special Summon Monster using the procedure described in its card text, this is not treated as a Special Summon performed by a card effect. Therefore, since this is not a card effect being applied to cards in the Graveyard (as described in <span class=\"tooltip-anchor\" data-name=\"47355498\">\"Necrovalley\"</span>'s text), you can Special Summon <span class=\"tooltip-anchor\" data-name=\"14799437\">\"Infernoid Onuncu\"</span> this way.<br>However, note that the effect of <span class=\"tooltip-anchor\" data-name=\"47355498\">\"Necrovalley\"</span> that prevents players from banishing cards from the Graveyard is also applying. This prevents you from banishing cards from the Graveyard, regardless of whether a card effect is doing so.<br>Therefore, in order to Special Summon <span class=\"tooltip-anchor\" data-name=\"14799437\">\"Infernoid Onuncu\"</span>, you will need to banish 3 \"Infernoid\" monsters from your hand.",
-        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#6500\">\"Necrovalley\" and Special Summon monsters</li>"
-      }
-    ]
-  },
-  "Text that is maintenance cost": {
-    "Copy effect continuous/lingering": [
-      {
-        "interaction": "Copying the effect of a card does not copy the maintenance cost<sup><a>[]</a></sup>.",
-        "example": "If <span class=\"tooltip-anchor\" data-name=\"84565800\">\"Legendary Knight Hermos\"</span> gains the effects of <span class=\"tooltip-anchor\" data-name=\"14309486\">\"Koa'ki Meiru Overload\"</span>, the text that says \"During each of your End Phases, destroy this card unless you send 1 \"Iron Core of Koa'ki Meiru\" from your hand to the Graveyard or reveal 1 Rock-Type monster in your hand.\" is not applied.",
-        "reference": "<li><a target=\"_blank\" href=\"https://ygorganization.com/perfect-rulebook-2017/\">OCG Perfect Rulebook 2017 page 175</a></li>"
-      }
-    ]
-  },
-  "Text that says \"this card is always treated as [card name]/[a particular title/archetype] card\"": {
-    "Declare 1 card name": [
-      {
-        "interaction": "A card named [X] whose text reads \"this card's name is always treated as [Y]\" cannot be declared by card name: when activating an effect that involves declaring a card name, you cannot declare [X] but you can declare [Y]<sup><a>[]</a></sup>.",
-        "example": "<u>Question:</u><br>The card names \"<span class=\"tooltip-anchor\" data-name=\"295517\">\"A Legendary Ocean\"</span>\" and \"<span class=\"tooltip-anchor\" data-name=\"34103656\">\"Lemuria, the Forgotten City\"</span>\" are always treated as \"<span class=\"tooltip-anchor\" data-name=\"22702055\">\"Umi\"</span>\".<br>For cards that have me declare a card name, such as <span class=\"tooltip-anchor\" data-name=\"65681983\">\"Crossout Designator\"</span>, can I declare \"<span class=\"tooltip-anchor\" data-name=\"295517\">\"A Legendary Ocean\"</span>\" or \"<span class=\"tooltip-anchor\" data-name=\"34103656\">\"Lemuria, the Forgotten City\"</span>\"?<br><u>Answer:</u><br>When declaring a card name, you cannot declare the card names \"<span class=\"tooltip-anchor\" data-name=\"295517\">\"A Legendary Ocean\"</span>\" or \"<span class=\"tooltip-anchor\" data-name=\"34103656\">\"Lemuria, the Forgotten City\"</span>\".<br>Both \"<span class=\"tooltip-anchor\" data-name=\"295517\">\"A Legendary Ocean\"</span>\" and \"<span class=\"tooltip-anchor\" data-name=\"34103656\">\"Lemuria, the Forgotten City\"</span>\" are card names that are always treated as \"<span class=\"tooltip-anchor\" data-name=\"22702055\">\"Umi\"</span>\". Therefore, the original card name of these cards while they are being used in a Duel will also be \"<span class=\"tooltip-anchor\" data-name=\"22702055\">\"Umi\"</span>\".<br>As a result, if you declare \"<span class=\"tooltip-anchor\" data-name=\"22702055\">\"Umi\"</span>\" when activating <span class=\"tooltip-anchor\" data-name=\"65681983\">\"Crossout Designator\"</span>, you can banish either <span class=\"tooltip-anchor\" data-name=\"22702055\">\"Umi\"</span>, <span class=\"tooltip-anchor\" data-name=\"295517\">\"A Legendary Ocean\"</span>, or <span class=\"tooltip-anchor\" data-name=\"34103656\">\"Lemuria, the Forgotten City\"</span> when <span class=\"tooltip-anchor\" data-name=\"65681983\">\"Crossout Designator\"</span> resolves. Regardless of which one you banish, the effect of <span class=\"tooltip-anchor\" data-name=\"65681983\">\"Crossout Designator\"</span> will apply to all cards whose original name is \"<span class=\"tooltip-anchor\" data-name=\"22702055\">\"Umi\"</span>\", which includes the cards <span class=\"tooltip-anchor\" data-name=\"295517\">\"A Legendary Ocean\"</span> and <span class=\"tooltip-anchor\" data-name=\"34103656\">\"Lemuria, the Forgotten City\"</span>.<br>The same goes for cards such as <span class=\"tooltip-anchor\" data-name=\"91932350\">\"Harpie Lady 1\"</span> or <span class=\"tooltip-anchor\" data-name=\"80316585\">\"Cyber Harpie Lady\"</span>, for which you would need to declare \"<span class=\"tooltip-anchor\" data-name=\"76812113\">\"Harpie Lady\"</span>\".<br>(TL note: This is talking about game mechanics. You cannot single out a particular <span class=\"tooltip-anchor\" data-name=\"22702055\">\"Umi\"</span> retrain with <span class=\"tooltip-anchor\" data-name=\"65681983\">\"Crossout Designator\"</span>, you always get all of them as a package deal. It is not talking about policies that describe how \"declaring a card name\" is handled in actual play.)",
-        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#277\">\"Umi\", \"Crossout Designator\"</a></li>"
-      }
-    ],
-    "Change Name": [
-      {
-        "interaction": "Archetype inclusion/exclusion \"this card is always treated as [a particular title/archetype] card\" clauses apply to a particular card name, not to a particular card: copying the name of a card with such clauses will copy also the \"[a particular title/archetype]\" clause<sup><a>[]</a></sup>.",
-        "example": "<u>Question:</u><br>I activate the effect of <span class=\"tooltip-anchor\" data-name=\"79531196\">\"Crystal Rose\"</span>, and when it resolves, I send <span class=\"tooltip-anchor\" data-name=\"61011438\">\"Brilliant Rose\"</span> to the Graveyard.<br>As a result, the name of <span class=\"tooltip-anchor\" data-name=\"79531196\">\"Crystal Rose\"</span> is now treated as \"<span class=\"tooltip-anchor\" data-name=\"61011438\">\"Brilliant Rose\"</span>\". Will it also be treated as a \"Gem-Knight\" card due to <span class=\"tooltip-anchor\" data-name=\"61011438\">\"Brilliant Rose\"</span>'s text?<br><u>Answer:</u><br>Yes, it is also treated as a \"Gem-Knight\" card.",
-        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#23798\">Archetype inclusion/exclusion clauses apply to a particular card name, not to a particular card</a></li>"
-      }
-    ]
-  },
   "Flip": {
     "Can only control 1 - \"Rivalry of Warlords\"/\"Gozen Match\" like": [
       {
@@ -311,11 +103,11 @@
     ]
   },
   "Normal Monsters": {
-    "Properties Changing - Gains this effect": [
+    "Gains this effect": [
       {
-        "interaction": "If a monster that is not an Effect Monster gains an effect by the effect of another card that says \"gains this effect [effect]\", that monster is treated as an Effect Monster<sup><a>[]</a></sup>.",
-        "example": "Since a <span class=\"tooltip-anchor\" data-name=\"71594310\">\"Gem-Knight Pearl\"</span> Xyz Summoned by using <span class=\"tooltip-anchor\" data-name=\"67120578\">\"Gagaga Head\"</span> as Xyz Materials gains the effect that says \"● If it is Xyz Summoned: Draw 1 card.\", it is treated as an Effect Monster.",
-        "reference": "<li><a target=\"_blank\" href=\"https://ygorganization.com/perfect-rulebook-2017/\">OCG Perfect Rulebook 2017 page 68</a></li>"
+        "interaction": "If a monster that is not an Effect Monster gains an effect by the effect of another card that says \"gains this effect [effect]\", that monster gains the effect and is treated as an Effect Monster<sup><a>[]</a></sup>.",
+        "example": "<u>Question:</u><br>If the non-Effect Xyz Monster <span class=\"tooltip-anchor\" data-name=\"71594310\">\"Gem-Knight Pearl\"</span> is Xyz Summoned using only <span class=\"tooltip-anchor\" data-name=\"3606728\">\"Gagaga Girl\"</span> and other \"Gagaga\" monsters as material, can that <span class=\"tooltip-anchor\" data-name=\"71594310\">\"Gem-Knight Pearl\"</span> activate the \"●When it is Xyz Summoned: You can target 1 Special Summoned monster your opponent controls; its ATK becomes 0.\" effect gained from <span class=\"tooltip-anchor\" data-name=\"3606728\">\"Gagaga Girl\"</span>?<br><u>Answer:</u><br>Yes, it can. Additionally, note that if <span class=\"tooltip-anchor\" data-name=\"71594310\">\"Gem-Knight Pearl\"</span> is Xyz Summoned using only <span class=\"tooltip-anchor\" data-name=\"3606728\">\"Gagaga Girl\"</span> and other \"Gagaga\" monsters as material, it is treated as an Effect Monster.<br>(Additionally, if <span class=\"tooltip-anchor\" data-name=\"71594310\">\"Gem-Knight Pearl\"</span> activates the gained effect, you can also activate <span class=\"tooltip-anchor\" data-name=\"49010598\">\"Divine Wrath\"</span> etc. in response.)",
+        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#11836\">Non-Effect monsters gaining effects</a></li>"
       }
     ]
   },
@@ -487,7 +279,7 @@
         "reference": "<li><a target=\"_blank\" href=\"https://www.yugioh-card.com/en/rulebook/\">Official rulebook page 51</a></li>"
       }
     ],
-    "Leaves the Field": [
+    "If/When [X] leaves the field": [
       {
         "interaction": "When an Xyz Monster leaves the field, all of the Xyz Materials attached to it are sent to the Graveyard<sup><a>[]</a></sup>.",
         "example": "",
@@ -585,6 +377,13 @@
         "interaction": "If you take control of your opponent's monster in the Extra Monster Zone, it moves to your Main Monster Zone. When it goes back to your opponent, it goes to their Main Monster Zone, not the Extra Monster Zone<sup><a>[]</a></sup>.",
         "example": "",
         "reference": "<li><a target=\"_blank\" href=\"https://www.yugioh-card.com/en/rulebook/\">Official rulebook page 15</a></li>"
+      }
+    ],
+    "Change battle position": [
+      {
+        "interaction": "Cards or effects that would change a monster to defense position cannot be activated if it would only affect a Link monster(s) on the field<sup><a>[]</a></sup>.",
+        "example": "<u>Question:</u><br>If a <span class=\"tooltip-anchor\" data-name=\"20654247\">\"Blue-Eyes Chaos Dragon\"</span> that was Ritual Summoned using <span class=\"tooltip-anchor\" data-name=\"89631139\">\"Blue-Eyes White Dragon\"</span> declares an attack, can its effect be activated if there are any Link Monsters on the opponent's field?<br><u>Answer:</u><br>If the only monsters on your opponent's field are Link Monsters, there are no monsters whose battle positions can be changed, so the effect of <span class=\"tooltip-anchor\" data-name=\"20654247\">\"Blue-Eyes Chaos Dragon\"</span> cannot be activated when it declares an attack.<br>However, if there are Link Monsters along with non-Link Monsters on your opponent's field, you can still activate the effect of <span class=\"tooltip-anchor\" data-name=\"20654247\">\"Blue-Eyes Chaos Dragon\"</span> when it declares an attack.",
+        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#21958\">\"Blue-Eyes Chaos Dragon\"</a></li>"
       }
     ],
     "Change to face-down Defense Position": [
@@ -742,6 +541,309 @@
       }
     ]
   },
+
+  "Text that specifies \"once per turn\" - Activate vs Use": {
+    "Banish until - Temporarily banish": [
+      {
+        "interaction": "If \"the effect(s) of this card can only be <b>activated</b> once per turn\" or simply \"once per turn:\" is written (different from \"the effect of [card name] can only be activated/used once per turn\"), if that card is flipped face-down or leaves the field and it later appears on the field face-up once again, the same effect of cards with the same name can be activated<sup><a>[]</a></sup>.",
+        "example": "",
+        "reference": "<li><a target=\"_blank\" href=\"https://ygorganization.com/perfect-rulebook-2017/\">OCG Perfect Rulebook 2017 pages 176-177</a></li>"
+      },
+      {
+        "interaction": "If \"the effect of [card name] can only be <b>used</b> once per turn\" is written with a particular card name, if that card leaves the field and returns to the field in the same turn, that card or cards with the same name cannot activate that effect in that turn. The same applies if \"can only be used once per Duel\" is written<sup><a>[]</a></sup>.",
+        "example": "",
+        "reference": "<li><a target=\"_blank\" href=\"https://ygorganization.com/perfect-rulebook-2017/\">OCG Perfect Rulebook 2017 pages 176-177</a></li>"
+      }
+    ],
+    "Change/Take/Give/Switch Control": [
+      {
+        "interaction": "If \"the effect(s) of this card can only be <b>activated</b> once per turn\" or simply \"once per turn:\" is written (different from \"the effect of [card name] can only be activated/used once per turn\"), if control switches to the opponent, the effect cannot be activated<sup><a>[]</a></sup>.",
+        "example": "<u>Question:</u><br>The turn player has activated the  effect of <span class=\"tooltip-anchor\" data-name=\"29981921\">\"Legendary Six Samurai - Shi En\"</span> that negates the activation of a Spell/Trap Card. If control of <span class=\"tooltip-anchor\" data-name=\"29981921\">\"Legendary Six Samurai - Shi En\"</span> is now changed due to <span class=\"tooltip-anchor\" data-name=\"98045062\">\"Enemy Controller\"</span>'s effect, can the opponent also activate the  effect of that same <span class=\"tooltip-anchor\" data-name=\"29981921\">\"Legendary Six Samurai - Shi En\"</span> this turn?<br><u>Answer:</u><br>If you have already used that effect of <span class=\"tooltip-anchor\" data-name=\"29981921\">\"Legendary Six Samurai - Shi En\"</span> this turn, your opponent cannot use the same effect of that <span class=\"tooltip-anchor\" data-name=\"29981921\">\"Legendary Six Samurai - Shi En\"</span> this turn, even if they take control of it.",
+        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#11282\">Unqualified 'once per turn' and change of control</a></li>"
+      },
+      {
+        "interaction": "If \"the effect of [card name] can only be <b>used</b> once per turn\" is written with a particular card name, if control switches to the opponent, monsters with the same name that the opponent controls can activate that effect<sup><a>[]</a></sup>.",
+        "example": "",
+        "reference": "<li><a target=\"_blank\" href=\"https://ygorganization.com/perfect-rulebook-2017/\">OCG Perfect Rulebook 2017 pages 176-177</a></li>"
+      }
+    ],
+    "Change to face-down Defense Position": [
+      {
+        "interaction": "If \"the effect(s) of this card can only be <b>activated</b> once per turn\" or simply \"once per turn:\" is written (different from \"the effect of [card name] can only be activated/used once per turn\"), if that card is flipped face-down or leaves the field and it later appears on the field face-up once again, the same effect of cards with the same name can be activated<sup><a>[]</a></sup>.",
+        "example": "",
+        "reference": "<li><a target=\"_blank\" href=\"https://ygorganization.com/perfect-rulebook-2017/\">OCG Perfect Rulebook 2017 pages 176-177</a></li>"
+      },
+      {
+        "interaction": "If \"the effect of [card name] can only be <b>used</b> once per turn\" is written with a particular card name, if that card leaves the field and returns to the field in the same turn, that card or cards with the same name cannot activate that effect in that turn. The same applies if \"can only be used once per Duel\" is written<sup><a>[]</a></sup>.",
+        "example": "",
+        "reference": "<li><a target=\"_blank\" href=\"https://ygorganization.com/perfect-rulebook-2017/\">OCG Perfect Rulebook 2017 pages 176-177</a></li>"
+      }
+    ],
+    "Change Name": [
+      {
+        "interaction": "An effect that reads \"You can only use this effect of [card name] once per turn\" or \"You can only use the effect of a card with this name once per turn\", this is not influenced by changes to the card's name on the field: you cannot activate the effect of that card a second time<sup><a>[]</a></sup>.",
+        "example": "If the effect of <span class=\"tooltip-anchor\" data-name=\"92723496\">\"Giant Pairfish\"</span> that says \"You can discard 1 monster; Special Summon 1 Level 4 or lower Wyrm-Type monster from your Deck. You can only use this effect of \"Giant Pairfish\" once per turn.\" is activated, and later its name changes by the effect of another card, the effect of the <span class=\"tooltip-anchor\" data-name=\"92723496\">\"Giant Pairfish\"</span> that had its name changed during that turn cannot be activated.",
+        "reference": "<li><a target=\"_blank\" href=\"https://ygorganization.com/perfect-rulebook-2017/\">OCG Perfect Rulebook 2017 page 55</a></li>"
+      }
+    ],
+    "Copy effect continuous/lingering": [
+      {
+        "interaction": "If the effects of another monster are gained by an effect that gains effects, the requirements to use that effect like \"can only activate the effect of [card name] once per turn\" are also applied<sup><a>[]</a></sup>.",
+        "example": "<u>Question:</u><br>I control two \"Therion\" monsters, each equipped with a <span class=\"tooltip-anchor\" data-name=\"21727231\">\"Therion \"Reaper\" Fum\"</span>. Due to the  effect of <span class=\"tooltip-anchor\" data-name=\"21727231\">\"Therion \"Reaper\" Fum\"</span>, both of these monsters have gained the  effect of <span class=\"tooltip-anchor\" data-name=\"21727231\">\"Therion \"Reaper\" Fum\"</span>, which allows me to return cards on the field to the hand.<br>During a single turn, can I activate both of these monsters' respective effect gained by <span class=\"tooltip-anchor\" data-name=\"21727231\">\"Therion \"Reaper\" Fum\"</span>?<br><u>Answer:</u><br>You can only activate that effect of one of these monsters.<br>You are considered to be using the  effect of <span class=\"tooltip-anchor\" data-name=\"21727231\">\"Therion \"Reaper\" Fum\"</span> not only if you activate that effect of a <span class=\"tooltip-anchor\" data-name=\"21727231\">\"Therion \"Reaper\" Fum\"</span>, but also if you activate that effect that another monster has gained due to the  effect of <span class=\"tooltip-anchor\" data-name=\"21727231\">\"Therion \"Reaper\" Fum\"</span>.<br><span class=\"tooltip-anchor\" data-name=\"21727231\">\"Therion \"Reaper\" Fum\"</span>'s card text tells you that you can only use the  effect of <span class=\"tooltip-anchor\" data-name=\"21727231\">\"Therion \"Reaper\" Fum\"</span> once per turn. Therefore, you cannot use the  effect of <span class=\"tooltip-anchor\" data-name=\"21727231\">\"Therion \"Reaper\" Fum\"</span> twice during the same turn, even if different monsters have that effect.",
+        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#23532\">Monsters gaining the effects of other monsters, and once-per-turn restrictions</a></li>"
+      }
+    ],
+    "Copy effect resolves as another card's effect": [
+      {
+        "interaction": "Copying activated effects and named once per turn restrictions: this kind of effect \"ignores\" named once per turn restrictions<sup><a>[]</a></sup>.",
+        "example": "<u>Question:</u><br>Can you activate <span class=\"tooltip-anchor\" data-name=\"38844957\">\"Urgent Ritual Art\"</span> by banishing <span class=\"tooltip-anchor\" data-name=\"51124303\">\"Nekroz Kaleidoscope\"</span> during a turn in which the Ritual Summoning effect of <span class=\"tooltip-anchor\" data-name=\"51124303\">\"Nekroz Kaleidoscope\"</span> has been used?<br><u>Answer:</u><br>While resolving the effect of <span class=\"tooltip-anchor\" data-name=\"38844957\">\"Urgent Ritual Art\"</span>, the effect of the banished Ritual Spell Card is performed as the resolution of the effect of <span class=\"tooltip-anchor\" data-name=\"38844957\">\"Urgent Ritual Art\"</span>.<br>Therefore, even in that case, <span class=\"tooltip-anchor\" data-name=\"38844957\">\"Urgent Ritual Art\"</span> can be activated by banishing <span class=\"tooltip-anchor\" data-name=\"51124303\">\"Nekroz Kaleidoscope\"</span>.",
+        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#16653\">Copying activated effects and named once per turn restrictions</a></li>"
+      }
+    ]
+  },
+  "Text that determines Materials and Summoning procedures": {
+    "Pendulum Monsters": [
+      {
+        "interaction": "When a Pendulum Monster Card is sent from the field to the Graveyard, it is added face-up to the Extra Deck, instead. Therefore, you cannot send a Pendulum Monster Card to the Graveyard in order to Special Summon a monster using its listed procedure that says \"send cards to the Graveyard\". This is the case only for summoning procedures that exactly say \"send to the Graveyard\"<sup><a>[]</a></sup>.",
+        "example": "<u>Question:</u><br>If Timegazer Magician is treated as a Machine-Type monster because of DNA Surgery, can it and Cyber Dragon be sent to the Graveyard to Special Summon <span class=\"tooltip-anchor\" data-name=\"79229522\">\"Chimeratech Fortress Dragon\"</span>?<br>Can I send a Spellcaster Pendulum Monster Card, and/or a Synchro Pendulum Monster Card, from my field to the Graveyard in order to Special Summon <span class=\"tooltip-anchor\" data-name=\"66532962\">\"Magistus Chorozo\"</span>?<br><u>Answer:</u><br>No, you cannot.<br>When a Pendulum Monster Card is sent from the field to the Graveyard, it is added face-up to the Extra Deck, instead. Therefore, you cannot send a Pendulum Monster Card to the Graveyard in order to Special Summon <span class=\"tooltip-anchor\" data-name=\"66532962\">\"Magistus Chorozo\"</span> using its listed procedure.",
+        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#13355\">\"Chimeratech Fortress Dragon\", \"G.B. Hunter\" and Pendulum Monsters</a></li>"
+      },
+      {
+        "interaction": "However, note that as an exception to the general rule above, if the \"cards on the field cannot be returned to the Deck\" effect of <span class=\"tooltip-anchor\" data-name=\"4130270\">\"G.B. Hunter\"</span> is applying, you will be able to succeed in sending a Pendulum Monster Card from the field to the Graveyard, and therefore can also send a Pendulum Monster Card you control to the Graveyard in order to Special Summon a monster using its listed procedure that says \"send cards to the Graveyard\"<sup><a>[]</a></sup>.",
+        "example": "",
+        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#13355\">\"Chimeratech Fortress Dragon\", \"G.B. Hunter\" and Pendulum Monsters</a></li>"
+      }
+    ],
+    "Tokens": [
+      {
+        "interaction": "When Special Summoning a monster with its own procedure, a Token on the field can be banished and the monster is summoned normally<sup><a>[]</a></sup>.",
+        "example": "<u>Question:</u><br>When Special Summoning&nbsp;<span class=\"tooltip-anchor\" data-name=\"14466224\">\"The Atmosphere\"</span> from my hand with its own procedure, can I banish a Token(s) such as \"Sheep Token\" on my field?<br>Also, when Special Summoning&nbsp;<span class=\"tooltip-anchor\" data-name=\"88264978\">\"Red-Eyes Darkness Metal Dragon\"</span>, can I banish a Token that is a Dragon on my field?<br><u>Answer:</u><br>You can Special Summon&nbsp;<span class=\"tooltip-anchor\" data-name=\"14466224\">\"The Atmosphere\"</span> and&nbsp;<span class=\"tooltip-anchor\" data-name=\"88264978\">\"Red-Eyes Darkness Metal Dragon\"</span> using a Token as described in the given situations.",
+        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#9612\">\"The Atmosphere\" and Tokens</a></li>"
+      }
+    ],
+    "Any [X] sent to the Graveyard is banished instead": [
+      {
+        "interaction": "While the effect of <span class=\"tooltip-anchor\" data-name=\"30241314\">\"Macro Cosmos\"</span>, cards sent to the Graveyard are banished instead, therefore you cannot \"send cards to the Graveyard\" as part of a Special Summoning procedure. This is the case only for summoning procedures that exactly say \"send to the Graveyard\"<sup><a>[]</a></sup>.",
+        "example": "<u>Question:</u><br>The effect of <span class=\"tooltip-anchor\" data-name=\"30241314\">\"Macro Cosmos\"</span> is applying, banishing any cards that would be sent to the Graveyard. In this situation, is it possible to Special Summon <span class=\"tooltip-anchor\" data-name=\"79229522\">\"Chimeratech Fortress Dragon\"</span> by banishing \"<span class=\"tooltip-anchor\" data-name=\"70095154\">\"Cyber Dragon\"</span>\" + 1+ Machine monsters?<br>Furthermore, if the effect of <span class=\"tooltip-anchor\" data-name=\"30241314\">\"Macro Cosmos\"</span> is negated by <span class=\"tooltip-anchor\" data-name=\"77585513\">\"Jinzo\"</span>, can I send that <span class=\"tooltip-anchor\" data-name=\"77585513\">\"Jinzo\"</span> to the Graveyard in order to Special Summon <span class=\"tooltip-anchor\" data-name=\"79229522\">\"Chimeratech Fortress Dragon\"</span>?<br><u>Answer:</u><br>While the effect of <span class=\"tooltip-anchor\" data-name=\"30241314\">\"Macro Cosmos\"</span> is applying, cards sent to the Graveyard are banished instead. Therefore, you cannot send cards to the Graveyard as part of a Special Summoning procedure, and therefore cannot Special Summon <span class=\"tooltip-anchor\" data-name=\"79229522\">\"Chimeratech Fortress Dragon\"</span> from the Extra Deck.<br>Furthermore, if the effects of <span class=\"tooltip-anchor\" data-name=\"30241314\">\"Macro Cosmos\"</span> are negated by the effect of <span class=\"tooltip-anchor\" data-name=\"77585513\">\"Jinzo\"</span>, and that <span class=\"tooltip-anchor\" data-name=\"77585513\">\"Jinzo\"</span> is sent to the Graveyard, it would be banished by <span class=\"tooltip-anchor\" data-name=\"30241314\">\"Macro Cosmos\"</span>' effect. Therefore, you cannot send that <span class=\"tooltip-anchor\" data-name=\"77585513\">\"Jinzo\"</span> to the Graveyard as part of a Special Summoning procedure while both it and <span class=\"tooltip-anchor\" data-name=\"30241314\">\"Macro Cosmos\"</span> are face-up on the field.",
+        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#6878\">\"Chimeratech Fortress Dragon\", \"Macro Cosmos\"</a></li>"
+      }
+    ],
+    "If/When [X] leaves the field because of an opponent's card": [
+      {
+        "interaction": "A monster you control that leaves the field because used as a material (for example as Tribute or Link material) for an opponent's monster summoning procedures, it counts as having left the field by your opponent's card<sup><a>[]</a></sup>.",
+        "example": "<u>Question:</u><br>I control a Fusion Summoned <span class=\"tooltip-anchor\" data-name=\"44146295\">\"Mirrorjade the Iceblade Dragon\"</span>, and my opponent Tributes it to Special Summon <span class=\"tooltip-anchor\" data-name=\"36956512\">\"Gadarla, the Mystery Dust Kaiju\"</span> to my field. Can its effect when it leaves the field be activated?<br>Also, if my opponent sends that <span class=\"tooltip-anchor\" data-name=\"44146295\">\"Mirrorjade the Iceblade Dragon\"</span> to the Graveyard as Link Material for the Link Summon of <span class=\"tooltip-anchor\" data-name=\"98127546\">\"Underworld Goddess of the Closed World\"</span>, can its effect be activated?<br><u>Answer:</u><br>That effect can be activated in both cases. (<span class=\"tooltip-anchor\" data-name=\"44146295\">\"Mirrorjade the Iceblade Dragon\"</span> is considered to have left the field by the opponent).<br>Furthermore, when <span class=\"tooltip-anchor\" data-name=\"44146295\">\"Mirrorjade the Iceblade Dragon\"</span>'s effect is then resolved during the End Phase, <span class=\"tooltip-anchor\" data-name=\"98127546\">\"Underworld Goddess of the Closed World\"</span> will be destroyed by it.",
+        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#23560\">\"Leaves the field by your opponent\" and Summoning procedures</a></li>"
+      }
+    ],
+    "Unaffected": [
+      {
+        "interaction": "The text \"You can also use 1 monster your opponent controls as material to Link Summon this card\" of <span class=\"tooltip-anchor\" data-name=\"98127546\">\"Underworld Goddess of the Closed World\"</span> is not an effect, therefore an opponent's monster that is unaffected by monster effects can still be used as a Link Material<sup><a>[]</a></sup>.",
+        "example": "",
+        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#23132\">\"Underworld Goddess of the Closed World\" using an opponent's monster that is unaffected</a></li>"
+      },
+      {
+        "interaction": "The text \"You can Special Summon this card (from your hand) to your opponent's field in Attack Position, by Tributing 1 monster they control\" of a \"Kaiju\" Monster is not an effect, therefore an opponent's monster that is unaffected by monster effects can still be tributed<sup><a>[]</a></sup>.",
+        "example": "",
+        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#298\">\"Metaltron XII, the True Dracombatant\", \"Kumongous, the Sticky String Kaiju\"</li>"
+      }
+    ],
+    "\"Necrovalley\"": [
+      {
+        "interaction": "If you Special Summon a <strong>Special Summon Monster from the Graveyard</strong> using the procedure described in its card text, this is not treated as a Special Summon performed by a card effect. Therefore, since this is not a card effect being applied to cards in the Graveyard (as described in <span class=\"tooltip-anchor\" data-name=\"47355498\">\"Necrovalley\"</span>'s text), you can Special Summon such monsters this way<sup><a>[]</a></sup>.",
+        "example": "<u>Question:</u><br><span class=\"tooltip-anchor\" data-name=\"47355498\">\"Necrovalley\"</span> is face-up in my opponent's Field Zone, and its  effect is applying.<br>In this situation, can I Special Summon <span class=\"tooltip-anchor\" data-name=\"14799437\">\"Infernoid Onuncu\"</span> using the \"by banishing 3 \"Infernoid\" monsters from your hand or Graveyard\" procedure listed in its text?<br><u>Answer:</u><br>If you Special Summon a Special Summon Monster using the procedure described in its card text, this is not treated as a Special Summon performed by a card effect. Therefore, since this is not a card effect being applied to cards in the Graveyard (as described in <span class=\"tooltip-anchor\" data-name=\"47355498\">\"Necrovalley\"</span>'s text), you can Special Summon <span class=\"tooltip-anchor\" data-name=\"14799437\">\"Infernoid Onuncu\"</span> this way.<br>However, note that the effect of <span class=\"tooltip-anchor\" data-name=\"47355498\">\"Necrovalley\"</span> that prevents players from banishing cards from the Graveyard is also applying. This prevents you from banishing cards from the Graveyard, regardless of whether a card effect is doing so.<br>Therefore, in order to Special Summon <span class=\"tooltip-anchor\" data-name=\"14799437\">\"Infernoid Onuncu\"</span>, you will need to banish 3 \"Infernoid\" monsters from your hand.",
+        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#6500\">\"Necrovalley\" and Special Summon monsters</li>"
+      }
+    ]
+  },
+  "Text that is maintenance cost": {
+    "Copy effect continuous/lingering": [
+      {
+        "interaction": "Copying the effect of a card does not copy the maintenance cost<sup><a>[]</a></sup>.",
+        "example": "If <span class=\"tooltip-anchor\" data-name=\"84565800\">\"Legendary Knight Hermos\"</span> gains the effects of <span class=\"tooltip-anchor\" data-name=\"14309486\">\"Koa'ki Meiru Overload\"</span>, the text that says \"During each of your End Phases, destroy this card unless you send 1 \"Iron Core of Koa'ki Meiru\" from your hand to the Graveyard or reveal 1 Rock-Type monster in your hand.\" is not applied.",
+        "reference": "<li><a target=\"_blank\" href=\"https://ygorganization.com/perfect-rulebook-2017/\">OCG Perfect Rulebook 2017 page 175</a></li>"
+      }
+    ]
+  },
+  "Text that says \"this card is always treated as [card name]/[a particular title/archetype] card\"": {
+    "Declare 1 card name": [
+      {
+        "interaction": "A card named [X] whose text reads \"this card's name is always treated as [Y]\" cannot be declared by card name: when activating an effect that involves declaring a card name, you cannot declare [X] but you can declare [Y]<sup><a>[]</a></sup>.",
+        "example": "<u>Question:</u><br>The card names \"<span class=\"tooltip-anchor\" data-name=\"295517\">\"A Legendary Ocean\"</span>\" and \"<span class=\"tooltip-anchor\" data-name=\"34103656\">\"Lemuria, the Forgotten City\"</span>\" are always treated as \"<span class=\"tooltip-anchor\" data-name=\"22702055\">\"Umi\"</span>\".<br>For cards that have me declare a card name, such as <span class=\"tooltip-anchor\" data-name=\"65681983\">\"Crossout Designator\"</span>, can I declare \"<span class=\"tooltip-anchor\" data-name=\"295517\">\"A Legendary Ocean\"</span>\" or \"<span class=\"tooltip-anchor\" data-name=\"34103656\">\"Lemuria, the Forgotten City\"</span>\"?<br><u>Answer:</u><br>When declaring a card name, you cannot declare the card names \"<span class=\"tooltip-anchor\" data-name=\"295517\">\"A Legendary Ocean\"</span>\" or \"<span class=\"tooltip-anchor\" data-name=\"34103656\">\"Lemuria, the Forgotten City\"</span>\".<br>Both \"<span class=\"tooltip-anchor\" data-name=\"295517\">\"A Legendary Ocean\"</span>\" and \"<span class=\"tooltip-anchor\" data-name=\"34103656\">\"Lemuria, the Forgotten City\"</span>\" are card names that are always treated as \"<span class=\"tooltip-anchor\" data-name=\"22702055\">\"Umi\"</span>\". Therefore, the original card name of these cards while they are being used in a Duel will also be \"<span class=\"tooltip-anchor\" data-name=\"22702055\">\"Umi\"</span>\".<br>As a result, if you declare \"<span class=\"tooltip-anchor\" data-name=\"22702055\">\"Umi\"</span>\" when activating <span class=\"tooltip-anchor\" data-name=\"65681983\">\"Crossout Designator\"</span>, you can banish either <span class=\"tooltip-anchor\" data-name=\"22702055\">\"Umi\"</span>, <span class=\"tooltip-anchor\" data-name=\"295517\">\"A Legendary Ocean\"</span>, or <span class=\"tooltip-anchor\" data-name=\"34103656\">\"Lemuria, the Forgotten City\"</span> when <span class=\"tooltip-anchor\" data-name=\"65681983\">\"Crossout Designator\"</span> resolves. Regardless of which one you banish, the effect of <span class=\"tooltip-anchor\" data-name=\"65681983\">\"Crossout Designator\"</span> will apply to all cards whose original name is \"<span class=\"tooltip-anchor\" data-name=\"22702055\">\"Umi\"</span>\", which includes the cards <span class=\"tooltip-anchor\" data-name=\"295517\">\"A Legendary Ocean\"</span> and <span class=\"tooltip-anchor\" data-name=\"34103656\">\"Lemuria, the Forgotten City\"</span>.<br>The same goes for cards such as <span class=\"tooltip-anchor\" data-name=\"91932350\">\"Harpie Lady 1\"</span> or <span class=\"tooltip-anchor\" data-name=\"80316585\">\"Cyber Harpie Lady\"</span>, for which you would need to declare \"<span class=\"tooltip-anchor\" data-name=\"76812113\">\"Harpie Lady\"</span>\".<br>(TL note: This is talking about game mechanics. You cannot single out a particular <span class=\"tooltip-anchor\" data-name=\"22702055\">\"Umi\"</span> retrain with <span class=\"tooltip-anchor\" data-name=\"65681983\">\"Crossout Designator\"</span>, you always get all of them as a package deal. It is not talking about policies that describe how \"declaring a card name\" is handled in actual play.)",
+        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#277\">\"Umi\", \"Crossout Designator\"</a></li>"
+      }
+    ],
+    "Change Name": [
+      {
+        "interaction": "Archetype inclusion/exclusion \"this card is always treated as [a particular title/archetype] card\" clauses apply to a particular card name, not to a particular card: copying the name of a card with such clauses will copy also the \"[a particular title/archetype]\" clause<sup><a>[]</a></sup>.",
+        "example": "<u>Question:</u><br>I activate the effect of <span class=\"tooltip-anchor\" data-name=\"79531196\">\"Crystal Rose\"</span>, and when it resolves, I send <span class=\"tooltip-anchor\" data-name=\"61011438\">\"Brilliant Rose\"</span> to the Graveyard.<br>As a result, the name of <span class=\"tooltip-anchor\" data-name=\"79531196\">\"Crystal Rose\"</span> is now treated as \"<span class=\"tooltip-anchor\" data-name=\"61011438\">\"Brilliant Rose\"</span>\". Will it also be treated as a \"Gem-Knight\" card due to <span class=\"tooltip-anchor\" data-name=\"61011438\">\"Brilliant Rose\"</span>'s text?<br><u>Answer:</u><br>Yes, it is also treated as a \"Gem-Knight\" card.",
+        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#23798\">Archetype inclusion/exclusion clauses apply to a particular card name, not to a particular card</a></li>"
+      }
+    ]
+  },
+
+  "If/When [X] destroys a monster by battle": {
+    "Change/Take/Give/Switch Control": [
+      {
+        "interaction": "If an effect (1) reads \"If/When [X] destroys an opponent's monster by battle and sends it to the GY: do [A]\", even if [X] destroys a monster that you originally owned, [A] can still be activated<sup><a>[]</a></sup>.",
+        "example": "<u>Question:</u><br>My opponent controls a Normal Monster in their Monster Zone, which was originally owned by me.<br>If I attack this monster with my <span class=\"tooltip-anchor\" data-name=\"7391448\">\"Goyo Guardian\"</span>, and destroy it by battle, can I activate <span class=\"tooltip-anchor\" data-name=\"7391448\">\"Goyo Guardian\"</span>'s \"Special Summon that monster to your field in Defense Position\" effect?<br><u>Answer:</u><br>Yes, you can. (When it resolves, the monster is Special Summoned from your Graveyard to your Main Monster Zone in Defense Position.)",
+        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#7403\">\"Goyo Guardian\", \"Ancient Warriors - Ambitious Cao De\"</a></li>"
+      }
+    ],
+    "Change Properties": [
+      {
+        "interaction": "If an effect (1) reads \"If/When [X] destroys a monster [Y] with certain property Z by battle: do [A]\", even if [X] destroys [Y] which had property Z on the field due to another card effect but after being destroyed and sent to the Graveyard [Y] has no longer property Z, [A] can still be activated<sup><a>[]</a></sup>.",
+        "example": "<u>Question:</u><br>If <span class=\"tooltip-anchor\" data-name=\"17313545\">\"Brain Golem\"</span> destroys a monster that is treated as LIGHT Attribute due to an effect like <span class=\"tooltip-anchor\" data-name=\"10352095\">\"Scroll of Bewitchment\"</span>, will its effect to attack again activate?<br><u>Answer:</u><br>The effect of <span class=\"tooltip-anchor\" data-name=\"17313545\">\"Brain Golem\"</span> will activate at the End of the Damage Step, if the Attribute of the monster to be destroyed by the battle is LIGHT.<br>Therefore, even if the destroyed monster's Attribute is treated as LIGHT due to the effect of <span class=\"tooltip-anchor\" data-name=\"10352095\">\"Scroll of Bewitchment\"</span>, that effect of <span class=\"tooltip-anchor\" data-name=\"17313545\">\"Brain Golem\"</span> will activate at the End of the Damage Step.<br>As a result, even if the Attribute of the monster after being destroyed and sent to the Graveyard is no longer LIGHT, <span class=\"tooltip-anchor\" data-name=\"17313545\">\"Brain Golem\"</span> can still attack again.",
+        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#8406\">\"Brain Golem\", \"Scroll of Bewitchment\"</a></li>"
+      }
+    ],
+    "Traps Treated as Monsters (not treated as Traps)": [
+      {
+        "interaction": "If an effect (1) reads \"If/When [X] destroys a monster by battle: do [A]\", if [X] destroys a trap treated as a monster then [A] can be activated<sup><a>[]</a></sup>. Exceptions below.",
+        "example": "<u>Question:</u><br>If <span class=\"tooltip-anchor\" data-name=\"62242678\">\"Hot Red Dragon Archfiend King Calamity\"</span> destroys an opponent's <span class=\"tooltip-anchor\" data-name=\"28649820\">\"Embodiment of Apophis\"</span> treated as a monster by battle, will its \"inflict damage to your opponent equal to that monster's original ATK\" effect activate?<br><u>Answer:</u><br>Since the activation condition of \"this card destroying a monster by battle\" was still met, the effect will still be activated. When it resolves, it will inflict 1600 damage, which is <span class=\"tooltip-anchor\" data-name=\"28649820\">\"Embodiment of Apophis\"</span>' original ATK.<br>The same also applies to the following cards' effects, which can/will still be activated even if the destroyed monster was originally a Trap Card (that was Special Summoned as a monster), and will inflict damage equal to that monster's original ATK respectively DEF: <span class=\"tooltip-anchor\" data-name=\"52709508\">\"Genex Ally Triforce\"</span>, <span class=\"tooltip-anchor\" data-name=\"59123194\">\"Enlightenment Paladin\"</span>, <span class=\"tooltip-anchor\" data-name=\"13518809\">\"Ruin, Supreme Queen of Oblivion\"</span>, <span class=\"tooltip-anchor\" data-name=\"18666161\">\"Despian Proskenion\"</span>, <span class=\"tooltip-anchor\" data-name=\"26988374\">\"Magikey Deity - Ashtartu\"</span>, and <span class=\"tooltip-anchor\" data-name=\"56733747\">\"Elemental HERO Shining Neos Wingman\"</span>.",
+        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#16916\">\"Hot Red Dragon Archfiend King Calamity\", \"Embodiment of Apophis\"</a></li>"
+      },
+      {
+        "interaction": "If an effect (1) reads \"If/When [X] destroys a monster by battle: do [A]\", where [A] involves:<ul><li>Equipping the destroyed monster to a monster on the field.</li><li>Attaching the destroyed monster to a monster on the field.</li></ul>If/When [X] destroys a trap treated as a monster then [A] cannot be activated<sup><a>[]</a></sup>.",
+        "example": "<u>Question:</u><br>My opponent's <span class=\"tooltip-anchor\" data-name=\"51606429\">\"The Phantom Knights of Tomb Shield\"</span>, which was Special Summoned as a monster by its \"Special Summon this card in Attack Position as a Normal Monster\" effect, is destroyed by battle with my <span class=\"tooltip-anchor\" data-name=\"22011689\">\"Predaplant Moray Nepenthes\"</span>.<br>Can I now activate <span class=\"tooltip-anchor\" data-name=\"22011689\">\"Predaplant Moray Nepenthes\"</span>' \"equip that monster to this card\" effect?<br><u>Answer:</u><br>No, you cannot. (Since the destroyed <span class=\"tooltip-anchor\" data-name=\"51606429\">\"The Phantom Knights of Tomb Shield\"</span> is no longer treated as a monster after it leaves the Monster Zone, the \"equip that monster to this card\" effect cannot be applied.)<br>Furthermore, the same also applies to the following effects, which cannot be activated if a Trap that has been Special Summoned as a monster is destroyed by battle: <span class=\"tooltip-anchor\" data-name=\"97584719\">\"Infinitrack Earth Slicer\"</span>'s second effect, <span class=\"tooltip-anchor\" data-name=\"60195675\">\"Infinitrack Mountain Smasher\"</span>'s second effect, and <span class=\"tooltip-anchor\" data-name=\"24701066\">\"Infinitrack River Stormer\"</span>'s second effect.",
+        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#19701\">\"Predaplant Moray Nepenthes\", \"The Phantom Knights of Tomb Shield\", \"Infinitrack Earth Slicer\"</a></li>"
+      },
+      {
+        "interaction": "If an effect (1) reads \"If/When [X] destroys a monster by battle and sends it to the GY: do [A]\", if [X] destroys a trap treated as a monster then [A] cannot be activated as it is not a monster anymore in the Graveyard<sup><a>[]</a></sup>.",
+        "example": "<u>Question:</u><br>My opponent's <span class=\"tooltip-anchor\" data-name=\"98827725\">\"The Phantom Knights of Shade Brigandine\"</span>, which was Special Summoned as a monster by its \"Special Summon this card in Defense Position as a Normal Monster\" effect, is destroyed by battle with my <span class=\"tooltip-anchor\" data-name=\"12615446\">\"Digital Bug Scaradiator\"</span>.<br>Can I now activate <span class=\"tooltip-anchor\" data-name=\"12615446\">\"Digital Bug Scaradiator\"</span>'s \"attach that destroyed monster to this card as material\" effect?<br><u>Answer:</u><br>No, you cannot.<br>Effects with the \"destroys a monster by battle and sends it to the Graveyard\" activation condition can only be activated if the opponent's monster, which was destroyed by the battle, was sent to the Graveyard as a result, and is still a monster while in the Graveyard.<br>In the scenario you describe, the <span class=\"tooltip-anchor\" data-name=\"98827725\">\"The Phantom Knights of Shade Brigandine\"</span> that was destroyed is not treated as a monster while in the Graveyard. Therefore, the activation requirements for <span class=\"tooltip-anchor\" data-name=\"12615446\">\"Digital Bug Scaradiator\"</span>'s effect are not met.",
+        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#19360\">\"Digital Bug Scaradiator\", \"The Phantom Knights of Shade Brigandine\"</a></li>"
+      }
+    ],
+    "Traps Treated as Monsters (still treated as Traps)": [
+      {
+        "interaction": "If an effect (1) reads \"If/When [X] destroys a monster by battle: do [A]\", if [X] destroys a trap treated as a monster then [A] can be activated<sup><a>[]</a></sup>. Exceptions below.",
+        "example": "<u>Question:</u><br>If <span class=\"tooltip-anchor\" data-name=\"62242678\">\"Hot Red Dragon Archfiend King Calamity\"</span> destroys an opponent's <span class=\"tooltip-anchor\" data-name=\"28649820\">\"Embodiment of Apophis\"</span> treated as a monster by battle, will its \"inflict damage to your opponent equal to that monster's original ATK\" effect activate?<br><u>Answer:</u><br>Since the activation condition of \"this card destroying a monster by battle\" was still met, the effect will still be activated. When it resolves, it will inflict 1600 damage, which is <span class=\"tooltip-anchor\" data-name=\"28649820\">\"Embodiment of Apophis\"</span>' original ATK.<br>The same also applies to the following cards' effects, which can/will still be activated even if the destroyed monster was originally a Trap Card (that was Special Summoned as a monster), and will inflict damage equal to that monster's original ATK respectively DEF: <span class=\"tooltip-anchor\" data-name=\"52709508\">\"Genex Ally Triforce\"</span>, <span class=\"tooltip-anchor\" data-name=\"59123194\">\"Enlightenment Paladin\"</span>, <span class=\"tooltip-anchor\" data-name=\"13518809\">\"Ruin, Supreme Queen of Oblivion\"</span>, <span class=\"tooltip-anchor\" data-name=\"18666161\">\"Despian Proskenion\"</span>, <span class=\"tooltip-anchor\" data-name=\"26988374\">\"Magikey Deity - Ashtartu\"</span>, and <span class=\"tooltip-anchor\" data-name=\"56733747\">\"Elemental HERO Shining Neos Wingman\"</span>.",
+        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#16916\">\"Hot Red Dragon Archfiend King Calamity\", \"Embodiment of Apophis\"</a></li>"
+      },
+      {
+        "interaction": "If an effect (1) reads \"If/When [X] destroys a monster by battle: do [A]\", where [A] involves:<ul><li>Equipping the destroyed monster to a monster on the field.</li><li>Attaching the destroyed monster to a monster on the field.</li></ul>If/When [X] destroys a trap treated as a monster then [A] cannot be activated<sup><a>[]</a></sup>.",
+        "example": "<u>Question:</u><br>My opponent's <span class=\"tooltip-anchor\" data-name=\"51606429\">\"The Phantom Knights of Tomb Shield\"</span>, which was Special Summoned as a monster by its \"Special Summon this card in Attack Position as a Normal Monster\" effect, is destroyed by battle with my <span class=\"tooltip-anchor\" data-name=\"22011689\">\"Predaplant Moray Nepenthes\"</span>.<br>Can I now activate <span class=\"tooltip-anchor\" data-name=\"22011689\">\"Predaplant Moray Nepenthes\"</span>' \"equip that monster to this card\" effect?<br><u>Answer:</u><br>No, you cannot. (Since the destroyed <span class=\"tooltip-anchor\" data-name=\"51606429\">\"The Phantom Knights of Tomb Shield\"</span> is no longer treated as a monster after it leaves the Monster Zone, the \"equip that monster to this card\" effect cannot be applied.)<br>Furthermore, the same also applies to the following effects, which cannot be activated if a Trap that has been Special Summoned as a monster is destroyed by battle: <span class=\"tooltip-anchor\" data-name=\"97584719\">\"Infinitrack Earth Slicer\"</span>'s second effect, <span class=\"tooltip-anchor\" data-name=\"60195675\">\"Infinitrack Mountain Smasher\"</span>'s second effect, and <span class=\"tooltip-anchor\" data-name=\"24701066\">\"Infinitrack River Stormer\"</span>'s second effect.",
+        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#19701\">\"Predaplant Moray Nepenthes\", \"The Phantom Knights of Tomb Shield\", \"Infinitrack Earth Slicer\"</a></li>"
+      },
+      {
+        "interaction": "If an effect (1) reads \"If/When [X] destroys a monster by battle and sends it to the GY: do [A]\", if [X] destroys a trap treated as a monster then [A] cannot be activated as it is not a monster anymore in the Graveyard<sup><a>[]</a></sup>.",
+        "example": "<u>Question:</u><br>When <span class=\"tooltip-anchor\" data-name=\"26885836\">\"Heroic Challenger - War Hammer\"</span> destroys an <span class=\"tooltip-anchor\" data-name=\"28649820\">\"Embodiment of Apophis\"</span> or <span class=\"tooltip-anchor\" data-name=\"49514333\">\"Tiki Soul\"</span> that are treated as monsters by battle and sends them to the Graveyard, can its effect to equip the destroyed monster to itself be activated? Also, if <span class=\"tooltip-anchor\" data-name=\"26885836\">\"Heroic Challenger - War Hammer\"</span> destroys a Spell/Trap Card treated as a monster by the effect of <span class=\"tooltip-anchor\" data-name=\"81210420\">\"Magical Hats\"</span> by battle and sends it to the Graveyard, can its effect to equip the destroyed monster be activated?<br><u>Answer:</u><br>The effect of <span class=\"tooltip-anchor\" data-name=\"26885836\">\"Heroic Challenger - War Hammer\"</span> cannot be activated if it destroys an <span class=\"tooltip-anchor\" data-name=\"28649820\">\"Embodiment of Apophis\"</span> treated as a monster by its own effect, or another Spell/Trap treated as a monster by the effects of <span class=\"tooltip-anchor\" data-name=\"81210420\">\"Magical Hats\"</span>, by battle.",
+        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#12277\">\"Heroic Challenger - War Hammer\", \"Embodiment of Apophis\", \"Tiki Soul\", \"Magical Hats\"</a></li>"
+      }
+    ]
+  },
+  "If/When [X] is sent to the Graveyard": {
+    "Banish until - Temporarily banish": [
+      {
+        "interaction": "When a monster that has been banished temporarily would be returned to the field, if there are no available Main Monster Zones, that monster is not returned to the field and it is is placed in the Graveyard. This is not treated as having been \"sent to the Graveyard\"<sup><a>[]</a></sup>.",
+        "example": "<u>Question:</u><br>I have previously resolved the effect of my <span class=\"tooltip-anchor\" data-name=\"29301450\">\"S:P Little Knight\"</span>, banishing <span class=\"tooltip-anchor\" data-name=\"29301450\">\"S:P Little Knight\"</span> itself and <span class=\"tooltip-anchor\" data-name=\"11765832\">\"Garura, Wings of Resonant Life\"</span> from my Monster Zone. If there is only one usable Monster Zone during the End Phase, what happens to my banished monsters?<br><u>Answer:</u><br>Choose one of the monsters, which returns to that usable Monster Zone. The monster you didn't choose is placed in the Graveyard.<br>(If you did not choose <span class=\"tooltip-anchor\" data-name=\"11765832\">\"Garura, Wings of Resonant Life\"</span>, and it is placed in the Graveyard, it will not be treated as having been \"sent to the Graveyard,\" and its \"draw 1 card\" effect cannot be activated.)",
+        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#24029\">\"S:P Little Knight\", \"Garura, Wings of Resonant Life\"</a></li>"
+      }
+    ]
+  },
+  "If/When [X] leaves the field": {
+    "Negate Activation of Cards": [
+      {
+        "interaction": "Negating a card's activation (not effect's activation) removes it from the field, but is not treated as leaving the field<sup><a>[]</a></sup>.",
+        "example": "<u>Question:</u><br>A <span class=\"tooltip-anchor\" data-name=\"799183\">\"Super Soldier Shield\"</span> was set on the field by its own effect.<br>Afterwards, if that <span class=\"tooltip-anchor\" data-name=\"799183\">\"Super Soldier Shield\"</span> is activated, and it has its activation negated by <span class=\"tooltip-anchor\" data-name=\"3819470\">\"Seven Tools of the Bandit\"</span>, is that <span class=\"tooltip-anchor\" data-name=\"799183\">\"Super Soldier Shield\"</span> banished?<br><u>Answer:</u><br>In the proposed scenario, since the <span class=\"tooltip-anchor\" data-name=\"799183\">\"Super Soldier Shield\"</span> that has its activation negated by <span class=\"tooltip-anchor\" data-name=\"3819470\">\"Seven Tools of the Bandit\"</span> is not considered to leave the field, it is not banished and is destroyed and sent to the Graveyard normally.",
+        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#16574\">Negating a card's activation removes it from the field, but is not treated as leaving the field</a></li>"
+      }
+    ],
+    "Place a card on the field in your Spell/Trap/Pendulum Zone": [
+      {
+        "interaction": "Placing a monster on the field in a Spell/Trap/Pendulum Zone is not treated as the monster \"leaving the field\". However, the effects of <span class=\"tooltip-anchor\" data-name=\"17601919\">\"Pumprincess the Princess of Ghosts\"</span>, of <span class=\"tooltip-anchor\" data-name=\"80549379\">\"Dragunity Javelin\"</span>, or of <span class=\"tooltip-anchor\" data-name=\"49514333\">\"Tiki Soul\"</span>, may place destroyed monsters in the Spell & Trap Zone instead. In this case, that monster is treated as having left the field first<sup><a>[]</a></sup>.",
+        "example": "<u>Question:</u><br>The monster that was Special Summoned from my hand by <span class=\"tooltip-anchor\" data-name=\"42776960\">\"Relay Soul\"</span> is placed in my opponent's Spell &amp; Trap Zone as an Equip Spell due to the effect of my opponent's <span class=\"tooltip-anchor\" data-name=\"94259633\">\"Relinquished Anima\"</span>.<br>In this situation, what happens to <span class=\"tooltip-anchor\" data-name=\"42776960\">\"Relay Soul\"</span>'s \"While it is face-up on your field, you take no damage.\" effect? Also, if that Monster Card in my opponent's Spell &amp; Trap Zone is then later destroyed, does my opponent win the Duel due to <span class=\"tooltip-anchor\" data-name=\"42776960\">\"Relay Soul\"</span>'s text?<br><u>Answer:</u><br>If the monster that was Special Summoned by <span class=\"tooltip-anchor\" data-name=\"42776960\">\"Relay Soul\"</span>'s effect no longer exists in the Monster Zone, the \"While it is face-up on your field, you take no damage.\" stops applying. Additionally, since that card is no longer treated as a monster, but is not treated as having left the field, your opponent will also not win the Duel.<br>This applies not only if a monster becomes an Equip Spell, but also if it becomes a Continuous Spell, or is placed in a Pendulum Zone. (These are not treated as it \"leaving the field\".)<br>However, the effects of the \"Crystal Beast\" monsters, of <span class=\"tooltip-anchor\" data-name=\"17601919\">\"Pumprincess the Princess of Ghosts\"</span>, of <span class=\"tooltip-anchor\" data-name=\"80549379\">\"Dragunity Javelin\"</span>, or of <span class=\"tooltip-anchor\" data-name=\"49514333\">\"Tiki Soul\"</span>, may place destroyed monsters in the Spell &amp; Trap Zone instead. In this case, that monster is treated as having left the field first. (If that monster was the monster Special Summoned by <span class=\"tooltip-anchor\" data-name=\"42776960\">\"Relay Soul\"</span>'s effect, your opponent will win the Duel.)",
+        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#94\">\"Relay Soul\" and monster moved to Spell & Trap Zone</a></li>"
+      }
+    ],
+    "Place a card on the field in your Spell/Trap/Pendulum Zone instead of destroying it": [
+      {
+        "interaction": "Placing a monster on the field in a Spell/Trap/Pendulum Zone is not treated as the monster \"leaving the field\". However, the effects of <span class=\"tooltip-anchor\" data-name=\"17601919\">\"Pumprincess the Princess of Ghosts\"</span>, of <span class=\"tooltip-anchor\" data-name=\"80549379\">\"Dragunity Javelin\"</span>, or of <span class=\"tooltip-anchor\" data-name=\"49514333\">\"Tiki Soul\"</span>, may place destroyed monsters in the Spell & Trap Zone instead. In this case, that monster is treated as having left the field first<sup><a>[]</a></sup>.",
+        "example": "<u>Question:</u><br>The monster that was Special Summoned from my hand by <span class=\"tooltip-anchor\" data-name=\"42776960\">\"Relay Soul\"</span> is placed in my opponent's Spell &amp; Trap Zone as an Equip Spell due to the effect of my opponent's <span class=\"tooltip-anchor\" data-name=\"94259633\">\"Relinquished Anima\"</span>.<br>In this situation, what happens to <span class=\"tooltip-anchor\" data-name=\"42776960\">\"Relay Soul\"</span>'s \"While it is face-up on your field, you take no damage.\" effect? Also, if that Monster Card in my opponent's Spell &amp; Trap Zone is then later destroyed, does my opponent win the Duel due to <span class=\"tooltip-anchor\" data-name=\"42776960\">\"Relay Soul\"</span>'s text?<br><u>Answer:</u><br>If the monster that was Special Summoned by <span class=\"tooltip-anchor\" data-name=\"42776960\">\"Relay Soul\"</span>'s effect no longer exists in the Monster Zone, the \"While it is face-up on your field, you take no damage.\" stops applying. Additionally, since that card is no longer treated as a monster, but is not treated as having left the field, your opponent will also not win the Duel.<br>This applies not only if a monster becomes an Equip Spell, but also if it becomes a Continuous Spell, or is placed in a Pendulum Zone. (These are not treated as it \"leaving the field\".)<br>However, the effects of the \"Crystal Beast\" monsters, of <span class=\"tooltip-anchor\" data-name=\"17601919\">\"Pumprincess the Princess of Ghosts\"</span>, of <span class=\"tooltip-anchor\" data-name=\"80549379\">\"Dragunity Javelin\"</span>, or of <span class=\"tooltip-anchor\" data-name=\"49514333\">\"Tiki Soul\"</span>, may place destroyed monsters in the Spell &amp; Trap Zone instead. In this case, that monster is treated as having left the field first. (If that monster was the monster Special Summoned by <span class=\"tooltip-anchor\" data-name=\"42776960\">\"Relay Soul\"</span>'s effect, your opponent will win the Duel.)",
+        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#94\">\"Relay Soul\" and monster moved to Spell & Trap Zone</a></li>"
+      }
+    ],
+    "Return/Shuffle to the Deck as an effect": [
+      {
+        "interaction": "When a monster on the field is shuffled into the Deck, it is no longer a card on the field, however its effects that activate when it \"leaves the field\" will not activate<sup><a>[]</a></sup>. Deck includes both Main and Extra Deck.",
+        "example": "",
+        "reference": "<li><a target=\"_blank\" href=\"https://www.yugioh-card.com/en/play/2021_rules_update/\">Official KONAMI's 2021 rules update</a></li>"
+      }
+    ]
+  },
+  "If/When [X] leaves the field because of an opponent's card": {},
+  "If/When [X] leaves the field because of an opponent's card effect": {},
+
+  "Discard for cost": {
+    "Any [X] sent to the Graveyard is banished instead": [
+      {
+        "interaction": "When paying costs that say \"discard to the Graveyard\", if <span class=\"tooltip-anchor\" data-name=\"30241314\">\"Macro Cosmos\"</span> or something similar is being applied, so that cards that would be sent to the Graveyard are banished, the activation of cards that discard to the Graveyard as a cost cannot be performed. Costs that simply say \"discard\" can be paid. In that case, the cards are not sent to the Graveyard and are banished as a result<sup><a>[]</a></sup>.",
+        "example": "",
+        "reference": "<li><a target=\"_blank\" href=\"https://ygorganization.com/perfect-rulebook-2017/\">OCG Perfect Rulebook 2017 page 131-133</a></li>"
+      },
+      {
+        "interaction": "If <span class=\"tooltip-anchor\" data-name=\"30241314\">\"Macro Cosmos\"</span> or something similar is activated, so that cards that would be sent to the Graveyard are banished, discarded cards are not sent to the Graveyard and are banished instead. Cards banished in this way are treated as being banished by a card effect, even if they were discarded as cost<sup><a>[]</a></sup>.",
+        "example": "<u>Question:</u><br>I activate <span class=\"tooltip-anchor\" data-name=\"48130397\">\"Super Polymerization\"</span>, or activate <span class=\"tooltip-anchor\" data-name=\"68468459\">\"Fallen of Albaz\"</span>' effect, by discarding <span class=\"tooltip-anchor\" data-name=\"36577931\">\"Despian Tragedy\"</span> as a cost.<br>After this activation resolves, can the effect of <span class=\"tooltip-anchor\" data-name=\"36577931\">\"Despian Tragedy\"</span>, which activates if it is sent to the Graveyard or banished by a card effect, be activated?<br><u>Answer:</u><br>In this case, <span class=\"tooltip-anchor\" data-name=\"36577931\">\"Despian Tragedy\"</span> was discarded as a cost to activate an effect. It was not sent to the Graveyard by a card effect. Thus, the effect of <span class=\"tooltip-anchor\" data-name=\"36577931\">\"Despian Tragedy\"</span> cannot be activated.<br>The effect of <span class=\"tooltip-anchor\" data-name=\"36577931\">\"Despian Tragedy\"</span> is an effect that can be activated when <span class=\"tooltip-anchor\" data-name=\"36577931\">\"Despian Tragedy\"</span> is sent to the Graveyard by a card effect, or is banished.<br>However, if the situation above occurs while the effect of <span class=\"tooltip-anchor\" data-name=\"30241314\">\"Macro Cosmos\"</span> is applying, the <span class=\"tooltip-anchor\" data-name=\"36577931\">\"Despian Tragedy\"</span> will not be discarded to the Graveyard. Instead, it will be banished by the effect of <span class=\"tooltip-anchor\" data-name=\"30241314\">\"Macro Cosmos\"</span>. As <span class=\"tooltip-anchor\" data-name=\"36577931\">\"Despian Tragedy\"</span> was banished by a card effect, the effect of <span class=\"tooltip-anchor\" data-name=\"36577931\">\"Despian Tragedy\"</span> can then be activated.",
+        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#23227\">\"Despian Tragedy\", \"Fallen of Albaz\", \"Super Polymerization\", \"Macro Cosmos\"</a></li>"
+      }
+    ]
+  },
+  "Return/Shuffle to the Deck for cost": {
+    "If/When [X] leaves the field": [
+      {
+        "interaction": "When a monster on the field is shuffled into the Deck, it is no longer a card on the field, however its effects that activate when it \"leaves the field\" will not activate<sup><a>[]</a></sup>. Deck includes both Main and Extra Deck.",
+        "example": "",
+        "reference": "<li><a target=\"_blank\" href=\"https://www.yugioh-card.com/en/play/2021_rules_update/\">Official KONAMI's 2021 rules update</a></li>"
+      }
+    ]
+  },
+  "Return/Add to the Hand for cost": {
+    "Banish it when it leaves the field": [
+      {
+        "interaction": "If a card will be banished when it leaves the field, it cannot be returned to the hand as a cost to activate the effect of a card (1) that requires to do so, therefore (1) cannot be activated<sup><a>[]</a></sup>.",
+        "example": "<u>Question:</u><br>Can I return&nbsp;<span class=\"tooltip-anchor\" data-name=\"33420078\">\"Plaguespreader Zombie\"</span> Special Summoned with its own effect to Special Summon&nbsp;<span class=\"tooltip-anchor\" data-name=\"14785765\">\"Blackwing - Zephyros the Elite\"</span> with its own effect?<br><u>Answer:</u><br>Since&nbsp;<span class=\"tooltip-anchor\" data-name=\"33420078\">\"Plaguespreader Zombie\"</span> was Special Summoned with its own effect, it will be banished when it leaves the field, so you cannot be returned to the hand as a cost to activate the effect of&nbsp;<span class=\"tooltip-anchor\" data-name=\"14785765\">\"Blackwing - Zephyros the Elite\"</span>.<br>If&nbsp;<span class=\"tooltip-anchor\" data-name=\"33420078\">\"Plaguespreader Zombie\"</span> that was Special Summoned by its own effect becomes an Equip Card due to the effect&nbsp;<span class=\"tooltip-anchor\" data-name=\"22091647\">\"Immortal Phoenix Gearfried\"</span>, the part of the effect that makes&nbsp;<span class=\"tooltip-anchor\" data-name=\"33420078\">\"Plaguespreader Zombie\"</span> being banished when it leaves the field is no longer applied. In that situation, you can return&nbsp;<span class=\"tooltip-anchor\" data-name=\"33420078\">\"Plaguespreader Zombie\"</span> that is equipped to&nbsp;<span class=\"tooltip-anchor\" data-name=\"22091647\">\"Immortal Phoenix Gearfried\"</span> as a cost to activate the effect of&nbsp;<span class=\"tooltip-anchor\" data-name=\"14785765\">\"Blackwing - Zephyros the Elite\"</span>.",
+        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#10487\">\"Plaguespreader Zombie\", \"Blackwing - Zephyros the Elite\", \"Immortal Phoenix Gearfried\"</a></li>"
+      }
+    ]
+  },
+  "Send to the Graveyard for cost": {
+    "Any [X] sent to the Graveyard is banished instead": [
+      {
+        "interaction": "For costs that read \"send to the Graveyard;\", those cards must be sent to the Graveyard in order to activate the effect. If <span class=\"tooltip-anchor\" data-name=\"30241314\">\"Macro Cosmos\"</span> or similar is being applied, so that the cards that would be sent to the Graveyard are banished instead and so that it is not possible to send cards to the Graveyard, activations that send cards to the Graveyard as a cost cannot be performed<sup><a>[]</a></sup>.",
+        "example": "",
+        "reference": "<li><a target=\"_blank\" href=\"https://ygorganization.com/perfect-rulebook-2017/\">OCG Perfect Rulebook 2017 page 131-133</a></li>"
+      },
+      {
+        "interaction": "When the effect \"any Monster sent to the GY is banished instead\" is applying you cannot activate a card or effect that requires you to send a Monster to the Graveyard as a cost<sup><a>[]</a></sup>.",
+        "example": "",
+        "reference": "<li><a target=\"_blank\" href=\"https://db.ygoresources.com/qa#9234\">\"Dimensional Fissure\" and activation legality</a></li>"
+      },
+      {
+        "interaction": "When the effect \"any Monster sent to the GY is banished instead\" is applying you cannot activate a card or effect that send cards from the top of your Deck to the Graveyard as cost as there may be monster cards among them<sup><a>[]</a></sup>.",
+        "example": "",
+        "reference": "<li><a target=\"_blank\" href=\"https://db.ygoresources.com/qa#9234\">\"Dimensional Fissure\" and activation legality</a></li>"
+      },
+      {
+        "interaction": "When the effect \"any Monster sent to the GY is banished instead\" is applying you can activate a card or effect that requires you to send a Monster Card not treated as a Monster (for example treated as an Equip Spell Card) to the Graveyard as a cost<sup><a>[]</a></sup>.",
+        "example": "<u>Question:</u><br>If the effect of <span class=\"tooltip-anchor\" data-name=\"81674782\">\"Dimensional Fissure\"</span> is applied, you cannot send monsters to the Graveyard as a cost to activate a card or an effect, but is it possible to send a card such a Union Monster treated as an Equip Spell Card to the Graveyard as a cost to activate the effect of <span class=\"tooltip-anchor\" data-name=\"34022290\">\"Guardian Eatos\"</span>?<br><u>Answer:</u><br>Even if the effect of <span class=\"tooltip-anchor\" data-name=\"81674782\">\"Dimensional Fissure\"</span> is applied, you can send cards such as Union Monsters treated as Equip Spell Cards to the Graveyard as a cost to activate the effect of <span class=\"tooltip-anchor\" data-name=\"34022290\">\"Guardian Eatos\"</span>.",
+        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#9105\">\"Guardian Eatos\", \"Dimensional Fissure\"</a></li>"
+      },
+      {
+        "interaction": "When the effect \"any Monster sent to the GY is banished instead\" is applying you can activate a card or effect that requires you to send a Trap Card summoned as a monster (either not treated as a Trap or still treated as a Trap) to the Graveyard as a cost<sup><a>[]</a></sup>.",
+        "example": "<u>Question:</u><br>I control an <span class=\"tooltip-anchor\" data-name=\"44822037\">\"Angel Statue - Azurune\"</span>, which was Special Summoned by its own effect, and the effect of <span class=\"tooltip-anchor\" data-name=\"81674782\">\"Dimensional Fissure\"</span> (or <span class=\"tooltip-anchor\" data-name=\"55154344\">\"Ryu-Ge Realm - Wyrm Winds\"</span>) is applying. Can I activate <span class=\"tooltip-anchor\" data-name=\"44822037\">\"Angel Statue - Azurune\"</span>'s effect by \"send[ing ...] 1 Continuous Trap in your Monster Zone that was Special Summoned from the Spell &amp; Trap Zone [to the Graveyard]?\" <br><u>Answer:</u><br>Yes, you can.",
+        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#24094\">\"Angel Statue - Azurune\", \"Dimensional Fissure\", \"Ryu-Ge Realm - Wyrm Winds\"</a></li>"
+      }
+    ]
+  },
+  "Tribute for cost": {
+    "Any [X] sent to the Graveyard is banished instead": [
+      {
+        "interaction": "For costs that tribute, if <span class=\"tooltip-anchor\" data-name=\"30241314\">\"Macro Cosmos\"</span> or something similar is being applied, so that monsters that would be sent to the Graveyard are banished, you can still Tribute monsters. In that case, the Tributed monsters are not sent to the Graveyard and are banished instead<sup><a>[]</a></sup>.",
+        "example": "",
+        "reference": "<li><a target=\"_blank\" href=\"https://ygorganization.com/perfect-rulebook-2017/\">OCG Perfect Rulebook 2017 page 131-133</a></li>"
+      }
+    ]
+  },
+
   "Activate [X] from [location] - Activate a Card through another Card's effect": {
     "Cannot/Neither player can": [
       {
@@ -780,7 +882,7 @@
         "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#21607\">\"Macro Cosmos \"Cherubini, Ebon Angel of the Burning Abyss\"</a></li>"
       }
     ],
-    "Leaves the field because of an opponent's card effect": [
+    "If/When [X] leaves the field because of an opponent's card effect": [
       {
         "interaction": "The activation condition for an effect that says \"if [X] leaves the field because of an opponent's card effect\" can (and can only) be activated if the reason for it leaving the field is your opponent's card effect. The effects of <span class=\"tooltip-anchor\" data-name=\"30241314\">\"Macro Cosmos\"</span> or something similar do not have any impact on the answer to this question<sup><a>[]</a></sup>.",
         "example": "<u>Question:</u><br>My <span class=\"tooltip-anchor\" data-name=\"72272462\">\"Despian Quaeritis\"</span> is sent to my Graveyard, but it is instead banished due to the \"any (cards/monsters) sent to the Graveyard are banished instead\" effect of my opponent's <span class=\"tooltip-anchor\" data-name=\"30241314\">\"Macro Cosmos\"</span>, <span class=\"tooltip-anchor\" data-name=\"81674782\">\"Dimensional Fissure\"</span> or <span class=\"tooltip-anchor\" data-name=\"91800273\">\"Dimension Shifter\"</span>. Can I now activate <span class=\"tooltip-anchor\" data-name=\"72272462\">\"Despian Quaeritis\"</span>' second effect, which can be activated if it leaves the field due to my opponent's card effect?<br><u>Answer:</u><br>The activation condition for <span class=\"tooltip-anchor\" data-name=\"72272462\">\"Despian Quaeritis\"</span>' effect is \"if this face-up card in its owner's control leaves the field because of an opponent's card effect.\" Therefore, <span class=\"tooltip-anchor\" data-name=\"72272462\">\"Despian Quaeritis\"</span>' effect can (and can only) be activated if the reason for it leaving the field is your opponent's card effect. The effects of <span class=\"tooltip-anchor\" data-name=\"91800273\">\"Dimension Shifter\"</span>, <span class=\"tooltip-anchor\" data-name=\"81674782\">\"Dimensional Fissure\"</span> and <span class=\"tooltip-anchor\" data-name=\"30241314\">\"Macro Cosmos\"</span> do not have any impact on the answer to this question.<br>For example, if your <span class=\"tooltip-anchor\" data-name=\"72272462\">\"Despian Quaeritis\"</span> is destroyed by a <span class=\"tooltip-anchor\" data-name=\"12580477\">\"Raigeki\"</span> that your opponent activated, and banished as a result (due to <span class=\"tooltip-anchor\" data-name=\"91800273\">\"Dimension Shifter\"</span> etc.), you can activate its effect. If it is destroyed by a <span class=\"tooltip-anchor\" data-name=\"53129443\">\"Dark Hole\"</span> that you activated, and banished as a result (even if this is due to your opponent's <span class=\"tooltip-anchor\" data-name=\"91800273\">\"Dimension Shifter\"</span> etc.), you cannot.",
@@ -1077,7 +1179,7 @@
     "Effect becomes [A] - Changing/overwriting effects": [
       {
         "interaction": "A card (1) that changes/overwrites an effect (2) so that (2) does [A] instead does not make (1) a card or effect \"that includes an effect that does [A]\"<sup><a>[]</a></sup>.",
-        "example": "<u>Question:</u><br>When my opponent activates the effect of <span class=\"tooltip-anchor\" data-name=\"38053381\">\"Generaider Boss Stage\"</span> that Special Summons a \"Generaider\" monster from their Deck, I chain <span class=\"tooltip-anchor\" data-name=\"5318639\">\"Mystical Space Typhoon\"</span> and target <span class=\"tooltip-anchor\" data-name=\"38053381\">\"Generaider Boss Stage\"</span>. Then, if my opponent chains the effect of <span class=\"tooltip-anchor\" data-name=\"64325438\">\"Generaider Boss Room\"</span>, can I further chain the effect of <span class=\"tooltip-anchor\" data-name=\"14558127\">\"Ash Blossom &amp; Joyous Spring\"</span>?<br><u>Answer:</u><br>When your opponent activates the effect of <span class=\"tooltip-anchor\" data-name=\"64325438\">\"Generaider Boss Room\"</span>, you cannot chain the effect of <span class=\"tooltip-anchor\" data-name=\"14558127\">\"Ash Blossom &amp; Joyous Spring\"</span>.",
+        "example": "<u>Question:</u><br>When my opponent activates the effect of <span class=\"tooltip-anchor\" data-name=\"38053381\">\"Generaider Boss Stage\"</span> that Special Summons a \"Generaider\" monster from their Deck, I chain <span class=\"tooltip-anchor\" data-name=\"5318639\">\"Mystical Space Typhoon\"</span> and target <span class=\"tooltip-anchor\" data-name=\"38053381\">\"Generaider Boss Stage\"</span>. Then, if my opponent chains the effect of <span class=\"tooltip-anchor\" data-name=\"64325438\">\"Generaider Boss Room\"</span>, can I further chain the effect of <span class=\"tooltip-anchor\" data-name=\"14558127\">\"Ash Blossom &amp; Joyous Spring\"</span>?<br><u>Answer:</u><br>No, you cannot.<br>(<span class=\"tooltip-anchor\" data-name=\"64325438\">\"Generaider Boss Room\"</span>'s effect is not considered an effect that adds cards from the Deck to the hand.)<br>This also applies to <span class=\"tooltip-anchor\" data-name=\"71166481\">\"Number 75: Bamboozling Gossip Shadow\"</span>'s effect, and to <span class=\"tooltip-anchor\" data-name=\"58761791\">\"Shipment Error\"</span>.",
         "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#22759\">\"Generaider Boss Room\", \"Ash Blossom & Joyous Spring\"</a></li>"
       }
     ],
@@ -1135,13 +1237,6 @@
         "interaction": "Another example being <span class=\"tooltip-anchor\" data-name=\"36975314\">\"Crackdown\"</span>: the control of the targeted monster returns to the original owner if that monster is flipped face-down<sup><a>[]</a></sup>.",
         "example": "",
         "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#11049\">\"Crackdown\"</a></li>"
-      }
-    ],
-    "If/When [X] destroys a monster by battle: do [A]": [
-      {
-        "interaction": "If an effect (1) reads \"If/When [X] destroys an opponent's monster by battle and sends it to the GY: do [A]\", even if [X] destroys a monster that you originally owned, [A] can still be activated<sup><a>[]</a></sup>.",
-        "example": "<u>Question:</u><br>My opponent controls a Normal Monster in their Monster Zone, which was originally owned by me.<br>If I attack this monster with my <span class=\"tooltip-anchor\" data-name=\"7391448\">\"Goyo Guardian\"</span>, and destroy it by battle, can I activate <span class=\"tooltip-anchor\" data-name=\"7391448\">\"Goyo Guardian\"</span>'s \"Special Summon that monster to your field in Defense Position\" effect?<br><u>Answer:</u><br>Yes, you can. (When it resolves, the monster is Special Summoned from your Graveyard to your Main Monster Zone in Defense Position.)",
-        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#7403\">\"Goyo Guardian\", \"Ancient Warriors - Ambitious Cao De\"</a></li>"
       }
     ],
     "Send to the Graveyard as an effect": [
@@ -1212,6 +1307,11 @@
         "interaction": "If a Trap Card treated as a Monster Card by its own effect is flipped face-down by an effect, it is placed face-down in the Spell & Trap Zone. It can be activated in the next turn and become a Monster Card once again<sup><a>[]</a></sup>.",
         "example": "",
         "reference": "<li><a target=\"_blank\" href=\"https://ygorganization.com/perfect-rulebook-2017/\">OCG Perfect Rulebook 2017 pages 169-170</a></li>"
+      },
+      {
+        "interaction": "If a Trap Card treated as a Monster Card by its own effect is flipped face-down by an effect, iit will be Set to the Spell &amp; Trap Zone when you attempt to change it to face-down Defense Position. This is not treated as having successfully been changed to face-down Defense Position<sup><a>[]</a></sup>.",
+        "example": "<u>Question:</u><br>The only face-up monsters on the field are a <span class=\"tooltip-anchor\" data-name=\"20590515\">\"Conquistador of the Golden Land\"</span> and a Link Monster in my opponent's Monster Zone. If I now resolve <span class=\"tooltip-anchor\" data-name=\"30748475\">\"Destructive Daruma Karma Cannon\"</span>, will \"then, if either player controls a face-up monster(s), they must send all face-up monsters they control to the Graveyard\" be applied?<br><u>Answer:</u><br>No, it will not.<br>A monster that is still also treated as a Trap, such as <span class=\"tooltip-anchor\" data-name=\"20590515\">\"Conquistador of the Golden Land\"</span>, will be Set to the Spell &amp; Trap Zone when you attempt to change it to face-down Defense Position. This is not treated as having successfully been changed to face-down Defense Position.",
+        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#24145\">\"Destructive Daruma Karma Cannon\", \"Conquistador of the Golden Land\"</a></li>"
       },
       {
         "interaction": "Changing from Monster Trap to Trap, it does not create a new copy<sup><a>[]</a></sup>",
@@ -1313,14 +1413,14 @@
     ]
   },
   "Equipping Monsters": {
-    "Leaves the field": [
+    "If/When [X] leaves the field": [
       {
         "interaction": "A monster on the field becoming an Equip Spell is not treated as the monster \"leaving the field\"<sup><a>[]</a></sup>.",
         "example": "",
         "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#94\">\"Relay Soul\" and monster moved to Spell & Trap Zone</a></li>"
       }
     ],
-    "Leaves the field because of an opponent's card": [
+    "If/When [X] leaves the field because of an opponent's card": [
       {
         "interaction": "If your opponent fails to equip a monster you control to a monster your opponent's controls, this is not treated as \"leaving the field because of your opponent's card\"<sup><a>[]</a></sup>.",
         "example": "<u>Question:</u><br>My opponent activates the effect of their <span class=\"tooltip-anchor\" data-name=\"94259633\">\"Relinquished Anima\"</span>, targeting my Fusion Summoned <span class=\"tooltip-anchor\" data-name=\"44146295\">\"Mirrorjade the Iceblade Dragon\"</span>. In response, I activate the  effect of <span class=\"tooltip-anchor\" data-name=\"44146295\">\"Mirrorjade the Iceblade Dragon\"</span>, which banishes a monster on the field.<br>When this chain resolves, I banish <span class=\"tooltip-anchor\" data-name=\"94259633\">\"Relinquished Anima\"</span> using the  effect of <span class=\"tooltip-anchor\" data-name=\"44146295\">\"Mirrorjade the Iceblade Dragon\"</span>. Therefore, <span class=\"tooltip-anchor\" data-name=\"94259633\">\"Relinquished Anima\"</span> no longer exists on the field when its effect resolves, and <span class=\"tooltip-anchor\" data-name=\"44146295\">\"Mirrorjade the Iceblade Dragon\"</span> is sent to the Graveyard instead of becoming an Equip Card.<br>Can the effect of <span class=\"tooltip-anchor\" data-name=\"44146295\">\"Mirrorjade the Iceblade Dragon\"</span>, which can be activated if it is sent to the Graveyard by my opponent, now be activated?<br><u>Answer:</u><br>In the situation you describe, <span class=\"tooltip-anchor\" data-name=\"44146295\">\"Mirrorjade the Iceblade Dragon\"</span> is not treated as being sent to the Graveyard by your opponent. Therefore, that effect of <span class=\"tooltip-anchor\" data-name=\"44146295\">\"Mirrorjade the Iceblade Dragon\"</span> cannot be activated.",
@@ -1340,49 +1440,7 @@
       }
     ]
   },
-  "If/When [X] destroys a monster by battle: do [A]": {
-    "Change Properties": [
-      {
-        "interaction": "If an effect (1) reads \"If/When [X] destroys a monster [Y] with certain property Z by battle: do [A]\", even if [X] destroys [Y] which had property Z on the field due to another card effect but after being destroyed and sent to the Graveyard [Y] has no longer property Z, [A] can still be activated<sup><a>[]</a></sup>.",
-        "example": "<u>Question:</u><br>If <span class=\"tooltip-anchor\" data-name=\"17313545\">\"Brain Golem\"</span> destroys a monster that is treated as LIGHT Attribute due to an effect like <span class=\"tooltip-anchor\" data-name=\"10352095\">\"Scroll of Bewitchment\"</span>, will its effect to attack again activate?<br><u>Answer:</u><br>The effect of <span class=\"tooltip-anchor\" data-name=\"17313545\">\"Brain Golem\"</span> will activate at the End of the Damage Step, if the Attribute of the monster to be destroyed by the battle is LIGHT.<br>Therefore, even if the destroyed monster's Attribute is treated as LIGHT due to the effect of <span class=\"tooltip-anchor\" data-name=\"10352095\">\"Scroll of Bewitchment\"</span>, that effect of <span class=\"tooltip-anchor\" data-name=\"17313545\">\"Brain Golem\"</span> will activate at the End of the Damage Step.<br>As a result, even if the Attribute of the monster after being destroyed and sent to the Graveyard is no longer LIGHT, <span class=\"tooltip-anchor\" data-name=\"17313545\">\"Brain Golem\"</span> can still attack again.",
-        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#8406\">\"Brain Golem\", \"Scroll of Bewitchment\"</a></li>"
-      }
-    ],
-    "Traps Treated as Monsters (not treated as Traps)": [
-      {
-        "interaction": "If an effect (1) reads \"If/When [X] destroys a monster by battle: do [A]\", if [X] destroys a trap treated as a monster then [A] can be activated<sup><a>[]</a></sup>. Exceptions below.",
-        "example": "<u>Question:</u><br>If <span class=\"tooltip-anchor\" data-name=\"62242678\">\"Hot Red Dragon Archfiend King Calamity\"</span> destroys an opponent's <span class=\"tooltip-anchor\" data-name=\"28649820\">\"Embodiment of Apophis\"</span> treated as a monster by battle, will its \"inflict damage to your opponent equal to that monster's original ATK\" effect activate?<br><u>Answer:</u><br>Since the activation condition of \"this card destroying a monster by battle\" was still met, the effect will still be activated. When it resolves, it will inflict 1600 damage, which is <span class=\"tooltip-anchor\" data-name=\"28649820\">\"Embodiment of Apophis\"</span>' original ATK.<br>The same also applies to the following cards' effects, which can/will still be activated even if the destroyed monster was originally a Trap Card (that was Special Summoned as a monster), and will inflict damage equal to that monster's original ATK respectively DEF: <span class=\"tooltip-anchor\" data-name=\"52709508\">\"Genex Ally Triforce\"</span>, <span class=\"tooltip-anchor\" data-name=\"59123194\">\"Enlightenment Paladin\"</span>, <span class=\"tooltip-anchor\" data-name=\"13518809\">\"Ruin, Supreme Queen of Oblivion\"</span>, <span class=\"tooltip-anchor\" data-name=\"18666161\">\"Despian Proskenion\"</span>, <span class=\"tooltip-anchor\" data-name=\"26988374\">\"Magikey Deity - Ashtartu\"</span>, and <span class=\"tooltip-anchor\" data-name=\"56733747\">\"Elemental HERO Shining Neos Wingman\"</span>.",
-        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#16916\">\"Hot Red Dragon Archfiend King Calamity\", \"Embodiment of Apophis\"</a></li>"
-      },
-      {
-        "interaction": "If an effect (1) reads \"If/When [X] destroys a monster by battle: do [A]\", where [A] involves:<ul><li>Equipping the destroyed monster to a monster on the field.</li><li>Attaching the destroyed monster to a monster on the field.</li></ul>If/When [X] destroys a trap treated as a monster then [A] cannot be activated<sup><a>[]</a></sup>.",
-        "example": "<u>Question:</u><br>My opponent's <span class=\"tooltip-anchor\" data-name=\"51606429\">\"The Phantom Knights of Tomb Shield\"</span>, which was Special Summoned as a monster by its \"Special Summon this card in Attack Position as a Normal Monster\" effect, is destroyed by battle with my <span class=\"tooltip-anchor\" data-name=\"22011689\">\"Predaplant Moray Nepenthes\"</span>.<br>Can I now activate <span class=\"tooltip-anchor\" data-name=\"22011689\">\"Predaplant Moray Nepenthes\"</span>' \"equip that monster to this card\" effect?<br><u>Answer:</u><br>No, you cannot. (Since the destroyed <span class=\"tooltip-anchor\" data-name=\"51606429\">\"The Phantom Knights of Tomb Shield\"</span> is no longer treated as a monster after it leaves the Monster Zone, the \"equip that monster to this card\" effect cannot be applied.)<br>Furthermore, the same also applies to the following effects, which cannot be activated if a Trap that has been Special Summoned as a monster is destroyed by battle: <span class=\"tooltip-anchor\" data-name=\"97584719\">\"Infinitrack Earth Slicer\"</span>'s second effect, <span class=\"tooltip-anchor\" data-name=\"60195675\">\"Infinitrack Mountain Smasher\"</span>'s second effect, and <span class=\"tooltip-anchor\" data-name=\"24701066\">\"Infinitrack River Stormer\"</span>'s second effect.",
-        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#19701\">\"Predaplant Moray Nepenthes\", \"The Phantom Knights of Tomb Shield\", \"Infinitrack Earth Slicer\"</a></li>"
-      },
-      {
-        "interaction": "If an effect (1) reads \"If/When [X] destroys a monster by battle and sends it to the GY: do [A]\", if [X] destroys a trap treated as a monster then [A] cannot be activated as it is not a monster anymore in the Graveyard<sup><a>[]</a></sup>.",
-        "example": "<u>Question:</u><br>My opponent's <span class=\"tooltip-anchor\" data-name=\"98827725\">\"The Phantom Knights of Shade Brigandine\"</span>, which was Special Summoned as a monster by its \"Special Summon this card in Defense Position as a Normal Monster\" effect, is destroyed by battle with my <span class=\"tooltip-anchor\" data-name=\"12615446\">\"Digital Bug Scaradiator\"</span>.<br>Can I now activate <span class=\"tooltip-anchor\" data-name=\"12615446\">\"Digital Bug Scaradiator\"</span>'s \"attach that destroyed monster to this card as material\" effect?<br><u>Answer:</u><br>No, you cannot.<br>Effects with the \"destroys a monster by battle and sends it to the Graveyard\" activation condition can only be activated if the opponent's monster, which was destroyed by the battle, was sent to the Graveyard as a result, and is still a monster while in the Graveyard.<br>In the scenario you describe, the <span class=\"tooltip-anchor\" data-name=\"98827725\">\"The Phantom Knights of Shade Brigandine\"</span> that was destroyed is not treated as a monster while in the Graveyard. Therefore, the activation requirements for <span class=\"tooltip-anchor\" data-name=\"12615446\">\"Digital Bug Scaradiator\"</span>'s effect are not met.",
-        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#19360\">\"Digital Bug Scaradiator\", \"The Phantom Knights of Shade Brigandine\"</a></li>"
-      }
-    ],
-    "Traps Treated as Monsters (still treated as Traps)": [
-      {
-        "interaction": "If an effect (1) reads \"If/When [X] destroys a monster by battle: do [A]\", if [X] destroys a trap treated as a monster then [A] can be activated<sup><a>[]</a></sup>. Exceptions below.",
-        "example": "<u>Question:</u><br>If <span class=\"tooltip-anchor\" data-name=\"62242678\">\"Hot Red Dragon Archfiend King Calamity\"</span> destroys an opponent's <span class=\"tooltip-anchor\" data-name=\"28649820\">\"Embodiment of Apophis\"</span> treated as a monster by battle, will its \"inflict damage to your opponent equal to that monster's original ATK\" effect activate?<br><u>Answer:</u><br>Since the activation condition of \"this card destroying a monster by battle\" was still met, the effect will still be activated. When it resolves, it will inflict 1600 damage, which is <span class=\"tooltip-anchor\" data-name=\"28649820\">\"Embodiment of Apophis\"</span>' original ATK.<br>The same also applies to the following cards' effects, which can/will still be activated even if the destroyed monster was originally a Trap Card (that was Special Summoned as a monster), and will inflict damage equal to that monster's original ATK respectively DEF: <span class=\"tooltip-anchor\" data-name=\"52709508\">\"Genex Ally Triforce\"</span>, <span class=\"tooltip-anchor\" data-name=\"59123194\">\"Enlightenment Paladin\"</span>, <span class=\"tooltip-anchor\" data-name=\"13518809\">\"Ruin, Supreme Queen of Oblivion\"</span>, <span class=\"tooltip-anchor\" data-name=\"18666161\">\"Despian Proskenion\"</span>, <span class=\"tooltip-anchor\" data-name=\"26988374\">\"Magikey Deity - Ashtartu\"</span>, and <span class=\"tooltip-anchor\" data-name=\"56733747\">\"Elemental HERO Shining Neos Wingman\"</span>.",
-        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#16916\">\"Hot Red Dragon Archfiend King Calamity\", \"Embodiment of Apophis\"</a></li>"
-      },
-      {
-        "interaction": "If an effect (1) reads \"If/When [X] destroys a monster by battle: do [A]\", where [A] involves:<ul><li>Equipping the destroyed monster to a monster on the field.</li><li>Attaching the destroyed monster to a monster on the field.</li></ul>If/When [X] destroys a trap treated as a monster then [A] cannot be activated<sup><a>[]</a></sup>.",
-        "example": "<u>Question:</u><br>My opponent's <span class=\"tooltip-anchor\" data-name=\"51606429\">\"The Phantom Knights of Tomb Shield\"</span>, which was Special Summoned as a monster by its \"Special Summon this card in Attack Position as a Normal Monster\" effect, is destroyed by battle with my <span class=\"tooltip-anchor\" data-name=\"22011689\">\"Predaplant Moray Nepenthes\"</span>.<br>Can I now activate <span class=\"tooltip-anchor\" data-name=\"22011689\">\"Predaplant Moray Nepenthes\"</span>' \"equip that monster to this card\" effect?<br><u>Answer:</u><br>No, you cannot. (Since the destroyed <span class=\"tooltip-anchor\" data-name=\"51606429\">\"The Phantom Knights of Tomb Shield\"</span> is no longer treated as a monster after it leaves the Monster Zone, the \"equip that monster to this card\" effect cannot be applied.)<br>Furthermore, the same also applies to the following effects, which cannot be activated if a Trap that has been Special Summoned as a monster is destroyed by battle: <span class=\"tooltip-anchor\" data-name=\"97584719\">\"Infinitrack Earth Slicer\"</span>'s second effect, <span class=\"tooltip-anchor\" data-name=\"60195675\">\"Infinitrack Mountain Smasher\"</span>'s second effect, and <span class=\"tooltip-anchor\" data-name=\"24701066\">\"Infinitrack River Stormer\"</span>'s second effect.",
-        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#19701\">\"Predaplant Moray Nepenthes\", \"The Phantom Knights of Tomb Shield\", \"Infinitrack Earth Slicer\"</a></li>"
-      },
-      {
-        "interaction": "If an effect (1) reads \"If/When [X] destroys a monster by battle and sends it to the GY: do [A]\", if [X] destroys a trap treated as a monster then [A] cannot be activated as it is not a monster anymore in the Graveyard<sup><a>[]</a></sup>.",
-        "example": "<u>Question:</u><br>When <span class=\"tooltip-anchor\" data-name=\"26885836\">\"Heroic Challenger - War Hammer\"</span> destroys an <span class=\"tooltip-anchor\" data-name=\"28649820\">\"Embodiment of Apophis\"</span> or <span class=\"tooltip-anchor\" data-name=\"49514333\">\"Tiki Soul\"</span> that are treated as monsters by battle and sends them to the Graveyard, can its effect to equip the destroyed monster to itself be activated? Also, if <span class=\"tooltip-anchor\" data-name=\"26885836\">\"Heroic Challenger - War Hammer\"</span> destroys a Spell/Trap Card treated as a monster by the effect of <span class=\"tooltip-anchor\" data-name=\"81210420\">\"Magical Hats\"</span> by battle and sends it to the Graveyard, can its effect to equip the destroyed monster be activated?<br><u>Answer:</u><br>The effect of <span class=\"tooltip-anchor\" data-name=\"26885836\">\"Heroic Challenger - War Hammer\"</span> cannot be activated if it destroys an <span class=\"tooltip-anchor\" data-name=\"28649820\">\"Embodiment of Apophis\"</span> treated as a monster by its own effect, or another Spell/Trap treated as a monster by the effects of <span class=\"tooltip-anchor\" data-name=\"81210420\">\"Magical Hats\"</span>, by battle.",
-        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#12277\">\"Heroic Challenger - War Hammer\", \"Embodiment of Apophis\", \"Tiki Soul\", \"Magical Hats\"</a></li>"
-      }
-    ]
-  },
+
   "If [X] would be destroyed, you can do [A] instead - Destruction Substitution": {
     "Unaffected": [
       {
@@ -1393,7 +1451,7 @@
     ]
   },
   "Immediately after this effect resolves, [method] Summon [X]": {
-    "Leaves the field because of an opponent's card effect": [
+    "If/When [X] leaves the field because of an opponent's card effect": [
       {
         "interaction": "Monsters used as materials in this way do not \"leave the field by a card effect\"<sup><a>[]</a></sup>.",
         "example": "<u>Question:</u><br>My opponent resolved the effect of their <span class=\"tooltip-anchor\" data-name=\"89019964\">\"Unchained Soul of Disaster\"</span> by targeting my <span class=\"tooltip-anchor\" data-name=\"63288573\">\"Sky Striker Ace - Kagari\"</span>, Link Summoning <span class=\"tooltip-anchor\" data-name=\"67680512\">\"Unchained Soul of Rage\"</span> using both of these monsters.<br>Can I now activate the effect of a <span class=\"tooltip-anchor\" data-name=\"26077387\">\"Sky Striker Ace - Raye\"</span> in my Graveyard?<br><u>Answer:</u><br>No, you cannot.<br>The effect of <span class=\"tooltip-anchor\" data-name=\"89019964\">\"Unchained Soul of Disaster\"</span> allows your opponent to Link Summon using the targeted monster as material. As a result of your opponent Link Summoning, the targeted monster then leaves the field. The monster is not considered to have left the field due to your opponent's card effect.",
@@ -1432,38 +1490,6 @@
       }
     ]
   },
-  "Leaves the field": {
-    "Negate Activation of Cards": [
-      {
-        "interaction": "Negating a card's activation (not effect's activation) removes it from the field, but is not treated as leaving the field<sup><a>[]</a></sup>.",
-        "example": "<u>Question:</u><br>A <span class=\"tooltip-anchor\" data-name=\"799183\">\"Super Soldier Shield\"</span> was set on the field by its own effect.<br>Afterwards, if that <span class=\"tooltip-anchor\" data-name=\"799183\">\"Super Soldier Shield\"</span> is activated, and it has its activation negated by <span class=\"tooltip-anchor\" data-name=\"3819470\">\"Seven Tools of the Bandit\"</span>, is that <span class=\"tooltip-anchor\" data-name=\"799183\">\"Super Soldier Shield\"</span> banished?<br><u>Answer:</u><br>In the proposed scenario, since the <span class=\"tooltip-anchor\" data-name=\"799183\">\"Super Soldier Shield\"</span> that has its activation negated by <span class=\"tooltip-anchor\" data-name=\"3819470\">\"Seven Tools of the Bandit\"</span> is not considered to leave the field, it is not banished and is destroyed and sent to the Graveyard normally.",
-        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#16574\">Negating a card's activation removes it from the field, but is not treated as leaving the field</a></li>"
-      }
-    ],
-    "Place a card on the field in your Spell/Trap/Pendulum Zone": [
-      {
-        "interaction": "Placing a monster on the field in a Spell/Trap/Pendulum Zone is not treated as the monster \"leaving the field\". However, the effects of <span class=\"tooltip-anchor\" data-name=\"17601919\">\"Pumprincess the Princess of Ghosts\"</span>, of <span class=\"tooltip-anchor\" data-name=\"80549379\">\"Dragunity Javelin\"</span>, or of <span class=\"tooltip-anchor\" data-name=\"49514333\">\"Tiki Soul\"</span>, may place destroyed monsters in the Spell & Trap Zone instead. In this case, that monster is treated as having left the field first<sup><a>[]</a></sup>.",
-        "example": "<u>Question:</u><br>The monster that was Special Summoned from my hand by <span class=\"tooltip-anchor\" data-name=\"42776960\">\"Relay Soul\"</span> is placed in my opponent's Spell &amp; Trap Zone as an Equip Spell due to the effect of my opponent's <span class=\"tooltip-anchor\" data-name=\"94259633\">\"Relinquished Anima\"</span>.<br>In this situation, what happens to <span class=\"tooltip-anchor\" data-name=\"42776960\">\"Relay Soul\"</span>'s \"While it is face-up on your field, you take no damage.\" effect? Also, if that Monster Card in my opponent's Spell &amp; Trap Zone is then later destroyed, does my opponent win the Duel due to <span class=\"tooltip-anchor\" data-name=\"42776960\">\"Relay Soul\"</span>'s text?<br><u>Answer:</u><br>If the monster that was Special Summoned by <span class=\"tooltip-anchor\" data-name=\"42776960\">\"Relay Soul\"</span>'s effect no longer exists in the Monster Zone, the \"While it is face-up on your field, you take no damage.\" stops applying. Additionally, since that card is no longer treated as a monster, but is not treated as having left the field, your opponent will also not win the Duel.<br>This applies not only if a monster becomes an Equip Spell, but also if it becomes a Continuous Spell, or is placed in a Pendulum Zone. (These are not treated as it \"leaving the field\".)<br>However, the effects of the \"Crystal Beast\" monsters, of <span class=\"tooltip-anchor\" data-name=\"17601919\">\"Pumprincess the Princess of Ghosts\"</span>, of <span class=\"tooltip-anchor\" data-name=\"80549379\">\"Dragunity Javelin\"</span>, or of <span class=\"tooltip-anchor\" data-name=\"49514333\">\"Tiki Soul\"</span>, may place destroyed monsters in the Spell &amp; Trap Zone instead. In this case, that monster is treated as having left the field first. (If that monster was the monster Special Summoned by <span class=\"tooltip-anchor\" data-name=\"42776960\">\"Relay Soul\"</span>'s effect, your opponent will win the Duel.)",
-        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#94\">\"Relay Soul\" and monster moved to Spell & Trap Zone</a></li>"
-      }
-    ],
-    "Place a card on the field in your Spell/Trap/Pendulum Zone instead of destroying it": [
-      {
-        "interaction": "Placing a monster on the field in a Spell/Trap/Pendulum Zone is not treated as the monster \"leaving the field\". However, the effects of <span class=\"tooltip-anchor\" data-name=\"17601919\">\"Pumprincess the Princess of Ghosts\"</span>, of <span class=\"tooltip-anchor\" data-name=\"80549379\">\"Dragunity Javelin\"</span>, or of <span class=\"tooltip-anchor\" data-name=\"49514333\">\"Tiki Soul\"</span>, may place destroyed monsters in the Spell & Trap Zone instead. In this case, that monster is treated as having left the field first<sup><a>[]</a></sup>.",
-        "example": "<u>Question:</u><br>The monster that was Special Summoned from my hand by <span class=\"tooltip-anchor\" data-name=\"42776960\">\"Relay Soul\"</span> is placed in my opponent's Spell &amp; Trap Zone as an Equip Spell due to the effect of my opponent's <span class=\"tooltip-anchor\" data-name=\"94259633\">\"Relinquished Anima\"</span>.<br>In this situation, what happens to <span class=\"tooltip-anchor\" data-name=\"42776960\">\"Relay Soul\"</span>'s \"While it is face-up on your field, you take no damage.\" effect? Also, if that Monster Card in my opponent's Spell &amp; Trap Zone is then later destroyed, does my opponent win the Duel due to <span class=\"tooltip-anchor\" data-name=\"42776960\">\"Relay Soul\"</span>'s text?<br><u>Answer:</u><br>If the monster that was Special Summoned by <span class=\"tooltip-anchor\" data-name=\"42776960\">\"Relay Soul\"</span>'s effect no longer exists in the Monster Zone, the \"While it is face-up on your field, you take no damage.\" stops applying. Additionally, since that card is no longer treated as a monster, but is not treated as having left the field, your opponent will also not win the Duel.<br>This applies not only if a monster becomes an Equip Spell, but also if it becomes a Continuous Spell, or is placed in a Pendulum Zone. (These are not treated as it \"leaving the field\".)<br>However, the effects of the \"Crystal Beast\" monsters, of <span class=\"tooltip-anchor\" data-name=\"17601919\">\"Pumprincess the Princess of Ghosts\"</span>, of <span class=\"tooltip-anchor\" data-name=\"80549379\">\"Dragunity Javelin\"</span>, or of <span class=\"tooltip-anchor\" data-name=\"49514333\">\"Tiki Soul\"</span>, may place destroyed monsters in the Spell &amp; Trap Zone instead. In this case, that monster is treated as having left the field first. (If that monster was the monster Special Summoned by <span class=\"tooltip-anchor\" data-name=\"42776960\">\"Relay Soul\"</span>'s effect, your opponent will win the Duel.)",
-        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#94\">\"Relay Soul\" and monster moved to Spell & Trap Zone</a></li>"
-      }
-    ],
-    "Return/Shuffle to the Deck as an effect": [
-      {
-        "interaction": "When a monster on the field is shuffled into the Deck, it is no longer a card on the field, however its effects that activate when it \"leaves the field\" will not activate<sup><a>[]</a></sup>. Deck includes both Main and Extra Deck.",
-        "example": "",
-        "reference": "<li><a target=\"_blank\" href=\"https://www.yugioh-card.com/en/play/2021_rules_update/\">Official KONAMI's 2021 rules update</a></li>"
-      }
-    ]
-  },
-  "Leaves the field because of an opponent's card": {},
-  "Leaves the field because of an opponent's card effect": {},
   "Must attack": {},
   "Negate Activation of Cards": {},
   "Negate Activation of Effects": {
@@ -1530,7 +1556,7 @@
         "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#15597\">When a monster's effects that gained the Level, name or effect of another monster are negated, then only the Level will return to its original value</a></li>"
       }
     ],
-    "Properties Changing - Gains this effect": [
+    "Gains this effect": [
       {
         "interaction": "A monster (1) on the field has gained an effect due to another card or effect (2). The gained effect will be treated as the monster effect of (1). If (1)'s effect is negated, (1) will still gain the effect by (2), but it will be negated. If (1) is no longer negated, the gained effect will start to apply normally<sup><a>[]</a></sup>.",
         "example": "<u>Question:</u><br><span class=\"tooltip-anchor\" data-name=\"82732705\">\"Skill Drain\"</span> is face-up on the field. In this situation, if I activate <span class=\"tooltip-anchor\" data-name=\"47882565\">\"Rank-Up-Magic Cipher Ascension\"</span> and Special Summon a <span class=\"tooltip-anchor\" data-name=\"12632096\">\"Neo Galaxy-Eyes Cipher Dragon\"</span> with its effect, will it also gain 500 ATK for each Level 4 or higher monster on my field?<br><u>Answer:</u><br>When <span class=\"tooltip-anchor\" data-name=\"47882565\">\"Rank-Up-Magic Cipher Ascension\"</span> resolves, the Special Summoned <span class=\"tooltip-anchor\" data-name=\"12632096\">\"Neo Galaxy-Eyes Cipher Dragon\"</span> gains the effect \"This card gains 500 ATK for each Level 4 or higher monster you control.\" This effect will be treated as the monster effect of <span class=\"tooltip-anchor\" data-name=\"12632096\">\"Neo Galaxy-Eyes Cipher Dragon\"</span>.<br>Therefore, while the effect of <span class=\"tooltip-anchor\" data-name=\"82732705\">\"Skill Drain\"</span> is applying, <span class=\"tooltip-anchor\" data-name=\"12632096\">\"Neo Galaxy-Eyes Cipher Dragon\"</span> will still gain this effect when Special Summoned by <span class=\"tooltip-anchor\" data-name=\"47882565\">\"Rank-Up-Magic Cipher Ascension\"</span>, but it will be negated.<br>(If the effect of <span class=\"tooltip-anchor\" data-name=\"82732705\">\"Skill Drain\"</span> stops applying, the gained effect will start to apply normally.)",
@@ -1549,6 +1575,11 @@
         "interaction": "A face-up card has applied an effect that lasts for this turn. If in this same turn that card has its effects negated, the previously applied effect will still linger for the turn<sup><a>[]</a></sup>.",
         "example": "<u>Question:</u><br>I successfully Fusion Summoned a <span class=\"tooltip-anchor\" data-name=\"18514525\">\"Prank-Kids Rocket Ride\"</span> and activated its effect this turn. If <span class=\"tooltip-anchor\" data-name=\"82732705\">\"Skill Drain\"</span> is activated after it resolved, how is the effect applied?<br><u>Answer:</u><br>If <span class=\"tooltip-anchor\" data-name=\"82732705\">\"Skill Drain\"</span> is activated after the effect of <span class=\"tooltip-anchor\" data-name=\"18514525\">\"Prank-Kids Rocket Ride\"</span> has resolved, and its effects are negated, <span class=\"tooltip-anchor\" data-name=\"18514525\">\"Prank-Kids Rocket Ride\"</span> will no longer lose 1000 ATK, but it will still be able to attack directly with its effect that turn.",
         "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#162\">\"Prank-Kids Rocket Ride\", \"Skill Drain\"</a></li>"
+      },
+      {
+        "interaction": "The same is for continuous Spells/Traps that have applied an effect that lasts for this turn: if in this same turn that card has its effects negated, the previously applied effect will still linger for the turn<sup><a>[]</a></sup>.",
+        "example": "<u>Question:</u><br>My opponent activates the effect of <span class=\"tooltip-anchor\" data-name=\"17722185\">\"Invincibility Barrier\"</span>, by banishing a Fusion Monster. During the same turn, if I later activate <span class=\"tooltip-anchor\" data-name=\"51452091\">\"Royal Decree\"</span>, will the effects of Fusion Monsters still be negated?<br><u>Answer:</u><br>In this scenario, if the effect of <span class=\"tooltip-anchor\" data-name=\"17722185\">\"Invincibility Barrier\"</span> has resolved, the effects of Fusion Monsters will be negated this turn. If <span class=\"tooltip-anchor\" data-name=\"51452091\">\"Royal Decree\"</span> is activated afterward, the effect of <span class=\"tooltip-anchor\" data-name=\"17722185\">\"Invincibility Barrier\"</span> that has already resolved will continue to apply. (Fusion Monsters' effects continue to be negated.)",
+        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#22091\">\"Invincibility Barrier\", \"Royal Decree\"</a></li>"
       }
     ],
     "Traps Treated as Monsters (not treated as Traps)": [
@@ -1576,8 +1607,8 @@
     ]
   },
   "Place a card on the field in your Spell/Trap/Pendulum Zone": {},
-  "Place a card on the field in your Spell/Trap/Pendulum Zone instead of destroying it": {},  
-  "Properties Changing - Gains this effect": {},
+  "Place a card on the field in your Spell/Trap/Pendulum Zone instead of destroying it": {},
+  "Gains this effect": {},
   "Return/Shuffle to the Deck as an effect": {},
   "Return/Add to the Hand as an effect": {},
   "Reveal": {},
