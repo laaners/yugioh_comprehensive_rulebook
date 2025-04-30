@@ -180,10 +180,6 @@ img {
 /*
 */
 
-.toc ol {
-  counter-reset: item;
-  padding-left: 1.5rem;
-}
 .toc li {
   display: block;
 }
@@ -199,6 +195,8 @@ img {
 }
 
 .toc ol {
+  counter-reset: item;
+  padding-left: 1.5rem;
   font-size: 1.5rem;
   font-weight: bold;
 }
@@ -258,18 +256,23 @@ img {
   list-style: none; /* Remove default numbering */
   counter-increment: item;
   position: relative;
+  white-space:unset;
 }
 
 /* For items with numbers less than 10, add a leading zero */
 .battle-damage-ol-li::before {
+  /*
   content: "0" counter(item) ".";
+  */
   font-weight: bold;
   margin-right: 8px;
 }
 
 /* For items with numbers 10 and greater, don't add the leading zero */
 .battle-damage-ol-li:nth-child(n + 10)::before {
+  /*
   content: counter(item) ".";
+  */
   font-weight: bold;
   margin-right: 8px;
 }

@@ -94,13 +94,12 @@ function mergeIncludes(document) {
 
     // if glossary entry, add effects interaction
     if (
-      section_name.includes("10_glossary/") ||
+      section_name.includes("10_text_not_effect/") ||
+      section_name.includes("12_cost/") ||
+      section_name.includes("11_activation_condition/") ||
+      section_name.includes("13_glossary_effects/") ||
       section_name.includes("06_other_game_elements/") ||
       section_name.includes("02_monster_cards/abilities/") ||
-      section_name.includes(
-        "09_card_text/02_activating_cards_and_effects/cost/"
-      ) ||
-      section_name.includes("09_card_text/04_text_not_effect/") ||
       section_name.includes("02_monster_cards/01_normal_monsters") ||
       // section_name.includes("02_monster_cards/02_effect_monsters") ||
       section_name.includes("02_monster_cards/03_ritual_monsters") ||
@@ -183,19 +182,6 @@ function mergeIncludes(document) {
 
             if (last_html !== glossary_entry_list.innerHTML) {
               // separators
-              if (entry === "Tribute for cost") {
-                final_html += `<hr><p style="text-align:center;"><strong>Costs</strong></p><hr>${glossary_entry_list.innerHTML}`;
-                glossary_entry_list.innerHTML = "";
-                last_html = glossary_entry_list.innerHTML;
-              }
-              if (
-                entry ===
-                'Text that says "this card is always treated as [card name]/[a particular title/archetype] card"'
-              ) {
-                final_html += `<hr><p style="text-align:center;"><strong>Texts that are not an effect</strong></p><hr>${glossary_entry_list.innerHTML}`;
-                glossary_entry_list.innerHTML = "";
-                last_html = glossary_entry_list.innerHTML;
-              }
               if (entry === "Gemini") {
                 final_html += `<hr><p style="text-align:center;"><strong>Monster abilities</strong></p><hr>${glossary_entry_list.innerHTML}`;
                 glossary_entry_list.innerHTML = "";
@@ -208,6 +194,24 @@ function mergeIncludes(document) {
               }
               if (entry === "Counters") {
                 final_html += `<hr><p style="text-align:center;"><strong>Other game elements</strong></p><hr>${glossary_entry_list.innerHTML}`;
+                glossary_entry_list.innerHTML = "";
+                last_html = glossary_entry_list.innerHTML;
+              }
+              if (entry === "If/When [X] leaves the field because of an opponent's card effect") {
+                final_html += `<hr><p style="text-align:center;"><strong>Activation condition</strong></p><hr>${glossary_entry_list.innerHTML}`;
+                glossary_entry_list.innerHTML = "";
+                last_html = glossary_entry_list.innerHTML;
+              }
+              if (entry === "Tribute for cost") {
+                final_html += `<hr><p style="text-align:center;"><strong>Costs</strong></p><hr>${glossary_entry_list.innerHTML}`;
+                glossary_entry_list.innerHTML = "";
+                last_html = glossary_entry_list.innerHTML;
+              }
+              if (
+                entry ===
+                'Text that says "this card is always treated as [card name]/[a particular title/archetype] card"'
+              ) {
+                final_html += `<hr><p style="text-align:center;"><strong>Texts that are not an effect</strong></p><hr>${glossary_entry_list.innerHTML}`;
                 glossary_entry_list.innerHTML = "";
                 last_html = glossary_entry_list.innerHTML;
               }
