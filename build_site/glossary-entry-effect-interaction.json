@@ -105,9 +105,8 @@
   "Normal Monsters": {
     "Gains this effect": [
       {
-        "interaction": "If a monster that is not an Effect Monster gains an effect by the effect of another card that says \"gains this effect [effect]\", that monster gains the effect and is treated as an Effect Monster<sup><a>[]</a></sup>.",
-        "example": "<u>Question:</u><br>If the non-Effect Xyz Monster <span class=\"tooltip-anchor\" data-name=\"71594310\">\"Gem-Knight Pearl\"</span> is Xyz Summoned using only <span class=\"tooltip-anchor\" data-name=\"3606728\">\"Gagaga Girl\"</span> and other \"Gagaga\" monsters as material, can that <span class=\"tooltip-anchor\" data-name=\"71594310\">\"Gem-Knight Pearl\"</span> activate the \"●When it is Xyz Summoned: You can target 1 Special Summoned monster your opponent controls; its ATK becomes 0.\" effect gained from <span class=\"tooltip-anchor\" data-name=\"3606728\">\"Gagaga Girl\"</span>?<br><u>Answer:</u><br>Yes, it can. Additionally, note that if <span class=\"tooltip-anchor\" data-name=\"71594310\">\"Gem-Knight Pearl\"</span> is Xyz Summoned using only <span class=\"tooltip-anchor\" data-name=\"3606728\">\"Gagaga Girl\"</span> and other \"Gagaga\" monsters as material, it is treated as an Effect Monster.<br>(Additionally, if <span class=\"tooltip-anchor\" data-name=\"71594310\">\"Gem-Knight Pearl\"</span> activates the gained effect, you can also activate <span class=\"tooltip-anchor\" data-name=\"49010598\">\"Divine Wrath\"</span> etc. in response.)",
-        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#11836\">Non-Effect monsters gaining effects</a></li>"
+        "example": "<u>Question:</u><br>My <span class=\"tooltip-anchor\" data-name=\"71594310\">\"Gem-Knight Pearl\"</span> was Xyz Summoned using <span class=\"tooltip-anchor\" data-name=\"26082117\">\"Gagaga Magician\"</span> and <span class=\"tooltip-anchor\" data-name=\"3606728\">\"Gagaga Girl\"</span> as materials, and was treated as an Effect Monster as a result. Afterwards, that same <span class=\"tooltip-anchor\" data-name=\"71594310\">\"Gem-Knight Pearl\"</span> was flipped face-down by <span class=\"tooltip-anchor\" data-name=\"14087893\">\"Book of Moon\"</span>. If that <span class=\"tooltip-anchor\" data-name=\"71594310\">\"Gem-Knight Pearl\"</span> is later flipped face-up again, will it still be treated as an Effect Monster?<br>Additionally, if a <span class=\"tooltip-anchor\" data-name=\"71594310\">\"Gem-Knight Pearl\"</span> that is similarly treated as an Effect Monster is equipped to <span class=\"tooltip-anchor\" data-name=\"39987164\">\"Vylon Disigma\"</span> by <span class=\"tooltip-anchor\" data-name=\"39987164\">\"Vylon Disigma\"</span>'s effect, will it be treated as an Effect Monster while equipped to <span class=\"tooltip-anchor\" data-name=\"39987164\">\"Vylon Disigma\"</span>?<br><u>Answer:</u><br>In the given situation, <span class=\"tooltip-anchor\" data-name=\"71594310\">\"Gem-Knight Pearl\"</span> is flipped face-down, and face-up again, after being Xyz Summoned using <span class=\"tooltip-anchor\" data-name=\"3606728\">\"Gagaga Girl\"</span> and obtaining the \"●\" effect. Once this happens, it will again be treated as a non-Effect monster.<br>Furthermore, if you equip a <span class=\"tooltip-anchor\" data-name=\"71594310\">\"Gem-Knight Pearl\"</span> that is treated as an Effect Monster to a <span class=\"tooltip-anchor\" data-name=\"39987164\">\"Vylon Disigma\"</span>, <span class=\"tooltip-anchor\" data-name=\"71594310\">\"Gem-Knight Pearl\"</span> will be treated as an Equip Card, and will not be treated as an Effect Monster.<br>However, even though <span class=\"tooltip-anchor\" data-name=\"71594310\">\"Gem-Knight Pearl\"</span> is no longer treated as an Effect Monster, it will remain equipped to <span class=\"tooltip-anchor\" data-name=\"39987164\">\"Vylon Disigma\"</span>, and the effect of <span class=\"tooltip-anchor\" data-name=\"39987164\">\"Vylon Disigma\"</span> will apply as usual.",
+        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#12417\">\"Gem-Knight Pearl\", \"Gagaga Girl\", \"Gagaga Magician\", \"Book of Moon\", \"Vylon Disigma\"</a></li>"
       }
     ]
   },
@@ -541,8 +540,16 @@
       }
     ]
   },
-
-  "Text that specifies \"once per turn\" - Activate vs Use": {
+  "Can only apply this effect once": {
+    "Copy effect resolves as another card's effect": [
+      {
+        "interaction": "You activate a card (1) that says \"You can only apply this effect of [card name] once per Duel\". As Chain Link 2 you activate a card (2) that copies the effect of (1). The chain resolves backwards, (2) resolves as (1)'s effect and (1) resolves without applying its effect since you can only apply (1)'s effect once per Duel<sup><a>[]</a></sup>.",
+        "example": "<u>Question:</u><br>Can <span class=\"tooltip-anchor\" data-name=\"49398568\">\"Serial Spell\"</span> be activated in a Chain to the activation of <span class=\"tooltip-anchor\" data-name=\"57734012\">\"Rank-Up-Magic - The Seventh One\"</span>?<br><u>Answer:</u><br><span class=\"tooltip-anchor\" data-name=\"49398568\">\"Serial Spell\"</span> can be activated in a Chain to the activation of <span class=\"tooltip-anchor\" data-name=\"57734012\">\"Rank-Up-Magic - The Seventh One\"</span>.<br>In that case, when <span class=\"tooltip-anchor\" data-name=\"49398568\">\"Serial Spell\"</span> resolves, you will Special Summon 1 monster that has a number between \"Number 101\"~\"Number 107\" in its name, except a \"Number C\" monster, then Special Summon 1 \"Number C\" monster with the same number by overlaying it on the first monster and using it as material.<br>After that, <span class=\"tooltip-anchor\" data-name=\"57734012\">\"Rank-Up-Magic - The Seventh One\"</span> resolves without Special Summoning any monsters. (You can only perform the Special Summons from the effect of <span class=\"tooltip-anchor\" data-name=\"57734012\">\"Rank-Up-Magic - The Seventh One\"</span> once per Duel.)",
+        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#241\">\"Serial Spell\", \"Rank-Up-Magic - The Seventh One\"</a></li>"
+      }
+    ]
+  },
+  "Once per turn - Activate vs Use": {
     "Banish until - Temporarily banish": [
       {
         "interaction": "If \"the effect(s) of this card can only be <b>activated</b> once per turn\" or simply \"once per turn:\" is written (different from \"the effect of [card name] can only be activated/used once per turn\"), if that card is flipped face-down or leaves the field and it later appears on the field face-up once again, the same effect of cards with the same name can be activated<sup><a>[]</a></sup>.",
@@ -601,7 +608,7 @@
       }
     ]
   },
-  "Text that determines Materials and Summoning procedures": {
+  "Materials and Summoning procedures": {
     "Pendulum Monsters": [
       {
         "interaction": "When a Pendulum Monster Card is sent from the field to the Graveyard, it is added face-up to the Extra Deck, instead. Therefore, you cannot send a Pendulum Monster Card to the Graveyard in order to Special Summon a monster using its listed procedure that says \"send cards to the Graveyard\". This is the case only for summoning procedures that exactly say \"send to the Graveyard\"<sup><a>[]</a></sup>.",
@@ -655,7 +662,7 @@
       }
     ]
   },
-  "Text that is maintenance cost": {
+  "Maintenance cost": {
     "Copy effect continuous/lingering": [
       {
         "interaction": "Copying the effect of a card does not copy the maintenance cost<sup><a>[]</a></sup>.",
@@ -664,7 +671,7 @@
       }
     ]
   },
-  "Text that says \"this card is always treated as [card name]/[a particular title/archetype] card\"": {
+  "This card is always treated as [card name]/[a particular title/archetype] card": {
     "Declare 1 card name": [
       {
         "interaction": "A card named [X] whose text reads \"this card's name is always treated as [Y]\" cannot be declared by card name: when activating an effect that involves declaring a card name, you cannot declare [X] but you can declare [Y]<sup><a>[]</a></sup>.",
@@ -772,7 +779,59 @@
   },
   "If/When [X] leaves the field because of an opponent's card": {},
   "If/When [X] leaves the field because of an opponent's card effect": {},
-
+  "When a card or effect is activated that includes an effect that does [A]": {
+    "During the [X] Phase, do [A] - Delayed effects": [
+      {
+        "interaction": "Effects that resolve [A] later during [X] (during the End Phase for example) are still \"effects that include an effect that does [A]\"<sup><a>[]</a></sup>.",
+        "example": "<u>Question:</u><br>When my opponent Special Summons a monster due to <span class=\"tooltip-anchor\" data-name=\"46448938\">\"Spellbook of Judgment\"</span>, can I activate <span class=\"tooltip-anchor\" data-name=\"84749824\">\"Solemn Warning\"</span>, <span class=\"tooltip-anchor\" data-name=\"50323155\">\"Black Horn of Heaven\"</span>, <span class=\"tooltip-anchor\" data-name=\"93016201\">\"Royal Oppression\"</span>, or similar?<br><u>Answer:</u><br>The Special Summon of a monster when resolving <span class=\"tooltip-anchor\" data-name=\"46448938\">\"Spellbook of Judgment\"</span> during the End Phase does not start a chain. However, as it is a Special Summon of a monster due to the effect of <span class=\"tooltip-anchor\" data-name=\"46448938\">\"Spellbook of Judgment\"</span>, this Special Summon cannot be negated by activating <span class=\"tooltip-anchor\" data-name=\"84749824\">\"Solemn Warning\"</span>, <span class=\"tooltip-anchor\" data-name=\"50323155\">\"Black Horn of Heaven\"</span>, <span class=\"tooltip-anchor\" data-name=\"93016201\">\"Royal Oppression\"</span>, or similar.<br>However, <span class=\"tooltip-anchor\" data-name=\"84749824\">\"Solemn Warning\"</span> and <span class=\"tooltip-anchor\" data-name=\"93016201\">\"Royal Oppression\"</span> can be activated in response to the card activation of <span class=\"tooltip-anchor\" data-name=\"46448938\">\"Spellbook of Judgment\"</span>.",
+        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#12713\">Negating delayed Special Summons</a></li>"
+      }
+    ],
+    "Effect becomes [A] - Changing/overwriting effects": [
+      {
+        "interaction": "A card (1) that changes/overwrites an effect (2) so that (2) does [A] instead does not make (1) a card or effect \"that includes an effect that does [A]\"<sup><a>[]</a></sup>.",
+        "example": "<u>Question:</u><br>When my opponent activates the effect of <span class=\"tooltip-anchor\" data-name=\"38053381\">\"Generaider Boss Stage\"</span> that Special Summons a \"Generaider\" monster from their Deck, I chain <span class=\"tooltip-anchor\" data-name=\"5318639\">\"Mystical Space Typhoon\"</span> and target <span class=\"tooltip-anchor\" data-name=\"38053381\">\"Generaider Boss Stage\"</span>. Then, if my opponent chains the effect of <span class=\"tooltip-anchor\" data-name=\"64325438\">\"Generaider Boss Room\"</span>, can I further chain the effect of <span class=\"tooltip-anchor\" data-name=\"14558127\">\"Ash Blossom &amp; Joyous Spring\"</span>?<br><u>Answer:</u><br>No, you cannot.<br>(<span class=\"tooltip-anchor\" data-name=\"64325438\">\"Generaider Boss Room\"</span>'s effect is not considered an effect that adds cards from the Deck to the hand.)<br>This also applies to <span class=\"tooltip-anchor\" data-name=\"71166481\">\"Number 75: Bamboozling Gossip Shadow\"</span>'s effect, and to <span class=\"tooltip-anchor\" data-name=\"58761791\">\"Shipment Error\"</span>.",
+        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#22759\">\"Generaider Boss Room\", \"Ash Blossom & Joyous Spring\"</a></li>"
+      }
+    ],
+    "Immediately after this effect resolves, [method] Summon [X]": [
+      {
+        "interaction": "The activation of a card or of an effect that \"Immediately after this effect resolves, [method] Summon [X]\" are \"effects that include an effect that Special Summons a monster(s)\"<sup><a>[]</a></sup>.",
+        "example": "<u>Question:</u><br>Can I chain the  effect of <span class=\"tooltip-anchor\" data-name=\"84330567\">\"Tearlaments Rulkallos\"</span>, which can respond to any effect's activation if it \"includes an effect that Special Summons a monster(s),\" to the activation of <span class=\"tooltip-anchor\" data-name=\"65741786\">\"I:P Masquerena\"</span>'s \"Link Summon 1 Link Monster\" effect?<br><u>Answer:</u><br>Yes, you can.<br>(The activation of <span class=\"tooltip-anchor\" data-name=\"65741786\">\"I:P Masquerena\"</span>'s effect is considered to \"include an effect that Special Summons a monster(s).\" )",
+        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#23933\">Special Summons caused by a card effect, and whether the effect includes Special Summoning</a></li>"
+      }
+    ],
+    "Copy effect resolves as another card's effect": [
+      {
+        "interaction": "A card or effect (1) that copies a card's effect (2) that does [A] does not make (1) a card or effect \"that includes an effect that does [A]\"<sup><a>[]</a></sup>.",
+        "example": "<u>Question:</u><br>When the \"You can pay 2000 Life Points and send 1 \"Fusion\" or \"<span class=\"tooltip-anchor\" data-name=\"24094653\">\"Polymerization\"</span>\" Normal or Quick-Play Spell from your Deck to the Graveyard; this effect becomes that Spell's effect when that card is activated, also, you cannot Special Summon monsters for the rest of this turn.\" effect of <span class=\"tooltip-anchor\" data-name=\"70369116\">\"Predaplant Verte Anaconda\"</span> is activated, will the \"The activation of your cards and effects that include an effect that Fusion Summons a Fusion Monster cannot be negated, also your opponent's cards and effects cannot activate when a monster is Fusion Summoned this way.\" effect of <span class=\"tooltip-anchor\" data-name=\"47679935\">\"Magical Meltdown\"</span> be applied?<br><u>Answer:</u><br>No, it will not be applied.<br>Even if the effect of <span class=\"tooltip-anchor\" data-name=\"70369116\">\"Predaplant Verte Anaconda\"</span> results in a Fusion Summon being performed, it is not treated as an effect that \"includes an effect that Fusion Summons a Fusion Monster,\" so the effect of <span class=\"tooltip-anchor\" data-name=\"47679935\">\"Magical Meltdown\"</span>, <span class=\"tooltip-anchor\" data-name=\"9069157\">\"Dragonroid\"</span> or <span class=\"tooltip-anchor\" data-name=\"18973184\">\"Branded Lost\"</span> will not be applied.<br>As an example, if the opponent activates <span class=\"tooltip-anchor\" data-name=\"40605147\">\"Solemn Strike\"</span> in response to the activation of the effect of <span class=\"tooltip-anchor\" data-name=\"70369116\">\"Predaplant Verte Anaconda\"</span>, its activation will be negated.<br>If the Fusion Summon performed is successful, the opponent can still respond with cards and effects.",
+        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#22936\">\"Predaplant Verte Anaconda\", \"Magical Meltdown\", \"Fusion Duplication\", \"Transaction Rollback\"</a></li>"
+      }
+    ]
+  },
+  "When a card or effect is activated that would do [A]": {
+    "During the [X] Phase, do [A] - Delayed effects": [
+      {
+        "interaction": "Effects that resolve [A] later during [X] (during the End Phase for example) are not \"effects that would do [A]\". Also, since the application of the effect during the [X] Phase does not create a chain, the effect of cards that chain to \"Card or effect that would do [A]\" cannot be activated at that time<sup><a>[]</a></sup>.",
+        "example": "<u>Question:</u><br>Can the activation of the effect of <span class=\"tooltip-anchor\" data-name=\"5010422\">\"Prediction Princess Astromorrigan\"</span> be negated by <span class=\"tooltip-anchor\" data-name=\"44508094\">\"Stardust Dragon\"</span>?<br><u>Answer:</u><br>The effect of <span class=\"tooltip-anchor\" data-name=\"44508094\">\"Stardust Dragon\"</span> cannot be chained to that of <span class=\"tooltip-anchor\" data-name=\"5010422\">\"Prediction Princess Astromorrigan\"</span>. Also, since the application of the effect during the End Phase does not create a chain, the effect of <span class=\"tooltip-anchor\" data-name=\"44508094\">\"Stardust Dragon\"</span> cannot be activated at that time.",
+        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#15947\">\"Prediction Princess Astromorrigan\", \"Stardust Dragon\"</a></li>"
+      }
+    ],
+    "Negate Activation of Cards": [
+      {
+        "interaction": "A card or effect that negates the activation of a Spell/Trap Card is not considered to be an effect that \"would destroy a card(s) on the field\"<sup><a>[]</a></sup>.",
+        "example": "<u>Question:</u><br>I activate a Spell Card from my hand. If my opponent chains the effect of <span class=\"tooltip-anchor\" data-name=\"48229808\">\"Horus the Black Flame Dragon LV8\"</span>, can I activate the effect of <span class=\"tooltip-anchor\" data-name=\"44508094\">\"Stardust Dragon\"</span> to negate the activation of <span class=\"tooltip-anchor\" data-name=\"48229808\">\"Horus the Black Flame Dragon LV8\"</span>'s effect?<br>Furthermore, if the Spell Card was instead previously Set face-down on the field, can the effect of <span class=\"tooltip-anchor\" data-name=\"44508094\">\"Stardust Dragon\"</span> be activated in that scenario?<br><u>Answer:</u><br>The effect of <span class=\"tooltip-anchor\" data-name=\"48229808\">\"Horus the Black Flame Dragon LV8\"</span> that negates the activation of a Spell Card is not considered to be an effect that destroys cards on the field.<br>Therefore, it is not possible to activate the effect of <span class=\"tooltip-anchor\" data-name=\"44508094\">\"Stardust Dragon\"</span> in either of the scenarios given.",
+        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#11290\">\"Horus the Black Flame Dragon LV8\", \"Stardust Dragon\"</a></li>"
+      }
+    ],
+    "Copy effect resolves as another card's effect": [
+      {
+        "interaction": "An effect that copies a card's effect that does [A] is not treated as an \"effects that would do [A]\"<sup><a>[]</a></sup>.",
+        "example": "<u>Question:</u><br>If the effect of <span class=\"tooltip-anchor\" data-name=\"6511113\">\"Traptrix Rafflesia\"</span> that makes its effect become the same as a \"Hole\" Normal Trap Card is activated, can the effect of <span class=\"tooltip-anchor\" data-name=\"44508094\">\"Stardust Dragon\"</span> be chained to it?<br><u>Answer:</u><br>The effect of <span class=\"tooltip-anchor\" data-name=\"6511113\">\"Traptrix Rafflesia\"</span> is not treated as an effect that destroys cards on the field when it is activated. Even if <span class=\"tooltip-anchor\" data-name=\"4206964\">\"Trap Hole\"</span> or <span class=\"tooltip-anchor\" data-name=\"29401950\">\"Bottomless Trap Hole\"</span> are sent to the Graveyard when their activation requirements are met, it is not possible to chain the effect of <span class=\"tooltip-anchor\" data-name=\"44508094\">\"Stardust Dragon\"</span>.",
+        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#16681\">\"Traptrix Rafflesia\", \"Stardust Dragon\"</a></li>"
+      }
+    ]
+  },
   "Discard for cost": {
     "Any [X] sent to the Graveyard is banished instead": [
       {
@@ -896,6 +955,13 @@
         "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#6635\">\"Banisher of the Light\", \"Crystal Beast Ruby Carbuncle\"</a></li>"
       }
     ],
+    "Return to the Graveyard": [
+      {
+        "interaction": "If you return a banished card to the Graveyard with an effect you are not sending it to the Graveyard. Therefore, even if <span class=\"tooltip-anchor\" data-name=\"30241314\">\"Macro Cosmos\"</span> or something similar is applying, you can return banished card(s) to the Graveyard<sup><a>[]</a></sup>.",
+        "example": "<u>Question:</u><br>The effect of <span class=\"tooltip-anchor\" data-name=\"30241314\">\"Macro Cosmos\"</span>, or <span class=\"tooltip-anchor\" data-name=\"61528025\">\"Banisher of the Light\"</span>, is applying, causing \"any card sent to the Graveyard [to be] banished instead.\" Can I now activate <span class=\"tooltip-anchor\" data-name=\"6343408\">\"Miracle Dig\"</span> or <span class=\"tooltip-anchor\" data-name=\"48976825\">\"Burial from a Different Dimension\"</span>, which \"return [card(s)] to the Graveyard?\" <br><u>Answer:</u><br>If you return a banished card to the Graveyard with an effect such as that of <span class=\"tooltip-anchor\" data-name=\"48976825\">\"Burial from a Different Dimension\"</span>, you are not sending it to the Graveyard.<br>Therefore, even if the effect of <span class=\"tooltip-anchor\" data-name=\"30241314\">\"Macro Cosmos\"</span> (or <span class=\"tooltip-anchor\" data-name=\"61528025\">\"Banisher of the Light\"</span>) is applying, you can return banished card(s) to the Graveyard using effects such as those of <span class=\"tooltip-anchor\" data-name=\"48976825\">\"Burial from a Different Dimension\"</span> or <span class=\"tooltip-anchor\" data-name=\"6343408\">\"Miracle Dig\"</span>.",
+        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#8809\">\"Macro Cosmos\", \"Burial from a Different Dimension\"</a></li>"
+      }
+    ],
     "Send to the Graveyard as an effect": [
       {
         "interaction": "If <span class=\"tooltip-anchor\" data-name=\"30241314\">\"Macro Cosmos\"</span> or something similar is activated, so that cards that would be sent to the Graveyard are banished, cards are not sent to the Graveyard and are banished instead<sup><a>[]</a></sup>.",
@@ -936,7 +1002,7 @@
     ]
   },
   "Apply 1 of the following effects/all effects": {
-    "Card or effect that includes an effect that does [A]": [
+    "When a card or effect is activated that includes an effect that does [A]": [
       {
         "interaction": "Cards that say \"apply\" apply effects at the resolution of it. Therefore no matter what effect is chosen, if at least one of the effects does [A] then it is a \"Card or effect that includes an effect that does [A]\"<sup><a>[]</a></sup>.",
         "example": "<u>Question:</u><br>When my opponent activates the effect of <span class=\"tooltip-anchor\" data-name=\"39185163\">\"Doomking Balerdroch\"</span> when a Zombie-Type monster's effect is activated, can I chain the effect of <span class=\"tooltip-anchor\" data-name=\"73642296\">\"Ghost Belle &amp; Haunted Mansion\"</span>?<br><u>Answer:</u><br>You can chain the effect of <span class=\"tooltip-anchor\" data-name=\"73642296\">\"Ghost Belle &amp; Haunted Mansion\"</span> to the effect of your opponent's <span class=\"tooltip-anchor\" data-name=\"39185163\">\"Doomking Balerdroch\"</span>. Furthermore, it does not matter if your opponent has already applied the effect of banishing from the Graveyard that turn.",
@@ -989,7 +1055,7 @@
         "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#12791\">Monsters that can attack all opponent's monsters once each cannot attack the opponent directly afterwards and vice versa</a></li>"
       }
     ],
-    "Change attack target": [
+    "Change attack target and perform damage calculation": [
       {
         "interaction": "If a monster (1) can attack all opponent's monsters once each, if it attacks a monster (2) but then its attack is redirected to another monster (3), (1) cannot attack again (2). Furthermore, (3) which has been made the attack target instead of (2), if (3) has not been destroyed by battle after the attack redirection, (1) cannot attack again (3)<sup><a>[]</a></sup>.",
         "example": "<u>Question:</u><br>A <span class=\"tooltip-anchor\" data-name=\"84013237\">\"Number 39: Utopia\"</span> equipped with <span class=\"tooltip-anchor\" data-name=\"40941889\">\"ZW - Asura Strike\"</span> attacks an opponent's <span class=\"tooltip-anchor\" data-name=\"24919805\">\"Ruffian Railcar\"</span>, but the opponent activates the effect of <span class=\"tooltip-anchor\" data-name=\"34475451\">\"Construction Train Signal Red\"</span> from their hand, and damage calculation is performed. After that battle is finished, can <span class=\"tooltip-anchor\" data-name=\"84013237\">\"Number 39: Utopia\"</span> attack either <span class=\"tooltip-anchor\" data-name=\"24919805\">\"Ruffian Railcar\"</span> or <span class=\"tooltip-anchor\" data-name=\"34475451\">\"Construction Train Signal Red\"</span>?<br><u>Answer:</u><br>In this case, since the effect of <span class=\"tooltip-anchor\" data-name=\"34475451\">\"Construction Train Signal Red\"</span> makes itself the attack target, it cannot be attacked again by <span class=\"tooltip-anchor\" data-name=\"84013237\">\"Number 39: Utopia\"</span> equipped with <span class=\"tooltip-anchor\" data-name=\"40941889\">\"ZW - Asura Strike\"</span>. In addition, the <span class=\"tooltip-anchor\" data-name=\"24919805\">\"Ruffian Railcar\"</span> which was attacked when the opponent activated the effect of <span class=\"tooltip-anchor\" data-name=\"34475451\">\"Construction Train Signal Red\"</span> also cannot be attacked again.",
@@ -1039,11 +1105,25 @@
   },
   "Banish face-down": {},
   "Banish it when it leaves the field": {
+    "Banish until - Temporarily banish": [
+      {
+        "interaction": "A monster (1) that would be banished when it leaves the field due to an effect (2), can be targeted by the effect of a card (2) that banishes it temporarily. However, when resolving the effect of (3), (1) is considered to be banished (2)'s effect instead, so it does not return to the field during the End Phase<sup><a>[]</a></sup>.",
+        "example": "<u>Question:</u><br>If <span class=\"tooltip-anchor\" data-name=\"13893596\">\"Exodius the Ultimate Forbidden Lord\"</span> is banished by <span class=\"tooltip-anchor\" data-name=\"36261276\">\"Interdimensional Matter Transporter\"</span>, does it return during the End Phase?<br><u>Answer:</u><br><span class=\"tooltip-anchor\" data-name=\"13893596\">\"Exodius the Ultimate Forbidden Lord\"</span> can be targeted by the effect of <span class=\"tooltip-anchor\" data-name=\"36261276\">\"Interdimensional Matter Transporter\"</span>.<br>However, when resolving the effect, <span class=\"tooltip-anchor\" data-name=\"13893596\">\"Exodius the Ultimate Forbidden Lord\"</span> is considered to be banished by its own effect instead, so it does not return to the field during the End Phase.",
+        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#6833\">\"Exodius the Ultimate Forbidden Lord\", \"Interdimensional Matter Transporter\"</a></li>"
+      }
+    ],
     "Negate Activation of Cards": [
       {
         "interaction": "Negating a card's activation (not effect's activation) removes it from the field, but is not treated as leaving the field. A card that would be banished when it leaves the field, if it has its card activation negated, it is not banished and is destroyed and sent to the Graveyard normally<sup><a>[]</a></sup>.",
         "example": "<u>Question:</u><br>A <span class=\"tooltip-anchor\" data-name=\"799183\">\"Super Soldier Shield\"</span> was set on the field by its own effect.<br>Afterwards, if that <span class=\"tooltip-anchor\" data-name=\"799183\">\"Super Soldier Shield\"</span> is activated, and it has its activation negated by <span class=\"tooltip-anchor\" data-name=\"3819470\">\"Seven Tools of the Bandit\"</span>, is that <span class=\"tooltip-anchor\" data-name=\"799183\">\"Super Soldier Shield\"</span> banished?<br><u>Answer:</u><br>In the proposed scenario, since the <span class=\"tooltip-anchor\" data-name=\"799183\">\"Super Soldier Shield\"</span> that has its activation negated by <span class=\"tooltip-anchor\" data-name=\"3819470\">\"Seven Tools of the Bandit\"</span> is not considered to leave the field, it is not banished and is destroyed and sent to the Graveyard normally.",
         "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#16574\">Negating a card's activation removes it from the field, but is not treated as leaving the field</a></li>"
+      }
+    ],
+    "Send to the Graveyard as an effect": [
+      {
+        "interaction": "A card that would be banished when it leaves the field, can be sent to the graveyard by a card effect that says so<sup><a>[]</a></sup>.",
+        "example": "<u>Question:</u><br>When resolving the effect of <span class=\"tooltip-anchor\" data-name=\"1344018\">\"Time Pendulumgraph\"</span> that did not destroy 2 cards, can a face-up <span class=\"tooltip-anchor\" data-name=\"40737112\">\"Dark Magician of Chaos\"</span> in the Monster Zone be selected as the card to send to the Graveyard?<br><u>Answer:</u><br>Yes, it can. In that case, <span class=\"tooltip-anchor\" data-name=\"40737112\">\"Dark Magician of Chaos\"</span> will not be sent to the Graveyard, and will be banished by its own effect instead.",
+        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#8874\">\"Dark Magician of Chaos\", \"Time Pendulumgraph\"</a></li>"
       }
     ]
   },
@@ -1099,6 +1179,15 @@
     ]
   },
   "Cannot/Neither player can": {},
+  "Cannot attack unless do [A]": {
+    "Negate Effects": [
+      {
+        "interaction": "If a monster's (1) effect says it cannot attack unless it does [A], even though [A] is considered as a cost, if (1) has its effects negated then (1) can attack without performing [A]<sup><a>[]</a></sup>.",
+        "example": "<u>Question:</u><br>If the effects of <span class=\"tooltip-anchor\" data-name=\"21417692\">\"Dark Elf\"</span> or <span class=\"tooltip-anchor\" data-name=\"42035044\">\"Panther Warrior\"</span> are negated, such as by <span class=\"tooltip-anchor\" data-name=\"82732705\">\"Skill Drain\"</span>'s effect, can an attack be declared without paying Life Points or tributing a monster respectively?<br>Furthermore, could a <span class=\"tooltip-anchor\" data-name=\"82199284\">\"Mist Valley Falcon\"</span> declare an attack without a card being returned to the hand?<br>Furthermore, could an <span class=\"tooltip-anchor\" data-name=\"32240937\">\"Ultimate Obedient Fiend\"</span> declare an attack if you have other cards in your hand or on your field?<br><u>Answer:</u><br>The effects of <span class=\"tooltip-anchor\" data-name=\"21417692\">\"Dark Elf\"</span>, <span class=\"tooltip-anchor\" data-name=\"42035044\">\"Panther Warrior\"</span> and <span class=\"tooltip-anchor\" data-name=\"82199284\">\"Mist Valley Falcon\"</span> are continuous effects.<br>Therefore, if their effects are negated, such as by <span class=\"tooltip-anchor\" data-name=\"82732705\">\"Skill Drain\"</span>'s effect, <span class=\"tooltip-anchor\" data-name=\"21417692\">\"Dark Elf\"</span> can declare an attack without paying Life Points, <span class=\"tooltip-anchor\" data-name=\"42035044\">\"Panther Warrior\"</span> can declare an attack without a monster being tributed, and <span class=\"tooltip-anchor\" data-name=\"82199284\">\"Mist Valley Falcon\"</span> can declare an attack without a card on the field being returned to the hand.<br>Furthermore, the effect of <span class=\"tooltip-anchor\" data-name=\"32240937\">\"Ultimate Obedient Fiend\"</span> that prevents it from attacking unless there are no other cards on your field or in your hand will also be negated by the effect of <span class=\"tooltip-anchor\" data-name=\"82732705\">\"Skill Drain\"</span>, so <span class=\"tooltip-anchor\" data-name=\"32240937\">\"Ultimate Obedient Fiend\"</span> can declare an attack even if there are other cards in your hand or on your field.",
+        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#8779\">\"Skill Drain\", \"Dark Elf\", \"Panther Warrior\", \"Mist Valley Falcon\", \"Ultimate Obedient Fiend\"</a></li>"
+      }
+    ]
+  },
   "Cannot be destroyed once/next/first time per turn": {
     "If [X] would be destroyed, you can do [A] instead - Destruction Substitution": [
       {
@@ -1119,6 +1208,13 @@
         "interaction": "An effect (1) is applying so that monsters with a certain specific property X cannot be summoned, but monsters with another specific property Y can be summoned. A monster (2)'s has X property, so (2) can't be summoned due to (1). If (2) has an effect that says \"summon this card as a monster with Y property\", then (2) can be summoned through that effect<sup><a>[]</a></sup>.",
         "example": "<u>Question:</u><br>My opponent controls <span class=\"tooltip-anchor\" data-name=\"91279700\">\"Evilswarm Ophion\"</span>, which has materials attached and is applying its effect.<br>Can I now Special Summon <span class=\"tooltip-anchor\" data-name=\"42338879\">\"Cockadoodledoo\"</span> using its \"you can Special Summon this card (from your hand) as a Level 3 monster\" effect?<br>Furthermore, can I Special Summon <span class=\"tooltip-anchor\" data-name=\"42338879\">\"Cockadoodledoo\"</span> using its \"you can Special Summon this card (from your hand) as a Level 4 monster\" effect?<br><u>Answer:</u><br>While the  effect of <span class=\"tooltip-anchor\" data-name=\"91279700\">\"Evilswarm Ophion\"</span> is applying, Level 5 or higher monsters cannot be Special Summoned. Regardless, you can Special Summon <span class=\"tooltip-anchor\" data-name=\"42338879\">\"Cockadoodledoo\"</span> from your hand using either of the effects mentioned.",
         "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#13732\">Monsters being summoned \"as a monster with Y property\", and restrictions on summoning monsters with/without a specific property X</a></li>"
+      }
+    ],
+    "Change Name": [
+      {
+        "interaction": "A card (1) with the restriction of \"you cannot Normal or Special Summon except [card name] the turn you activate this card\" is applying. Normally, if you Summon a monster (2) which violates the restriction of (1), then (1) cannot be activated. Similarly, if you activate (1) first (2) cannot be Summoned. But if (2) has an effect that changes its own name to [card name] while on the field<sup><a>[]</a></sup>:<ul><li>(2) is summoned before (1) is activated, (1) can be activated afterwards</li><li>(1) is activated before (2) is summoned, (2) cannot be summoned afterwards</li></ul>",
+        "example": "<u>Question:</u><br>Ⓐ: If I successfully Special Summon <span class=\"tooltip-anchor\" data-name=\"38517737\">\"Blue-Eyes Alternative White Dragon\"</span> using its listed procedure, can I activate <span class=\"tooltip-anchor\" data-name=\"29432790\">\"Rage with Eyes of Blue\"</span> later during the same turn?<br>Ⓑ: If I have activated <span class=\"tooltip-anchor\" data-name=\"29432790\">\"Rage with Eyes of Blue\"</span> this turn, can I Special Summon <span class=\"tooltip-anchor\" data-name=\"38517737\">\"Blue-Eyes Alternative White Dragon\"</span> from my hand?<br>Ⓒ: If I attempt to Special Summon <span class=\"tooltip-anchor\" data-name=\"38517737\">\"Blue-Eyes Alternative White Dragon\"</span> using its listed procedure, but that Special Summon is negated, can I activate <span class=\"tooltip-anchor\" data-name=\"29432790\">\"Rage with Eyes of Blue\"</span> later during the same turn?<br>Ⓓ: If I activate <span class=\"tooltip-anchor\" data-name=\"29432790\">\"Rage with Eyes of Blue\"</span>, but this activation, or its effect, is negated, can I still Special Summon <span class=\"tooltip-anchor\" data-name=\"38517737\">\"Blue-Eyes Alternative White Dragon\"</span> from my hand this turn?<br><u>Answer:</u><br>Ⓐ: Yes, you can. Due to <span class=\"tooltip-anchor\" data-name=\"38517737\">\"Blue-Eyes Alternative White Dragon\"</span>'s effect, its name becomes \"<span class=\"tooltip-anchor\" data-name=\"89631139\">\"Blue-Eyes White Dragon\"</span>\" while it is face-up in the Monster Zone, or in the Graveyard. Therefore, this is treated as you Special Summoning \"<span class=\"tooltip-anchor\" data-name=\"89631139\">\"Blue-Eyes White Dragon\"</span>\", and you can still activate <span class=\"tooltip-anchor\" data-name=\"29432790\">\"Rage with Eyes of Blue\"</span> this turn. (You can also activate the second effect of <span class=\"tooltip-anchor\" data-name=\"17947697\">\"Maiden of White\"</span>, the second effect of <span class=\"tooltip-anchor\" data-name=\"67768675\">\"Kaibaman the Legend\"</span>, or the second effect of <span class=\"tooltip-anchor\" data-name=\"56920308\">\"The Ultimate Creature of Destruction\"</span> after Special Summoning <span class=\"tooltip-anchor\" data-name=\"38517737\">\"Blue-Eyes Alternative White Dragon\"</span> this way.)<br>Ⓑ: No, you cannot. Since the <span class=\"tooltip-anchor\" data-name=\"38517737\">\"Blue-Eyes Alternative White Dragon\"</span> in your hand is not \"<span class=\"tooltip-anchor\" data-name=\"89631139\">\"Blue-Eyes White Dragon\"</span>\", you cannot Special Summon it after activating <span class=\"tooltip-anchor\" data-name=\"29432790\">\"Rage with Eyes of Blue\"</span>.<br>Ⓒ: Yes, you can. Since you did not successfully Special Summon <span class=\"tooltip-anchor\" data-name=\"38517737\">\"Blue-Eyes Alternative White Dragon\"</span>, you have not Special Summoned a monster except <span class=\"tooltip-anchor\" data-name=\"89631139\">\"Blue-Eyes White Dragon\"</span> this turn.<br>Ⓓ①: If the activation of <span class=\"tooltip-anchor\" data-name=\"29432790\">\"Rage with Eyes of Blue\"</span> was negated, \"you cannot Normal or Special Summon monsters the turn you activate this card, except \"<span class=\"tooltip-anchor\" data-name=\"89631139\">\"Blue-Eyes White Dragon\"</span>\"\" is not applicable. Therefore, you can still Special Summon <span class=\"tooltip-anchor\" data-name=\"38517737\">\"Blue-Eyes Alternative White Dragon\"</span> from your hand.<br>Ⓓ②: If the activation of <span class=\"tooltip-anchor\" data-name=\"29432790\">\"Rage with Eyes of Blue\"</span> is not negated, but only the activated effect is negated, or that effect is not applied for some reason, you will be unable to Special Summon <span class=\"tooltip-anchor\" data-name=\"38517737\">\"Blue-Eyes Alternative White Dragon\"</span> from your hand due to the \"you cannot Normal or Special Summon monsters the turn you activate this card, except \"<span class=\"tooltip-anchor\" data-name=\"89631139\">\"Blue-Eyes White Dragon\"</span>\"\" text of <span class=\"tooltip-anchor\" data-name=\"29432790\">\"Rage with Eyes of Blue\"</span>.",
+        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#56\">\"Rage with Eyes of Blue\", \"Blue-Eyes Alternative White Dragon\", \"Blue-Eyes White Dragon\", \"Maiden of White\", \"Kaibaman the Legend\", \"The Ultimate Creature of Destruction\"</a></li>"
       }
     ]
   },
@@ -1168,59 +1264,7 @@
       }
     ]
   },
-  "Card or effect that includes an effect that does [A]": {
-    "During the [X] Phase, do [A] - Delayed effects": [
-      {
-        "interaction": "Effects that resolve [A] later during [X] (during the End Phase for example) are still \"effects that include an effect that does [A]\"<sup><a>[]</a></sup>.",
-        "example": "<u>Question:</u><br>When my opponent Special Summons a monster due to <span class=\"tooltip-anchor\" data-name=\"46448938\">\"Spellbook of Judgment\"</span>, can I activate <span class=\"tooltip-anchor\" data-name=\"84749824\">\"Solemn Warning\"</span>, <span class=\"tooltip-anchor\" data-name=\"50323155\">\"Black Horn of Heaven\"</span>, <span class=\"tooltip-anchor\" data-name=\"93016201\">\"Royal Oppression\"</span>, or similar?<br><u>Answer:</u><br>The Special Summon of a monster when resolving <span class=\"tooltip-anchor\" data-name=\"46448938\">\"Spellbook of Judgment\"</span> during the End Phase does not start a chain. However, as it is a Special Summon of a monster due to the effect of <span class=\"tooltip-anchor\" data-name=\"46448938\">\"Spellbook of Judgment\"</span>, this Special Summon cannot be negated by activating <span class=\"tooltip-anchor\" data-name=\"84749824\">\"Solemn Warning\"</span>, <span class=\"tooltip-anchor\" data-name=\"50323155\">\"Black Horn of Heaven\"</span>, <span class=\"tooltip-anchor\" data-name=\"93016201\">\"Royal Oppression\"</span>, or similar.<br>However, <span class=\"tooltip-anchor\" data-name=\"84749824\">\"Solemn Warning\"</span> and <span class=\"tooltip-anchor\" data-name=\"93016201\">\"Royal Oppression\"</span> can be activated in response to the card activation of <span class=\"tooltip-anchor\" data-name=\"46448938\">\"Spellbook of Judgment\"</span>.",
-        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#12713\">Negating delayed Special Summons</a></li>"
-      }
-    ],
-    "Effect becomes [A] - Changing/overwriting effects": [
-      {
-        "interaction": "A card (1) that changes/overwrites an effect (2) so that (2) does [A] instead does not make (1) a card or effect \"that includes an effect that does [A]\"<sup><a>[]</a></sup>.",
-        "example": "<u>Question:</u><br>When my opponent activates the effect of <span class=\"tooltip-anchor\" data-name=\"38053381\">\"Generaider Boss Stage\"</span> that Special Summons a \"Generaider\" monster from their Deck, I chain <span class=\"tooltip-anchor\" data-name=\"5318639\">\"Mystical Space Typhoon\"</span> and target <span class=\"tooltip-anchor\" data-name=\"38053381\">\"Generaider Boss Stage\"</span>. Then, if my opponent chains the effect of <span class=\"tooltip-anchor\" data-name=\"64325438\">\"Generaider Boss Room\"</span>, can I further chain the effect of <span class=\"tooltip-anchor\" data-name=\"14558127\">\"Ash Blossom &amp; Joyous Spring\"</span>?<br><u>Answer:</u><br>No, you cannot.<br>(<span class=\"tooltip-anchor\" data-name=\"64325438\">\"Generaider Boss Room\"</span>'s effect is not considered an effect that adds cards from the Deck to the hand.)<br>This also applies to <span class=\"tooltip-anchor\" data-name=\"71166481\">\"Number 75: Bamboozling Gossip Shadow\"</span>'s effect, and to <span class=\"tooltip-anchor\" data-name=\"58761791\">\"Shipment Error\"</span>.",
-        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#22759\">\"Generaider Boss Room\", \"Ash Blossom & Joyous Spring\"</a></li>"
-      }
-    ],
-    "Immediately after this effect resolves, [method] Summon [X]": [
-      {
-        "interaction": "The activation of a card or of an effect that \"Immediately after this effect resolves, [method] Summon [X]\" are \"effects that include an effect that Special Summons a monster(s)\"<sup><a>[]</a></sup>.",
-        "example": "<u>Question:</u><br>Can I chain the  effect of <span class=\"tooltip-anchor\" data-name=\"84330567\">\"Tearlaments Rulkallos\"</span>, which can respond to any effect's activation if it \"includes an effect that Special Summons a monster(s),\" to the activation of <span class=\"tooltip-anchor\" data-name=\"65741786\">\"I:P Masquerena\"</span>'s \"Link Summon 1 Link Monster\" effect?<br><u>Answer:</u><br>Yes, you can.<br>(The activation of <span class=\"tooltip-anchor\" data-name=\"65741786\">\"I:P Masquerena\"</span>'s effect is considered to \"include an effect that Special Summons a monster(s).\" )",
-        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#23933\">Special Summons caused by a card effect, and whether the effect includes Special Summoning</a></li>"
-      }
-    ],
-    "Copy effect resolves as another card's effect": [
-      {
-        "interaction": "A card or effect (1) that copies a card's effect (2) that does [A] does not make (1) a card or effect \"that includes an effect that does [A]\"<sup><a>[]</a></sup>.",
-        "example": "<u>Question:</u><br>When the \"You can pay 2000 Life Points and send 1 \"Fusion\" or \"<span class=\"tooltip-anchor\" data-name=\"24094653\">\"Polymerization\"</span>\" Normal or Quick-Play Spell from your Deck to the Graveyard; this effect becomes that Spell's effect when that card is activated, also, you cannot Special Summon monsters for the rest of this turn.\" effect of <span class=\"tooltip-anchor\" data-name=\"70369116\">\"Predaplant Verte Anaconda\"</span> is activated, will the \"The activation of your cards and effects that include an effect that Fusion Summons a Fusion Monster cannot be negated, also your opponent's cards and effects cannot activate when a monster is Fusion Summoned this way.\" effect of <span class=\"tooltip-anchor\" data-name=\"47679935\">\"Magical Meltdown\"</span> be applied?<br><u>Answer:</u><br>No, it will not be applied.<br>Even if the effect of <span class=\"tooltip-anchor\" data-name=\"70369116\">\"Predaplant Verte Anaconda\"</span> results in a Fusion Summon being performed, it is not treated as an effect that \"includes an effect that Fusion Summons a Fusion Monster,\" so the effect of <span class=\"tooltip-anchor\" data-name=\"47679935\">\"Magical Meltdown\"</span>, <span class=\"tooltip-anchor\" data-name=\"9069157\">\"Dragonroid\"</span> or <span class=\"tooltip-anchor\" data-name=\"18973184\">\"Branded Lost\"</span> will not be applied.<br>As an example, if the opponent activates <span class=\"tooltip-anchor\" data-name=\"40605147\">\"Solemn Strike\"</span> in response to the activation of the effect of <span class=\"tooltip-anchor\" data-name=\"70369116\">\"Predaplant Verte Anaconda\"</span>, its activation will be negated.<br>If the Fusion Summon performed is successful, the opponent can still respond with cards and effects.",
-        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#22936\">\"Predaplant Verte Anaconda\", \"Magical Meltdown\", \"Fusion Duplication\", \"Transaction Rollback\"</a></li>"
-      }
-    ]
-  },
-  "Card or effect that would do [A]": {
-    "During the [X] Phase, do [A] - Delayed effects": [
-      {
-        "interaction": "Effects that resolve [A] later during [X] (during the End Phase for example) are not \"effects that would do [A]\". Also, since the application of the effect during the [X] Phase does not create a chain, the effect of cards that chain to \"Card or effect that would do [A]\" cannot be activated at that time<sup><a>[]</a></sup>.",
-        "example": "<u>Question:</u><br>Can the activation of the effect of <span class=\"tooltip-anchor\" data-name=\"5010422\">\"Prediction Princess Astromorrigan\"</span> be negated by <span class=\"tooltip-anchor\" data-name=\"44508094\">\"Stardust Dragon\"</span>?<br><u>Answer:</u><br>The effect of <span class=\"tooltip-anchor\" data-name=\"44508094\">\"Stardust Dragon\"</span> cannot be chained to that of <span class=\"tooltip-anchor\" data-name=\"5010422\">\"Prediction Princess Astromorrigan\"</span>. Also, since the application of the effect during the End Phase does not create a chain, the effect of <span class=\"tooltip-anchor\" data-name=\"44508094\">\"Stardust Dragon\"</span> cannot be activated at that time.",
-        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#15947\">\"Prediction Princess Astromorrigan\", \"Stardust Dragon\"</a></li>"
-      }
-    ],
-    "Negate Activation of Cards": [
-      {
-        "interaction": "A card or effect that negates the activation of a Spell/Trap Card is not considered to be an effect that \"would destroy a card(s) on the field\"<sup><a>[]</a></sup>.",
-        "example": "<u>Question:</u><br>I activate a Spell Card from my hand. If my opponent chains the effect of <span class=\"tooltip-anchor\" data-name=\"48229808\">\"Horus the Black Flame Dragon LV8\"</span>, can I activate the effect of <span class=\"tooltip-anchor\" data-name=\"44508094\">\"Stardust Dragon\"</span> to negate the activation of <span class=\"tooltip-anchor\" data-name=\"48229808\">\"Horus the Black Flame Dragon LV8\"</span>'s effect?<br>Furthermore, if the Spell Card was instead previously Set face-down on the field, can the effect of <span class=\"tooltip-anchor\" data-name=\"44508094\">\"Stardust Dragon\"</span> be activated in that scenario?<br><u>Answer:</u><br>The effect of <span class=\"tooltip-anchor\" data-name=\"48229808\">\"Horus the Black Flame Dragon LV8\"</span> that negates the activation of a Spell Card is not considered to be an effect that destroys cards on the field.<br>Therefore, it is not possible to activate the effect of <span class=\"tooltip-anchor\" data-name=\"44508094\">\"Stardust Dragon\"</span> in either of the scenarios given.",
-        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#11290\">\"Horus the Black Flame Dragon LV8\", \"Stardust Dragon\"</a></li>"
-      }
-    ],
-    "Copy effect resolves as another card's effect": [
-      {
-        "interaction": "An effect that copies a card's effect that does [A] is not treated as an \"effects that would do [A]\"<sup><a>[]</a></sup>.",
-        "example": "<u>Question:</u><br>If the effect of <span class=\"tooltip-anchor\" data-name=\"6511113\">\"Traptrix Rafflesia\"</span> that makes its effect become the same as a \"Hole\" Normal Trap Card is activated, can the effect of <span class=\"tooltip-anchor\" data-name=\"44508094\">\"Stardust Dragon\"</span> be chained to it?<br><u>Answer:</u><br>The effect of <span class=\"tooltip-anchor\" data-name=\"6511113\">\"Traptrix Rafflesia\"</span> is not treated as an effect that destroys cards on the field when it is activated. Even if <span class=\"tooltip-anchor\" data-name=\"4206964\">\"Trap Hole\"</span> or <span class=\"tooltip-anchor\" data-name=\"29401950\">\"Bottomless Trap Hole\"</span> are sent to the Graveyard when their activation requirements are met, it is not possible to chain the effect of <span class=\"tooltip-anchor\" data-name=\"44508094\">\"Stardust Dragon\"</span>.",
-        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#16681\">\"Traptrix Rafflesia\", \"Stardust Dragon\"</a></li>"
-      }
-    ]
-  },
+
   "Change/Take/Give/Switch Control": {
     "Change to face-down Defense Position": [
       {
@@ -1247,7 +1291,7 @@
       }
     ]
   },
-  "Change attack target": {
+  "Change attack target and perform damage calculation": {
     "End the Battle Phase": [
       {
         "interaction": "If your opponent attacks and an effect (1) that \"changes attack target and performs damage calculation\" is activated, then you chain an effect (2) that ends the Battle Phase, due to the effect of (2) resolving, the effect of (1) resolves during the End Step of the Battle Phase. Because the attack is completed, you do not perform damage calculation<sup><a>[]</a></sup>.",
@@ -1265,7 +1309,15 @@
   },
   "Change battle position": {},
   "Change Level/Rank": {},
-  "Change Name": {},
+  "Change Name": {
+    "Place a card on the field in your Spell/Trap/Pendulum Zone": [
+      {
+        "interaction": "Monsters in the Spell/Trap Zone do not apply their effects to change their name since it is a monster effect<sup><a>[]</a></sup>.",
+        "example": "<u>Question:</u><br>If <span class=\"tooltip-anchor\" data-name=\"56100345\">\"Cyberdark Wurm\"</span> is in the Spell &amp; Trap Zone, is it treated as \"<span class=\"tooltip-anchor\" data-name=\"70095154\">\"Cyber Dragon\"</span>\" due to its \"this card's name becomes \"<span class=\"tooltip-anchor\" data-name=\"70095154\">\"Cyber Dragon\"</span>\" while on the field or in the Graveyard\" effect?<br><u>Answer:</u><br>No, it is not.<br>That effect of <span class=\"tooltip-anchor\" data-name=\"56100345\">\"Cyberdark Wurm\"</span> is a monster effect. It does not apply while it is a Spell Card, so its name does not become \"<span class=\"tooltip-anchor\" data-name=\"70095154\">\"Cyber Dragon\"</span>\", and remains \"<span class=\"tooltip-anchor\" data-name=\"56100345\">\"Cyberdark Wurm\"</span>\".<br>For example, you cannot return it to the hand in order to activate <span class=\"tooltip-anchor\" data-name=\"19715246\">\"Cyber Jormungardr\"</span>'s \"add 1 \"<span class=\"tooltip-anchor\" data-name=\"24094653\">\"Polymerization\"</span>\" from your Deck or Graveyard to your hand\" effect.",
+        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#58\">\"Cyberdark Wurm\"</a></li>"
+      }
+    ]
+  },
   "Change to face-down Defense Position": {
     "Equipping Monsters": [
       {
@@ -1330,7 +1382,15 @@
       }
     ]
   },
-  "Copy effect continuous/lingering": {},
+  "Copy effect continuous/lingering": {
+    "Unaffected": [
+      {
+        "interaction": "Effects that \"gain the effects of [target]/replace this effect with [target]'s effect\" applies normally if  targeting a monster that is unaffected by this cards effects<sup><a>[]</a></sup>.",
+        "example": "<u>Question:</u><br>If I resolve <span class=\"tooltip-anchor\" data-name=\"47387961\">\"Number 8: Heraldic King Genom-Heritage\"</span>'s \"this card's name and original ATK become that monster's name and current ATK, and this card's effect becomes that monster's original effect, then that monster's ATK becomes 0 and its effects are negated\" effect, targeting a monster that is unaffected by this monster effect, such as due to <span class=\"tooltip-anchor\" data-name=\"1639384\">\"Divine Dragon Knight Felgrand\"</span>'s effect, what happens?<br><u>Answer:</u><br>The \"this card's name and original ATK become that monster's name and current ATK, and this card's effect becomes that monster's original effect\" effect applies normally. (This card's name and original ATK becoming that monster's name and current ATK, and this card's effect becoming that monster's original effect, are not effects that affect the targeted monster.)<br>However, \"that monster's ATK becomes 0 and its effects are negated\" does not apply. (This is an effect that affects the targeted monster.)",
+        "reference": "<li>YGOrg Database of Official OCG Rulings: <a target=\"_blank\" href=\"https://db.ygoresources.com/qa#13065\">\"Number 8: Heraldic King Genom-Heritage\", \"Divine Dragon Knight Felgrand\"</a></li>"
+      }
+    ]
+  },
   "Copy effect resolves as another card's effect": {},
   "Declare 1 card name": {},
   "Destroy": {
@@ -1611,6 +1671,15 @@
   "Gains this effect": {},
   "Return/Shuffle to the Deck as an effect": {},
   "Return/Add to the Hand as an effect": {},
+  "Return to the Graveyard": {
+    "Send to the Graveyard as an effect": [
+      {
+        "interaction": "When a banished card is moved to the Graveyard, it is not considered to be sent to the Graveyard<sup><a>[]</a></sup>.",
+        "example": "",
+        "reference": "<li><a target=\"_blank\" href=\"https://www.yugioh-card.com/en/rulebook/\">Official rulebook page 55</a></li>"
+      }
+    ]
+  },
   "Reveal": {},
   "Send to the Graveyard as an effect": {},
   "Specifically lists a card name/mentions a card name": {

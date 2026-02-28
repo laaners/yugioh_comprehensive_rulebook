@@ -197,7 +197,7 @@ function mergeIncludes(document) {
                 glossary_entry_list.innerHTML = "";
                 last_html = glossary_entry_list.innerHTML;
               }
-              if (entry === "If/When [X] leaves the field because of an opponent's card effect") {
+              if (entry === "When a card or effect is activated that would do [A]") {
                 final_html += `<hr><p style="text-align:center;"><strong>Activation condition</strong></p><hr>${glossary_entry_list.innerHTML}`;
                 glossary_entry_list.innerHTML = "";
                 last_html = glossary_entry_list.innerHTML;
@@ -209,7 +209,7 @@ function mergeIncludes(document) {
               }
               if (
                 entry ===
-                'Text that says "this card is always treated as [card name]/[a particular title/archetype] card"'
+                'This card is always treated as [card name]/[a particular title/archetype] card'
               ) {
                 final_html += `<hr><p style="text-align:center;"><strong>Texts that are not an effect</strong></p><hr>${glossary_entry_list.innerHTML}`;
                 glossary_entry_list.innerHTML = "";
